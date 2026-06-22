@@ -1,0 +1,14 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer class="bg-run-bg">
+  <div class="mx-auto flex max-w-6xl flex-col gap-4 px-5 py-8 text-sm text-run-muted sm:flex-row sm:items-center sm:justify-between">
+    <p class="font-semibold text-run-text">runcheck</p>
+    <nav class="flex flex-wrap gap-5" aria-label="Footer navigation">
+      <a class="transition hover:text-run-text" href="/">Home</a>
+      <a class="transition hover:text-run-text" href="/articles/">Articles</a>
+    </nav>
+    <p>&copy; {year} runcheck</p>
+  </div>
+</footer>

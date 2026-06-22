@@ -1,0 +1,244 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-run-bg: #0b1e24;
+  --color-run-surface: #101827;
+  --color-run-border: #2a364a;
+  --color-run-white: #ffffff;
+  --color-run-text: #e8e8ed;
+  --color-run-muted: #90a8b0;
+  --color-run-cyan: #29c18f;
+  --color-run-green: #8bd450;
+  --color-run-amber: #f3c356;
+  --color-run-blue: #4a9ede;
+  --font-sans: "Manrope Variable", "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Consolas, monospace;
+  --radius-panel: 0.5rem;
+  --shadow-panel: 0 18px 60px rgb(0 0 0 / 0.28);
+}
+
+html {
+  --run-headline-blue-fill: linear-gradient(180deg, #7cc0f5, var(--color-run-blue));
+  --run-headline-line-filter: drop-shadow(0 0 5px var(--color-run-bg)) drop-shadow(0 3px 4px rgb(0 0 0 / 0.65));
+  --run-headline-metal-fill: linear-gradient(180deg, #fff, #c8d0d8 45%, #8a99a3);
+
+  background: var(--color-run-bg);
+  color: var(--color-run-text);
+  font-family: var(--font-sans);
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background:
+    linear-gradient(180deg, rgb(67 217 201 / 0.1), transparent 26rem),
+    var(--color-run-bg);
+  color: var(--color-run-text);
+}
+
+a {
+  color: inherit;
+}
+
+.hero-focus-chip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: min(9.25rem, 100%);
+  background: transparent;
+  color: var(--color-run-white);
+  font-size: clamp(1rem, 1.15vw, 1.18rem);
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hero-focus-chip:not(:first-child)::before {
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin-bottom: 1rem;
+  background: linear-gradient(
+    to right,
+    color-mix(in srgb, var(--color-run-muted) 62%, transparent) 0 var(--hero-chip-line-accent-width),
+    color-mix(in srgb, var(--color-run-muted) 22%, transparent) var(--hero-chip-line-accent-width) 100%
+  );
+  content: "";
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: clamp(2.5rem, 6vw, 5.5rem);
+  row-gap: clamp(4rem, 7vw, 6.5rem);
+}
+
+.feature-item::before {
+  display: block;
+  width: var(--feature-line-width);
+  height: 1px;
+  margin-bottom: 1.65rem;
+  background: linear-gradient(
+    to right,
+    color-mix(in srgb, var(--color-run-muted) 62%, transparent) 0 var(--feature-line-accent-width),
+    color-mix(in srgb, var(--color-run-muted) 22%, transparent) var(--feature-line-accent-width) 100%
+  );
+  content: "";
+}
+
+.feature-title {
+  color: var(--color-run-text);
+  font-size: clamp(1.8rem, 2.5vw, 2.6rem);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 0.95;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.feature-sub {
+  margin-top: 1.1rem;
+  color: var(--color-run-muted);
+  font-size: 1rem;
+  line-height: 1.55;
+  text-align: left;
+}
+
+.pricing-split {
+  display: grid;
+  gap: 2.75rem;
+}
+
+.pricing-plan {
+  color: var(--color-run-white);
+}
+
+.pricing-plan h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.1;
+}
+
+.pricing-plan-pro {
+  --pricing-trial-right-inset: 0.35rem;
+
+  padding-top: 2.75rem;
+  border-top: 1px solid rgb(255 255 255 / 0.12);
+}
+
+.pricing-plan-purchase {
+  margin-left: 0.35rem;
+  color: var(--color-run-white);
+  font-size: inherit;
+  font-weight: inherit;
+  letter-spacing: 0;
+  line-height: inherit;
+}
+
+.pricing-plan-trial {
+  width: max-content;
+  max-width: calc(100% - var(--pricing-trial-right-inset));
+  margin-top: 1.35rem;
+  margin-right: var(--pricing-trial-right-inset);
+  margin-left: auto;
+  color: var(--color-run-white);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  text-align: right;
+}
+
+.pricing-plan-section-label {
+  margin-top: 1.5rem;
+  color: var(--color-run-white);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.pricing-feature-columns {
+  display: grid;
+  gap: 0.85rem;
+  margin-top: 2.75rem;
+}
+
+.pricing-trial-divider {
+  width: min(calc(100% - var(--pricing-trial-right-inset)), 22rem);
+  height: 1px;
+  margin-top: 2rem;
+  margin-right: var(--pricing-trial-right-inset);
+  margin-left: auto;
+  background: linear-gradient(
+    to right,
+    color-mix(in srgb, var(--color-run-muted) 62%, transparent) 0 calc(100% - 2cm),
+    color-mix(in srgb, var(--color-run-muted) 22%, transparent) calc(100% - 2cm) 100%
+  );
+}
+
+.pricing-price-metal {
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  margin-top: 1.45rem;
+  background-image: var(--run-headline-blue-fill);
+  background-clip: text;
+  color: transparent;
+  filter: var(--run-headline-line-filter);
+  font-size: 4rem;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 0.95;
+}
+
+.pricing-feature-list {
+  display: grid;
+  gap: 0.85rem;
+  margin: 2.75rem 0 0;
+  padding: 0;
+  color: var(--color-run-white);
+  font-size: 0.9rem;
+  line-height: 1.55;
+  list-style: none;
+}
+
+.pricing-feature-columns .pricing-feature-list {
+  margin-top: 0;
+}
+
+@media (min-width: 760px) {
+  .pricing-split {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: start;
+    gap: 0;
+  }
+
+  .pricing-plan-free {
+    padding-right: clamp(3rem, 7vw, 5.5rem);
+  }
+
+  .pricing-plan-pro {
+    padding-top: 0;
+    padding-left: clamp(3rem, 7vw, 5.5rem);
+    border-top: 0;
+    border-left: 1px solid rgb(255 255 255 / 0.12);
+  }
+
+  .pricing-feature-columns {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: clamp(1.25rem, 3vw, 2.25rem);
+  }
+}
+
+@media (max-width: 600px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+    row-gap: 3.75rem;
+  }
+}

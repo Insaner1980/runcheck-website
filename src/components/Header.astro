@@ -1,0 +1,30 @@
+---
+import { Image } from 'astro:assets';
+import logo from '../assets/logo.webp';
+
+const navLinks = [
+  { href: '/#features', label: 'Features' },
+  { href: '/articles/', label: 'Articles' },
+];
+---
+
+<header class="absolute inset-x-0 top-0 z-50">
+  <div class="mx-auto flex max-w-[100rem] items-center justify-between gap-4 px-5 py-5">
+    <a href="/" class="flex min-w-0 items-center gap-3 font-semibold text-run-text" aria-label="runcheck home">
+      <Image
+        src={logo}
+        alt=""
+        class="size-9 shrink-0 object-contain"
+        loading="eager"
+        fetchpriority="high"
+      />
+      <span class="text-lg lowercase leading-none">runcheck</span>
+    </a>
+
+    <nav class="flex shrink-0 flex-wrap items-center justify-end gap-x-5 gap-y-2 text-sm font-semibold text-run-white" aria-label="Primary navigation">
+      {navLinks.map((link) => (
+        <a class="transition" href={link.href}>{link.label}</a>
+      ))}
+    </nav>
+  </div>
+</header>

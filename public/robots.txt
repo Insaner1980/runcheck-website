@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://runcheckapp.com/sitemap-index.xml

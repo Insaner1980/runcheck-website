@@ -1,0 +1,82 @@
+---
+const freeFeatures = [
+  'Battery, network, thermal, and storage monitoring',
+  "Your phone's Health Score",
+  'Network speed tests',
+  'Recent history',
+  'No account, no ads',
+];
+
+const proFeatures = [
+  'Long-term history and trends',
+  'Charger comparison',
+  'See which apps drain your battery',
+  'Home screen widgets',
+  'Smart insights on your home screen',
+  'Thermal history',
+  'Charge-time estimates',
+  'Storage cleanup',
+  'Export your data (CSV)',
+  'Deeper cross-category insights',
+];
+
+const proFeatureColumns = [
+  proFeatures.slice(0, 5),
+  proFeatures.slice(5),
+];
+
+---
+
+<section id="pricing" class="bg-run-bg">
+  <div class="mx-auto max-w-6xl px-5 py-20">
+    <div class="max-w-3xl">
+      <p class="mb-4 font-mono text-xs font-semibold uppercase tracking-widest text-run-cyan">Pricing</p>
+      <h2 class="text-3xl font-semibold text-run-text sm:text-4xl">Start free. Upgrade once for deeper phone insights.</h2>
+      <p class="mt-4 max-w-2xl text-lg leading-8 text-run-muted">No account. No ads. No subscription.</p>
+    </div>
+
+    <div class="pricing-split mt-14">
+      <article class="pricing-plan pricing-plan-free">
+        <h3>Free</h3>
+
+        <div>
+          <p class="pricing-price-metal">$0</p>
+          <p class="pricing-plan-section-label">ESSENTIAL CHECKS FOR YOUR PHONE'S CURRENT CONDITION.</p>
+        </div>
+
+        <ul class="pricing-feature-list">
+          {
+            freeFeatures.map((feature) => (
+              <li>{feature}</li>
+            ))
+          }
+        </ul>
+      </article>
+
+      <article class="pricing-plan pricing-plan-pro">
+        <h3>Pro</h3>
+
+        <p>
+          <span class="pricing-price-metal" data-pricing-country="default" data-pricing-currency="USD" data-pricing-amount="4.99">$4.99</span>
+        </p>
+
+        <p class="pricing-plan-section-label">EVERYTHING IN FREE, PLUS:</p>
+
+        <div class="pricing-feature-columns">
+          {
+            proFeatureColumns.map((features) => (
+              <ul class="pricing-feature-list">
+                {features.map((feature) => (
+                  <li>{feature}</li>
+                ))}
+              </ul>
+            ))
+          }
+        </div>
+
+        <div class="pricing-trial-divider" aria-hidden="true"></div>
+        <p class="pricing-plan-trial">7-day free trial. <span class="pricing-plan-purchase">One-time purchase.</span></p>
+      </article>
+    </div>
+  </div>
+</section>

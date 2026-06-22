@@ -1,0 +1,63 @@
+---
+const features = [
+  {
+    lineWidth: '88%',
+    accentWidth: '34%',
+    title: 'BATTERY',
+    text: "See what's really draining your power, and know when the battery's worn out.",
+  },
+  {
+    lineWidth: '96%',
+    accentWidth: '58%',
+    title: 'NETWORK',
+    text: "Real speed, signal, and stability tests, so you know if it's your phone or your connection.",
+  },
+  {
+    lineWidth: '82%',
+    accentWidth: '46%',
+    title: 'THERMAL',
+    text: 'Catch overheating before it slows your phone down or shortens its life.',
+  },
+  {
+    lineWidth: '100%',
+    accentWidth: '72%',
+    title: 'STORAGE',
+    text: "See exactly what's filling your phone, and clear it out safely.",
+  },
+  {
+    lineWidth: '74%',
+    accentWidth: '40%',
+    title: 'INSIGHTS',
+    text: "Connects the dots between battery, heat, and signal to explain what's really happening.",
+  },
+  {
+    lineWidth: '90%',
+    accentWidth: '64%',
+    title: 'PRIVATE',
+    text: 'No account, no ads. Everything stays on your phone.',
+  },
+];
+---
+
+<section id="features">
+  <div class="mx-auto max-w-5xl px-5 py-20">
+    <div class="mb-10 max-w-3xl">
+      <p class="mb-4 font-mono text-xs font-semibold uppercase tracking-widest text-run-cyan">Features</p>
+      <h2 class="text-3xl font-semibold text-run-text sm:text-4xl">Diagnostics that explain what your phone is doing</h2>
+    </div>
+
+    <div class="features-grid">
+      {
+        features.map((feature) => (
+          <article
+            class="feature-item"
+            style={`--feature-line-width: ${feature.lineWidth}; --feature-line-accent-width: ${feature.accentWidth}`}
+          >
+            <h3 class="feature-title">{feature.title}</h3>
+            <p class="feature-sub">{feature.text}</p>
+          </article>
+        ))
+      }
+    </div>
+  </div>
+</section>
