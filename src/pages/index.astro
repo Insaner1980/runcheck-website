@@ -5,12 +5,16 @@ import FAQ from '../components/FAQ.astro';
 import Features from '../components/Features.astro';
 import Hero from '../components/Hero.astro';
 import Pricing from '../components/Pricing.astro';
+import { buildRuncheckSoftwareApplicationJsonLd } from '../data/pricing.mjs';
 
+const site = Astro.site ?? new URL('https://runcheckapp.com');
+const appJsonLd = buildRuncheckSoftwareApplicationJsonLd({ site });
 ---
 
 <BaseLayout
   title="runcheck - phone condition checks"
   description="runcheck measures battery, heat, connection, and storage condition and explains results in plain language."
+  jsonLd={appJsonLd}
 >
   <Hero />
   <Features />

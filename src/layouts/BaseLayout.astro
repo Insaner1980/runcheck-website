@@ -5,13 +5,31 @@ import '@fontsource/jetbrains-mono/600.css';
 import '../styles/global.css';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
-import logo from '../assets/logo.webp';
+import { COUNTRY_TO_PRICING_TIER, FALLBACK_PRICING_TIER } from '../data/pricing.mjs';
+import {
+  DEFAULT_META_ROBOTS,
+  DEFAULT_SEO_IMAGE,
+  DEFAULT_SEO_IMAGE_ALT,
+  DEFAULT_SEO_IMAGE_HEIGHT,
+  DEFAULT_SEO_IMAGE_TYPE,
+  DEFAULT_SEO_IMAGE_WIDTH,
+  SITE_NAME,
+  THEME_COLOR,
+  buildWebPageJsonLd,
+  buildWebSiteJsonLd,
+  serializeJsonLd,
+} from '../data/seo.mjs';
+
+type JsonLd = Record<string, unknown>;
 
 interface Props {
   title: string;
   description: string;
   canonicalPath?: string;
   ogType?: 'website' | 'article';
+  imageAlt?: string;
+  jsonLd?: JsonLd | JsonLd[];
+  metaRobots?: string;
 }
 
 const {
@@ -19,33 +37,56 @@ const {
   description,
   canonicalPath = Astro.url.pathname,
   ogType = 'website',
+  imageAlt = DEFAULT_SEO_IMAGE_ALT,
+  jsonLd = [],
+  metaRobots = DEFAULT_META_ROBOTS,
 } = Astro.props;
 const site = Astro.site ?? new URL('https://runcheckapp.com');
 const canonicalUrl = new URL(canonicalPath, site).toString();
-const logoUrl = new URL(logo.src, site).toString();
+const seoImageUrl = new URL(DEFAULT_SEO_IMAGE, site).toString();
+const extraJsonLd = Array.isArray(jsonLd) ? jsonLd : [jsonLd];
+const structuredData = [
+  buildWebSiteJsonLd({ site }),
+  buildWebPageJsonLd({ title, description, canonicalUrl, site }),
+  ...extraJsonLd,
+];
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/webp" href={logo.src} />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={description} />
+    <meta name="robots" content={metaRobots} />
+    <meta name="theme-color" content={THEME_COLOR} />
+    <meta name="application-name" content={SITE_NAME} />
+    <meta name="apple-mobile-web-app-title" content={SITE_NAME} />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <link rel="canonical" href={canonicalUrl} />
-    <link rel="sitemap" href="/sitemap-index.xml" />
-    <meta property="og:site_name" content="runcheck" />
+    <link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:locale" content="en_US" />
     <meta property="og:type" content={ogType} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalUrl} />
-    <meta property="og:image" content={logoUrl} />
+    <meta property="og:image" content={seoImageUrl} />
+    <meta property="og:image:type" content={DEFAULT_SEO_IMAGE_TYPE} />
+    <meta property="og:image:width" content={DEFAULT_SEO_IMAGE_WIDTH} />
+    <meta property="og:image:height" content={DEFAULT_SEO_IMAGE_HEIGHT} />
+    <meta property="og:image:alt" content={imageAlt} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={logoUrl} />
+    <meta name="twitter:image" content={seoImageUrl} />
+    <meta name="twitter:image:alt" content={imageAlt} />
     <title>{title}</title>
+    {structuredData.map((item) => <script type="application/ld+json" set:html={serializeJsonLd(item)} />)}
   </head>
   <body class="min-h-screen bg-run-bg text-run-text antialiased">
     <Header />
@@ -53,5 +94,74 @@ const logoUrl = new URL(logo.src, site).toString();
       <slot />
     </main>
     <Footer />
+    <script
+      define:vars={{
+        countryToPricingTier: COUNTRY_TO_PRICING_TIER,
+        fallbackPricingTier: FALLBACK_PRICING_TIER,
+      }}
+    >
+      (() => {
+        const countryStorageKey = 'runcheck-pricing-country';
+
+        const getTier = (country) => {
+          if (!country) return '';
+          return countryToPricingTier[String(country).toUpperCase()] || fallbackPricingTier;
+        };
+
+        const readCachedCountry = () => {
+          try {
+            return sessionStorage.getItem(countryStorageKey) || '';
+          } catch {
+            return '';
+          }
+        };
+
+        const writeCachedCountry = (country) => {
+          if (!country) return;
+          try {
+            sessionStorage.setItem(countryStorageKey, country);
+          } catch {
+            return;
+          }
+        };
+
+        const getCloudflareCountry = async () => {
+          const cachedCountry = readCachedCountry();
+          if (cachedCountry) return cachedCountry;
+
+          try {
+            const controller = new AbortController();
+            const timeout = window.setTimeout(() => controller.abort(), 1200);
+            const response = await fetch('/cdn-cgi/trace', {
+              cache: 'no-store',
+              signal: controller.signal,
+            });
+            window.clearTimeout(timeout);
+            if (!response.ok) return '';
+            const trace = await response.text();
+            const country = trace.match(/^loc=([A-Z]{2})$/m)?.[1] || '';
+            writeCachedCountry(country);
+            return country;
+          } catch {
+            return '';
+          }
+        };
+
+        const applyPricingTier = (tier) => {
+          if (!tier) return;
+          document.querySelectorAll('[data-regional-price]').forEach((element) => {
+            const value = element.getAttribute(`data-${tier.toLowerCase()}`);
+            if (value) element.textContent = value;
+          });
+          document.querySelectorAll('[data-regional-pricing-note]').forEach((element) => {
+            element.hidden = tier !== fallbackPricingTier;
+          });
+        };
+
+        getCloudflareCountry().then((country) => {
+          applyPricingTier(getTier(country));
+        });
+      })();
+    </script>
   </body>
 </html>

@@ -6,6 +6,10 @@
 - Cloudflare Pages target: build command `npm run build`, output directory `dist`.
 - Keep `astro.config.mjs` static-only: `output: "static"`, `site: "https://runcheckapp.com"`, `integrations: [sitemap()]`, and Tailwind v4 through `@tailwindcss/vite`.
 - Do not add `@astrojs/tailwind`, `@astrojs/cloudflare`, SSR adapters, CMS tooling, animation libraries, or UI component libraries for the foundation.
+- Article search has one source of truth in `src/data/searchIndex.mjs`: `buildSearchIndex()` creates the static client index and `searchArticles()` filters it on the client.
+- The static search endpoint is `src/pages/articles/search-index.json.ts`; it emits `/articles/search-index.json` at build time from the `articles` content collection.
+- Regional pricing has one source of truth in `src/data/pricing.mjs`. `src/components/RegionalPrice.astro` renders Free and Pro price data attributes, and `src/layouts/BaseLayout.astro` uses Cloudflare `/cdn-cgi/trace` country detection cached in `sessionStorage` as `runcheck-pricing-country` to apply the matching tier. Do not add a manual country selector or browser-locale based price detection.
+- Homepage `SoftwareApplication` JSON-LD pricing offers must be built from `getStructuredOffers()` in `src/data/pricing.mjs` so visible regional prices and `eligibleRegion` structured data stay aligned.
 
 ## Styling
 
@@ -17,9 +21,11 @@
 ## Site Structure
 
 - `src/layouts/BaseLayout.astro` owns `Header`, `<slot />`, `Footer`, global CSS, self-hosted fonts, canonical metadata, sitemap link, Open Graph, and Twitter metadata.
-- `src/pages/index.astro` imports `BaseLayout` and the five placeholder sections only. It must not import `Header` or `Footer` directly.
+- `src/pages/index.astro` imports `BaseLayout` and landing sections only. It must not import `Header` or `Footer` directly.
 - `src/components/Hero.astro`, `Features.astro`, `Pricing.astro`, `FAQ.astro`, and `CTA.astro` are intentional foundation stubs. Do not turn them into final marketing design in this phase.
 - Shared placeholder section markup belongs in `src/components/PlaceholderSection.astro`.
+- `src/components/ArticleSearch.astro` is the shared article search UI. Use `variant="header"` in `Header.astro` and `variant="page"` on `/articles/`; do not duplicate search markup or filtering logic elsewhere.
+- `src/components/ArticleCTA.astro` is the compact product CTA for article routes. Use it after the content on `/articles/[hub]/` and article detail pages; on `/articles/`, pass `includeGuidesLink={false}` so the page does not link to itself.
 
 ## Content
 
@@ -28,13 +34,84 @@
 - Article frontmatter schema:
   - `title: string`
   - `description: string`
-  - `category: "Battery" | "Thermal" | "Network" | "Storage" | "General"`
-  - `publishDate: Date`
+  - `listSummary?: string`
+  - `hub: "battery" | "charging" | "thermal" | "network" | "storage" | "performance" | "hardware" | "software" | "physical-damage" | "device-health" | "buying-selling" | "myths" | "brands"`
+  - `sourceNumber: number`
+  - `order: number`
+  - `subgroup?: string`
+  - `tags: string[]`
   - `draft: boolean`
-- `src/pages/articles/index.astro` lists non-draft articles newest first.
-- `src/pages/articles/[...slug].astro` generates static paths from non-draft `article.id` values and renders body content with Tailwind Typography.
+- `src/data/articleTaxonomy.mjs` owns the article hub menu and hub ordering.
+- `src/pages/articles/index.astro` lists non-draft articles by hub and renders the page search above the hub list.
+- `src/pages/articles/[hub].astro` renders hub pages; `src/pages/articles/[hub]/[...slug].astro` renders individual article pages.
 
 ## Verification
 
 - Use `npm run build` as the foundation gate.
-- Verify `/`, `/articles/`, `/articles/runcheck-foundation-placeholder/`, and `/robots.txt` on the local dev server after structural changes.
+- Verify `/`, `/articles/`, a representative hub page such as `/articles/battery/`, a representative article page, `/articles/search-index.json`, and `/robots.txt` on the local dev server after structural changes.
+
+
+<claude-mem-context>
+# Memory Context
+
+# [runcheck-website] recent context, 2026-06-26 1:16pm GMT+3
+
+Legend: 🎯session 🔴bugfix 🟣feature 🔄refactor ✅change 🔵discovery ⚖️decision 🚨security_alert 🔐security_note
+Format: ID TIME TYPE TITLE
+Fetch details: get_observations([IDs]) | Search: mem-search skill
+
+Stats: 15 obs (5,061t read) | 377,485t work | 99% savings
+
+### Jun 24, 2026
+5637 6:56p 🔵 Pricing Component Structure Analysis
+5638 " 🟣 Pro Pricing Card Now Semi-Transparent with Backdrop Blur
+S871 Made Pro pricing card dark and semi-transparent to allow animated background blobs to show through (Jun 24, 6:57 PM)
+S873 Pro pricing card redesigned with dark Linear styling and increased transparency to show animated background blobs (Jun 24, 7:01 PM)
+S874 Redesign Pro pricing card to be simpler, more stylish, and professional while keeping colors/text and adding RECOMMENDED badge (Jun 24, 7:03 PM)
+### Jun 26, 2026
+5640 10:51a 🔄 Pro Pricing Card Redesign - Removed Animated Border Scan
+5641 10:52a 🔄 Replaced Complex Border Animation with Simple Rotating Glow
+5642 10:55a 🔄 Pro Pricing Card Redesign Completed Successfully
+5643 10:56a ✅ Pro Pricing Card Redesign Verified Through Successful Build
+S875 Reposition and enlarge RECOMMENDED badge on Pro pricing card to match reference image (Jun 26, 10:56 AM)
+5644 11:01a ✅ Pro Card Overflow Changed to Visible for Badge Repositioning
+5645 " 🟣 RECOMMENDED Badge Repositioned to Top Edge and Enlarged
+S876 Fix RECOMMENDED badge visibility by making background solid blue and text white (Jun 26, 11:02 AM)
+5646 11:07a 🔴 Fixed RECOMMENDED Badge Visibility with Solid Blue Background and White Text
+5647 " ✅ Removed Animated Border Glow from Pro Pricing Card
+S878 Pro pricing card redesign: reposition and enlarge RECOMMENDED badge, fix visibility, remove animated border effects (Jun 26, 11:08 AM)
+**5648** 11:11a ✅ **Removed Animated Border Glow System from Pro Pricing Card**
+Completely removed the animated border glow feature from the Pro pricing card that was implemented earlier in the session. The removal involved deleting approximately 44 lines of CSS including: two CSS custom properties (glow-thickness: 1.5px, glow-duration: 8s), the @property declaration for animatable angle, the ::before pseudo-element with its conic-gradient and webkit-mask compositing logic, the rotation keyframes, and the accessibility media query. The Pro pricing card now relies solely on static styling (border, background, shadow, blur) without any animated border effects. Grep verification confirmed clean removal with no orphaned references, and the production build succeeded without errors, indicating the removal was complete and didn't break any dependencies.
+~402t 🛠️ 50,836
+
+S877 Complete redesign of Pro pricing card RECOMMENDED badge and removal of animated border effects (Jun 26, 11:11 AM)
+S879 Pro pricing card visual redesign including badge enhancement, animation removal, and border color adjustment (Jun 26, 11:11 AM)
+S880 Website-wide visual redesign: Pro pricing card enhancement and design system unification (Jun 26, 11:13 AM)
+**5649** 11:15a 🔴 **Hero Component Structure Examined**
+Examined the Hero.astro component which implements the main landing section of the website. The component features a full-screen hero with an absolutely positioned phone image that serves as the background, overlaid with a pulsing screen effect div. The main headline "Know your phone's real condition" uses metallic gradient text fills with dramatic negative letter-spacing and tight line-height for impact, with the word "real" highlighted in blue gradient. The layout adapts from single-column mobile to a 3-column grid on desktop, with feature chips (Battery, Thermal, Network, Storage, Private) positioned in the right column. A "Coming summer 2026" release chip is displayed below the description text. The component demonstrates consistent use of CSS custom properties for gradients and filters.
+~452t 🛠️ 2,154
+
+**5650** " ✅ **Hero Focus Chips Restyled to Match Pro Pricing Card Design**
+Changed the hero section's feature chips (Battery, Thermal, Network, Storage, Private) from light glassmorphic styling to match the Pro pricing card's darker, more premium aesthetic. The original glass design used subtle borders (16% opacity white), lightweight shadows (8px 20px), and semi-transparent text (88% opacity) with a dual-layer background (gradient overlay + glass fill). The new Pro card styling employs stronger borders (28% opacity white), deeper shadows (24px 70px), solid white text, and a dark semi-transparent gradient background. This creates better visual consistency between the hero chips and the pricing section, applying the same premium design language across both components. The chips now have more visual weight and contrast, making them stand out better against the hero phone background image.
+~492t 🛠️ 15,808
+
+**5651** " ✅ **Added Insights Feature Chip to Hero Section**
+Added "Insights" as a new feature chip to the hero section, expanding the runcheck focus areas from 5 to 6 items. The new chip was inserted between "Storage" and "Private" in the featureChips array. Since the chip is rendered using the same .hero-focus-chip class as the other feature chips, it automatically inherits the Pro card styling that was recently unified across hero chips and the pricing Pro card. The shared CSS selector (.hero-release-chip, .hero-focus-chip) ensures consistent dark premium aesthetic with semi-transparent white borders, dark gradient backgrounds, deep shadows, and solid white text across all hero section chips.
+~355t 🛠️ 5,234
+
+**5652** " ✅ **Updated Product Release Timeline from Summer to Fall 2026**
+Updated the product release timeline displayed in the hero section from "Coming summer 2026" to "Coming fall 2026", indicating a delayed launch schedule. The release chip maintains its premium visual styling with Pro card design tokens (dark semi-transparent gradient background, white border at 28% opacity, deep shadow, solid white text) that was recently unified with the feature chips styling. This timeline update is prominently displayed in the hero section below the product description text.
+~229t 🛠️ 5,234
+
+S881 Hero section updates: add Insights chip, update release timeline, and complete Pro card styling unification (Jun 26, 11:20 AM)
+**Investigated**: Examined hero section feature chips structure in Hero.astro component, release chip text content, and CSS styling architecture. Analyzed how the shared CSS selector (.hero-release-chip, .hero-focus-chip) applies Pro card design tokens to all hero chips. Identified orphaned glass design variable in .hero-release-chip CSS block that was overridden by the shared selector rules.
+
+**Learned**: CSS selector precedence and shared selectors enable efficient style unification - the grouped selector (.hero-release-chip, .hero-focus-chip) applies Pro card styling to both chip types, making individual variable overrides in specific class blocks redundant. The release chip had an orphaned --run-glass-fill variable that served no purpose because the shared selector's background property took precedence. Array-based chip rendering in Astro templates allows easy content updates - adding a new chip only requires modifying the featureChips array, with styling automatically inherited from the CSS class. Hero section now displays 6 feature chips instead of 5, expanding the product's focus areas.
+
+**Completed**: Three-phase hero section enhancement completed: (1) Added "Insights" to featureChips array between Storage and Private, expanding hero focus areas from 5 to 6 items. New chip automatically inherited Pro card styling (dark gradient background, white border at 28% opacity, deep shadow, solid white text) via existing .hero-focus-chip class. (2) Updated product release timeline from "Coming summer 2026" to "Coming fall 2026" in hero release chip, reflecting delayed launch schedule. (3) Cleaned up orphaned CSS by removing --run-glass-fill: var(--run-glass-bg-strong) variable override from .hero-release-chip block since it was superseded by the shared selector's var(--run-pricing-pro-bg) background. All changes build successfully in 1.71s with no errors. Website now shows unified premium styling across all hero chips and pricing Pro card.
+
+**Next Steps**: Hero section updates complete. The website now features expanded product focus areas (6 chips including new Insights chip), updated fall 2026 release timeline, and fully unified Pro card styling across hero section chips, release chip, and pricing Pro card with no orphaned CSS variables.
+
+
+Access 377k tokens of past work via get_observations([IDs]) or mem-search skill.
+</claude-mem-context>

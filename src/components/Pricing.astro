@@ -1,4 +1,7 @@
 ---
+import RegionalPrice from './RegionalPrice.astro';
+import RegionalPricingNote from './RegionalPricingNote.astro';
+
 const freeFeatures = [
   'Battery, network, thermal, and storage monitoring',
   "Your phone's Health Score",
@@ -27,20 +30,22 @@ const proFeatureColumns = [
 
 ---
 
-<section id="pricing" class="bg-run-bg">
-  <div class="mx-auto max-w-6xl px-5 py-20">
-    <div class="max-w-3xl">
-      <p class="mb-4 font-mono text-xs font-semibold uppercase tracking-widest text-run-cyan">Pricing</p>
-      <h2 class="text-3xl font-semibold text-run-text sm:text-4xl">Start free. Upgrade once for deeper phone insights.</h2>
-      <p class="mt-4 max-w-2xl text-lg leading-8 text-run-muted">No account. No ads. No subscription.</p>
+<section id="pricing" class="pricing-section bg-run-bg">
+  <div class="section-shell">
+    <div class="section-intro-split">
+      <div class="section-intro-heading">
+        <p class="section-eyebrow">Pricing</p>
+        <h2 class="section-display-heading">Start free. Upgrade once for <span class="section-heading-accent">deeper</span> phone insights.</h2>
+      </div>
+      <p class="section-intro-copy">Free covers the current state of your phone. Pro unlocks the longer view: trends, app usage, charger performance, thermal logs, widgets, exports, and cleanup tools, with no subscription.</p>
     </div>
 
-    <div class="pricing-split mt-14">
+    <div class="pricing-split">
       <article class="pricing-plan pricing-plan-free">
         <h3>Free</h3>
 
         <div>
-          <p class="pricing-price-metal">$0</p>
+          <p class="pricing-price-metal" aria-live="polite"><RegionalPrice plan="free" /></p>
           <p class="pricing-plan-section-label">ESSENTIAL CHECKS FOR YOUR PHONE'S CURRENT CONDITION.</p>
         </div>
 
@@ -54,11 +59,13 @@ const proFeatureColumns = [
       </article>
 
       <article class="pricing-plan pricing-plan-pro">
+        <span class="pricing-plan-badge">Recommended</span>
         <h3>Pro</h3>
 
-        <p>
-          <span class="pricing-price-metal" data-pricing-country="default" data-pricing-currency="USD" data-pricing-amount="4.99">$4.99</span>
+        <p class="pricing-price-row" aria-live="polite">
+          <span class="pricing-price-metal"><RegionalPrice plan="pro" /></span>
         </p>
+        <RegionalPricingNote />
 
         <p class="pricing-plan-section-label">EVERYTHING IN FREE, PLUS:</p>
 

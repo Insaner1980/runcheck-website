@@ -1,0 +1,22 @@
+{
+  "name": "runcheck",
+  "short_name": "runcheck",
+  "description": "Phone condition checks for Android battery, heat, network, storage, and insights.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#030708",
+  "theme_color": "#030708",
+  "icons": [
+    {
+      "src": "/runcheck-app-icon-192.webp",
+      "sizes": "192x192",
+      "type": "image/webp"
+    },
+    {
+      "src": "/runcheck-app-icon-512.webp",
+      "sizes": "512x512",
+      "type": "image/webp"
+    }
+  ]
+}

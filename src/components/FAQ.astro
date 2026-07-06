@@ -1,6 +1,129 @@
 ---
-import PlaceholderSection from './PlaceholderSection.astro';
+const faqGroups = [
+  {
+    key: 'general',
+    label: 'General',
+    items: [
+      {
+        question: 'What does runcheck actually check?',
+        answer:
+          'runcheck reads battery, network, thermal, and storage signals and turns them into one clear view of your phone condition.',
+      },
+      {
+        question: 'What phones and languages does runcheck support?',
+        answer:
+          'runcheck is an Android app with min SDK 26 and current Android 17 target behavior. The current product state is English-only.',
+      },
+      {
+        question: 'Does runcheck run in the background?',
+        answer:
+          'When monitoring is enabled, Android WorkManager schedules battery-conscious checks, stores local snapshots, and refreshes insights without keeping the app open.',
+      },
+    ],
+  },
+  {
+    key: 'diagnostics',
+    label: 'Diagnostics',
+    items: [
+      {
+        question: 'What is the Health Score based on?',
+        answer:
+          'The Health Score combines battery, network, thermal, and storage readings so you can see whether the phone looks Healthy, Fair, Poor, or Critical.',
+      },
+      {
+        question: 'How are the insights different from simple charts?',
+        answer:
+          'The Insights Engine looks for relationships across history, such as heat rising with battery drain or network quality dropping at repeat times.',
+      },
+      {
+        question: 'Are speed tests automatic?',
+        answer:
+          'No. Full speed tests are user-initiated and use M-Lab NDT7. runcheck can also measure lightweight TCP latency for network health.',
+      },
+    ],
+  },
+  {
+    key: 'privacy',
+    label: 'Privacy',
+    items: [
+      {
+        question: 'Why does runcheck ask for permissions?',
+        answer:
+          'Each permission maps to a specific feature: network details, optional Wi-Fi SSID and BSSID visibility, notifications, storage analysis, or Pro app usage analysis.',
+      },
+      {
+        question: 'Does runcheck send my diagnostic data somewhere?',
+        answer:
+          'runcheck is designed around local diagnostics. Approved outbound surfaces are user-started M-Lab NDT7 tests, TCP latency checks, and Google Play Billing.',
+      },
+    ],
+  },
+  {
+    key: 'pro',
+    label: 'Pro',
+    items: [
+      {
+        question: 'What do I get with Pro?',
+        answer:
+          'Pro unlocks extended history, Charger Comparison, App Usage, thermal logs, CSV export, remaining charge time, storage cleanup, and Glance widgets.',
+      },
+      {
+        question: 'Is Pro a subscription?',
+        answer:
+          'No. Pro is a one-time purchase through Google Play Billing, with a 7-day trial and no subscriptions.',
+      },
+    ],
+  },
+];
 ---
 
-<!-- TODO: Täydennä UKK-osio myöhemmässä design-vaiheessa. -->
-<PlaceholderSection id="faq" eyebrow="FAQ" heading="FAQ placeholder" />
+<section id="faq" class="faq-section">
+  <div class="section-shell">
+    <div class="section-intro-split">
+      <div class="section-intro-heading">
+        <p class="section-eyebrow">FAQ</p>
+        <h2 class="section-display-heading">Clear answers before you trust a diagnostic app</h2>
+      </div>
+      <p class="section-intro-copy">
+        Built for everyday phone owners, with enough technical detail to explain what runcheck measures, when it runs, what Pro unlocks, and where the privacy boundaries are.
+      </p>
+    </div>
+
+    <div class="faq-panel">
+      <nav class="faq-topics" aria-label="FAQ categories">
+        {
+          faqGroups.map((group, groupIndex) => (
+            <a class="faq-topic-link" href={`#faq-${group.key}`} aria-current={groupIndex === 0 ? 'true' : undefined}>
+              {group.label}
+            </a>
+          ))
+        }
+      </nav>
+
+      <div class="faq-groups">
+        {
+          faqGroups.map((group, groupIndex) => (
+            <section class="faq-group" id={`faq-${group.key}`} aria-labelledby={`faq-${group.key}-title`}>
+              <h3 class="faq-group-title" id={`faq-${group.key}-title`}>{group.label}</h3>
+              <div class="faq-list" aria-label={`${group.label} questions`}>
+                {
+                  group.items.map((faq, itemIndex) => (
+                    <details class="faq-item" name="runcheck-faq" open={groupIndex === 0 && itemIndex === 0}>
+                      <summary>
+                        <span class="faq-question">{faq.question}</span>
+                        <span class="faq-chevron" aria-hidden="true"></span>
+                      </summary>
+                      <div class="faq-answer">
+                        <p>{faq.answer}</p>
+                      </div>
+                    </details>
+                  ))
+                }
+              </div>
+            </section>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</section>

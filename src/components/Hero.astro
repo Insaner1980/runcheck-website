@@ -1,17 +1,9 @@
 ---
 import { Image } from 'astro:assets';
-import heroPhone from '../assets/hero-phone.webp';
-
-const featureChips = [
-  { label: 'Battery', lineAccentWidth: '52%' },
-  { label: 'Thermal', lineAccentWidth: '42%' },
-  { label: 'Network', lineAccentWidth: '66%' },
-  { label: 'Storage', lineAccentWidth: '55%' },
-  { label: 'Private', lineAccentWidth: '74%' },
-];
+import heroPhone from '../assets/runcheck-android-phone-diagnostics-hero.webp';
 ---
 
-<section id="hero" class="relative isolate overflow-hidden bg-run-bg">
+<section id="hero" class="hero-section relative isolate overflow-hidden bg-run-bg">
   <Image
     src={heroPhone}
     alt=""
@@ -19,35 +11,31 @@ const featureChips = [
     loading="eager"
     fetchpriority="high"
   />
+  <div class="hero-phone-screen-pulse" aria-hidden="true"></div>
 
-  <div class="relative z-10 mx-auto grid min-h-[100svh] max-w-[100rem] px-5 pb-8 pt-28 sm:pt-32 lg:grid-cols-[minmax(0,34rem)_1fr_minmax(9rem,14rem)] lg:items-center lg:gap-8 lg:pb-10">
+  <div class="hero-inner relative z-10 mx-auto grid min-h-[100svh] max-w-[100rem] px-5 pb-8 pt-28 sm:pt-32 lg:h-full lg:min-h-0 lg:grid-cols-[minmax(0,34rem)_1fr_minmax(18rem,24rem)] lg:items-start lg:gap-8 lg:pb-10">
     <div class="relative max-w-[31rem] lg:col-start-1">
       <h1
-        class="max-w-[10ch] text-[clamp(2.75rem,11vw,4.25rem)] font-black uppercase leading-[0.96] tracking-[-0.02em] sm:text-[clamp(3.75rem,7vw,4.75rem)] sm:leading-[0.92] lg:text-[clamp(5.25rem,6.8vw,6.75rem)] lg:leading-[0.9]"
+        class="hero-title font-display max-w-[10ch] uppercase tracking-normal"
       >
         <span class="relative z-10 block w-max whitespace-nowrap bg-clip-text text-transparent [background-image:var(--run-headline-metal-fill)] [filter:var(--run-headline-line-filter)]">Know your</span>
-        <span class="relative z-20 mt-[-0.06em] block w-max whitespace-nowrap bg-clip-text text-transparent [background-image:var(--run-headline-metal-fill)] [filter:var(--run-headline-line-filter)] sm:mt-[-0.1em] lg:mt-[-0.15em]">phone's</span>
-        <span class="relative z-30 mt-[-0.06em] block w-max whitespace-nowrap bg-clip-text text-transparent [background-image:var(--run-headline-blue-fill)] [filter:var(--run-headline-line-filter)] sm:mt-[-0.1em] lg:mt-[-0.15em]">real</span>
-        <span class="relative z-40 mt-[-0.07em] block w-max whitespace-nowrap bg-clip-text text-transparent [background-image:var(--run-headline-metal-fill)] [filter:var(--run-headline-line-filter)] sm:mt-[-0.11em] lg:mt-[-0.16em]">condition</span>
+        <span class="relative z-20 block w-max whitespace-nowrap bg-clip-text text-transparent [background-image:var(--run-headline-metal-fill)] [filter:var(--run-headline-line-filter)]">phone's</span>
+        <span class="hero-real-word relative z-30 block w-max whitespace-nowrap bg-clip-text text-transparent [background-image:var(--run-headline-blue-fill)] [filter:var(--run-headline-line-filter)]">real</span>
+        <span class="relative z-40 block w-max whitespace-nowrap bg-clip-text text-transparent [background-image:var(--run-headline-metal-fill)] [filter:var(--run-headline-line-filter)]">condition</span>
       </h1>
 
-      <p class="mt-6 max-w-[18rem] text-lg font-medium leading-8 text-run-muted sm:max-w-md sm:text-xl">
-        Battery, heat, connection, and storage, measured precisely and explained in plain language.
-      </p>
-
-      <div class="mt-8 flex max-w-md flex-col items-start">
-        <span class="inline-flex min-h-12 w-full items-center justify-center rounded-panel border border-run-blue/45 bg-run-blue/10 px-5 py-3 text-sm font-extrabold uppercase leading-none text-run-text shadow-panel sm:w-fit">
-          Coming summer 2026
+      <div class="mt-36 flex max-w-md flex-col items-start">
+        <span class="hero-release-chip">
+          Coming fall 2026
         </span>
       </div>
     </div>
 
-    <div class="mt-8 flex flex-col items-start gap-4 lg:col-start-3 lg:mt-0 lg:mr-20 lg:gap-5 lg:justify-self-end xl:mr-32" aria-label="runcheck focus areas">
-      {featureChips.map((chip) => (
-        <span class="hero-focus-chip" style={`--hero-chip-line-accent-width: ${chip.lineAccentWidth}`}>
-          {chip.label}
-        </span>
-      ))}
+    <div class="hero-focus-list mt-8 flex flex-col items-start gap-3 lg:col-start-3 lg:mt-0 lg:mr-0 lg:self-center lg:-translate-y-12 lg:gap-4 lg:justify-self-end xl:mr-0" aria-label="runcheck diagnostic prompts">
+      <span class="hero-focus-line hero-focus-line-1">Battery draining faster than it used to?</span>
+      <span class="hero-focus-line hero-focus-line-2">Running warm for no reason?</span>
+      <span class="hero-focus-line hero-focus-line-3">Slower every month?</span>
+      <span class="hero-focus-line hero-focus-line-4">Now you'll know why.</span>
     </div>
   </div>
 </section>

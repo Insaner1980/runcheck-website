@@ -1,0 +1,71 @@
+---
+import { getCollection } from 'astro:content';
+import ArticleCTA from '../../components/ArticleCTA.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { ARTICLE_HUBS } from '../../data/articleTaxonomy.mjs';
+import { articlePath } from '../../data/articlePaths.mjs';
+import { buildBreadcrumbJsonLd } from '../../data/seo.mjs';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles', ({ data }) => !data.draft);
+
+  return ARTICLE_HUBS.map((hub) => ({
+    params: { hub: hub.slug },
+    props: {
+      hub,
+      articles: articles
+        .filter((article) => article.data.hub === hub.slug)
+        .sort((a, b) => a.data.order - b.data.order),
+    },
+  }));
+}
+
+const { hub, articles } = Astro.props;
+const sections = hub.sections ?? [{ sourceNumbers: hub.sourceNumbers }];
+const site = Astro.site ?? new URL('https://runcheckapp.com');
+const breadcrumbJsonLd = buildBreadcrumbJsonLd(
+  [
+    { name: 'runcheck', path: '/' },
+    { name: 'Articles', path: '/articles/' },
+    { name: hub.title, path: hub.href },
+  ],
+  site,
+);
+---
+
+<BaseLayout
+  title={`${hub.title} articles | runcheck`}
+  description={hub.metaDescription}
+  canonicalPath={hub.href}
+  jsonLd={breadcrumbJsonLd}
+>
+  <section class="border-b border-run-border">
+    <div class="article-page-shell article-page-shell-medium">
+      <h1 class="text-4xl font-semibold text-run-text sm:text-5xl">{hub.title}</h1>
+      <p class="mt-5 max-w-2xl text-lg text-run-muted">{hub.description}</p>
+
+      <div class="mt-12 grid gap-12">
+        {sections.map((section) => {
+          const sectionArticles = articles.filter((article) => section.sourceNumbers.includes(article.data.sourceNumber));
+
+          return (
+            <section>
+              {section.title && <h2 class="font-mono text-xs font-semibold uppercase tracking-widest text-run-muted">{section.title}</h2>}
+              <ul class="article-link-list" role="list">
+                {sectionArticles.map((article) => (
+                  <li>
+                    <a class="article-list-link" href={articlePath(hub.slug, article.id)}>
+                      <span class="article-list-title">{article.data.title}</span>
+                      <span class="article-list-description">{article.data.listSummary ?? article.data.description}</span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          );
+        })}
+      </div>
+      <ArticleCTA />
+    </div>
+  </section>
+</BaseLayout>

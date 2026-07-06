@@ -1,60 +1,98 @@
 ---
+import { Image } from 'astro:assets';
+import batteryImage from '../assets/features/android-battery-health-diagnostics.webp';
+import insightsImage from '../assets/features/runcheck-device-health-insights.webp';
+import networkImage from '../assets/features/android-network-signal-diagnostics.webp';
+import privacyImage from '../assets/features/private-on-device-phone-diagnostics.webp';
+import storageImage from '../assets/features/android-storage-health-diagnostics.webp';
+import thermalImage from '../assets/features/android-phone-thermal-diagnostics.webp';
+
 const features = [
   {
-    lineWidth: '88%',
-    accentWidth: '34%',
+    key: 'battery',
+    image: batteryImage,
+    alt: 'Battery diagnostic object with cyan battery cells.',
+    colorClass: 'text-feat-battery',
     title: 'BATTERY',
     text: "See what's really draining your power, and know when the battery's worn out.",
   },
   {
-    lineWidth: '96%',
-    accentWidth: '58%',
+    key: 'network',
+    image: networkImage,
+    alt: 'Network diagnostic object with rising blue signal bars.',
+    colorClass: 'text-feat-network',
     title: 'NETWORK',
     text: "Real speed, signal, and stability tests, so you know if it's your phone or your connection.",
   },
   {
-    lineWidth: '82%',
-    accentWidth: '46%',
+    key: 'thermal',
+    image: thermalImage,
+    alt: 'Thermal diagnostic object with an orange thermometer.',
+    colorClass: 'text-feat-thermal',
     title: 'THERMAL',
     text: 'Catch overheating before it slows your phone down or shortens its life.',
   },
   {
-    lineWidth: '100%',
-    accentWidth: '72%',
+    key: 'insights',
+    image: insightsImage,
+    alt: 'Insights diagnostic object with a chart and magnifier.',
+    colorClass: 'text-run-blue-highlight',
+    kicker: 'Connected diagnostics',
+    title: 'INSIGHTS',
+    text: 'Battery, heat, signal, and storage are connected. A slow charge, a hot back, and a dropped signal can become one clear story instead of three separate problems.',
+  },
+  {
+    key: 'storage',
+    image: storageImage,
+    alt: 'Storage diagnostic object with green memory chips.',
+    colorClass: 'text-feat-storage',
     title: 'STORAGE',
     text: "See exactly what's filling your phone, and clear it out safely.",
   },
   {
-    lineWidth: '74%',
-    accentWidth: '40%',
-    title: 'INSIGHTS',
-    text: "Connects the dots between battery, heat, and signal to explain what's really happening.",
-  },
-  {
-    lineWidth: '90%',
-    accentWidth: '64%',
+    key: 'private',
+    image: privacyImage,
+    alt: 'Privacy diagnostic object with a purple shield and lock.',
+    colorClass: 'text-feat-private',
     title: 'PRIVATE',
     text: 'No account, no ads. Everything stays on your phone.',
   },
 ];
 ---
 
-<section id="features">
-  <div class="mx-auto max-w-5xl px-5 py-20">
-    <div class="mb-10 max-w-3xl">
-      <p class="mb-4 font-mono text-xs font-semibold uppercase tracking-widest text-run-cyan">Features</p>
-      <h2 class="text-3xl font-semibold text-run-text sm:text-4xl">Diagnostics that explain what your phone is doing</h2>
+<section id="features" class="features-section">
+  <div class="section-shell">
+    <div class="section-intro-split">
+      <div class="section-intro-heading">
+        <p class="section-eyebrow">Features</p>
+        <h2 class="section-display-heading">Diagnostics that <span class="section-heading-accent">explain</span> what your phone is doing</h2>
+      </div>
+      <p class="section-intro-copy">
+        runcheck turns battery, temperature, network, and storage signals into one clear picture of your phone's condition. It tracks recent history, scores each subsystem, and connects patterns that single-purpose tools miss.
+      </p>
     </div>
 
-    <div class="features-grid">
+    <div class="features-layout">
       {
         features.map((feature) => (
           <article
-            class="feature-item"
-            style={`--feature-line-width: ${feature.lineWidth}; --feature-line-accent-width: ${feature.accentWidth}`}
+            class={`feature-item feature-item-${feature.key}${feature.kicker ? ' feature-item-featured' : ''}`}
           >
-            <h3 class="feature-title">{feature.title}</h3>
-            <p class="feature-sub">{feature.text}</p>
+            <div class="feature-visual">
+              <Image
+                src={feature.image}
+                alt={feature.alt}
+                class="feature-image"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+
+            <div class="feature-copy">
+              {feature.kicker && <p class={`feature-kicker ${feature.colorClass}`}>{feature.kicker}</p>}
+              <h3 class="feature-title text-run-white">{feature.title}</h3>
+              <p class="feature-sub">{feature.text}</p>
+            </div>
           </article>
         ))
       }

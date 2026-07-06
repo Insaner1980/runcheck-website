@@ -1,0 +1,62 @@
+---
+import { getCollection, render } from 'astro:content';
+import ArticleCTA from '../../../components/ArticleCTA.astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { articleHubBySlug } from '../../../data/articleTaxonomy.mjs';
+import { articlePath } from '../../../data/articlePaths.mjs';
+import { buildBreadcrumbJsonLd, normalizeMetaDescription } from '../../../data/seo.mjs';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles', ({ data }) => !data.draft);
+
+  return articles.map((article) => {
+    const [hub, ...slugParts] = article.id.split('/');
+
+    return {
+      params: { hub, slug: slugParts.join('/') },
+      props: {
+        article,
+        hub: articleHubBySlug.get(article.data.hub),
+      },
+    };
+  });
+}
+
+const { article, hub } = Astro.props;
+const { Content } = await render(article);
+const site = Astro.site ?? new URL('https://runcheckapp.com');
+const canonicalPath = articlePath(article.data.hub, article.id);
+const metaTitle = article.data.metaTitle ?? article.data.title;
+const metaDescription = normalizeMetaDescription(article.data.metaDescription ?? article.data.description);
+const breadcrumbJsonLd = buildBreadcrumbJsonLd(
+  [
+    { name: 'runcheck', path: '/' },
+    { name: 'Articles', path: '/articles/' },
+    { name: hub.title, path: hub.href },
+    { name: article.data.title, path: canonicalPath },
+  ],
+  site,
+);
+---
+
+<BaseLayout
+  title={metaTitle}
+  description={metaDescription}
+  canonicalPath={canonicalPath}
+  ogType="article"
+  jsonLd={breadcrumbJsonLd}
+>
+  <article class="border-b border-run-border">
+    <div class="article-page-shell article-page-shell-narrow article-detail-shell">
+      <a class="font-display text-xs font-normal uppercase tracking-normal text-run-cyan transition hover:text-run-text" href={hub.href}>
+        {hub.title}
+      </a>
+      <h1 class="mt-5 text-4xl font-semibold text-run-text sm:text-5xl">{article.data.title}</h1>
+      <p class="mt-5 text-lg text-run-muted">{article.data.description}</p>
+      <div class="prose prose-invert mt-10 max-w-none prose-a:text-run-cyan">
+        <Content />
+      </div>
+      <ArticleCTA />
+    </div>
+  </article>
+</BaseLayout>
