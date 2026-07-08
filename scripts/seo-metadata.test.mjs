@@ -56,10 +56,27 @@ const seenDescriptions = new Map();
 const seenTitles = new Map();
 
 function distPathForPublicUrl(publicUrl) {
-  const parsed = new URL(publicUrl, site);
-  assert.equal(parsed.origin, site, `${publicUrl} should stay on the canonical site.`);
+  const parsed = parseCanonicalSiteUrl(publicUrl, publicUrl);
   return path.join(root, decodeURIComponent(parsed.pathname).replace(/^\/+/, ''));
 }
+
+function parseCanonicalSiteUrl(publicUrl, context) {
+  assert.ok(URL.canParse(publicUrl), `${context} should be an absolute URL.`);
+  const parsed = new URL(publicUrl);
+  assert.equal(parsed.origin, site, `${context} should stay on the canonical site.`);
+  return parsed;
+}
+
+assert.throws(
+  () => parseCanonicalSiteUrl('https://runcheckapp.com.example/runcheck-phone-diagnostics-og-image.webp', 'lookalike image URL'),
+  /canonical site/,
+  'Canonical URL checks should reject lookalike hostnames.',
+);
+assert.throws(
+  () => parseCanonicalSiteUrl('/runcheck-phone-diagnostics-og-image.webp', 'relative image URL'),
+  /absolute URL/,
+  'Canonical URL checks should reject relative URLs.',
+);
 
 function assertWebpImageUrl(imageUrl, context) {
   if (!imageUrl || imageUrl.startsWith('data:')) {
@@ -121,8 +138,8 @@ for (const file of htmlFiles) {
     assert.ok(metaByName(name), `${url} should include ${name}.`);
   }
 
-  assert.ok(metaByProp('og:image').startsWith(site), `${url} should use an absolute Open Graph image URL.`);
-  assert.ok(metaByName('twitter:image').startsWith(site), `${url} should use an absolute Twitter image URL.`);
+  parseCanonicalSiteUrl(metaByProp('og:image'), `${url} Open Graph image`);
+  parseCanonicalSiteUrl(metaByName('twitter:image'), `${url} Twitter image`);
   assert.ok(
     metaByProp('og:image').endsWith('/runcheck-phone-diagnostics-og-image.webp'),
     `${url} should use the descriptive WebP Open Graph image.`,
