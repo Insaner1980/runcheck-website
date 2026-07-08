@@ -164,5 +164,44 @@ const structuredData = [
         });
       })();
     </script>
+
+    <script>
+      // Artikkelisivujen animaatiot: otsikkoalueen sisääntulo + korttien scroll-reveal
+      const shell = document.querySelector('.article-page-shell');
+
+      if (shell) {
+        const head = shell.querySelectorAll(':scope > a, :scope > h1, :scope > p, :scope > .mt-8');
+
+        head.forEach((el, i) => {
+          el.setAttribute('data-reveal', '');
+          el.style.setProperty('--reveal-delay', `${i * 90}ms`);
+          requestAnimationFrame(() => requestAnimationFrame(() => el.classList.add('is-revealed')));
+        });
+
+        const items = [...document.querySelectorAll('.article-link-list > li, .article-cta')];
+
+        document.querySelectorAll('.article-link-list').forEach((list) => {
+          [...list.children].forEach((li, i) => {
+            li.style.setProperty('--reveal-delay', `${(i % 4) * 70}ms`);
+          });
+        });
+
+        items.forEach((el) => el.setAttribute('data-reveal', ''));
+
+        const io = new IntersectionObserver(
+          (entries) => {
+            for (const entry of entries) {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('is-revealed');
+                io.unobserve(entry.target);
+              }
+            }
+          },
+          { threshold: 0.1, rootMargin: '0px 0px -6% 0px' }
+        );
+
+        items.forEach((el) => io.observe(el));
+      }
+    </script>
   </body>
 </html>

@@ -183,7 +183,7 @@ const resultsId = `article-search-results-${variant}`;
 
     const appendStatus = (message) => {
       const item = document.createElement('li');
-      item.className = 'px-3 py-2 text-sm text-run-muted';
+      item.className = 'px-3 py-2.5 text-sm text-run-white/55';
       item.setAttribute('role', 'option');
       item.setAttribute('aria-disabled', 'true');
       item.textContent = message;
@@ -207,7 +207,7 @@ const resultsId = `article-search-results-${variant}`;
       title.textContent = item.title;
 
       const hub = document.createElement('span');
-      hub.className = 'block truncate text-xs leading-5 text-run-muted';
+      hub.className = 'mt-0.5 block truncate font-mono text-[0.62rem] font-medium uppercase tracking-[0.22em] leading-4 text-run-white/40';
       hub.textContent = item.hub;
 
       link.append(title, hub);

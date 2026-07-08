@@ -74,7 +74,7 @@ const features = [
 
     <div class="features-layout">
       {
-        features.map((feature) => (
+        features.map((feature, index) => (
           <article
             class={`feature-item feature-item-${feature.key}${feature.kicker ? ' feature-item-featured' : ''}`}
           >
@@ -89,6 +89,7 @@ const features = [
             </div>
 
             <div class="feature-copy">
+              <p class="feature-num" aria-hidden="true">{String(index + 1).padStart(2, '0')}</p>
               {feature.kicker && <p class={`feature-kicker ${feature.colorClass}`}>{feature.kicker}</p>}
               <h3 class="feature-title text-run-white">{feature.title}</h3>
               <p class="feature-sub">{feature.text}</p>

@@ -13,9 +13,24 @@ yarn-error.log*
 pnpm-debug.log*
 output/
 .playwright-cli/
+.playwright-mcp/
 .sonar/
 .agents/
 .codex/
+
+# local raw asset drops
+Anton/
+Disket Rostype/
+RESIN/
+SUSE_Mono/
+Sango Uppercase - Personal Use/
+Switzer_Complete/
+aicon/
+onder/
+loop.mp4
+src/assets/cta-*.png
+src/assets/fonts/anton/
+url.md
 
 
 # environment variables

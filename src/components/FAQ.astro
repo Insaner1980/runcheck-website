@@ -102,13 +102,13 @@ const faqGroups = [
 
       <div class="faq-groups">
         {
-          faqGroups.map((group, groupIndex) => (
+          faqGroups.map((group) => (
             <section class="faq-group" id={`faq-${group.key}`} aria-labelledby={`faq-${group.key}-title`}>
               <h3 class="faq-group-title" id={`faq-${group.key}-title`}>{group.label}</h3>
               <div class="faq-list" aria-label={`${group.label} questions`}>
                 {
-                  group.items.map((faq, itemIndex) => (
-                    <details class="faq-item" name="runcheck-faq" open={groupIndex === 0 && itemIndex === 0}>
+                  group.items.map((faq) => (
+                    <details class="faq-item" name="runcheck-faq">
                       <summary>
                         <span class="faq-question">{faq.question}</span>
                         <span class="faq-chevron" aria-hidden="true"></span>

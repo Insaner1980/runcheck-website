@@ -1,14 +1,23 @@
 ---
+import { Image } from 'astro:assets';
+import logo from '../assets/runcheck-logo.webp';
+
 const year = new Date().getFullYear();
 ---
 
-<footer class="bg-run-bg">
-  <div class="mx-auto flex max-w-6xl flex-col gap-4 px-5 py-8 text-sm text-run-muted sm:flex-row sm:items-center sm:justify-between">
-    <p>&copy; {year} runcheck</p>
-    <nav class="flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-5" aria-label="Footer navigation">
-      <a class="transition hover:text-run-text" href="/#features">Features</a>
-      <a class="transition hover:text-run-text" href="/articles/">Articles</a>
-      <a class="transition hover:text-run-text" href="mailto:contact@finnvek.com">contact@finnvek.com</a>
+<footer class="site-footer bg-run-bg">
+  <div class="mx-auto flex max-w-6xl flex-col items-center gap-7 px-5 py-12 md:grid md:grid-cols-[1fr_auto_1fr] md:gap-4">
+    <a href="/" class="flex items-center gap-3 md:justify-self-start" aria-label="runcheck home">
+      <Image src={logo} alt="" class="size-7 shrink-0 object-contain" loading="lazy" />
+      <span class="text-base lowercase leading-none font-semibold text-run-text">runcheck</span>
+    </a>
+
+    <nav class="footer-nav flex flex-col items-center gap-4 sm:flex-row sm:gap-9" aria-label="Footer navigation">
+      <a href="/#features">Features</a>
+      <a href="/articles/">Articles</a>
+      <a href="mailto:contact@finnvek.com">Contact</a>
     </nav>
+
+    <p class="footer-copyright md:justify-self-end">&copy; {year} runcheck</p>
   </div>
 </footer>

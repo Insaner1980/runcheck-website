@@ -9,7 +9,7 @@ const navLinks = [
 ];
 ---
 
-<header class="absolute inset-x-0 top-0 z-50">
+<header class="site-header fixed inset-x-0 top-0 z-50">
   <div class="mx-auto flex max-w-[100rem] items-center justify-between gap-4 px-5 py-5">
     <a href="/" class="flex min-w-0 items-center gap-3 font-semibold text-run-text" aria-label="runcheck home">
       <Image
@@ -92,7 +92,7 @@ const navLinks = [
               <section class="min-w-0" aria-labelledby={`articles-menu-${group.title.toLowerCase().replaceAll(/[^a-z0-9]+/g, '-')}`}>
                 <h2
                   id={`articles-menu-${group.title.toLowerCase().replaceAll(/[^a-z0-9]+/g, '-')}`}
-                  class="mb-4 font-mono text-xs font-semibold uppercase tracking-widest text-run-white/50"
+                  class="mb-4 font-mono text-[0.7rem] font-medium uppercase tracking-[0.3em] text-run-white/45"
                 >
                   {group.title}
                 </h2>
@@ -118,6 +118,7 @@ const navLinks = [
 
       <ArticleSearch variant="header" />
     </nav>
+
   </div>
 </header>
 
@@ -133,6 +134,7 @@ const navLinks = [
     }
 
     let clickOpen = false;
+    let closeTimer;
 
     const isOpen = () => button.getAttribute('aria-expanded') === 'true';
 
@@ -156,6 +158,7 @@ const navLinks = [
 
     menu.addEventListener('pointerenter', (event) => {
       if (event.pointerType === 'mouse') {
+        clearTimeout(closeTimer);
         setOpen(true);
       }
     });
@@ -165,7 +168,8 @@ const navLinks = [
         return;
       }
 
-      setOpen(false);
+      // Pieni viive, jotta hiiri ehtii siirtyä napista paneeliin
+      closeTimer = setTimeout(() => setOpen(false), 180);
     });
 
     menu.addEventListener('focusin', () => {
@@ -263,5 +267,17 @@ const navLinks = [
 
     // Aseta alkutila (mobiilissa inert, työpöydällä aktiivinen)
     setNavOpen(false);
+  }
+
+  // Kiinteä header: tausta ja viiva ilmestyvät skrollatessa
+  const siteHeader = document.querySelector('.site-header');
+
+  if (siteHeader instanceof HTMLElement) {
+    const onScroll = () => {
+      siteHeader.classList.toggle('is-scrolled', window.scrollY > 8);
+    };
+
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
   }
 </script>

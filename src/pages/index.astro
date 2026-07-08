@@ -22,3 +22,38 @@ const appJsonLd = buildRuncheckSoftwareApplicationJsonLd({ site });
   <FAQ />
   <CTA />
 </BaseLayout>
+
+<script>
+  // Scroll-reveal vain etusivun osioille; reduced-motion hoidetaan CSS:ssä
+  const items = [
+    ...document.querySelectorAll(
+      '#features .section-intro-split, #pricing .section-intro-split, #faq .section-intro-split, #features .feature-item, #faq .faq-topics, #faq .faq-group'
+    ),
+  ];
+
+  document.querySelectorAll('#pricing .pricing-plan').forEach((el, i) => {
+    el.style.setProperty('--reveal-delay', `${i * 130}ms`);
+    items.push(el);
+  });
+
+  document.querySelectorAll('#download .cta-inner > *').forEach((el, i) => {
+    el.style.setProperty('--reveal-delay', `${i * 90}ms`);
+    items.push(el);
+  });
+
+  items.forEach((el) => el.setAttribute('data-reveal', ''));
+
+  const io = new IntersectionObserver(
+    (entries) => {
+      for (const entry of entries) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-revealed');
+          io.unobserve(entry.target);
+        }
+      }
+    },
+    { threshold: 0.12, rootMargin: '0px 0px -7% 0px' }
+  );
+
+  items.forEach((el) => io.observe(el));
+</script>
