@@ -68,12 +68,12 @@ function parseCanonicalSiteUrl(publicUrl, context) {
 }
 
 assert.throws(
-  () => parseCanonicalSiteUrl('https://runcheckapp.com.example/runcheck-phone-diagnostics-og-image.webp', 'lookalike image URL'),
+  () => parseCanonicalSiteUrl('https://runcheckapp.com.example/runcheck-search-thumbnail.webp', 'lookalike image URL'),
   /canonical site/,
   'Canonical URL checks should reject lookalike hostnames.',
 );
 assert.throws(
-  () => parseCanonicalSiteUrl('/runcheck-phone-diagnostics-og-image.webp', 'relative image URL'),
+  () => parseCanonicalSiteUrl('/runcheck-search-thumbnail.webp', 'relative image URL'),
   /absolute URL/,
   'Canonical URL checks should reject relative URLs.',
 );
@@ -132,7 +132,7 @@ for (const file of htmlFiles) {
 
   assert.equal(metaByProp('og:image:type'), 'image/webp', `${url} should expose the Open Graph image type.`);
   assert.equal(metaByProp('og:image:width'), '1200', `${url} should expose the Open Graph image width.`);
-  assert.equal(metaByProp('og:image:height'), '630', `${url} should expose the Open Graph image height.`);
+  assert.equal(metaByProp('og:image:height'), '1200', `${url} should expose the Open Graph image height.`);
 
   for (const name of ['twitter:card', 'twitter:title', 'twitter:description', 'twitter:image', 'twitter:image:alt']) {
     assert.ok(metaByName(name), `${url} should include ${name}.`);
@@ -141,8 +141,8 @@ for (const file of htmlFiles) {
   parseCanonicalSiteUrl(metaByProp('og:image'), `${url} Open Graph image`);
   parseCanonicalSiteUrl(metaByName('twitter:image'), `${url} Twitter image`);
   assert.ok(
-    metaByProp('og:image').endsWith('/runcheck-phone-diagnostics-og-image.webp'),
-    `${url} should use the descriptive WebP Open Graph image.`,
+    metaByProp('og:image').endsWith('/runcheck-search-thumbnail.webp'),
+    `${url} should use the square runcheck search thumbnail image.`,
   );
   assert.equal(metaByName('twitter:image'), metaByProp('og:image'), `${url} Twitter image should match the Open Graph image.`);
   assert.ok(existsSync(distPathForPublicUrl(metaByProp('og:image'))), `${url} Open Graph image should resolve in dist.`);
@@ -155,7 +155,19 @@ for (const file of htmlFiles) {
     }
   }
   assert.ok(structuredTypes.has('WebSite'), `${url} should include WebSite JSON-LD.`);
+  assert.ok(structuredTypes.has('Organization'), `${url} should include Organization JSON-LD.`);
   assert.ok(structuredTypes.has('WebPage'), `${url} should include WebPage JSON-LD.`);
+  const webPageJsonLd = structuredData.find((item) => item['@type'] === 'WebPage');
+  assert.equal(
+    webPageJsonLd.image.url,
+    `${site}/runcheck-search-thumbnail.webp`,
+    `${url} WebPage JSON-LD should expose the search thumbnail image.`,
+  );
+  assert.equal(
+    webPageJsonLd.primaryImageOfPage.url,
+    `${site}/runcheck-search-thumbnail.webp`,
+    `${url} WebPage JSON-LD should mark the search thumbnail as primary.`,
+  );
   if (url === `${site}/`) {
     const appJsonLd = structuredData.find((item) => {
       const type = item['@type'];
@@ -164,6 +176,11 @@ for (const file of htmlFiles) {
 
     assert.ok(appJsonLd, `${url} should include runcheck SoftwareApplication JSON-LD.`);
     assert.equal(appJsonLd.name, 'runcheck', `${url} SoftwareApplication should name the app.`);
+    assert.equal(
+      appJsonLd.image,
+      `${site}/runcheck-search-thumbnail.webp`,
+      `${url} SoftwareApplication should expose the runcheck search thumbnail image.`,
+    );
     assert.equal(appJsonLd.operatingSystem, 'Android', `${url} SoftwareApplication should identify Android as the OS.`);
     assert.equal(
       appJsonLd.applicationCategory,
@@ -221,6 +238,7 @@ for (const icon of manifest.icons) {
 }
 
 for (const asset of [
+  'runcheck-search-thumbnail.webp',
   'runcheck-phone-diagnostics-og-image.webp',
   'apple-touch-icon.png',
   'runcheck-app-icon-192.webp',

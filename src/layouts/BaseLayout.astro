@@ -15,6 +15,7 @@ import {
   DEFAULT_SEO_IMAGE_WIDTH,
   SITE_NAME,
   THEME_COLOR,
+  buildOrganizationJsonLd,
   buildWebPageJsonLd,
   buildWebSiteJsonLd,
   serializeJsonLd,
@@ -47,6 +48,7 @@ const seoImageUrl = new URL(DEFAULT_SEO_IMAGE, site).toString();
 const extraJsonLd = Array.isArray(jsonLd) ? jsonLd : [jsonLd];
 const structuredData = [
   buildWebSiteJsonLd({ site }),
+  buildOrganizationJsonLd({ site }),
   buildWebPageJsonLd({ title, description, canonicalUrl, site }),
   ...extraJsonLd,
 ];

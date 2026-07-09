@@ -1,4 +1,4 @@
-import { SITE_NAME, absoluteUrl } from './seo.mjs';
+import { DEFAULT_SEO_IMAGE, SITE_NAME, absoluteUrl } from './seo.mjs';
 
 export const PRICING_TIERS = {
   US: {
@@ -300,6 +300,7 @@ export function buildRuncheckSoftwareApplicationJsonLd({ site }) {
     description:
       'runcheck checks Android battery, heat, network, storage, and device health signals. Pro is a one-time upgrade for longer history, widgets, exports, and deeper insights.',
     url: absoluteUrl('/', site),
+    image: absoluteUrl(DEFAULT_SEO_IMAGE, site),
     operatingSystem: 'Android',
     applicationCategory: 'UtilitiesApplication',
     offers: getStructuredOffers({ site }),
