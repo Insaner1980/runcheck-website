@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import path from 'node:path';
+import { GA4_MEASUREMENT_ID } from '../src/data/analytics.mjs';
 import { FALLBACK_PRICING_TIER, PRICING_TIERS, getStructuredOffers } from '../src/data/pricing.mjs';
 
 const root = 'dist';
@@ -55,6 +56,8 @@ const titleWarnings = [];
 const seenDescriptions = new Map();
 const seenTitles = new Map();
 
+assert.equal(GA4_MEASUREMENT_ID, 'G-4GJKG2Z3ZL', 'GA4 measurement ID should match the configured runcheck web stream.');
+
 function distPathForPublicUrl(publicUrl) {
   const parsed = parseCanonicalSiteUrl(publicUrl, publicUrl);
   return path.join(root, decodeURIComponent(parsed.pathname).replace(/^\/+/, ''));
@@ -93,6 +96,7 @@ for (const file of htmlFiles) {
   const url = pageUrl(file);
   const meta = tags(head, 'meta');
   const link = tags(head, 'link');
+  const scriptTags = tags(head, 'script');
   const imageTags = tags(html, 'img');
   const metaByName = (name) => meta.find((item) => item.attrs.name === name)?.attrs.content ?? '';
   const metaByProp = (property) => meta.find((item) => item.attrs.property === property)?.attrs.content ?? '';
@@ -125,6 +129,16 @@ for (const file of htmlFiles) {
   assert.equal(metaByProp('og:url'), url, `${url} og:url should match canonical.`);
   assert.equal(link.find((item) => item.attrs.rel === 'manifest')?.attrs.href, '/site.webmanifest', `${url} should link the web manifest.`);
   assert.equal(link.find((item) => item.attrs.rel === 'apple-touch-icon')?.attrs.href, '/apple-touch-icon.png', `${url} should link the Apple touch icon.`);
+  const googleTagScripts = scriptTags.filter((item) => item.attrs.src?.startsWith('https://www.googletagmanager.com/gtag/js'));
+  assert.equal(googleTagScripts.length, 1, `${url} should load the Google tag exactly once.`);
+  assert.match(googleTagScripts[0].tag, /\sasync(?:\s|>|=)/, `${url} Google tag script should load asynchronously.`);
+  assert.equal(
+    new URL(googleTagScripts[0].attrs.src).searchParams.get('id'),
+    GA4_MEASUREMENT_ID,
+    `${url} Google tag script should use the GA4 measurement ID.`,
+  );
+  assert.match(head, new RegExp(`ga4MeasurementId\\s*=\\s*["']${GA4_MEASUREMENT_ID}["']`), `${url} should inline the GA4 measurement ID.`);
+  assert.match(head, /window\.gtag\(["']config["']\s*,\s*ga4MeasurementId\)/, `${url} should configure GA4 once the tag is loaded.`);
 
   for (const property of ['og:site_name', 'og:locale', 'og:type', 'og:title', 'og:description', 'og:image', 'og:image:alt']) {
     assert.ok(metaByProp(property), `${url} should include ${property}.`);
