@@ -71,7 +71,7 @@ const seenTitles = new Map();
 assert.equal(GA4_MEASUREMENT_ID, 'G-4GJKG2Z3ZL', 'GA4 measurement ID should match the configured runcheck web stream.');
 assert.equal(
   CLOUDFLARE_WEB_ANALYTICS_TOKEN,
-  '3b61b056d0834a899a706c2583a33b97',
+  'dad3def149314f74bae698364e746fbd',
   'Cloudflare Web Analytics token should match the configured runcheck site.',
 );
 assert.equal(

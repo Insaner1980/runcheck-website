@@ -1,5 +1,5 @@
 export const GA4_MEASUREMENT_ID = 'G-4GJKG2Z3ZL';
-export const CLOUDFLARE_WEB_ANALYTICS_TOKEN = '3b61b056d0834a899a706c2583a33b97';
+export const CLOUDFLARE_WEB_ANALYTICS_TOKEN = 'dad3def149314f74bae698364e746fbd';
 export const CLOUDFLARE_WEB_ANALYTICS_SCRIPT_URL = 'https://static.cloudflareinsights.com/beacon.min.js';
 
 const GOOGLE_TAG_BASE_URL = 'https://www.googletagmanager.com/gtag/js';
