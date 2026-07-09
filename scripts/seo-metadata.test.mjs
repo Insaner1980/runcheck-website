@@ -233,6 +233,7 @@ for (const file of htmlFiles) {
 }
 
 const robots = readFileSync(path.join(root, 'robots.txt'), 'utf8');
+const headers = readFileSync(path.join(root, '_headers'), 'utf8');
 const redirects = readFileSync(path.join(root, '_redirects'), 'utf8');
 const sitemapIndex = readFileSync(path.join(root, 'sitemap-index.xml'), 'utf8');
 const sitemap = readFileSync(path.join(root, 'sitemap-0.xml'), 'utf8');
@@ -240,6 +241,16 @@ const manifest = JSON.parse(readFileSync(path.join(root, 'site.webmanifest'), 'u
 
 assert.match(robots, /^User-agent: \*\r?\nAllow: \//m, 'robots.txt should allow crawling.');
 assert.match(robots, /Sitemap: https:\/\/runcheckapp\.com\/sitemap-index\.xml/, 'robots.txt should point to the sitemap index.');
+assert.match(
+  headers,
+  /script-src[^;\r\n]*https:\/\/www\.googletagmanager\.com/,
+  'CSP should allow the Google tag script origin.',
+);
+assert.match(
+  headers,
+  /connect-src[^;\r\n]*https:\/\/www\.google-analytics\.com[^;\r\n]*https:\/\/region1\.google-analytics\.com/,
+  'CSP should allow GA4 collection endpoints.',
+);
 assert.match(redirects, /^\/sitemap\.xml\s+\/sitemap-index\.xml\s+301$/m, '/sitemap.xml should redirect to the generated sitemap index.');
 assert.match(sitemapIndex, /<loc>https:\/\/runcheckapp\.com\/sitemap-0\.xml<\/loc>/, 'sitemap index should point to the generated sitemap.');
 assert.equal((sitemap.match(/<loc>/g) ?? []).length, htmlFiles.length, 'sitemap should include every built HTML page.');
