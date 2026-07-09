@@ -1,7 +1,11 @@
 import assert from 'node:assert/strict';
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import path from 'node:path';
-import { GA4_MEASUREMENT_ID } from '../src/data/analytics.mjs';
+import {
+  CLOUDFLARE_WEB_ANALYTICS_SCRIPT_URL,
+  CLOUDFLARE_WEB_ANALYTICS_TOKEN,
+  GA4_MEASUREMENT_ID,
+} from '../src/data/analytics.mjs';
 import { FALLBACK_PRICING_TIER, PRICING_TIERS, getStructuredOffers } from '../src/data/pricing.mjs';
 
 const root = 'dist';
@@ -26,6 +30,14 @@ function parseAttrs(tag) {
     attrs[match[1].toLowerCase()] = match[3] ?? match[4] ?? match[5] ?? '';
   }
   return attrs;
+}
+
+function decodeHtmlAttribute(value) {
+  return value
+    .replaceAll('&quot;', '"')
+    .replaceAll('&#34;', '"')
+    .replaceAll('&#x22;', '"')
+    .replaceAll('&amp;', '&');
 }
 
 function tags(head, name) {
@@ -57,6 +69,16 @@ const seenDescriptions = new Map();
 const seenTitles = new Map();
 
 assert.equal(GA4_MEASUREMENT_ID, 'G-4GJKG2Z3ZL', 'GA4 measurement ID should match the configured runcheck web stream.');
+assert.equal(
+  CLOUDFLARE_WEB_ANALYTICS_TOKEN,
+  '3b61b056d0834a899a706c2583a33b97',
+  'Cloudflare Web Analytics token should match the configured runcheck site.',
+);
+assert.equal(
+  CLOUDFLARE_WEB_ANALYTICS_SCRIPT_URL,
+  'https://static.cloudflareinsights.com/beacon.min.js',
+  'Cloudflare Web Analytics should use the official beacon script URL.',
+);
 
 function distPathForPublicUrl(publicUrl) {
   const parsed = parseCanonicalSiteUrl(publicUrl, publicUrl);
@@ -139,6 +161,21 @@ for (const file of htmlFiles) {
   );
   assert.match(head, new RegExp(`ga4MeasurementId\\s*=\\s*["']${GA4_MEASUREMENT_ID}["']`), `${url} should inline the GA4 measurement ID.`);
   assert.match(head, /window\.gtag\(["']config["']\s*,\s*ga4MeasurementId\)/, `${url} should configure GA4 once the tag is loaded.`);
+  const cloudflareBeaconScripts = scriptTags.filter((item) => item.attrs.src === CLOUDFLARE_WEB_ANALYTICS_SCRIPT_URL);
+  assert.equal(cloudflareBeaconScripts.length, 1, `${url} should load Cloudflare Web Analytics exactly once.`);
+  assert.match(cloudflareBeaconScripts[0].tag, /\sdefer(?:\s|>|=)/, `${url} Cloudflare Web Analytics should defer loading.`);
+  assert.ok(
+    !('integrity' in cloudflareBeaconScripts[0].attrs),
+    `${url} Cloudflare Web Analytics should not use an integrity attribute.`,
+  );
+  const cloudflareBeaconConfig = JSON.parse(
+    decodeHtmlAttribute(cloudflareBeaconScripts[0].attrs['data-cf-beacon'] ?? ''),
+  );
+  assert.deepEqual(
+    cloudflareBeaconConfig,
+    { token: CLOUDFLARE_WEB_ANALYTICS_TOKEN },
+    `${url} Cloudflare Web Analytics should use the runcheck site token.`,
+  );
 
   for (const property of ['og:site_name', 'og:locale', 'og:type', 'og:title', 'og:description', 'og:image', 'og:image:alt']) {
     assert.ok(metaByProp(property), `${url} should include ${property}.`);
@@ -248,8 +285,18 @@ assert.match(
 );
 assert.match(
   headers,
+  /script-src[^;\r\n]*https:\/\/static\.cloudflareinsights\.com/,
+  'CSP should allow the Cloudflare Web Analytics script origin.',
+);
+assert.match(
+  headers,
   /connect-src[^;\r\n]*https:\/\/www\.google-analytics\.com[^;\r\n]*https:\/\/region1\.google-analytics\.com/,
   'CSP should allow GA4 collection endpoints.',
+);
+assert.match(
+  headers,
+  /connect-src[^;\r\n]*https:\/\/cloudflareinsights\.com/,
+  'CSP should allow the Cloudflare Web Analytics collection endpoint.',
 );
 assert.match(redirects, /^\/sitemap\.xml\s+\/sitemap-index\.xml\s+301$/m, '/sitemap.xml should redirect to the generated sitemap index.');
 assert.match(sitemapIndex, /<loc>https:\/\/runcheckapp\.com\/sitemap-0\.xml<\/loc>/, 'sitemap index should point to the generated sitemap.');

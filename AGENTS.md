@@ -10,7 +10,7 @@
 - The static search endpoint is `src/pages/articles/search-index.json.ts`; it emits `/articles/search-index.json` at build time from the `articles` content collection.
 - Regional pricing has one source of truth in `src/data/pricing.mjs`. `src/components/RegionalPrice.astro` renders Free and Pro price data attributes, and `src/layouts/BaseLayout.astro` uses Cloudflare `/cdn-cgi/trace` country detection cached in `sessionStorage` as `runcheck-pricing-country` to apply the matching tier. Do not add a manual country selector or browser-locale based price detection.
 - Homepage `SoftwareApplication` JSON-LD pricing offers must be built from `getStructuredOffers()` in `src/data/pricing.mjs` so visible regional prices and `eligibleRegion` structured data stay aligned.
-- Google Analytics 4 has one source of truth in `src/data/analytics.mjs`. `src/layouts/BaseLayout.astro` loads the Google tag once per page head from that module, and `public/_headers` must allow the Google tag script origin plus GA4 collection endpoints in CSP. Do not duplicate Measurement IDs or inline alternate analytics snippets elsewhere.
+- Analytics IDs and script URLs have one source of truth in `src/data/analytics.mjs`. `src/layouts/BaseLayout.astro` loads the Google tag and Cloudflare Web Analytics beacon once per page head from that module, and `public/_headers` must allow the Google/Cloudflare script origins plus collection endpoints in CSP. Do not duplicate Measurement IDs, Cloudflare Web Analytics tokens, or inline alternate analytics snippets elsewhere.
 
 ## Styling
 

@@ -5,7 +5,12 @@ import '@fontsource/jetbrains-mono/600.css';
 import '../styles/global.css';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
-import { GA4_MEASUREMENT_ID, buildGoogleTagScriptUrl } from '../data/analytics.mjs';
+import {
+  CLOUDFLARE_WEB_ANALYTICS_SCRIPT_URL,
+  GA4_MEASUREMENT_ID,
+  buildCloudflareWebAnalyticsBeaconConfig,
+  buildGoogleTagScriptUrl,
+} from '../data/analytics.mjs';
 import { COUNTRY_TO_PRICING_TIER, FALLBACK_PRICING_TIER } from '../data/pricing.mjs';
 import {
   DEFAULT_META_ROBOTS,
@@ -46,6 +51,7 @@ const {
 const site = Astro.site ?? new URL('https://runcheckapp.com');
 const canonicalUrl = new URL(canonicalPath, site).toString();
 const googleTagScriptUrl = buildGoogleTagScriptUrl();
+const cloudflareWebAnalyticsBeacon = buildCloudflareWebAnalyticsBeaconConfig();
 const seoImageUrl = new URL(DEFAULT_SEO_IMAGE, site).toString();
 const extraJsonLd = Array.isArray(jsonLd) ? jsonLd : [jsonLd];
 const structuredData = [
@@ -103,6 +109,11 @@ const structuredData = [
       window.gtag('config', ga4MeasurementId);
     </script>
     {structuredData.map((item) => <script type="application/ld+json" set:html={serializeJsonLd(item)} />)}
+    <script
+      defer
+      src={CLOUDFLARE_WEB_ANALYTICS_SCRIPT_URL}
+      data-cf-beacon={cloudflareWebAnalyticsBeacon}
+    ></script>
   </head>
   <body class="min-h-screen bg-run-bg text-run-text antialiased">
     <Header />
