@@ -1,7 +1,9 @@
 import assert from 'node:assert/strict';
 import { readFileSync, readdirSync } from 'node:fs';
 import path from 'node:path';
+import test from 'node:test';
 
+test('localized article content and routes', () => {
 const root = path.resolve('src/content/articles');
 const expectedCounts = { fi: 160, sv: 160, nb: 160, de: 160, da: 160 };
 const markdownFiles = (directory) => readdirSync(directory, { withFileTypes: true }).flatMap((entry) => entry.isDirectory() ? markdownFiles(path.join(directory, entry.name)) : entry.name.endsWith('.md') ? [path.join(directory, entry.name)] : []);
@@ -37,3 +39,4 @@ const routeChecks = [
 for (const [relative, marker] of routeChecks) assert.ok(readFileSync(path.resolve('dist', relative), 'utf8').includes(marker), `${relative} should be generated for its locale.`);
 
 console.log('localized-articles.test.mjs passed');
+});

@@ -195,63 +195,67 @@ const sourceNumberFromPath = (file) => {
   return Number(match[1]);
 };
 
-async function importArticles() {
-const candidates = getMarkdownFiles(sourceRoot).sort((a, b) => a.localeCompare(b));
-const sourceByNumber = new Map();
-for (const file of candidates) {
-  const sourceNumber = sourceNumberFromPath(file);
-  const existing = sourceByNumber.get(sourceNumber);
-  if (existing && (await readFile(existing, 'utf8')) !== (await readFile(file, 'utf8'))) {
-    throw new Error(`Article ${sourceNumber} has conflicting duplicate translations in ${sourceRoot}.`);
+async function collectSourceFiles() {
+  const sourceByNumber = new Map();
+  const candidates = getMarkdownFiles(sourceRoot).sort((a, b) => a.localeCompare(b));
+
+  for (const file of candidates) {
+    const sourceNumber = sourceNumberFromPath(file);
+    const existing = sourceByNumber.get(sourceNumber);
+    if (existing && (await readFile(existing, 'utf8')) !== (await readFile(file, 'utf8'))) {
+      throw new Error(`Article ${sourceNumber} has conflicting duplicate translations in ${sourceRoot}.`);
+    }
+    sourceByNumber.set(sourceNumber, existing ?? file);
   }
-  sourceByNumber.set(sourceNumber, existing ?? file);
-}
-const sourceFiles = [...sourceByNumber.values()].sort((a, b) => sourceNumberFromPath(a) - sourceNumberFromPath(b));
-const sourceNumbers = sourceFiles.map((file) => {
-  return sourceNumberFromPath(file);
-});
 
-const expectedNumbers = Array.from({ length: 160 }, (_, index) => index + 1);
-const allowedMissing = [];
-const actualMissing = expectedNumbers.filter((number) => !sourceByNumber.has(number));
-if (actualMissing.join(',') !== allowedMissing.join(',')) {
-  throw new Error(`Unexpected missing article numbers for ${locale}: ${actualMissing.join(',') || 'none'}.`);
+  return sourceByNumber;
 }
 
-if (!generatedRoot.startsWith(workspaceRoot)) {
-  throw new Error(`Refusing to write outside workspace: ${generatedRoot}`);
+function assertCompleteSourceSet(sourceByNumber) {
+  const expectedNumbers = Array.from({ length: 160 }, (_, index) => index + 1);
+  const actualMissing = expectedNumbers.filter((number) => !sourceByNumber.has(number));
+  if (actualMissing.length > 0) {
+    throw new Error(`Missing article numbers for ${locale}: ${actualMissing.join(',')}.`);
+  }
 }
 
-const existingArticleMetadata = new Map();
-if (existsSync(generatedRoot)) {
+async function readExistingArticleMetadata() {
+  const metadata = new Map();
+  if (!existsSync(generatedRoot)) {
+    return metadata;
+  }
+
   for (const generatedFile of getMarkdownFiles(generatedRoot)) {
     const { frontmatter } = stripFrontmatter(await readFile(generatedFile, 'utf8'));
     const sourceNumber = Number(parseFrontmatterString(frontmatter, 'sourceNumber'));
     const existingLocale = parseFrontmatterString(frontmatter, 'locale') || 'en';
-    const metaTitle = parseFrontmatterString(frontmatter, 'metaTitle');
-    const metaDescription = parseFrontmatterString(frontmatter, 'metaDescription');
-    const listSummary = parseFrontmatterString(frontmatter, 'listSummary');
     if (Number.isInteger(sourceNumber) && existingLocale === locale) {
-      existingArticleMetadata.set(sourceNumber, { listSummary, metaTitle, metaDescription });
+      metadata.set(sourceNumber, {
+        listSummary: parseFrontmatterString(frontmatter, 'listSummary'),
+        metaTitle: parseFrontmatterString(frontmatter, 'metaTitle'),
+        metaDescription: parseFrontmatterString(frontmatter, 'metaDescription'),
+      });
     }
   }
+
+  return metadata;
 }
 
-if (locale !== 'en') {
-  await rm(generatedRoot, { recursive: true, force: true });
-} else {
-  for (const hub of ARTICLE_HUBS) {
-    await rm(path.join(generatedRoot, hub.slug), { recursive: true, force: true });
+async function prepareGeneratedRoot() {
+  if (!generatedRoot.startsWith(workspaceRoot)) {
+    throw new Error(`Refusing to write outside workspace: ${generatedRoot}`);
   }
+
+  if (locale !== 'en') {
+    await rm(generatedRoot, { recursive: true, force: true });
+  } else {
+    await Promise.all(ARTICLE_HUBS.map((hub) => rm(path.join(generatedRoot, hub.slug), { recursive: true, force: true })));
+  }
+
+  await Promise.all(ARTICLE_HUBS.map((hub) => mkdir(path.join(generatedRoot, hub.slug), { recursive: true })));
 }
 
-for (const hub of ARTICLE_HUBS) {
-  await mkdir(path.join(generatedRoot, hub.slug), { recursive: true });
-}
-
-const generatedSlugs = new Set();
-
-for (const sourceFile of sourceFiles) {
+async function generateArticle(sourceFile, existingArticleMetadata, generatedSlugs) {
   const sourceName = path.basename(sourceFile);
   const sourceNumber = Number(sourceName.match(/^(\d+)-/)?.[1]);
   const hub = articleNumberToHub.get(sourceNumber);
@@ -320,6 +324,18 @@ for (const sourceFile of sourceFiles) {
 
   await writeFile(targetPath, normalized.endsWith('\n') ? normalized : `${normalized}\n`, 'utf8');
 }
+
+async function importArticles() {
+  const sourceByNumber = await collectSourceFiles();
+  assertCompleteSourceSet(sourceByNumber);
+  const existingArticleMetadata = await readExistingArticleMetadata();
+  await prepareGeneratedRoot();
+
+  const generatedSlugs = new Set();
+  const sourceFiles = [...sourceByNumber.values()].sort((a, b) => sourceNumberFromPath(a) - sourceNumberFromPath(b));
+  for (const sourceFile of sourceFiles) {
+    await generateArticle(sourceFile, existingArticleMetadata, generatedSlugs);
+  }
 }
 
 function localizedSeoSlug(title, locale, sourceNumber) {
@@ -339,24 +355,23 @@ function localizedSeoSlug(title, locale, sourceNumber) {
 
   const normalized = title
     .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .replace(/ß/g, 'ss')
-    .replace(/æ/g, 'ae')
-    .replace(/ø/g, 'o')
-    .replace(/(\d+)\s*%:ssa/g, '$1 prosentissa')
-    .replace(/(\d+)\s*%:iin/g, '$1 prosenttiin')
-    .replace(/%/g, ' prosenttia ')
-    .replace(/&/g, ' ja ')
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
+    .replaceAll(/[\u0300-\u036f]/g, '')
+    .replaceAll('ß', 'ss')
+    .replaceAll('æ', 'ae')
+    .replaceAll('ø', 'o')
+    .replaceAll('%:ssa', ' prosentissa')
+    .replaceAll('%:iin', ' prosenttiin')
+    .replaceAll('%', ' prosenttia ')
+    .replaceAll('&', ' ja ')
+    .toLowerCase();
+  const slug = normalized.split(/[^a-z0-9]/).filter(Boolean).join('-');
 
   const maxLength = 90;
-  if (normalized.length <= maxLength) {
-    return normalized;
+  if (slug.length <= maxLength) {
+    return slug;
   }
 
-  return normalized.slice(0, maxLength + 1).replace(/-[^-]*$/, '').replace(/-+$/, '');
+  return slug.slice(0, maxLength).split('-').slice(0, -1).join('-');
 }
 
 const TAG_TRANSLATIONS = {

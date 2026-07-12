@@ -1,4 +1,5 @@
-import { articleHubPath, ARTICLE_LOCALE_ROOTS } from './articlePaths.mjs';
+import { articleHubPath } from './articlePaths.mjs';
+export { ARTICLE_LOCALE_ROOTS } from './articlePaths.mjs';
 import { ARTICLE_HUBS } from './articleTaxonomy.mjs';
 
 export const ARTICLE_LOCALES = Object.freeze({
@@ -42,5 +43,3 @@ export const allArticleAlternates = (articles, sourceNumber) => {
   const english = alternates.find((item) => item.lang === 'en');
   return english ? [...alternates, { lang: 'x-default', path: english.path }] : alternates;
 };
-
-export { ARTICLE_LOCALE_ROOTS };
