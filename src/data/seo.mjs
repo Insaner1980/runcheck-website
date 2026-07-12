@@ -53,14 +53,14 @@ export function normalizeMetaDescription(description, { maxLength = DEFAULT_META
   return `${truncated}.`;
 }
 
-export function buildWebSiteJsonLd({ site }) {
+export function buildWebSiteJsonLd({ site, language = 'en' }) {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: SITE_NAME,
     url: absoluteUrl('/', site),
     image: absoluteUrl(DEFAULT_SEO_IMAGE, site),
-    inLanguage: 'en',
+    inLanguage: language,
   };
 }
 
@@ -75,7 +75,7 @@ export function buildOrganizationJsonLd({ site }) {
   };
 }
 
-export function buildWebPageJsonLd({ title, description, canonicalUrl, site }) {
+export function buildWebPageJsonLd({ title, description, canonicalUrl, site, language = 'en' }) {
   const image = buildDefaultImageObject(site);
 
   return {
@@ -91,7 +91,7 @@ export function buildWebPageJsonLd({ title, description, canonicalUrl, site }) {
       name: SITE_NAME,
       url: absoluteUrl('/', site),
     },
-    inLanguage: 'en',
+    inLanguage: language,
   };
 }
 

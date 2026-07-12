@@ -1,11 +1,15 @@
 ---
 import { Image } from 'astro:assets';
 import logo from '../assets/runcheck-logo.webp';
-import { ARTICLE_MENU_COLUMNS } from '../data/articleTaxonomy.mjs';
 import ArticleSearch from './ArticleSearch.astro';
+import { ARTICLE_LOCALES } from '../data/articleLocales.mjs';
 
+const { locale = 'en' } = Astro.props;
+const copy = ARTICLE_LOCALES[locale];
+const menuLabels = { open: copy.menu[0], close: copy.menu[1] };
 const navLinks = [
-  { href: '/#features', label: 'Features' },
+  { href: '/#features', label: copy.nav[0] },
+  { href: copy.root, label: copy.nav[1] },
 ];
 ---
 
@@ -28,7 +32,9 @@ const navLinks = [
         class="hero-nav-action hero-nav-icon-action group"
         aria-expanded="false"
         aria-controls="primary-nav"
-        aria-label="Open menu"
+        aria-label={menuLabels.open}
+        data-open-label={menuLabels.open}
+        data-close-label={menuLabels.close}
         data-nav-toggle
       >
         <svg class="size-6 group-aria-[expanded=true]:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
@@ -47,7 +53,7 @@ const navLinks = [
       id="primary-nav"
       data-primary-nav
       data-open="false"
-      aria-label="Primary navigation"
+      aria-label={copy.menu[2]}
       class:list={[
         'text-sm font-medium text-run-white',
         'absolute left-5 right-5 top-20 z-50 flex flex-col items-stretch gap-1.5 rounded-panel p-3',
@@ -64,154 +70,13 @@ const navLinks = [
         </a>
       ))}
 
-      <div class="articles-menu relative" data-articles-menu>
-        <button
-          id="articles-menu-button"
-          type="button"
-          class="hero-nav-action"
-          aria-expanded="false"
-          aria-controls="articles-menu-panel"
-          data-hero-nav-label="Articles"
-          data-articles-menu-button
-        >
-          <span class="hero-nav-label">Articles</span>
-          <span class="hero-nav-label-gradient" aria-hidden="true">Articles</span>
-        </button>
-
-        <div
-          id="articles-menu-panel"
-          class="hero-nav-panel pointer-events-none fixed inset-x-5 top-20 z-50 max-h-[calc(100vh-6rem)] overflow-y-auto rounded-panel p-5 opacity-0 -translate-y-1 data-[open=true]:pointer-events-auto data-[open=true]:translate-y-0 data-[open=true]:opacity-100 motion-safe:transition motion-safe:duration-150 motion-safe:ease-out motion-reduce:transition-none md:absolute md:inset-x-auto md:right-0 md:top-full md:mt-4 md:w-[64rem] md:max-w-[calc(100vw-2.5rem)] md:p-6"
-          data-articles-menu-panel
-          data-open="false"
-          aria-hidden="true"
-          aria-labelledby="articles-menu-button"
-          inert
-        >
-          <div class="grid grid-cols-1 gap-7 md:grid-cols-3 md:gap-8">
-            {ARTICLE_MENU_COLUMNS.map((group) => (
-              <section class="min-w-0" aria-labelledby={`articles-menu-${group.title.toLowerCase().replaceAll(/[^a-z0-9]+/g, '-')}`}>
-                <h2
-                  id={`articles-menu-${group.title.toLowerCase().replaceAll(/[^a-z0-9]+/g, '-')}`}
-                  class="mb-4 font-mono text-[0.7rem] font-medium uppercase tracking-[0.3em] text-run-white/45"
-                >
-                  {group.title}
-                </h2>
-
-                <ul class="grid gap-2.5" role="list">
-                  {group.hubs.map((item) => (
-                    <li>
-                      <a
-                        href={item.href}
-                        class="hero-nav-panel-link"
-                      >
-                        <span class="block text-base font-semibold leading-5 text-run-white">{item.title}</span>
-                        <span class="mt-1 block truncate text-xs leading-4 text-run-white/55">{item.description}</span>
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </section>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      <ArticleSearch variant="header" />
+      <ArticleSearch variant="header" locale={locale} />
     </nav>
 
   </div>
 </header>
 
 <script>
-  const articleMenus = document.querySelectorAll('[data-articles-menu]');
-
-  articleMenus.forEach((menu) => {
-    const button = menu.querySelector('[data-articles-menu-button]');
-    const panel = menu.querySelector('[data-articles-menu-panel]');
-
-    if (!(button instanceof HTMLButtonElement) || !(panel instanceof HTMLElement)) {
-      return;
-    }
-
-    let clickOpen = false;
-    let closeTimer;
-
-    const isOpen = () => button.getAttribute('aria-expanded') === 'true';
-
-    const setOpen = (open) => {
-      button.setAttribute('aria-expanded', String(open));
-      panel.dataset.open = String(open);
-      panel.setAttribute('aria-hidden', String(!open));
-
-      if (open) {
-        panel.removeAttribute('inert');
-        return;
-      }
-
-      panel.setAttribute('inert', '');
-    };
-
-    button.addEventListener('click', () => {
-      clickOpen = !clickOpen;
-      setOpen(clickOpen);
-    });
-
-    menu.addEventListener('pointerenter', (event) => {
-      if (event.pointerType === 'mouse') {
-        clearTimeout(closeTimer);
-        setOpen(true);
-      }
-    });
-
-    menu.addEventListener('pointerleave', (event) => {
-      if (event.pointerType !== 'mouse' || clickOpen || menu.contains(document.activeElement)) {
-        return;
-      }
-
-      // Pieni viive, jotta hiiri ehtii siirtyä napista paneeliin
-      closeTimer = setTimeout(() => setOpen(false), 180);
-    });
-
-    menu.addEventListener('focusin', () => {
-      setOpen(true);
-    });
-
-    menu.addEventListener('focusout', (event) => {
-      if (event.relatedTarget instanceof Node && menu.contains(event.relatedTarget)) {
-        return;
-      }
-
-      clickOpen = false;
-      setOpen(false);
-    });
-
-    panel.querySelectorAll('a').forEach((link) => {
-      link.addEventListener('click', () => {
-        clickOpen = false;
-        setOpen(false);
-      });
-    });
-
-    document.addEventListener('pointerdown', (event) => {
-      if (!(event.target instanceof Node) || menu.contains(event.target)) {
-        return;
-      }
-
-      clickOpen = false;
-      setOpen(false);
-    });
-
-    document.addEventListener('keydown', (event) => {
-      if (event.key !== 'Escape' || !isOpen()) {
-        return;
-      }
-
-      clickOpen = false;
-      button.focus();
-      setOpen(false);
-    });
-  });
-
   // Mobiilin hampurilaisvalikko: avaa/sulkee navigaatiopaneelin pienillä näytöillä
   const navToggle = document.querySelector('[data-nav-toggle]');
   const primaryNav = document.querySelector('[data-primary-nav]');
@@ -222,7 +87,7 @@ const navLinks = [
     const setNavOpen = (open) => {
       primaryNav.dataset.open = String(open);
       navToggle.setAttribute('aria-expanded', String(open));
-      navToggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      navToggle.setAttribute('aria-label', (open ? navToggle.dataset.closeLabel : navToggle.dataset.openLabel) ?? '');
 
       // Suljettu mobiilipaneeli ei saa olla näppäimistöllä tavoitettavissa,
       // mutta työpöydällä navi on aina aktiivinen.

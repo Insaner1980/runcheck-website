@@ -35,7 +35,9 @@ assert.match(source, /data-variant=/, 'root should expose the variant');
 assert.match(source, /data-article-search/, 'root should carry the search hook');
 
 assert.match(source, /data-search-toggle/, 'header variant needs a toggle button');
-assert.match(source, /aria-label="Search articles"/, 'toggle must be labelled');
+assert.match(source, /aria-label=\{labels\.search\}/, 'toggle must use the localized search label');
+assert.match(source, /Hae artikkeleita/, 'component should include a Finnish search label');
+assert.match(source, /data-index-url=/, 'each localized widget should expose its own search index URL');
 assert.match(source, /class="hero-nav-action hero-nav-icon-action"[\s\S]*data-search-toggle/, 'header search toggle should use the shared hero nav action treatment.');
 assert.match(source, /data-search-shell/, 'header search should expand as one shell');
 assert.match(source, /\bhero-nav-search-shell\b/, 'header search shell should use the shared open search surface.');

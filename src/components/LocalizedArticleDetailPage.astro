@@ -1,0 +1,27 @@
+---
+import { render } from 'astro:content';
+import ArticleCTA from './ArticleCTA.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { ARTICLE_LOCALES } from '../data/articleLocales.mjs';
+import { articlePath } from '../data/articlePaths.mjs';
+import { buildBreadcrumbJsonLd, normalizeMetaDescription } from '../data/seo.mjs';
+
+const { locale, article, hub, alternateLocales } = Astro.props;
+const { Content } = await render(article);
+const copy = ARTICLE_LOCALES[locale];
+const canonicalPath = articlePath(article.data.hub, article.id, locale);
+const site = Astro.site ?? new URL('https://runcheckapp.com');
+const breadcrumbJsonLd = buildBreadcrumbJsonLd([
+  { name: 'runcheck', path: '/' }, { name: copy.articles, path: copy.root }, { name: hub.title, path: hub.href }, { name: article.data.title, path: canonicalPath },
+], site);
+---
+
+<BaseLayout title={article.data.metaTitle ?? article.data.title} description={normalizeMetaDescription(article.data.metaDescription ?? article.data.description)} canonicalPath={canonicalPath} lang={locale} alternateLocales={alternateLocales} ogType="article" jsonLd={breadcrumbJsonLd}>
+  <article class="border-b border-run-border"><div class="article-page-shell article-page-shell-narrow article-detail-shell">
+    <a class="font-display text-xs font-normal uppercase tracking-normal text-run-cyan transition hover:text-run-text" href={hub.href}>{hub.title}</a>
+    <h1 class="mt-5 text-4xl font-semibold text-run-text sm:text-5xl">{article.data.title}</h1>
+    <p class="mt-5 text-lg text-run-muted">{article.data.description}</p>
+    <div class="prose prose-invert mt-10 max-w-none prose-a:text-run-cyan"><Content /></div>
+    <ArticleCTA locale={locale} />
+  </div></article>
+</BaseLayout>

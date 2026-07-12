@@ -123,6 +123,7 @@ for (const file of htmlFiles) {
   const metaByName = (name) => meta.find((item) => item.attrs.name === name)?.attrs.content ?? '';
   const metaByProp = (property) => meta.find((item) => item.attrs.property === property)?.attrs.content ?? '';
   const canonicalTags = link.filter((item) => item.attrs.rel === 'canonical');
+  const alternateTags = link.filter((item) => item.attrs.rel === 'alternate' && item.attrs.hreflang);
   const title = head.match(/<title>([\s\S]*?)<\/title>/i)?.[1]?.trim() ?? '';
   const description = metaByName('description');
   const structuredData = jsonLdItems(head);
@@ -148,6 +149,9 @@ for (const file of htmlFiles) {
   assert.equal(metaByName('theme-color'), '#030708', `${url} should expose the browser theme color.`);
   assert.equal(canonicalTags.length, 1, `${url} should have exactly one canonical link.`);
   assert.equal(canonicalTags[0].attrs.href, url, `${url} canonical should match the built URL.`);
+  const expectedLanguage = url.includes('/fi/') ? 'fi' : 'en';
+  assert.equal(html.match(/<html\b[^>]*\blang="([^"]+)"/i)?.[1], expectedLanguage, `${url} should expose the correct HTML language.`);
+  assert.equal(metaByProp('og:locale'), expectedLanguage === 'fi' ? 'fi_FI' : 'en_US', `${url} should expose the correct Open Graph locale.`);
   assert.equal(metaByProp('og:url'), url, `${url} og:url should match canonical.`);
   assert.equal(link.find((item) => item.attrs.rel === 'manifest')?.attrs.href, '/site.webmanifest', `${url} should link the web manifest.`);
   assert.equal(link.find((item) => item.attrs.rel === 'apple-touch-icon')?.attrs.href, '/apple-touch-icon.png', `${url} should link the Apple touch icon.`);
@@ -209,6 +213,7 @@ for (const file of htmlFiles) {
   assert.ok(structuredTypes.has('Organization'), `${url} should include Organization JSON-LD.`);
   assert.ok(structuredTypes.has('WebPage'), `${url} should include WebPage JSON-LD.`);
   const webPageJsonLd = structuredData.find((item) => item['@type'] === 'WebPage');
+  assert.equal(webPageJsonLd.inLanguage, expectedLanguage, `${url} WebPage JSON-LD should match the rendered language.`);
   assert.equal(
     webPageJsonLd.image.url,
     `${site}/runcheck-search-thumbnail.webp`,
@@ -264,8 +269,16 @@ for (const file of htmlFiles) {
   } else {
     assert.ok(!structuredTypes.has('SoftwareApplication'), `${url} should not duplicate homepage app pricing JSON-LD.`);
   }
-  if (url.includes('/articles/')) {
+  if (url.includes('/articles/') || url.includes('/fi/artikkelit/')) {
     assert.ok(structuredTypes.has('BreadcrumbList'), `${url} should include article breadcrumb JSON-LD.`);
+    assert.deepEqual(
+      alternateTags.map((item) => item.attrs.hreflang).sort(),
+      ['en', 'fi', 'x-default'],
+      `${url} should expose reciprocal English, Finnish, and default language alternatives.`,
+    );
+    for (const alternate of alternateTags) {
+      parseCanonicalSiteUrl(alternate.attrs.href, `${url} ${alternate.attrs.hreflang} alternate`);
+    }
   }
 }
 

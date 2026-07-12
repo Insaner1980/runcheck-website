@@ -1,12 +1,17 @@
 ---
 interface Props {
   variant?: 'header' | 'page';
+  locale?: 'en' | 'fi' | 'sv' | 'nb' | 'de' | 'da';
 }
 
-const { variant = 'header' } = Astro.props;
+import { ARTICLE_LOCALES } from '../data/articleLocales.mjs';
+const { variant = 'header', locale = 'en' } = Astro.props;
 const isHeader = variant === 'header';
-const inputId = `article-search-input-${variant}`;
-const resultsId = `article-search-results-${variant}`;
+const localeCopy = ARTICLE_LOCALES[locale];
+const inputId = `article-search-input-${locale}-${variant}`;
+const resultsId = `article-search-results-${locale}-${variant}`;
+const [search, close, results, noResults, unavailable] = localeCopy.search;
+const labels = { search, close, results, noResults, unavailable };
 ---
 
 <div
@@ -16,6 +21,9 @@ const resultsId = `article-search-results-${variant}`;
   ]}
   data-article-search
   data-variant={variant}
+  data-index-url={localeCopy.searchIndex}
+  data-no-results={labels.noResults}
+  data-search-unavailable={labels.unavailable}
 >
   <div
     class:list={[
@@ -39,7 +47,7 @@ const resultsId = `article-search-results-${variant}`;
         <button
           type="button"
           class="hero-nav-action hero-nav-icon-action"
-          aria-label="Search articles"
+          aria-label={labels.search}
           aria-expanded="false"
           aria-controls={inputId}
           data-search-toggle
@@ -55,7 +63,7 @@ const resultsId = `article-search-results-${variant}`;
           <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
         </svg>
       )}
-      <label class="sr-only" for={inputId}>Search articles</label>
+      <label class="sr-only" for={inputId}>{labels.search}</label>
       <input
         id={inputId}
         type="search"
@@ -65,7 +73,7 @@ const resultsId = `article-search-results-${variant}`;
             ? 'w-full flex-1 text-sm font-medium leading-5 text-run-white placeholder:text-run-white opacity-0 motion-safe:transition-opacity motion-safe:duration-150 motion-reduce:transition-none data-[open=true]:opacity-100'
             : 'w-full text-base text-run-text placeholder:text-run-muted',
         ]}
-        placeholder="Search articles"
+        placeholder={labels.search}
         autocomplete="off"
         role="combobox"
         aria-expanded="false"
@@ -79,7 +87,7 @@ const resultsId = `article-search-results-${variant}`;
         <button
           type="button"
           class="pointer-events-none hero-nav-inline-icon-action shrink-0 opacity-0 data-[open=true]:pointer-events-auto data-[open=true]:opacity-100 motion-safe:transition-opacity motion-safe:duration-150 motion-reduce:transition-none"
-          aria-label="Close search"
+          aria-label={labels.close}
           data-search-close
           data-open="false"
         >
@@ -103,7 +111,7 @@ const resultsId = `article-search-results-${variant}`;
       id={resultsId}
       class="search-results hero-nav-panel pointer-events-none absolute left-0 right-0 top-full z-50 mt-2 max-h-80 overflow-y-auto rounded-panel p-1.5 opacity-0 -translate-y-1 motion-safe:transition motion-safe:duration-150 motion-safe:ease-out motion-reduce:transition-none data-[open=true]:pointer-events-auto data-[open=true]:translate-y-0 data-[open=true]:opacity-100"
       role="listbox"
-      aria-label="Search results"
+      aria-label={labels.results}
       data-search-results
       data-open="false"
     ></ul>
@@ -113,10 +121,11 @@ const resultsId = `article-search-results-${variant}`;
 <script>
   import { searchArticles } from '../data/searchIndex.mjs';
 
-  let indexPromise = null;
+  const indexPromises = new Map();
 
-  const loadIndex = () => {
-    indexPromise ??= fetch('/articles/search-index.json')
+  const loadIndex = (indexUrl) => {
+    if (!indexPromises.has(indexUrl)) {
+      indexPromises.set(indexUrl, fetch(indexUrl)
       .then((response) => {
         if (!response.ok) {
           throw new Error(`Search index failed: ${response.status}`);
@@ -124,11 +133,12 @@ const resultsId = `article-search-results-${variant}`;
         return response.json();
       })
       .catch((error) => {
-        indexPromise = null;
+        indexPromises.delete(indexUrl);
         throw error;
-      });
+      }));
+    }
 
-    return indexPromise;
+    return indexPromises.get(indexUrl);
   };
 
   const widgets = document.querySelectorAll('[data-article-search]');
@@ -141,6 +151,9 @@ const resultsId = `article-search-results-${variant}`;
     const input = widget.querySelector('[data-search-input]');
     const underline = widget.querySelector('[data-search-underline]');
     const results = widget.querySelector('[data-search-results]');
+    const indexUrl = widget.getAttribute('data-index-url') || '/articles/search-index.json';
+    const noResultsLabel = widget.getAttribute('data-no-results') || 'No results';
+    const unavailableLabel = widget.getAttribute('data-search-unavailable') || 'Search unavailable';
 
     if (!(input instanceof HTMLInputElement) || !(field instanceof HTMLElement) || !(shell instanceof HTMLElement) || !(results instanceof HTMLElement)) {
       return;
@@ -222,7 +235,7 @@ const resultsId = `article-search-results-${variant}`;
           setResultsOpen(false);
           return;
         }
-        appendStatus('No results');
+        appendStatus(noResultsLabel);
         return;
       }
 
@@ -233,7 +246,7 @@ const resultsId = `article-search-results-${variant}`;
 
     const showSearchError = () => {
       current = [];
-      appendStatus('Search unavailable');
+      appendStatus(unavailableLabel);
     };
 
     const runQuery = async () => {
@@ -245,7 +258,7 @@ const resultsId = `article-search-results-${variant}`;
 
       try {
         if (index.length === 0) {
-          index = await loadIndex();
+          index = await loadIndex(indexUrl);
         }
         current = searchArticles(index, input.value);
         activeIndex = -1;
@@ -284,7 +297,7 @@ const resultsId = `article-search-results-${variant}`;
     };
 
     input.addEventListener('focus', () => {
-      void loadIndex().catch(() => undefined);
+      void loadIndex(indexUrl).catch(() => undefined);
       setUnderlineActive(true);
       if (input.value.trim() !== '') {
         void runQuery();
@@ -320,7 +333,7 @@ const resultsId = `article-search-results-${variant}`;
       toggle.addEventListener('click', () => {
         if (field.dataset.open !== 'true') {
           setFieldOpen(true);
-          void loadIndex().catch(() => undefined);
+          void loadIndex(indexUrl).catch(() => undefined);
         }
         input.focus();
       });

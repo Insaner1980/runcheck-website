@@ -1,0 +1,69 @@
+---
+import { getCollection, render } from 'astro:content';
+import ArticleCTA from '../../../../components/ArticleCTA.astro';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { articleHubBySlugFi } from '../../../../data/articleTaxonomy.fi.mjs';
+import { articlePath } from '../../../../data/articlePaths.mjs';
+import { allArticleAlternates } from '../../../../data/articleLocales.mjs';
+import { buildBreadcrumbJsonLd, normalizeMetaDescription } from '../../../../data/seo.mjs';
+
+export async function getStaticPaths() {
+  const allArticles = await getCollection('articles', ({ data }) => !data.draft);
+  const articles = allArticles.filter((article) => article.data.locale === 'fi');
+  return articles.map((article) => {
+    const hub = articleHubBySlugFi.get(article.data.hub);
+
+    return {
+      params: {
+        hub: hub.href.split('/').filter(Boolean).at(-1),
+        slug: article.id.split('/').at(-1),
+      },
+      props: {
+        article,
+        hub,
+        alternateLocales: allArticleAlternates(allArticles, article.data.sourceNumber),
+      },
+    };
+  });
+}
+
+const { article, hub, alternateLocales } = Astro.props;
+const { Content } = await render(article);
+const site = Astro.site ?? new URL('https://runcheckapp.com');
+const canonicalPath = articlePath(article.data.hub, article.id, 'fi');
+const metaTitle = article.data.metaTitle ?? article.data.title;
+const metaDescription = normalizeMetaDescription(article.data.metaDescription ?? article.data.description);
+const breadcrumbJsonLd = buildBreadcrumbJsonLd(
+  [
+    { name: 'runcheck', path: '/' },
+    { name: 'Artikkelit', path: '/fi/artikkelit/' },
+    { name: hub.title, path: hub.href },
+    { name: article.data.title, path: canonicalPath },
+  ],
+  site,
+);
+---
+
+<BaseLayout
+  title={metaTitle}
+  description={metaDescription}
+  canonicalPath={canonicalPath}
+  lang="fi"
+  alternateLocales={alternateLocales}
+  ogType="article"
+  jsonLd={breadcrumbJsonLd}
+>
+  <article class="border-b border-run-border">
+    <div class="article-page-shell article-page-shell-narrow article-detail-shell">
+      <a class="font-display text-xs font-normal uppercase tracking-normal text-run-cyan transition hover:text-run-text" href={hub.href}>
+        {hub.title}
+      </a>
+      <h1 class="mt-5 text-4xl font-semibold text-run-text sm:text-5xl">{article.data.title}</h1>
+      <p class="mt-5 text-lg text-run-muted">{article.data.description}</p>
+      <div class="prose prose-invert mt-10 max-w-none prose-a:text-run-cyan">
+        <Content />
+      </div>
+      <ArticleCTA locale="fi" />
+    </div>
+  </article>
+</BaseLayout>

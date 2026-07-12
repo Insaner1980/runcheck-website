@@ -5,6 +5,7 @@ import '@fontsource/jetbrains-mono/600.css';
 import '../styles/global.css';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
+import { ARTICLE_LOCALES } from '../data/articleLocales.mjs';
 import {
   CLOUDFLARE_WEB_ANALYTICS_SCRIPT_URL,
   GA4_MEASUREMENT_ID,
@@ -37,6 +38,8 @@ interface Props {
   imageAlt?: string;
   jsonLd?: JsonLd | JsonLd[];
   metaRobots?: string;
+  lang?: 'en' | 'fi' | 'sv' | 'nb' | 'de' | 'da';
+  alternateLocales?: Array<{ lang: string; path: string }>;
 }
 
 const {
@@ -47,6 +50,8 @@ const {
   imageAlt = DEFAULT_SEO_IMAGE_ALT,
   jsonLd = [],
   metaRobots = DEFAULT_META_ROBOTS,
+  lang = 'en',
+  alternateLocales = [],
 } = Astro.props;
 const site = Astro.site ?? new URL('https://runcheckapp.com');
 const canonicalUrl = new URL(canonicalPath, site).toString();
@@ -54,16 +59,17 @@ const googleTagScriptUrl = buildGoogleTagScriptUrl();
 const cloudflareWebAnalyticsBeacon = buildCloudflareWebAnalyticsBeaconConfig();
 const seoImageUrl = new URL(DEFAULT_SEO_IMAGE, site).toString();
 const extraJsonLd = Array.isArray(jsonLd) ? jsonLd : [jsonLd];
+const ogLocale = ARTICLE_LOCALES[lang].og;
 const structuredData = [
-  buildWebSiteJsonLd({ site }),
+  buildWebSiteJsonLd({ site, language: lang }),
   buildOrganizationJsonLd({ site }),
-  buildWebPageJsonLd({ title, description, canonicalUrl, site }),
+  buildWebPageJsonLd({ title, description, canonicalUrl, site, language: lang }),
   ...extraJsonLd,
 ];
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={lang}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -79,9 +85,15 @@ const structuredData = [
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
     <link rel="manifest" href="/site.webmanifest" />
     <link rel="canonical" href={canonicalUrl} />
+    {alternateLocales.map((alternate) => (
+      <link rel="alternate" hreflang={alternate.lang} href={new URL(alternate.path, site).toString()} />
+    ))}
     <link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
     <meta property="og:site_name" content={SITE_NAME} />
-    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale" content={ogLocale} />
+    {alternateLocales.filter((alternate) => alternate.lang !== lang).map((alternate) => (
+      <meta property="og:locale:alternate" content={ARTICLE_LOCALES[alternate.lang]?.og ?? 'en_US'} />
+    ))}
     <meta property="og:type" content={ogType} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
@@ -116,11 +128,11 @@ const structuredData = [
     ></script>
   </head>
   <body class="min-h-screen bg-run-bg text-run-text antialiased">
-    <Header />
+    <Header locale={lang} />
     <main>
       <slot />
     </main>
-    <Footer />
+    <Footer locale={lang} />
     <script
       define:vars={{
         countryToPricingTier: COUNTRY_TO_PRICING_TIER,

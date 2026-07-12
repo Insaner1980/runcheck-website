@@ -1,14 +1,14 @@
 import { articlePath } from './articlePaths.mjs';
 
-export function buildSearchIndex(entries) {
+export function buildSearchIndex(entries, { locale = 'en', hubTitles = new Map() } = {}) {
   return entries
     .filter((entry) => !entry.data.draft)
     .map((entry) => ({
       title: entry.data.title,
       description: entry.data.description,
-      hub: entry.data.hub,
+      hub: hubTitles.get(entry.data.hub) ?? entry.data.hub,
       tags: entry.data.tags ?? [],
-      url: articlePath(entry.data.hub, entry.id),
+      url: articlePath(entry.data.hub, entry.id, locale),
     }));
 }
 

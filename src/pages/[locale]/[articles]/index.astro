@@ -1,0 +1,13 @@
+---
+import { getCollection } from 'astro:content';
+import ArticleIndexPage from '../../../components/ArticleIndexPage.astro';
+import { ARTICLE_LOCALES, localizedHubs } from '../../../data/articleLocales.mjs';
+
+export async function getStaticPaths() {
+  const locales = ['sv', 'nb', 'de', 'da'];
+  const all = await getCollection('articles', ({ data }) => !data.draft);
+  return locales.map((locale) => ({ params: { locale, articles: ARTICLE_LOCALES[locale].root.split('/').filter(Boolean)[1] }, props: { locale, hubs: localizedHubs(locale), articles: all.filter((item) => item.data.locale === locale).sort((a, b) => a.data.sourceNumber - b.data.sourceNumber) } }));
+}
+const { locale, hubs, articles } = Astro.props;
+---
+<ArticleIndexPage locale={locale} hubs={hubs} articles={articles} />
