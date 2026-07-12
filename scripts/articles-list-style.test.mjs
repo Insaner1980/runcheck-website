@@ -3,7 +3,7 @@ import { readFileSync } from 'node:fs';
 
 const files = [
   ['Hub article list', 'src/pages/articles/[hub].astro'],
-  ['Articles index list', 'src/pages/articles/index.astro'],
+  ['Articles index list', 'src/components/ArticleIndexPage.astro'],
 ];
 
 for (const [name, file] of files) {
@@ -78,7 +78,8 @@ assert.match(
   /title=\{metaTitle\}/,
   'Article detail metadata should use the optional shorter meta title.',
 );
-assert.doesNotMatch(articleDetailSource, /article\.data\.sourceNumber/, 'Article detail pages should not render source article numbers.');
+const articleDetailTemplate = articleDetailSource.split(/^---\s*$/m).at(-1) ?? '';
+assert.doesNotMatch(articleDetailTemplate, /article\.data\.sourceNumber/, 'Article detail templates should not render source article numbers.');
 assert.ok(articleCardInteractiveBlock, 'Article list cards should define a shared hover and focus-visible block.');
 assert.doesNotMatch(cssBlockFor('.article-list-link'), /transform:/, 'Article list cards should not move in their base state.');
 assert.doesNotMatch(articleCardInteractiveBlock, /transform:/, 'Article list cards should stay simple without hover movement.');

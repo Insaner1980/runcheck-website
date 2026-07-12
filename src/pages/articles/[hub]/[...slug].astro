@@ -4,11 +4,12 @@ import ArticleCTA from '../../../components/ArticleCTA.astro';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { articleHubBySlug } from '../../../data/articleTaxonomy.mjs';
 import { articlePath } from '../../../data/articlePaths.mjs';
+import { allArticleAlternates } from '../../../data/articleLocales.mjs';
 import { buildBreadcrumbJsonLd, normalizeMetaDescription } from '../../../data/seo.mjs';
 
 export async function getStaticPaths() {
-  const articles = await getCollection('articles', ({ data }) => !data.draft);
-
+  const allArticles = await getCollection('articles', ({ data }) => !data.draft);
+  const articles = allArticles.filter((article) => article.data.locale === 'en');
   return articles.map((article) => {
     const [hub, ...slugParts] = article.id.split('/');
 
@@ -17,12 +18,13 @@ export async function getStaticPaths() {
       props: {
         article,
         hub: articleHubBySlug.get(article.data.hub),
+        alternateLocales: allArticleAlternates(allArticles, article.data.sourceNumber),
       },
     };
   });
 }
 
-const { article, hub } = Astro.props;
+const { article, hub, alternateLocales } = Astro.props;
 const { Content } = await render(article);
 const site = Astro.site ?? new URL('https://runcheckapp.com');
 const canonicalPath = articlePath(article.data.hub, article.id);
@@ -43,6 +45,7 @@ const breadcrumbJsonLd = buildBreadcrumbJsonLd(
   title={metaTitle}
   description={metaDescription}
   canonicalPath={canonicalPath}
+  alternateLocales={alternateLocales}
   ogType="article"
   jsonLd={breadcrumbJsonLd}
 >

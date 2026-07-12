@@ -1,0 +1,19 @@
+---
+import { getCollection } from 'astro:content';
+import LocalizedArticleDetailPage from '../../../../components/LocalizedArticleDetailPage.astro';
+import { allArticleAlternates, ARTICLE_LOCALES, localizedHubs } from '../../../../data/articleLocales.mjs';
+
+export async function getStaticPaths() {
+  const locales = ['sv', 'nb', 'de', 'da'];
+  const all = await getCollection('articles', ({ data }) => !data.draft);
+  return locales.flatMap((locale) => {
+    const hubs = new Map(localizedHubs(locale).map((hub) => [hub.slug, hub]));
+    return all.filter((item) => item.data.locale === locale).map((article) => {
+      const hub = hubs.get(article.data.hub);
+      return { params: { locale, articles: ARTICLE_LOCALES[locale].root.split('/').filter(Boolean)[1], hub: hub.href.split('/').filter(Boolean).at(-1), slug: article.id.split('/').at(-1) }, props: { locale, article, hub, alternateLocales: allArticleAlternates(all, article.data.sourceNumber) } };
+    });
+  });
+}
+const { locale, article, hub, alternateLocales } = Astro.props;
+---
+<LocalizedArticleDetailPage locale={locale} article={article} hub={hub} alternateLocales={alternateLocales} />

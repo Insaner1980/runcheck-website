@@ -5,7 +5,9 @@ import path from 'node:path';
 import { ARTICLE_HUBS, articleNumberToHub } from '../src/data/articleTaxonomy.mjs';
 
 const sourceRoot = 'C:/Users/emmah/Documents/ObsidianVault/Projects/Active/runcheck/artikkelit/Valmiit';
+const finnishSourceRoot = 'C:/Users/emmah/Documents/ObsidianVault/Projects/Active/runcheck/artikkelit/fi-FI';
 const generatedRoot = 'src/content/articles';
+const finnishGeneratedRoot = path.join(generatedRoot, 'fi');
 
 const getMarkdownFiles = (root) =>
   readdirSync(root, { withFileTypes: true }).flatMap((entry) => {
@@ -67,7 +69,13 @@ const sourceNumberFromPath = (file) => {
 
 const sourceFiles = getMarkdownFiles(sourceRoot).sort((a, b) => sourceNumberFromPath(a) - sourceNumberFromPath(b));
 const generatedFiles = existsSync(generatedRoot)
-  ? getMarkdownFiles(generatedRoot).sort((a, b) => a.localeCompare(b, 'en'))
+  ? getMarkdownFiles(generatedRoot)
+      .filter((file) => !path.relative(generatedRoot, file).replaceAll('\\', '/').startsWith('fi/'))
+      .sort((a, b) => a.localeCompare(b, 'en'))
+  : [];
+const finnishSourceFiles = getMarkdownFiles(finnishSourceRoot).sort((a, b) => sourceNumberFromPath(a) - sourceNumberFromPath(b));
+const finnishGeneratedFiles = existsSync(finnishGeneratedRoot)
+  ? getMarkdownFiles(finnishGeneratedRoot).sort((a, b) => a.localeCompare(b, 'fi'))
   : [];
 
 const sourceNumbers = sourceFiles.map(sourceNumberFromPath);
@@ -103,6 +111,8 @@ for (const hub of ARTICLE_HUBS) {
 }
 
 assert.equal(generatedFiles.length, 160, 'The generated content collection should contain exactly 160 articles.');
+assert.equal(finnishSourceFiles.length, 160, 'The Finnish source folder should contain exactly 160 articles.');
+assert.equal(finnishGeneratedFiles.length, 160, 'The generated Finnish content collection should contain exactly 160 articles.');
 
 const missingListSummaries = [];
 
@@ -151,6 +161,37 @@ for (const sourceFile of sourceFiles) {
 }
 
 assert.deepEqual(missingListSummaries, [], 'Every article should define listSummary before hub pages fall back to SEO descriptions.');
+
+const finnishSourceNumbers = [];
+const finnishTitles = new Set();
+const finnishSlugs = new Set();
+
+for (const generatedFile of finnishGeneratedFiles) {
+  const { data, body } = parseFrontmatter(readFileSync(generatedFile, 'utf8'));
+  const relativePath = path.relative(finnishGeneratedRoot, generatedFile).replaceAll('\\', '/');
+  const [hub, fileName] = relativePath.split('/');
+  const slug = fileName.replace(/\.md$/, '');
+
+  finnishSourceNumbers.push(data.sourceNumber);
+  assert.equal(data.locale, 'fi', `${relativePath} should be marked as Finnish.`);
+  assert.equal(data.hub, hub, `${relativePath} should stay under its shared internal hub key.`);
+  assert.equal(typeof data.listSummary, 'string', `${relativePath} should define a concise Finnish card summary.`);
+  assert.ok(data.listSummary.length > 0 && data.listSummary.length <= 72, `${relativePath} Finnish card summary should stay concise.`);
+  assert.match(slug, /^[a-z0-9]+(?:-[a-z0-9]+)*$/, `${relativePath} should use a readable ASCII hyphen slug.`);
+  assert.ok(slug.length <= 90, `${relativePath} should keep its SEO slug concise.`);
+  assert.ok(!finnishTitles.has(data.title), `${relativePath} should have a unique Finnish title.`);
+  assert.ok(!finnishSlugs.has(`${hub}/${slug}`), `${relativePath} should have a unique Finnish route slug.`);
+  assert.doesNotMatch(body, /^#\s/m, `${relativePath} should not keep the copied H1.`);
+  assert.doesNotMatch(body, /Meta description:/i, `${relativePath} should not render a copied meta description line.`);
+  finnishTitles.add(data.title);
+  finnishSlugs.add(`${hub}/${slug}`);
+}
+
+assert.deepEqual(
+  finnishSourceNumbers.sort((a, b) => a - b),
+  Array.from({ length: 160 }, (_, index) => index + 1),
+  'Finnish generated articles should preserve source numbers 1-160 exactly once.',
+);
 
 assert.ok(existsSync('src/pages/articles/[hub].astro'), 'Hub pages should be generated through src/pages/articles/[hub].astro.');
 assert.ok(existsSync('src/pages/articles/[hub]/[...slug].astro'), 'Article detail pages should be generated through src/pages/articles/[hub]/[...slug].astro.');

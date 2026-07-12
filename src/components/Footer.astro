@@ -1,8 +1,11 @@
 ---
 import { Image } from 'astro:assets';
 import logo from '../assets/runcheck-logo.webp';
+import { ARTICLE_LOCALES } from '../data/articleLocales.mjs';
 
 const year = new Date().getFullYear();
+const { locale = 'en' } = Astro.props;
+const copy = ARTICLE_LOCALES[locale];
 ---
 
 <footer class="site-footer bg-run-bg">
@@ -12,10 +15,10 @@ const year = new Date().getFullYear();
       <span class="text-base lowercase leading-none font-semibold text-run-text">runcheck</span>
     </a>
 
-    <nav class="footer-nav flex flex-col items-center gap-4 sm:flex-row sm:gap-9" aria-label="Footer navigation">
-      <a href="/#features">Features</a>
-      <a href="/articles/">Articles</a>
-      <a href="mailto:contact@finnvek.com">Contact</a>
+    <nav class="footer-nav flex flex-col items-center gap-4 sm:flex-row sm:gap-9" aria-label={copy.menu[3]}>
+      <a href="/#features">{copy.nav[0]}</a>
+      <a href={copy.root}>{copy.nav[1]}</a>
+      <a href="mailto:contact@finnvek.com">{copy.nav[2]}</a>
     </nav>
 
     <p class="footer-copyright md:justify-self-end">&copy; {year} runcheck</p>

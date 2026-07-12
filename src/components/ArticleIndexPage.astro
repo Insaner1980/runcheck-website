@@ -1,0 +1,130 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { articlePath } from '../data/articlePaths.mjs';
+import { buildBreadcrumbJsonLd } from '../data/seo.mjs';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleCTA from './ArticleCTA.astro';
+import ArticleSearch from './ArticleSearch.astro';
+import { ARTICLE_LOCALES } from '../data/articleLocales.mjs';
+
+interface ArticleHub {
+  slug: string;
+  title: string;
+  href: string;
+  description: string;
+}
+
+interface Props {
+  locale: 'en' | 'fi' | 'sv' | 'nb' | 'de' | 'da';
+  articles: CollectionEntry<'articles'>[];
+  hubs: ArticleHub[];
+}
+
+const { locale, articles, hubs } = Astro.props;
+const isFinnish = locale === 'fi';
+const localizedCopy = {
+  sv: { eyebrow: 'Artiklar', heading: 'Android-guider och praktiska svar.', intro: 'Tydliga svenska guider om batteri, laddning, värme, anslutningar, lagring, prestanda och telefonens skick.', metaTitle: 'Android-guider och praktiska svar', metaDescription: 'Svenska guider om Android-telefoners batteri, laddning, värme, nätverk, lagring, prestanda och hälsokontroller.', categoriesLabel: 'Artikelkategorier', viewMore: (count: number) => `Visa ${count} till`, breadcrumb: 'Artiklar' },
+  nb: { eyebrow: 'Artikler', heading: 'Android-guider og praktiske svar.', intro: 'Tydelige norske guider om batteri, lading, varme, tilkoblinger, lagring, ytelse og telefonens tilstand.', metaTitle: 'Android-guider og praktiske svar', metaDescription: 'Norske guider om Android-telefoners batteri, lading, varme, nettverk, lagring, ytelse og helsesjekker.', categoriesLabel: 'Artikkelkategorier', viewMore: (count: number) => `Vis ${count} til`, breadcrumb: 'Artikler' },
+  de: { eyebrow: 'Artikel', heading: 'Android-Ratgeber und praktische Antworten.', intro: 'Klare deutsche Ratgeber zu Akku, Laden, Wärme, Verbindungen, Speicher, Leistung und Gerätezustand.', metaTitle: 'Android-Ratgeber und praktische Antworten', metaDescription: 'Deutsche Ratgeber zu Android-Akku, Laden, Temperatur, Netzwerk, Speicher, Leistung und Gerätezustand.', categoriesLabel: 'Artikelkategorien', viewMore: (count: number) => `${count} weitere anzeigen`, breadcrumb: 'Artikel' },
+  da: { eyebrow: 'Artikler', heading: 'Android-guides og praktiske svar.', intro: 'Klare danske guides om batteri, opladning, varme, forbindelser, lagerplads, ydeevne og telefonens tilstand.', metaTitle: 'Android-guides og praktiske svar', metaDescription: 'Danske guides om Android-telefoners batteri, opladning, varme, netværk, lagerplads, ydeevne og tilstandstjek.', categoriesLabel: 'Artikelkategorier', viewMore: (count: number) => `Vis ${count} mere`, breadcrumb: 'Artikler' },
+};
+const copy = isFinnish
+  ? {
+      eyebrow: 'Artikkelit',
+      heading: 'Android-oppaat ja käytännön vastaukset.',
+      intro: 'Selkeät suomenkieliset oppaat puhelimen akun, lataamisen, kuumenemisen, yhteyksien, tallennustilan, suorituskyvyn ja kunnon selvittämiseen.',
+      metaTitle: 'Android-oppaat ja käytännön vastaukset',
+      metaDescription: 'Suomenkieliset oppaat Android-puhelimen akusta, lataamisesta, kuumenemisesta, verkkoyhteyksistä, tallennustilasta, suorituskyvystä ja kuntotarkistuksista.',
+      categoriesLabel: 'Artikkelien aihealueet',
+      viewMore: (count: number) => `Näytä ${count} lisää`,
+      canonicalPath: '/fi/artikkelit/',
+      breadcrumb: 'Artikkelit',
+    }
+  : locale === 'en' ? {
+      eyebrow: 'Articles',
+      heading: 'Android phone guides and practical answers.',
+      intro: 'Clear guides for understanding your phone\'s battery, charging, heat, connections, storage, performance, hardware, software, and overall condition.',
+      metaTitle: 'Android phone guides and practical answers',
+      metaDescription: 'Articles about Android battery, charging, thermal, network, storage, performance, hardware, software, and device health checks.',
+      categoriesLabel: 'Article categories',
+      viewMore: (count: number) => `View ${count} more`,
+      canonicalPath: '/articles/',
+      breadcrumb: 'Articles',
+    } : { ...localizedCopy[locale], canonicalPath: ARTICLE_LOCALES[locale].root };
+const site = Astro.site ?? new URL('https://runcheckapp.com');
+const breadcrumbJsonLd = buildBreadcrumbJsonLd(
+  [
+    { name: 'runcheck', path: '/' },
+    { name: copy.breadcrumb, path: copy.canonicalPath },
+  ],
+  site,
+);
+---
+
+<BaseLayout
+  title={copy.metaTitle}
+  description={copy.metaDescription}
+  canonicalPath={copy.canonicalPath}
+  lang={locale}
+  alternateLocales={[
+    ...Object.values(ARTICLE_LOCALES).map((item) => ({ lang: item.lang, path: item.root })),
+    { lang: 'x-default', path: '/articles/' },
+  ]}
+  jsonLd={breadcrumbJsonLd}
+>
+  <section class="article-index-hero border-b border-run-border">
+    <div class="article-page-shell article-page-shell-wide">
+      <p class="article-index-eyebrow">{copy.eyebrow}</p>
+      <h1 class="article-index-heading">{copy.heading}</h1>
+      <p class="article-index-intro">{copy.intro}</p>
+      <div class="article-index-search">
+        <ArticleSearch variant="page" locale={locale} />
+      </div>
+      <nav class="article-category-nav" aria-label={copy.categoriesLabel}>
+        {hubs.map((hub) => (
+          <a class="article-category-link" href={`#${hub.slug}`}>{hub.title}</a>
+        ))}
+      </nav>
+    </div>
+  </section>
+
+  <div class="article-index-sections">
+    {hubs.map((hub) => {
+      const hubArticles = articles.filter((article) => article.data.hub === hub.slug);
+      const featuredArticles = hubArticles.slice(0, 3);
+      const remainingCount = hubArticles.length - featuredArticles.length;
+
+      return (
+        <section class="article-index-section border-b border-run-border" id={hub.slug}>
+          <div class="article-page-shell article-page-shell-wide article-index-section-shell">
+            <header class="article-index-section-header">
+              <div>
+                <h2 class="article-index-section-title">{hub.title}</h2>
+                <p class="article-index-section-description">{hub.description}</p>
+              </div>
+              {remainingCount > 0 && (
+                <a class="article-index-more-link" href={hub.href}>
+                  {copy.viewMore(remainingCount)} <span aria-hidden="true">→</span>
+                </a>
+              )}
+            </header>
+            <ul class="article-link-list" role="list">
+              {featuredArticles.map((article) => (
+                <li>
+                  <a class="article-list-link" href={articlePath(article.data.hub, article.id, locale)}>
+                    <span class="article-list-title">{article.data.title}</span>
+                    <span class="article-list-description">{article.data.listSummary ?? article.data.description}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      );
+    })}
+  </div>
+
+  <div class="article-page-shell article-page-shell-wide article-index-cta-shell">
+    <ArticleCTA includeGuidesLink={false} locale={locale} />
+  </div>
+</BaseLayout>

@@ -28,6 +28,7 @@ const articles = defineCollection({
     order: z.number().int().min(1),
     subgroup: z.string().optional(),
     tags: z.array(z.string()).default([]),
+    locale: z.enum(['en', 'fi', 'sv', 'nb', 'de', 'da']).default('en'),
     draft: z.boolean().default(false),
   }),
 });

@@ -1,21 +1,40 @@
 ---
 interface Props {
   includeGuidesLink?: boolean;
+  locale?: 'en' | 'fi' | 'sv' | 'nb' | 'de' | 'da';
 }
 
-const { includeGuidesLink = true } = Astro.props;
+import { ARTICLE_LOCALES } from '../data/articleLocales.mjs';
+const { includeGuidesLink = true, locale = 'en' } = Astro.props;
+const ctaCopy = {
+  en: ["Turn symptoms into a clearer picture of your phone's health.", 'runcheck connects battery, heat, signal, and storage patterns so you can see what is really dragging a phone down.', 'runcheck next steps', 'See what runcheck checks', 'Browse more guides'],
+  fi: ['Muodosta oireista selkeä kokonaiskuva puhelimesi kunnosta.', 'runcheck yhdistää akun, lämmön, signaalin ja tallennustilan havainnot, jotta näet, mikä puhelinta todella hidastaa.', 'runcheckin seuraavat vaiheet', 'Katso, mitä runcheck tarkistaa', 'Selaa muita oppaita'],
+  sv: ['Gör symtomen till en tydligare bild av telefonens hälsa.', 'runcheck kopplar samman mönster för batteri, värme, signal och lagring så att du ser vad som faktiskt bromsar telefonen.', 'Nästa steg med runcheck', 'Se vad runcheck kontrollerar', 'Bläddra bland fler guider'],
+  nb: ['Gjør symptomene om til et tydeligere bilde av telefonens helse.', 'runcheck kobler sammen mønstre for batteri, varme, signal og lagring, slik at du ser hva som faktisk holder telefonen tilbake.', 'Neste trinn med runcheck', 'Se hva runcheck sjekker', 'Se flere guider'],
+  de: ['Mach aus den Symptomen ein klareres Bild vom Zustand deines Smartphones.', 'runcheck verknüpft Muster bei Akku, Wärme, Signal und Speicher, damit du erkennst, was dein Smartphone wirklich ausbremst.', 'Nächste Schritte mit runcheck', 'Das prüft runcheck', 'Weitere Ratgeber ansehen'],
+  da: ['Få et tydeligere billede af telefonens tilstand ud fra symptomerne.', 'runcheck samler mønstre for batteri, varme, signal og lagerplads, så du kan se, hvad der faktisk holder telefonen tilbage.', 'Næste trin med runcheck', 'Se, hvad runcheck kontrollerer', 'Se flere guides'],
+};
+const copy = ctaCopy[locale];
 ---
 
 <section class="article-cta" aria-labelledby="article-cta-title">
   <div class="article-cta-copy-block">
-    <h2 id="article-cta-title" class="article-cta-title">Turn symptoms into a clearer picture of your phone's health.</h2>
+    <h2 id="article-cta-title" class="article-cta-title">
+      {copy[0]}
+    </h2>
     <p class="article-cta-copy">
-      runcheck connects battery, heat, signal, and storage patterns so you can see what is really dragging a phone down.
+      {copy[1]}
     </p>
   </div>
 
-  <div class="cta-actions article-cta-actions" aria-label="runcheck next steps">
-    <a class="cta-action cta-action-primary article-cta-action" href="/#features">See what runcheck checks</a>
-    {includeGuidesLink && <a class="cta-action cta-action-secondary article-cta-action" href="/articles/">Browse more guides</a>}
+  <div class="cta-actions article-cta-actions" aria-label={copy[2]}>
+    <a class="cta-action cta-action-primary article-cta-action" href="/#features">
+      {copy[3]}
+    </a>
+    {includeGuidesLink && (
+      <a class="cta-action cta-action-secondary article-cta-action" href={ARTICLE_LOCALES[locale].root}>
+        {copy[4]}
+      </a>
+    )}
   </div>
 </section>

@@ -1,59 +1,10 @@
 ---
 import { getCollection } from 'astro:content';
-import ArticleCTA from '../../components/ArticleCTA.astro';
-import ArticleSearch from '../../components/ArticleSearch.astro';
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleIndexPage from '../../components/ArticleIndexPage.astro';
 import { ARTICLE_HUBS } from '../../data/articleTaxonomy.mjs';
-import { articlePath } from '../../data/articlePaths.mjs';
-import { buildBreadcrumbJsonLd } from '../../data/seo.mjs';
 
-const articles = (await getCollection('articles', ({ data }) => !data.draft)).sort((a, b) => a.data.sourceNumber - b.data.sourceNumber);
-const site = Astro.site ?? new URL('https://runcheckapp.com');
-const breadcrumbJsonLd = buildBreadcrumbJsonLd(
-  [
-    { name: 'runcheck', path: '/' },
-    { name: 'Articles', path: '/articles/' },
-  ],
-  site,
-);
+const articles = (await getCollection('articles', ({ data }) => !data.draft && data.locale === 'en'))
+  .sort((a, b) => a.data.sourceNumber - b.data.sourceNumber);
 ---
 
-<BaseLayout
-  title="runcheck articles"
-  description="Articles about Android battery, charging, thermal, network, storage, performance, hardware, software, and device health checks."
-  canonicalPath="/articles/"
-  jsonLd={breadcrumbJsonLd}
->
-  <section class="border-b border-run-border">
-    <div class="article-page-shell article-page-shell-wide">
-      <h1 class="max-w-3xl text-4xl font-semibold text-run-text sm:text-5xl">runcheck articles</h1>
-      <div class="mt-8">
-        <ArticleSearch variant="page" />
-      </div>
-      <div class="mt-10 grid gap-12">
-        {ARTICLE_HUBS.map((hub) => {
-          const hubArticles = articles.filter((article) => article.data.hub === hub.slug);
-
-          return (
-            <section>
-              <a class="text-2xl font-semibold text-run-text transition hover:text-run-cyan" href={`/articles/${hub.slug}/`}>
-                {hub.title}
-              </a>
-              <p class="mt-2 text-run-muted">{hub.description}</p>
-              <ul class="article-link-list" role="list">
-                {hubArticles.map((article) => (
-                  <li>
-                    <a class="article-list-link" href={articlePath(article.data.hub, article.id)}>
-                      {article.data.title}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </section>
-          );
-        })}
-      </div>
-      <ArticleCTA includeGuidesLink={false} />
-    </div>
-  </section>
-</BaseLayout>
+<ArticleIndexPage locale="en" articles={articles} hubs={ARTICLE_HUBS} />
