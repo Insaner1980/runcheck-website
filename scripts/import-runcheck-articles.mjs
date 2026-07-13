@@ -8,7 +8,7 @@ import { ARTICLE_HUBS, articleNumberToHub } from '../src/data/articleTaxonomy.mj
 const localeArg = process.argv.find((argument) => argument.startsWith('--locale='));
 const locale = localeArg?.split('=')[1] ?? 'en';
 const LOCALE_SOURCES = Object.freeze({
-  en: 'Valmiit', fi: 'fi-FI', sv: 'sv-SE', nb: 'nb-NO', de: 'de-DE', da: 'da-DK',
+  en: 'Valmiit', fi: 'fi-FI', sv: 'sv-SE', nb: 'nb-NO', de: 'de-DE', da: 'da-DK', fr: 'fr-FR',
 });
 if (!Object.hasOwn(LOCALE_SOURCES, locale)) {
   throw new Error(`Unsupported article locale: ${locale}`);
@@ -348,6 +348,7 @@ function localizedSeoSlug(title, locale, sourceNumber) {
     nb: { 113: 'android-servicekoder-etter-merke-hvilke-fungerer-fortsatt' },
     de: { 113: 'android-servicecodes-nach-marke-welche-noch-funktionieren' },
     da: { 113: 'android-servicekoder-efter-maerke-hvilke-virker-stadig' },
+    fr: { 113: 'codes-de-maintenance-android-par-marque' },
   };
   if (slugOverrides[locale]?.[sourceNumber]) {
     return slugOverrides[locale][sourceNumber];
@@ -358,11 +359,12 @@ function localizedSeoSlug(title, locale, sourceNumber) {
     .replaceAll(/[\u0300-\u036f]/g, '')
     .replaceAll('ß', 'ss')
     .replaceAll('æ', 'ae')
+    .replaceAll('œ', 'oe')
     .replaceAll('ø', 'o')
     .replaceAll('%:ssa', ' prosentissa')
     .replaceAll('%:iin', ' prosenttiin')
-    .replaceAll('%', ' prosenttia ')
-    .replaceAll('&', ' ja ')
+    .replaceAll('%', locale === 'fr' ? ' pour cent ' : ' prosenttia ')
+    .replaceAll('&', locale === 'fr' ? ' et ' : ' ja ')
     .toLowerCase();
   const slug = normalized.split(/[^a-z0-9]/).filter(Boolean).join('-');
 
@@ -380,6 +382,7 @@ const TAG_TRANSLATIONS = {
   nb: { apps:'apper', article:'artikkel', battery:'batteri', 'battery-tech':'batteriteknologi', 'brand-specific':'merkespesifikt', 'buying-guide':'kjøpsguide', calibration:'kalibrering', charging:'lading', cleanup:'opprydding', comparison:'sammenligning', connectivity:'tilkobling', damage:'skader', debunking:'myteknusing', diagnostics:'diagnostikk', drain:'strømforbruk', education:'guide', facts:'fakta', guide:'guide', hardware:'maskinvare', health:'helse', malware:'skadevare', manufacturer:'produsent', myths:'myter', network:'nettverk', optimization:'optimalisering', performance:'ytelse', permissions:'tillatelser', privacy:'personvern', repair:'reparasjon', review:'anmeldelse', science:'vitenskap', security:'sikkerhet', sensors:'sensorer', software:'programvare', speed:'hastighet', storage:'lagring', temperature:'temperatur', testing:'testing', thermal:'varme', tips:'tips', troubleshooting:'feilsøking', updates:'oppdateringer', value:'verdi' },
   de: { apps:'apps', article:'artikel', battery:'akku', 'battery-tech':'akkutechnik', 'brand-specific':'markenspezifisch', 'buying-guide':'kaufratgeber', calibration:'kalibrierung', charging:'laden', cleanup:'bereinigung', comparison:'vergleich', connectivity:'verbindungen', damage:'schaden', debunking:'mythencheck', diagnostics:'diagnose', drain:'akkuverbrauch', education:'ratgeber', facts:'fakten', guide:'ratgeber', hardware:'hardware', health:'zustand', malware:'schadsoftware', manufacturer:'hersteller', myths:'mythen', network:'netzwerk', optimization:'optimierung', performance:'leistung', permissions:'berechtigungen', privacy:'datenschutz', repair:'reparatur', review:'test', science:'wissenschaft', security:'sicherheit', sensors:'sensoren', software:'software', speed:'geschwindigkeit', storage:'speicher', temperature:'temperatur', testing:'testen', thermal:'warme', tips:'tipps', troubleshooting:'fehlerbehebung', updates:'updates', value:'wert' },
   da: { apps:'apps', article:'artikel', battery:'batteri', 'battery-tech':'batteriteknologi', 'brand-specific':'mærkespecifikt', 'buying-guide':'købsguide', calibration:'kalibrering', charging:'opladning', cleanup:'oprydning', comparison:'sammenligning', connectivity:'forbindelser', damage:'skader', debunking:'myteaflivning', diagnostics:'diagnostik', drain:'strømforbrug', education:'guide', facts:'fakta', guide:'guide', hardware:'hardware', health:'tilstand', malware:'malware', manufacturer:'producent', myths:'myter', network:'netværk', optimization:'optimering', performance:'ydeevne', permissions:'tilladelser', privacy:'privatliv', repair:'reparation', review:'anmeldelse', science:'videnskab', security:'sikkerhed', sensors:'sensorer', software:'software', speed:'hastighed', storage:'lagerplads', temperature:'temperatur', testing:'test', thermal:'varme', tips:'tips', troubleshooting:'fejlfinding', updates:'opdateringer', value:'værdi' },
+  fr: { apps:'applications', article:'article', battery:'batterie', 'battery-tech':'technologie-des-batteries', 'brand-specific':'specifique-a-la-marque', 'buying-guide':'guide-d-achat', calibration:'calibrage', charging:'recharge', cleanup:'nettoyage', comparison:'comparaison', connectivity:'connectivite', damage:'dommages', debunking:'demystification', diagnostics:'diagnostic', drain:'consommation', education:'guide', facts:'faits', guide:'guide', hardware:'materiel', health:'etat', malware:'logiciels-malveillants', manufacturer:'fabricant', myths:'mythes', network:'reseau', optimization:'optimisation', performance:'performances', permissions:'autorisations', privacy:'confidentialite', repair:'reparation', review:'test', science:'science', security:'securite', sensors:'capteurs', software:'logiciel', speed:'vitesse', storage:'stockage', temperature:'temperature', testing:'test', thermal:'thermique', tips:'conseils', troubleshooting:'depannage', updates:'mises-a-jour', value:'valeur' },
 };
 
 function localizeTags(tags, locale) {

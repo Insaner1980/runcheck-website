@@ -1,12 +1,11 @@
 ---
 import { getCollection } from 'astro:content';
 import LocalizedArticleDetailPage from '../../../../components/LocalizedArticleDetailPage.astro';
-import { allArticleAlternates, ARTICLE_LOCALES, localizedHubs } from '../../../../data/articleLocales.mjs';
+import { allArticleAlternates, ARTICLE_LOCALES, LOCALIZED_ARTICLE_LOCALES, localizedHubs } from '../../../../data/articleLocales.mjs';
 
 export async function getStaticPaths() {
-  const locales = ['sv', 'nb', 'de', 'da'];
   const all = await getCollection('articles', ({ data }) => !data.draft);
-  return locales.flatMap((locale) => {
+  return LOCALIZED_ARTICLE_LOCALES.flatMap((locale) => {
     const hubs = new Map(localizedHubs(locale).map((hub) => [hub.slug, hub]));
     return all.filter((item) => item.data.locale === locale).map((article) => {
       const hub = hubs.get(article.data.hub);

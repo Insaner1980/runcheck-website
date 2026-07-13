@@ -1,7 +1,7 @@
 ---
 interface Props {
   includeGuidesLink?: boolean;
-  locale?: 'en' | 'fi' | 'sv' | 'nb' | 'de' | 'da';
+  locale?: 'en' | 'fi' | 'sv' | 'nb' | 'de' | 'da' | 'fr';
 }
 
 import { ARTICLE_LOCALES } from '../data/articleLocales.mjs';
@@ -13,6 +13,7 @@ const ctaCopy = {
   nb: ['Gjør symptomene om til et tydeligere bilde av telefonens helse.', 'runcheck kobler sammen mønstre for batteri, varme, signal og lagring, slik at du ser hva som faktisk holder telefonen tilbake.', 'Neste trinn med runcheck', 'Se hva runcheck sjekker', 'Se flere guider'],
   de: ['Mach aus den Symptomen ein klareres Bild vom Zustand deines Smartphones.', 'runcheck verknüpft Muster bei Akku, Wärme, Signal und Speicher, damit du erkennst, was dein Smartphone wirklich ausbremst.', 'Nächste Schritte mit runcheck', 'Das prüft runcheck', 'Weitere Ratgeber ansehen'],
   da: ['Få et tydeligere billede af telefonens tilstand ud fra symptomerne.', 'runcheck samler mønstre for batteri, varme, signal og lagerplads, så du kan se, hvad der faktisk holder telefonen tilbage.', 'Næste trin med runcheck', 'Se, hvad runcheck kontrollerer', 'Se flere guides'],
+  fr: ['Transformez les symptômes en une vision plus claire de l’état de votre téléphone.', 'runcheck relie les signaux de la batterie, de la température, du réseau et du stockage pour vous montrer ce qui ralentit vraiment votre téléphone.', 'Les prochaines étapes avec runcheck', 'Voir ce que runcheck vérifie', 'Parcourir d’autres guides'],
 };
 const copy = ctaCopy[locale];
 ---

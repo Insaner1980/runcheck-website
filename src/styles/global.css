@@ -773,6 +773,10 @@ a {
   text-transform: uppercase;
 }
 
+.hero-line-main .hero-title-line {
+  font-size: clamp(2.55rem, 1.06rem + 4.8vw, 5.1rem);
+}
+
 /* REAL: käännetty laatta - tummat kirjaimet metalliliukupohjalla */
 .hero-real-outline {
   display: inline-block;
