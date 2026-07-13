@@ -20,10 +20,11 @@ export const LOCALIZED_ARTICLE_HUB_SLUGS = Object.freeze({
   nb: { battery: 'batteri', charging: 'lading', thermal: 'varme', network: 'nettverk', storage: 'lagring', performance: 'ytelse', hardware: 'maskinvare', software: 'programvare', 'physical-damage': 'fysiske-skader', 'device-health': 'enhetshelse', 'buying-selling': 'kjop-og-salg', myths: 'myter', brands: 'merkeguider' },
   de: { battery: 'akku', charging: 'laden', thermal: 'temperatur', network: 'netzwerk', storage: 'speicher', performance: 'leistung', hardware: 'hardware', software: 'software', 'physical-damage': 'physische-schaden', 'device-health': 'geratezustand', 'buying-selling': 'kaufen-und-verkaufen', myths: 'mythen', brands: 'markenratgeber' },
   da: { battery: 'batteri', charging: 'opladning', thermal: 'varme', network: 'netvaerk', storage: 'lagerplads', performance: 'ydeevne', hardware: 'hardware', software: 'software', 'physical-damage': 'fysiske-skader', 'device-health': 'enhedstilstand', 'buying-selling': 'kob-og-salg', myths: 'myter', brands: 'maerkeguides' },
+  fr: { battery: 'batterie', charging: 'recharge', thermal: 'temperature', network: 'reseau', storage: 'stockage', performance: 'performances', hardware: 'materiel-et-capteurs', software: 'logiciel-et-mises-a-jour', 'physical-damage': 'dommages-physiques', 'device-health': 'etat-de-l-appareil', 'buying-selling': 'achat-et-revente', myths: 'mythes', brands: 'guides-par-marque' },
 });
 
 export const ARTICLE_LOCALE_ROOTS = Object.freeze({
-  en: '/articles/', fi: '/fi/artikkelit/', sv: '/sv/artiklar/', nb: '/nb/artikler/', de: '/de/artikel/', da: '/da/artikler/',
+  en: '/articles/', fi: '/fi/artikkelit/', sv: '/sv/artiklar/', nb: '/nb/artikler/', de: '/de/artikel/', da: '/da/artikler/', fr: '/fr/articles/',
 });
 
 export const articleHubPath = (hub, locale = 'en') => {
