@@ -29,6 +29,7 @@ import {
 } from '../data/seo.mjs';
 
 type JsonLd = Record<string, unknown>;
+type ArticleLocale = keyof typeof ARTICLE_LOCALES;
 
 interface Props {
   title: string;
@@ -38,7 +39,7 @@ interface Props {
   imageAlt?: string;
   jsonLd?: JsonLd | JsonLd[];
   metaRobots?: string;
-  lang?: 'en' | 'fi' | 'sv' | 'nb' | 'de' | 'da';
+  lang?: ArticleLocale;
   alternateLocales?: Array<{ lang: string; path: string }>;
 }
 

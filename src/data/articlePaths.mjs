@@ -21,10 +21,11 @@ export const LOCALIZED_ARTICLE_HUB_SLUGS = Object.freeze({
   de: { battery: 'akku', charging: 'laden', thermal: 'temperatur', network: 'netzwerk', storage: 'speicher', performance: 'leistung', hardware: 'hardware', software: 'software', 'physical-damage': 'physische-schaden', 'device-health': 'geratezustand', 'buying-selling': 'kaufen-und-verkaufen', myths: 'mythen', brands: 'markenratgeber' },
   da: { battery: 'batteri', charging: 'opladning', thermal: 'varme', network: 'netvaerk', storage: 'lagerplads', performance: 'ydeevne', hardware: 'hardware', software: 'software', 'physical-damage': 'fysiske-skader', 'device-health': 'enhedstilstand', 'buying-selling': 'kob-og-salg', myths: 'myter', brands: 'maerkeguides' },
   fr: { battery: 'batterie', charging: 'recharge', thermal: 'temperature', network: 'reseau', storage: 'stockage', performance: 'performances', hardware: 'materiel-et-capteurs', software: 'logiciel-et-mises-a-jour', 'physical-damage': 'dommages-physiques', 'device-health': 'etat-de-l-appareil', 'buying-selling': 'achat-et-revente', myths: 'mythes', brands: 'guides-par-marque' },
+  es: { battery: 'bateria', charging: 'carga', thermal: 'temperatura', network: 'redes', storage: 'almacenamiento', performance: 'rendimiento', hardware: 'hardware-y-sensores', software: 'software-y-actualizaciones', 'physical-damage': 'danos-fisicos', 'device-health': 'estado-del-dispositivo', 'buying-selling': 'compra-y-venta', myths: 'mitos', brands: 'guias-por-marca' },
 });
 
 export const ARTICLE_LOCALE_ROOTS = Object.freeze({
-  en: '/articles/', fi: '/fi/artikkelit/', sv: '/sv/artiklar/', nb: '/nb/artikler/', de: '/de/artikel/', da: '/da/artikler/', fr: '/fr/articles/',
+  en: '/articles/', fi: '/fi/artikkelit/', sv: '/sv/artiklar/', nb: '/nb/artikler/', de: '/de/artikel/', da: '/da/artikler/', fr: '/fr/articles/', es: '/es/articulos/',
 });
 
 export const articleHubPath = (hub, locale = 'en') => {

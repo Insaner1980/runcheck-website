@@ -1,10 +1,12 @@
 ---
+import { ARTICLE_LOCALES } from '../data/articleLocales.mjs';
+
+type ArticleLocale = keyof typeof ARTICLE_LOCALES;
+
 interface Props {
   includeGuidesLink?: boolean;
-  locale?: 'en' | 'fi' | 'sv' | 'nb' | 'de' | 'da' | 'fr';
+  locale?: ArticleLocale;
 }
-
-import { ARTICLE_LOCALES } from '../data/articleLocales.mjs';
 const { includeGuidesLink = true, locale = 'en' } = Astro.props;
 const ctaCopy = {
   en: ["Turn symptoms into a clearer picture of your phone's health.", 'runcheck connects battery, heat, signal, and storage patterns so you can see what is really dragging a phone down.', 'runcheck next steps', 'See what runcheck checks', 'Browse more guides'],
@@ -14,6 +16,7 @@ const ctaCopy = {
   de: ['Mach aus den Symptomen ein klareres Bild vom Zustand deines Smartphones.', 'runcheck verknüpft Muster bei Akku, Wärme, Signal und Speicher, damit du erkennst, was dein Smartphone wirklich ausbremst.', 'Nächste Schritte mit runcheck', 'Das prüft runcheck', 'Weitere Ratgeber ansehen'],
   da: ['Få et tydeligere billede af telefonens tilstand ud fra symptomerne.', 'runcheck samler mønstre for batteri, varme, signal og lagerplads, så du kan se, hvad der faktisk holder telefonen tilbage.', 'Næste trin med runcheck', 'Se, hvad runcheck kontrollerer', 'Se flere guides'],
   fr: ['Transformez les symptômes en une vision plus claire de l’état de votre téléphone.', 'runcheck relie les signaux de la batterie, de la température, du réseau et du stockage pour vous montrer ce qui ralentit vraiment votre téléphone.', 'Les prochaines étapes avec runcheck', 'Voir ce que runcheck vérifie', 'Parcourir d’autres guides'],
+  es: ['Convierte los síntomas en una imagen más clara del estado de tu teléfono.', 'runcheck relaciona los patrones de batería, temperatura, señal y almacenamiento para mostrarte qué está frenando realmente tu teléfono.', 'Próximos pasos con runcheck', 'Descubre qué comprueba runcheck', 'Ver más guías'],
 };
 const copy = ctaCopy[locale];
 ---

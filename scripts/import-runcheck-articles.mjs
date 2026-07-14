@@ -8,7 +8,7 @@ import { ARTICLE_HUBS, articleNumberToHub } from '../src/data/articleTaxonomy.mj
 const localeArg = process.argv.find((argument) => argument.startsWith('--locale='));
 const locale = localeArg?.split('=')[1] ?? 'en';
 const LOCALE_SOURCES = Object.freeze({
-  en: 'Valmiit', fi: 'fi-FI', sv: 'sv-SE', nb: 'nb-NO', de: 'de-DE', da: 'da-DK', fr: 'fr-FR',
+  en: 'Valmiit', fi: 'fi-FI', sv: 'sv-SE', nb: 'nb-NO', de: 'de-DE', da: 'da-DK', fr: 'fr-FR', es: 'es-ES',
 });
 if (!Object.hasOwn(LOCALE_SOURCES, locale)) {
   throw new Error(`Unsupported article locale: ${locale}`);
@@ -349,11 +349,13 @@ function localizedSeoSlug(title, locale, sourceNumber) {
     de: { 113: 'android-servicecodes-nach-marke-welche-noch-funktionieren' },
     da: { 113: 'android-servicekoder-efter-maerke-hvilke-virker-stadig' },
     fr: { 113: 'codes-de-maintenance-android-par-marque' },
+    es: { 113: 'codigos-de-mantenimiento-android-por-marca' },
   };
   if (slugOverrides[locale]?.[sourceNumber]) {
     return slugOverrides[locale][sourceNumber];
   }
 
+  const slugWords = SEO_SLUG_WORDS[locale] ?? SEO_SLUG_WORDS.en;
   const normalized = title
     .normalize('NFD')
     .replaceAll(/[\u0300-\u036f]/g, '')
@@ -363,8 +365,8 @@ function localizedSeoSlug(title, locale, sourceNumber) {
     .replaceAll('ø', 'o')
     .replaceAll('%:ssa', ' prosentissa')
     .replaceAll('%:iin', ' prosenttiin')
-    .replaceAll('%', locale === 'fr' ? ' pour cent ' : ' prosenttia ')
-    .replaceAll('&', locale === 'fr' ? ' et ' : ' ja ')
+    .replaceAll('%', ` ${slugWords.percent} `)
+    .replaceAll('&', ` ${slugWords.and} `)
     .toLowerCase();
   const slug = normalized.split(/[^a-z0-9]/).filter(Boolean).join('-');
 
@@ -376,6 +378,17 @@ function localizedSeoSlug(title, locale, sourceNumber) {
   return slug.slice(0, maxLength).split('-').slice(0, -1).join('-');
 }
 
+const SEO_SLUG_WORDS = Object.freeze({
+  en: { percent: 'percent', and: 'and' },
+  fi: { percent: 'prosenttia', and: 'ja' },
+  sv: { percent: 'procent', and: 'och' },
+  nb: { percent: 'prosent', and: 'og' },
+  de: { percent: 'prozent', and: 'und' },
+  da: { percent: 'procent', and: 'og' },
+  fr: { percent: 'pour cent', and: 'et' },
+  es: { percent: 'por ciento', and: 'y' },
+});
+
 const TAG_TRANSLATIONS = {
   fi: { apps:'sovellukset', article:'artikkeli', battery:'akku', 'battery-tech':'akkutekniikka', 'brand-specific':'merkkikohtainen', 'buying-guide':'osto-opas', calibration:'kalibrointi', charging:'lataaminen', cleanup:'siivous', comparison:'vertailu', connectivity:'yhteydet', damage:'vauriot', debunking:'myytinmurtaminen', diagnostics:'diagnostiikka', drain:'virrankulutus', education:'opas', facts:'faktat', guide:'opas', hardware:'laitteisto', health:'kunto', malware:'haittaohjelmat', manufacturer:'valmistaja', myths:'myytit', network:'verkko', optimization:'optimointi', performance:'suorituskyky', permissions:'käyttöoikeudet', privacy:'yksityisyys', repair:'korjaaminen', review:'arvostelu', science:'tiede', security:'tietoturva', sensors:'anturit', software:'ohjelmisto', speed:'nopeus', storage:'tallennustila', temperature:'lämpötila', testing:'testaus', thermal:'kuumeneminen', tips:'vinkit', troubleshooting:'vianetsintä', updates:'päivitykset', value:'arvo' },
   sv: { apps:'appar', article:'artikel', battery:'batteri', 'battery-tech':'batteriteknik', 'brand-specific':'märkesspecifikt', 'buying-guide':'köpguide', calibration:'kalibrering', charging:'laddning', cleanup:'rensning', comparison:'jämförelse', connectivity:'anslutningar', damage:'skador', debunking:'mytgranskning', diagnostics:'diagnostik', drain:'batteriförbrukning', education:'guide', facts:'fakta', guide:'guide', hardware:'hårdvara', health:'hälsa', malware:'skadlig-programvara', manufacturer:'tillverkare', myths:'myter', network:'nätverk', optimization:'optimering', performance:'prestanda', permissions:'behörigheter', privacy:'integritet', repair:'reparation', review:'recension', science:'vetenskap', security:'säkerhet', sensors:'sensorer', software:'programvara', speed:'hastighet', storage:'lagring', temperature:'temperatur', testing:'testning', thermal:'värme', tips:'tips', troubleshooting:'felsökning', updates:'uppdateringar', value:'värde' },
@@ -383,6 +396,7 @@ const TAG_TRANSLATIONS = {
   de: { apps:'apps', article:'artikel', battery:'akku', 'battery-tech':'akkutechnik', 'brand-specific':'markenspezifisch', 'buying-guide':'kaufratgeber', calibration:'kalibrierung', charging:'laden', cleanup:'bereinigung', comparison:'vergleich', connectivity:'verbindungen', damage:'schaden', debunking:'mythencheck', diagnostics:'diagnose', drain:'akkuverbrauch', education:'ratgeber', facts:'fakten', guide:'ratgeber', hardware:'hardware', health:'zustand', malware:'schadsoftware', manufacturer:'hersteller', myths:'mythen', network:'netzwerk', optimization:'optimierung', performance:'leistung', permissions:'berechtigungen', privacy:'datenschutz', repair:'reparatur', review:'test', science:'wissenschaft', security:'sicherheit', sensors:'sensoren', software:'software', speed:'geschwindigkeit', storage:'speicher', temperature:'temperatur', testing:'testen', thermal:'warme', tips:'tipps', troubleshooting:'fehlerbehebung', updates:'updates', value:'wert' },
   da: { apps:'apps', article:'artikel', battery:'batteri', 'battery-tech':'batteriteknologi', 'brand-specific':'mærkespecifikt', 'buying-guide':'købsguide', calibration:'kalibrering', charging:'opladning', cleanup:'oprydning', comparison:'sammenligning', connectivity:'forbindelser', damage:'skader', debunking:'myteaflivning', diagnostics:'diagnostik', drain:'strømforbrug', education:'guide', facts:'fakta', guide:'guide', hardware:'hardware', health:'tilstand', malware:'malware', manufacturer:'producent', myths:'myter', network:'netværk', optimization:'optimering', performance:'ydeevne', permissions:'tilladelser', privacy:'privatliv', repair:'reparation', review:'anmeldelse', science:'videnskab', security:'sikkerhed', sensors:'sensorer', software:'software', speed:'hastighed', storage:'lagerplads', temperature:'temperatur', testing:'test', thermal:'varme', tips:'tips', troubleshooting:'fejlfinding', updates:'opdateringer', value:'værdi' },
   fr: { apps:'applications', article:'article', battery:'batterie', 'battery-tech':'technologie-des-batteries', 'brand-specific':'specifique-a-la-marque', 'buying-guide':'guide-d-achat', calibration:'calibrage', charging:'recharge', cleanup:'nettoyage', comparison:'comparaison', connectivity:'connectivite', damage:'dommages', debunking:'demystification', diagnostics:'diagnostic', drain:'consommation', education:'guide', facts:'faits', guide:'guide', hardware:'materiel', health:'etat', malware:'logiciels-malveillants', manufacturer:'fabricant', myths:'mythes', network:'reseau', optimization:'optimisation', performance:'performances', permissions:'autorisations', privacy:'confidentialite', repair:'reparation', review:'test', science:'science', security:'securite', sensors:'capteurs', software:'logiciel', speed:'vitesse', storage:'stockage', temperature:'temperature', testing:'test', thermal:'thermique', tips:'conseils', troubleshooting:'depannage', updates:'mises-a-jour', value:'valeur' },
+  es: { apps:'aplicaciones', article:'articulo', battery:'bateria', 'battery-tech':'tecnologia-de-baterias', 'brand-specific':'especifico-de-la-marca', 'buying-guide':'guia-de-compra', calibration:'calibracion', charging:'carga', cleanup:'limpieza', comparison:'comparacion', connectivity:'conectividad', damage:'danos', debunking:'desmitificacion', diagnostics:'diagnostico', drain:'consumo', education:'guia', facts:'datos', guide:'guia', hardware:'hardware', health:'estado', malware:'software-malicioso', manufacturer:'fabricante', myths:'mitos', network:'red', optimization:'optimizacion', performance:'rendimiento', permissions:'permisos', privacy:'privacidad', repair:'reparacion', review:'analisis', science:'ciencia', security:'seguridad', sensors:'sensores', software:'software', speed:'velocidad', storage:'almacenamiento', temperature:'temperatura', testing:'pruebas', thermal:'termico', tips:'consejos', troubleshooting:'solucion-de-problemas', updates:'actualizaciones', value:'valor' },
 };
 
 function localizeTags(tags, locale) {
