@@ -11,15 +11,15 @@ import {
   isProductionSitemapUrl,
 } from '../src/data/articleLocaleConfig.mjs';
 
-test('tuotannon locale-portti julkaisee kahdeksan localea eikä Italiaa', () => {
-  assert.deepEqual(PUBLISHED_ARTICLE_LOCALE_CODES, ['en', 'fi', 'sv', 'nb', 'de', 'da', 'fr', 'es']);
+test('tuotannon locale-portti julkaisee yhdeksän localea, myös Italian', () => {
+  assert.deepEqual(PUBLISHED_ARTICLE_LOCALE_CODES, ['en', 'fi', 'sv', 'nb', 'de', 'da', 'fr', 'es', 'it']);
   assert.deepEqual(ROUTED_ARTICLE_LOCALE_CODES, PUBLISHED_ARTICLE_LOCALE_CODES);
-  assert.deepEqual(LOCALIZED_ARTICLE_LOCALES, ['sv', 'nb', 'de', 'da', 'fr', 'es']);
+  assert.deepEqual(LOCALIZED_ARTICLE_LOCALES, ['sv', 'nb', 'de', 'da', 'fr', 'es', 'it']);
   assert.ok(ARTICLE_SOURCE_LOCALE_CODES.includes('it'));
   assert.equal(ARTICLE_LOCALE_CONTRACTS.it.sourceSupported, true);
   assert.equal(ARTICLE_LOCALE_CONTRACTS.it.previewAllowed, true);
-  assert.equal(ARTICLE_LOCALE_CONTRACTS.it.productionPublished, false);
-  assert.equal(isProductionSitemapUrl('https://runcheckapp.com/it/articoli/'), false);
+  assert.equal(ARTICLE_LOCALE_CONTRACTS.it.productionPublished, true);
+  assert.equal(isProductionSitemapUrl('https://runcheckapp.com/it/articoli/'), true);
   assert.equal(isProductionSitemapUrl('https://runcheckapp.com/es/articulos/'), true);
 
   for (const contract of Object.values(ARTICLE_LOCALE_CONTRACTS)) {
@@ -30,11 +30,11 @@ test('tuotannon locale-portti julkaisee kahdeksan localea eikä Italiaa', () => 
   }
 });
 
-test('Italian preview-reitit vaativat eksplisiittisen portin', () => {
+test('jo julkaistua Italiaa ei voi pyytää preview-localeksi', () => {
   const script = "import('./src/data/articleLocaleConfig.mjs').then(m => process.stdout.write(JSON.stringify(m.ROUTED_ARTICLE_LOCALE_CODES)))";
-  const output = execFileSync(process.execPath, ['-e', script], {
+  assert.throws(() => execFileSync(process.execPath, ['-e', script], {
     encoding: 'utf8',
     env: { ...process.env, RUNCHECK_PREVIEW_ARTICLE_LOCALES: 'it' },
-  });
-  assert.deepEqual(JSON.parse(output), ['en', 'fi', 'sv', 'nb', 'de', 'da', 'fr', 'es', 'it']);
+    stdio: 'pipe',
+  }), /Article preview locale is not allowed: it/);
 });
