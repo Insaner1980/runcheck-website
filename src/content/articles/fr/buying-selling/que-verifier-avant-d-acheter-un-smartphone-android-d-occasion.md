@@ -1,7 +1,7 @@
 ---
 title: "Que vérifier avant d’acheter un smartphone Android d’occasion"
 description: "Un smartphone haut de gamme acheté neuf l’année précédente peut perdre plusieurs centaines d’euros sur le marché de l’occasion. L’économie est réelle, mais le risque aussi : vous pouvez payer pour un appareil bloqué par un opérateur, inscrit sur une liste noire, encore lié au compte de quelqu’un d’autre ou déjà proche de la fin de son suivi de sécurité."
-listSummary: "guide-d-achat, android et comparaison"
+listSummary: "Vérifiez le blocage, les comptes, la batterie et le suivi logiciel avant d’acheter un smartphone d’occasion."
 hub: "buying-selling"
 sourceNumber: 6
 order: 4

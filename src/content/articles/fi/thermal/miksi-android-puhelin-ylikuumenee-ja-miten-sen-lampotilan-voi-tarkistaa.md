@@ -2,7 +2,7 @@
 title: "Miksi Android-puhelin ylikuumenee ja miten sen lämpötilan voi tarkistaa"
 metaTitle: "Android-puhelin ylikuumenee: syyt ja lämpötilan tarkistus"
 description: "Näin tarkistat Android-puhelimen lämpötilan, tulkitset turvallisia akun lämpötiloja ja ymmärrät, miten Android 17, Pixel-diagnostiikka, Samsung Members, lataaminen, sovellukset ja signaalin voimakkuus vaikuttavat ylikuumenemiseen."
-listSummary: "lämpötila, kuumeneminen ja android"
+listSummary: "Tarkista puhelimen lämpötila ja selvitä ylikuumenemisen syy."
 hub: "thermal"
 sourceNumber: 53
 order: 1

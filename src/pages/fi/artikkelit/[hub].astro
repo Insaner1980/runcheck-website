@@ -4,7 +4,7 @@ import ArticleCTA from '../../../components/ArticleCTA.astro';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { ARTICLE_HUBS_FI } from '../../../data/articleTaxonomy.fi.mjs';
 import { articleHubPath, articlePath } from '../../../data/articlePaths.mjs';
-import { ARTICLE_LOCALES } from '../../../data/articleLocales.mjs';
+import { ROUTED_ARTICLE_LOCALE_CODES } from '../../../data/articleLocales.mjs';
 import { buildBreadcrumbJsonLd, normalizeMetaDescription } from '../../../data/seo.mjs';
 
 export async function getStaticPaths() {
@@ -39,7 +39,7 @@ const breadcrumbJsonLd = buildBreadcrumbJsonLd(
   description={normalizeMetaDescription(hub.metaDescription)}
   canonicalPath={hub.href}
   lang="fi"
-  alternateLocales={[...Object.keys(ARTICLE_LOCALES).map((lang) => ({ lang, path: articleHubPath(hub.slug, lang) })), { lang: 'x-default', path: articleHubPath(hub.slug) }]}
+  alternateLocales={[...ROUTED_ARTICLE_LOCALE_CODES.map((lang) => ({ lang, path: articleHubPath(hub.slug, lang) })), { lang: 'x-default', path: articleHubPath(hub.slug) }]}
   jsonLd={breadcrumbJsonLd}
 >
   <section class="border-b border-run-border">

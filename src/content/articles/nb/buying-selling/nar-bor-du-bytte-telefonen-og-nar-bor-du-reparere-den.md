@@ -1,7 +1,7 @@
 ---
 title: "Når bør du bytte telefonen, og når bør du reparere den?"
 description: "Hvis reparasjonen koster mindre enn en tredel av prisen på en tilsvarende erstatning, og telefonen fortsatt har minst to år med programvareoppdateringer igjen, bør du reparere den. Det dekker omtrent 80 % av tilfellene. De siste 20 % krever en nærmere vurdering av hva som faktisk er galt, og om reparasjonen forlenger telefonens nyttige levetid på en meningsfull måte."
-listSummary: "android, oppdateringer og sikkerhet"
+listSummary: "Sammenlign reparasjonskostnad, gjenstående støtte og telefonens verdi før du velger."
 hub: "buying-selling"
 sourceNumber: 4
 order: 2

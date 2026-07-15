@@ -2,7 +2,7 @@
 title: "Xiaomin CIT-valikko: piilotetut laitteistotestit Xiaomi-, Redmi- ja POCO-laitteille"
 metaTitle: "Xiaomin CIT-valikko: Xiaomi-, Redmi- ja POCO-testit"
 description: "CIT on nopein sisäänrakennettu laitteistotarkistus useimmissa Xiaomi-puhelimissa, myös virallista MIUI- tai HyperOS-ohjelmistoa käyttävissä Redmi- ja POCO-malleissa. Se ei ole kaunis. Se ei selitä juuri mitään. Kun haluat tietää, reagoiko kosketusnäyttö, kaiutin, mikrofoni, anturi tai kamera oikeasti, CIT vie vastauksen äärelle useimpia Play Kaupan diagnostiikkasovelluksia nopeammin."
-listSummary: "laitteisto, testaus ja diagnostiikka"
+listSummary: "Testaa Xiaomin CIT-valikolla puhelimen keskeiset laitteisto-osat."
 hub: "brands"
 sourceNumber: 159
 order: 7

@@ -1,7 +1,7 @@
 ---
 title: "Telefonen vil ikke lade op: sådan finder du opladningsfejlen"
 description: "Metabeskrivelse: En praktisk tjekliste til Android-opladning, der dækker stikkontakt, oplader, kabel, USB-C-port, fugtadvarsler, helt afladede batterier, fastlåst software og tegn på behov for reparation."
-listSummary: "opladning, batteri og android"
+listSummary: "Find ud af, om ladefejlen skyldes opladeren, kablet, USB-C-porten, batteriet eller telefonen."
 hub: "charging"
 sourceNumber: 48
 order: 12

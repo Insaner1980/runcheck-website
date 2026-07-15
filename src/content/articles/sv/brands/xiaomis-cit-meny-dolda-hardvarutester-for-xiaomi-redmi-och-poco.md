@@ -1,7 +1,7 @@
 ---
 title: "Xiaomis CIT-meny: dolda hårdvarutester för Xiaomi, Redmi och POCO"
 description: "CIT är den snabbaste inbyggda hårdvarukontrollen på de flesta Xiaomi-telefoner, även Redmi- och POCO-modeller med officiella MIUI eller HyperOS. Den är inte snygg. Den förklarar inte särskilt mycket. Men när du behöver veta om pekskärmen, högtalaren, mikrofonen, en sensor eller kameran faktiskt svarar tar den dig till svaret snabbare än de flesta diagnostikappar i Play Store."
-listSummary: "hårdvara, testning och diagnostik"
+listSummary: "Använd Xiaomis CIT-meny för att testa telefonens viktigaste hårdvarudelar."
 hub: "brands"
 sourceNumber: 159
 order: 7

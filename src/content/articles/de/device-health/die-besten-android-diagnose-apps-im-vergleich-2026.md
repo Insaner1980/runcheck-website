@@ -1,7 +1,7 @@
 ---
 title: "Die besten Android-Diagnose-Apps im Vergleich (2026)"
 description: "Vergleich von Android-Diagnose-Apps im Jahr 2026, darunter AccuBattery, DevCheck, AIDA64, CPU-Z, Device Info HW, Phone Doctor Plus, TestM und runcheck. Was misst welche App, und wann ist sie sinnvoll?"
-listSummary: "vergleich, apps und android"
+listSummary: "Vergleiche Diagnose-Apps danach, was sie messen und für welche Probleme sie geeignet sind."
 hub: "device-health"
 sourceNumber: 138
 order: 7

@@ -1,7 +1,7 @@
 ---
 title: "Sådan tjekker du Androids sikkerhedsopdateringer"
 description: "Du er ved at købe en brugt telefon, eller din egen telefon har ikke vist en opdateringsnotifikation i flere måneder. Det første, du bør kontrollere, er ikke Android-versionen. Det er datoen for sikkerhedsopdateringen."
-listSummary: "android, opdateringer og sikkerhed"
+listSummary: "Tjek datoen for sikkerhedsopdateringen, og se, om en nyere opdatering er klar."
 hub: "software"
 sourceNumber: 122
 order: 4

@@ -1,7 +1,7 @@
 ---
 title: "Puhelin ei lataudu: näin selvität latausongelman"
 description: "Käytännöllinen Android-puhelimen latausongelmien tarkistuslista kattaa pistorasian, laturin, johdon, USB-C-portin, kosteusvaroitukset, tyhjentyneen akun, ohjelmiston jumittumisen ja huoltoa vaativat viat."
-listSummary: "lataaminen, akku ja android"
+listSummary: "Rajaa latausvika laturiin, porttiin, akkuun tai puhelimeen."
 hub: "charging"
 sourceNumber: 48
 order: 12

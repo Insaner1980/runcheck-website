@@ -1,7 +1,7 @@
 ---
 title: "Hvorfor Android-telefonen overopphetes, og slik sjekker du temperaturen"
 description: "En Android-telefon kan føles varm av helt hverdagslige grunner, av alvorlige grunner eller uten noen tydelig grunn. Utfordringen er å vite hvilket tall du ser på, og om tallet faktisk betyr noe."
-listSummary: "temperatur, varme og android"
+listSummary: "Kontroller temperaturen og finn ut hva som får Android-telefonen til å overopphetes."
 hub: "thermal"
 sourceNumber: 53
 order: 1

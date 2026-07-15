@@ -1,7 +1,7 @@
 ---
 title: "Wird mein Smartphone noch unterstützt? So prüfst du den Android- und Sicherheits-Support"
 description: "Dein Smartphone kann völlig normal wirken und seinen sicheren Updatezeitraum trotzdem bereits überschritten haben. Anrufe funktionieren. Apps öffnen sich. Die Kamera macht weiterhin Fotos. Wenn der Hersteller aber keine Sicherheitspatches mehr liefert, werden neu entdeckte Android-Fehler auf diesem Gerät nicht behoben."
-listSummary: "android, updates und sicherheit"
+listSummary: "Prüfe Patch-Datum und Herstellerliste, um den verbleibenden Software-Support einzuschätzen."
 hub: "software"
 sourceNumber: 123
 order: 5

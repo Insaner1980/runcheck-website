@@ -2,7 +2,7 @@
 title: "Miksi puhelin väittää tallennustilan olevan täynnä, vaikka se ei näytä siltä"
 metaTitle: "Tallennustila täynnä ilman syytä: Android-ratkaisut"
 description: "Tavallinen tukitapaus etenee näin: käyttäjä poistaa joukon videoita, tarkistaa puhelimen tallennustilan ja huomaa, ettei puhelin edelleenkään suostu asentamaan sovellusta tai ottamaan kuvaa."
-listSummary: "tallennustila, android ja siivous"
+listSummary: "Selvitä, miksi Android ilmoittaa tallennustilan olevan täynnä."
 hub: "storage"
 sourceNumber: 87
 order: 9

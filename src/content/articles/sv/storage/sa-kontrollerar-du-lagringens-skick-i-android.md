@@ -1,7 +1,7 @@
 ---
 title: "Så kontrollerar du lagringens skick i Android"
 description: "Metabeskrivning: Android-lagring kan slitas ut, men de flesta telefoner visar ingen enkel procentsiffra för lagringens skick. Här ser du vad du kan kontrollera, vad siffrorna betyder och när det finns skäl att oroa sig."
-listSummary: "lagring, android och rensning"
+listSummary: "Bedöm lagringens skick genom att kontrollera typ, hastighet och tydliga felsymtom."
 hub: "storage"
 sourceNumber: 80
 order: 2

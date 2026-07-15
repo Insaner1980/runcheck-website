@@ -1,14 +1,14 @@
 ---
 import { getCollection } from 'astro:content';
 import LocalizedArticleHubPage from '../../../components/LocalizedArticleHubPage.astro';
-import { ARTICLE_LOCALES, LOCALIZED_ARTICLE_LOCALES, localizedHubs } from '../../../data/articleLocales.mjs';
+import { ARTICLE_LOCALES, LOCALIZED_ARTICLE_LOCALES, ROUTED_ARTICLE_LOCALE_CODES, localizedHubs } from '../../../data/articleLocales.mjs';
 import { articleHubPath } from '../../../data/articlePaths.mjs';
 
 export async function getStaticPaths() {
   const all = await getCollection('articles', ({ data }) => !data.draft);
   return LOCALIZED_ARTICLE_LOCALES.flatMap((locale) => localizedHubs(locale).map((hub) => ({
     params: { locale, articles: ARTICLE_LOCALES[locale].root.split('/').filter(Boolean)[1], hub: hub.href.split('/').filter(Boolean).at(-1) },
-    props: { locale, hub, articles: all.filter((item) => item.data.locale === locale && item.data.hub === hub.slug).sort((a, b) => a.data.order - b.data.order), alternateLocales: [...Object.keys(ARTICLE_LOCALES).map((lang) => ({ lang, path: articleHubPath(hub.slug, lang) })), { lang: 'x-default', path: articleHubPath(hub.slug, 'en') }] },
+    props: { locale, hub, articles: all.filter((item) => item.data.locale === locale && item.data.hub === hub.slug).sort((a, b) => a.data.order - b.data.order), alternateLocales: [...ROUTED_ARTICLE_LOCALE_CODES.map((lang) => ({ lang, path: articleHubPath(hub.slug, lang) })), { lang: 'x-default', path: articleHubPath(hub.slug, 'en') }] },
   })));
 }
 const { locale, hub, articles, alternateLocales } = Astro.props;

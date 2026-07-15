@@ -1,7 +1,8 @@
 ---
-title: "Så kontrollerar du Androids säkerhetskorrigeringar"
+title: "Så kontrollerar du Androids säkerhetsuppdateringar"
+metaTitle: "Kontrollera Androids säkerhetsuppdateringar"
 description: "Du ska köpa en begagnad telefon, eller så har din egen inte visat någon uppdateringsavisering på flera månader. Det första du bör kontrollera är inte Android-versionen. Det är datumet för säkerhetsuppdateringen."
-listSummary: "android, uppdateringar och säkerhet"
+listSummary: "Kontrollera säkerhetsuppdateringens datum och om en nyare uppdatering finns."
 hub: "software"
 sourceNumber: 122
 order: 4
@@ -57,7 +58,7 @@ Datumet är separat från Androids vanliga säkerhetskorrigering. Båda bör var
 
 Mainline-uppdateringar är användbara, särskilt på Android 10 och senare, men de ersätter inte tillverkarens korrigeringar. De kan inte lösa alla sårbarheter i kernel, drivrutiner, modem eller leverantörsspecifika komponenter.
 
-## Hur aktuell bör korrigeringen vara?
+## Hur aktuell bör säkerhetsuppdateringen vara?
 
 En telefon som har fått en säkerhetskorrigering under de senaste två månaderna ligger bra till. Tre eller fyra månaders eftersläpning är inte idealiskt, men förekommer på långsammare uppdateringsscheman. Sex månader förtjänar uppmärksamhet, särskilt om telefonen används för banktjänster, arbete, resor eller tvåfaktorsautentisering.
 

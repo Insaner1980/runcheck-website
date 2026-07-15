@@ -1,10 +1,12 @@
 ---
+import { ARTICLE_LOCALES } from '../data/articleLocales.mjs';
+
+type ArticleLocale = keyof typeof ARTICLE_LOCALES;
+
 interface Props {
   variant?: 'header' | 'page';
-  locale?: 'en' | 'fi' | 'sv' | 'nb' | 'de' | 'da' | 'fr';
+  locale?: ArticleLocale;
 }
-
-import { ARTICLE_LOCALES } from '../data/articleLocales.mjs';
 const { variant = 'header', locale = 'en' } = Astro.props;
 const isHeader = variant === 'header';
 const localeCopy = ARTICLE_LOCALES[locale];

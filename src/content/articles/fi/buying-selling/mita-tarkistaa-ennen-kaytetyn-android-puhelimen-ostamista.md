@@ -1,7 +1,7 @@
 ---
 title: "Mitä tarkistaa ennen käytetyn Android-puhelimen ostamista"
 description: "Noin vuoden vanhan, uutena kalliin puhelimen voi löytää hyväkuntoisena satoja euroja alkuperäistä hintaa halvemmalla. Säästö on todellinen, mutta niin on myös riski maksaa puhelimesta, joka on verkkosulussa, yhä sidottu toisen henkilön tiliin tai jo lähellä tietoturvapäivitysten päättymistä."
-listSummary: "osto-opas, android ja vertailu"
+listSummary: "Tarkista lukitus, tilisidokset, akku ja ohjelmistotuki ennen kauppaa."
 hub: "buying-selling"
 sourceNumber: 6
 order: 4

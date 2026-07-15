@@ -1,7 +1,7 @@
 ---
 title: "Parhaat Android-diagnostiikkasovellukset vertailussa (2026)"
 description: "Androidin diagnostiikkasovellusten vertailu vuonna 2026: AccuBattery, DevCheck, AIDA64, CPU-Z, Device Info HW, Phone Doctor Plus, TestM ja runcheck sekä se, mitä kukin mittaa ja mihin tilanteeseen se sopii."
-listSummary: "vertailu, sovellukset ja android"
+listSummary: "Vertaa diagnostiikkasovelluksia mittausten ja käyttötavan mukaan."
 hub: "device-health"
 sourceNumber: 138
 order: 7

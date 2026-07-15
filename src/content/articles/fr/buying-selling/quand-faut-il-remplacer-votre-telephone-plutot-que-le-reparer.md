@@ -1,7 +1,7 @@
 ---
 title: "Quand faut-il remplacer votre téléphone plutôt que le réparer ?"
 description: "Si la réparation coûte moins d'un tiers du prix d'un téléphone de remplacement et que l'appareil dispose encore d'au moins deux ans de mises à jour logicielles, faites-le réparer. Cette règle couvre environ 80 % des cas. Pour les 20 % restants, il faut regarder de plus près la panne et déterminer si l'intervention prolongera réellement la durée de vie utile du téléphone."
-listSummary: "android, mises-a-jour et securite"
+listSummary: "Comparez le coût de la réparation, le suivi restant et la valeur du téléphone avant de décider."
 hub: "buying-selling"
 sourceNumber: 4
 order: 2

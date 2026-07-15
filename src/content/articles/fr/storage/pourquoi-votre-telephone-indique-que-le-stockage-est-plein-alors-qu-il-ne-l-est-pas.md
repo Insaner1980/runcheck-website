@@ -1,7 +1,7 @@
 ---
 title: "Pourquoi votre téléphone indique que le stockage est plein alors qu'il ne l'est pas"
 description: "Le scénario revient souvent dans les demandes d'assistance : quelqu'un supprime une série de vidéos, consulte l'écran de stockage du téléphone, puis découvre qu'il est toujours impossible d'installer une application ou de prendre une photo."
-listSummary: "stockage, android et nettoyage"
+listSummary: "Identifiez pourquoi Android signale un stockage plein alors que de l’espace semble disponible."
 hub: "storage"
 sourceNumber: 87
 order: 9

@@ -1,7 +1,7 @@
 ---
 title: "Milloin puhelin kannattaa korjata ja milloin vaihtaa uuteen?"
 description: "Jos korjaus maksaa alle kolmasosan vastaavan uuden tai kunnostetun puhelimen hinnasta ja laitteella on vähintään kaksi vuotta ohjelmistotukea jäljellä, korjaa se. Tämä ratkaisee noin 80 prosenttia tapauksista. Loput 20 prosenttia vaativat tarkempaa arviota siitä, mikä puhelimessa on vialla ja pidentääkö korjaus sen käyttöikää merkittävästi."
-listSummary: "android, päivitykset ja tietoturva"
+listSummary: "Vertaa korjauskustannusta, jäljellä olevaa tukea ja puhelimen arvoa."
 hub: "buying-selling"
 sourceNumber: 4
 order: 2

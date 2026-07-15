@@ -1,7 +1,7 @@
 ---
 title: "Slik sjekker du om en brukt Android-telefon er i god stand"
 description: "En telefon som har vært brukt i ett eller to år, kan se helt fin ut og likevel ha reelle problemer under overflaten. Batterier svekkes uten synlige tegn. Lagringsbrikker blir langsommere. Sensorer driver ut av kalibrering. Skjermen kan reagere overalt bortsett fra et lite område i et hjørne som ingen oppdager før de prøver å skrive bokstaven P på tastaturet."
-listSummary: "kjøpsguide, android og sammenligning"
+listSummary: "Sjekk batteri, skjerm, sensorer og programvare før du vurderer en brukt Android-telefon."
 hub: "buying-selling"
 sourceNumber: 2
 order: 1

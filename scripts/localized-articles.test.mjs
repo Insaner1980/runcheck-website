@@ -5,7 +5,7 @@ import test from 'node:test';
 
 test('localized article content and routes', () => {
 const root = path.resolve('src/content/articles');
-const expectedCounts = { fi: 160, sv: 160, nb: 160, de: 160, da: 160, fr: 160 };
+const expectedCounts = { fi: 160, sv: 160, nb: 160, de: 160, da: 160, fr: 160, es: 160 };
 const markdownFiles = (directory) => readdirSync(directory, { withFileTypes: true }).flatMap((entry) => entry.isDirectory() ? markdownFiles(path.join(directory, entry.name)) : entry.name.endsWith('.md') ? [path.join(directory, entry.name)] : []);
 
 for (const [locale, expected] of Object.entries(expectedCounts)) {
@@ -34,9 +34,11 @@ const routeChecks = [
   ['sv/artiklar/index.html', 'lang="sv"'], ['nb/artikler/index.html', 'lang="nb"'],
   ['de/artikel/index.html', 'lang="de"'], ['da/artikler/index.html', 'lang="da"'],
   ['fr/articles/index.html', 'lang="fr"'],
+  ['es/articulos/index.html', 'lang="es"'],
   ['sv/artiklar/sokindex.json', '"url":"/sv/artiklar/'], ['nb/artikler/sokeindeks.json', '"url":"/nb/artikler/'],
   ['de/artikel/suchindex.json', '"url":"/de/artikel/'], ['da/artikler/soegeindeks.json', '"url":"/da/artikler/'],
   ['fr/articles/index-recherche.json', '"url":"/fr/articles/'],
+  ['es/articulos/indice-busqueda.json', '"url":"/es/articulos/'],
 ];
 for (const [relative, marker] of routeChecks) assert.ok(readFileSync(path.resolve('dist', relative), 'utf8').includes(marker), `${relative} should be generated for its locale.`);
 

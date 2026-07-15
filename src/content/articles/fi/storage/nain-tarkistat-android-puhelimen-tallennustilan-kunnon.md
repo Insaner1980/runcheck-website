@@ -1,7 +1,7 @@
 ---
 title: "Näin tarkistat Android-puhelimen tallennustilan kunnon"
 description: "Metakuvaus: Android-puhelimen tallennuspiiri kuluu ajan myötä, mutta useimmat puhelimet eivät näytä sille yksinkertaista kuntoprosenttia. Tästä näet, mitä voit tarkistaa, mitä luvut tarkoittavat ja milloin on syytä huolestua."
-listSummary: "tallennustila, android ja siivous"
+listSummary: "Arvioi tallennustilan kuntoa tyypin, nopeuden ja oireiden avulla."
 hub: "storage"
 sourceNumber: 80
 order: 2

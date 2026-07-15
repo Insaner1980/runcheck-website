@@ -1,7 +1,7 @@
 ---
 title: "Wann solltest du dein Smartphone ersetzen und wann reparieren lassen?"
 description: "Kostet die Reparatur weniger als ein Drittel eines vergleichbaren Ersatzgeräts und erhält das Smartphone noch mindestens zwei Jahre Softwareupdates, solltest du es reparieren lassen. Damit sind ungefähr 80 % der Fälle abgedeckt. Bei den übrigen 20 % kommt es genauer darauf an, was tatsächlich defekt ist und ob die Reparatur die sinnvolle Nutzungsdauer spürbar verlängert."
-listSummary: "android, updates und sicherheit"
+listSummary: "Vergleiche Reparaturkosten, verbleibenden Support und Gerätewert, bevor du dich entscheidest."
 hub: "buying-selling"
 sourceNumber: 4
 order: 2

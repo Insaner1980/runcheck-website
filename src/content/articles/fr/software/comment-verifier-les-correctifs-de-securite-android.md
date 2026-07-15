@@ -1,7 +1,7 @@
 ---
 title: "Comment vérifier les correctifs de sécurité Android"
 description: "Vous achetez un smartphone d'occasion, ou votre propre téléphone n'a affiché aucune notification de mise à jour depuis des mois. La première chose à vérifier n'est pas la version d'Android, mais la date du correctif de sécurité."
-listSummary: "android, mises-a-jour et securite"
+listSummary: "Vérifiez la date de la mise à jour de sécurité et la disponibilité d’une version plus récente."
 hub: "software"
 sourceNumber: 122
 order: 4

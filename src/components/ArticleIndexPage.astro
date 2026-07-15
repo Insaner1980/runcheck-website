@@ -5,7 +5,9 @@ import { buildBreadcrumbJsonLd } from '../data/seo.mjs';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ArticleCTA from './ArticleCTA.astro';
 import ArticleSearch from './ArticleSearch.astro';
-import { ARTICLE_LOCALES } from '../data/articleLocales.mjs';
+import { ARTICLE_LOCALES, ROUTED_ARTICLE_LOCALE_CODES } from '../data/articleLocales.mjs';
+
+type ArticleLocale = keyof typeof ARTICLE_LOCALES;
 
 interface ArticleHub {
   slug: string;
@@ -15,43 +17,13 @@ interface ArticleHub {
 }
 
 interface Props {
-  locale: 'en' | 'fi' | 'sv' | 'nb' | 'de' | 'da' | 'fr';
+  locale: ArticleLocale;
   articles: CollectionEntry<'articles'>[];
   hubs: ArticleHub[];
 }
 
 const { locale, articles, hubs } = Astro.props;
-const isFinnish = locale === 'fi';
-const localizedCopy = {
-  sv: { eyebrow: 'Artiklar', heading: 'Android-guider och praktiska svar.', intro: 'Tydliga svenska guider om batteri, laddning, värme, anslutningar, lagring, prestanda och telefonens skick.', metaTitle: 'Android-guider och praktiska svar', metaDescription: 'Svenska guider om Android-telefoners batteri, laddning, värme, nätverk, lagring, prestanda och hälsokontroller.', categoriesLabel: 'Artikelkategorier', viewMore: (count: number) => `Visa ${count} till`, breadcrumb: 'Artiklar' },
-  nb: { eyebrow: 'Artikler', heading: 'Android-guider og praktiske svar.', intro: 'Tydelige norske guider om batteri, lading, varme, tilkoblinger, lagring, ytelse og telefonens tilstand.', metaTitle: 'Android-guider og praktiske svar', metaDescription: 'Norske guider om Android-telefoners batteri, lading, varme, nettverk, lagring, ytelse og helsesjekker.', categoriesLabel: 'Artikkelkategorier', viewMore: (count: number) => `Vis ${count} til`, breadcrumb: 'Artikler' },
-  de: { eyebrow: 'Artikel', heading: 'Android-Ratgeber und praktische Antworten.', intro: 'Klare deutsche Ratgeber zu Akku, Laden, Wärme, Verbindungen, Speicher, Leistung und Gerätezustand.', metaTitle: 'Android-Ratgeber und praktische Antworten', metaDescription: 'Deutsche Ratgeber zu Android-Akku, Laden, Temperatur, Netzwerk, Speicher, Leistung und Gerätezustand.', categoriesLabel: 'Artikelkategorien', viewMore: (count: number) => `${count} weitere anzeigen`, breadcrumb: 'Artikel' },
-  da: { eyebrow: 'Artikler', heading: 'Android-guides og praktiske svar.', intro: 'Klare danske guides om batteri, opladning, varme, forbindelser, lagerplads, ydeevne og telefonens tilstand.', metaTitle: 'Android-guides og praktiske svar', metaDescription: 'Danske guides om Android-telefoners batteri, opladning, varme, netværk, lagerplads, ydeevne og tilstandstjek.', categoriesLabel: 'Artikelkategorier', viewMore: (count: number) => `Vis ${count} mere`, breadcrumb: 'Artikler' },
-  fr: { eyebrow: 'Articles', heading: 'Guides Android et réponses pratiques.', intro: 'Des guides clairs en français sur la batterie, la recharge, la température, les connexions, le stockage, les performances et l’état de votre téléphone.', metaTitle: 'Guides Android et réponses pratiques', metaDescription: 'Guides en français sur la batterie, la recharge, la température, le réseau, le stockage, les performances et l’état des téléphones Android.', categoriesLabel: 'Catégories d’articles', viewMore: (count: number) => `Voir ${count} de plus`, breadcrumb: 'Articles' },
-};
-const copy = isFinnish
-  ? {
-      eyebrow: 'Artikkelit',
-      heading: 'Android-oppaat ja käytännön vastaukset.',
-      intro: 'Selkeät suomenkieliset oppaat puhelimen akun, lataamisen, kuumenemisen, yhteyksien, tallennustilan, suorituskyvyn ja kunnon selvittämiseen.',
-      metaTitle: 'Android-oppaat ja käytännön vastaukset',
-      metaDescription: 'Suomenkieliset oppaat Android-puhelimen akusta, lataamisesta, kuumenemisesta, verkkoyhteyksistä, tallennustilasta, suorituskyvystä ja kuntotarkistuksista.',
-      categoriesLabel: 'Artikkelien aihealueet',
-      viewMore: (count: number) => `Näytä ${count} lisää`,
-      canonicalPath: '/fi/artikkelit/',
-      breadcrumb: 'Artikkelit',
-    }
-  : locale === 'en' ? {
-      eyebrow: 'Articles',
-      heading: 'Android phone guides and practical answers.',
-      intro: 'Clear guides for understanding your phone\'s battery, charging, heat, connections, storage, performance, hardware, software, and overall condition.',
-      metaTitle: 'Android phone guides and practical answers',
-      metaDescription: 'Articles about Android battery, charging, thermal, network, storage, performance, hardware, software, and device health checks.',
-      categoriesLabel: 'Article categories',
-      viewMore: (count: number) => `View ${count} more`,
-      canonicalPath: '/articles/',
-      breadcrumb: 'Articles',
-    } : { ...localizedCopy[locale], canonicalPath: ARTICLE_LOCALES[locale].root };
+const copy = { ...ARTICLE_LOCALES[locale].index, canonicalPath: ARTICLE_LOCALES[locale].root };
 const site = Astro.site ?? new URL('https://runcheckapp.com');
 const breadcrumbJsonLd = buildBreadcrumbJsonLd(
   [
@@ -68,9 +40,10 @@ const breadcrumbJsonLd = buildBreadcrumbJsonLd(
   canonicalPath={copy.canonicalPath}
   lang={locale}
   alternateLocales={[
-    ...Object.values(ARTICLE_LOCALES).map((item) => ({ lang: item.lang, path: item.root })),
+    ...ROUTED_ARTICLE_LOCALE_CODES.map((code) => ({ lang: code, path: ARTICLE_LOCALES[code].root })),
     { lang: 'x-default', path: '/articles/' },
   ]}
+  metaRobots={ARTICLE_LOCALES[locale].productionPublished ? undefined : 'noindex, nofollow'}
   jsonLd={breadcrumbJsonLd}
 >
   <section class="article-index-hero border-b border-run-border">

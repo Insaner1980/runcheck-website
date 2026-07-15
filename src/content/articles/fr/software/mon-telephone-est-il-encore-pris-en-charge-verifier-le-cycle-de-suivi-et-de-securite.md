@@ -1,5 +1,6 @@
 ---
-title: "Mon téléphone est-il encore pris en charge ? Vérifier le cycle de suivi et de sécurité Android"
+title: "Votre téléphone est-il encore pris en charge ? Vérifier la durée du suivi logiciel et des mises à jour de sécurité"
+metaTitle: "Votre téléphone Android est-il encore pris en charge ?"
 description: "Votre téléphone peut sembler parfaitement normal alors qu'il a déjà dépassé sa période de suivi sûr. Les appels fonctionnent. Les applications s'ouvrent. L'appareil photo prend toujours des photos. Mais si le fabricant a cessé de fournir des correctifs de sécurité, les nouvelles failles découvertes dans Android ne sont plus corrigées sur cet appareil."
 listSummary: "Votre téléphone peut sembler parfaitement normal alors qu'il a déjà dépassé sa période de suivi sûr."
 hub: "software"

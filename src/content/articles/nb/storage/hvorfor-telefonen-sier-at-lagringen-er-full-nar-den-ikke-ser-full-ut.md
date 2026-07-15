@@ -1,7 +1,7 @@
 ---
 title: "Hvorfor telefonen sier at lagringen er full når den ikke ser full ut"
 description: "En vanlig historie hos kundestøtte går slik: Noen sletter en bunke videoer, sjekker lagringsoversikten og oppdager at telefonen fortsatt nekter å installere en app eller ta et bilde."
-listSummary: "lagring, android og opprydding"
+listSummary: "Finn årsaken når Android melder om full lagring selv om det ser ut til å være ledig plass."
 hub: "storage"
 sourceNumber: 87
 order: 9
