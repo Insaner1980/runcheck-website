@@ -21,6 +21,9 @@ const copy = ARTICLE_LOCALES[locale];
       <a href="mailto:contact@finnvek.com">{copy.nav[2]}</a>
     </nav>
 
-    <p class="footer-copyright md:justify-self-end">&copy; {year} runcheck</p>
+    <div class="footer-meta flex flex-col items-center gap-1.5 md:justify-self-end md:items-end">
+      <p class="footer-copyright">&copy; {year} runcheck</p>
+      <a class="footer-finnvek" href="https://finnvek.com">Finnvek</a>
+    </div>
   </div>
 </footer>
