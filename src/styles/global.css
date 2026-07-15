@@ -2005,6 +2005,18 @@ a {
   font-size: 0.82rem;
 }
 
+.footer-finnvek {
+  color: color-mix(in srgb, var(--color-run-white) 55%, transparent);
+  font-size: 0.75rem;
+  text-decoration: none;
+  transition: color 160ms ease;
+}
+
+.footer-finnvek:hover,
+.footer-finnvek:focus-visible {
+  color: var(--color-run-white);
+}
+
 
 /* Hakutulokset: tiivis lasipaneeli ja siro vierityspalkki */
 .search-results {

@@ -1,10 +1,10 @@
 # Runcheck Website
 
-Static Astro 6 foundation for `https://runcheckapp.com`.
+Static Astro 7 foundation for `https://runcheckapp.com`.
 
 ## Stack
 
-- Astro 6 static output
+- Astro 7 static output
 - Tailwind v4 through `@tailwindcss/vite`
 - Astro content collections for articles
 - `@astrojs/sitemap`
