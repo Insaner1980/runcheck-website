@@ -1,7 +1,7 @@
 ---
 title: "Telefonen lader ikke: slik finner du årsaken"
 description: "Metabeskrivelse: En praktisk sjekkliste for ladeproblemer på Android, med stikkontakt, lader, kabel, USB-C-port, fuktighetsvarsler, helt tomme batterier, programvarefeil og tegn på at telefonen trenger reparasjon."
-listSummary: "lading, batteri og android"
+listSummary: "Finn ut om ladefeilen ligger i laderen, kabelen, USB-C-porten, batteriet eller telefonen."
 hub: "charging"
 sourceNumber: 48
 order: 12

@@ -1,7 +1,7 @@
 ---
 title: "Warum dein Smartphone vollen Speicher meldet, obwohl noch Platz frei zu sein scheint"
 description: "Eine typische Support-Geschichte läuft so ab: Jemand löscht einen ganzen Schwung Videos, prüft danach die Speicheranzeige und kann trotzdem keine App installieren oder kein Foto aufnehmen."
-listSummary: "speicher, android und bereinigung"
+listSummary: "Finde heraus, warum Android vollen Speicher meldet, obwohl noch Platz frei zu sein scheint."
 hub: "storage"
 sourceNumber: 87
 order: 9

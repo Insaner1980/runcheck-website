@@ -1,7 +1,7 @@
 ---
 title: "Varför telefonen säger att lagringsutrymmet är fullt fast det inte är det"
 description: "Ett vanligt supportärende ser ut så här: någon raderar en hel hög videor, kontrollerar telefonens lagringsöversikt och får ändå inte installera en app eller ta ett foto."
-listSummary: "lagring, android och rensning"
+listSummary: "Ta reda på varför Android visar fullt lagringsutrymme trots att utrymme verkar finnas kvar."
 hub: "storage"
 sourceNumber: 87
 order: 9

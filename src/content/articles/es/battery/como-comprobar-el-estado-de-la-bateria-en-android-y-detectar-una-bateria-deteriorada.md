@@ -1,6 +1,8 @@
 ---
 title: "Cómo comprobar el estado de la batería en Android y detectar una batería deteriorada"
+metaTitle: "Cómo comprobar el estado de la batería en Android"
 description: "Una batería que empieza a fallar rara vez se anuncia con un apagado espectacular. Las señales suelen aparecer poco a poco: menos tiempo de pantalla encendida, un reinicio inesperado o el móvil templado durante un uso ligero. Descarga rápida, apagados cuando todavía queda un 20 % o más, cargas cada vez más lentas, calor persistente durante tareas normales o una tapa trasera visiblemente abombada. Cualquier combinación de estos síntomas apunta a una batería degradada."
+metaDescription: "Aprende a comprobar el estado y la capacidad de la batería en Android y a reconocer las señales de una batería deteriorada."
 listSummary: "Una batería que empieza a fallar rara vez se anuncia con un apagado espectacular."
 hub: "battery"
 sourceNumber: 11

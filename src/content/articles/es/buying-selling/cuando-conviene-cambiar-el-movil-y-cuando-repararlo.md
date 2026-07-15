@@ -1,7 +1,7 @@
 ---
 title: "¿Cuándo conviene cambiar el móvil y cuándo repararlo?"
 description: "Si la reparación cuesta menos de un tercio de lo que costaría un móvil equivalente y al dispositivo todavía le quedan al menos dos años de actualizaciones de software, repáralo. Esa regla resuelve alrededor del 80 % de los casos. El 20 % restante exige mirar con más detalle qué falla y si arreglarlo prolongará de verdad su vida útil."
-listSummary: "android, actualizaciones y seguridad"
+listSummary: "Compara el coste de reparación, el soporte restante y el valor del móvil antes de decidir."
 hub: "buying-selling"
 sourceNumber: 4
 order: 2

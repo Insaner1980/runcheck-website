@@ -1,7 +1,7 @@
 ---
 title: "Pourquoi la connexion Internet de mon téléphone est-elle si lente ?"
 description: "Pourquoi un téléphone peine-t-il à charger une page alors que l'ordinateur portable juste à côté fonctionne normalement ? Le plus souvent, la cause est un signal faible, un réseau saturé ou une application qui utilise la bande passante en arrière-plan. Le vrai travail consiste à déterminer lequel de ces problèmes vous concerne avant de modifier des réglages au hasard."
-listSummary: "performances, vitesse et android"
+listSummary: "Distinguez un problème de réseau, de signal ou de téléphone avant de modifier les réglages."
 hub: "network"
 sourceNumber: 91
 order: 2

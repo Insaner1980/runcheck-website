@@ -180,7 +180,7 @@ https://runcheckapp.com/da/artikler/batteri/
 https://runcheckapp.com/da/artikler/batteri/android-bruger-mere-batteri-efter-en-opdatering-det-kan-du-gore/
 https://runcheckapp.com/da/artikler/batteri/androids-doze-tilstand-forklaret-sadan-sparer-telefonen-batteri-mens-den-sover/
 https://runcheckapp.com/da/artikler/batteri/batterikalibrering-pa-android-virker-det/
-https://runcheckapp.com/da/artikler/batteri/batteritilstand-under-80-prosenttia-hvad-det-betyder-og-hvad-du-skal-gore/
+https://runcheckapp.com/da/artikler/batteri/batteritilstand-under-80-procent-hvad-det-betyder-og-hvad-du-skal-gore/
 https://runcheckapp.com/da/artikler/batteri/bruger-5g-mere-batteri-end-4g/
 https://runcheckapp.com/da/artikler/batteri/bruger-en-hoj-opdateringshastighed-mere-batteri/
 https://runcheckapp.com/da/artikler/batteri/draener-bluetooth-batteriet-det-reelle-svar/
@@ -189,7 +189,7 @@ https://runcheckapp.com/da/artikler/batteri/hvad-wake-locks-er-og-hvordan-de-dra
 https://runcheckapp.com/da/artikler/batteri/hvilke-apps-bruger-mest-batteri-pa-android/
 https://runcheckapp.com/da/artikler/batteri/hvorfor-aflades-min-telefons-batteri-hurtigt-i-koldt-vejr/
 https://runcheckapp.com/da/artikler/batteri/hvorfor-din-telefon-mister-strom-nar-du-ikke-bruger-den/
-https://runcheckapp.com/da/artikler/batteri/hvorfor-din-telefon-slukker-ved-20-prosenttia-og-sadan-loser-du-problemet/
+https://runcheckapp.com/da/artikler/batteri/hvorfor-din-telefon-slukker-ved-20-procent-og-sadan-loser-du-problemet/
 https://runcheckapp.com/da/artikler/batteri/hvorfor-din-telefons-batteri-aflades-sa-hurtigt-en-praktisk-diagnoseguide-til-android/
 https://runcheckapp.com/da/artikler/batteri/opsvulmet-telefonbatteri-advarselstegn-og-hvad-du-skal-gore/
 https://runcheckapp.com/da/artikler/batteri/sadan-bruger-du-batterisparefunktion-uden-at-miste-de-funktioner-du-har-brug-for/
@@ -305,7 +305,7 @@ https://runcheckapp.com/da/artikler/opladning/sadan-fungerer-intelligent-opladni
 https://runcheckapp.com/da/artikler/opladning/sadan-oplader-du-telefonen-korrekt-for-at-forlaenge-batteriets-levetid/
 https://runcheckapp.com/da/artikler/opladning/sadan-sammenligner-du-opladningshastigheder-pa-android/
 https://runcheckapp.com/da/artikler/opladning/sadan-tester-du-om-din-telefonoplader-er-god/
-https://runcheckapp.com/da/artikler/opladning/skal-du-oplade-til-100-prosenttia-eller-stoppe-ved-80-prosenttia/
+https://runcheckapp.com/da/artikler/opladning/skal-du-oplade-til-100-procent-eller-stoppe-ved-80-procent/
 https://runcheckapp.com/da/artikler/opladning/telefonen-vil-ikke-lade-op-sadan-finder-du-opladningsfejlen/
 https://runcheckapp.com/da/artikler/opladning/usb-c-opladning-forklaret-watt-ampere-og-volt/
 https://runcheckapp.com/da/artikler/software/
@@ -351,7 +351,7 @@ https://runcheckapp.com/da/artikler/ydeevne/sadan-starter-du-android-i-sikker-ti
 https://runcheckapp.com/da/artikler/ydeevne/telefonen-bliver-ved-med-at-genstarte-arsager-og-losninger/
 https://runcheckapp.com/de/artikel/
 https://runcheckapp.com/de/artikel/akku/
-https://runcheckapp.com/de/artikel/akku/akkuzustand-unter-80-prosenttia-was-das-bedeutet-und-was-du-tun-solltest/
+https://runcheckapp.com/de/artikel/akku/akkuzustand-unter-80-prozent-was-das-bedeutet-und-was-du-tun-solltest/
 https://runcheckapp.com/de/artikel/akku/android-akku-kalibrieren-funktioniert-das-wirklich/
 https://runcheckapp.com/de/artikel/akku/android-akkuverbrauch-nach-einem-update-was-du-tun-kannst/
 https://runcheckapp.com/de/artikel/akku/android-doze-erklart-so-spart-dein-smartphone-im-ruhezustand-akku/
@@ -370,7 +370,7 @@ https://runcheckapp.com/de/artikel/akku/verbraucht-eine-hohe-bildwiederholrate-m
 https://runcheckapp.com/de/artikel/akku/versteckte-android-einstellungen-die-deinen-akku-belasten/
 https://runcheckapp.com/de/artikel/akku/warum-dein-smartphone-akku-verliert-obwohl-du-es-nicht-benutzt/
 https://runcheckapp.com/de/artikel/akku/warum-entladt-sich-mein-smartphone-akku-bei-kalte-so-schnell/
-https://runcheckapp.com/de/artikel/akku/warum-sich-dein-smartphone-bei-20-prosenttia-ausschaltet-und-was-du-dagegen-tun-kannst/
+https://runcheckapp.com/de/artikel/akku/warum-sich-dein-smartphone-bei-20-prozent-ausschaltet-und-was-du-dagegen-tun-kannst/
 https://runcheckapp.com/de/artikel/akku/warum-sich-der-akku-deines-smartphones-so-schnell-entladt-eine-praktische-android-diagnose/
 https://runcheckapp.com/de/artikel/akku/was-bedeutet-der-prozentwert-des-akkuzustands-wirklich/
 https://runcheckapp.com/de/artikel/akku/was-wake-locks-sind-und-wie-sie-den-akku-belasten/
@@ -425,7 +425,7 @@ https://runcheckapp.com/de/artikel/laden/so-halt-der-akku-deines-android-smartph
 https://runcheckapp.com/de/artikel/laden/so-ladst-du-dein-smartphone-richtig-damit-der-akku-langer-halt/
 https://runcheckapp.com/de/artikel/laden/so-prufst-du-ob-dein-smartphone-ladegerat-gut-funktioniert/
 https://runcheckapp.com/de/artikel/laden/so-vergleichst-du-ladegeschwindigkeiten-unter-android/
-https://runcheckapp.com/de/artikel/laden/solltest-du-bis-100-prosenttia-laden-oder-bei-80-prosenttia-aufhoren/
+https://runcheckapp.com/de/artikel/laden/solltest-du-bis-100-prozent-laden-oder-bei-80-prozent-aufhoren/
 https://runcheckapp.com/de/artikel/laden/usb-c-laden-erklart-watt-ampere-und-volt/
 https://runcheckapp.com/de/artikel/laden/warum-ladt-mein-smartphone-so-langsam-ursachen-und-losungen/
 https://runcheckapp.com/de/artikel/laden/warum-wird-mein-smartphone-beim-laden-heiss/
@@ -683,7 +683,7 @@ https://runcheckapp.com/es/articulos/software-y-actualizaciones/que-es-android-s
 https://runcheckapp.com/es/articulos/software-y-actualizaciones/que-ocurre-cuando-android-deja-de-recibir-actualizaciones/
 https://runcheckapp.com/es/articulos/software-y-actualizaciones/que-permisos-deberias-conceder-en-android/
 https://runcheckapp.com/es/articulos/software-y-actualizaciones/que-son-las-actualizaciones-del-sistema-de-google-play/
-https://runcheckapp.com/es/articulos/software-y-actualizaciones/sigue-teniendo-soporte-mi-movil-como-comprobar-el-ciclo-de-actualizaciones-y-seguridad-de/
+https://runcheckapp.com/es/articulos/software-y-actualizaciones/soporte-actualizaciones-seguridad-movil-android/
 https://runcheckapp.com/es/articulos/software-y-actualizaciones/sirve-de-algo-un-antivirus-en-android/
 https://runcheckapp.com/es/articulos/temperatura/
 https://runcheckapp.com/es/articulos/temperatura/buenas-practicas-para-usar-el-movil-cuando-hace-calor/
@@ -1049,14 +1049,14 @@ https://runcheckapp.com/nb/artikler/
 https://runcheckapp.com/nb/artikler/batteri/
 https://runcheckapp.com/nb/artikler/batteri/android-batteriet-tommes-etter-en-oppdatering-dette-gjor-du/
 https://runcheckapp.com/nb/artikler/batteri/androids-doze-modus-forklart-slik-sparer-telefonen-batteri-mens-den-hviler/
-https://runcheckapp.com/nb/artikler/batteri/batterihelse-under-80-prosenttia-hva-det-betyr-og-hva-du-bor-gjore/
+https://runcheckapp.com/nb/artikler/batteri/batterihelse-under-80-prosent-hva-det-betyr-og-hva-du-bor-gjore/
 https://runcheckapp.com/nb/artikler/batteri/bruker-hoy-oppdateringsfrekvens-mer-batteri/
 https://runcheckapp.com/nb/artikler/batteri/hva-betyr-egentlig-prosentverdien-for-batterihelse/
 https://runcheckapp.com/nb/artikler/batteri/hva-wake-locks-er-og-hvordan-de-tommer-batteriet/
 https://runcheckapp.com/nb/artikler/batteri/hvilke-apper-bruker-mest-batteri-pa-android/
 https://runcheckapp.com/nb/artikler/batteri/hvorfor-telefonbatteriet-tommes-sa-raskt-en-praktisk-diagnoseguide-for-android/
 https://runcheckapp.com/nb/artikler/batteri/hvorfor-telefonen-bruker-batteri-nar-den-ikke-er-i-bruk/
-https://runcheckapp.com/nb/artikler/batteri/hvorfor-telefonen-slar-seg-av-ved-20-prosenttia-og-hvordan-du-retter-det/
+https://runcheckapp.com/nb/artikler/batteri/hvorfor-telefonen-slar-seg-av-ved-20-prosent-og-hvordan-du-retter-det/
 https://runcheckapp.com/nb/artikler/batteri/hvorfor-tommes-telefonbatteriet-sa-fort-i-kulde/
 https://runcheckapp.com/nb/artikler/batteri/kalibrering-av-android-batteriet-virker-det/
 https://runcheckapp.com/nb/artikler/batteri/oppsvulmet-mobilbatteri-faresignaler-og-hva-du-bor-gjore/
@@ -1102,7 +1102,7 @@ https://runcheckapp.com/nb/artikler/kjop-og-salg/slik-sjekker-du-om-en-brukt-and
 https://runcheckapp.com/nb/artikler/kjop-og-salg/slik-vurderer-du-en-brukt-telefon-for-du-kjoper/
 https://runcheckapp.com/nb/artikler/lading/
 https://runcheckapp.com/nb/artikler/lading/beste-ladevaner-for-android-i-2026/
-https://runcheckapp.com/nb/artikler/lading/bor-du-lade-til-100-prosenttia-eller-stoppe-pa-80-prosenttia/
+https://runcheckapp.com/nb/artikler/lading/bor-du-lade-til-100-prosent-eller-stoppe-pa-80-prosent/
 https://runcheckapp.com/nb/artikler/lading/er-det-skadelig-a-bruke-telefonen-mens-den-lades/
 https://runcheckapp.com/nb/artikler/lading/er-det-skadelig-a-lade-telefonen-om-natten/
 https://runcheckapp.com/nb/artikler/lading/er-hurtiglading-skadelig-for-batteriet/
@@ -1223,7 +1223,7 @@ https://runcheckapp.com/sv/artiklar/
 https://runcheckapp.com/sv/artiklar/batteri/
 https://runcheckapp.com/sv/artiklar/batteri/android-batteriet-laddas-ur-efter-en-uppdatering-sa-gor-du/
 https://runcheckapp.com/sv/artiklar/batteri/androids-doze-lage-forklarat-sa-sparar-mobilen-batteri-medan-den-vilar/
-https://runcheckapp.com/sv/artiklar/batteri/batterihalsa-under-80-prosenttia-vad-det-betyder-och-vad-du-kan-gora/
+https://runcheckapp.com/sv/artiklar/batteri/batterihalsa-under-80-procent-vad-det-betyder-och-vad-du-kan-gora/
 https://runcheckapp.com/sv/artiklar/batteri/batterikalibrering-pa-android-fungerar-det/
 https://runcheckapp.com/sv/artiklar/batteri/dolda-android-installningar-som-drar-batteri/
 https://runcheckapp.com/sv/artiklar/batteri/drar-5g-mer-batteri-an-4g/
@@ -1243,7 +1243,7 @@ https://runcheckapp.com/sv/artiklar/batteri/telefonens-batteri-laddas-ur-under-n
 https://runcheckapp.com/sv/artiklar/batteri/vad-betyder-batterihalsa-i-procent-egentligen/
 https://runcheckapp.com/sv/artiklar/batteri/vad-wake-locks-ar-och-hur-de-drar-batteri/
 https://runcheckapp.com/sv/artiklar/batteri/varfor-laddas-mobilens-batteri-ur-snabbt-i-kyla/
-https://runcheckapp.com/sv/artiklar/batteri/varfor-telefonen-dor-vid-20-prosenttia-och-hur-du-atgardar-det/
+https://runcheckapp.com/sv/artiklar/batteri/varfor-telefonen-dor-vid-20-procent-och-hur-du-atgardar-det/
 https://runcheckapp.com/sv/artiklar/batteri/varfor-telefonen-tappar-batteri-nar-den-inte-anvands/
 https://runcheckapp.com/sv/artiklar/batteri/varfor-telefonens-batteri-tar-slut-sa-snabbt-en-praktisk-felsokningsguide-for-android/
 https://runcheckapp.com/sv/artiklar/batteri/vilka-appar-drar-mest-batteri-pa-android/
@@ -1296,7 +1296,7 @@ https://runcheckapp.com/sv/artiklar/laddning/ar-det-daligt-att-ladda-telefonen-o
 https://runcheckapp.com/sv/artiklar/laddning/ar-snabbladdning-daligt-for-batteriet/
 https://runcheckapp.com/sv/artiklar/laddning/ar-tradlos-laddning-daligt-for-batteriet/
 https://runcheckapp.com/sv/artiklar/laddning/basta-laddningsvanorna-for-android-2026/
-https://runcheckapp.com/sv/artiklar/laddning/bor-du-ladda-till-100-prosenttia-eller-stanna-vid-80-prosenttia/
+https://runcheckapp.com/sv/artiklar/laddning/bor-du-ladda-till-100-procent-eller-stanna-vid-80-procent/
 https://runcheckapp.com/sv/artiklar/laddning/originalladdare-eller-tredjepartsladdare-spelar-det-nagon-roll/
 https://runcheckapp.com/sv/artiklar/laddning/sa-far-du-android-batteriet-att-racka-langre/
 https://runcheckapp.com/sv/artiklar/laddning/sa-fungerar-smarta-laddningsfunktioner-i-android/

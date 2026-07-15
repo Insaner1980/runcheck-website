@@ -1,7 +1,8 @@
 ---
 title: "Por qué se sobrecalienta tu móvil Android y cómo comprobar su temperatura"
+metaTitle: "Por qué se sobrecalienta tu móvil Android"
 description: "Aprende a comprobar la temperatura de un móvil Android, qué significan los intervalos seguros de la batería y cómo Android 17, los diagnósticos de Pixel, Samsung Members, la carga, las aplicaciones y la intensidad de la señal afectan al sobrecalentamiento."
-listSummary: "temperatura, termico y android"
+listSummary: "Comprueba la temperatura e identifica por qué se sobrecalienta el móvil."
 hub: "thermal"
 sourceNumber: 53
 order: 1

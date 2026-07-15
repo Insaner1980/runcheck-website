@@ -1,7 +1,7 @@
 ---
 title: "So prüfst du Android-Sicherheitspatches"
 description: "Du möchtest ein gebrauchtes Smartphone kaufen, oder dein eigenes Gerät hat seit Monaten keine Update-Benachrichtigung mehr gezeigt. Prüfe zuerst nicht die Android-Version, sondern das Datum des Sicherheitsupdates."
-listSummary: "android, updates und sicherheit"
+listSummary: "Prüfe das Datum des Sicherheitsupdates und ob ein neueres Update verfügbar ist."
 hub: "software"
 sourceNumber: 122
 order: 4

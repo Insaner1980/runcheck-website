@@ -1,7 +1,7 @@
 ---
 title: "Le téléphone ne se recharge pas : comment diagnostiquer le problème"
 description: "Meta description : Une méthode pratique pour diagnostiquer un problème de recharge Android, de la prise murale au chargeur, au câble et au port USB-C, sans oublier l'humidité, une batterie entièrement vide, un blocage logiciel et les signes qui imposent une réparation."
-listSummary: "recharge, batterie et android"
+listSummary: "Isolez la panne entre chargeur, câble, port USB-C, batterie et téléphone."
 hub: "charging"
 sourceNumber: 48
 order: 12

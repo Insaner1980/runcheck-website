@@ -1,5 +1,6 @@
 ---
 title: "Por qué la batería de tu móvil se agota tan rápido: guía práctica de diagnóstico en Android"
+metaTitle: "Por qué la batería del móvil se agota rápido"
 description: "El consumo rápido de batería tiene una causa. Puede ser algo tan poco emocionante como el brillo de la pantalla o una señal deficiente, pero no ocurre al azar."
 listSummary: "El consumo rápido de batería tiene una causa."
 hub: "battery"

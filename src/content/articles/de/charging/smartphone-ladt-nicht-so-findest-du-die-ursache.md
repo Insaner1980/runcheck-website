@@ -1,7 +1,7 @@
 ---
 title: "Smartphone lädt nicht: So findest du die Ursache"
 description: "Meta-Beschreibung: Eine praktische Android-Checkliste für Ladeprobleme, von Steckdose, Ladegerät, Kabel und USB-C-Anschluss bis zu Feuchtigkeitswarnungen, tiefentladenen Akkus, Softwareabstürzen und Reparaturhinweisen."
-listSummary: "laden, akku und android"
+listSummary: "Grenze den Ladefehler auf Netzteil, Kabel, USB-C-Anschluss, Akku oder Smartphone ein."
 hub: "charging"
 sourceNumber: 48
 order: 12

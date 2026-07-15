@@ -1,7 +1,7 @@
 ---
 title: "Cómo comprobar el estado del almacenamiento en Android"
 description: "El almacenamiento de Android se desgasta, pero la mayoría de los móviles no muestran un porcentaje sencillo de su estado. Esto es lo que puedes comprobar, qué significan las cifras y cuándo conviene preocuparse."
-listSummary: "almacenamiento, android y limpieza"
+listSummary: "Evalúa el estado del almacenamiento mediante su tipo, velocidad y síntomas de fallo."
 hub: "storage"
 sourceNumber: 80
 order: 2

@@ -1,7 +1,7 @@
 ---
 title: "När bör du byta telefon i stället för att reparera den?"
 description: "Om reparationen kostar mindre än en tredjedel av en jämförbar ersättningstelefon och den gamla telefonen har minst två års programvaruuppdateringar kvar, reparera den. Den regeln löser ungefär 80 % av fallen. De återstående 20 % kräver en närmare titt på vad som faktiskt är fel och om reparationen förlänger telefonens användbara liv på ett meningsfullt sätt."
-listSummary: "android, uppdateringar och säkerhet"
+listSummary: "Jämför reparationskostnaden, återstående support och telefonens värde innan du bestämmer dig."
 hub: "buying-selling"
 sourceNumber: 4
 order: 2

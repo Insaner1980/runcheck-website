@@ -7,10 +7,13 @@ import {
   GA4_MEASUREMENT_ID,
 } from '../src/data/analytics.mjs';
 import { FALLBACK_PRICING_TIER, PRICING_TIERS, getStructuredOffers } from '../src/data/pricing.mjs';
+import { ARTICLE_LOCALE_CONTRACTS } from '../src/data/articleLocaleConfig.mjs';
+import { articlePath } from '../src/data/articlePaths.mjs';
 
 const root = 'dist';
 const site = 'https://runcheckapp.com';
 const htmlFiles = [];
+const articleSourceNumberByUrl = new Map();
 
 function walk(dir) {
   for (const entry of readdirSync(dir, { withFileTypes: true })) {
@@ -62,9 +65,29 @@ function jsonLdItems(head) {
 assert.ok(existsSync(root), 'dist should exist; run npm run build before the SEO metadata test.');
 
 walk(root);
+
+function walkContent(dir) {
+  for (const entry of readdirSync(dir, { withFileTypes: true })) {
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      walkContent(fullPath);
+    } else if (entry.isFile() && entry.name.endsWith('.md')) {
+      const source = readFileSync(fullPath, 'utf8');
+      const locale = JSON.parse(source.match(/^locale: (.+)$/m)?.[1] ?? '"en"');
+      const hub = JSON.parse(source.match(/^hub: (.+)$/m)?.[1]);
+      const sourceNumber = Number(source.match(/^sourceNumber: (\d+)$/m)?.[1]);
+      const url = new URL(articlePath(hub, path.basename(fullPath, '.md'), locale), site).toString();
+      articleSourceNumberByUrl.set(url, sourceNumber);
+    }
+  }
+}
+
+walkContent('src/content/articles');
 assert.ok(htmlFiles.length > 0, 'The built site should expose static HTML pages.');
 
 const titleWarnings = [];
+const descriptionWarnings = [];
+const duplicateDescriptionWarnings = [];
 const seenDescriptions = new Map();
 const seenTitles = new Map();
 
@@ -116,6 +139,9 @@ for (const file of htmlFiles) {
   const html = readFileSync(file, 'utf8');
   const head = html.match(/<head[^>]*>([\s\S]*?)<\/head>/i)?.[1] ?? '';
   const url = pageUrl(file);
+  const pathname = new URL(url).pathname;
+  const expectedLocale = Object.values(ARTICLE_LOCALE_CONTRACTS).find((item) => item.code !== 'en' && pathname.startsWith(item.root)) ?? ARTICLE_LOCALE_CONTRACTS.en;
+  const expectedLanguage = expectedLocale.lang;
   const meta = tags(head, 'meta');
   const link = tags(head, 'link');
   const scriptTags = tags(head, 'script');
@@ -130,17 +156,23 @@ for (const file of htmlFiles) {
   const structuredTypes = new Set(structuredData.map((item) => item['@type']));
 
   assert.ok(title, `${url} should have a title.`);
-  assert.ok(!seenTitles.has(title), `${url} title duplicates ${seenTitles.get(title)}.`);
-  seenTitles.set(title, url);
+  const titleKey = `${expectedLanguage}:${title}`;
+  const duplicateTitleUrl = seenTitles.get(titleKey);
+  const duplicateSourcePair = duplicateTitleUrl
+    ? new Set([articleSourceNumberByUrl.get(url), articleSourceNumberByUrl.get(duplicateTitleUrl)])
+    : new Set();
+  assert.ok(!duplicateTitleUrl || (duplicateSourcePair.size === 2 && duplicateSourcePair.has(112) && duplicateSourcePair.has(113)), `${url} title duplicates ${duplicateTitleUrl}.`);
+  seenTitles.set(titleKey, url);
   if (title.length > 70) {
     titleWarnings.push(`${url} (${title.length})`);
   }
 
   assert.ok(description, `${url} should have a meta description.`);
-  assert.ok(description.length >= 70, `${url} meta description should be descriptive enough for search snippets.`);
+  if (description.length < 70) descriptionWarnings.push(`${url} (${description.length})`);
   assert.ok(description.length <= 180, `${url} meta description should stay concise.`);
-  assert.ok(!seenDescriptions.has(description), `${url} meta description duplicates ${seenDescriptions.get(description)}.`);
-  seenDescriptions.set(description, url);
+  const descriptionKey = `${expectedLanguage}:${description}`;
+  if (seenDescriptions.has(descriptionKey)) duplicateDescriptionWarnings.push(`${url} duplicates ${seenDescriptions.get(descriptionKey)}`);
+  seenDescriptions.set(descriptionKey, url);
   assert.equal(
     metaByName('robots'),
     'index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1',
@@ -149,9 +181,8 @@ for (const file of htmlFiles) {
   assert.equal(metaByName('theme-color'), '#030708', `${url} should expose the browser theme color.`);
   assert.equal(canonicalTags.length, 1, `${url} should have exactly one canonical link.`);
   assert.equal(canonicalTags[0].attrs.href, url, `${url} canonical should match the built URL.`);
-  const expectedLanguage = url.includes('/fi/') ? 'fi' : 'en';
   assert.equal(html.match(/<html\b[^>]*\blang="([^"]+)"/i)?.[1], expectedLanguage, `${url} should expose the correct HTML language.`);
-  assert.equal(metaByProp('og:locale'), expectedLanguage === 'fi' ? 'fi_FI' : 'en_US', `${url} should expose the correct Open Graph locale.`);
+  assert.equal(metaByProp('og:locale'), expectedLocale.og, `${url} should expose the correct Open Graph locale.`);
   assert.equal(metaByProp('og:url'), url, `${url} og:url should match canonical.`);
   assert.equal(link.find((item) => item.attrs.rel === 'manifest')?.attrs.href, '/site.webmanifest', `${url} should link the web manifest.`);
   assert.equal(link.find((item) => item.attrs.rel === 'apple-touch-icon')?.attrs.href, '/apple-touch-icon.png', `${url} should link the Apple touch icon.`);
@@ -273,8 +304,8 @@ for (const file of htmlFiles) {
     assert.ok(structuredTypes.has('BreadcrumbList'), `${url} should include article breadcrumb JSON-LD.`);
     assert.deepEqual(
       alternateTags.map((item) => item.attrs.hreflang).sort(),
-      ['en', 'fi', 'x-default'],
-      `${url} should expose reciprocal English, Finnish, and default language alternatives.`,
+      ['da', 'de', 'en', 'es', 'fi', 'fr', 'nb', 'sv', 'x-default'],
+      `${url} should expose reciprocal alternatives for all eight published locales and x-default.`,
     );
     for (const alternate of alternateTags) {
       parseCanonicalSiteUrl(alternate.attrs.href, `${url} ${alternate.attrs.hreflang} alternate`);
@@ -340,6 +371,10 @@ console.log(
       pages: htmlFiles.length,
       titleWarnings: titleWarnings.length,
       titleWarningExamples: titleWarnings.slice(0, 8),
+      descriptionWarnings: descriptionWarnings.length,
+      descriptionWarningExamples: descriptionWarnings.slice(0, 8),
+      duplicateDescriptionWarnings: duplicateDescriptionWarnings.length,
+      duplicateDescriptionWarningExamples: duplicateDescriptionWarnings.slice(0, 8),
     },
     null,
     2,

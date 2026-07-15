@@ -1,7 +1,7 @@
 ---
 title: "Was du vor dem Kauf eines gebrauchten Android-Smartphones prüfen solltest"
 description: "Ein Smartphone, das im vergangenen Jahr neu etwa 900 € gekostet hat, findest du gebraucht in gutem Zustand häufig für 400-500 €. Die Ersparnis ist real. Genauso real ist aber das Risiko, für ein Gerät zu bezahlen, das mit einer Netzbetreibersperre versehen, als verloren oder gestohlen gemeldet, noch mit dem Konto einer anderen Person verknüpft oder bereits fast am Ende seines Sicherheits-Supports angekommen ist."
-listSummary: "kaufratgeber, android und vergleich"
+listSummary: "Prüfe Sperren, Kontobindung, Akku und Software-Support vor dem Kauf eines gebrauchten Smartphones."
 hub: "buying-selling"
 sourceNumber: 6
 order: 4

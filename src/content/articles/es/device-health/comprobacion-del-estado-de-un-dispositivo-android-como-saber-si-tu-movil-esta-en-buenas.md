@@ -1,6 +1,8 @@
 ---
 title: "Comprobación del estado de un dispositivo Android: cómo saber si tu móvil está en buenas condiciones"
+metaTitle: "Comprobar el estado de un móvil Android"
 description: "Los móviles no se estropean de un día para otro. La batería pierde capacidad poco a poco. El almacenamiento se llena en segundo plano. La temperatura sube cada vez más con las mismas tareas. Cuando los síntomas ya son evidentes, como apagados inesperados, aplicaciones lentas o sobrecalentamiento durante un uso básico, el problema de fondo suele llevar meses desarrollándose."
+metaDescription: "Comprueba batería, almacenamiento, temperatura, red, sensores y rendimiento para saber si tu móvil Android está en buen estado."
 listSummary: "Los móviles no se estropean de un día para otro."
 hub: "device-health"
 sourceNumber: 1

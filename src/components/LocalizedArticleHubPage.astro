@@ -14,7 +14,7 @@ const breadcrumbJsonLd = buildBreadcrumbJsonLd([
 ], site);
 ---
 
-<BaseLayout title={`${hub.title} | runcheck`} description={normalizeMetaDescription(hub.metaDescription ?? hub.description)} canonicalPath={hub.href} lang={locale} alternateLocales={alternateLocales} jsonLd={breadcrumbJsonLd}>
+<BaseLayout title={`${hub.title} | runcheck`} description={normalizeMetaDescription(hub.metaDescription ?? hub.description)} canonicalPath={hub.href} lang={locale} alternateLocales={alternateLocales} jsonLd={breadcrumbJsonLd} metaRobots={copy.productionPublished ? undefined : 'noindex, nofollow'}>
   <section class="border-b border-run-border">
     <div class="article-page-shell article-page-shell-medium">
       <h1 class="text-4xl font-semibold text-run-text sm:text-5xl">{hub.title}</h1>

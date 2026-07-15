@@ -1,7 +1,7 @@
 ---
 title: "El móvil no carga: cómo diagnosticar problemas de carga"
 description: "Una lista práctica para diagnosticar problemas de carga en Android, desde el enchufe, el cargador, el cable y el puerto USB-C hasta los avisos de humedad, las baterías agotadas, los bloqueos de software y las señales de avería."
-listSummary: "carga, bateria y android"
+listSummary: "Averigua si el fallo de carga está en el cargador, el cable, el puerto USB-C, la batería o el móvil."
 hub: "charging"
 sourceNumber: 48
 order: 12

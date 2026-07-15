@@ -1,5 +1,6 @@
 ---
 title: "Cómo probar el hardware de un móvil Android: guía completa de diagnóstico (2026)"
+metaTitle: "Cómo probar el hardware de un móvil Android (2026)"
 description: "Un móvil Android puede parecer estar bien y tener una pieza que empieza a fallar. Una batería gastada, un altavoz débil, un sensor de proximidad defectuoso o una antena dañada no siempre se anuncian de forma clara. Lo que notas es menos autonomía, llamadas extrañas, calor aleatorio o una pantalla que no responde en una esquina."
 listSummary: "Un móvil Android puede parecer estar bien y tener una pieza que empieza a fallar."
 hub: "hardware"

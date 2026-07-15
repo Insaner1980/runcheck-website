@@ -1,7 +1,7 @@
 ---
 title: "Xiaomi CIT-menyen: skjulte maskinvaretester for Xiaomi, Redmi og POCO"
 description: "CIT er den raskeste innebygde maskinvarekontrollen på de fleste Xiaomi-telefoner, inkludert Redmi- og POCO-modeller med offisiell MIUI eller HyperOS. Den er ikke pen. Den forklarer lite. Men når du må finne ut om berøringsskjermen, høyttaleren, mikrofonen, en sensor eller et kamera faktisk reagerer, kommer den raskere til poenget enn de fleste diagnoseapper i Play Store."
-listSummary: "maskinvare, testing og diagnostikk"
+listSummary: "Bruk Xiaomis CIT-meny til å teste telefonens viktigste maskinvaredeler."
 hub: "brands"
 sourceNumber: 159
 order: 7

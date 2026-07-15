@@ -1,7 +1,7 @@
 ---
 title: "Warum dein Android-Smartphone überhitzt und wie du seine Temperatur prüfst"
 description: "So prüfst du die Temperatur eines Android-Smartphones, ordnest sichere Akkutemperaturen ein und verstehst, wie Android 17, Pixel-Diagnose, Samsung Members, Laden, Apps und Signalstärke Überhitzung beeinflussen."
-listSummary: "temperatur, warme und android"
+listSummary: "Prüfe die Temperatur und finde heraus, warum dein Android-Smartphone überhitzt."
 hub: "thermal"
 sourceNumber: 53
 order: 1

@@ -1,7 +1,7 @@
 ---
 title: "So prüfst du, ob ein gebrauchtes Android-Smartphone in gutem Zustand ist"
 description: "Ein Smartphone kann nach ein oder zwei Jahren äußerlich tadellos aussehen und trotzdem ernsthafte Probleme haben. Akkus verschleißen unsichtbar. Speicherchips werden langsamer. Sensoren verlieren an Genauigkeit. Vielleicht reagiert das Display überall, nur nicht auf einer kleinen Fläche in der Ecke, die niemand bemerkt, bis auf der Tastatur ausgerechnet der Buchstabe P nicht funktioniert."
-listSummary: "kaufratgeber, android und vergleich"
+listSummary: "Prüfe Akku, Display, Sensoren und Software, bevor du ein gebrauchtes Android-Smartphone bewertest."
 hub: "buying-selling"
 sourceNumber: 2
 order: 1

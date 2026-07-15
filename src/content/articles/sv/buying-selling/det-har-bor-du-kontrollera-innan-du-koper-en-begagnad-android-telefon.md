@@ -1,7 +1,7 @@
 ---
 title: "Det här bör du kontrollera innan du köper en begagnad Android-telefon"
 description: "En telefon som var en dyr toppmodell året innan kan ofta hittas för omkring halva nypriset på begagnatmarknaden trots att den är i gott skick. Besparingen är verklig, men det är också risken att betala för en telefon som är operatörslåst, spärrad, fortfarande kopplad till någon annans konto eller redan närmar sig slutet för säkerhetsuppdateringar."
-listSummary: "köpguide, android och jämförelse"
+listSummary: "Kontrollera spärrar, konton, batteri och programvarusupport före ett begagnatköp."
 hub: "buying-selling"
 sourceNumber: 6
 order: 4

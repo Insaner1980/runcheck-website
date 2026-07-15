@@ -1,7 +1,7 @@
 ---
 title: "Cómo comprobar los parches de seguridad de Android"
 description: "Estás pensando en comprar un móvil de segunda mano, o el tuyo lleva meses sin mostrar una notificación de actualización. Lo primero que conviene comprobar no es la versión de Android. Es la fecha del parche de seguridad."
-listSummary: "android, actualizaciones y seguridad"
+listSummary: "Comprueba la fecha del parche de seguridad y si hay una actualización más reciente."
 hub: "software"
 sourceNumber: 122
 order: 4

@@ -11,6 +11,14 @@
 
 @font-face {
   font-family: "Switzer";
+  src: url("../assets/fonts/switzer/Switzer-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Switzer";
   src: url("../assets/fonts/switzer/Switzer-Black.woff2") format("woff2");
   font-style: normal;
   font-weight: 900;
@@ -389,7 +397,7 @@ a {
   margin: 0;
   color: var(--color-run-text);
   font-family: var(--font-display);
-  font-size: clamp(2.5rem, 1.8rem + 3vw, 4.6rem);
+  font-size: clamp(2.5rem, 1.8rem + 2vw, 3.8rem);
   font-weight: 900;
   letter-spacing: -0.025em;
   line-height: 0.98;
@@ -750,7 +758,7 @@ a {
   color: color-mix(in srgb, var(--color-run-white) 44%, transparent);
 }
 
-/* Otsikko: kolme riviä, versaalit, yhtenäinen koko ja paino */
+/* Otsikko: kaksirivinen pienaakkostyyli features-otsikon korostuksella. */
 .hero-title {
   line-height: 1;
 }
@@ -766,34 +774,21 @@ a {
 }
 
 .hero-title-line {
+  color: var(--color-run-text);
   font-size: clamp(2.2rem, 0.9rem + 4.1vw, 4.4rem);
-  font-weight: 900;
-  letter-spacing: 0.01em;
-  line-height: 0.92;
-  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 0.98;
 }
 
-.hero-line-main .hero-title-line {
-  font-size: clamp(2.55rem, 1.06rem + 4.8vw, 5.1rem);
-}
-
-/* REAL: käännetty laatta - tummat kirjaimet metalliliukupohjalla */
-.hero-real-outline {
-  display: inline-block;
-  margin-right: 0.22em;
-  padding: 0.04em 0.14em;
-  background: var(--run-headline-metal-fill);
-  color: var(--color-run-bg);
-}
-
-/* Subtitle: otsikon alla */
+/* Ingressi: otsikkoa tukeva mutta selkeästi toissijainen. */
 .hero-copyline {
-  max-width: 26rem;
-  margin: 2.5rem 0 0;
-  color: color-mix(in srgb, var(--color-run-white) 66%, transparent);
-  font-size: clamp(0.9rem, 0.86rem + 0.2vw, 0.98rem);
-  font-weight: 400;
-  line-height: 1.8;
+  max-width: 31rem;
+  margin: 2.2rem 0 0;
+  color: color-mix(in srgb, var(--color-run-white) 76%, transparent);
+  font-size: clamp(0.96rem, 0.9rem + 0.28vw, 1.08rem);
+  font-weight: 500;
+  line-height: 1.65;
 }
 
 .hero-visual {

@@ -1,7 +1,7 @@
 ---
 title: "Pourquoi votre téléphone Android surchauffe et comment vérifier sa température"
 description: "Un téléphone Android peut sembler chaud pour des raisons banales, pour des raisons sérieuses ou sans raison évidente. Le plus difficile est de savoir quel chiffre vous regardez et s'il a réellement un sens."
-listSummary: "temperature, thermique et android"
+listSummary: "Vérifiez la température et identifiez la cause de la surchauffe du téléphone."
 hub: "thermal"
 sourceNumber: 53
 order: 1

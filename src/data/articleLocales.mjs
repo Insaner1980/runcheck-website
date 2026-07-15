@@ -1,19 +1,15 @@
 import { articleHubPath } from './articlePaths.mjs';
 export { ARTICLE_LOCALE_ROOTS } from './articlePaths.mjs';
 import { ARTICLE_HUBS } from './articleTaxonomy.mjs';
+import {
+  ARTICLE_LOCALE_CONTRACTS,
+  LOCALIZED_ARTICLE_LOCALES,
+  PUBLISHED_ARTICLE_LOCALE_CODES,
+  ROUTED_ARTICLE_LOCALE_CODES,
+} from './articleLocaleConfig.mjs';
 
-export const ARTICLE_LOCALES = Object.freeze({
-  en: { lang: 'en', og: 'en_US', root: '/articles/', searchIndex: '/articles/search-index.json', articles: 'Articles', search: ['Search articles', 'Close search', 'Search results', 'No results', 'Search unavailable'], nav: ['Features', 'Articles', 'Contact'], menu: ['Open menu', 'Close menu', 'Primary navigation', 'Footer navigation'] },
-  fi: { lang: 'fi', og: 'fi_FI', root: '/fi/artikkelit/', searchIndex: '/fi/artikkelit/hakuindeksi.json', articles: 'Artikkelit', search: ['Hae artikkeleita', 'Sulje haku', 'Hakutulokset', 'Ei tuloksia', 'Haku ei ole käytettävissä'], nav: ['Ominaisuudet', 'Artikkelit', 'Yhteystiedot'], menu: ['Avaa valikko', 'Sulje valikko', 'Päänavigointi', 'Alatunnisteen navigointi'] },
-  sv: { lang: 'sv', og: 'sv_SE', root: '/sv/artiklar/', searchIndex: '/sv/artiklar/sokindex.json', articles: 'Artiklar', search: ['Sök artiklar', 'Stäng sökningen', 'Sökresultat', 'Inga resultat', 'Sökningen är inte tillgänglig'], nav: ['Funktioner', 'Artiklar', 'Kontakt'], menu: ['Öppna menyn', 'Stäng menyn', 'Huvudnavigering', 'Sidfotsnavigering'] },
-  nb: { lang: 'nb', og: 'nb_NO', root: '/nb/artikler/', searchIndex: '/nb/artikler/sokeindeks.json', articles: 'Artikler', search: ['Søk i artikler', 'Lukk søket', 'Søkeresultater', 'Ingen resultater', 'Søket er ikke tilgjengelig'], nav: ['Funksjoner', 'Artikler', 'Kontakt'], menu: ['Åpne menyen', 'Lukk menyen', 'Hovednavigasjon', 'Bunntekstnavigasjon'] },
-  de: { lang: 'de', og: 'de_DE', root: '/de/artikel/', searchIndex: '/de/artikel/suchindex.json', articles: 'Artikel', search: ['Artikel durchsuchen', 'Suche schließen', 'Suchergebnisse', 'Keine Ergebnisse', 'Suche nicht verfügbar'], nav: ['Funktionen', 'Artikel', 'Kontakt'], menu: ['Menü öffnen', 'Menü schließen', 'Hauptnavigation', 'Fußzeilennavigation'] },
-  da: { lang: 'da', og: 'da_DK', root: '/da/artikler/', searchIndex: '/da/artikler/soegeindeks.json', articles: 'Artikler', search: ['Søg i artikler', 'Luk søgning', 'Søgeresultater', 'Ingen resultater', 'Søgning er ikke tilgængelig'], nav: ['Funktioner', 'Artikler', 'Kontakt'], menu: ['Åbn menuen', 'Luk menuen', 'Primær navigation', 'Sidefodsnavigation'] },
-  fr: { lang: 'fr', og: 'fr_FR', root: '/fr/articles/', searchIndex: '/fr/articles/index-recherche.json', articles: 'Articles', search: ['Rechercher des articles', 'Fermer la recherche', 'Résultats de recherche', 'Aucun résultat', 'Recherche indisponible'], nav: ['Fonctionnalités', 'Articles', 'Contact'], menu: ['Ouvrir le menu', 'Fermer le menu', 'Navigation principale', 'Navigation de pied de page'] },
-  es: { lang: 'es', og: 'es_ES', root: '/es/articulos/', searchIndex: '/es/articulos/indice-busqueda.json', articles: 'Artículos', search: ['Buscar artículos', 'Cerrar búsqueda', 'Resultados de búsqueda', 'No hay resultados', 'Búsqueda no disponible'], nav: ['Funciones', 'Artículos', 'Contacto'], menu: ['Abrir menú', 'Cerrar menú', 'Navegación principal', 'Navegación del pie de página'] },
-});
-
-export const LOCALIZED_ARTICLE_LOCALES = Object.freeze(['sv', 'nb', 'de', 'da', 'fr', 'es']);
+export const ARTICLE_LOCALES = ARTICLE_LOCALE_CONTRACTS;
+export { LOCALIZED_ARTICLE_LOCALES, PUBLISHED_ARTICLE_LOCALE_CODES, ROUTED_ARTICLE_LOCALE_CODES };
 
 const HUB_TEXT = {
   sv: [['Batteri','batterihälsa, slitage och förbrukning'],['Laddning','laddningsvanor, hastigheter och laddartest'],['Värme','överhettning, strypning och kylning'],['Nätverk','signal, hastighet och anslutningar'],['Lagring','utrymme, rensning och lagringshälsa'],['Hastighet och prestanda','långsamhet, frysningar och lösningar'],['Hårdvara och sensorer','skärm, kamera, ljud och sensortester'],['Programvara och uppdateringar','Android-versioner, uppdateringar och säkerhet'],['Fysiska skador','fall-, vatten- och skärmskador'],['Enhetshälsa','underhåll, livslängd och hälsopoäng'],['Köpa och sälja','begagnade telefoner, reparation och inbytesvärde'],['Myter','batteri- och prestandamyter granskade'],['Märkesguider','Samsung, Pixel, Xiaomi, POCO och OnePlus']],
@@ -22,6 +18,7 @@ const HUB_TEXT = {
   da: [['Batteri','batteritilstand, slid og strømforbrug'],['Opladning','ladevaner, hastigheder og test af opladere'],['Varme','overophedning, drosling og afkøling'],['Netværk','signal, hastighed og forbindelser'],['Lagerplads','plads, oprydning og lagertilstand'],['Hastighed og ydeevne','langsommelighed, fastfrysning og løsninger'],['Hardware og sensorer','skærm, kamera, lyd og sensortest'],['Software og opdateringer','Android-versioner, opdateringer og sikkerhed'],['Fysiske skader','fald-, vand- og skærmskader'],['Enhedstilstand','vedligeholdelse, levetid og tilstandsscore'],['Køb og salg','brugte telefoner, reparation og bytteværdi'],['Myter','batteri- og ydelsesmyter efterprøvet'],['Mærkeguides','Samsung, Pixel, Xiaomi, POCO og OnePlus']],
   fr: [['Batterie','état, usure et consommation'],['Recharge','habitudes de recharge, vitesses et chargeurs'],['Température','surchauffe, bridage et refroidissement'],['Réseau','signal, vitesse et connexions'],['Stockage','espace, nettoyage et état du stockage'],['Vitesse et performances','lenteur, blocages et solutions'],['Matériel et capteurs','écran, appareil photo, audio et tests de capteurs'],['Logiciel et mises à jour','versions d’Android, mises à jour et sécurité'],['Dommages physiques','chutes, eau et dommages de l’écran'],['État de l’appareil','entretien, durée de vie et score d’état'],['Achat et revente','téléphones d’occasion, réparation et valeur de reprise'],['Mythes','mythes sur la batterie et les performances vérifiés'],['Guides par marque','Samsung, Pixel, Xiaomi, POCO et OnePlus']],
   es: [['Batería','estado, desgaste y consumo'],['Carga','hábitos de carga, velocidades y cargadores'],['Temperatura','sobrecalentamiento, limitación térmica y refrigeración'],['Redes','señal, velocidad y conexiones'],['Almacenamiento','espacio, limpieza y estado del almacenamiento'],['Velocidad y rendimiento','lentitud, bloqueos y soluciones'],['Hardware y sensores','pantalla, cámara, audio y pruebas de sensores'],['Software y actualizaciones','versiones de Android, actualizaciones y seguridad'],['Daños físicos','daños por caídas, agua y pantalla'],['Estado del dispositivo','mantenimiento, vida útil y puntuación de estado'],['Compra y venta','teléfonos usados, reparación y valor de recompra'],['Mitos','mitos sobre la batería y el rendimiento comprobados'],['Guías por marca','Samsung, Pixel, Xiaomi, POCO y OnePlus']],
+  it: [['Batteria','stato, usura e consumo'],['Ricarica','abitudini, velocità e caricabatterie'],['Temperatura','surriscaldamento, limitazione termica e raffreddamento'],['Rete','segnale, velocità e connessioni'],['Memoria','spazio, pulizia e stato della memoria'],['Velocità e prestazioni','rallentamenti, blocchi e soluzioni'],['Hardware e sensori','schermo, fotocamera, audio e test dei sensori'],['Software e aggiornamenti','versioni di Android, aggiornamenti e sicurezza'],['Danni fisici','cadute, acqua e danni allo schermo'],['Stato del dispositivo','manutenzione, durata e punteggio di stato'],['Acquisto e vendita','smartphone usati, riparazione e valore di permuta'],['Miti','verifica dei miti su batteria e prestazioni'],['Guide per marca','Samsung, Pixel, Xiaomi, POCO e OnePlus']],
 };
 
 export const localizedHubs = (locale) => {
@@ -32,6 +29,7 @@ export const localizedHubs = (locale) => {
     de: { Health: 'Akkuzustand', Drain: 'Akkuverbrauch' }, da: { Health: 'Batteritilstand', Drain: 'Strømforbrug' },
     fr: { Health: 'État de la batterie', Drain: 'Consommation de batterie' },
     es: { Health: 'Estado de la batería', Drain: 'Consumo de batería' },
+    it: { Health: 'Stato della batteria', Drain: 'Consumo della batteria' },
   };
   const metaTemplates = {
     sv: (title, description) => `${title}: svenska Android-guider om ${description}, med tydliga kontroller, förklaringar och praktiska felsökningssteg.`,
@@ -40,6 +38,7 @@ export const localizedHubs = (locale) => {
     da: (title, description) => `${title}: danske Android-guides om ${description}, med tydelige kontroller, forklaringer og praktiske trin til fejlfinding.`,
     fr: (title, description) => `${title}: guides Android en français sur ${description}, avec des vérifications claires, des explications et des étapes pratiques de dépannage.`,
     es: (title, description) => `${title}: guías de Android en español sobre ${description}, con comprobaciones claras, explicaciones y pasos prácticos para solucionar problemas.`,
+    it: (title, description) => `${title}: guide Android in italiano su ${description}, con controlli chiari, spiegazioni e passaggi pratici per risolvere i problemi.`,
   };
   return ARTICLE_HUBS.map((hub, index) => {
     const [title, description] = HUB_TEXT[locale][index];
@@ -48,7 +47,8 @@ export const localizedHubs = (locale) => {
 };
 
 export const allArticleAlternates = (articles, sourceNumber) => {
-  const byLocale = new Map(articles.filter((item) => item.data.sourceNumber === sourceNumber).map((item) => [item.data.locale, item]));
+  const routedLocales = new Set(ROUTED_ARTICLE_LOCALE_CODES);
+  const byLocale = new Map(articles.filter((item) => item.data.sourceNumber === sourceNumber && routedLocales.has(item.data.locale)).map((item) => [item.data.locale, item]));
   const alternates = [...byLocale].map(([locale, item]) => ({ lang: locale, path: `${articleHubPath(item.data.hub, locale)}${item.id.split('/').at(-1)}/` }));
   const english = alternates.find((item) => item.lang === 'en');
   return english ? [...alternates, { lang: 'x-default', path: english.path }] : alternates;

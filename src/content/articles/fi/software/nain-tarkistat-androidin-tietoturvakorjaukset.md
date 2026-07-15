@@ -1,5 +1,6 @@
 ---
-title: "Näin tarkistat Androidin tietoturvakorjaukset"
+title: "Näin tarkistat Androidin tietoturvapäivitykset"
+metaTitle: "Androidin tietoturvapäivitysten tarkistaminen"
 description: "Olet ostamassa käytettyä puhelinta tai oma puhelimesi ei ole näyttänyt päivitysilmoitusta kuukausiin. Ensimmäiseksi ei kannata tarkistaa Android-versiota vaan tietoturvakorjauksen päivämäärä."
 listSummary: "Olet ostamassa käytettyä puhelinta tai oma puhelimesi ei ole näyttänyt päivitysilmoitusta kuukausiin."
 hub: "software"
@@ -11,7 +12,7 @@ draft: false
 ---
 Avaa useimmissa Android-puhelimissa Asetukset-sovelluksen Tietoja puhelimesta -sivu ja etsi kohta Androidin tietoturvapäivitys tai Android security patch level. Päivämäärä näyttää esimerkiksi tältä: 2026-06-05.
 
-## Mistä korjauspäivämäärä löytyy
+## Mistä tietoturvapäivityksen päivämäärä löytyy
 
 Pixel-puhelimissa se näkyy Android-versio-näkymässä. Samalla sivulla ovat Android-versio, Androidin tietoturvapäivitys, Google Play ‑järjestelmäpäivitys ja koontiversion numero.
 
@@ -57,7 +58,7 @@ Tämä päivämäärä on erillinen Androidin varsinaisesta tietoturvakorjaustas
 
 Mainline-päivityksistä on hyötyä etenkin Android 10:ssä ja sitä uudemmissa versioissa, mutta ne eivät korvaa valmistajan päivityksiä. Niillä ei voida korjata kaikkia kernelin, ajurien, modeemin tai valmistajakohtaisten komponenttien haavoittuvuuksia.
 
-## Kuinka tuore korjaustason pitäisi olla?
+## Kuinka tuore tietoturvapäivityksen pitäisi olla?
 
 Viimeisten kahden kuukauden aikana päivitetty puhelin on hyvässä kunnossa. Kolmen tai neljän kuukauden viive ei ole ihanteellinen, mutta se on tavallinen hitaammissa päivitysaikatauluissa. Kuuden kuukauden viive vaatii huomiota, varsinkin jos puhelinta käytetään pankkiasioihin, työhön, matkustamiseen tai kaksivaiheiseen tunnistautumiseen.
 

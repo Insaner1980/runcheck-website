@@ -1,7 +1,7 @@
 ---
 title: "Por qué el móvil dice que el almacenamiento está lleno cuando no lo parece"
 description: "Una situación bastante común en soporte técnico es esta: alguien borra un montón de vídeos, consulta la pantalla de almacenamiento y el móvil sigue negándose a instalar una aplicación o hacer una foto."
-listSummary: "almacenamiento, android y limpieza"
+listSummary: "Descubre por qué Android muestra el almacenamiento lleno aunque parezca quedar espacio."
 hub: "storage"
 sourceNumber: 87
 order: 9

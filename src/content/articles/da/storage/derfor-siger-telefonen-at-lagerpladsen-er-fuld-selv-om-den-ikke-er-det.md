@@ -1,7 +1,7 @@
 ---
 title: "Derfor siger telefonen, at lagerpladsen er fuld, selv om den ikke er det"
 description: "Et almindeligt supportforløb ser sådan ud: En person sletter en bunke videoer, tjekker telefonens lageroversigt, og telefonen nægter stadig at installere en app eller tage et billede."
-listSummary: "lagerplads, android og oprydning"
+listSummary: "Find årsagen, når Android melder om fuld lagerplads, selv om der ser ud til at være plads."
 hub: "storage"
 sourceNumber: 87
 order: 9

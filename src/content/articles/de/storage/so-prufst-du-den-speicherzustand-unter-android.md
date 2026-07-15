@@ -1,7 +1,7 @@
 ---
 title: "So prüfst du den Speicherzustand unter Android"
 description: "Android-Speicher kann verschleißen, doch die meisten Smartphones zeigen keinen einfachen Prozentwert für den Speicherzustand. Hier erfährst du, was du prüfen kannst, was die Zahlen bedeuten und wann du handeln solltest."
-listSummary: "speicher, android und bereinigung"
+listSummary: "Bewerte den Speicherzustand anhand von Speichertyp, Geschwindigkeit und klaren Fehlersymptomen."
 hub: "storage"
 sourceNumber: 80
 order: 2

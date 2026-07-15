@@ -1,0 +1,15 @@
+export const ARTICLE_SLUG_MIGRATIONS = Object.freeze([
+  ['da', 18, '/da/artikler/batteri/batteritilstand-under-80-prosenttia-hvad-det-betyder-og-hvad-du-skal-gore/', '/da/artikler/batteri/batteritilstand-under-80-procent-hvad-det-betyder-og-hvad-du-skal-gore/'],
+  ['da', 22, '/da/artikler/batteri/hvorfor-din-telefon-slukker-ved-20-prosenttia-og-sadan-loser-du-problemet/', '/da/artikler/batteri/hvorfor-din-telefon-slukker-ved-20-procent-og-sadan-loser-du-problemet/'],
+  ['da', 43, '/da/artikler/opladning/skal-du-oplade-til-100-prosenttia-eller-stoppe-ved-80-prosenttia/', '/da/artikler/opladning/skal-du-oplade-til-100-procent-eller-stoppe-ved-80-procent/'],
+  ['de', 18, '/de/artikel/akku/akkuzustand-unter-80-prosenttia-was-das-bedeutet-und-was-du-tun-solltest/', '/de/artikel/akku/akkuzustand-unter-80-prozent-was-das-bedeutet-und-was-du-tun-solltest/'],
+  ['de', 22, '/de/artikel/akku/warum-sich-dein-smartphone-bei-20-prosenttia-ausschaltet-und-was-du-dagegen-tun-kannst/', '/de/artikel/akku/warum-sich-dein-smartphone-bei-20-prozent-ausschaltet-und-was-du-dagegen-tun-kannst/'],
+  ['de', 43, '/de/artikel/laden/solltest-du-bis-100-prosenttia-laden-oder-bei-80-prosenttia-aufhoren/', '/de/artikel/laden/solltest-du-bis-100-prozent-laden-oder-bei-80-prozent-aufhoren/'],
+  ['nb', 18, '/nb/artikler/batteri/batterihelse-under-80-prosenttia-hva-det-betyr-og-hva-du-bor-gjore/', '/nb/artikler/batteri/batterihelse-under-80-prosent-hva-det-betyr-og-hva-du-bor-gjore/'],
+  ['nb', 22, '/nb/artikler/batteri/hvorfor-telefonen-slar-seg-av-ved-20-prosenttia-og-hvordan-du-retter-det/', '/nb/artikler/batteri/hvorfor-telefonen-slar-seg-av-ved-20-prosent-og-hvordan-du-retter-det/'],
+  ['nb', 43, '/nb/artikler/lading/bor-du-lade-til-100-prosenttia-eller-stoppe-pa-80-prosenttia/', '/nb/artikler/lading/bor-du-lade-til-100-prosent-eller-stoppe-pa-80-prosent/'],
+  ['sv', 18, '/sv/artiklar/batteri/batterihalsa-under-80-prosenttia-vad-det-betyder-och-vad-du-kan-gora/', '/sv/artiklar/batteri/batterihalsa-under-80-procent-vad-det-betyder-och-vad-du-kan-gora/'],
+  ['sv', 22, '/sv/artiklar/batteri/varfor-telefonen-dor-vid-20-prosenttia-och-hur-du-atgardar-det/', '/sv/artiklar/batteri/varfor-telefonen-dor-vid-20-procent-och-hur-du-atgardar-det/'],
+  ['sv', 43, '/sv/artiklar/laddning/bor-du-ladda-till-100-prosenttia-eller-stanna-vid-80-prosenttia/', '/sv/artiklar/laddning/bor-du-ladda-till-100-procent-eller-stanna-vid-80-procent/'],
+  ['es', 123, '/es/articulos/software-y-actualizaciones/sigue-teniendo-soporte-mi-movil-como-comprobar-el-ciclo-de-actualizaciones-y-seguridad-de/', '/es/articulos/software-y-actualizaciones/soporte-actualizaciones-seguridad-movil-android/'],
+].map(([locale, sourceNumber, oldPath, newPath]) => Object.freeze({ locale, sourceNumber, oldPath, newPath })));

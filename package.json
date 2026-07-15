@@ -9,7 +9,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "test:gsc-locales": "node --test scripts/analyze-search-console-locales.test.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "3.7.3",

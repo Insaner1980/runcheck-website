@@ -1,7 +1,7 @@
 ---
 title: "Hvornår bør du udskifte telefonen i stedet for at reparere den?"
 description: "Hvis reparationen koster mindre end en tredjedel af en sammenlignelig erstatningstelefon, og telefonen stadig har mindst to års softwareopdateringer foran sig, bør du reparere den. Den regel dækker cirka 80 % af tilfældene. De sidste 20 % kræver et nærmere blik på, hvad der faktisk er galt, og om reparationen forlænger telefonens brugbare levetid i mærkbar grad."
-listSummary: "android, opdateringer og sikkerhed"
+listSummary: "Sammenlign reparationspris, resterende support og telefonens værdi, før du vælger."
 hub: "buying-selling"
 sourceNumber: 4
 order: 2

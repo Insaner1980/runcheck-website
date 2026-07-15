@@ -1,7 +1,9 @@
 ---
-title: "¿Sigue teniendo soporte mi móvil? Cómo comprobar el ciclo de actualizaciones y seguridad de Android"
+title: "¿Sigue teniendo soporte tu móvil? Cómo comprobar el periodo de soporte y las actualizaciones de seguridad"
+metaTitle: "¿Sigue teniendo soporte tu móvil Android?"
 description: "Tu móvil puede parecer completamente normal y haber superado ya su vida útil segura en cuanto a actualizaciones. Las llamadas funcionan. Las aplicaciones se abren. La cámara sigue haciendo fotos. Pero si el fabricante ha dejado de enviar parches de seguridad, los nuevos fallos descubiertos en Android no se corrigen en ese dispositivo."
-listSummary: "android, actualizaciones y seguridad"
+metaDescription: "Comprueba hasta cuándo recibe tu móvil Android actualizaciones del sistema y parches de seguridad, y qué hacer cuando termina el soporte."
+listSummary: "Revisa la fecha del parche y la lista del fabricante para saber si el móvil aún tiene soporte."
 hub: "software"
 sourceNumber: 123
 order: 5
