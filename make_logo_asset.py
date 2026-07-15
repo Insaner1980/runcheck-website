@@ -51,6 +51,7 @@ def create_logo_asset(
     input_path: str | Path,
     output_path: str | Path,
     *,
+    allowed_root: str | Path,
     threshold: int = DEFAULT_ALPHA_THRESHOLD,
     tolerance: float = DEFAULT_ASPECT_TOLERANCE,
     preserve_proportions: bool = False,
@@ -62,8 +63,8 @@ def create_logo_asset(
     validate_tolerance(tolerance)
     validate_geometry(canvas_size, target_size, position)
 
-    source_path = Path(input_path)
-    destination_path = Path(output_path)
+    source_path = resolve_path_within_root(input_path, allowed_root)
+    destination_path = resolve_path_within_root(output_path, allowed_root)
 
     with Image.open(source_path) as source:
         rgba = source.convert("RGBA")
@@ -176,6 +177,14 @@ def bbox_size(bbox: BBox) -> Size:
     return bbox[2] - bbox[0], bbox[3] - bbox[1]
 
 
+def resolve_path_within_root(path_value: str | Path, allowed_root: str | Path) -> Path:
+    root = Path(allowed_root).resolve()
+    candidate = Path(path_value).resolve()
+    if not candidate.is_relative_to(root):
+        raise ValueError(f"Path must stay within {root}: {candidate}")
+    return candidate
+
+
 def can_scale_to_target_without_distortion(source_size: Size, target_size: Size) -> bool:
     return source_size[0] * target_size[1] == source_size[1] * target_size[0]
 
@@ -275,6 +284,7 @@ def main(argv: list[str] | None = None) -> int:
         result = create_logo_asset(
             args.input,
             args.output,
+            allowed_root=Path(__file__).resolve().parent,
             threshold=args.threshold,
             tolerance=args.tolerance,
             preserve_proportions=args.preserve_proportions,

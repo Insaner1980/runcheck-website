@@ -9,7 +9,9 @@ import {
 import { FALLBACK_PRICING_TIER, PRICING_TIERS, getStructuredOffers } from '../src/data/pricing.mjs';
 import { ARTICLE_LOCALE_CONTRACTS } from '../src/data/articleLocaleConfig.mjs';
 import { articlePath } from '../src/data/articlePaths.mjs';
+import test from 'node:test';
 
+test('seo metadata', () => {
 const root = 'dist';
 const site = 'https://runcheckapp.com';
 const htmlFiles = [];
@@ -380,3 +382,4 @@ console.log(
     2,
   ),
 );
+});

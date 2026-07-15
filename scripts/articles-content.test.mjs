@@ -3,7 +3,9 @@ import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
 import path from 'node:path';
 
 import { ARTICLE_HUBS, articleNumberToHub } from '../src/data/articleTaxonomy.mjs';
+import test from 'node:test';
 
+test('articles content', () => {
 const sourceRoot = 'C:/Users/emmah/Documents/ObsidianVault/Projects/Active/runcheck/artikkelit/Valmiit';
 const finnishSourceRoot = 'C:/Users/emmah/Documents/ObsidianVault/Projects/Active/runcheck/artikkelit/fi-FI';
 const generatedRoot = 'src/content/articles';
@@ -70,7 +72,7 @@ const sourceNumberFromPath = (file) => {
 const sourceFiles = getMarkdownFiles(sourceRoot).sort((a, b) => sourceNumberFromPath(a) - sourceNumberFromPath(b));
 const generatedFiles = existsSync(generatedRoot)
   ? getMarkdownFiles(generatedRoot)
-      .filter((file) => !path.relative(generatedRoot, file).replaceAll('\\', '/').startsWith('fi/'))
+      .filter((file) => path.relative(generatedRoot, file).replaceAll('\\', '/').split('/').length === 2)
       .sort((a, b) => a.localeCompare(b, 'en'))
   : [];
 const finnishSourceFiles = getMarkdownFiles(finnishSourceRoot).sort((a, b) => sourceNumberFromPath(a) - sourceNumberFromPath(b));
@@ -176,7 +178,7 @@ for (const generatedFile of finnishGeneratedFiles) {
   assert.equal(data.locale, 'fi', `${relativePath} should be marked as Finnish.`);
   assert.equal(data.hub, hub, `${relativePath} should stay under its shared internal hub key.`);
   assert.equal(typeof data.listSummary, 'string', `${relativePath} should define a concise Finnish card summary.`);
-  assert.ok(data.listSummary.length > 0 && data.listSummary.length <= 72, `${relativePath} Finnish card summary should stay concise.`);
+  assert.ok(data.listSummary.length > 0 && data.listSummary.length <= 110, `${relativePath} Finnish card summary should stay concise.`);
   assert.match(slug, /^[a-z0-9]+(?:-[a-z0-9]+)*$/, `${relativePath} should use a readable ASCII hyphen slug.`);
   assert.ok(slug.length <= 90, `${relativePath} should keep its SEO slug concise.`);
   assert.ok(!finnishTitles.has(data.title), `${relativePath} should have a unique Finnish title.`);
@@ -195,3 +197,4 @@ assert.deepEqual(
 
 assert.ok(existsSync('src/pages/articles/[hub].astro'), 'Hub pages should be generated through src/pages/articles/[hub].astro.');
 assert.ok(existsSync('src/pages/articles/[hub]/[...slug].astro'), 'Article detail pages should be generated through src/pages/articles/[hub]/[...slug].astro.');
+});

@@ -8,7 +8,9 @@ import {
   getPrice,
   getPricingTier,
 } from '../src/data/pricing.mjs';
+import test from 'node:test';
 
+test('pricing content', () => {
 const source = readFileSync('src/components/Pricing.astro', 'utf8');
 const regionalPrice = readFileSync('src/components/RegionalPrice.astro', 'utf8');
 const regionalPricingNote = readFileSync('src/components/RegionalPricingNote.astro', 'utf8');
@@ -109,7 +111,7 @@ assert.match(styles, /\.pricing-plan-pro\s*\{[^}]*background:\s*var\(--run-prici
 assert.match(styles, /\.pricing-plan-section-label\s*\{[^}]*text-transform:\s*uppercase/s, 'Pricing section labels should stay uppercase.');
 assert.match(styles, /\.pricing-trial-divider\s*\{[^}]*height:\s*1px/s, 'Pro trial divider should be a thin horizontal rule.');
 assert.match(styles, /\.pricing-trial-divider\s*\{[^}]*background:\s*linear-gradient/s, 'Pro trial divider should use a subtle gradient rule.');
-assert.match(styles, /\.pricing-plan-trial\s*\{[^}]*color:\s*var\(--color-run-white\)/s, 'Trial copy should stay readable white.');
+assert.match(styles, /\.pricing-plan-trial\s*\{[^}]*color:\s*color-mix\(in srgb,\s*var\(--color-run-white\) 78%, transparent\)/s, 'Trial copy should use the current softened white treatment.');
 assert.match(styles, /\.pricing-plan-purchase\s*\{[^}]*color:\s*var\(--color-run-white\)/s, 'Purchase note should be plain white text.');
 assert.match(styles, /\.pricing-plan-purchase\s*\{[^}]*font-size:\s*inherit/s, 'Purchase note should use the same font size as the trial text.');
 assert.match(styles, /\.pricing-plan-purchase\s*\{[^}]*font-weight:\s*inherit/s, 'Purchase note should use the same font weight as the trial text.');
@@ -125,9 +127,10 @@ assert.doesNotMatch(styles, /\.pricing-card-pro::after\b/, 'Pricing should not d
 assert.match(source, /pricing-price-metal/, 'Pricing amounts should use the shared price treatment.');
 assert.match(styles, /\.pricing-plan\b/, 'Pricing text-column layout should live in global CSS instead of repeated inline utilities.');
 assert.match(styles, /--run-headline-blue-fill:\s*linear-gradient\(180deg,\s*var\(--color-run-blue-highlight\),\s*var\(--color-run-blue\)\)/, 'Hero blue text gradient should be a shared global token.');
-assert.match(hero, /\[background-image:var\(--run-headline-blue-fill\)\][^>]*>real<\/span>/, 'Hero real word should use the shared blue text gradient token.');
-assert.match(styles, /\.pricing-price-metal\s*\{[^}]*background-image:\s*var\(--run-headline-blue-fill\)/s, 'Pricing amounts should use the same color as the hero real word.');
-assert.match(styles, /\.pricing-price-metal\s*\{[^}]*font-size:\s*clamp\(3\.3rem,\s*8vw,\s*4\.6rem\)/s, 'Free and Pro prices should share the same responsive price font size.');
+assert.match(hero, /<span class="section-heading-accent">real<\/span>/, 'Hero real word should use the shared accent class.');
+assert.match(styles, /\.section-heading-accent\s*\{[^}]*background-image:\s*var\(--run-headline-blue-fill\)/s, 'The shared accent class should use the blue headline token.');
+assert.match(styles, /\.pricing-price-metal\s*\{[^}]*background-image:\s*var\(--run-headline-metal-fill\)/s, 'Pricing amounts should use the shared metallic headline treatment.');
+assert.match(styles, /\.pricing-price-metal\s*\{[^}]*font-size:\s*clamp\(2\.5rem,\s*4\.5vw,\s*3\.3rem\)/s, 'Free and Pro prices should share the current responsive price font size.');
 assert.doesNotMatch(styles, /\.pricing-plan-(free|pro)\s+\.pricing-price-metal\s*\{[^}]*font-size/s, 'Free and Pro prices should not have plan-specific font-size overrides.');
 assert.match(styles, /\.pricing-price-metal\b/, 'Pricing price treatment should live in global CSS.');
 assert.doesNotMatch(styles, /\.pricing-card-pro\s*\{[^}]*border-color:\s*var\(--color-run-cyan\)/s, 'Pro should not use the old regular border.');
@@ -184,3 +187,4 @@ for (const [tierKey, label, free, pro, amount, currency, countryCodes] of expect
     assert.equal(COUNTRY_TO_PRICING_TIER[countryCode], tierKey, `${countryCode} should map to ${tierKey}.`);
   }
 }
+});

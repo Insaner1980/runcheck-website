@@ -1,19 +1,13 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
+import test from 'node:test';
 
-const footer = readFileSync('src/components/Footer.astro', 'utf8');
+test('footer layout', () => {
+  const footer = readFileSync('src/components/Footer.astro', 'utf8');
 
-assert.match(footer, /<p>&copy; \{year\} runcheck<\/p>/, 'Footer should render the copyright as the only runcheck text.');
-assert.doesNotMatch(footer, /<p class="font-semibold text-run-text">runcheck<\/p>/, 'Footer should not render a duplicate runcheck brand label.');
-assert.doesNotMatch(footer, /href="\/">\s*Home\s*<\/a>/, 'Footer should not include the Home link.');
-assert.match(footer, /href="\/articles\/">Articles<\/a>/, 'Footer should keep the Articles link.');
-assert.match(
-  footer,
-  /href="mailto:contact@finnvek\.com">contact@finnvek\.com<\/a>/,
-  'Footer should expose the Finnvek contact email as a mailto link.',
-);
-assert.match(
-  footer,
-  /flex-col gap-3 sm:flex-row sm:items-center sm:gap-5/,
-  'Footer links should stack on mobile and sit inline on desktop.',
-);
+  assert.match(footer, /class="footer-copyright md:justify-self-end">&copy; \{year\} runcheck<\/p>/, 'Footer should render the copyright in its dedicated layout slot.');
+  assert.match(footer, /<Image src=\{logo\}/, 'Footer should use the shared image asset for the brand mark.');
+  assert.match(footer, /href=\{copy\.root\}>\{copy\.nav\[1\]\}<\/a>/, 'Footer should use the locale contract for the article link.');
+  assert.match(footer, /href="mailto:contact@finnvek\.com">\{copy\.nav\[2\]\}<\/a>/, 'Footer should expose the localized contact link.');
+  assert.match(footer, /flex-col items-center gap-4 sm:flex-row sm:gap-9/, 'Footer links should stack on mobile and sit inline on desktop.');
+});

@@ -1,6 +1,8 @@
 import assert from 'node:assert/strict';
 import { existsSync, readFileSync } from 'node:fs';
+import test from 'node:test';
 
+test('cta content', () => {
 const source = readFileSync('src/components/CTA.astro', 'utf8');
 const styles = readFileSync('src/styles/global.css', 'utf8');
 
@@ -31,3 +33,4 @@ assert.match(styles, /\.cta-background-image\b/, 'CTA background image treatment
 assert.match(styles, /\.cta-title\b/, 'CTA title treatment should live in global CSS.');
 assert.match(styles, /\.cta-actions\b/, 'CTA action layout should live in global CSS.');
 assert.match(styles, /@media \(max-width:\s*640px\)[\s\S]*\.cta-actions/s, 'CTA actions should stack cleanly on mobile.');
+});

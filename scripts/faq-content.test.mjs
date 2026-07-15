@@ -1,6 +1,8 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
+import test from 'node:test';
 
+test('faq content', () => {
 const source = readFileSync('src/components/FAQ.astro', 'utf8');
 const styles = readFileSync('src/styles/global.css', 'utf8');
 
@@ -35,7 +37,7 @@ assert.match(source, /class="faq-topics"/, 'FAQ should show a lightweight topic 
 assert.match(source, /class="faq-group-title"/, 'FAQ groups should use plain text group headings.');
 assert.match(source, /<details class="faq-item" name="runcheck-faq"/, 'FAQ should use native grouped details disclosures.');
 assert.match(source, /<summary>/, 'Each FAQ row should provide a native summary label.');
-assert.match(source, /open=\{groupIndex === 0 && itemIndex === 0\}/, 'The first FAQ item should start open to show the interaction and content style.');
+assert.doesNotMatch(source, /\sopen(?:=|\s|>)/, 'FAQ items should start closed so the page stays compact.');
 assert.doesNotMatch(source, /faq-index/, 'FAQ rows should not show numeric badges in the lighter reference style.');
 
 const requiredProductFacts = [
@@ -70,3 +72,4 @@ assert.match(styles, /@keyframes faq-answer-reveal/, 'FAQ should include a subtl
 assert.match(styles, /@media \(prefers-reduced-motion:\s*reduce\)[\s\S]*faq-answer-reveal/s, 'FAQ animation should respect reduced motion.');
 assert.doesNotMatch(styles, /faq-card/, 'FAQ should avoid card-heavy naming and structure.');
 assert.doesNotMatch(styles, /--run-faq-row-bg|--run-faq-scan-fill|faq-index|box-shadow:\s*inset 0 1px 0/, 'FAQ should remove the heavier card/scan styling.');
+});

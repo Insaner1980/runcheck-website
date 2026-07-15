@@ -77,7 +77,7 @@ const parseTags = (frontmatter) => {
 };
 
 const parseFrontmatterString = (frontmatter, key) => {
-  const match = frontmatter.match(new RegExp(`^${key}:\\s*(.+)$`, 'm'));
+  const match = frontmatter.match(new RegExp(String.raw`^${key}:\s*([^\r\n]+)$`, 'm'));
   if (!match) {
     return '';
   }
@@ -95,27 +95,36 @@ const stripMarkdown = (value) => {
   return protectedValue
     .replace(/\*\*(.*?)\*\*/g, '$1')
     .replace(/\*(.*?)\*/g, '$1')
-    .replace(/\[(.*?)\]\((.*?)\)/g, '$1')
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')
     .replace(/\s+/g, ' ')
     .replace(/RUNCHECKINLINECODE(\d+)END/g, (_, index) => inlineCode[Number(index)])
     .trim();
 };
 
 const extractMetaDescription = (body) => {
-  const metaPattern = /^\s*(?:\*\*Meta description:\*\*|\*Meta description:|Meta description:)\s*(.+?)(?:\*)?\s*$/im;
-  const match = body.match(metaPattern);
-  if (!match) {
+  const prefixes = ['**Meta description:**', '*Meta description:', 'Meta description:'];
+  const lines = body.split(/\r?\n/);
+  const lineIndex = lines.findIndex((line) => {
+    const normalizedLine = line.trimStart().toLowerCase();
+    return prefixes.some((prefix) => normalizedLine.startsWith(prefix.toLowerCase()));
+  });
+  if (lineIndex < 0) {
     return { description: '', body };
   }
 
+  const line = lines[lineIndex].trim();
+  const prefix = prefixes.find((candidate) => line.toLowerCase().startsWith(candidate.toLowerCase()));
+  const description = line.slice(prefix.length).replace(/\*$/, '').trim();
+  lines.splice(lineIndex, 1);
+
   return {
-    description: stripMarkdown(match[1]),
-    body: body.replace(match[0], '').trimStart(),
+    description: stripMarkdown(description),
+    body: lines.join('\n').trimStart(),
   };
 };
 
 const extractTitle = (body, fileName) => {
-  const match = body.match(/^#\s+(.+)$/m);
+  const match = body.match(/^#\s+([^\r\n]+)$/m);
   if (!match) {
     throw new Error(`${fileName} is missing an H1 title.`);
   }
@@ -123,7 +132,7 @@ const extractTitle = (body, fileName) => {
   return stripMarkdown(match[1]);
 };
 
-const removeFirstH1 = (body) => body.replace(/(^|\r?\n)#\s+.+\r?\n+/, '$1').trimStart();
+const removeFirstH1 = (body) => body.replace(/(^|\r?\n)#\s+[^\r\n]+\r?\n+/, '$1').trimStart();
 
 const firstParagraph = (body) => {
   const cleaned = body
@@ -159,8 +168,17 @@ const buildLocalizedListSummary = (description, title) => {
   const clause = candidate.slice(0, 111).match(/^(.{45,110}?)[,;:](?:\s|$)/)?.[1];
   if (clause) return `${clause.trim()}.`;
 
-  const shortened = candidate.slice(0, 107).replace(/\s+\S*$/, '').replace(/[,:;.!?]+$/, '').trim();
+  const candidatePrefix = candidate.slice(0, 107);
+  const wordBoundary = candidatePrefix.lastIndexOf(' ');
+  const completeWords = wordBoundary < 0 ? candidatePrefix : candidatePrefix.slice(0, wordBoundary);
+  const shortened = completeWords.replace(/[,:;.!?]+$/, '').trim();
   return `${shortened}…`;
+};
+
+const localizedHubFor = (hub, articleLocale) => {
+  if (articleLocale === 'fi') return articleHubBySlugFi.get(hub.slug);
+  if (articleLocale === 'en') return hub;
+  return localizedHubs(articleLocale).find((candidate) => candidate.slug === hub.slug);
 };
 
 const removeLeadingDuplicateDescription = (body, description) => {
@@ -318,9 +336,7 @@ async function generateArticle(sourceFile, existingArticleMetadata, generatedSlu
     throw new Error(`Duplicate generated article slug: ${slugKey}`);
   }
   generatedSlugs.add(slugKey);
-  const localizedHub = locale === 'fi'
-    ? articleHubBySlugFi.get(hub.slug)
-    : locale === 'en' ? hub : localizedHubs(locale).find((candidate) => candidate.slug === hub.slug);
+  const localizedHub = localizedHubFor(hub, locale);
   const targetPath = path.join(generatedRoot, hub.slug, `${slug}.md`);
   const normalized = `${formatFrontmatter({
     title,

@@ -1,12 +1,14 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
+import test from 'node:test';
 
+test('articles menu', () => {
 const header = readFileSync('src/components/Header.astro', 'utf8');
 const globalStyles = readFileSync('src/styles/global.css', 'utf8');
 
 assert.match(
   header,
-  /href: isFinnish \? '\/fi\/artikkelit\/' : '\/articles\/', label: isFinnish \? 'Artikkelit' : 'Articles'/,
+  /\{ href: copy\.root, label: copy\.nav\[1\] \}/,
   'Articles should be a direct localized index link like the KnitTools navigation.',
 );
 assert.doesNotMatch(header, /Suomeksi|label: isFinnish \? 'English'/, 'Header should not show a target-language switch link.');
@@ -19,3 +21,4 @@ assert.doesNotMatch(globalStyles, /\.articles-menu/, 'Dead mega-menu styles shou
 assert.match(globalStyles, /\.hero-nav-action\s*\{/, 'Shared hero nav action styles should remain centralized in global CSS.');
 
 console.log('articles-menu.test.mjs passed');
+});

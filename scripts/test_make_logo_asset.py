@@ -25,7 +25,7 @@ class MakeLogoAssetTest(unittest.TestCase):
                     image.putpixel((x, y), (20, 120, 220, 255))
             image.save(input_path)
 
-            result = create_logo_asset(input_path, output_path)
+            result = create_logo_asset(input_path, output_path, allowed_root=tmp_path)
 
             self.assertEqual(result.detected_bbox_size, (198, 344))
             self.assertEqual(result.output_bbox_size, (792, 1376))
@@ -49,7 +49,7 @@ class MakeLogoAssetTest(unittest.TestCase):
                     image.putpixel((x, y), (20, 120, 220, 255))
             image.save(input_path)
 
-            result = create_logo_asset(input_path, output_path)
+            result = create_logo_asset(input_path, output_path, allowed_root=tmp_path)
 
             self.assertEqual(result.detected_bbox_size, (200, 200))
             self.assertEqual(result.output_bbox_size, (792, 1376))
@@ -72,7 +72,12 @@ class MakeLogoAssetTest(unittest.TestCase):
             image.save(input_path)
 
             with self.assertRaisesRegex(ValueError, "preserve proportions"):
-                create_logo_asset(input_path, output_path, preserve_proportions=True)
+                create_logo_asset(
+                    input_path,
+                    output_path,
+                    allowed_root=tmp_path,
+                    preserve_proportions=True,
+                )
 
             self.assertFalse(output_path.exists())
 

@@ -1,6 +1,8 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
+import test from 'node:test';
 
+test('article search page', () => {
 const englishPage = readFileSync('src/pages/articles/index.astro', 'utf8');
 const finnishPage = readFileSync('src/pages/fi/artikkelit/index.astro', 'utf8');
 const component = readFileSync('src/components/ArticleIndexPage.astro', 'utf8');
@@ -23,3 +25,4 @@ assert.ok(searchIndex < categoryNavIndex, 'category shortcuts should come after 
 assert.ok(categoryNavIndex < sectionsIndex, 'category shortcuts should come before article sections');
 
 console.log('article-search-page.test.mjs passed');
+});

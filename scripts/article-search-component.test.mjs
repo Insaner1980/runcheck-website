@@ -1,8 +1,11 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
+import test from 'node:test';
 
+test('article search component', () => {
 const source = readFileSync('src/components/ArticleSearch.astro', 'utf8');
 const globalStyles = readFileSync('src/styles/global.css', 'utf8');
+const localeConfig = readFileSync('src/data/articleLocaleConfig.mjs', 'utf8');
 const heroNavTextHoverFill = globalStyles.match(/--run-hero-nav-text-hover-fill:\s*([\s\S]*?);/)?.[1] ?? '';
 const heroNavIconHoverColor = globalStyles.match(/--run-hero-nav-icon-hover-color:\s*([^;]+);/)?.[1] ?? '';
 const heroNavActionHoverBlock = globalStyles.match(
@@ -36,7 +39,8 @@ assert.match(source, /data-article-search/, 'root should carry the search hook')
 
 assert.match(source, /data-search-toggle/, 'header variant needs a toggle button');
 assert.match(source, /aria-label=\{labels\.search\}/, 'toggle must use the localized search label');
-assert.match(source, /Hae artikkeleita/, 'component should include a Finnish search label');
+assert.match(source, /const localeCopy = ARTICLE_LOCALES\[locale\]/, 'component should read search labels from the locale contract');
+assert.match(localeConfig, /Hae artikkeleita/, 'locale contract should include the Finnish search label');
 assert.match(source, /data-index-url=/, 'each localized widget should expose its own search index URL');
 assert.match(source, /class="hero-nav-action hero-nav-icon-action"[\s\S]*data-search-toggle/, 'header search toggle should use the shared hero nav action treatment.');
 assert.match(source, /data-search-shell/, 'header search should expand as one shell');
@@ -125,3 +129,4 @@ assert.doesNotMatch(heroNavInlineIconHoverBlock, /background-image:\s*var\(/, 'c
 assert.doesNotMatch(globalStyles, /--run-hero-nav-action-bg-hover/, 'old hero nav background hover token should be removed.');
 
 console.log('article-search-component.test.mjs passed');
+});

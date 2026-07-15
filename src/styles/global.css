@@ -169,6 +169,10 @@ a {
   color: var(--color-run-white);
   line-height: 1;
   text-decoration: none;
+  font-size: 0.74rem;
+  font-weight: 500;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
   transition: color var(--run-hero-nav-transition);
 }
 
@@ -887,14 +891,6 @@ a {
   -webkit-backdrop-filter: blur(var(--run-glass-blur));
 }
 
-/* Navigaation typografia: pieni, harva, varma */
-.hero-nav-action {
-  font-size: 0.74rem;
-  font-weight: 500;
-  letter-spacing: 0.17em;
-  text-transform: uppercase;
-}
-
 @media (min-width: 640px) {
   .hero-phone-stage {
     width: 13.5rem;
@@ -1070,9 +1066,6 @@ a {
 
   .brand-shine-text::after {
     animation: none;
-  }
-
-  .brand-shine-text::after {
     background-position: 50% 50%;
     opacity: 0;
   }

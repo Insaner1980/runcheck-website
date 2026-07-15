@@ -1,4 +1,4 @@
-import { existsSync, mkdirSync, rmSync } from 'node:fs';
+import { existsSync, mkdirSync, readdirSync, rmSync } from 'node:fs';
 import { writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
@@ -16,10 +16,10 @@ const fontUrl = pathToFileURL(
 
 const chromeCandidates = [
   process.env.CHROME_PATH,
-  'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
-  'C:\\Program Files (x86)\\Microsoft\\EdgeCore\\151.0.4129.6\\msedge.exe',
-  'C:\\Program Files (x86)\\Microsoft\\EdgeCore\\150.0.4078.48\\msedge.exe',
-  'C:\\Program Files (x86)\\Microsoft\\EdgeCore\\149.0.4022.98\\msedge.exe',
+  String.raw`C:\Program Files\Google\Chrome\Application\chrome.exe`,
+  String.raw`C:\Program Files (x86)\Microsoft\EdgeCore\151.0.4129.6\msedge.exe`,
+  String.raw`C:\Program Files (x86)\Microsoft\EdgeCore\150.0.4078.48\msedge.exe`,
+  String.raw`C:\Program Files (x86)\Microsoft\EdgeCore\149.0.4022.98\msedge.exe`,
 ].filter(Boolean);
 
 const chromePath = chromeCandidates.find((candidate) => existsSync(candidate));
@@ -30,7 +30,7 @@ if (!chromePath) {
 
 mkdirSync(outputDir, { recursive: true });
 
-const html = String.raw`<!doctype html>
+const html = `<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -155,8 +155,21 @@ if (screenshot.status !== 0) {
   throw new Error(`Screenshot rendering failed with status ${screenshot.status}.`);
 }
 
+const imageMagickRoot = String.raw`C:\Program Files`;
+const windowsImageMagickPaths = existsSync(imageMagickRoot)
+  ? readdirSync(imageMagickRoot, { withFileTypes: true })
+      .filter((entry) => entry.isDirectory() && entry.name.startsWith('ImageMagick-'))
+      .map((entry) => resolve(imageMagickRoot, entry.name, 'magick.exe'))
+  : [];
+const magickPath = [...windowsImageMagickPaths, '/usr/bin/magick', '/usr/local/bin/magick']
+  .find((candidate) => existsSync(candidate));
+
+if (!magickPath || !existsSync(magickPath)) {
+  throw new Error('ImageMagick was not found under C:\\Program Files.');
+}
+
 const convert = spawnSync(
-  'magick',
+  magickPath,
   [pngPath, '-define', 'webp:method=6', '-quality', '88', webpPath],
   { stdio: 'inherit' },
 );

@@ -64,6 +64,7 @@ const OUTPUT_FILES = Object.freeze({
 });
 
 const headerKey = (value) => value.toLowerCase().replaceAll(/[^a-z0-9]+/g, '');
+const hasPendingCsvRow = (field, row) => field.length > 0 || row.length > 0;
 
 export function parseCsv(source) {
   const rows = [];
@@ -98,7 +99,7 @@ export function parseCsv(source) {
   }
 
   if (quoted) throw new Error('CSV contains an unclosed quoted field.');
-  if (field.length > 0 || row.length > 0) {
+  if (hasPendingCsvRow(field, row)) {
     row.push(field.replace(/\r$/, ''));
     rows.push(row);
   }
@@ -158,7 +159,8 @@ const normalizeUrl = (value, site) => {
   const url = new URL(value, site);
   url.hash = '';
   url.search = '';
-  url.pathname = `${url.pathname.replace(/\/+$/, '')}/`;
+  while (url.pathname.endsWith('/')) url.pathname = url.pathname.slice(0, -1);
+  url.pathname = `${url.pathname}/`;
   return url.toString();
 };
 
@@ -233,7 +235,7 @@ export function loadTermMap(file) {
   const records = readCsvObjects(file);
   const byLocaleAndSource = new Map();
   for (const record of records) {
-    const sourceExpression = record.notes.match(/Important source IDs:\s*([0-9, -]+)/)?.[1] ?? '';
+    const sourceExpression = /Important source IDs:\s*([0-9, -]+)/.exec(record.notes)?.[1] ?? '';
     const sourceNumbers = parseSourceNumberExpression(sourceExpression);
     const terms = [record.recommended_primary_term, ...record.accepted_alternatives.split(';')]
       .map((term) => term.trim())

@@ -49,7 +49,10 @@ export function normalizeMetaDescription(description, { maxLength = DEFAULT_META
     return firstSentence;
   }
 
-  const truncated = clean.slice(0, maxLength + 1).replace(/\s+\S*$/, '').replace(/[-,:;]\s*$/, '');
+  const descriptionPrefix = clean.slice(0, maxLength + 1);
+  const lastWordBoundary = descriptionPrefix.lastIndexOf(' ');
+  const completeWords = lastWordBoundary < 0 ? descriptionPrefix : descriptionPrefix.slice(0, lastWordBoundary);
+  const truncated = completeWords.replace(/[-,:;]$/, '');
   return `${truncated}.`;
 }
 
@@ -108,4 +111,4 @@ export function buildBreadcrumbJsonLd(items, site) {
   };
 }
 
-export const serializeJsonLd = (data) => JSON.stringify(data).replaceAll('<', '\\u003c');
+export const serializeJsonLd = (data) => JSON.stringify(data).replaceAll('<', String.raw`\u003c`);

@@ -1,15 +1,13 @@
 import { articleHubPath } from './articlePaths.mjs';
 export { ARTICLE_LOCALE_ROOTS } from './articlePaths.mjs';
 import { ARTICLE_HUBS } from './articleTaxonomy.mjs';
-import {
-  ARTICLE_LOCALE_CONTRACTS,
+import { ROUTED_ARTICLE_LOCALE_CODES } from './articleLocaleConfig.mjs';
+export {
+  ARTICLE_LOCALE_CONTRACTS as ARTICLE_LOCALES,
   LOCALIZED_ARTICLE_LOCALES,
   PUBLISHED_ARTICLE_LOCALE_CODES,
   ROUTED_ARTICLE_LOCALE_CODES,
 } from './articleLocaleConfig.mjs';
-
-export const ARTICLE_LOCALES = ARTICLE_LOCALE_CONTRACTS;
-export { LOCALIZED_ARTICLE_LOCALES, PUBLISHED_ARTICLE_LOCALE_CODES, ROUTED_ARTICLE_LOCALE_CODES };
 
 const HUB_TEXT = {
   sv: [['Batteri','batterihälsa, slitage och förbrukning'],['Laddning','laddningsvanor, hastigheter och laddartest'],['Värme','överhettning, strypning och kylning'],['Nätverk','signal, hastighet och anslutningar'],['Lagring','utrymme, rensning och lagringshälsa'],['Hastighet och prestanda','långsamhet, frysningar och lösningar'],['Hårdvara och sensorer','skärm, kamera, ljud och sensortester'],['Programvara och uppdateringar','Android-versioner, uppdateringar och säkerhet'],['Fysiska skador','fall-, vatten- och skärmskador'],['Enhetshälsa','underhåll, livslängd och hälsopoäng'],['Köpa och sälja','begagnade telefoner, reparation och inbytesvärde'],['Myter','batteri- och prestandamyter granskade'],['Märkesguider','Samsung, Pixel, Xiaomi, POCO och OnePlus']],

@@ -1,6 +1,8 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
+import test from 'node:test';
 
+test('articles list style', () => {
 const files = [
   ['Hub article list', 'src/pages/articles/[hub].astro'],
   ['Articles index list', 'src/components/ArticleIndexPage.astro'],
@@ -53,7 +55,7 @@ assert.match(
   'Article hub hero should use the shared article page shell for top alignment.',
 );
 assert.match(
-  readFileSync('src/pages/articles/index.astro', 'utf8'),
+  readFileSync('src/components/ArticleIndexPage.astro', 'utf8'),
   /<div class="article-page-shell article-page-shell-wide">/,
   'Articles index hero should use the shared article page shell for top alignment.',
 );
@@ -86,16 +88,12 @@ assert.doesNotMatch(articleCardInteractiveBlock, /transform:/, 'Article list car
 assert.match(cssBlockFor('.article-link-list'), /grid-template-columns:\s*repeat\(auto-fit,\s*minmax\(min\(100%,\s*20rem\),\s*1fr\)\);/, 'Article lists should use responsive short tile columns.');
 assert.match(cssBlockFor('.article-link-list'), /gap:\s*0\.9rem;/, 'Article lists should use compact gaps between lightweight tiles.');
 assert.doesNotMatch(cssBlockFor('.article-link-list'), /border-top:/, 'Article card lists should not keep the old top divider.');
-assert.doesNotMatch(cssBlockFor('.article-list-link'), /border:/, 'Article tiles should avoid visible borders.');
+assert.match(cssBlockFor('.article-list-link'), /border:\s*1px solid rgb\(255 255 255 \/ 0\.09\);/, 'Article tiles should keep the current subtle border.');
+assert.doesNotMatch(cssBlockFor('.article-list-link'), /border-radius:/, 'Article tiles should keep the current square treatment.');
 assert.match(
   cssBlockFor('.article-list-link'),
-  /border-radius:\s*var\(--run-article-card-radius\);/,
-  'Article tiles should use the centralized article radius.',
-);
-assert.match(
-  cssBlockFor('.article-list-link'),
-  /background:\s*var\(--run-article-card-bg\);/,
-  'Article links should use the centralized lightweight card fill.',
+  /background:\s*rgb\(255 255 255 \/ 0\.02\);/,
+  'Article links should use the current lightweight card fill.',
 );
 assert.doesNotMatch(cssBlockFor('.article-list-link'), /box-shadow:/, 'Article cards should avoid heavy shadows.');
 assert.match(cssBlockFor('.article-list-link'), /padding:\s*var\(--run-article-card-padding\);/, 'Article links should use centralized compact card padding.');
@@ -104,3 +102,4 @@ assert.doesNotMatch(cssBlockFor('.article-list-description'), /white-space:\s*no
 assert.doesNotMatch(cssBlockFor('.article-link-list > li'), /border-bottom:/, 'Article card list items should not keep old row dividers.');
 assert.match(cssBlockFor('.article-list-link'), /min-width:\s*0;/, 'Article links should be allowed to shrink inside the list column.');
 assert.match(cssBlockFor('.article-link-list > li'), /min-width:\s*0;/, 'Article list grid items should not overflow from nowrap summaries.');
+});

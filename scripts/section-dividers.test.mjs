@@ -1,6 +1,8 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
+import test from 'node:test';
 
+test('section dividers', () => {
 const read = (path) => readFileSync(path, 'utf8');
 
 const sectionComponents = [
@@ -28,3 +30,4 @@ assert.match(styles, /\.feature-item\s*\{[^}]*display:\s*grid/s, 'Feature items 
 assert.match(styles, /\.pricing-trial-divider\s*\{[^}]*height:\s*1px/s, 'Pro trial divider should remain.');
 assert.match(styles, /\.pricing-plan-pro\s*\{[^}]*border:\s*1px solid var\(--run-pricing-pro-edge\)/s, 'Pro pricing boundary should remain tokenized.');
 assert.match(styles, /\.faq-item\s*\{[^}]*border-bottom:\s*1px solid var\(--run-faq-divider\)/s, 'FAQ item dividers should remain tokenized.');
+});

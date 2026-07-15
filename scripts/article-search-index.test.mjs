@@ -1,7 +1,9 @@
 import assert from 'node:assert/strict';
 
 import { buildSearchIndex } from '../src/data/searchIndex.mjs';
+import test from 'node:test';
 
+test('article search index', () => {
 const entries = [
   { id: 'battery/battery-health-explained.md', data: { title: 'Battery health explained', description: 'Capacity', hub: 'battery', tags: ['health'] } },
   { id: 'brands/samsung-battery-tips.md', data: { title: 'Samsung battery tips', description: 'One UI', hub: 'brands' } },
@@ -21,3 +23,4 @@ for (const item of index) {
 }
 
 console.log('article-search-index.test.mjs passed');
+});

@@ -1,7 +1,9 @@
 import assert from 'node:assert/strict';
 
 import { searchArticles } from '../src/data/searchIndex.mjs';
+import test from 'node:test';
 
+test('article search query', () => {
 const index = [
   { title: 'Battery health explained', description: 'How capacity fades', hub: 'battery', tags: ['health'], url: '/articles/battery/battery-health-explained/' },
   { title: 'Why your phone overheats', description: 'Thermal throttling basics', hub: 'thermal', tags: ['heat', 'battery'], url: '/articles/thermal/why-your-phone-overheats/' },
@@ -27,3 +29,4 @@ const limited = searchArticles(index, 'battery', { limit: 1 });
 assert.equal(limited.length, 1);
 
 console.log('article-search-query.test.mjs passed');
+});

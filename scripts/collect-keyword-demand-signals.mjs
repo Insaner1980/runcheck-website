@@ -29,17 +29,20 @@ const readRecords = (file) => {
     .map((row) => Object.fromEntries(headers.map((header, index) => [header, row[index] ?? ''])));
 };
 
+const termRole = (term, record) => {
+  if (term === record.current_primary_term && term === record.recommended_primary_term) {
+    return 'CURRENT_AND_RECOMMENDED';
+  }
+  if (term === record.current_primary_term) return 'CURRENT';
+  if (term === record.recommended_primary_term) return 'RECOMMENDED';
+  return 'CONCEPT_COMPONENT';
+};
+
 const expandTerms = (record) => [...new Set(record.terms_to_compare.split(' | ').map((term) => term.trim()).filter(Boolean))]
   .map((term) => ({
     ...record,
     term,
-    term_role: term === record.current_primary_term && term === record.recommended_primary_term
-      ? 'CURRENT_AND_RECOMMENDED'
-      : term === record.current_primary_term
-        ? 'CURRENT'
-        : term === record.recommended_primary_term
-          ? 'RECOMMENDED'
-          : 'CONCEPT_COMPONENT',
+    term_role: termRole(term, record),
   }));
 
 const autocompleteUrl = (term, locale) => {
