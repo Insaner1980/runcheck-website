@@ -151,7 +151,7 @@ for (const file of htmlFiles) {
   const canonicalTags = link.filter((item) => item.attrs.rel === 'canonical');
   const alternateTags = link.filter((item) => item.attrs.rel === 'alternate' && item.attrs.hreflang);
   const title = head.match(/<title>([\s\S]*?)<\/title>/i)?.[1]?.trim() ?? '';
-  const description = metaByName('description');
+  const description = decodeHtmlAttribute(metaByName('description'));
   const structuredData = jsonLdItems(head);
   const structuredTypes = new Set(structuredData.map((item) => item['@type']));
 
@@ -304,8 +304,8 @@ for (const file of htmlFiles) {
     assert.ok(structuredTypes.has('BreadcrumbList'), `${url} should include article breadcrumb JSON-LD.`);
     assert.deepEqual(
       alternateTags.map((item) => item.attrs.hreflang).sort(),
-      ['da', 'de', 'en', 'es', 'fi', 'fr', 'nb', 'sv', 'x-default'],
-      `${url} should expose reciprocal alternatives for all eight published locales and x-default.`,
+      ['da', 'de', 'en', 'es', 'fi', 'fr', 'it', 'nb', 'sv', 'x-default'],
+      `${url} should expose reciprocal alternatives for all nine published locales and x-default.`,
     );
     for (const alternate of alternateTags) {
       parseCanonicalSiteUrl(alternate.attrs.href, `${url} ${alternate.attrs.hreflang} alternate`);

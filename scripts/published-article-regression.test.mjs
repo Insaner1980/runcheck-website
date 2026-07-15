@@ -17,7 +17,7 @@ const frontmatterValue = (source, key) => {
 const htmlEscape = (value) => String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#39;');
 const outputFile = (urlPath) => path.resolve('dist', urlPath.replace(/^\//, ''), 'index.html');
 
-test('kaikki 1 280 julkaistua artikkelia säilyttävät teknisen SEO-sopimuksen', () => {
+test('kaikki 1 440 julkaistua artikkelia säilyttävät teknisen SEO-sopimuksen', () => {
   const published = new Set(PUBLISHED_ARTICLE_LOCALE_CODES);
   const articles = markdownFiles(contentRoot).map((file) => {
     const source = readFileSync(file, 'utf8');
@@ -26,9 +26,9 @@ test('kaikki 1 280 julkaistua artikkelia säilyttävät teknisen SEO-sopimuksen'
   const sitemap = readFileSync('dist/sitemap-0.xml', 'utf8');
   const byLocale = Object.fromEntries(PUBLISHED_ARTICLE_LOCALE_CODES.map((locale) => [locale, 0]));
 
-  assert.equal(articles.length, 1280);
-  assert.ok(!existsSync('dist/it'), 'Tuotantobuild ei saa sisältää /it/-reittejä.');
-  assert.doesNotMatch(sitemap, /https:\/\/runcheckapp\.com\/it\//);
+  assert.equal(articles.length, 1440);
+  assert.ok(existsSync('dist/it/articoli'), 'Tuotantobuildista puuttuvat Italian artikkelireitit.');
+  assert.match(sitemap, /https:\/\/runcheckapp\.com\/it\/articoli\//);
 
   for (const article of articles) {
     const hub = frontmatterValue(article.source, 'hub');
@@ -44,7 +44,6 @@ test('kaikki 1 280 julkaistua artikkelia säilyttävät teknisen SEO-sopimuksen'
     assert.ok(html.includes(`>${htmlEscape(title)}</h1>`), `${urlPath}: H1 ei vastaa frontmatter-titleä.`);
     for (const locale of PUBLISHED_ARTICLE_LOCALE_CODES) assert.ok(html.includes(`hreflang="${locale}"`), `${urlPath}: hreflang ${locale} puuttuu.`);
     assert.ok(html.includes('hreflang="x-default"'));
-    assert.doesNotMatch(html, /hreflang="it"/);
     assert.doesNotMatch(html, /<meta name="robots" content="noindex/);
     assert.ok(sitemap.includes(`<loc>https://runcheckapp.com${urlPath}</loc>`), `${urlPath}: sitemap-merkintä puuttuu.`);
     byLocale[article.locale] += 1;
