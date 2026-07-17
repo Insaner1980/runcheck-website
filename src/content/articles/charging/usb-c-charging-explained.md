@@ -14,6 +14,14 @@ A charger that outputs 9V at 2A delivers 18W. A charger that outputs 20V at 3A d
 
 Simple. Until USB-C negotiation gets involved.
 
+<figure class="not-prose my-10">
+  <video class="aspect-video w-full rounded-2xl border border-run-border bg-black shadow-2xl" controls playsinline preload="metadata" poster="/videos/articles/usb-c-charging-speeds-poster.webp" aria-label="Why USB-C chargers deliver different charging speeds">
+    <source src="/videos/articles/usb-c-charging-speeds.mp4" type="video/mp4" />
+    Your browser does not support embedded video. <a href="/videos/articles/usb-c-charging-speeds.mp4">Open the video directly.</a>
+  </video>
+  <figcaption class="mt-3 text-sm leading-relaxed text-run-muted">A visual guide to USB-C charging speeds, power negotiation, charger profiles, and cable limits.</figcaption>
+</figure>
+
 ## What the charger label means
 
 Most USB-C chargers list several output combinations. You might see something like:

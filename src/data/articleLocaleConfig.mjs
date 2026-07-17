@@ -52,7 +52,7 @@ export const ARTICLE_LOCALE_CONTRACTS = Object.freeze({
 export const ARTICLE_SOURCE_LOCALE_CODES = Object.freeze(Object.values(ARTICLE_LOCALE_CONTRACTS).filter((item) => item.sourceSupported).map((item) => item.code));
 export const PUBLISHED_ARTICLE_LOCALE_CODES = Object.freeze(Object.values(ARTICLE_LOCALE_CONTRACTS).filter((item) => item.productionPublished).map((item) => item.code));
 
-const requestedPreviewLocales = (process.env.RUNCHECK_PREVIEW_ARTICLE_LOCALES ?? '').split(',').map((item) => item.trim()).filter(Boolean);
+const requestedPreviewLocales = (globalThis.process?.env?.RUNCHECK_PREVIEW_ARTICLE_LOCALES ?? '').split(',').map((item) => item.trim()).filter(Boolean);
 for (const code of requestedPreviewLocales) {
   const contract = ARTICLE_LOCALE_CONTRACTS[code];
   if (!contract?.previewAllowed || contract.productionPublished) throw new Error(`Article preview locale is not allowed: ${code}`);

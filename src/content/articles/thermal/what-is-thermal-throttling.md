@@ -10,6 +10,11 @@ draft: false
 ---
 Why does a fast phone suddenly feel slow halfway through a game, video call, or camera session? Most of the time, it is thermal throttling. The device is hot, so Android and the manufacturer reduce performance before heat becomes a safety problem.
 
+<figure class="not-prose my-10">
+  <img class="w-full rounded-2xl border border-run-border shadow-2xl" src="/images/articles/thermal-throttling.webp" alt="Graph showing phone temperature rising while performance and charging power are reduced" width="1672" height="941" loading="lazy" decoding="async" />
+  <figcaption class="mt-3 text-sm leading-relaxed text-run-muted">As temperature approaches the phone's thermal limit, Android reduces processor performance, charging power, and other heat-producing activity.</figcaption>
+</figure>
+
 ## What thermal throttling means
 
 It is controlled slowdown. The phone reduces CPU speed, GPU speed, display brightness, charging power, radio activity, or other power-heavy behavior to bring temperature down.

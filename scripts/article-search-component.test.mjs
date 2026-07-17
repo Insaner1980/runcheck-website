@@ -83,6 +83,11 @@ assert.match(source, /motion-reduce:/, 'reduced-motion fallback');
 
 assert.match(source, /searchArticles/, 'client script must reuse searchArticles');
 assert.match(source, /search-index\.json/, 'client script must fetch the index');
+assert.doesNotMatch(
+  localeConfig,
+  /(?<![\w.])process\.env\b/,
+  'search client dependencies must not read Node process.env directly in the browser',
+);
 
 assert.doesNotMatch(source, /#[0-9a-fA-F]{3,6}/, 'no hardcoded hex colors');
 assert.match(globalStyles, /\.hero-nav-search-shell\[data-open="true"\]/, 'Open header search should be styled as a shared hero nav surface.');

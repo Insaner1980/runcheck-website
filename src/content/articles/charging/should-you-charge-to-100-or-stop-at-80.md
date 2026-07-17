@@ -14,6 +14,11 @@ If you just want the practical answer: use adaptive charging if your phone has i
 
 That's not discipline. That's friction.
 
+<figure class="not-prose my-10">
+  <img class="w-full rounded-2xl border border-run-border shadow-2xl" src="/images/articles/charge-to-80-or-100.webp" alt="Comparison of charging a phone to 80 percent and 100 percent, balancing battery longevity and daily runtime" width="1672" height="941" loading="lazy" decoding="async" />
+  <figcaption class="mt-3 text-sm leading-relaxed text-run-muted">An 80% limit reduces time spent at high voltage, while charging to 100% provides more runtime when you actually need it.</figcaption>
+</figure>
+
 ## Why 80% helps
 
 Lithium-ion batteries don't wear evenly across the charge range. High state of charge keeps the cell near its highest voltage, and high voltage speeds up unwanted reactions inside the battery. Electrolyte oxidation, SEI growth, and higher internal resistance don't show up after one charge, but they add up over months and years.

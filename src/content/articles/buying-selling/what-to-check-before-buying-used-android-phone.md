@@ -10,6 +10,10 @@ draft: false
 ---
 The checks below are ordered by severity. The first three are deal-breakers. Everything after that determines what the phone is actually worth.
 
+<figure class="not-prose my-10">
+  <img class="w-full rounded-2xl border border-run-border shadow-2xl" src="/images/articles/what-to-check-before-buying.webp" alt="Used Android phone buying checklist covering ownership, account locks, condition, support, accessories, and price" width="1672" height="941" loading="lazy" decoding="async" />
+  <figcaption class="mt-3 text-sm leading-relaxed text-run-muted">Check ownership and account locks before condition or price. A polished phone is still a bad purchase if it is blacklisted, financed, or activation-locked.</figcaption>
+</figure>
 
 ## Deal-Breakers: Walk Away If These Fail
 

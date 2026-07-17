@@ -11,6 +11,14 @@ draft: false
 ---
 Understanding the basics makes the usual advice less mysterious. The 20% to 80% rule, the warning about heat, and the reason old phones die early all come from the same place: lithium ions moving through a cell that slowly changes every time you use it.
 
+<figure class="not-prose my-10">
+  <video class="aspect-video w-full rounded-2xl border border-run-border bg-black shadow-2xl" controls playsinline preload="metadata" poster="/videos/articles/how-lithium-ion-batteries-work-poster.webp" aria-label="How lithium-ion phone batteries work and why they degrade">
+    <source src="/videos/articles/how-lithium-ion-batteries-work.mp4" type="video/mp4" />
+    Your browser does not support embedded video. <a href="/videos/articles/how-lithium-ion-batteries-work.mp4">Open the video directly.</a>
+  </video>
+  <figcaption class="mt-3 text-sm leading-relaxed text-run-muted">A visual guide to lithium-ion charging, battery aging, voltage stress, and the practical 20% to 80% charging range.</figcaption>
+</figure>
+
 ## The basic cell
 
 A lithium-ion phone battery has four main parts: an anode, a cathode, an electrolyte, and a separator. The anode is usually graphite in conventional phone cells. The cathode is a lithium metal oxide, with the exact chemistry depending on the manufacturer. The electrolyte lets lithium ions move, while the separator keeps the two electrodes from touching.

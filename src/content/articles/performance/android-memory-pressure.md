@@ -16,6 +16,11 @@ That's why a browser reloads when you switch back to it. It's why the keyboard m
 
 Free RAM is not the goal on Android. Android tries to use memory for useful things, like keeping apps warm. The problem starts when there isn't enough room left to switch tasks smoothly.
 
+<figure class="not-prose my-10">
+  <img class="w-full rounded-2xl border border-run-border shadow-2xl" src="/images/articles/android-memory-pressure.webp" alt="Three stages of Android memory pressure showing RAM filling and background apps being closed" width="1672" height="941" loading="lazy" decoding="async" />
+  <figcaption class="mt-3 text-sm leading-relaxed text-run-muted">As memory pressure rises, Android reclaims cached memory and closes less important background processes to protect the foreground app.</figcaption>
+</figure>
+
 ## What Android does under pressure
 
 Android uses the Low Memory Killer Daemon, or lmkd, to watch memory pressure. When RAM gets tight, lmkd ranks processes and kills the ones Android can most afford to lose. Background apps usually go first. Foreground apps are supposed to be protected, but under severe pressure they can still be killed or crash.

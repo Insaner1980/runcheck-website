@@ -12,6 +12,14 @@ Your phone can have a fast SoC, plenty of RAM, and still feel sticky when storag
 
 That isn't always the processor's fault. Sometimes the storage is the bottleneck.
 
+<figure class="not-prose my-10">
+  <video class="aspect-video w-full rounded-2xl border border-run-border bg-black shadow-2xl" controls playsinline preload="metadata" poster="/videos/articles/nand-flash-storage-phones-poster.webp" aria-label="Why NAND flash storage can make a phone feel slow">
+    <source src="/videos/articles/nand-flash-storage-phones.mp4" type="video/mp4" />
+    Your browser does not support embedded video. <a href="/videos/articles/nand-flash-storage-phones.mp4">Open the video directly.</a>
+  </video>
+  <figcaption class="mt-3 text-sm leading-relaxed text-run-muted">A visual explanation of NAND pages and blocks, write amplification, TRIM, garbage collection, and full-storage slowdowns.</figcaption>
+</figure>
+
 ## What NAND flash is doing
 
 Phones store apps, photos, messages, caches, and system data on NAND flash chips soldered to the motherboard. A phone sold as 128 GB never gives you all 128 GB for your own files because Android, system partitions, recovery data, reserved space, and file system overhead take their share first.

@@ -12,6 +12,11 @@ Halfway through a call, the screen wakes up against your face and your cheek ope
 
 The sensor tells the phone when something is close to the front glass. During a call, that "something" is usually your face. Android then turns the screen off and ignores touch input so your ear doesn't become a touchscreen accessory.
 
+<figure class="not-prose my-10">
+  <img class="w-full rounded-2xl border border-run-border shadow-2xl" src="/images/articles/proximity-sensor.webp" alt="Diagram showing a phone proximity sensor detecting a face during a call and turning the screen off" width="1672" height="941" loading="lazy" decoding="async" />
+  <figcaption class="mt-3 text-sm leading-relaxed text-run-muted">During a call, the proximity sensor detects your face so Android can turn off the display and ignore accidental touches.</figcaption>
+</figure>
+
 ## How it works
 
 Most Android phones use an infrared proximity sensor near the earpiece or front camera area. It sends out infrared light and checks how much bounces back. If enough light returns, the phone decides an object is near. When the reflection drops, it reports far again.

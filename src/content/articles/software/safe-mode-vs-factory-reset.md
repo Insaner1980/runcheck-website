@@ -12,6 +12,11 @@ That advice sounds too simple, but it's the right answer for most Android troubl
 
 Safe mode first. Reset last.
 
+<figure class="not-prose my-10">
+  <img class="w-full rounded-2xl border border-run-border shadow-2xl" src="/images/articles/safe-mode-vs-factory-reset.webp" alt="Troubleshooting flow comparing reversible Android Safe mode testing with a destructive factory reset" width="1672" height="941" loading="lazy" decoding="async" />
+  <figcaption class="mt-3 text-sm leading-relaxed text-run-muted">Use Safe mode to test whether downloaded apps are responsible. Back up and factory-reset only after reversible troubleshooting fails.</figcaption>
+</figure>
+
 ## What safe mode tells you
 
 Safe mode starts Android with downloaded apps disabled. The phone still runs, but the apps you installed from Google Play or sideloaded aren't active. Pre-installed system apps remain available, so you can test calls, messages, Wi-Fi, basic settings, and the parts of Android needed to diagnose the issue.
