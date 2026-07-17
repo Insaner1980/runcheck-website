@@ -15,6 +15,11 @@ That is the kind of drain wake locks can cause. A wake-lock request keeps part o
 
 Wake locks are not automatically bad. A music app needs a lock to keep audio playing. A navigation app may need one during an active trip. A user-started upload may need to finish instead of dying halfway through. The problem starts when an app holds one too long, asks for one too often, or fails to release it after the work is done.
 
+<figure class="not-prose my-10">
+  <img class="w-full rounded-2xl border border-run-border shadow-2xl" src="/images/articles/doze-versus-wake-locks.webp" alt="Timeline comparing normal Android Doze sleep with repeated wake locks and faster battery drain" width="1672" height="941" loading="lazy" decoding="async" />
+  <figcaption class="mt-3 text-sm leading-relaxed text-run-muted">Android can spend long periods in low-power Doze states, while repeated wake locks keep the processor active and increase standby drain.</figcaption>
+</figure>
+
 ## How wake locks work
 
 When the screen turns off, Android tries to suspend the CPU and let the phone enter low-power states. If an app still has work that should continue, it can acquire one through Android's PowerManager API. When the work is finished, the app releases the lock and the phone can sleep again.

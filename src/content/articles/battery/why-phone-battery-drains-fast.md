@@ -12,6 +12,11 @@ draft: false
 ---
 The fastest way to waste time is changing ten settings at once and hoping one of them helps. Diagnose first. Then fix the thing that is actually draining power.
 
+<figure class="not-prose my-10">
+  <img class="w-full rounded-2xl border border-run-border shadow-2xl" src="/images/articles/battery-drain-diagnostic-tree.webp" alt="Battery drain diagnostic tree covering screen use, background apps, network signal, heat, and battery health" width="1672" height="941" loading="lazy" decoding="async" />
+  <figcaption class="mt-3 text-sm leading-relaxed text-run-muted">A practical battery-drain path: separate active use from standby drain, then check apps, signal, temperature, and battery condition.</figcaption>
+</figure>
+
 ## Start with the obvious checks
 
 Open Settings > Battery > Battery usage. Look at which apps used the most power since the last full charge, and separate active use from background use in your head.

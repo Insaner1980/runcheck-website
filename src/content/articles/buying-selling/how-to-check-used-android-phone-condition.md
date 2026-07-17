@@ -10,6 +10,10 @@ draft: false
 ---
 Assessing actual condition takes about fifteen minutes and doesn't require installing anything.
 
+<figure class="not-prose my-10">
+  <img class="w-full rounded-2xl border border-run-border shadow-2xl" src="/images/articles/used-phone-condition-inspection.webp" alt="Used Android phone condition inspection covering display, frame, battery, cameras, charging port, sensors, and connectivity" width="1672" height="941" loading="lazy" decoding="async" />
+  <figcaption class="mt-3 text-sm leading-relaxed text-run-muted">Inspect the parts that reveal real condition: screen and frame, battery, cameras, charging, audio, sensors, radios, and signs of earlier repairs.</figcaption>
+</figure>
 
 ## Start with the things you can't see
 

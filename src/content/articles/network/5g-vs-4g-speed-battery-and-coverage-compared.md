@@ -10,6 +10,11 @@ draft: false
 ---
 That's the part phone marketing usually skips.
 
+<figure class="not-prose my-10">
+  <img class="w-full rounded-2xl border border-run-border shadow-2xl" src="/images/articles/5g-vs-4g.webp" alt="Comparison of 5G and 4G speed, signal stability, heat, and battery use" width="1672" height="941" loading="lazy" decoding="async" />
+  <figcaption class="mt-3 text-sm leading-relaxed text-run-muted">Strong 5G can deliver much higher speed, but weak or unstable 5G may use more power and perform less consistently than solid 4G coverage.</figcaption>
+</figure>
+
 ## Speed depends on which 5G you're using
 
 The 5G icon doesn't tell the whole story. A phone can show 5G while connected to a wide low-band layer, a fast mid-band layer, or a very fast mmWave cell that only works in a small outdoor area. Those are different experiences.

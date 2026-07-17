@@ -14,6 +14,11 @@ You fish the phone out of the sink, the screen is still on, and your first insti
 
 Water damage is messy because the problem isn't only the water. The real trouble starts when moisture, minerals, salt, sugar, or cleaning chemicals sit on tiny contacts and the phone keeps trying to run.
 
+<figure class="not-prose my-10">
+  <img class="w-full rounded-2xl border border-run-border shadow-2xl" src="/images/articles/phone-got-wet.webp" alt="Wet phone first-aid checklist showing safe drying steps and actions to avoid" width="1672" height="941" loading="lazy" decoding="async" />
+  <figcaption class="mt-3 text-sm leading-relaxed text-run-muted">Power the phone off, disconnect accessories, dry the outside, and wait. Avoid charging, heat, rice, shaking, or pushing objects into the ports.</figcaption>
+</figure>
+
 ## First minute: do less, not more
 
 Take the phone out of the liquid immediately. If it's still on, power it off. A wet phone that's off has a better chance than a wet phone still pushing current through the board.
