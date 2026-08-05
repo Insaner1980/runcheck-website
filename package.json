@@ -10,20 +10,29 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "check": "astro check",
     "test:gsc-locales": "node --test scripts/analyze-search-console-locales.test.mjs"
   },
   "dependencies": {
+    "@astrojs/check": "^0.9.10",
     "@astrojs/sitemap": "3.7.3",
     "@fontsource-variable/manrope": "5.2.8",
     "@fontsource/jetbrains-mono": "5.2.8",
-    "astro": "7.0.9"
+    "astro": "7.0.9",
+    "typescript": "^6.0.3"
   },
   "devDependencies": {
     "@tailwindcss/typography": "0.5.20",
     "@tailwindcss/vite": "4.3.1",
+    "prettier": "^3.9.6",
+    "prettier-plugin-astro": "^0.14.1",
     "tailwindcss": "4.3.1"
   },
   "overrides": {
     "esbuild": "0.28.1"
+  },
+  "allowScripts": {
+    "sharp@0.34.5": true,
+    "esbuild@0.28.1": true
   }
 }
