@@ -5,10 +5,11 @@ listSummary: "performances, vitesse et android"
 hub: "myths"
 sourceNumber: 147
 order: 3
-tags: ["performances","vitesse","android","optimisation","depannage"]
+tags: ["performances", "vitesse", "android", "optimisation", "depannage"]
 locale: "fr"
 draft: false
 ---
+
 Sur un téléphone Android moderne, les applications de nettoyage et d'optimisation de la RAM n'améliorent pas durablement les performances. Elles obligent généralement le téléphone à travailler davantage, pas moins. Pire encore, elles demandent souvent des autorisations étendues pour surveiller l'utilisation, afficher des publicités et continuer à fonctionner en arrière-plan.
 
 ## Libérer la RAM n'est pas le but

@@ -1,14 +1,18 @@
 ---
-import { PRICING_TIERS, getPrice } from '../data/pricing.mjs';
+import { PRICING_TIERS, getPrice } from "../data/pricing.mjs";
 
 interface Props {
-  plan: 'free' | 'pro';
+  plan: "free" | "pro";
 }
 
 const { plan } = Astro.props;
 const priceDataAttributes = Object.fromEntries(
-  Object.entries(PRICING_TIERS).map(([tier, pricing]) => [`data-${tier.toLowerCase()}`, pricing.prices[plan]]),
+  Object.entries(PRICING_TIERS).map(([tier, pricing]) => [
+    `data-${tier.toLowerCase()}`,
+    pricing.prices[plan],
+  ]),
 );
 ---
 
-<span data-regional-price={plan} {...priceDataAttributes}>{getPrice(plan)}</span>
+<span data-regional-price={plan} {...priceDataAttributes}>{getPrice(plan)}</span
+>

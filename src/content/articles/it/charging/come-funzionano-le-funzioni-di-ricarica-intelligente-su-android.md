@@ -5,10 +5,11 @@ listSummary: "Meta descrizione: Spiega come funzionano Ricarica adattiva."
 hub: "charging"
 sourceNumber: 51
 order: 15
-tags: ["batteria","stato","diagnostica","android","guida"]
+tags: ["batteria", "stato", "diagnostica", "android", "guida"]
 locale: "it"
 draft: false
 ---
+
 Perché a volte lo smartphone si ferma all'80%, resta così per ore e poi completa all'improvviso la ricarica poco prima che ti svegli?
 
 È la ricarica intelligente. Non è una singola funzione di Android con un interruttore universale. È un insieme di strumenti sviluppati dai produttori per affrontare lo stesso problema: troppo tempo trascorso con un livello di carica elevato, soprattutto quando lo smartphone è caldo.

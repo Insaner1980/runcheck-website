@@ -5,10 +5,11 @@ listSummary: "diagnose, sensoren und android"
 hub: "hardware"
 sourceNumber: 113
 order: 10
-tags: ["diagnose","sensoren","android","hardware","ratgeber"]
+tags: ["diagnose", "sensoren", "android", "hardware", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Android-Servicecodes sind nützlich, aber unübersichtlich. Einige gehören zu Android, andere fügt der Hersteller hinzu, und manche verschwinden nach einem Firmware-Update ohne jede Vorwarnung.
 
 Das ist seit der Einführung von Android 17 noch wichtiger. Google hat Android 17 zuerst für die meisten unterstützten Pixel-Geräte veröffentlicht. Samsung, Xiaomi, OnePlus, Motorola und andere Hersteller liefern ihre eigenen Android-17-Versionen später aus. Ein Code, der heute auf einem Pixel mit Android 17 funktioniert, sagt deshalb wenig über ein Galaxy- oder Redmi-Smartphone aus, das seine Android-17-Firmware noch nicht erhalten hat.

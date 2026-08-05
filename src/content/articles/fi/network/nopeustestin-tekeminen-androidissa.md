@@ -5,10 +5,11 @@ listSummary: "Napautat käynnistyspainiketta, seuraat mittarin liikettä ja saat
 hub: "network"
 sourceNumber: 92
 order: 3
-tags: ["verkko","yhteydet","android","vianetsintä","opas"]
+tags: ["verkko", "yhteydet", "android", "vianetsintä", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Testi kertoo, mitä tapahtui juuri sillä hetkellä, valitulla palvelimella ja senhetkisissä verkko-olosuhteissa. Se on tilannekuva, ei yksinään diagnoosi. Silti se on paras ensimmäinen luku silloin, kun puhelimen yhteys tuntuu hitaalta.
 
 ## Mitä testi mittaa?

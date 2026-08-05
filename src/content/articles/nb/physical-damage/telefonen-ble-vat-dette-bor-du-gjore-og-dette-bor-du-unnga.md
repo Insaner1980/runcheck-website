@@ -5,10 +5,11 @@ listSummary: "maskinvare, skader og reparasjon"
 hub: "physical-damage"
 sourceNumber: 133
 order: 3
-tags: ["maskinvare","skader","reparasjon","android","feilsøking"]
+tags: ["maskinvare", "skader", "reparasjon", "android", "feilsøking"]
 locale: "nb"
 draft: false
 ---
+
 ---
 
 Du fisker telefonen opp av vasken, skjermen er fortsatt på, og det første instinktet er å trykke på alle knappene for å se om den overlevde. Ikke gjør det. Det beste du kan gjøre akkurat da, er kjedelig: Stopp strømmen, få væske bort fra åpningene og gi telefonen tid.

@@ -5,10 +5,11 @@ listSummary: "Förra månaden räckte telefonen till läggdags."
 hub: "buying-selling"
 sourceNumber: 142
 order: 6
-tags: ["köpguide","android","jämförelse","värde","guide"]
+tags: ["köpguide", "android", "jämförelse", "värde", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Den skillnaden kan spara pengar.
 
 Ett batteribyte kan vara en av de mest prisvärda reparationerna du gör, men bara om telefonen fortfarande har programvarusupport, tillräcklig prestanda och inga andra större hårdvarufel. Annars sätter du bara ett nytt batteri i en enhet som redan håller på att bli för gammal.
@@ -101,4 +102,4 @@ Byt telefon om supporten har upphört, prestandan redan är dålig, lagringen ä
 
 Det tråkiga svaret är oftast det rätta: köp inte en ny telefon för att lösa en enda utsliten del, och reparera inte en telefon som redan har misslyckats på tre andra områden. Ett batteribyte är underhåll. En uppgradering är en ersättning. Ta reda på vilket problem du faktiskt har.
 
-*Metabeskrivning: Praktisk guide till kostnaden för batteribyte på Android jämfört med en ny telefon, med svenska prisexempel, batterikontroller för Pixel och Samsung, programvarusupport och tydliga beslutsregler.*
+_Metabeskrivning: Praktisk guide till kostnaden för batteribyte på Android jämfört med en ny telefon, med svenska prisexempel, batterikontroller för Pixel och Samsung, programvarusupport och tydliga beslutsregler._

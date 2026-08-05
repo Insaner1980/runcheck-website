@@ -5,10 +5,11 @@ listSummary: "ytelse, hastighet og android"
 hub: "myths"
 sourceNumber: 150
 order: 6
-tags: ["ytelse","hastighet","android","optimalisering","feilsøking"]
+tags: ["ytelse", "hastighet", "android", "optimalisering", "feilsøking"]
 locale: "nb"
 draft: false
 ---
+
 Telefonen din kan absolutt bli tregere over tid. Det ubehagelige er at flere ting kan være sanne samtidig: Produsenter har tatt valg som har rammet eldre enheter, mens de fleste treghetsproblemer fortsatt skyldes ganske kjedelige tekniske forhold.
 
 Ja, planlagt foreldelse er delvis reelt. Nei, enhver treg telefon er ikke bevis på en hemmelig bryter.

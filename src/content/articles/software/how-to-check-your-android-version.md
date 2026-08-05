@@ -5,9 +5,10 @@ listSummary: "Android version lookup"
 hub: "software"
 sourceNumber: 119
 order: 1
-tags: ["android","updates","security","software","guide"]
+tags: ["android", "updates", "security", "software", "guide"]
 draft: false
 ---
+
 On most phones, open Settings, then About phone, then Android version. On Samsung, use Settings > About phone > Software information. That screen gives you more than the big OS number: it also shows the security date, Google Play system update date, build number, and sometimes the manufacturer's own software version.
 
 That's the part people miss. Android 17 sounds newer than Android 16, and it is, but a current security patch matters just as much when you're judging whether a phone is still safe to use.

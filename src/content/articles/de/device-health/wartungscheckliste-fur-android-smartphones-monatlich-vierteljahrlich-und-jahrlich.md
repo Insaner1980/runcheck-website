@@ -5,10 +5,11 @@ listSummary: "Die meisten Android-Smartphones brauchen keine ständige Pflege."
 hub: "device-health"
 sourceNumber: 8
 order: 4
-tags: ["speicher","android","bereinigung","optimierung","ratgeber"]
+tags: ["speicher", "android", "bereinigung", "optimierung", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Diese Checkliste passt sich deiner tatsächlichen Nutzung an. Nicht jede Aufgabe muss monatlich erledigt werden, und manches ist nur ein- oder zweimal im Jahr sinnvoll.
 
 ## Jeden Monat

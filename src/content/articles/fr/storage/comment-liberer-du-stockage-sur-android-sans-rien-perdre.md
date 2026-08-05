@@ -5,10 +5,11 @@ listSummary: "stockage, android et nettoyage"
 hub: "storage"
 sourceNumber: 79
 order: 1
-tags: ["stockage","android","nettoyage","optimisation","guide"]
+tags: ["stockage", "android", "nettoyage", "optimisation", "guide"]
 locale: "fr"
 draft: false
 ---
+
 ---
 
 Vous essayez de prendre une photo, d'installer une mise à jour ou de télécharger un fichier, et Android vous annonce qu'il n'y a plus assez d'espace. Le réflexe de panique consiste à supprimer des photos. Ne commencez pas par là.

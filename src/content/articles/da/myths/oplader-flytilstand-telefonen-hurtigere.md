@@ -5,10 +5,11 @@ listSummary: "opladning, batteri og android"
 hub: "myths"
 sourceNumber: 148
 order: 4
-tags: ["opladning","batteri","android","guide","hardware"]
+tags: ["opladning", "batteri", "android", "guide", "hardware"]
 locale: "da"
 draft: false
 ---
+
 Du sætter telefonen til opladning ved 12 %, ser på uret og begynder at lede efter tricks. Flytilstand er et af de få, der faktisk har en reel effekt, men det er ikke magi.
 
 Det hjælper, fordi telefonen bruger mindre strøm, mens den oplader. Når mobilnetværk, Wi-Fi, Bluetooth, notifikationer og synkronisering i baggrunden bruger mindre strøm, kan en lidt større del af opladerens effekt gå til batteriet. Gevinsten er som regel lille. Med en moderne hurtigoplader bemærker du den måske næsten ikke. Med en gammel 5 W-adapter, en USB-port på en bærbar computer eller en powerbank kan den have betydning.

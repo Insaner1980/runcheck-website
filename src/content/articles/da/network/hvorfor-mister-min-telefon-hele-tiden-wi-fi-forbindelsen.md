@@ -1,14 +1,15 @@
 ---
 title: "Hvorfor mister min telefon hele tiden Wi-Fi-forbindelsen?"
-description: "Den irriterende version er, når Wi-Fi virker i køkkenet, forsvinder i soveværelset, kommer tilbage i ti sekunder og derefter forsvinder igen. Intet ser tydeligt ødelagt ud. Routeren er tændt, adgangskoden er korrekt, og apps bliver ved med at give \"intet internet\" skylden."
+description: 'Den irriterende version er, når Wi-Fi virker i køkkenet, forsvinder i soveværelset, kommer tilbage i ti sekunder og derefter forsvinder igen. Intet ser tydeligt ødelagt ud. Routeren er tændt, adgangskoden er korrekt, og apps bliver ved med at give "intet internet" skylden.'
 listSummary: "netværk, forbindelser og android"
 hub: "network"
 sourceNumber: 95
 order: 6
-tags: ["netværk","forbindelser","android","fejlfinding","guide"]
+tags: ["netværk", "forbindelser", "android", "fejlfinding", "guide"]
 locale: "da"
 draft: false
 ---
+
 Begynd med ét spørgsmål: Mister andre enheder på det samme Wi-Fi også forbindelsen? Hvis ja, skal du arbejde med routeren eller internetforbindelsen først. Hvis kun telefonen falder af, ligger problemet sandsynligvis i telefonen, dens gemte netværksprofil eller måden, den skifter mellem frekvensbånd på.
 
 ## Hvis flere enheder mister forbindelsen, så begynd med routeren

@@ -5,10 +5,11 @@ listSummary: "La maggior parte degli avvertimenti sul gaming mobile prende di mi
 hub: "thermal"
 sourceNumber: 55
 order: 3
-tags: ["confronto","app","android","guida-all-acquisto","recensione"]
+tags: ["confronto", "app", "android", "guida-all-acquisto", "recensione"]
 locale: "it"
 draft: false
 ---
+
 ## L'hardware è progettato per gestire i giochi
 
 I moderni SoC per smartphone sono costruiti per affrontare sia brevi picchi sia lunghe sessioni impegnative. Eseguono giochi, registrano video, elaborano foto, gestiscono schermi ad alta frequenza di aggiornamento e cambiano livello di prestazioni migliaia di volte al giorno. Se un gioco spinge troppo il chip, Android applica il thermal throttling, cioè riduce le prestazioni prima che il silicio raggiunga temperature non sicure.
@@ -89,4 +90,4 @@ Un'app di diagnostica può confermare ciò che percepisci. runcheck è utile per
 
 Il gaming di solito non danneggia direttamente lo smartphone. Produce calore, e il calore fa invecchiare più rapidamente la batteria. Gioca senza caricabatterie quando puoi, abbassa la frequenza dei fotogrammi prima che il telefono si scaldi, evita la ricarica rapida durante le sessioni e non trattare il thermal throttling come un ostacolo da sconfiggere. Serve a proteggere lo smartphone.
 
-*Meta descrizione: Giocare su Android normalmente non danneggia CPU o GPU, ma il calore ripetuto prodotto da sessioni lunghe, ricarica rapida e luminosità elevata può far invecchiare più rapidamente la batteria.*
+_Meta descrizione: Giocare su Android normalmente non danneggia CPU o GPU, ma il calore ripetuto prodotto da sessioni lunghe, ricarica rapida e luminosità elevata può far invecchiare più rapidamente la batteria._

@@ -5,10 +5,11 @@ listSummary: "Du behøver sandsynligvis ikke en ny Android-telefon, bare fordi A
 hub: "buying-selling"
 sourceNumber: 143
 order: 7
-tags: ["købsguide","android","sammenligning","værdi","guide"]
+tags: ["købsguide", "android", "sammenligning", "værdi", "guide"]
 locale: "da"
 draft: false
 ---
+
 Den forsinkelse gør ikke din telefon forældet. Det egentlige spørgsmål er enklere: Er den stadig sikker, brugbar og værd at reparere?
 
 ## Sikkerhedsopdateringer er den reelle deadline

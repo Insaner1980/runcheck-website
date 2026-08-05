@@ -6,9 +6,10 @@ listSummary: "Android support lifecycle"
 hub: "software"
 sourceNumber: 123
 order: 5
-tags: ["android","updates","security","software","guide"]
+tags: ["android", "updates", "security", "software", "guide"]
 draft: false
 ---
+
 That is the part people miss. End of support doesn't brick a phone. It just means the risk keeps creeping up while the phone feels the same.
 
 The check takes about two minutes.

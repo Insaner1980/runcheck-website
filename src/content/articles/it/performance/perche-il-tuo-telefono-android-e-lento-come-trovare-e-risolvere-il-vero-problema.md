@@ -5,10 +5,18 @@ listSummary: "Il tuo telefono Android è più lento di prima e probabilmente non
 hub: "performance"
 sourceNumber: 64
 order: 1
-tags: ["prestazioni","velocita","android","ottimizzazione","risoluzione-dei-problemi"]
+tags:
+  [
+    "prestazioni",
+    "velocita",
+    "android",
+    "ottimizzazione",
+    "risoluzione-dei-problemi",
+  ]
 locale: "it"
 draft: false
 ---
+
 Non significa automaticamente che il telefono sia arrivato alla fine. La maggior parte dei rallentamenti dipende da alcune cause verificabili: memoria interna quasi piena, app pesanti in background, pressione sulla RAM, calore, usura della batteria o una singola app problematica dopo un aggiornamento.
 
 ## Controllo rapido

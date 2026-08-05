@@ -1,14 +1,15 @@
 ---
 title: "Bör jag uppdatera min Android-telefon? För- och nackdelar"
-description: "De flesta råd om uppdateringar är för kategoriska. \"Uppdatera alltid direkt\" låter enkelt, men stora Android-versioner kan ha fel under den första veckan. \"Uppdatera aldrig eftersom telefonen kan bli långsammare\" är sämre, eftersom kända säkerhetshål då lämnas öppna."
+description: 'De flesta råd om uppdateringar är för kategoriska. "Uppdatera alltid direkt" låter enkelt, men stora Android-versioner kan ha fel under den första veckan. "Uppdatera aldrig eftersom telefonen kan bli långsammare" är sämre, eftersom kända säkerhetshål då lämnas öppna.'
 listSummary: "De flesta råd om uppdateringar är för kategoriska."
 hub: "software"
 sourceNumber: 120
 order: 2
-tags: ["android","uppdateringar","säkerhet","programvara","guide"]
+tags: ["android", "uppdateringar", "säkerhet", "programvara", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Det praktiska svaret är enkelt: installera säkerhetsuppdateringar snabbt. Installera större Android-uppdateringar efter en kort rimlighetskontroll, särskilt när versionen är helt ny.
 
 Android 17 började rullas ut den 16 juni 2026, först till de flesta Pixel-enheter som stöds. Samsung, Xiaomi, OnePlus, OPPO, Motorola och andra tillverkare följer sina egna tidplaner, och vissa hade fortfarande betaversioner när Pixel-utrullningen började. När Android 17 dyker upp på din enhet är beslutet därför lite annorlunda än för en vanlig månatlig säkerhetsuppdatering.

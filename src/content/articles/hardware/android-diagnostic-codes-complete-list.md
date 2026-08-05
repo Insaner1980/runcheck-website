@@ -5,9 +5,10 @@ listSummary: "Manufacturer diagnostic code list"
 hub: "hardware"
 sourceNumber: 112
 order: 9
-tags: ["diagnostics","sensors","android","hardware","guide"]
+tags: ["diagnostics", "sensors", "android", "hardware", "guide"]
 draft: false
 ---
+
 ---
 
 You type `*#0*#` into one Galaxy phone and a full hardware test menu opens. You type the same code into another Galaxy and nothing happens.
@@ -28,12 +29,12 @@ Most test codes run as soon as you type the last character. Some phones require 
 
 These are the closest thing Android has to common diagnostic codes, but even these aren't guaranteed everywhere.
 
-| Code | What it does | Notes |
-|---|---|---|
-| `*#06#` | Shows IMEI, and sometimes MEID or EID | The most widely supported phone code. Useful for warranty, blacklist checks, and carrier support. |
-| `#07#` | Shows regulatory information and SAR details | Works on many Android phones. Some require the call button. |
-| `*#*#4636#*#*` | Opens the Android Testing menu | Can show phone information, network state, signal data, battery stats, and Wi-Fi details. Availability varies heavily. |
-| `*#*#426#*#*` | Opens Firebase Cloud Messaging diagnostics | Best tried from Phone by Google. Useful when push notifications aren't arriving. |
+| Code           | What it does                                 | Notes                                                                                                                  |
+| -------------- | -------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| `*#06#`        | Shows IMEI, and sometimes MEID or EID        | The most widely supported phone code. Useful for warranty, blacklist checks, and carrier support.                      |
+| `#07#`         | Shows regulatory information and SAR details | Works on many Android phones. Some require the call button.                                                            |
+| `*#*#4636#*#*` | Opens the Android Testing menu               | Can show phone information, network state, signal data, battery stats, and Wi-Fi details. Availability varies heavily. |
+| `*#*#426#*#*`  | Opens Firebase Cloud Messaging diagnostics   | Best tried from Phone by Google. Useful when push notifications aren't arriving.                                       |
 
 The `*#*#4636#*#*` menu is one of the most quoted Android codes, but don't be surprised if it has fewer fields than old screenshots show. Newer Android builds and OEM skins hide more network and battery details than they used to.
 
@@ -45,20 +46,20 @@ Open Samsung Members, tap Diagnostics on the Discover tab, then Phone diagnostic
 
 Samsung dialer codes still help, especially on unlocked phones, but One UI security settings, Auto Blocker behavior, enterprise policies, and carrier firmware can block them.
 
-| Code | What it does | Notes |
-|---|---|---|
-| `*#0*#` | Opens the main Samsung hardware test menu | Tests can include display colors, touch, receiver, speaker, vibration, cameras, sensors, S Pen, and more. |
-| `*#0228#` | Battery status screen | Shows live battery voltage and related status on many models. Some newer builds block it. |
-| `*#0011#` | ServiceMode network screen | Useful for signal and serving-cell details. Don't change settings here. |
-| `*#0842#` | Vibration test | Works on many Samsung models, but not all. |
-| `*#0673#` or `*#0289#` | Audio test | Speaker and receiver behavior varies by model. |
-| `*#2663#` | Touch firmware information | Often used by service technicians. |
-| `*#7353#` | Quick test menu | More common on older Galaxy models. |
-| `*#1234#` | Firmware version details | Shows AP, CP, and CSC build information. |
-| `*#7412365#` | Camera firmware information | Availability varies. |
-| `*#0588#` | Proximity sensor test | Useful when the screen doesn't turn off during calls. |
-| `*#9900#` | SysDump mode | Mainly for logs and debugging. Don't change random options. |
-| `*#9090#` | Diagnostic configuration | Avoid changing anything unless you're following official service instructions. |
+| Code                   | What it does                              | Notes                                                                                                     |
+| ---------------------- | ----------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| `*#0*#`                | Opens the main Samsung hardware test menu | Tests can include display colors, touch, receiver, speaker, vibration, cameras, sensors, S Pen, and more. |
+| `*#0228#`              | Battery status screen                     | Shows live battery voltage and related status on many models. Some newer builds block it.                 |
+| `*#0011#`              | ServiceMode network screen                | Useful for signal and serving-cell details. Don't change settings here.                                   |
+| `*#0842#`              | Vibration test                            | Works on many Samsung models, but not all.                                                                |
+| `*#0673#` or `*#0289#` | Audio test                                | Speaker and receiver behavior varies by model.                                                            |
+| `*#2663#`              | Touch firmware information                | Often used by service technicians.                                                                        |
+| `*#7353#`              | Quick test menu                           | More common on older Galaxy models.                                                                       |
+| `*#1234#`              | Firmware version details                  | Shows AP, CP, and CSC build information.                                                                  |
+| `*#7412365#`           | Camera firmware information               | Availability varies.                                                                                      |
+| `*#0588#`              | Proximity sensor test                     | Useful when the screen doesn't turn off during calls.                                                     |
+| `*#9900#`              | SysDump mode                              | Mainly for logs and debugging. Don't change random options.                                               |
+| `*#9090#`              | Diagnostic configuration                  | Avoid changing anything unless you're following official service instructions.                            |
 
 If `*#0*#` doesn't work, don't assume the phone is fake. First try Samsung Phone instead of Google Phone. Then check Samsung Members diagnostics. If that works, the hardware test path is still available even if the hidden code is blocked.
 
@@ -66,12 +67,12 @@ If `*#0*#` doesn't work, don't assume the phone is fake. First try Samsung Phone
 
 Pixel phones are more restrictive than Samsung phones. There is no Pixel version of Samsung's `*#0*#` menu.
 
-| Code | What it does | Notes |
-|---|---|---|
+| Code           | What it does                                        | Notes                                                                                                                                        |
+| -------------- | --------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | `*#*#7287#*#*` | Opens Pixel repair diagnostics on supported devices | Google documents this for Pixel self-repair workflows. It requires an internet connection and may vary by model, region, and software state. |
-| `*#*#4636#*#*` | Android Testing menu | Often used for phone and network details, but fields vary by Android build. |
-| `*#*#426#*#*` | FCM diagnostics | Useful for push-notification troubleshooting. |
-| `#07#` | Regulatory and SAR information | Works on many Pixel models. |
+| `*#*#4636#*#*` | Android Testing menu                                | Often used for phone and network details, but fields vary by Android build.                                                                  |
+| `*#*#426#*#*`  | FCM diagnostics                                     | Useful for push-notification troubleshooting.                                                                                                |
+| `#07#`         | Regulatory and SAR information                      | Works on many Pixel models.                                                                                                                  |
 
 Pixel 9 and later also have a Device health and support area in Settings for guided support in supported languages. That isn't the same thing as the repair diagnostics code, but it's often a better first stop for battery, charging, performance, and support questions.
 
@@ -81,11 +82,11 @@ Android 17 is available over the air for supported Pixel devices from Pixel 6 th
 
 Xiaomi's CIT menu is one of the better OEM test suites, but the contents vary between MIUI, HyperOS, region builds, and model lines.
 
-| Code | What it does | Notes |
-|---|---|---|
-| `*#*#6484#*#*` | Opens the CIT hardware test menu | Commonly includes display, touch, vibration, speakers, microphones, cameras, sensors, GPS, Wi-Fi, Bluetooth, SIM, keys, fingerprint, IR blaster, and NFC. |
-| `*#*#64663#*#*` | Alternative CIT code | Works on some older Xiaomi models. |
-| `*#*#4636#*#*` | Android Testing menu | Availability varies, especially on newer HyperOS builds. |
+| Code            | What it does                     | Notes                                                                                                                                                     |
+| --------------- | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `*#*#6484#*#*`  | Opens the CIT hardware test menu | Commonly includes display, touch, vibration, speakers, microphones, cameras, sensors, GPS, Wi-Fi, Bluetooth, SIM, keys, fingerprint, IR blaster, and NFC. |
+| `*#*#64663#*#*` | Alternative CIT code             | Works on some older Xiaomi models.                                                                                                                        |
+| `*#*#4636#*#*`  | Android Testing menu             | Availability varies, especially on newer HyperOS builds.                                                                                                  |
 
 Some Xiaomi phones also open diagnostics through Settings > My device > All specs by tapping the kernel version several times. If the dialer code fails, try that path.
 
@@ -93,12 +94,12 @@ Some Xiaomi phones also open diagnostics through Settings > My device > All spec
 
 OnePlus diagnostic access has changed over the years as OxygenOS moved closer to ColorOS. Don't be surprised if older guides don't match your current phone.
 
-| Code | What it does | Notes |
-|---|---|---|
-| `*#808#` | Engineering Mode | Hardware tests can include display, touch, cameras, sensors, audio, charging, and network modules. Availability varies by OxygenOS and region. |
-| `*#*#4636#*#*` | Android Testing menu | Still works on many models. |
-| `*#888#` | Hardware version or production info | Not present on every model. |
-| `*#1234#` | Firmware version | Works on some OnePlus builds. |
+| Code           | What it does                        | Notes                                                                                                                                          |
+| -------------- | ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| `*#808#`       | Engineering Mode                    | Hardware tests can include display, touch, cameras, sensors, audio, charging, and network modules. Availability varies by OxygenOS and region. |
+| `*#*#4636#*#*` | Android Testing menu                | Still works on many models.                                                                                                                    |
+| `*#888#`       | Hardware version or production info | Not present on every model.                                                                                                                    |
+| `*#1234#`      | Firmware version                    | Works on some OnePlus builds.                                                                                                                  |
 
 Be careful inside Engineering Mode. Use test screens. Don't change modem, calibration, or service settings.
 
@@ -106,11 +107,11 @@ Be careful inside Engineering Mode. Use test screens. Don't change modem, calibr
 
 Motorola has fewer public dialer codes than Samsung or Xiaomi, but many models include a service test app.
 
-| Code | What it does | Notes |
-|---|---|---|
-| `*#*#2486#*#*` | Opens CQATest or service test menu | Can include display, touch, speaker, vibration, camera, and sensors. |
-| `*#*#4636#*#*` | Android Testing menu | Works on many models. |
-| `.12345+=` | Opens engineering mode from the stock Calculator app | Only works on some Motorola devices, and only in the stock calculator. |
+| Code           | What it does                                         | Notes                                                                  |
+| -------------- | ---------------------------------------------------- | ---------------------------------------------------------------------- |
+| `*#*#2486#*#*` | Opens CQATest or service test menu                   | Can include display, touch, speaker, vibration, camera, and sensors.   |
+| `*#*#4636#*#*` | Android Testing menu                                 | Works on many models.                                                  |
+| `.12345+=`     | Opens engineering mode from the stock Calculator app | Only works on some Motorola devices, and only in the stock calculator. |
 
 If CQATest appears in your app list after a test, don't panic. It's Motorola's factory test component.
 
@@ -118,12 +119,12 @@ If CQATest appears in your app list after a test, don't panic. It's Motorola's f
 
 OPPO and Realme share a lot of ColorOS DNA, so their service codes overlap.
 
-| Code | What it does | Notes |
-|---|---|---|
-| `*#899#` | Manual test or engineering menu | Common hardware test entry point on many ColorOS and Realme UI builds. |
-| `*#800#` | Engineering/log tool | Often used for logs and network diagnostics. |
-| `*#6776#` | Software and device information | Shows model and firmware details on many models. |
-| `*#*#4636#*#*` | Android Testing menu | Availability varies. |
+| Code           | What it does                    | Notes                                                                  |
+| -------------- | ------------------------------- | ---------------------------------------------------------------------- |
+| `*#899#`       | Manual test or engineering menu | Common hardware test entry point on many ColorOS and Realme UI builds. |
+| `*#800#`       | Engineering/log tool            | Often used for logs and network diagnostics.                           |
+| `*#6776#`      | Software and device information | Shows model and firmware details on many models.                       |
+| `*#*#4636#*#*` | Android Testing menu            | Availability varies.                                                   |
 
 The safer path is usually the built-in Phone Manager, My OPPO, My realme, or Support app if your model includes one.
 

@@ -6,10 +6,11 @@ listSummary: "Votre téléphone peut sembler parfaitement normal alors qu'il a d
 hub: "software"
 sourceNumber: 123
 order: 5
-tags: ["android","mises-a-jour","securite","logiciel","guide"]
+tags: ["android", "mises-a-jour", "securite", "logiciel", "guide"]
 locale: "fr"
 draft: false
 ---
+
 C'est le point que beaucoup de gens oublient. La fin du suivi ne bloque pas un téléphone. Le risque augmente simplement tandis que l'appareil semble inchangé.
 
 La vérification prend environ deux minutes.

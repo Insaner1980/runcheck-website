@@ -5,10 +5,11 @@ listSummary: "diagnostiikka, anturit ja android"
 hub: "hardware"
 sourceNumber: 118
 order: 15
-tags: ["diagnostiikka","anturit","android","laitteisto","opas"]
+tags: ["diagnostiikka", "anturit", "android", "laitteisto", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Vuoden 2026 lippulaivapuhelimessa voi olla gyroskooppi, barometri, näytönalainen sormenjälkitunnistin, useita herätysantureita ja joukko ohjelmiston muodostamia liikeantureita. Muutaman vuoden ikäisessä edullisessa puhelimessa voi olla vain perusvalikoima. Ero näkyy, kun näytön kierto, automaattinen kirkkaus, kompassisuunta, AR-sovellukset tai nosta herättääksesi -toiminto eivät käyttäydy odotetusti.
 
 ## Aloita anturisovelluksella

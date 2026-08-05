@@ -5,10 +5,11 @@ listSummary: "Tuijotat tehdasasetusten palautuspainiketta, koska puhelimen käyt
 hub: "performance"
 sourceNumber: 67
 order: 4
-tags: ["suorituskyky","nopeus","android","optimointi","vianetsintä"]
+tags: ["suorituskyky", "nopeus", "android", "optimointi", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+
 Joskus neuvo on oikea. Usein se on laiska.
 
 Tehdasasetusten palautus voi korjata hitaan puhelimen, kun syy on ohjelmistossa: paisuneessa sovellusdatassa, rikkoutuneissa asetuksissa, vioittuneissa välimuisteissa, liian monissa taustasovelluksissa tai vuosien päivityksistä periytyneessä sekavassa palautuksessa. Se ei korjaa kulunutta flash-tallennustilaa, heikkoa akkua, huonoa lämpökäyttäytymistä, liian vähäistä RAM-muistia tai edullista järjestelmäpiiriä, joka oli hidas jo uutena.

@@ -5,10 +5,11 @@ listSummary: "hårdvara, testning och diagnostik"
 hub: "hardware"
 sourceNumber: 111
 order: 8
-tags: ["hårdvara","testning","diagnostik","android","guide"]
+tags: ["hårdvara", "testning", "diagnostik", "android", "guide"]
 locale: "sv"
 draft: false
 ---
+
 ---
 
 Hur mycket kan en liten etikett egentligen avslöja om en vattenskada? Mindre än många tror.

@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 32
 order: 22
 subgroup: "Drain"
-tags: ["akku","mythen","android","testen","fakten"]
+tags: ["akku", "mythen", "android", "testen", "fakten"]
 locale: "de"
 draft: false
 ---
+
 Manche schalten Bluetooth jedes Mal aus, sobald sie ihre Ohrhörer nicht mehr benutzen, weil sie glauben, dadurch einen halben Tag Akkulaufzeit zu gewinnen. Ich verstehe den Gedanken. Vor einigen Jahren war das sogar ein vernünftiger Rat.
 
 Bei einem modernen Android-Smartphone lohnt sich der Aufwand meistens nicht.

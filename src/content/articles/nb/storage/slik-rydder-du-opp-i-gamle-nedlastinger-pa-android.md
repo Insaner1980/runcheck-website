@@ -5,10 +5,11 @@ listSummary: "Metabeskrivelse: Gamle nedlastinger bruker plass på Android-telef
 hub: "storage"
 sourceNumber: 88
 order: 10
-tags: ["lagring","android","opprydding","optimalisering","guide"]
+tags: ["lagring", "android", "opprydding", "optimalisering", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Du åpner en PDF én gang, laster ned en APK for å teste noe, lagrer en ZIP-fil fra nettleseren og glemmer alt sammen. Seks måneder senere er Nedlastinger-mappen full av filer du ikke kjenner igjen.
 
 Det er normalt. Android legger mange filer du bare trenger én gang der, og de fleste behandler ikke denne plassen som noe som trenger vedlikehold. Men det gjør den.

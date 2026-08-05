@@ -5,10 +5,11 @@ listSummary: "netzwerk, verbindungen und android"
 hub: "network"
 sourceNumber: 100
 order: 11
-tags: ["netzwerk","verbindungen","android","fehlerbehebung","ratgeber"]
+tags: ["netzwerk", "verbindungen", "android", "fehlerbehebung", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 WLAN-Telefonie bedeutet, dass ein normaler Mobilfunkanruf über WLAN übertragen wird. Du verwendest die übliche Telefon-App, deine normale Rufnummer und deinen Mobilfunktarif. Die angerufene Person braucht weder WhatsApp noch Signal, Telegram oder eine andere App.
 
 Genau das ist der große Vorteil. Du kannst in einem Keller mit einem schwankenden Empfangsbalken sitzen, dich mit einem guten WLAN verbinden und trotzdem einen normalen Anruf führen.

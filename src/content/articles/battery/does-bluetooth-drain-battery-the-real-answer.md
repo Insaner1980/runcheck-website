@@ -6,9 +6,10 @@ hub: "battery"
 sourceNumber: 32
 order: 22
 subgroup: "Drain"
-tags: ["battery","myths","android","testing","facts"]
+tags: ["battery", "myths", "android", "testing", "facts"]
 draft: false
 ---
+
 Someone turns off Bluetooth every time they stop using earbuds because they think it is saving half a day's battery. I get the instinct. It was decent advice years ago.
 
 On a modern Android phone, it usually isn't worth the effort.

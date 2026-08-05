@@ -1,13 +1,14 @@
 ---
 title: "How to trade in your old Android phone for maximum value"
-description: "You wipe your old Galaxy, put it in a drawer \"for a week,\" and six months later it is worth far less. That is how a lot of phone trade-ins go wrong. The phone doesn't break. The timing does."
+description: 'You wipe your old Galaxy, put it in a drawer "for a week," and six months later it is worth far less. That is how a lot of phone trade-ins go wrong. The phone doesn''t break. The timing does.'
 listSummary: "Trade-in value preparation"
 hub: "buying-selling"
 sourceNumber: 144
 order: 8
-tags: ["buying-guide","android","comparison","value","guide"]
+tags: ["buying-guide", "android", "comparison", "value", "guide"]
 draft: false
 ---
+
 Assurant reported that US mobile trade-in programs returned $6.4 billion to consumers in 2025, up 42% from 2024. Android devices were also older at turn-in than before, averaging 3.96 years. That matters because a longer ownership cycle gives you more time to use a phone, but less room for sloppy selling when you finally move on.
 
 ## Sell before your phone becomes last year's news

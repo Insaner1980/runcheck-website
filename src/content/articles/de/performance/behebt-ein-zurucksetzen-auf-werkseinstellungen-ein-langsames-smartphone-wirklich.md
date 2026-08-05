@@ -5,10 +5,12 @@ listSummary: "Du starrst auf die Schaltfläche zum Zurücksetzen, weil dein Smar
 hub: "performance"
 sourceNumber: 67
 order: 4
-tags: ["leistung","geschwindigkeit","android","optimierung","fehlerbehebung"]
+tags:
+  ["leistung", "geschwindigkeit", "android", "optimierung", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+
 Manchmal ist dieser Rat richtig. Oft ist er bequem.
 
 Ein Zurücksetzen auf Werkseinstellungen kann ein langsames Smartphone wieder in Ordnung bringen, wenn die Ursache in der Software liegt: aufgeblähte App-Daten, fehlerhafte Einstellungen, beschädigte Caches, zu viele Hintergrund-Apps oder eine chaotische Wiederherstellung nach jahrelangen Updates. Verschlissener Flash-Speicher, ein schwacher Akku, problematisches Temperaturverhalten, zu wenig RAM oder ein günstiger Chipsatz, der schon am ersten Tag langsam war, werden dadurch nicht repariert.

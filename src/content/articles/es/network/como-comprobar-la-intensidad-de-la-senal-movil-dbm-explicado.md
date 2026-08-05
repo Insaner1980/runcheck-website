@@ -5,10 +5,11 @@ listSummary: "Las barras de cobertura sirven para echar un vistazo rápido, pero
 hub: "network"
 sourceNumber: 93
 order: 4
-tags: ["red","conectividad","android","solucion-de-problemas","guia"]
+tags: ["red", "conectividad", "android", "solucion-de-problemas", "guia"]
 locale: "es"
 draft: false
 ---
+
 Suena más técnico de lo que es. Los dBm solo indican el nivel de potencia que recibe el móvil de la red. Cuanto más cerca esté la cifra de cero, más intensa será la señal. Una lectura de -75 dBm es mejor que una de -95 dBm. Así de sencillo.
 
 ## Cómo interpretar rápidamente los dBm
@@ -19,13 +20,13 @@ La escala es logarítmica. Cada 3 dBm representan aproximadamente el doble o la 
 
 Para LTE y la mayoría de las conexiones 5G por debajo de 6 GHz, estos intervalos son una referencia útil:
 
-| Lectura | Qué suele significar |
-|---|---|
-| De -50 a -70 dBm | Excelente. Las llamadas y los datos deberían ser estables, siempre que la antena no esté saturada. |
-| De -70 a -85 dBm | Buena. Es un nivel normal para una cobertura exterior decente o cerca de una ventana. |
-| De -85 a -100 dBm | Utilizable, pero no especialmente buena. La navegación funciona, el streaming puede detenerse y la velocidad de subida suele caer antes. |
-| De -100 a -110 dBm | Débil. Las llamadas pueden cortarse, los mensajes pueden retrasarse y el módem consume más energía para mantener el enlace. |
-| Menos de -110 dBm | Marginal. Cabe esperar tiempos de espera agotados, momentos sin servicio o el cambio forzado a otra capa de red. |
+| Lectura            | Qué suele significar                                                                                                                     |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| De -50 a -70 dBm   | Excelente. Las llamadas y los datos deberían ser estables, siempre que la antena no esté saturada.                                       |
+| De -70 a -85 dBm   | Buena. Es un nivel normal para una cobertura exterior decente o cerca de una ventana.                                                    |
+| De -85 a -100 dBm  | Utilizable, pero no especialmente buena. La navegación funciona, el streaming puede detenerse y la velocidad de subida suele caer antes. |
+| De -100 a -110 dBm | Débil. Las llamadas pueden cortarse, los mensajes pueden retrasarse y el módem consume más energía para mantener el enlace.              |
+| Menos de -110 dBm  | Marginal. Cabe esperar tiempos de espera agotados, momentos sin servicio o el cambio forzado a otra capa de red.                         |
 
 No son límites universales para aprobar o suspender una conexión. Un móvil con -95 dBm puede funcionar bien si la señal está limpia y la antena tiene capacidad libre. Otro con -75 dBm puede ir a paso de tortuga si la celda está congestionada o hay muchas interferencias.
 

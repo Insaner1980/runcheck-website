@@ -5,9 +5,10 @@ listSummary: "System WebView update role"
 hub: "software"
 sourceNumber: 129
 order: 11
-tags: ["android","updates","security","software","guide"]
+tags: ["android", "updates", "security", "software", "guide"]
 draft: false
 ---
+
 You may never tap a WebView icon. Most people don't. But when an email app opens a sign-in page, a social app opens an article without leaving the app, or a banking app loads a web-based authentication screen, WebView is often doing the rendering in the background.
 
 ## What WebView actually does

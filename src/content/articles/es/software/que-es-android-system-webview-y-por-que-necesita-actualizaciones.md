@@ -5,10 +5,11 @@ listSummary: "¿Por qué un componente del sistema que nunca abres necesita actu
 hub: "software"
 sourceNumber: 129
 order: 11
-tags: ["android","actualizaciones","seguridad","software","guia"]
+tags: ["android", "actualizaciones", "seguridad", "software", "guia"]
 locale: "es"
 draft: false
 ---
+
 Quizá nunca pulses un icono de WebView. Casi nadie lo hace. Pero cuando una aplicación de correo abre una página de inicio de sesión, una red social muestra un artículo sin sacarte de la app o una aplicación bancaria carga una pantalla de autenticación basada en web, WebView suele encargarse de renderizarla en segundo plano.
 
 ## Qué hace realmente WebView

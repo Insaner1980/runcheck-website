@@ -5,10 +5,11 @@ listSummary: "Compara aplicaciones de diagnóstico según lo que miden y el prob
 hub: "device-health"
 sourceNumber: 138
 order: 7
-tags: ["comparacion","aplicaciones","android","guia-de-compra","analisis"]
+tags: ["comparacion", "aplicaciones", "android", "guia-de-compra", "analisis"]
 locale: "es"
 draft: false
 ---
+
 La mayoría de las aplicaciones de diagnóstico para Android no son realmente aplicaciones de diagnóstico. Son widgets de batería, fichas de especificaciones, embudos publicitarios o antiguas aplicaciones para «limpiar el móvil» a las que han añadido una puntuación de estado.
 
 Las mejores son más honestas. AccuBattery registra el comportamiento de la batería a lo largo del tiempo. DevCheck y AIDA64 muestran datos del hardware. Phone Doctor Plus ejecuta pruebas prácticas de los componentes. runcheck analiza el estado del dispositivo en batería, temperatura, red y almacenamiento, en lugar de presentar una sola cifra como si explicara todo el móvil.

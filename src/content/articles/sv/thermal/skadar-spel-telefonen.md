@@ -5,10 +5,11 @@ listSummary: "De flesta varningar om mobilspel riktar in sig på fel del av tele
 hub: "thermal"
 sourceNumber: 55
 order: 3
-tags: ["jämförelse","appar","android","köpguide","recension"]
+tags: ["jämförelse", "appar", "android", "köpguide", "recension"]
 locale: "sv"
 draft: false
 ---
+
 ## Hårdvaran klarar spel
 
 Moderna SoC-kretsar i telefoner är byggda för både korta prestandatoppar och långa, tunga sessioner. De kör spel, spelar in video, bearbetar bilder, driver skärmar med hög uppdateringsfrekvens och växlar mellan prestandanivåer tusentals gånger om dagen. Om ett spel pressar kretsen för hårt stryper Android prestandan innan kislet når osäkra nivåer.
@@ -89,4 +90,4 @@ En diagnostikapp kan bekräfta det du känner. runcheck är användbart här eft
 
 Spel skadar vanligtvis inte telefonen direkt. De skapar värme, och värme åldrar batteriet snabbare. Spela utan laddare när du kan, sänk bildfrekvensen innan telefonen blir het, undvik snabbladdning under sessionerna och sluta se termisk strypning som något som ska besegras. Den finns där för att skydda telefonen.
 
-*Metabeskrivning: Spel på Android skadar normalt inte CPU eller GPU, men upprepad värme från långa sessioner, snabbladdning och hög ljusstyrka kan få batteriet att åldras snabbare.*
+_Metabeskrivning: Spel på Android skadar normalt inte CPU eller GPU, men upprepad värme från långa sessioner, snabbladdning och hög ljusstyrka kan få batteriet att åldras snabbare._

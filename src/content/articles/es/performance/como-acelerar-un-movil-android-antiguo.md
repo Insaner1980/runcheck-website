@@ -5,10 +5,18 @@ listSummary: "rendimiento, velocidad y android"
 hub: "performance"
 sourceNumber: 65
 order: 2
-tags: ["rendimiento","velocidad","android","optimizacion","solucion-de-problemas"]
+tags:
+  [
+    "rendimiento",
+    "velocidad",
+    "android",
+    "optimizacion",
+    "solucion-de-problemas",
+  ]
 locale: "es"
 draft: false
 ---
+
 La solución, por tanto, es práctica. Reduce la presión sobre el móvil antes de asumir que el hardware ya no da más de sí.
 
 ## Libera almacenamiento primero

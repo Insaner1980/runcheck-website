@@ -5,10 +5,11 @@ listSummary: "De flesta batterispartips på nätet är rena fossil."
 hub: "myths"
 sourceNumber: 145
 order: 1
-tags: ["myter","fakta","android","batteri","mytgranskning"]
+tags: ["myter", "fakta", "android", "batteri", "mytgranskning"]
 locale: "sv"
 draft: false
 ---
+
 Det betyder inte att batterivård är meningslös. Det betyder att de gamla ritualerna är fel sak att lägga energi på.
 
 ## Myt: telefonen måste laddas ur till noll före laddning

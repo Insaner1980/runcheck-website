@@ -5,10 +5,11 @@ listSummary: "carga, bateria y android"
 hub: "charging"
 sourceNumber: 42
 order: 6
-tags: ["carga","bateria","android","guia","hardware"]
+tags: ["carga", "bateria", "android", "guia", "hardware"]
 locale: "es"
 draft: false
 ---
+
 Lo conectas a las 23:00, te despiertas a las 7:00 y el móvil lleva horas al 100 %. Parece que algo no encaja, sobre todo porque los viejos consejos sobre baterías nunca terminaron de desaparecer.
 
 Antes preocupaba la sobrecarga. Ese ya no es el verdadero problema. Ahora importa el tiempo que la batería pasa completamente cargada.

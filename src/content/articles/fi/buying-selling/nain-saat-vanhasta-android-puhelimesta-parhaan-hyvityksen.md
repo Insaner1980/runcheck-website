@@ -1,14 +1,15 @@
 ---
 title: "Näin saat vanhasta Android-puhelimesta parhaan hyvityksen"
-description: "Tyhjennät vanhan Galaxy-puhelimesi, laitat sen laatikkoon \"viikoksi\" ja puoli vuotta myöhemmin sen arvo on paljon pienempi. Näin moni puhelinkauppa menee pieleen. Puhelin ei rikkoudu. Ajoitus pettää."
+description: 'Tyhjennät vanhan Galaxy-puhelimesi, laitat sen laatikkoon "viikoksi" ja puoli vuotta myöhemmin sen arvo on paljon pienempi. Näin moni puhelinkauppa menee pieleen. Puhelin ei rikkoudu. Ajoitus pettää.'
 listSummary: "osto-opas, android ja vertailu"
 hub: "buying-selling"
 sourceNumber: 144
 order: 8
-tags: ["osto-opas","android","vertailu","arvo","opas"]
+tags: ["osto-opas", "android", "vertailu", "arvo", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Assurant raportoi, että Yhdysvaltain mobiililaitteiden vaihto-ohjelmat palauttivat kuluttajille 6,4 miljardia dollaria vuonna 2025, mikä oli 42 % enemmän kuin vuonna 2024. Android-laitteet olivat vaihtoon tullessaan aiempaa vanhempia, keskimäärin 3,96 vuoden ikäisiä. Luvut koskevat Yhdysvaltain markkinaa, mutta perusasia pätee Suomessakin: pidempi omistusaika antaa enemmän käyttöä, mutta jättää vähemmän tilaa viivyttelylle siinä vaiheessa, kun viimein myyt puhelimen.
 
 ## Myy ennen kuin puhelimesi muuttuu viime vuoden uutiseksi

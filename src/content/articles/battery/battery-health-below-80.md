@@ -6,9 +6,10 @@ hub: "battery"
 sourceNumber: 18
 order: 8
 subgroup: "Health"
-tags: ["battery","health","diagnostics","android","guide"]
+tags: ["battery", "health", "diagnostics", "android", "guide"]
 draft: false
 ---
+
 Battery health estimates how much charge the cell can hold compared with when it was new. A 5,000 mAh battery at 80% health behaves more like a 4,000 mAh battery. The phone still works. The problem is that the battery no longer has the same reserve for cold weather, heavy camera use, gaming, navigation, or weak signal areas.
 
 That is when weird behavior starts showing up.
@@ -45,7 +46,7 @@ On other Android phones, check the battery section in Settings first. Some brand
 
 Apps like AccuBattery can still be useful, but treat the first day of data as noise. These apps estimate capacity by watching charge and discharge behavior over time. Give them several charging sessions before trusting the number.
 
-The dialer code *#*#4636#*#* sometimes opens a testing menu with battery information. Sometimes it does nothing. That inconsistency is normal on manufacturer Android builds.
+The dialer code _#_#4636#_#_ sometimes opens a testing menu with battery information. Sometimes it does nothing. That inconsistency is normal on manufacturer Android builds.
 
 ## Replace, adapt, or upgrade
 

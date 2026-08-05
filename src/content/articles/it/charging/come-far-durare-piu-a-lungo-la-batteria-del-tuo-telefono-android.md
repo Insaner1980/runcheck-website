@@ -5,10 +5,11 @@ listSummary: "Consigli pratici per la batteria Android che fanno davvero la diff
 hub: "charging"
 sourceNumber: 37
 order: 1
-tags: ["ricarica","batteria","android","guida","hardware"]
+tags: ["ricarica", "batteria", "android", "guida", "hardware"]
 locale: "it"
 draft: false
 ---
+
 Gran parte dei consigli sulla batteria Android è troppo ovvia o troppo estrema. Sì, abbassare la luminosità aiuta. No, non devi trasformare il telefono in un mattone muto solo per arrivare a sera.
 
 Il metodo utile è intervenire prima sui consumi più importanti: schermo, segnale mobile, app in background, posizione e abitudini di ricarica. Android 17 è arrivato prima sulla maggior parte dei Pixel supportati, mentre gli altri produttori lo porteranno in seguito sui propri dispositivi. I nomi dei menu quindi cambiano, ma i principi della batteria restano gli stessi.

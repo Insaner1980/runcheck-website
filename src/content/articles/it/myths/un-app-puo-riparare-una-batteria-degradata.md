@@ -5,10 +5,11 @@ listSummary: "Nessuna app Android può riparare una batteria degradata."
 hub: "myths"
 sourceNumber: 151
 order: 7
-tags: ["miti","dati","android","batteria","verifica-dei-miti"]
+tags: ["miti", "dati", "android", "batteria", "verifica-dei-miti"]
 locale: "it"
 draft: false
 ---
+
 Un'app che promette di riparare la batteria può davvero recuperare la capacità persa? No. Non può farlo un'app di riparazione, né un booster, uno strumento di calibrazione o un ottimizzatore con una bella animazione.
 
 La batteria è un componente fisico. Quando la chimica interna della cella è invecchiata, il software non può restituirle la capacità persa.

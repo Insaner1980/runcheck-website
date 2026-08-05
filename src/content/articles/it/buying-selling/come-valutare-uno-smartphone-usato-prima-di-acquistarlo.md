@@ -5,10 +5,11 @@ listSummary: "Guida passo passo per valutare uno smartphone Android usato prima 
 hub: "buying-selling"
 sourceNumber: 141
 order: 5
-tags: ["confronto","app","android","guida-all-acquisto","recensione"]
+tags: ["confronto", "app", "android", "guida-all-acquisto", "recensione"]
 locale: "it"
 draft: false
 ---
+
 Hai in mano uno smartphone usato che sembra tenuto bene. Lo schermo è luminoso, il venditore pare una persona normale e il prezzo è abbastanza basso da sembrare un affare. È proprio questo il momento in cui si smette di controllare e si comincia a trovare giustificazioni.
 
 Non farlo.

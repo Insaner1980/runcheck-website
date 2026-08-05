@@ -5,10 +5,18 @@ listSummary: "Le app Android preinstallate possono occupare spazio, inviare noti
 hub: "performance"
 sourceNumber: 78
 order: 15
-tags: ["prestazioni","velocita","android","ottimizzazione","risoluzione-dei-problemi"]
+tags:
+  [
+    "prestazioni",
+    "velocita",
+    "android",
+    "ottimizzazione",
+    "risoluzione-dei-problemi",
+  ]
 locale: "it"
 draft: false
 ---
+
 ---
 
 Il bloatware viene accusato di rallentare quasi ogni telefono Android, ma la realtà è meno drammatica. Un'app preinstallata non rallenta il dispositivo soltanto perché la sua icona esiste. I problemi iniziano quando l'app funziona in background, riattiva il telefono, invia notifiche, si aggiorna o mantiene servizi attivi anche se non l'hai mai chiesto.

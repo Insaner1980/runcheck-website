@@ -5,10 +5,11 @@ listSummary: "Sovellusasetusten nollaus kuulostaa siltä, että se voisi pyyhki�
 hub: "software"
 sourceNumber: 128
 order: 10
-tags: ["tietoturva","haittaohjelmat","android","yksityisyys","opas"]
+tags: ["tietoturva", "haittaohjelmat", "android", "yksityisyys", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Hankaluus on toiminnon nimessä. Se ei nollaa sovelluksia. Se nollaa puhelimen sovelluksiin liittyviä järjestelmävalintoja, kuten lupia, oletussovelluksia, ilmoituksia, taustatoimintaa ja käytöstä poistettuja sovelluksia. Kuvat, viestit, tiedostot, tallennetut tilit ja sovellusdata säilyvät.
 
 ## Mitä toiminto nollaa

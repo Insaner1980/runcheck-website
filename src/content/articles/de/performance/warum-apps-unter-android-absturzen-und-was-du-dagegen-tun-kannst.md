@@ -5,10 +5,12 @@ listSummary: "Android-Apps stürzen aus konkreten Gründen ab."
 hub: "performance"
 sourceNumber: 77
 order: 14
-tags: ["leistung","geschwindigkeit","android","optimierung","fehlerbehebung"]
+tags:
+  ["leistung", "geschwindigkeit", "android", "optimierung", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+
 ---
 
 Die meisten App-Abstürze sind nicht zufällig. Sie wirken nur so, weil du den auslösenden Fehler nicht siehst.

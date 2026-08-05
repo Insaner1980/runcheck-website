@@ -5,10 +5,11 @@ listSummary: "hårdvara, skador och reparation"
 hub: "physical-damage"
 sourceNumber: 135
 order: 5
-tags: ["hårdvara","skador","reparation","android","felsökning"]
+tags: ["hårdvara", "skador", "reparation", "android", "felsökning"]
 locale: "sv"
 draft: false
 ---
+
 ---
 
 Det första tecknet är oftast inte dramatiskt. Skalet sitter inte längre tätt. Skärmskyddet lossnar hela tiden i ett hörn. Mobilen vickar på bordet trots att baksidan ser normal ut.

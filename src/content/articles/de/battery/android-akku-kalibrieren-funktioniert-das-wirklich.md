@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 15
 order: 5
 subgroup: "Health"
-tags: ["akku","zustand","diagnose","android","ratgeber"]
+tags: ["akku", "zustand", "diagnose", "android", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Was sie manchmal korrigieren kann, ist eine falsche Ladestandsanzeige.
 
 **Meta-Beschreibung:** Eine Android-Akkukalibrierung stellt keine verlorene Kapazität wieder her, kann aber manchmal ungenaue Prozentanzeigen korrigieren. Erfahre, wann sie hilft und wann sie nur Zeit kostet.

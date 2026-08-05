@@ -5,10 +5,11 @@ listSummary: "recharge, batterie et android"
 hub: "charging"
 sourceNumber: 40
 order: 4
-tags: ["recharge","batterie","android","guide","materiel"]
+tags: ["recharge", "batterie", "android", "guide", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 La recharge sans fil est-elle mauvaise pour la batterie, ou s'agit-il encore d'un sujet dont Internet s'inquiète trop ? La réponse raisonnable est la suivante : elle convient très bien, mais il est plus facile de mal l'utiliser qu'une recharge filaire.
 
 Le problème n'est pas le transfert d'énergie sans fil lui-même. C'est la chaleur. La recharge sans fil perd davantage d'énergie pendant le transfert qu'un câble, et cette énergie perdue réchauffe le téléphone, le socle ou les deux.

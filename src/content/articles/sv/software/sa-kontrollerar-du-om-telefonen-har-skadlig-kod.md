@@ -5,10 +5,11 @@ listSummary: "Du använder telefonen som vanligt."
 hub: "software"
 sourceNumber: 125
 order: 7
-tags: ["android","skadlig-programvara","säkerhet","felsökning","guide"]
+tags: ["android", "skadlig-programvara", "säkerhet", "felsökning", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Det bevisar inte att telefonen har skadlig kod. Telefoner kan också bete sig märkligt när lagringen är full, appar krånglar eller en uppdatering har gått fel. Men symtomen är värda att undersöka.
 
 Börja med de tråkiga förklaringarna. Leta sedan efter skadlig kod.

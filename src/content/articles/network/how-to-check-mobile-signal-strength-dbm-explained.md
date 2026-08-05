@@ -5,9 +5,10 @@ listSummary: "dBm signal strength explained"
 hub: "network"
 sourceNumber: 93
 order: 4
-tags: ["network","connectivity","android","troubleshooting","guide"]
+tags: ["network", "connectivity", "android", "troubleshooting", "guide"]
 draft: false
 ---
+
 That sounds more technical than it is. dBm is just the power level your phone sees from the cellular network. The closer the number is to zero, the stronger the signal. A reading of -75 dBm is stronger than -95 dBm. Simple enough.
 
 ## The fast way to read dBm
@@ -18,13 +19,13 @@ The scale is logarithmic. Every 3 dBm is roughly a doubling or halving of receiv
 
 For LTE and most sub-6 GHz 5G connections, these ranges are a useful rule of thumb:
 
-| Reading | What it usually means |
-|---|---|
-| -50 to -70 dBm | Excellent. Calls and data should be stable, assuming the tower isn't overloaded. |
-| -70 to -85 dBm | Good. This is normal for decent outdoor or near-window coverage. |
-| -85 to -100 dBm | Usable, but not great. Browsing works, streaming may buffer, and upload speeds can fall first. |
-| -100 to -110 dBm | Weak. Calls can drop, texts may delay, and the modem uses more power to hold the link. |
-| Below -110 dBm | Marginal. Expect timeouts, no-service moments, or forced fallback to another network layer. |
+| Reading          | What it usually means                                                                          |
+| ---------------- | ---------------------------------------------------------------------------------------------- |
+| -50 to -70 dBm   | Excellent. Calls and data should be stable, assuming the tower isn't overloaded.               |
+| -70 to -85 dBm   | Good. This is normal for decent outdoor or near-window coverage.                               |
+| -85 to -100 dBm  | Usable, but not great. Browsing works, streaming may buffer, and upload speeds can fall first. |
+| -100 to -110 dBm | Weak. Calls can drop, texts may delay, and the modem uses more power to hold the link.         |
+| Below -110 dBm   | Marginal. Expect timeouts, no-service moments, or forced fallback to another network layer.    |
 
 These are not universal pass or fail lines. A phone at -95 dBm can still feel fine if the signal is clean and the tower has spare capacity. Another phone at -75 dBm can crawl if the cell is congested or interference is high.
 

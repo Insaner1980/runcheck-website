@@ -5,9 +5,10 @@ listSummary: "Fingerprint sensor testing"
 hub: "hardware"
 sourceNumber: 114
 order: 11
-tags: ["diagnostics","sensors","android","hardware","guide"]
+tags: ["diagnostics", "sensors", "android", "hardware", "guide"]
 draft: false
 ---
+
 Is the fingerprint sensor broken, or is it just annoyed by your screen protector? That sounds like a joke, but it's the first question worth asking.
 
 Fingerprint failures are often boring. Dry skin, moisture, a cheap tempered-glass protector, bad enrollment, or a half-finished software update can make a good sensor look dead. Hardware failure is real too, especially after a drop or display repair, but don't start there.

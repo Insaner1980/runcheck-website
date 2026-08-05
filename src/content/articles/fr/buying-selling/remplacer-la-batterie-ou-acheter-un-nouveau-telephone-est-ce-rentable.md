@@ -5,10 +5,11 @@ listSummary: "guide-d-achat, android et comparaison"
 hub: "buying-selling"
 sourceNumber: 142
 order: 6
-tags: ["guide-d-achat","android","comparaison","valeur","guide"]
+tags: ["guide-d-achat", "android", "comparaison", "valeur", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Le mois dernier, votre téléphone tenait jusqu'au coucher. Maintenant, il réclame une recharge avant le dîner. Tout le reste fonctionne encore : l'appareil photo, l'écran, les applications, le stockage et les messages. Le téléphone n'est pas en panne. Sa batterie est fatiguée.
 
 Cette distinction peut vous faire économiser beaucoup d'argent.

@@ -5,10 +5,11 @@ listSummary: "La plupart des avertissements sur les jeux mobiles visent la mauva
 hub: "thermal"
 sourceNumber: 55
 order: 3
-tags: ["comparaison","applications","android","guide-d-achat","test"]
+tags: ["comparaison", "applications", "android", "guide-d-achat", "test"]
 locale: "fr"
 draft: false
 ---
+
 ## Le matériel est conçu pour faire tourner des jeux
 
 Les SoC modernes des téléphones sont conçus pour de courtes pointes de puissance comme pour de longues sessions intensives. Ils exécutent des jeux, enregistrent des vidéos, traitent des photos, pilotent des écrans à taux de rafraîchissement élevé et changent de niveau de performance des milliers de fois par jour. Si un jeu sollicite trop la puce, Android réduit ses performances avant que le silicium n'atteigne une température dangereuse.
@@ -89,4 +90,4 @@ Une application de diagnostic peut confirmer votre impression. runcheck est util
 
 Les jeux n'endommagent généralement pas directement votre téléphone. Ils créent de la chaleur, et cette chaleur accélère le vieillissement de la batterie. Jouez sans chargeur lorsque c'est possible, réduisez le nombre d'images par seconde avant que le téléphone ne chauffe, évitez la recharge rapide pendant les sessions et ne considérez pas le bridage thermique comme un obstacle à vaincre. Il protège le téléphone.
 
-*Meta description : Les jeux sur Android n'endommagent normalement ni le CPU ni le GPU, mais la chaleur répétée causée par les longues sessions, la recharge rapide et une forte luminosité peut accélérer le vieillissement de la batterie.*
+_Meta description : Les jeux sur Android n'endommagent normalement ni le CPU ni le GPU, mais la chaleur répétée causée par les longues sessions, la recharge rapide et une forte luminosité peut accélérer le vieillissement de la batterie._

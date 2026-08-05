@@ -5,9 +5,10 @@ listSummary: "Diagnostic app comparison"
 hub: "device-health"
 sourceNumber: 138
 order: 7
-tags: ["comparison","apps","android","buying-guide","review"]
+tags: ["comparison", "apps", "android", "buying-guide", "review"]
 draft: false
 ---
+
 Most Android diagnostic apps aren't really diagnostic apps. They're battery widgets, spec sheets, ad funnels, or old "phone cleaner" apps with a health score bolted on top.
 
 The better ones are more honest. AccuBattery tracks battery behavior over time. DevCheck and AIDA64 show hardware details. Phone Doctor Plus runs hands-on component tests. runcheck looks at device health across battery, thermal, network, and storage instead of treating one number as the whole story.

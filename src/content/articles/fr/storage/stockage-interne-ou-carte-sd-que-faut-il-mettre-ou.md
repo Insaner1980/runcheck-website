@@ -5,10 +5,11 @@ listSummary: "stockage, android et nettoyage"
 hub: "storage"
 sourceNumber: 86
 order: 8
-tags: ["stockage","android","nettoyage","optimisation","guide"]
+tags: ["stockage", "android", "nettoyage", "optimisation", "guide"]
 locale: "fr"
 draft: false
 ---
+
 La différence compte encore davantage en 2026, car les smartphones Android utilisent des solutions de stockage très variées. Beaucoup de modèles haut de gamme et de milieu de gamme n'ont plus du tout de logement microSD. Les Pixel n'en ont pas, Samsung l'a supprimé de la gamme Galaxy S il y a plusieurs années et certains Galaxy A actuels s'en passent aussi. En parallèle, de nombreux anciens Galaxy A et M, certains Motorola Moto G et des Sony Xperia acceptent toujours les cartes microSD.
 
 Vérifiez donc votre modèle exact. Le nom de la gamme ne suffit pas.

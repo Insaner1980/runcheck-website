@@ -1,13 +1,14 @@
 ---
 title: "How to run a full diagnostic on an Android phone"
-description: "Android doesn't have a single \"run diagnostic\" button that checks everything at once. The tools exist, but they're scattered across Settings menus, hidden dialer codes, manufacturer apps, and system-level commands that most people never see. This guide pulls them together into one walkthrough that covers the widest set of phones, while pointing out where manufacturer, carrier, and Android-version gaps remain."
+description: 'Android doesn''t have a single "run diagnostic" button that checks everything at once. The tools exist, but they''re scattered across Settings menus, hidden dialer codes, manufacturer apps, and system-level commands that most people never see. This guide pulls them together into one walkthrough that covers the widest set of phones, while pointing out where manufacturer, carrier, and Android-version gaps remain.'
 listSummary: "Full Android diagnostic walkthrough"
 hub: "device-health"
 sourceNumber: 7
 order: 3
-tags: ["android","updates","security","software","guide"]
+tags: ["android", "updates", "security", "software", "guide"]
 draft: false
 ---
+
 ## The fastest path: manufacturer diagnostic tools
 
 Many major Android manufacturers ship their own diagnostic utility, either pre-installed or accessible through a hidden code. Start here before installing anything.

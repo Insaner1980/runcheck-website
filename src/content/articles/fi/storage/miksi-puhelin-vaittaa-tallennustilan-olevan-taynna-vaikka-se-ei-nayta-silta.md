@@ -6,10 +6,11 @@ listSummary: "Selvitä, miksi Android ilmoittaa tallennustilan olevan täynnä."
 hub: "storage"
 sourceNumber: 87
 order: 9
-tags: ["tallennustila","android","siivous","optimointi","opas"]
+tags: ["tallennustila", "android", "siivous", "optimointi", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Ärsyttävää, mutta ei harvinaista. Androidin tallennustilavaroitus voi johtua näkyvistä tiedostoista, piilotetusta sovellusdatasta, roskakoreista, epäonnistuneista latauksista, järjestelmäpäivityksen jäänteistä tai tallennustietokannasta, joka ei ole vielä ehtinyt mukaan muutoksiin. Suuren päivityksen jälkeen sekavuus voi jatkua päivän tai kaksi puhelimen viimeistellessä taustatöitä. Android 17 julkaistiin useimmille tuetuille Pixel-laitteille 16.6.2026, ennen valmistajien laajempia omia päivityksiä, joten sama ilmiö voi näkyä myös tämän päivityksen yhteydessä.
 
 Käynnistä puhelin ensin uudelleen. Ihan oikeasti. Se on tylsä korjaus, mutta purkaa jumiutuneita tilapäisiä töitä useammin kuin moni odottaa.

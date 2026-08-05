@@ -5,10 +5,11 @@ listSummary: "hårdvara, skador och reparation"
 hub: "physical-damage"
 sourceNumber: 134
 order: 4
-tags: ["hårdvara","skador","reparation","android","felsökning"]
+tags: ["hårdvara", "skador", "reparation", "android", "felsökning"]
 locale: "sv"
 draft: false
 ---
+
 ---
 
 Äkta skärminbränning är permanent. Om pixlarna har åldrats olika mycket kan ingen app, video eller färgväxlande metod göra de slitna pixlarna unga igen.

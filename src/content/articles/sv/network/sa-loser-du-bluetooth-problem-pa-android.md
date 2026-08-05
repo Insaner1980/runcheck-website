@@ -5,10 +5,11 @@ listSummary: "nätverk, anslutningar och android"
 hub: "network"
 sourceNumber: 98
 order: 9
-tags: ["nätverk","anslutningar","android","felsökning","guide"]
+tags: ["nätverk", "anslutningar", "android", "felsökning", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Du försöker parkoppla hörlurar, en klocka, en högtalare eller bilen, men Android hittar inte enheten. Eller så står det att den är ansluten trots att ingenting fungerar. Bluetooth är sådant. Det kan fungera tyst i flera månader, tills en sparad parkoppling plötsligt blir konstig och allt känns trasigt.
 
 Börja med de enkla kontrollerna innan du gräver i inställningarna. De flesta Bluetooth-fel är inte djupa Android-problem. Oftast handlar det om gamla parkopplingar, låg batterinivå i tillbehöret, avstånd, störningar eller ett tillbehör som egentligen inte är i parkopplingsläge.

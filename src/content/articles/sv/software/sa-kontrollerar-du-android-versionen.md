@@ -5,10 +5,11 @@ listSummary: "Telefonen visar redan vilken Android-version den kör."
 hub: "software"
 sourceNumber: 119
 order: 1
-tags: ["android","uppdateringar","säkerhet","programvara","guide"]
+tags: ["android", "uppdateringar", "säkerhet", "programvara", "guide"]
 locale: "sv"
 draft: false
 ---
+
 På de flesta telefoner öppnar du Inställningar > Om telefonen > Android-version. På Samsung använder du Inställningar > Om telefon > Programvaruinformation. Där visas mer än det stora versionsnumret: även datumet för säkerhetsuppdateringen, datumet för systemuppdateringen via Google Play, versionsnumret och ibland tillverkarens egen programvaruversion.
 
 Det är den delen många missar. Android 17 låter nyare än Android 16, och det är det, men en aktuell säkerhetsuppdatering är minst lika viktig när du bedömer om telefonen fortfarande är säker att använda.

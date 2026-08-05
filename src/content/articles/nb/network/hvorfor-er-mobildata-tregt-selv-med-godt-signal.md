@@ -5,10 +5,11 @@ listSummary: "Metabeskrivelse: Fulle signalstreker garanterer ikke rask mobildat
 hub: "network"
 sourceNumber: 97
 order: 8
-tags: ["ytelse","hastighet","android","optimalisering","feilsøking"]
+tags: ["ytelse", "hastighet", "android", "optimalisering", "feilsøking"]
 locale: "nb"
 draft: false
 ---
+
 Du ser fulle signalstreker, men nettsiden vil fortsatt ikke åpne. Telefonen viser 5G eller LTE. Signalet ser bra ut. Likevel føles mobildata som om det beveger seg gjennom gjørme.
 
 Årsaken er at godt signal bare beviser én ting: Telefonen hører basestasjonen godt nok. Det sier langt mindre om belastningen i nettet, prioriteringen i abonnementet, radioforstyrrelser, operatørens ruting, ekstraarbeidet fra en VPN eller om telefonen bruker riktig nettverkslag.

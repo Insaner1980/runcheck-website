@@ -5,10 +5,11 @@ listSummary: "lataaminen, akku ja android"
 hub: "charging"
 sourceNumber: 49
 order: 13
-tags: ["lataaminen","akku","android","opas","laitteisto"]
+tags: ["lataaminen", "akku", "android", "opas", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 Android-puhelimen turvallisimman laturin kyljessä ei tarvitse olla samaa logoa kuin puhelimessa. Tämä ymmärretään usein väärin.
 
 Tunnetun valmistajan hyvä kolmannen osapuolen USB-C-laturi voi olla yhtä turvallinen ja nopea kuin puhelinvalmistajan oma laturi. Todellinen ongelma on nimetön laturi, jossa on epäilyttäviä merkintöjä, epämääräiset tekniset tiedot ja liian hyvältä kuulostava hinta. Logoa tärkeämpiä ovat standardit, rakenne ja kaapeli.

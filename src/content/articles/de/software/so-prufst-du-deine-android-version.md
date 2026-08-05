@@ -5,10 +5,11 @@ listSummary: "Dein Smartphone zeigt die installierte Android-Version bereits an.
 hub: "software"
 sourceNumber: 119
 order: 1
-tags: ["android","updates","sicherheit","software","ratgeber"]
+tags: ["android", "updates", "sicherheit", "software", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Auf den meisten Geräten öffnest du Einstellungen > Über das Telefon > Android-Version. Bei einem Tablet heißt der mittlere Punkt entsprechend Über das Tablet. Auf Samsung-Geräten findest du die Angaben unter Einstellungen > Telefoninfo > Softwareinformationen. Dort steht mehr als nur die große Betriebssystemnummer: Du siehst auch das Datum des Sicherheitsupdates, das Google Play-Systemupdate, die Build-Nummer und manchmal die eigene Softwareversion des Herstellers.
 
 Genau diesen Teil übersehen viele. Android 17 klingt neuer als Android 16, und das ist es auch. Wenn du beurteilen willst, ob ein Smartphone noch sicher genutzt werden kann, ist ein aktuelles Sicherheitsupdate aber genauso wichtig.

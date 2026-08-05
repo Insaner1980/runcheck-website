@@ -5,10 +5,11 @@ listSummary: "Am schnellsten schaffst du freien Android-Speicher, wenn du zuerst
 hub: "storage"
 sourceNumber: 82
 order: 4
-tags: ["speicher","android","bereinigung","optimierung","ratgeber"]
+tags: ["speicher", "android", "bereinigung", "optimierung", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 ---
 
 Ein einziges 4K-Video von einem Wochenendausflug kann größer sein als Hunderte Fotos. Dasselbe gilt für eine heruntergeladene Netflix-Folge, vergessene Spieldaten oder eine ZIP-Datei, die du vor Monaten einmal geöffnet hast.

@@ -5,10 +5,11 @@ listSummary: "materiel, test et diagnostic"
 hub: "physical-damage"
 sourceNumber: 137
 order: 7
-tags: ["materiel","test","diagnostic","android","guide"]
+tags: ["materiel", "test", "diagnostic", "android", "guide"]
 locale: "fr"
 draft: false
 ---
+
 ---
 
 Que faut-il vraiment utiliser pour nettoyer un téléphone : de l'eau, des lingettes alcoolisées, un spray pour écran ou simplement ce qui se trouve déjà dans la cuisine ?

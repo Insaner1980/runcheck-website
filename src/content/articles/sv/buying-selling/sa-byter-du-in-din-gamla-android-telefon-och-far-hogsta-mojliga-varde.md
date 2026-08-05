@@ -1,14 +1,15 @@
 ---
 title: "Så byter du in din gamla Android-telefon och får högsta möjliga värde"
-description: "Du raderar din gamla Galaxy, lägger den i en låda \"i en vecka\" och sex månader senare är den värd betydligt mindre. Så går många telefonbyten fel. Telefonen går inte sönder. Tidpunkten gör det."
+description: 'Du raderar din gamla Galaxy, lägger den i en låda "i en vecka" och sex månader senare är den värd betydligt mindre. Så går många telefonbyten fel. Telefonen går inte sönder. Tidpunkten gör det.'
 listSummary: "köpguide, android och jämförelse"
 hub: "buying-selling"
 sourceNumber: 144
 order: 8
-tags: ["köpguide","android","jämförelse","värde","guide"]
+tags: ["köpguide", "android", "jämförelse", "värde", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Assurant rapporterade att amerikanska inbytesprogram för mobiltelefoner betalade tillbaka 6,4 miljarder dollar till konsumenter under 2025, 42 % mer än under 2024. Android-enheterna var också äldre när de lämnades in, i genomsnitt 3,96 år. Det är amerikanska siffror, men poängen gäller även här: längre ägartid ger mer användning, samtidigt som du får mindre utrymme för slarv när telefonen väl ska säljas.
 
 ## Sälj innan telefonen blir förra årets modell

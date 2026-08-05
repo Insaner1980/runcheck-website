@@ -5,10 +5,11 @@ listSummary: "Suuri osa verkossa kiertävistä akunsäästöohjeista on muinaisj
 hub: "myths"
 sourceNumber: 145
 order: 1
-tags: ["myytit","faktat","android","akku","myytinmurtaminen"]
+tags: ["myytit", "faktat", "android", "akku", "myytinmurtaminen"]
 locale: "fi"
 draft: false
 ---
+
 Tämä ei tarkoita, että akun hoitaminen olisi turhaa. Huomio vain kannattaa suunnata vanhojen rituaalien sijasta oikeisiin asioihin.
 
 ## Myytti: puhelin pitää käyttää tyhjäksi ennen lataamista

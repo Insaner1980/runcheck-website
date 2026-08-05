@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 15
 order: 5
 subgroup: "Health"
-tags: ["bateria","estado","diagnostico","android","guia"]
+tags: ["bateria", "estado", "diagnostico", "android", "guia"]
 locale: "es"
 draft: false
 ---
+
 La mayoría de los consejos sobre calibración proceden de baterías antiguas y de mitos repetidos durante años en foros. En un móvil Android moderno, calibrar no mejora la autonomía. No repara una batería desgastada ni convierte un 82 % de estado en un 95 %.
 
 Lo que sí puede hacer en algunos casos es corregir una lectura equivocada del porcentaje.

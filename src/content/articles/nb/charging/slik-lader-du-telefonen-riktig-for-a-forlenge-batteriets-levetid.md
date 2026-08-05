@@ -5,10 +5,11 @@ listSummary: "Ladevanene påvirker hvor lenge telefonbatteriet holder seg i god 
 hub: "charging"
 sourceNumber: 38
 order: 2
-tags: ["lading","batteri","android","guide","maskinvare"]
+tags: ["lading", "batteri", "android", "guide", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 Den beste ladevanen er kjedelig: Hold telefonen kjølig, unngå at den blir liggende på 100 % i timevis, og ikke tøm den helt hver dag. Det er alt. Resten er detaljer.
 
 Det betyr ikke at du må passe på batteriprosenten hele tiden eller trekke ut kabelen i samme sekund som den når 80 %. Telefonen er et verktøy, ikke en laboratorieprøve. Men litiumionbatterier eldes raskere under noen få forutsigbare forhold, og laderutinene dine kan enten øke belastningen eller holde den under kontroll.

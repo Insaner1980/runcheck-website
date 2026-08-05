@@ -5,10 +5,11 @@ listSummary: "Se il telefono Android si scalda mentre non lo usi."
 hub: "thermal"
 sourceNumber: 57
 order: 5
-tags: ["batteria","stato","diagnostica","android","guida"]
+tags: ["batteria", "stato", "diagnostica", "android", "guida"]
 locale: "it"
 draft: false
 ---
+
 Un telefono bloccato e appoggiato con lo schermo verso l'alto su una scrivania non dovrebbe sembrare appena uscito da una sessione di gioco in tasca. Un po' di tepore è normale. Se invece è davvero caldo mentre non lo usi, quasi sempre significa che qualcosa sta ancora lavorando.
 
 ## Inizia dai controlli più semplici

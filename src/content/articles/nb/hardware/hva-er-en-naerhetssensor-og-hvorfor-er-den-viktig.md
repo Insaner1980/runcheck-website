@@ -5,10 +5,11 @@ listSummary: "diagnostikk, sensorer og android"
 hub: "hardware"
 sourceNumber: 117
 order: 14
-tags: ["diagnostikk","sensorer","android","maskinvare","guide"]
+tags: ["diagnostikk", "sensorer", "android", "maskinvare", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Midt i en samtale våkner skjermen mot ansiktet ditt, og kinnet åpner talltastaturet. Da er det ofte denne lille sensoren som svikter i den ene oppgaven ingen legger merke til før den slutter å virke.
 
 Sensoren forteller telefonen når noe er nær frontglasset. Under en samtale er dette «noe» vanligvis ansiktet ditt. Android slår deretter av skjermen og ignorerer berøringer, slik at øret ikke blir et tilbehør til berøringsskjermen.

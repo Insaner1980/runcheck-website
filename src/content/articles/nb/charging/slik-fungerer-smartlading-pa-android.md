@@ -5,10 +5,11 @@ listSummary: "batteri, helse og diagnostikk"
 hub: "charging"
 sourceNumber: 51
 order: 15
-tags: ["batteri","helse","diagnostikk","android","guide"]
+tags: ["batteri", "helse", "diagnostikk", "android", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Hvorfor stopper telefonen noen ganger på 80 %, blir stående der i flere timer og fullfører ladingen rett før du våkner?
 
 Det er smartlading. Dette er ikke én Android-funksjon med én universell bryter. Det er en samling verktøy fra ulike produsenter som prøver å løse det samme batteriproblemet: for mye tid på et høyt ladenivå, særlig når telefonen er varm.

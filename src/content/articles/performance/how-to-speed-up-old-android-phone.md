@@ -5,9 +5,10 @@ listSummary: "Old phone speed fixes"
 hub: "performance"
 sourceNumber: 65
 order: 2
-tags: ["performance","speed","android","optimization","troubleshooting"]
+tags: ["performance", "speed", "android", "optimization", "troubleshooting"]
 draft: false
 ---
+
 So the fix is practical. Remove pressure from the phone before you assume the hardware is done.
 
 ## Free storage first

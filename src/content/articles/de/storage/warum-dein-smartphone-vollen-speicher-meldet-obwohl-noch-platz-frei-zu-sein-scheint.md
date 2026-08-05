@@ -5,10 +5,11 @@ listSummary: "Finde heraus, warum Android vollen Speicher meldet, obwohl noch Pl
 hub: "storage"
 sourceNumber: 87
 order: 9
-tags: ["speicher","android","bereinigung","optimierung","ratgeber"]
+tags: ["speicher", "android", "bereinigung", "optimierung", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Nervig, aber nicht selten. Android kann Speicherwarnungen wegen sichtbarer Dateien, versteckter App-Daten, Papierkörben, fehlgeschlagener Downloads, Resten von Systemupdates oder einer noch nicht aktualisierten Speicherdatenbank anzeigen. Nach einem größeren Update kann diese Verwirrung ein oder zwei Tage lang auftreten, während das Gerät Hintergrundarbeiten abschließt. Das galt auch nach dem Beginn der Android-17-Verteilung an unterstützte Pixel-Geräte im Juni 2026, bevor weitere Hersteller ihre eigenen Updates ausrollten.
 
 Starte das Smartphone zuerst neu. Wirklich. Das ist die langweilige Lösung, beseitigt festhängende temporäre Prozesse aber häufiger, als viele erwarten.

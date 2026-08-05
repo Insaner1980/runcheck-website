@@ -5,10 +5,18 @@ listSummary: "Prueba el modo seguro antes de hacer un restablecimiento de fábri
 hub: "software"
 sourceNumber: 130
 order: 12
-tags: ["rendimiento","velocidad","android","optimizacion","solucion-de-problemas"]
+tags:
+  [
+    "rendimiento",
+    "velocidad",
+    "android",
+    "optimizacion",
+    "solucion-de-problemas",
+  ]
 locale: "es"
 draft: false
 ---
+
 El consejo parece demasiado sencillo, pero es la respuesta correcta para la mayoría de los problemas de Android. El modo seguro es rápido, reversible y no borra nada. Un restablecimiento de fábrica elimina el contenido del móvil y puede convertir un problema de cinco minutos en una tarde entera reinstalando aplicaciones, recuperando cuentas y buscando ajustes que habías olvidado cambiar.
 
 Primero el modo seguro. El restablecimiento, al final.

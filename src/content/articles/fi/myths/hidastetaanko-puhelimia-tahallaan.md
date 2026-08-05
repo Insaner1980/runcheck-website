@@ -5,10 +5,11 @@ listSummary: "suorituskyky, nopeus ja android"
 hub: "myths"
 sourceNumber: 150
 order: 6
-tags: ["suorituskyky","nopeus","android","optimointi","vianetsintä"]
+tags: ["suorituskyky", "nopeus", "android", "optimointi", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+
 Puhelin voi aivan hyvin hidastua ajan myötä. Epämukava tosiasia on, että kaksi asiaa voi pitää paikkansa samaan aikaan: valmistajat ovat tehneet vanhoja laitteita heikentäviä ratkaisuja, mutta useimmat hidastumiset johtuvat silti arkisista teknisistä syistä.
 
 Suunniteltu vanheneminen on siis osittain todellinen ilmiö. Jokainen tahmaava puhelin ei kuitenkaan todista salaisesta sammutuskytkimestä.

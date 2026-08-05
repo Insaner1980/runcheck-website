@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 33
 order: 23
 subgroup: "Drain"
-tags: ["android","opdateringer","sikkerhed","software","guide"]
+tags: ["android", "opdateringer", "sikkerhed", "software", "guide"]
 locale: "da"
 draft: false
 ---
+
 En stor del af Androids batteriforbrug sker, mens du ikke laver noget særligt. Skærmen er slukket, telefonen ligger på bordet, og batteriprocenten falder alligevel, fordi apps, radioer, sensorer og kontosynkronisering bliver ved med at vække enheden.
 
 Android 17 begyndte at blive udrullet til de fleste understøttede Pixel-enheder i juni 2026. Pixel-telefoner fik den nye Android-version først, mens Samsung, Xiaomi, OnePlus, Motorola og andre producenter udgiver deres egne Android 17-versioner efter deres egne tidsplaner. Rådene nedenfor gælder stadig, men den præcise sti kan ligge et niveau højere eller lavere afhængigt af telefonen.

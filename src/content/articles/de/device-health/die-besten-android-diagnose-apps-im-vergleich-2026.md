@@ -5,10 +5,11 @@ listSummary: "Vergleiche Diagnose-Apps danach, was sie messen und für welche Pr
 hub: "device-health"
 sourceNumber: 138
 order: 7
-tags: ["vergleich","apps","android","kaufratgeber","test"]
+tags: ["vergleich", "apps", "android", "kaufratgeber", "test"]
 locale: "de"
 draft: false
 ---
+
 Die meisten Android-Diagnose-Apps sind keine echten Diagnose-Apps. Oft sind es Akku-Widgets, technische Datenblätter, Werbeschleusen oder alte "Phone Cleaner", denen nachträglich ein Zustandswert verpasst wurde.
 
 Die besseren Apps sind ehrlicher. AccuBattery verfolgt das Akkuverhalten über längere Zeit. DevCheck und AIDA64 zeigen Hardwaredetails. Phone Doctor Plus führt dich durch praktische Komponententests. runcheck betrachtet den Gerätezustand über Akku, Temperatur, Netzwerk und Speicher hinweg, statt eine einzelne Zahl zur ganzen Wahrheit zu erklären.

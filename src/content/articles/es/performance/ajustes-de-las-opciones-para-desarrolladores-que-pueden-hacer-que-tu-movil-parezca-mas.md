@@ -5,10 +5,18 @@ listSummary: "rendimiento, velocidad y android"
 hub: "performance"
 sourceNumber: 69
 order: 6
-tags: ["rendimiento","velocidad","android","optimizacion","solucion-de-problemas"]
+tags:
+  [
+    "rendimiento",
+    "velocidad",
+    "android",
+    "optimizacion",
+    "solucion-de-problemas",
+  ]
 locale: "es"
 draft: false
 ---
+
 Las Opciones para desarrolladores no son un modo turbo secreto. La mayor parte del menú existe para probar aplicaciones, depurar errores y mostrar diagnósticos visuales. Unos pocos ajustes pueden hacer que un móvil Android parezca más rápido. Varios no aportan nada útil en un uso normal. Algunos pueden empeorarlo.
 
 La parte útil es pequeña, y eso es una buena noticia. No necesitas tocar veinte interruptores. Para la mayoría, la mejor configuración consiste en poner las escalas de animación a 0,5x, quizá activar la suspensión de aplicaciones en caché si el móvil ofrece la opción y dejar todo lo demás como está.

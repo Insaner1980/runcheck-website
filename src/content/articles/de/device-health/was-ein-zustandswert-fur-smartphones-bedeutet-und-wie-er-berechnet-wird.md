@@ -5,10 +5,11 @@ listSummary: "temperatur, warme und android"
 hub: "device-health"
 sourceNumber: 10
 order: 6
-tags: ["temperatur","warme","android","fehlerbehebung","hardware"]
+tags: ["temperatur", "warme", "android", "fehlerbehebung", "hardware"]
 locale: "de"
 draft: false
 ---
+
 Android selbst definiert keinen einheitlichen Zustandswert für Smartphones. Es gibt keine herstellerübergreifende Android-Seite, auf der "82/100" bei jeder Marke dasselbe bedeutet. Samsungs Gerätewartung zeigt einen eigenen Optimierungswert bis 100, und **Gerätezustand & Support** auf Pixel-Smartphones zeigt einen allgemeinen Gerätestatus sowie den Status einzelner Funktionen. Das sind jedoch Werkzeuge der Hersteller, kein gemeinsamer Android-Standard. Diagnose-Apps verwenden eigene Berechnungsmodelle. Welche Messwerte darin stecken und wo ihre Grenzen liegen, ist wichtiger als die einzelne Zahl.
 
 ## Was ein Zustandswert misst

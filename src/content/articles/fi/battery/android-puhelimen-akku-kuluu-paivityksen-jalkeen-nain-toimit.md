@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 27
 order: 17
 subgroup: "Virrankulutus"
-tags: ["akku","virrankulutus","vianetsintä","android","suorituskyky"]
+tags: ["akku", "virrankulutus", "vianetsintä", "android", "suorituskyky"]
 locale: "fi"
 draft: false
 ---
+
 Se on päivitysten jälkeen tavallista. Tilanteen pitäisi myös rauhoittua.
 
 ## Huomio Android 17:stä Pixelin omistajille

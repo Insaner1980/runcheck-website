@@ -5,9 +5,10 @@ listSummary: "Freeze causes and fixes"
 hub: "performance"
 sourceNumber: 73
 order: 10
-tags: ["performance","speed","android","optimization","troubleshooting"]
+tags: ["performance", "speed", "android", "optimization", "troubleshooting"]
 draft: false
 ---
+
 ---
 
 You tap the screen and nothing moves. The app is still there, the clock may be stuck, and even the back gesture does nothing. That's a frozen phone.

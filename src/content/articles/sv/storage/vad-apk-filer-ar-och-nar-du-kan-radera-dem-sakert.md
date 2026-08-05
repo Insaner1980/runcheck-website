@@ -5,10 +5,11 @@ listSummary: "Har du hittat en fil som slutar på .apk i Hämtade filer och inte
 hub: "storage"
 sourceNumber: 84
 order: 6
-tags: ["lagring","android","rensning","optimering","guide"]
+tags: ["lagring", "android", "rensning", "optimering", "guide"]
 locale: "sv"
 draft: false
 ---
+
 APK står för Android Package Kit. Det är ett av de paketformat som Android använder för att installera appar. Det viktiga vid rensning är detta: APK-filen som du ser i Hämtade filer är inte själva appen som körs på telefonen. Den är installationspaketet.
 
 När appen väl är installerad kan du radera den kvarlämnade APK-filen utan att avinstallera appen eller ta bort dess inställningar.

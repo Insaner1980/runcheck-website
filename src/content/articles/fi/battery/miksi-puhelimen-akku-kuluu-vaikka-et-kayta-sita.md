@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 26
 order: 16
 subgroup: "Virrankulutus"
-tags: ["akku","virrankulutus","vianetsintä","android","suorituskyky"]
+tags: ["akku", "virrankulutus", "vianetsintä", "android", "suorituskyky"]
 locale: "fi"
 draft: false
 ---
+
 Se on normaalia. Liiallinen valmiustilan virrankulutus ei ole.
 
 ## Miltä normaali valmiustilan kulutus näyttää

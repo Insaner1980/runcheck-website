@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 33
 order: 23
 subgroup: "Drain"
-tags: ["android","actualizaciones","seguridad","software","guia"]
+tags: ["android", "actualizaciones", "seguridad", "software", "guia"]
 locale: "es"
 draft: false
 ---
+
 Una buena parte del consumo de batería en Android ocurre cuando no estás haciendo nada interesante. La pantalla está apagada, el móvil descansa sobre la mesa y, aun así, la carga baja porque las aplicaciones, las radios, los sensores y la sincronización de cuentas siguen activando el dispositivo.
 
 Android 17 empezó a llegar a la mayoría de los Pixel compatibles en junio de 2026, y los nombres de algunos menús están en una fase un poco confusa. Los Pixel reciben primero la nueva versión de Android, mientras que Samsung, Xiaomi, OnePlus, Motorola y otros fabricantes distribuyen sus propias versiones de Android 17 según sus calendarios. Las ideas siguientes siguen siendo válidas, pero la ruta exacta puede cambiar un nivel según el móvil.

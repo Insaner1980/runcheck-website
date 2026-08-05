@@ -5,10 +5,11 @@ listSummary: "materiel, test et diagnostic"
 hub: "hardware"
 sourceNumber: 105
 order: 2
-tags: ["materiel","test","diagnostic","android","guide"]
+tags: ["materiel", "test", "diagnostic", "android", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Les téléphones Android utilisent un mélange de capteurs de mouvement, d'environnement, de position et de proximité. Certains sont des composants physiques. D'autres sont des capteurs « virtuels », dont les valeurs sont calculées à partir de plusieurs puces. Lorsqu'une source devient instable, obstruée ou désactivée, le symptôme peut apparaître à un endroit totalement différent.
 
 Commencez simplement. Les premiers tests ne nécessitent ni root, ni ADB, ni matériel de laboratoire.

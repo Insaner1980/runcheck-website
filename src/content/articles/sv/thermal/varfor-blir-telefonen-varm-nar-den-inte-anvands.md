@@ -5,10 +5,11 @@ listSummary: "batteri, hälsa och diagnostik"
 hub: "thermal"
 sourceNumber: 57
 order: 5
-tags: ["batteri","hälsa","diagnostik","android","guide"]
+tags: ["batteri", "hälsa", "diagnostik", "android", "guide"]
 locale: "sv"
 draft: false
 ---
+
 ## Börja med de enkla kontrollerna
 
 Starta om telefonen först. Det är ett tråkigt råd eftersom det fungerar. En bakgrundstjänst som har fastnat kan hålla CPU:n vaken, och en omstart rensar ofta problemet utan att du behöver leka detektiv i en halvtimme.
@@ -109,4 +110,4 @@ Trådlös laddning räknas som användning. En enhet på en laddplatta tar emot 
 
 En vilande telefon blir varm för att den egentligen inte vilar, eller för att batteriet eller laddningsutrustningen har ett problem. Börja med omstart, batteriförbrukning, signal, laddning och säkert läge. Om inget av det förklarar värmen är batterihälsa och reparationsdiagnostik nästa steg.
 
-*Metabeskrivning: Om din Android-telefon blir varm när den inte används beror det oftast på en bakgrundsapp, svag signal, laddningsvärme, en nylig uppdatering eller batterislitage. Så här felsöker du säkert.*
+_Metabeskrivning: Om din Android-telefon blir varm när den inte används beror det oftast på en bakgrundsapp, svag signal, laddningsvärme, en nylig uppdatering eller batterislitage. Så här felsöker du säkert._

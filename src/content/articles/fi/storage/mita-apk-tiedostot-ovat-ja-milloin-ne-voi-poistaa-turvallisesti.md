@@ -5,10 +5,11 @@ listSummary: "Löytyikö Lataukset-kansiosta .apk-päätteinen tiedosto, josta e
 hub: "storage"
 sourceNumber: 84
 order: 6
-tags: ["tallennustila","android","siivous","optimointi","opas"]
+tags: ["tallennustila", "android", "siivous", "optimointi", "opas"]
 locale: "fi"
 draft: false
 ---
+
 APK tulee sanoista Android Package Kit. Se on yksi Androidin käyttämistä sovelluspakettimuodoista. Siivouksen kannalta olennaista on tämä: Lataukset-kansiossa näkyvä APK-tiedosto ei ole puhelimessa toimiva sovellus. Se on asennuspaketti.
 
 Kun sovellus on asennettu, jäljelle jääneen APK-tiedoston poistaminen ei poista sovelluksen asennusta eikä sen asetuksia.

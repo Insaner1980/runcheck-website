@@ -5,9 +5,10 @@ listSummary: "Cool-down steps for overheating"
 hub: "thermal"
 sourceNumber: 54
 order: 2
-tags: ["charging","battery","android","guide","hardware"]
+tags: ["charging", "battery", "android", "guide", "hardware"]
 draft: false
 ---
+
 You're holding the phone, the screen has dimmed, charging has slowed or stopped, and the back feels hotter than it should. Don't try to be clever. Cool it down the boring way.
 
 ## Do this first

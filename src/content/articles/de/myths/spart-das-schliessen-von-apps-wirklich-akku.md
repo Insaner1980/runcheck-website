@@ -5,10 +5,11 @@ listSummary: "mythen, fakten und android"
 hub: "myths"
 sourceNumber: 146
 order: 2
-tags: ["mythen","fakten","android","akku","mythencheck"]
+tags: ["mythen", "fakten", "android", "akku", "mythencheck"]
 locale: "de"
 draft: false
 ---
+
 Akku sparst du damit kaum.
 
 ## Die Antwort lautet weiterhin nein

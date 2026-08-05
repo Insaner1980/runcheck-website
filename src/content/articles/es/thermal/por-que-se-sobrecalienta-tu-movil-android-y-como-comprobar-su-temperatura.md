@@ -6,11 +6,12 @@ listSummary: "Comprueba la temperatura e identifica por qué se sobrecalienta el
 hub: "thermal"
 sourceNumber: 53
 order: 1
-tags: ["temperatura","termico","android","solucion-de-problemas","hardware"]
+tags: ["temperatura", "termico", "android", "solucion-de-problemas", "hardware"]
 locale: "es"
 draft: false
 ---
-*Un móvil Android puede calentarse por motivos triviales, por problemas serios o sin una causa evidente. La clave está en saber qué cifra estás mirando y si realmente significa algo.*
+
+_Un móvil Android puede calentarse por motivos triviales, por problemas serios o sin una causa evidente. La clave está en saber qué cifra estás mirando y si realmente significa algo._
 
 ## Comprueba primero la temperatura
 

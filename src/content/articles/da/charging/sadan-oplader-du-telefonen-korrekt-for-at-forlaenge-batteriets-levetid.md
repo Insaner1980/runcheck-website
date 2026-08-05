@@ -5,10 +5,11 @@ listSummary: "Dine opladningsvaner påvirker, hvor længe telefonens batteri hol
 hub: "charging"
 sourceNumber: 38
 order: 2
-tags: ["opladning","batteri","android","guide","hardware"]
+tags: ["opladning", "batteri", "android", "guide", "hardware"]
 locale: "da"
 draft: false
 ---
+
 Den bedste opladningsvane er kedelig: Hold telefonen kølig, undgå at lade den stå på 100 % i timevis, og kør den ikke helt tom hver dag. Det er det. Resten er detaljer.
 
 Det betyder ikke, at du skal overvåge batteriprocenten eller tage stikket ud i samme sekund, telefonen rammer 80 %. En telefon er et værktøj, ikke en laboratorieprøve. Men litium-ion-batterier ældes hurtigere under nogle få forudsigelige forhold, og din opladningsrutine kan enten øge belastningen eller holde den under kontrol.

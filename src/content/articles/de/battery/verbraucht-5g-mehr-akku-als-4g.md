@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 28
 order: 18
 subgroup: "Drain"
-tags: ["akku","akkuverbrauch","fehlerbehebung","android","leistung"]
+tags: ["akku", "akkuverbrauch", "fehlerbehebung", "android", "leistung"]
 locale: "de"
 draft: false
 ---
+
 Ja, 5G kann den Akku schneller leeren als 4G LTE. Es ist nur nicht mehr das Drama, das es bei der ersten Generation von 5G-Smartphones war.
 
 Eine Analyse von Ookla Speedtest Intelligence ergab, dass 5G je nach SoC des Smartphones etwa 6 bis 11 % mehr Akku verbrauchte als LTE. Das ist ein echter Unterschied. Bei einem aktuellen Smartphone mit ordentlichem Empfang entscheidet er aber meist nicht darüber, ob du durch den Tag kommst oder mit leerem Akku dastehst. Bei einem älteren 5G-Gerät oder an Orten, an denen das Smartphone ständig zwischen LTE und 5G wechselt, kann der Mehrverbrauch weiterhin deutlich auffallen.

@@ -6,9 +6,10 @@ hub: "battery"
 sourceNumber: 22
 order: 12
 subgroup: "Drain"
-tags: ["battery","calibration","troubleshooting","android","guide"]
+tags: ["battery", "calibration", "troubleshooting", "android", "guide"]
 draft: false
 ---
+
 It is, in a way. The number on screen is an estimate, and old batteries are harder to estimate.
 
 ## The first thing to check

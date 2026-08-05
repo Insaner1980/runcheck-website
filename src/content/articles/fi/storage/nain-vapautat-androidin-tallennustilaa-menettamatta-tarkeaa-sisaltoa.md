@@ -5,10 +5,11 @@ listSummary: "tallennustila, android ja siivous"
 hub: "storage"
 sourceNumber: 79
 order: 1
-tags: ["tallennustila","android","siivous","optimointi","opas"]
+tags: ["tallennustila", "android", "siivous", "optimointi", "opas"]
 locale: "fi"
 draft: false
 ---
+
 ---
 
 Yrität ottaa kuvan, asentaa päivityksen tai ladata tiedoston, ja Android ilmoittaa, ettei tilaa ole tarpeeksi. Paniikkiratkaisu on kuvien poistaminen. Älä aloita siitä.

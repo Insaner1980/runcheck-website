@@ -5,10 +5,12 @@ listSummary: "La temperatura del telefono dipende dal calore ambientale, dalla b
 hub: "thermal"
 sourceNumber: 59
 order: 7
-tags: ["temperatura","termico","android","risoluzione-dei-problemi","hardware"]
+tags:
+  ["temperatura", "termico", "android", "risoluzione-dei-problemi", "hardware"]
 locale: "it"
 draft: false
 ---
+
 Quanto caldo è troppo caldo? La risposta irritante è che dipende dalla temperatura che stai misurando.
 
 La temperatura dell'aria attorno al telefono è un dato. Quella della superficie esterna è un altro. Il sensore della batteria ne mostra un altro ancora, ed è quello che conta di più per l'invecchiamento. Il telefono può sembrare appena tiepido in mano mentre la batteria o il SoC sono già abbastanza caldi da costringere Android a rallentare.

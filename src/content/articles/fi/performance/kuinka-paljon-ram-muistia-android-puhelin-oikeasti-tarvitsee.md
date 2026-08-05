@@ -5,10 +5,11 @@ listSummary: "Kuinka paljon RAM-muistia Android-puhelimeen riittää vuonna 2026
 hub: "performance"
 sourceNumber: 66
 order: 3
-tags: ["suorituskyky","nopeus","android","optimointi","vianetsintä"]
+tags: ["suorituskyky", "nopeus", "android", "optimointi", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+
 Tämä ei tarkoita, että jokainen 6 Gt:n puhelin olisi kelvoton tai että jokainen 16 Gt:n malli olisi hintansa arvoinen. RAM-suositukset ovat hankalia, koska Android-versio, valmistajan käyttöliittymä, sovellustottumukset, tallennustilan nopeus, akun kunto ja taustarajoitukset vaikuttavat kaikki lopputulokseen.
 
 Käytännöllinen ostosuositus on silti selvä: 8 Gt tavalliseen käyttöön ja 12 Gt silloin, kun puhelimen halutaan säilyvän mukavana pidempään.

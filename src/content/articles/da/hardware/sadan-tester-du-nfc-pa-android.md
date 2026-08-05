@@ -5,10 +5,11 @@ listSummary: "diagnostik, sensorer og android"
 hub: "hardware"
 sourceNumber: 115
 order: 12
-tags: ["diagnostik","sensorer","android","hardware","guide"]
+tags: ["diagnostik", "sensorer", "android", "hardware", "guide"]
 locale: "da"
 draft: false
 ---
+
 Du holder telefonen hen til en betalingsterminal, og der sker ingenting. Nu har du to problemer: Betalingen gik ikke igennem, og du ved ikke, om fejlen ligger i NFC, Google Wallet, kortet, coveret eller terminalen.
 
 Begynd i mindre skala. NFC er let at teste, når du adskiller læsning af hardware fra betalinger.

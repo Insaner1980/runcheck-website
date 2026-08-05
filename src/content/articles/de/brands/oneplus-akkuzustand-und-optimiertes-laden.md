@@ -5,10 +5,11 @@ listSummary: "akku, zustand und diagnose"
 hub: "brands"
 sourceNumber: 156
 order: 4
-tags: ["akku","zustand","diagnose","android","ratgeber"]
+tags: ["akku", "zustand", "diagnose", "android", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Schnelles Laden ist nicht automatisch schädlich. Der eigentliche Gegner ist Hitze. Wenn ein OnePlus mit 80 W oder 100 W lädt, während du spielst, navigierst oder streamst, kann der Akku stark belastet werden, sofern die Software die Temperatur nicht gut im Griff hat.
 
 Noch ein Hinweis zum Zeitpunkt: Android 17 wurde am 16. Juni 2026 zunächst für die meisten unterstützten Pixel-Geräte veröffentlicht. OnePlus verteilt Android-17-basierte OxygenOS-Updates nach dem eigenen Zeitplan. Akkufunktionen können sich weiterhin je nach Modell, Region und OTA-Build unterscheiden. Verlass dich deshalb nicht darauf, dass eine Einstellung vorhanden ist, bevor du sie auf deinem eigenen Gerät siehst.

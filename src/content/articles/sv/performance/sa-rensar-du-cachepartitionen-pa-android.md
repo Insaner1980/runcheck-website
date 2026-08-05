@@ -5,10 +5,11 @@ listSummary: "prestanda, hastighet och android"
 hub: "performance"
 sourceNumber: 71
 order: 8
-tags: ["prestanda","hastighet","android","optimering","felsökning"]
+tags: ["prestanda", "hastighet", "android", "optimering", "felsökning"]
 locale: "sv"
 draft: false
 ---
+
 Du tittar på Android Recovery, använder volymknapparna som om det vore 2012 igen och letar efter **Wipe cache partition**. På vissa telefoner finns alternativet kvar. På andra är det borta. På en del har det aldrig visats över huvud taget.
 
 Det är därför ämnet är rörigare än många guider vill medge. Att rensa cachepartitionen kan fortfarande vara användbart på vissa Samsung-telefoner och äldre Android-enheter, men det är inte längre en allmän Android-funktion.

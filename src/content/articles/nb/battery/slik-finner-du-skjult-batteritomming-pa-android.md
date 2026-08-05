@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 25
 order: 15
 subgroup: "Drain"
-tags: ["batteri","strømforbruk","feilsøking","android","ytelse"]
+tags: ["batteri", "strømforbruk", "feilsøking", "android", "ytelse"]
 locale: "nb"
 draft: false
 ---
+
 Skjult batteritømming handler først og fremst om å finne ut hva som holder telefonen våken når skjermen er av.
 
 ## Begynn med den kjedelige skjermen

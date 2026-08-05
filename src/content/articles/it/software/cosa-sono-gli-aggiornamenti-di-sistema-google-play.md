@@ -5,10 +5,11 @@ listSummary: "Apri la schermata degli aggiornamenti Android e probabilmente vedr
 hub: "software"
 sourceNumber: 124
 order: 6
-tags: ["android","aggiornamenti","sicurezza","software","guida"]
+tags: ["android", "aggiornamenti", "sicurezza", "software", "guida"]
 locale: "it"
 draft: false
 ---
+
 Sembra un errore. Di solito non lo è.
 
 Sono due canali di aggiornamento distinti. Il livello patch di sicurezza arriva tramite il produttore del telefono, per esempio Google, Samsung, Xiaomi, OnePlus o Motorola. L'altra data proviene dal sistema modulare di aggiornamento Android di Google, sui dispositivi che lo supportano.

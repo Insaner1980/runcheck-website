@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 28
 order: 18
 subgroup: "Virrankulutus"
-tags: ["akku","virrankulutus","vianetsintä","android","suorituskyky"]
+tags: ["akku", "virrankulutus", "vianetsintä", "android", "suorituskyky"]
 locale: "fi"
 draft: false
 ---
+
 Kyllä, 5G voi kuluttaa akkua nopeammin kuin 4G LTE. Tilanne ei silti ole enää yhtä paha kuin ensimmäisissä 5G-puhelimissa.
 
 Ooklan Speedtest Intelligence -analyysissä 5G kulutti puhelimen SoC-piiristä riippuen noin 6-11 % enemmän akkua kuin LTE. Ero on todellinen. Uudehkossa puhelimessa ja hyvällä signaalilla se ei kuitenkaan yleensä ratkaise sitä, selviääkö puhelin päivästä vai sammuuko se kesken kaiken. Vanhemmassa 5G-puhelimessa tai alueella, jossa laite hyppii jatkuvasti LTE:n ja 5G:n välillä, vaikutus voi silti näkyä selvästi.

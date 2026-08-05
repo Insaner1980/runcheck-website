@@ -5,9 +5,10 @@ listSummary: "Planned slowdown myth"
 hub: "myths"
 sourceNumber: 150
 order: 6
-tags: ["performance","speed","android","optimization","troubleshooting"]
+tags: ["performance", "speed", "android", "optimization", "troubleshooting"]
 draft: false
 ---
+
 Your phone can absolutely get slower over time. The uncomfortable part is that more than one thing can be true at once: manufacturers have made choices that hurt older devices, and most slowdowns still come from boring technical causes.
 
 So yes, planned obsolescence is partly real. No, every laggy phone is not proof of a secret kill switch.

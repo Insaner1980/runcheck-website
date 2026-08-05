@@ -5,10 +5,18 @@ listSummary: "rendimiento, velocidad y android"
 hub: "device-health"
 sourceNumber: 9
 order: 5
-tags: ["rendimiento","velocidad","android","optimizacion","solucion-de-problemas"]
+tags:
+  [
+    "rendimiento",
+    "velocidad",
+    "android",
+    "optimizacion",
+    "solucion-de-problemas",
+  ]
 locale: "es"
 draft: false
 ---
+
 Una buena copia no tiene por qué ser complicada. Solo necesitas saber qué guarda Android, qué deja fuera y qué aplicaciones requieren su propio sistema de copia antes de tocar nada destructivo.
 
 ## Qué guarda Google automáticamente

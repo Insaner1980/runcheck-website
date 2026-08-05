@@ -5,10 +5,11 @@ listSummary: "laitteisto, vauriot ja korjaaminen"
 hub: "physical-damage"
 sourceNumber: 133
 order: 3
-tags: ["laitteisto","vauriot","korjaaminen","android","vianetsintä"]
+tags: ["laitteisto", "vauriot", "korjaaminen", "android", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+
 ---
 
 Nostat puhelimen tiskialtaasta, näyttö on yhä päällä ja ensimmäinen ajatuksesi on painaa kaikkia painikkeita nähdäksesi, selvisikö se. Älä tee niin. Paras ratkaisu sillä hetkellä on tylsä: katkaise virta, auta nestettä poistumaan aukoista ja anna puhelimelle aikaa.

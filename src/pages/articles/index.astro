@@ -1,10 +1,14 @@
 ---
-import { getCollection } from 'astro:content';
-import ArticleIndexPage from '../../components/ArticleIndexPage.astro';
-import { ARTICLE_HUBS } from '../../data/articleTaxonomy.mjs';
+import { getCollection } from "astro:content";
+import ArticleIndexPage from "../../components/ArticleIndexPage.astro";
+import { ARTICLE_HUBS } from "../../data/articleTaxonomy.mjs";
 
-const articles = (await getCollection('articles', ({ data }) => !data.draft && data.locale === 'en'))
-  .sort((a, b) => a.data.sourceNumber - b.data.sourceNumber);
+const articles = (
+  await getCollection(
+    "articles",
+    ({ data }) => !data.draft && data.locale === "en",
+  )
+).sort((a, b) => a.data.sourceNumber - b.data.sourceNumber);
 ---
 
 <ArticleIndexPage locale="en" articles={articles} hubs={ARTICLE_HUBS} />

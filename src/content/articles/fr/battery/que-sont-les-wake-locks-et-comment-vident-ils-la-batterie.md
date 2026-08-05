@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 35
 order: 25
 subgroup: "Drain"
-tags: ["batterie","consommation","depannage","android","performances"]
+tags: ["batterie", "consommation", "depannage", "android", "performances"]
 locale: "fr"
 draft: false
 ---
+
 Vous dormez. L'écran du téléphone est éteint. Rien ne joue, aucun téléchargement n'est en cours, et la batterie perd tout de même 18 % pendant la nuit.
 
 C'est le genre de décharge que peuvent provoquer les wake locks. Une demande de wake lock maintient une partie de l'appareil éveillée alors qu'Android la laisserait normalement s'endormir. Le problème le plus courant est le wake lock partiel, qui maintient le processeur en activité alors que l'écran reste éteint.

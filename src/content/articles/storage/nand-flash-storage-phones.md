@@ -5,9 +5,10 @@ listSummary: "NAND flash slowdown basics"
 hub: "storage"
 sourceNumber: 89
 order: 11
-tags: ["performance","speed","android","optimization","troubleshooting"]
+tags: ["performance", "speed", "android", "optimization", "troubleshooting"]
 draft: false
 ---
+
 Your phone can have a fast SoC, plenty of RAM, and still feel sticky when storage is almost full. Apps pause before opening. The camera takes an extra beat to save a photo. Updates take longer than they should.
 
 That isn't always the processor's fault. Sometimes the storage is the bottleneck.

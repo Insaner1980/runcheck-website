@@ -5,10 +5,11 @@ listSummary: "ydeevne, hastighed og android"
 hub: "myths"
 sourceNumber: 150
 order: 6
-tags: ["ydeevne","hastighed","android","optimering","fejlfinding"]
+tags: ["ydeevne", "hastighed", "android", "optimering", "fejlfinding"]
 locale: "da"
 draft: false
 ---
+
 Din telefon kan helt bestemt blive langsommere med tiden. Det ubehagelige er, at flere ting kan være sande samtidig: Producenter har truffet valg, der har skadet ældre enheder, og de fleste hastighedsproblemer skyldes stadig kedelige tekniske årsager.
 
 Så ja, planlagt forældelse er til dels reel. Nej, en telefon med forsinkelser er ikke automatisk bevis på en hemmelig kill switch.

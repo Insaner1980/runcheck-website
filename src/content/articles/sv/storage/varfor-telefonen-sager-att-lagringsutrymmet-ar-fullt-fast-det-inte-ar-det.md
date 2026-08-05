@@ -5,10 +5,11 @@ listSummary: "Ta reda på varför Android visar fullt lagringsutrymme trots att 
 hub: "storage"
 sourceNumber: 87
 order: 9
-tags: ["lagring","android","rensning","optimering","guide"]
+tags: ["lagring", "android", "rensning", "optimering", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Irriterande, men inte ovanligt. Androids varningar om fullt lagringsutrymme kan bero på synliga filer, dold appdata, papperskorgar, misslyckade nedladdningar, rester från systemuppdateringar eller en lagringsdatabas som ännu inte har hunnit uppdateras. Efter en större uppdatering, till exempel utrullningen av Android 17 som började på de flesta Pixel-modeller som stöds innan bredare tillverkaruppdateringar, kan den här typen av förvirring pågå i en dag eller två medan telefonen arbetar färdigt.
 
 Börja med att starta om. Ja, på riktigt. Det är den tråkiga lösningen, men den rensar fastnade tillfälliga processer oftare än många tror.

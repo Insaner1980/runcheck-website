@@ -5,10 +5,11 @@ listSummary: "materiel, dommages et reparation"
 hub: "physical-damage"
 sourceNumber: 133
 order: 3
-tags: ["materiel","dommages","reparation","android","depannage"]
+tags: ["materiel", "dommages", "reparation", "android", "depannage"]
 locale: "fr"
 draft: false
 ---
+
 ---
 
 Vous sortez le téléphone de l'évier, l'écran est encore allumé et votre premier réflexe consiste à appuyer sur tous les boutons pour voir s'il a survécu. Ne le faites pas. À cet instant, la meilleure réaction est la plus sobre : couper l'alimentation, éloigner le liquide des ouvertures et laisser du temps au téléphone.

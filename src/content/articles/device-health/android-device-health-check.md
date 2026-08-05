@@ -9,6 +9,7 @@ order: 1
 tags: []
 draft: false
 ---
+
 A device health check catches these trends early. It's useful when troubleshooting a specific problem, preparing to sell a phone, or just figuring out whether that "slow" feeling is real or imagined.
 
 ---

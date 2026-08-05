@@ -5,10 +5,11 @@ listSummary: "nätverk, anslutningar och android"
 hub: "network"
 sourceNumber: 95
 order: 6
-tags: ["nätverk","anslutningar","android","felsökning","guide"]
+tags: ["nätverk", "anslutningar", "android", "felsökning", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Börja med en fråga: tappar andra enheter på samma wifi också anslutningen? Om svaret är ja ska du börja med routern eller internetanslutningen. Om bara telefonen kopplas ned ligger problemet troligen i telefonen, den sparade nätverksprofilen eller hur enheten växlar mellan frekvensband.
 
 ## Om flera enheter kopplas ned, börja med routern

@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 27
 order: 17
 subgroup: "Drain"
-tags: ["batteri","batteriförbrukning","felsökning","android","prestanda"]
+tags: ["batteri", "batteriförbrukning", "felsökning", "android", "prestanda"]
 locale: "sv"
 draft: false
 ---
+
 Det är vanligt efter uppdateringar. Det ska också gå över.
 
 ## Om Android 17 för Pixel-ägare

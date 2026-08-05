@@ -5,9 +5,10 @@ listSummary: "Galaxy battery health checks"
 hub: "brands"
 sourceNumber: 153
 order: 1
-tags: ["battery","health","diagnostics","android","guide"]
+tags: ["battery", "health", "diagnostics", "android", "guide"]
 draft: false
 ---
+
 That uncertainty is the point. A Galaxy S25 running a recent One UI build may show battery health percentage and cycle count in Settings. A Galaxy S23 on what looks like a similar update may not. Android 17 is now out on most supported Pixel phones first, but Galaxy phones will get Samsung's Android 17-based One UI update later, and Samsung can still decide which battery fields it exposes.
 
 Here are the checks that are worth using, and the ones that look useful but don't tell you much.

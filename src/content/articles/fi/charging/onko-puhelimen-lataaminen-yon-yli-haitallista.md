@@ -5,10 +5,11 @@ listSummary: "Yön yli lataaminen sopii nykyisille puhelimille, kun mukautuva la
 hub: "charging"
 sourceNumber: 42
 order: 6
-tags: ["lataaminen","akku","android","opas","laitteisto"]
+tags: ["lataaminen", "akku", "android", "opas", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 Kytket puhelimen lataukseen klo 23, heräät klo 7, ja akku on ollut 100 %:ssa jo tuntikausia. Se tuntuu väärältä lähinnä siksi, että vanhat akkuohjeet eivät ole koskaan täysin kadonneet.
 
 Vanha pelko koski ylilataamista. Se ei ole enää varsinainen ongelma. Nykyinen ongelma on aika, jonka akku viettää täyteen ladattuna.

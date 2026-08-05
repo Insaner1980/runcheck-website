@@ -5,10 +5,11 @@ listSummary: "Guida pratica per confrontare il costo della sostituzione della ba
 hub: "buying-selling"
 sourceNumber: 142
 order: 6
-tags: ["guida-all-acquisto","android","confronto","valore","guida"]
+tags: ["guida-all-acquisto", "android", "confronto", "valore", "guida"]
 locale: "it"
 draft: false
 ---
+
 Fino al mese scorso il telefono arrivava a sera. Ora devi collegarlo al caricabatterie prima di cena. Tutto il resto funziona ancora: fotocamera, schermo, app, memoria, messaggi. Il dispositivo non è rotto. La batteria è stanca.
 
 Questa distinzione può farti risparmiare parecchio.

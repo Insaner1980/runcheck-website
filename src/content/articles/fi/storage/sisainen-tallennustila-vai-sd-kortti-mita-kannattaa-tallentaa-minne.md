@@ -5,10 +5,11 @@ listSummary: "microSD-kortilla voi lisätä Android-puhelimen tallennustilaa, mu
 hub: "storage"
 sourceNumber: 86
 order: 8
-tags: ["tallennustila","android","siivous","optimointi","opas"]
+tags: ["tallennustila", "android", "siivous", "optimointi", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Ero korostuu vuonna 2026, koska Android-puhelimissa käytetään hyvin erilaista tallennuslaitteistoa. Monissa lippulaiva- ja keskihintaisissa puhelimissa ei ole microSD-korttipaikkaa lainkaan. Pixel-puhelimissa sitä ei ole, Samsung luopui korttipaikasta Galaxy S -sarjassa jo vuosia sitten, ja Galaxy A -sarjassakin tuki vaihtelee mallin mukaan. Toisaalta jotkin Galaxy A- ja M-mallit, Motorola Moto G -mallit ja Sony Xperia -puhelimet tukevat edelleen microSD-kortteja.
 
 Tarkista aina täsmällinen malli. Pelkkä tuoteperheen nimi ei riitä.

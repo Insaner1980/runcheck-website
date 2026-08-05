@@ -5,10 +5,11 @@ listSummary: "materiel, test et diagnostic"
 hub: "hardware"
 sourceNumber: 111
 order: 8
-tags: ["materiel","test","diagnostic","android","guide"]
+tags: ["materiel", "test", "diagnostic", "android", "guide"]
 locale: "fr"
 draft: false
 ---
+
 ---
 
 Que peut vraiment révéler un minuscule autocollant sur les dégâts causés par l'eau ? Moins que vous ne le pensez.

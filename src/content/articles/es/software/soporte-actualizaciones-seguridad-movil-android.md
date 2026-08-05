@@ -7,10 +7,11 @@ listSummary: "Revisa la fecha del parche y la lista del fabricante para saber si
 hub: "software"
 sourceNumber: 123
 order: 5
-tags: ["android","actualizaciones","seguridad","software","guia"]
+tags: ["android", "actualizaciones", "seguridad", "software", "guia"]
 locale: "es"
 draft: false
 ---
+
 Eso es lo que mucha gente pasa por alto. El fin del soporte no inutiliza el móvil. Solo hace que el riesgo aumente poco a poco mientras el dispositivo parece seguir igual.
 
 La comprobación tarda unos dos minutos.

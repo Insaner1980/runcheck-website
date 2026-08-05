@@ -5,10 +5,11 @@ listSummary: "opladning, batteri og android"
 hub: "charging"
 sourceNumber: 49
 order: 13
-tags: ["opladning","batteri","android","guide","hardware"]
+tags: ["opladning", "batteri", "android", "guide", "hardware"]
 locale: "da"
 draft: false
 ---
+
 Den sikreste oplader til din Android-telefon behøver ikke have det samme logo som telefonen. Det er den del, mange misforstår.
 
 En god USB-C-oplader fra en kendt tredjepartsproducent kan være lige så sikker og lige så hurtig som producentens egen oplader. Det reelle problem er en anonym oplader med falske mærker, uklare specifikationer og en mistænkeligt lav pris. Logoet betyder mindre end standarderne, byggekvaliteten og kablet.

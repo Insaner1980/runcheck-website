@@ -5,10 +5,11 @@ listSummary: "Come fai a capire se la rotazione automatica non funziona, la buss
 hub: "hardware"
 sourceNumber: 105
 order: 2
-tags: ["hardware","test","diagnostica","android","guida"]
+tags: ["hardware", "test", "diagnostica", "android", "guida"]
 locale: "it"
 draft: false
 ---
+
 Gli smartphone Android usano una combinazione di sensori di movimento, ambientali, di posizione e di prossimità. Alcuni sono chip fisici. Altri sono sensori "virtuali", calcolati combinando i dati di più componenti. Quando una fonte diventa imprecisa, viene coperta o si disattiva, il sintomo può comparire in una funzione del tutto diversa.
 
 Parti dalle prove semplici. Per i primi controlli non servono root, ADB o un banco da laboratorio.

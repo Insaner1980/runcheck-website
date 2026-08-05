@@ -65,7 +65,6 @@
 - Use `npm run build` as the foundation gate.
 - Verify `/`, every localized article root, representative hub/detail pages for each published locale, all article search indexes, `/robots.txt`, reciprocal `hreflang`, and language-correct canonical/HTML/OG metadata after structural changes.
 
-
 <claude-mem-context>
 # Memory Context
 
@@ -78,12 +77,15 @@ Fetch details: get_observations([IDs]) | Search: mem-search skill
 Stats: 15 obs (5,061t read) | 377,485t work | 99% savings
 
 ### Jun 24, 2026
+
 5637 6:56p 🔵 Pricing Component Structure Analysis
 5638 " 🟣 Pro Pricing Card Now Semi-Transparent with Backdrop Blur
 S871 Made Pro pricing card dark and semi-transparent to allow animated background blobs to show through (Jun 24, 6:57 PM)
 S873 Pro pricing card redesigned with dark Linear styling and increased transparency to show animated background blobs (Jun 24, 7:01 PM)
 S874 Redesign Pro pricing card to be simpler, more stylish, and professional while keeping colors/text and adding RECOMMENDED badge (Jun 24, 7:03 PM)
+
 ### Jun 26, 2026
+
 5640 10:51a 🔄 Pro Pricing Card Redesign - Removed Animated Border Scan
 5641 10:52a 🔄 Replaced Complex Border Animation with Simple Rotating Glow
 5642 10:55a 🔄 Pro Pricing Card Redesign Completed Successfully
@@ -126,7 +128,6 @@ S881 Hero section updates: add Insights chip, update release timeline, and compl
 **Completed**: Three-phase hero section enhancement completed: (1) Added "Insights" to featureChips array between Storage and Private, expanding hero focus areas from 5 to 6 items. New chip automatically inherited Pro card styling (dark gradient background, white border at 28% opacity, deep shadow, solid white text) via existing .hero-focus-chip class. (2) Updated product release timeline from "Coming summer 2026" to "Coming fall 2026" in hero release chip, reflecting delayed launch schedule. (3) Cleaned up orphaned CSS by removing --run-glass-fill: var(--run-glass-bg-strong) variable override from .hero-release-chip block since it was superseded by the shared selector's var(--run-pricing-pro-bg) background. All changes build successfully in 1.71s with no errors. Website now shows unified premium styling across all hero chips and pricing Pro card.
 
 **Next Steps**: Hero section updates complete. The website now features expanded product focus areas (6 chips including new Insights chip), updated fall 2026 release timeline, and fully unified Pro card styling across hero section chips, release chip, and pricing Pro card with no orphaned CSS variables.
-
 
 Access 377k tokens of past work via get_observations([IDs]) or mem-search skill.
 </claude-mem-context>

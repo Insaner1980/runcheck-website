@@ -5,10 +5,11 @@ listSummary: "Il modo più rapido per liberare spazio su Android è trovare prim
 hub: "storage"
 sourceNumber: 82
 order: 4
-tags: ["memoria","android","pulizia","ottimizzazione","guida"]
+tags: ["memoria", "android", "pulizia", "ottimizzazione", "guida"]
 locale: "it"
 draft: false
 ---
+
 ---
 
 Un solo video 4K girato durante un fine settimana può occupare più spazio di centinaia di foto. Lo stesso vale per un episodio di Netflix scaricato, una cartella dimenticata con i dati di un gioco o un file ZIP aperto mesi fa.

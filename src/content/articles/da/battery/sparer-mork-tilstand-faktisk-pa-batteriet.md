@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 29
 order: 19
 subgroup: "Drain"
-tags: ["batteri","myter","android","test","fakta"]
+tags: ["batteri", "myter", "android", "test", "fakta"]
 locale: "da"
 draft: false
 ---
+
 Sparer mørk tilstand på batteriet, eller er det bare et af de Android-råd, der bliver gentaget for evigt? Det ærlige svar er: Det afhænger af skærmen.
 
 På telefoner med OLED, herunder AMOLED, kan mørk tilstand spare strøm. På telefoner med LCD betyder det næsten ingenting. Det er den afgørende forskel. Android 17, One UI, Pixel UI, ColorOS, HyperOS og andre Android-brugerflader kan ændre, hvor indstillingen findes, men de ændrer ikke den måde, skærmhardwaren fungerer på.

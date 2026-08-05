@@ -5,10 +5,11 @@ listSummary: "Android-apper krasjer av bestemte grunner."
 hub: "performance"
 sourceNumber: 77
 order: 14
-tags: ["ytelse","hastighet","android","optimalisering","feilsøking"]
+tags: ["ytelse", "hastighet", "android", "optimalisering", "feilsøking"]
 locale: "nb"
 draft: false
 ---
+
 ---
 
 De fleste appkrasj er ikke tilfeldige. De føles tilfeldige fordi du ikke ser feilen som utløste dem.

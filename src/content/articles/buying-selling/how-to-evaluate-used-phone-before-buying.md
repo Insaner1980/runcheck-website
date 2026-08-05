@@ -5,9 +5,10 @@ listSummary: "Used phone evaluation checklist"
 hub: "buying-selling"
 sourceNumber: 141
 order: 5
-tags: ["comparison","apps","android","buying-guide","review"]
+tags: ["comparison", "apps", "android", "buying-guide", "review"]
 draft: false
 ---
+
 You're holding a used phone that looks clean. The screen is bright, the seller seems normal, and the price is just low enough to feel like a deal. This is the exact moment when people stop checking and start justifying.
 
 Don't.

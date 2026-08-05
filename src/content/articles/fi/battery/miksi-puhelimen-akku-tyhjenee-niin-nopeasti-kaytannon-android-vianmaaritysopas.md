@@ -7,10 +7,11 @@ hub: "battery"
 sourceNumber: 21
 order: 11
 subgroup: "Virrankulutus"
-tags: ["akku","virrankulutus","vianetsintä","android","suorituskyky"]
+tags: ["akku", "virrankulutus", "vianetsintä", "android", "suorituskyky"]
 locale: "fi"
 draft: false
 ---
+
 Aikaa saa hukattua tehokkaimmin muuttamalla kymmentä asetusta kerralla ja toivomalla, että jokin niistä auttaa. Selvitä syy ensin. Korjaa sen jälkeen se, mikä oikeasti kuluttaa virtaa.
 
 ## Aloita ilmeisistä tarkistuksista

@@ -5,10 +5,11 @@ listSummary: "batterie, consommation et depannage"
 hub: "physical-damage"
 sourceNumber: 136
 order: 6
-tags: ["batterie","consommation","depannage","android","performances"]
+tags: ["batterie", "consommation", "depannage", "android", "performances"]
 locale: "fr"
 draft: false
 ---
+
 ---
 
 Un écran fissuré ne ralentit pas le CPU. Vos applications n'ont pas soudain besoin de davantage de puissance de calcul parce que le verre s'est brisé.

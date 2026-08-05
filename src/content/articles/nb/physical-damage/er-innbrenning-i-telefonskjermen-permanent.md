@@ -5,10 +5,11 @@ listSummary: "maskinvare, skader og reparasjon"
 hub: "physical-damage"
 sourceNumber: 134
 order: 4
-tags: ["maskinvare","skader","reparasjon","android","feilsøking"]
+tags: ["maskinvare", "skader", "reparasjon", "android", "feilsøking"]
 locale: "nb"
 draft: false
 ---
+
 ---
 
 Ekte innbrenning i skjermen er permanent. Hvis pikslene har blitt ujevnt slitt, kan ingen app, video eller fargesyklus gjøre de utslitte pikslene unge igjen.

@@ -5,10 +5,18 @@ listSummary: "Gli smartphone usano memoria flash NAND."
 hub: "storage"
 sourceNumber: 89
 order: 11
-tags: ["prestazioni","velocita","android","ottimizzazione","risoluzione-dei-problemi"]
+tags:
+  [
+    "prestazioni",
+    "velocita",
+    "android",
+    "ottimizzazione",
+    "risoluzione-dei-problemi",
+  ]
 locale: "it"
 draft: false
 ---
+
 Il telefono può avere un SoC veloce, molta RAM e sembrare comunque impastato quando la memoria è quasi piena. Le app esitano prima di aprirsi. La fotocamera impiega un attimo in più per salvare una foto. Gli aggiornamenti richiedono più tempo del dovuto.
 
 Non è sempre colpa del processore. A volte il collo di bottiglia è la memoria.

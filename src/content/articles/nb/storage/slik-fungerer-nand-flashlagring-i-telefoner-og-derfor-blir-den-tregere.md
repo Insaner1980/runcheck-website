@@ -5,10 +5,11 @@ listSummary: "Metabeskrivelse: Telefonlagring bruker NAND-flashminne."
 hub: "storage"
 sourceNumber: 89
 order: 11
-tags: ["ytelse","hastighet","android","optimalisering","feilsøking"]
+tags: ["ytelse", "hastighet", "android", "optimalisering", "feilsøking"]
 locale: "nb"
 draft: false
 ---
+
 Telefonen kan ha en rask SoC, rikelig med RAM og likevel føles treg når lagringen nesten er full. Apper nøler før de åpnes. Kameraet bruker et ekstra øyeblikk på å lagre et bilde. Oppdateringer tar lengre tid enn de burde.
 
 Det er ikke alltid prosessorens feil. Noen ganger er lagringen flaskehalsen.

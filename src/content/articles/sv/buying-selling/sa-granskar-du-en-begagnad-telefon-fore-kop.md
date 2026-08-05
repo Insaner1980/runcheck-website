@@ -5,10 +5,11 @@ listSummary: "Du står med en begagnad telefon i handen som ser välskött ut."
 hub: "buying-selling"
 sourceNumber: 141
 order: 5
-tags: ["jämförelse","appar","android","köpguide","recension"]
+tags: ["jämförelse", "appar", "android", "köpguide", "recension"]
 locale: "sv"
 draft: false
 ---
+
 Gör inte det.
 
 En begagnad Android-telefon kan dölja ett slitet batteri, ett spärrat IMEI, en utbytt skärm med dålig pekrespons, vätskeskador, en laddningsport som håller på att ge upp eller programvara som snart inte längre får uppdateringar. Inget av det syns nödvändigtvis på annonsbilderna.
@@ -105,4 +106,4 @@ Avsätt 20-30 minuter för kontrollen. En bra säljare kanske inte älskar vänt
 
 Det finns alltid fler begagnade telefoner.
 
-*Metabeskrivning: Steg-för-steg-guide för att granska en begagnad Android-telefon före köp, med kontroll av IMEI, batterihälsa, skärm, hårdvara, programvarusupport och prisförhandling.*
+_Metabeskrivning: Steg-för-steg-guide för att granska en begagnad Android-telefon före köp, med kontroll av IMEI, batterihälsa, skärm, hårdvara, programvarusupport och prisförhandling._

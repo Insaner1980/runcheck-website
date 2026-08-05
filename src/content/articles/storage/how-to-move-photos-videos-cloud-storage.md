@@ -5,9 +5,10 @@ listSummary: "Photo and video cloud moves"
 hub: "storage"
 sourceNumber: 85
 order: 7
-tags: ["storage","android","cleanup","optimization","guide"]
+tags: ["storage", "android", "cleanup", "optimization", "guide"]
 draft: false
 ---
+
 Photos are manageable. Video is the real problem. A few minutes of 4K footage can eat more space than months of screenshots, and cloud backup only helps after you remove the local copies from the phone.
 
 ## Start with Google Photos

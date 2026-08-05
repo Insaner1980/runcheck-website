@@ -5,10 +5,11 @@ listSummary: "comparaison, applications et android"
 hub: "device-health"
 sourceNumber: 139
 order: 8
-tags: ["comparaison","applications","android","guide-d-achat","test"]
+tags: ["comparaison", "applications", "android", "guide-d-achat", "test"]
 locale: "fr"
 draft: false
 ---
+
 AccuBattery sert à suivre la capacité de la batterie sur la durée. DevCheck affiche des informations matérielles et des données système en direct. runcheck donne une vue plus large de l'état du téléphone en combinant batterie, température, réseau et stockage.
 
 La nuance peut sembler excessive, jusqu'au moment où vous vous trouvez face au vendeur d'un smartphone d'occasion avec dix minutes pour prendre une décision. Là, elle devient utile.
@@ -91,4 +92,4 @@ Pour une vue d'ensemble pratique, installez runcheck. Associez-le à DevCheck lo
 
 Pour la plupart des utilisateurs, runcheck et DevCheck forment la combinaison la plus utile au quotidien. AccuBattery conserve tout son intérêt lorsque le suivi de la capacité de la batterie est la priorité absolue.
 
-*Méta-description : Comparaison d'AccuBattery, DevCheck et runcheck selon le suivi de la batterie, les informations matérielles, la compatibilité avec les versions d'Android et les usages pratiques du diagnostic.*
+_Méta-description : Comparaison d'AccuBattery, DevCheck et runcheck selon le suivi de la batterie, les informations matérielles, la compatibilité avec les versions d'Android et les usages pratiques du diagnostic._

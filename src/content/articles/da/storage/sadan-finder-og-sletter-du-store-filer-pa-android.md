@@ -5,10 +5,11 @@ listSummary: "Metabeskrivelse: Den hurtigste måde at frigøre lagerplads på An
 hub: "storage"
 sourceNumber: 82
 order: 4
-tags: ["lagerplads","android","oprydning","optimering","guide"]
+tags: ["lagerplads", "android", "oprydning", "optimering", "guide"]
 locale: "da"
 draft: false
 ---
+
 ---
 
 En enkelt 4K-video fra en weekendtur kan fylde mere end hundredvis af billeder. Det samme kan ét downloadet Netflix-afsnit, en glemt mappe med spildata eller en ZIP-fil, du åbnede for flere måneder siden.

@@ -5,10 +5,11 @@ listSummary: "Intentas grabar un vídeo más y Android te dice que no queda espa
 hub: "storage"
 sourceNumber: 85
 order: 7
-tags: ["almacenamiento","android","limpieza","optimizacion","guia"]
+tags: ["almacenamiento", "android", "limpieza", "optimizacion", "guia"]
 locale: "es"
 draft: false
 ---
+
 Las fotos se pueden controlar. El verdadero problema es el vídeo. Unos minutos de grabación en 4K pueden ocupar más que meses de capturas de pantalla, y la copia en la nube solo libera espacio después de eliminar las copias locales del móvil.
 
 ## Empieza con Google Fotos

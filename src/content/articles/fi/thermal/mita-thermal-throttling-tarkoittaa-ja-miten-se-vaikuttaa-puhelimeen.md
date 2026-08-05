@@ -5,10 +5,11 @@ listSummary: "Miksi nopea puhelin tuntuu yhtäkkiä hitaalta kesken pelin, video
 hub: "thermal"
 sourceNumber: 56
 order: 4
-tags: ["lämpötila","kuumeneminen","android","vianetsintä","laitteisto"]
+tags: ["lämpötila", "kuumeneminen", "android", "vianetsintä", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 ## Mitä lämpötilasta johtuva suorituskyvyn rajoittaminen tarkoittaa?
 
 Se on hallittua hidastamista. Puhelin laskee CPU:n tai GPU:n nopeutta, himmentää näyttöä, pienentää lataustehoa, rajoittaa radioiden toimintaa tai vähentää muuta paljon virtaa kuluttavaa toimintaa, jotta lämpötila laskisi.
@@ -103,4 +104,4 @@ Alle 80 %:n akun kunto on tavallinen vaihtoraja puhelimissa, jotka näyttävät 
 
 Puhelimen lämpöturvajärjestelmä ei ole vihollinen. Voit vähentää sen puuttumista pienentämällä kuormaa, parantamalla jäähdytystä, välttämällä kuumia ympäristöjä ja jättämällä pikalatauksen pois raskaan käytön aikana. Jos rajoittamista tapahtuu kevyessä käytössä, sitä ei kuitenkaan pidä sivuuttaa. Syy voi silloin olla sovellus, heikko signaali, laturi tai kulunut akku.
 
-*Metakuvaus: Androidin sisäinen lämpötilasta johtuva hidastaminen suojaa puhelinta kuumuudelta. Tutustu Androidin lämpötilatasoihin, thermal headroom -arvoon, tavallisiin syihin ja turvallisiin tapoihin vähentää rajoittamista.*
+_Metakuvaus: Androidin sisäinen lämpötilasta johtuva hidastaminen suojaa puhelinta kuumuudelta. Tutustu Androidin lämpötilatasoihin, thermal headroom -arvoon, tavallisiin syihin ja turvallisiin tapoihin vähentää rajoittamista._

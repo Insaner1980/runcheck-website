@@ -5,9 +5,10 @@ listSummary: "Android antivirus reality"
 hub: "software"
 sourceNumber: 126
 order: 8
-tags: ["security","malware","android","privacy","guide"]
+tags: ["security", "malware", "android", "privacy", "guide"]
 draft: false
 ---
+
 If you install apps only from Google Play, keep Android updated, and don't tap through random APK links, Android's built-in protection is usually enough. If you sideload often, run an unsupported phone, or use the device for sensitive work, an extra security app can make sense.
 
 The difference is behavior, not vibes.

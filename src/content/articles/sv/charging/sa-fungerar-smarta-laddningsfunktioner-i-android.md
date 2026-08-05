@@ -5,10 +5,11 @@ listSummary: "batteri, hälsa och diagnostik"
 hub: "charging"
 sourceNumber: 51
 order: 15
-tags: ["batteri","hälsa","diagnostik","android","guide"]
+tags: ["batteri", "hälsa", "diagnostik", "android", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Varför stannar telefonen ibland på 80 %, ligger kvar där i flera timmar och börjar sedan plötsligt ladda klart precis innan du vaknar?
 
 Det är smart laddning. Det handlar inte om en enda Android-funktion med en universell strömbrytare. I stället är det flera tillverkarverktyg som försöker lösa samma batteriproblem: för mycket tid på hög laddningsnivå, särskilt när telefonen är varm.

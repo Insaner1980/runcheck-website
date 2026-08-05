@@ -5,9 +5,10 @@ listSummary: "Charging port checks"
 hub: "hardware"
 sourceNumber: 108
 order: 5
-tags: ["charging","battery","android","guide","hardware"]
+tags: ["charging", "battery", "android", "guide", "hardware"]
 draft: false
 ---
+
 ---
 
 You're holding the cable at a weird angle, the charging icon keeps flickering, and the phone only charges when it sits perfectly still. That usually feels like a dead charging port, but don't start there.

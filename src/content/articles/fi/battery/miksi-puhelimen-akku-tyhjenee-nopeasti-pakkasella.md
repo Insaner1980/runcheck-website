@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 31
 order: 21
 subgroup: "Virrankulutus"
-tags: ["akku","kunto","diagnostiikka","android","opas"]
+tags: ["akku", "kunto", "diagnostiikka", "android", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Olet ulkona pakkasessa. Puhelin näyttää 38 %, mutta sammuu sitten kuin akku olisi tyhjentynyt kokonaan. Muutaman minuutin kuluttua sisällä se käynnistyy taas ja näyttää, että varausta onkin jäljellä.
 
 Ärsyttävää? Kyllä. Mystistä? Ei oikeastaan.

@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 26
 order: 16
 subgroup: "Drain"
-tags: ["akku","akkuverbrauch","fehlerbehebung","android","leistung"]
+tags: ["akku", "akkuverbrauch", "fehlerbehebung", "android", "leistung"]
 locale: "de"
 draft: false
 ---
+
 Das ist normal. Übermäßiger Akkuverbrauch im Leerlauf nicht.
 
 ## So sieht normaler Akkuverbrauch im Leerlauf aus

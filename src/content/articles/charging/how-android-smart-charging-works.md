@@ -5,9 +5,10 @@ listSummary: "Smart charging feature behavior"
 hub: "charging"
 sourceNumber: 51
 order: 15
-tags: ["battery","health","diagnostics","android","guide"]
+tags: ["battery", "health", "diagnostics", "android", "guide"]
 draft: false
 ---
+
 Why does your phone sometimes stop at 80%, sit there for hours, and then suddenly finish charging right before you wake up?
 
 That's smart charging. It isn't one Android feature with one universal switch. It's a set of manufacturer tools that all try to solve the same battery problem: too much time at high charge, especially while the phone is warm.

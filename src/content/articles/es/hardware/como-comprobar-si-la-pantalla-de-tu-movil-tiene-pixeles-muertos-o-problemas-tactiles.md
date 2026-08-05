@@ -5,10 +5,11 @@ listSummary: "Estás revisando un móvil de segunda mano."
 hub: "hardware"
 sourceNumber: 106
 order: 3
-tags: ["hardware","pruebas","diagnostico","android","guia"]
+tags: ["hardware", "pruebas", "diagnostico", "android", "guia"]
 locale: "es"
 draft: false
 ---
+
 Los problemas de pantalla pueden pasar desapercibidos durante el uso normal. El fondo de pantalla, los iconos, el modo oscuro y el movimiento ocultan muchos defectos. Unas cuantas pruebas con colores uniformes y respuesta táctil permiten detectarlos mucho mejor.
 
 ## Píxeles muertos y píxeles atascados

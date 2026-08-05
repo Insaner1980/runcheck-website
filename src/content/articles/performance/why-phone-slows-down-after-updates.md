@@ -5,9 +5,10 @@ listSummary: "Post-update slowdown causes"
 hub: "performance"
 sourceNumber: 68
 order: 5
-tags: ["performance","speed","android","optimization","troubleshooting"]
+tags: ["performance", "speed", "android", "optimization", "troubleshooting"]
 draft: false
 ---
+
 Your phone can feel worse right after an Android update, and that does not automatically mean the update broke it. The first day or two after a major version upgrade is often messy because Android is rebuilding things in the background while you are trying to use the phone normally.
 
 That is annoying, but it is also normal.

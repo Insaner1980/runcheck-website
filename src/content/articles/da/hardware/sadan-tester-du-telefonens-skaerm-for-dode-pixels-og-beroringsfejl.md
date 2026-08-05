@@ -5,10 +5,11 @@ listSummary: "Du er ved at undersøge en brugt telefon."
 hub: "hardware"
 sourceNumber: 106
 order: 3
-tags: ["hardware","test","diagnostik","android","guide"]
+tags: ["hardware", "test", "diagnostik", "android", "guide"]
 locale: "da"
 draft: false
 ---
+
 Skærmfejl kan være svære at opdage under normal brug. Baggrunde, ikoner, mørk tilstand og bevægelse skjuler dem. Nogle få test med ensfarvede billeder og berøring gør fejlene langt lettere at finde.
 
 ## Døde og fastlåste pixels

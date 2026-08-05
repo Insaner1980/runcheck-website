@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 20
 order: 10
 subgroup: "Stato della batteria"
-tags: ["tecnologia-delle-batterie","scienza","guida","hardware"]
+tags: ["tecnologia-delle-batterie", "scienza", "guida", "hardware"]
 locale: "it"
 draft: false
 ---
+
 Il motivo è il silicio-carbonio. La batteria è ancora agli ioni di litio, ma l'anodo è cambiato.
 
 ## Cos'è cambiato nell'anodo

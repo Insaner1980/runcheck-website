@@ -5,10 +5,11 @@ listSummary: "Signalstrekene er nyttige for et raskt blikk, men de er ikke en m�
 hub: "network"
 sourceNumber: 93
 order: 4
-tags: ["nettverk","tilkobling","android","feilsøking","guide"]
+tags: ["nettverk", "tilkobling", "android", "feilsøking", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Det høres mer teknisk ut enn det er. dBm er ganske enkelt effektnivået telefonen mottar fra mobilnettet. Jo nærmere tallet er null, desto sterkere er signalet. En måling på -75 dBm er sterkere enn -95 dBm. Enkelt nok.
 
 ## Den raske måten å lese dBm på
@@ -19,13 +20,13 @@ Skalaen er logaritmisk. Hver forskjell på 3 dBm tilsvarer omtrent en dobling el
 
 For LTE og de fleste 5G-forbindelser under 6 GHz er disse områdene en nyttig tommelfingerregel:
 
-| Måling | Hva det vanligvis betyr |
-|---|---|
-| -50 til -70 dBm | Utmerket. Samtaler og data bør være stabile, så lenge basestasjonen ikke er overbelastet. |
-| -70 til -85 dBm | Bra. Dette er normalt for brukbar dekning utendørs eller nær et vindu. |
-| -85 til -100 dBm | Brukbart, men ikke spesielt godt. Nettsurfing fungerer, strømming kan bufre, og opplastingshastigheten kan falle først. |
-| -100 til -110 dBm | Svakt. Samtaler kan brytes, meldinger kan bli forsinket, og modemet bruker mer strøm på å holde forbindelsen. |
-| Under -110 dBm | Marginalt. Regn med tidsavbrudd, perioder uten dekning eller tvunget overgang til et annet nettverkslag. |
+| Måling            | Hva det vanligvis betyr                                                                                                 |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| -50 til -70 dBm   | Utmerket. Samtaler og data bør være stabile, så lenge basestasjonen ikke er overbelastet.                               |
+| -70 til -85 dBm   | Bra. Dette er normalt for brukbar dekning utendørs eller nær et vindu.                                                  |
+| -85 til -100 dBm  | Brukbart, men ikke spesielt godt. Nettsurfing fungerer, strømming kan bufre, og opplastingshastigheten kan falle først. |
+| -100 til -110 dBm | Svakt. Samtaler kan brytes, meldinger kan bli forsinket, og modemet bruker mer strøm på å holde forbindelsen.           |
+| Under -110 dBm    | Marginalt. Regn med tidsavbrudd, perioder uten dekning eller tvunget overgang til et annet nettverkslag.                |
 
 Dette er ikke universelle grenser for bestått eller ikke bestått. En telefon på -95 dBm kan fungere fint hvis signalet er rent og basestasjonen har ledig kapasitet. En annen telefon på -75 dBm kan gå tregt hvis cellen er overbelastet eller det er mye interferens.
 

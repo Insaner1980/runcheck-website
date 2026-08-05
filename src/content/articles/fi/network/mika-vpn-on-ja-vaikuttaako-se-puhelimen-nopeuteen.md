@@ -5,10 +5,11 @@ listSummary: "verkko, yhteydet ja android"
 hub: "network"
 sourceNumber: 99
 order: 10
-tags: ["verkko","yhteydet","android","vianetsintä","opas"]
+tags: ["verkko", "yhteydet", "android", "vianetsintä", "opas"]
 locale: "fi"
 draft: false
 ---
+
 VPN muuttaa reittiä, jota pitkin puhelimen internetliikenne kulkee. Sovellukset eivät yhdistä suoraan Wi-Fi-verkon tai mobiilioperaattorin kautta, vaan puhelin lähettää liikenteen ensin salattua tunnelia pitkin VPN-palvelimelle. Verkkosivut ja sovellukset näkevät VPN-palvelimen IP-osoitteen puhelimen tavallisen julkisen IP-osoitteen sijasta.
 
 Se kuulostaa salaperäisemmältä kuin onkaan. VPN on hyödyllinen, mutta se ei ole yksityisyyden suojakilpi kaikkea vastaan.

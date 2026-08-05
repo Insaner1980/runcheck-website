@@ -5,10 +5,11 @@ listSummary: "Olet tarkistamassa käytettyä puhelinta."
 hub: "hardware"
 sourceNumber: 106
 order: 3
-tags: ["laitteisto","testaus","diagnostiikka","android","opas"]
+tags: ["laitteisto", "testaus", "diagnostiikka", "android", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Näyttöviat piiloutuvat hyvin tavallisessa käytössä. Taustakuvat, kuvakkeet, tumma tila ja liike peittävät niitä. Muutama yksivärinen kuva ja kosketustesti tekevät vioista paljon helpommin havaittavia.
 
 ## Kuolleet ja jumiutuneet pikselit

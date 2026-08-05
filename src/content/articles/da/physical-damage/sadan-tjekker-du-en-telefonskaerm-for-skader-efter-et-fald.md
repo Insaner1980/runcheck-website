@@ -5,10 +5,11 @@ listSummary: "Du samler telefonen op, glasset ser helt ud, og et øjeblik tror d
 hub: "physical-damage"
 sourceNumber: 131
 order: 1
-tags: ["hardware","test","diagnostik","android","guide"]
+tags: ["hardware", "test", "diagnostik", "android", "guide"]
 locale: "da"
 draft: false
 ---
+
 Målet er ikke at panikteste hver eneste pixel, som om du køber en brugt telefon af en fremmed. Det handler om at finde det, der betyder noget: revner, døde pixels, døde berøringszoner, farveforskydninger, flimren og et panel, der er begyndt at løsne sig.
 
 ## Start med glasset og rammen

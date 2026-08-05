@@ -5,10 +5,11 @@ listSummary: "laden, akku und android"
 hub: "charging"
 sourceNumber: 49
 order: 13
-tags: ["laden","akku","android","ratgeber","hardware"]
+tags: ["laden", "akku", "android", "ratgeber", "hardware"]
 locale: "de"
 draft: false
 ---
+
 Das sicherste Ladegerät für dein Android-Smartphone muss nicht dasselbe Logo tragen wie das Gerät. Genau das wird oft falsch verstanden.
 
 Ein gutes USB-C-Ladegerät eines bekannten Drittanbieters kann genauso sicher und genauso schnell sein wie das Ladegerät des Smartphone-Herstellers. Das eigentliche Problem ist ein namenloses Produkt mit zweifelhaften Kennzeichnungen, unklaren technischen Angaben und einem verdächtig niedrigen Preis. Das Logo ist weniger wichtig als Standards, Verarbeitungsqualität und Kabel.

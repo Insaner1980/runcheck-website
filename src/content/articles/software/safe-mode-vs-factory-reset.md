@@ -5,9 +5,10 @@ listSummary: "Safe Mode vs reset choices"
 hub: "software"
 sourceNumber: 130
 order: 12
-tags: ["performance","speed","android","optimization","troubleshooting"]
+tags: ["performance", "speed", "android", "optimization", "troubleshooting"]
 draft: false
 ---
+
 That advice sounds too simple, but it's the right answer for most Android troubleshooting. Safe mode is quick, reversible, and doesn't erase anything. A factory reset wipes the phone and can turn a five-minute problem into an evening of reinstalling apps, restoring accounts, and finding settings you forgot you changed.
 
 Safe mode first. Reset last.

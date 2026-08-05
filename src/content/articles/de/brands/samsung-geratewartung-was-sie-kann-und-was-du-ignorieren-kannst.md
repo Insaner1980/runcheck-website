@@ -5,10 +5,11 @@ listSummary: "speicher, android und bereinigung"
 hub: "brands"
 sourceNumber: 157
 order: 5
-tags: ["speicher","android","bereinigung","optimierung","ratgeber"]
+tags: ["speicher", "android", "bereinigung", "optimierung", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Die Gerätewartung ist nützlich, aber zuerst ein Überblick und erst danach ein Optimierungswerkzeug. An einer Stelle findest du Akkuverbrauch, Speicherdruck, Hintergrund-Apps, RAM-Nutzung und Sicherheitsprüfungen. Am meisten bringen die einzelnen Werkzeuge, nicht die Ein-Klick-Bereinigung.
 
 Samsung ändert außerdem Bezeichnungen zwischen One UI-Versionen. Auf manchen Geräten heißt der Bereich **Gerätewartung**, auf anderen **Akku und Gerätewartung**. Android 17 wurde am 16. Juni 2026 zunächst für die meisten unterstützten Pixel-Geräte veröffentlicht. Galaxy-Smartphones erhalten Android-17-basierte One-UI-Updates nach Samsungs eigenem Zeitplan, daher sind weitere kleine Änderungen bei Texten und Anordnung zu erwarten.

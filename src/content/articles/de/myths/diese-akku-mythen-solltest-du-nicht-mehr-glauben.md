@@ -5,10 +5,11 @@ listSummary: "Viele Tipps zum Akkusparen im Internet sind Fossilien."
 hub: "myths"
 sourceNumber: 145
 order: 1
-tags: ["mythen","fakten","android","akku","mythencheck"]
+tags: ["mythen", "fakten", "android", "akku", "mythencheck"]
 locale: "de"
 draft: false
 ---
+
 Das bedeutet nicht, dass Akkupflege erfunden ist. Du verschwendest deine Aufmerksamkeit nur mit den falschen Ritualen.
 
 ## Mythos: Vor dem Laden muss der Akku auf null fallen

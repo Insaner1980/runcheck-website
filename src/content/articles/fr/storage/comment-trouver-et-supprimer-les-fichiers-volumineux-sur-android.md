@@ -5,10 +5,11 @@ listSummary: "stockage, android et nettoyage"
 hub: "storage"
 sourceNumber: 82
 order: 4
-tags: ["stockage","android","nettoyage","optimisation","guide"]
+tags: ["stockage", "android", "nettoyage", "optimisation", "guide"]
 locale: "fr"
 draft: false
 ---
+
 ---
 
 Une seule vidéo 4K prise pendant un week-end peut être plus volumineuse que des centaines de photos. Il en va de même pour un épisode Netflix téléchargé, un ancien dossier de données de jeu ou un fichier ZIP ouvert il y a plusieurs mois.

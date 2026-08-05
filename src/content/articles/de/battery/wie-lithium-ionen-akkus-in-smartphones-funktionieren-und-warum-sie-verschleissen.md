@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 19
 order: 9
 subgroup: "Health"
-tags: ["akkutechnik","wissenschaft","ratgeber","hardware"]
+tags: ["akkutechnik", "wissenschaft", "ratgeber", "hardware"]
 locale: "de"
 draft: false
 ---
+
 Wenn du die Grundlagen verstehst, wirkt der übliche Rat weniger rätselhaft. Die Empfehlung, den Ladestand möglichst zwischen 20 und 80 % zu halten, die Warnung vor Hitze und der Grund für frühe Abschaltungen alter Smartphones hängen alle mit demselben Vorgang zusammen: Lithium-Ionen bewegen sich durch eine Zelle, die sich bei jeder Nutzung langsam verändert.
 
 ## Die grundlegende Zelle

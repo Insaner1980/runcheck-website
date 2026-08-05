@@ -5,10 +5,11 @@ listSummary: "netværk, forbindelser og android"
 hub: "network"
 sourceNumber: 100
 order: 11
-tags: ["netværk","forbindelser","android","fejlfinding","guide"]
+tags: ["netværk", "forbindelser", "android", "fejlfinding", "guide"]
 locale: "da"
 draft: false
 ---
+
 Wi-Fi-opkald er almindelige telefonopkald via Wi-Fi. Du bruger telefonens normale opkaldsapp, dit sædvanlige telefonnummer og dit mobilabonnement. Den person, du ringer til, behøver ikke WhatsApp, Signal, Telegram eller en anden app.
 
 Det er den store fordel. Du kan stå i en kælder med én ustabil mobilstreg, oprette forbindelse til et godt Wi-Fi-netværk og stadig foretage et normalt telefonopkald.

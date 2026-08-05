@@ -5,10 +5,11 @@ listSummary: "netværk, forbindelser og android"
 hub: "network"
 sourceNumber: 98
 order: 9
-tags: ["netværk","forbindelser","android","fejlfinding","guide"]
+tags: ["netværk", "forbindelser", "android", "fejlfinding", "guide"]
 locale: "da"
 draft: false
 ---
+
 Du prøver at parre øretelefoner, et ur, en højttaler eller bilen, og Android kan enten ikke finde enheden eller siger, at den er forbundet, selv om intet virker. Sådan er Bluetooth. Det kan fungere lydløst i månedsvis, hvorefter én gemt parring bliver mærkelig, og pludselig føles det hele ødelagt.
 
 Begynd med de enkle kontroller, før du graver dig ned i indstillingerne. De fleste Bluetooth-fejl skyldes ikke dybe problemer i Android. Det er ofte gamle parringer, lavt batteriniveau i tilbehøret, afstand, interferens eller en enhed, der faktisk ikke er i parringstilstand.

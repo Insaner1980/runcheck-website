@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 27
 order: 17
 subgroup: "Drain"
-tags: ["batteri","strømforbrug","fejlfinding","android","ydeevne"]
+tags: ["batteri", "strømforbrug", "fejlfinding", "android", "ydeevne"]
 locale: "da"
 draft: false
 ---
+
 Det er almindeligt efter opdateringer. Det bør også falde til ro igen.
 
 ## Bemærkning om Android 17 til Pixel-ejere

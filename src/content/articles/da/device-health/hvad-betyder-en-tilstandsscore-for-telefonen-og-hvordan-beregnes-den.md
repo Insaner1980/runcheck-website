@@ -5,10 +5,11 @@ listSummary: "temperatur, varme og android"
 hub: "device-health"
 sourceNumber: 10
 order: 6
-tags: ["temperatur","varme","android","fejlfinding","hardware"]
+tags: ["temperatur", "varme", "android", "fejlfinding", "hardware"]
 locale: "da"
 draft: false
 ---
+
 Android definerer ikke én universel tilstandsscore for telefoner. Der findes ingen fælles Android-side, hvor "82/100" betyder det samme på alle mærker. Samsungs Batteri- og enhedspleje viser en optimeringsscore ud af 100, og Pixel-funktionen Device health & support viser overordnet status og status for enkelte funktioner, men begge dele er producentværktøjer, ikke en fælles Android-standard. Diagnoseapps bruger deres egne beregningsmodeller. Det vigtigste er derfor, hvad scoren bygger på, og hvor dens begrænsninger ligger.
 
 ## Hvad måler en tilstandsscore?

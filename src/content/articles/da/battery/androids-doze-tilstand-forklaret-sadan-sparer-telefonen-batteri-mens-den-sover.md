@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 34
 order: 24
 subgroup: "Drain"
-tags: ["batteri","optimering","android","tips","ydeevne"]
+tags: ["batteri", "optimering", "android", "tips", "ydeevne"]
 locale: "da"
 draft: false
 ---
+
 Hvorfor kom der ti notifikationer i samme øjeblik, som du tog telefonen op? Ofte er svaret Doze.
 
 Doze er Androids indbyggede system til inaktivitet. Du slår det ikke selv til, og de fleste ser aldrig en Doze-skærm i Indstillinger. Det arbejder stille, når telefonen ikke er tilsluttet strøm, skærmen er slukket, og Android vurderer, at enheden ikke længere skal lade alle apps køre, når de har lyst.

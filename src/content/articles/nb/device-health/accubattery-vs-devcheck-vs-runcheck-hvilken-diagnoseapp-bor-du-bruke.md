@@ -5,10 +5,11 @@ listSummary: "sammenligning, apper og android"
 hub: "device-health"
 sourceNumber: 139
 order: 8
-tags: ["sammenligning","apper","android","kjøpsguide","anmeldelse"]
+tags: ["sammenligning", "apper", "android", "kjøpsguide", "anmeldelse"]
 locale: "nb"
 draft: false
 ---
+
 Hvilken app bør du installere når Android-telefonen blir varm, tømmer batteriet for raskt eller bare virker litt "feil"? Det irriterende svaret er at AccuBattery, DevCheck og runcheck egentlig ikke gjør den samme jobben.
 
 AccuBattery er laget for langsiktig måling av batterikapasitet. DevCheck viser maskinvare og systemdata i sanntid. runcheck gir et bredere øyeblikksbilde av tilstanden til batteri, temperatur, nettverk og lagring.

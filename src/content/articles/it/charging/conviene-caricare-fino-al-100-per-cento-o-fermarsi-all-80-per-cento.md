@@ -5,10 +5,11 @@ listSummary: "Fermare la ricarica all'80% può prolungare la durata della batter
 hub: "charging"
 sourceNumber: 43
 order: 7
-tags: ["ricarica","batteria","android","guida","hardware"]
+tags: ["ricarica", "batteria", "android", "guida", "hardware"]
 locale: "it"
 draft: false
 ---
+
 La regola dell'80% è utile, ma molti la trattano come un comandamento. Non lo è. Fermare la ricarica all'80% può rallentare l'usura della batteria, ma significa anche iniziare la giornata rinunciando a un quinto della carica. Per alcune persone è un buon compromesso, per altre è soltanto irritante.
 
 Se cerchi una risposta pratica, usa la ricarica adattiva quando il telefono la offre. Imposta un limite fisso all'80% solo se di solito hai autonomia da vendere. Se il telefono fatica già ad arrivare a sera, non peggiorare la vita quotidiana soltanto per proteggere la batteria sulla carta.

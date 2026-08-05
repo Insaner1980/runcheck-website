@@ -5,10 +5,11 @@ listSummary: "laddning, batteri och android"
 hub: "thermal"
 sourceNumber: 54
 order: 2
-tags: ["laddning","batteri","android","guide","hårdvara"]
+tags: ["laddning", "batteri", "android", "guide", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 ## Gör detta först
 
 Koppla ur laddaren. Laddning tillför värme, och telefonen kan inte kylas effektivt så länge den fortsätter få ström. Om Android redan har pausat laddningen hjälper det ändå att koppla ur, eftersom laddaren, kabeln och laddplattan då försvinner ur ekvationen.
@@ -85,4 +86,4 @@ Under långa spelsessioner kan en kylare som fästs på telefonen hjälpa, efter
 
 Att kyla en telefon handlar framför allt om att hålla igen. Koppla ur den, ta av skalet, stoppa arbetsbelastningen, flytta den från värmen och försök inte tvinga fram snabb nedkylning. Om samma problem återkommer vid lätt användning är orsaken vanligtvis en app, svag signal, laddningsutrustning eller batterislitage.
 
-*Metabeskrivning: Säkra steg för att kyla ned en överhettad Android-telefon, vad du inte bör göra, när värme är normal efter Android 17 eller andra uppdateringar och när batterivärme kräver reparation.*
+_Metabeskrivning: Säkra steg för att kyla ned en överhettad Android-telefon, vad du inte bör göra, när värme är normal efter Android 17 eller andra uppdateringar och när batterivärme kräver reparation._

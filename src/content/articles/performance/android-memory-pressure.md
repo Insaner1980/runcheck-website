@@ -5,9 +5,10 @@ listSummary: "Memory pressure fixes"
 hub: "performance"
 sourceNumber: 76
 order: 13
-tags: ["performance","speed","android","optimization","troubleshooting"]
+tags: ["performance", "speed", "android", "optimization", "troubleshooting"]
 draft: false
 ---
+
 ---
 
 Memory pressure is Android choosing what to sacrifice. When there isn't enough RAM for everything, the system starts closing less important processes so the phone can keep running.

@@ -6,10 +6,11 @@ listSummary: "verkko, yhteydet ja android"
 hub: "network"
 sourceNumber: 100
 order: 11
-tags: ["verkko","yhteydet","android","vianetsintä","opas"]
+tags: ["verkko", "yhteydet", "android", "vianetsintä", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Wi-Fi-puhelu on tavallinen puhelu, joka kulkee Wi-Fi-yhteyden kautta. Käytät puhelimen normaalia numerovalitsinta, omaa puhelinnumeroasi ja operaattoriliittymääsi. Vastaanottajalla ei tarvitse olla WhatsAppia, Signalia, Telegramia tai mitään muutakaan sovellusta.
 
 Siinä on ominaisuuden tärkein etu. Voit olla kellarissa, jossa matkapuhelinverkon signaali hädin tuskin näkyy, yhdistää puhelimen toimivaan Wi-Fi-verkkoon ja soittaa silti tavallisen puhelun.

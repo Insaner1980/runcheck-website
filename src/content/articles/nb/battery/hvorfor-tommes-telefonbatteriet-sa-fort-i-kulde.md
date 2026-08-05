@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 31
 order: 21
 subgroup: "Drain"
-tags: ["batteri","helse","diagnostikk","android","guide"]
+tags: ["batteri", "helse", "diagnostikk", "android", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Du er ute i kulda, telefonen viser 38 %, og så slår den seg av som om batteriet var helt tomt. Etter noen minutter innendørs våkner den til liv igjen og viser plutselig at det fortsatt er strøm igjen.
 
 Irriterende? Ja. Mystisk? Egentlig ikke.

@@ -5,10 +5,11 @@ listSummary: "bateria, estado y diagnostico"
 hub: "brands"
 sourceNumber: 154
 order: 2
-tags: ["bateria","estado","diagnostico","android","guia"]
+tags: ["bateria", "estado", "diagnostico", "android", "guia"]
 locale: "es"
 draft: false
 ---
+
 El momento también importa. Android 17 ya está disponible en la mayoría de los Pixel compatibles, mientras que otras marcas de Android recibirán más adelante sus propias actualizaciones basadas en Android 17. Eso no significa que todos los Pixel pasen a tener la misma pantalla de batería. Las herramientas de diagnóstico de Google siguen dependiendo del modelo.
 
 ## Estado y capacidad de la batería

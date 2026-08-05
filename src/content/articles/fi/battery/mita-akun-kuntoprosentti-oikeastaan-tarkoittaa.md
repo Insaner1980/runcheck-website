@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 13
 order: 3
 subgroup: "Akun kunto"
-tags: ["akku","kunto","diagnostiikka","android","opas"]
+tags: ["akku", "kunto", "diagnostiikka", "android", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Akun kuntoprosentti kertoo kulumisesta. Se ei ole sama asia kuin tilapalkissa näkyvä akun varaustaso.
 
 Jos puhelin ilmoittaa akun kunnoksi 87 %, kenno pystyy varastoimaan noin 87 % siitä varauksesta, jonka se pystyi uutena varastoimaan. Akku toimii edelleen. Sen säiliö on vain pienempi.

@@ -5,10 +5,11 @@ listSummary: "Meta descrizione: Spiega perché gli smartphone Android si scaldan
 hub: "charging"
 sourceNumber: 52
 order: 16
-tags: ["ricarica","batteria","android","guida","hardware"]
+tags: ["ricarica", "batteria", "android", "guida", "hardware"]
 locale: "it"
 draft: false
 ---
+
 Colleghi lo smartphone, torni dopo 20 minuti e il retro è più caldo della tua mano. Un po' di calore è normale. Uno smartphone così caldo da risultare scomodo da tenere in mano non lo è.
 
 La ricarica genera sempre calore perché una parte dell'energia in ingresso si disperde nel caricabatterie, nel cavo e nello smartphone. La ricarica rapida ne produce di più. Quella wireless, in genere, ancora di più. Il punto non è stabilire se il telefono si scalda, ma capire se resta in un intervallo normale o comincia ad attivare le proprie protezioni.

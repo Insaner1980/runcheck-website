@@ -5,10 +5,11 @@ listSummary: "temperatura, termico y android"
 hub: "thermal"
 sourceNumber: 61
 order: 9
-tags: ["temperatura","termico","android","solucion-de-problemas","hardware"]
+tags: ["temperatura", "termico", "android", "solucion-de-problemas", "hardware"]
 locale: "es"
 draft: false
 ---
+
 Un apagado térmico significa que el móvil se ha protegido. Android utiliza distintos estados térmicos que permiten al sistema reducir la carga de trabajo, limitar el rendimiento, ralentizar la carga y, en el nivel más extremo, apagar el dispositivo. Los límites exactos de temperatura de la batería y de la carcasa los fija cada fabricante, así que no tomes una sola cifra como regla válida para todos los móviles.
 
 El apagado no es el problema. El problema es el calor que lo ha provocado.
@@ -83,4 +84,4 @@ Sí, para tareas ligeras y después de que se haya enfriado. No reanudes de inme
 
 ---
 
-*Metadescripción: Un móvil que se apaga por sobrecalentamiento se está protegiendo. Enfríalo de forma segura, revisa la carga, las aplicaciones, las actualizaciones de Android y el estado de la batería, y aprende cuándo necesita reparación.*
+_Metadescripción: Un móvil que se apaga por sobrecalentamiento se está protegiendo. Enfríalo de forma segura, revisa la carga, las aplicaciones, las actualizaciones de Android y el estado de la batería, y aprende cuándo necesita reparación._

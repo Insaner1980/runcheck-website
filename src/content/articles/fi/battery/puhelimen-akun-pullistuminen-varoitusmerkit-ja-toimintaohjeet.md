@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 16
 order: 6
 subgroup: "Akun kunto"
-tags: ["akku","kunto","diagnostiikka","android","opas"]
+tags: ["akku", "kunto", "diagnostiikka", "android", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Huomaat, että takakansi on alkanut nousta. Tai näytön reunaan on ilmestynyt pieni rako. Tai puhelin keinuu yhtäkkiä pöydällä, vaikka se pysyi ennen suorassa.
 
 Pidä sitä selvänä pysähtymismerkkinä. Puhelimen akun pullistuminen ei ole suorituskykyongelma. Akku on vaurioitunut, ja sitä on käsiteltävä varovasti.

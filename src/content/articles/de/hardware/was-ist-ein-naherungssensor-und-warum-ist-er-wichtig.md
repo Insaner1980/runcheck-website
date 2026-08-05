@@ -5,10 +5,11 @@ listSummary: "diagnose, sensoren und android"
 hub: "hardware"
 sourceNumber: 117
 order: 14
-tags: ["diagnose","sensoren","android","hardware","ratgeber"]
+tags: ["diagnose", "sensoren", "android", "hardware", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Mitten im Gespräch schaltet sich das Display an deinem Gesicht ein, und deine Wange öffnet das Tastenfeld. Meist versagt dann dieser winzige Sensor bei der einen Aufgabe, die niemand bemerkt, solange sie funktioniert.
 
 Der Sensor meldet dem Smartphone, wenn sich etwas nahe vor dem Frontglas befindet. Während eines Anrufs ist dieses "Etwas" normalerweise dein Gesicht. Android schaltet daraufhin das Display aus und ignoriert Berührungen, damit dein Ohr nicht zum Touchscreen-Zubehör wird.

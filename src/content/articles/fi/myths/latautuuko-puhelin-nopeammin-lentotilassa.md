@@ -5,10 +5,11 @@ listSummary: "Lentotila voi nopeuttaa Android-puhelimen lataamista hieman, etenk
 hub: "myths"
 sourceNumber: 148
 order: 4
-tags: ["lataaminen","akku","android","opas","laitteisto"]
+tags: ["lataaminen", "akku", "android", "opas", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 Kytket puhelimen laturiin 12 %:ssa, katsot kelloa ja alat etsiä nopeutuskeinoja. Lentotila on yksi harvoista nikseistä, joilla on oikea vaikutus, mutta ihmeitä se ei tee.
 
 Se auttaa, koska puhelin kuluttaa vähemmän virtaa latauksen aikana. Kun mobiiliyhteys, Wi-Fi, Bluetooth, ilmoitukset ja taustasynkronointi käyttävät vähemmän energiaa, hieman suurempi osa laturin tehosta voi päätyä akkuun. Hyöty on yleensä pieni. Nykyisellä pikalaturilla sitä tuskin huomaa. Vanhalla 5 W:n laturilla, kannettavan tietokoneen USB-portilla tai varavirtalähteellä ero voi näkyä.

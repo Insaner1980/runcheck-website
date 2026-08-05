@@ -5,10 +5,11 @@ listSummary: "hardware, skader og reparation"
 hub: "physical-damage"
 sourceNumber: 133
 order: 3
-tags: ["hardware","skader","reparation","android","fejlfinding"]
+tags: ["hardware", "skader", "reparation", "android", "fejlfinding"]
 locale: "da"
 draft: false
 ---
+
 ---
 
 Du fisker telefonen op af vasken, skærmen er stadig tændt, og din første indskydelse er at trykke på alle knapper for at se, om den overlevede. Lad være. Det bedste, du kan gøre i det øjeblik, er kedeligt: Afbryd strømmen, få væske væk fra åbningerne, og giv telefonen tid.

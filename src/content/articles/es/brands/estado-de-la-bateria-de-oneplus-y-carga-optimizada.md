@@ -5,10 +5,11 @@ listSummary: "Conectas un móvil OnePlus reciente, apartas la vista unos minutos
 hub: "brands"
 sourceNumber: 156
 order: 4
-tags: ["bateria","estado","diagnostico","android","guia"]
+tags: ["bateria", "estado", "diagnostico", "android", "guia"]
 locale: "es"
 draft: false
 ---
+
 La carga rápida no es mala por sí sola. El verdadero enemigo es el calor. Un OnePlus que carga a 80 W o 100 W mientras juegas, utilizas la navegación o ves contenido en streaming puede someter la batería a bastante estrés si el software no lo gestiona bien.
 
 Una precisión sobre las fechas: Android 17 ya ha llegado primero a la mayoría de los Pixel compatibles. Los dispositivos OnePlus recibirán más adelante las actualizaciones de OxygenOS basadas en Android 17, y las funciones de batería pueden seguir variando según el modelo, la región y la compilación OTA. No des por hecho que un ajuste existe hasta que lo veas en tu propio móvil.

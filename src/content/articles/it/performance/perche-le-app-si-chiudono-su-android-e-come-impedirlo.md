@@ -5,10 +5,18 @@ listSummary: "Le app Android si chiudono per motivi precisi."
 hub: "performance"
 sourceNumber: 77
 order: 14
-tags: ["prestazioni","velocita","android","ottimizzazione","risoluzione-dei-problemi"]
+tags:
+  [
+    "prestazioni",
+    "velocita",
+    "android",
+    "ottimizzazione",
+    "risoluzione-dei-problemi",
+  ]
 locale: "it"
 draft: false
 ---
+
 ---
 
 La maggior parte dei crash delle app non è casuale. Sembra casuale perché non vedi l'errore che li ha causati.

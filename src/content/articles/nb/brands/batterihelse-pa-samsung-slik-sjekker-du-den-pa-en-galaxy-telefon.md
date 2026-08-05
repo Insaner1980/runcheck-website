@@ -5,10 +5,11 @@ listSummary: "Samsung gjør fortsatt batterihelse mer komplisert enn nødvendig.
 hub: "brands"
 sourceNumber: 153
 order: 1
-tags: ["batteri","helse","diagnostikk","android","guide"]
+tags: ["batteri", "helse", "diagnostikk", "android", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Usikkerheten er selve poenget. En Galaxy S25 med en nyere One UI-versjon kan vise prosent for batterihelse og antall ladesykluser i Innstillinger. En Galaxy S23 med en tilsynelatende lignende oppdatering viser kanskje ikke det samme. Android 17 er nå tilgjengelig på de fleste støttede Pixel-telefoner, mens Samsungs Android 17-baserte One UI 9 fortsatt er i betatest på Galaxy S26-serien i utvalgte markeder. Samsung bestemmer fortsatt hvilke batterifelter som blir synlige på hver modell.
 
 Dette er kontrollene som faktisk er verdt å bruke, og de som ser nyttige ut uten å fortelle deg særlig mye.

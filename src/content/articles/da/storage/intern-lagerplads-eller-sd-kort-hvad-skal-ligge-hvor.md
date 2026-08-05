@@ -5,10 +5,11 @@ listSummary: "Et microSD-kort kan give en Android-telefon mere plads, men det er
 hub: "storage"
 sourceNumber: 86
 order: 8
-tags: ["lagerplads","android","oprydning","optimering","guide"]
+tags: ["lagerplads", "android", "oprydning", "optimering", "guide"]
 locale: "da"
 draft: false
 ---
+
 Det betyder mere i 2026, fordi lageret i Android-telefoner bygger på meget forskellig hardware. Mange topmodeller og telefoner i mellemklassen har slet ingen microSD-kortplads. Pixel-telefoner har ikke en, Samsung fjernede den fra Galaxy S-serien for flere år siden, og flere aktuelle Galaxy A-modeller undlader den også. Samtidig understøtter mange ældre Galaxy A- og M-telefoner, Motorola Moto G-modeller og Sony Xperia-telefoner stadig microSD.
 
 Tjek den præcise model. Serienavnet er ikke nok.

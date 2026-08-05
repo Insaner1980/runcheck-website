@@ -5,10 +5,11 @@ listSummary: "hardware, danos y reparacion"
 hub: "physical-damage"
 sourceNumber: 135
 order: 5
-tags: ["hardware","danos","reparacion","android","solucion-de-problemas"]
+tags: ["hardware", "danos", "reparacion", "android", "solucion-de-problemas"]
 locale: "es"
 draft: false
 ---
+
 ---
 
 La primera señal no suele ser espectacular. Una funda deja de encajar bien. Un protector de pantalla se levanta siempre en una esquina. El móvil se balancea sobre la mesa aunque la parte trasera parezca normal.

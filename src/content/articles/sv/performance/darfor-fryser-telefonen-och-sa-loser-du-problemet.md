@@ -5,10 +5,11 @@ listSummary: "Fryser Android-telefonen eller slutar den svara?"
 hub: "performance"
 sourceNumber: 73
 order: 10
-tags: ["prestanda","hastighet","android","optimering","felsökning"]
+tags: ["prestanda", "hastighet", "android", "optimering", "felsökning"]
 locale: "sv"
 draft: false
 ---
+
 ---
 
 Du trycker på skärmen och ingenting rör sig. Appen ligger kvar, klockan kan ha stannat och inte ens bakåtgesten fungerar. Telefonen har frusit.

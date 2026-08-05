@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 30
 order: 20
 subgroup: "Virrankulutus"
-tags: ["akku","myytit","android","testaus","faktat"]
+tags: ["akku", "myytit", "android", "testaus", "faktat"]
 locale: "fi"
 draft: false
 ---
+
 Yleinen neuvo on poistaa 120 Hz käytöstä, jos akunkesto on tärkeä. Se on vain puoliksi oikein.
 
 Suuri virkistystaajuus voi kuluttaa enemmän akkua kuin 60 Hz, mutta kaikki 120 Hz:n puhelimet eivät maksa siitä samaa hintaa. Vanhemmassa tai edullisemmassa puhelimessa, jossa virkistystaajuus on kiinteä, 120 Hz voi lyhentää akunkestoa selvästi. Uudemmassa puhelimessa muuttuva virkistystaajuus pienentää kustannusta, koska näyttö ei pysy 120 Hz:ssä koko päivää. Taajuus nousee vierityksen ja animaatioiden aikana ja laskee, kun kuva pysyy paikallaan.

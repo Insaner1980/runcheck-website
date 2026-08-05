@@ -5,10 +5,11 @@ listSummary: "Det er nyttig å tømme bufrede filer, men bare når du faktisk ha
 hub: "storage"
 sourceNumber: 83
 order: 5
-tags: ["ytelse","hastighet","android","optimalisering","feilsøking"]
+tags: ["ytelse", "hastighet", "android", "optimalisering", "feilsøking"]
 locale: "nb"
 draft: false
 ---
+
 Dette er ikke søppel i utgangspunktet. Det meste finnes der for å få appene til å føles raskere.
 
 Problemet begynner når bufferfilene blir for store, blir ødelagt eller blir liggende etter en større app- eller Android-oppdatering som endrer hvordan appen fungerer. Android 17 endrer ikke grunnregelen. Versjonen ble først gjort tilgjengelig for de fleste støttede Pixel-enheter, mens andre Android-telefoner følger senere via produsentene, men på standard Android håndteres bufferen fortsatt app for app.

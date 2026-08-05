@@ -5,10 +5,11 @@ listSummary: "tillverkare, android och diagnostik"
 hub: "brands"
 sourceNumber: 158
 order: 6
-tags: ["tillverkare","android","diagnostik","märkesspecifikt","guide"]
+tags: ["tillverkare", "android", "diagnostik", "märkesspecifikt", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Pixels felsökningsverktyg är utspridda över Inställningar, den nyare hälsosidan, appen My Pixel och det separata diagnostikverktyget för reparationer. Det låter rörigare än det borde vara. När du vet var delarna finns är systemet ändå användbart för att kontrollera batteriförbrukning, laddningsproblem, temperaturvarningar, problem med pekskärmen och hårdvara i samband med reparation, utan att installera en slumpmässig diagnostikapp.
 
 En tidsmässig detalj spelar roll 2026: Android 17 rullas nu ut först till Pixel-enheter som stöds. Om telefonen började bete sig konstigt direkt efter uppdateringen ska du inte genast dra slutsatsen att hårdvaran har gått sönder. Kör kontrollerna i enheten först och avgör sedan om support behövs.
@@ -81,4 +82,4 @@ Använd båda när det behövs. Pixels verktyg är säkrare än att gissa, och l
 
 ---
 
-*Metabeskrivning: Pixel Troubleshooting-appen och relaterad Pixel-diagnostik kan kontrollera problem med batteri, laddning, temperatur, pekskärm och reparation. Här ser du var verktygen finns och vilka modeller som stöder dem.*
+_Metabeskrivning: Pixel Troubleshooting-appen och relaterad Pixel-diagnostik kan kontrollera problem med batteri, laddning, temperatur, pekskärm och reparation. Här ser du var verktygen finns och vilka modeller som stöder dem._

@@ -5,12 +5,12 @@ listSummary: "Un móvil usado durante uno o dos años puede parecer impecable y 
 hub: "buying-selling"
 sourceNumber: 2
 order: 1
-tags: ["guia-de-compra","android","comparacion","valor","guia"]
+tags: ["guia-de-compra", "android", "comparacion", "valor", "guia"]
 locale: "es"
 draft: false
 ---
-Comprobar su estado real lleva unos quince minutos y no exige instalar nada.
 
+Comprobar su estado real lleva unos quince minutos y no exige instalar nada.
 
 ## Empieza por lo que no se ve
 
@@ -24,7 +24,6 @@ Un estado superior al 90 % es una buena señal. Entre el 80 % y el 90 %, la bate
 
 El estado del almacenamiento es más difícil de cuantificar, pero también merece atención. Abre Ajustes > Almacenamiento y comprueba cuánto espacio está ocupado. Más revelador que la cifra: ¿el móvil se queda pensando al abrir aplicaciones? ¿La cámara tarda un segundo en guardar las fotos? La memoria flash NAND se ralentiza al llenarse y a medida que las celdas se desgastan por las escrituras repetidas. Esos síntomas se perciben como una lentitud general que suele atribuirse por error al procesador.
 
-
 ## El estado físico
 
 Sujeta el móvil bajo una luz intensa y observa la pantalla desde varios ángulos. Los pequeños arañazos que no se ven de frente aparecen al inclinarla. Revisa los bordes, donde suelen empezar las grietas provocadas por caídas. Coloca el teléfono sobre una mesa plana. Si se balancea, el marco puede estar doblado o la batería puede haberse hinchado. Una batería hinchada es un problema de seguridad, no solo de rendimiento.
@@ -33,13 +32,11 @@ El puerto de carga acumula pelusa del bolsillo durante meses. Míralo con una li
 
 Los botones deben hacer clic con claridad. Un botón de encendido blando o un control de volumen que exige pulsarlo dos veces muestra un desgaste que no va a mejorar por sí solo.
 
-
 ## Pantalla y respuesta táctil
 
 Los píxeles muertos aparecen como pequeños puntos oscuros sobre un fondo blanco. Abre un navegador, busca «prueba de pantalla blanca», pon la imagen a pantalla completa y observa con cuidado. Repite con fondos rojo, verde, azul y negro puros para detectar problemas en los subpíxeles. Las pantallas OLED también pueden sufrir quemado por elementos que permanecen meses en la misma posición, como la barra de navegación, la barra de estado o la interfaz de una aplicación muy utilizada. Un fondo gris medio a pantalla completa hace visible el quemado si existe.
 
 Las zonas táctiles muertas cuestan más de detectar. Activa las Opciones para desarrolladores tocando siete veces Número de compilación dentro de Información del teléfono y, después, activa Ubicación del puntero. Desliza lentamente un dedo por toda la superficie. El rastro de coordenadas debe seguirlo sin interrupciones, sobre todo en las esquinas y los bordes, donde las conexiones flexibles son más vulnerables a los golpes.
-
 
 ## Sensores, altavoces y cámaras
 
@@ -49,11 +46,9 @@ Los móviles Samsung disponen de una prueba específica de hardware al marcar `*
 
 Reproduce música por el altavoz a distintos volúmenes. Los chasquidos o la distorsión a un nivel moderado apuntan a daños. Graba una nota de voz y escúchala para probar el micrófono. Abre las cámaras frontal y trasera y toma varias fotos con buena luz. Busca fallos de enfoque, zonas borrosas o una cámara que se mueve hacia delante y hacia atrás sin conseguir fijar el foco.
 
-
 ## Daños por líquidos
 
 Muchos móviles Android tienen un indicador de contacto con líquidos (LCI) visible dentro de la ranura de la tarjeta SIM. Saca la bandeja y observa el interior con una luz. El color blanco o plateado indica que no se ha detectado contacto con líquidos. El rosa o rojo señala que ha entrado líquido en algún momento. Un indicador rosa no significa que el móvil esté averiado ahora mismo, pero los daños por agua pueden empeorar conforme avanza la corrosión interna. Es información importante, aunque no siempre supone descartar el dispositivo.
-
 
 ## Estado del software
 

@@ -5,10 +5,12 @@ listSummary: "Se il telefono si spegne per il surriscaldamento, sta proteggendo 
 hub: "thermal"
 sourceNumber: 61
 order: 9
-tags: ["temperatura","termico","android","risoluzione-dei-problemi","hardware"]
+tags:
+  ["temperatura", "termico", "android", "risoluzione-dei-problemi", "hardware"]
 locale: "it"
 draft: false
 ---
+
 Il telefono diventa nero, non vuole più riaccendersi e, dopo un po', mostra un avviso di temperatura elevata. È fastidioso, sì. Di solito, però, è un buon segno.
 
 Uno spegnimento termico indica che il telefono si è protetto. Android prevede diversi stati termici che consentono al sistema di ridurre il carico, limitare le prestazioni, rallentare la ricarica e, nei casi estremi, spegnere il dispositivo. Le soglie precise per la temperatura della batteria e della superficie esterna sono stabilite dal produttore, quindi non considerare un singolo valore valido per tutti i telefoni.

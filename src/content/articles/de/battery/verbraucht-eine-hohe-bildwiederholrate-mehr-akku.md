@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 30
 order: 20
 subgroup: "Drain"
-tags: ["akku","mythen","android","testen","fakten"]
+tags: ["akku", "mythen", "android", "testen", "fakten"]
 locale: "de"
 draft: false
 ---
+
 Der übliche Rat lautet, 120 Hz auszuschalten, wenn dir die Akkulaufzeit wichtig ist. Das stimmt nur zur Hälfte.
 
 Eine hohe Bildwiederholrate kann mehr Akku verbrauchen als 60 Hz, aber nicht jedes 120-Hz-Smartphone zahlt denselben Preis. Bei einem älteren oder günstigeren Gerät mit fest eingestellter hoher Bildwiederholrate kann 120 Hz die Laufzeit deutlich verkürzen. Bei einem neueren Smartphone mit variabler Bildwiederholrate ist der Mehrverbrauch oft viel kleiner, weil das Display nicht den ganzen Tag mit 120 Hz arbeitet. Beim Scrollen und bei Animationen steigt die Rate, bei einem statischen Bild sinkt sie wieder.

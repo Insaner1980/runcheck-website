@@ -5,10 +5,18 @@ listSummary: "I telefoni possono rallentare per l'invecchiamento della batteria.
 hub: "myths"
 sourceNumber: 150
 order: 6
-tags: ["prestazioni","velocita","android","ottimizzazione","risoluzione-dei-problemi"]
+tags:
+  [
+    "prestazioni",
+    "velocita",
+    "android",
+    "ottimizzazione",
+    "risoluzione-dei-problemi",
+  ]
 locale: "it"
 draft: false
 ---
+
 Un telefono può davvero diventare più lento con il tempo. La parte scomoda è che possono essere vere più cose insieme: i produttori hanno preso decisioni che hanno danneggiato dispositivi meno recenti, ma la maggior parte dei rallentamenti deriva comunque da cause tecniche molto più banali.
 
 Quindi sì, l'obsolescenza programmata è in parte reale. No, ogni telefono lento non dimostra l'esistenza di un interruttore segreto che lo rende inutilizzabile.

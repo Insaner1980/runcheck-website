@@ -5,10 +5,11 @@ listSummary: "vergleich, apps und android"
 hub: "thermal"
 sourceNumber: 55
 order: 3
-tags: ["vergleich","apps","android","kaufratgeber","test"]
+tags: ["vergleich", "apps", "android", "kaufratgeber", "test"]
 locale: "de"
 draft: false
 ---
+
 Die meisten Warnungen vor Mobile Gaming richten sich gegen den falschen Teil des Smartphones. Gaming beschädigt CPU oder GPU normalerweise nicht. Das Problem ist Wärme, und den Preis zahlt der Akku.
 
 ## Die Hardware kommt mit Spielen zurecht

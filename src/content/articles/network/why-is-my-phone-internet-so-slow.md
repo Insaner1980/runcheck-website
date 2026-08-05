@@ -5,9 +5,10 @@ listSummary: "Slow internet troubleshooting"
 hub: "network"
 sourceNumber: 91
 order: 2
-tags: ["performance","speed","android","optimization","troubleshooting"]
+tags: ["performance", "speed", "android", "optimization", "troubleshooting"]
 draft: false
 ---
+
 Don't start with a factory reset. Start with evidence.
 
 ## First, separate the phone from the network

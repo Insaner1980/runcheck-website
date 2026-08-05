@@ -5,10 +5,11 @@ listSummary: "Stai provando a registrare un altro video e Android ti avvisa che 
 hub: "storage"
 sourceNumber: 85
 order: 7
-tags: ["memoria","android","pulizia","ottimizzazione","guida"]
+tags: ["memoria", "android", "pulizia", "ottimizzazione", "guida"]
 locale: "it"
 draft: false
 ---
+
 Le foto sono gestibili. Il vero problema sono i video. Pochi minuti in 4K possono occupare più spazio di mesi di screenshot, e il backup nel cloud aiuta solo dopo che hai rimosso dal telefono le copie locali.
 
 ## Parti da Google Foto

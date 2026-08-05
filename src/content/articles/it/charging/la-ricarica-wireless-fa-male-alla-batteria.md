@@ -5,10 +5,11 @@ listSummary: "La ricarica wireless è in genere sicura per la batteria del telef
 hub: "charging"
 sourceNumber: 40
 order: 4
-tags: ["ricarica","batteria","android","guida","hardware"]
+tags: ["ricarica", "batteria", "android", "guida", "hardware"]
 locale: "it"
 draft: false
 ---
+
 La ricarica wireless fa male alla batteria oppure è solo un'altra preoccupazione eccessiva di internet? La risposta equilibrata è questa: va bene, ma è più facile usarla male rispetto alla ricarica via cavo.
 
 Il problema non è l'energia trasmessa senza fili. È il calore. Durante il trasferimento, la ricarica wireless disperde più energia di un cavo, e quell'energia diventa calore nel telefono, nel pad o in entrambi.

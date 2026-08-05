@@ -5,10 +5,11 @@ listSummary: "Find årsagen, når Android melder om fuld lagerplads, selv om der
 hub: "storage"
 sourceNumber: 87
 order: 9
-tags: ["lagerplads","android","oprydning","optimering","guide"]
+tags: ["lagerplads", "android", "oprydning", "optimering", "guide"]
 locale: "da"
 draft: false
 ---
+
 Irriterende, men ikke sjældent. Androids advarsler om fuld lagerplads kan skyldes synlige filer, skjulte appdata, papirkurve, mislykkede downloads, rester fra systemopdateringer eller en lagerdatabase, der endnu ikke er blevet opdateret. Efter en stor opdatering, blandt andet udrulningen af Android 17, som begyndte på understøttede Pixel-telefoner før producenternes bredere opdateringer, kan den slags forvirring opstå i et døgn eller to, mens telefonen falder til ro.
 
 Begynd med at genstarte telefonen. Ja, virkelig. Det er den kedelige løsning, men den rydder fastlåst midlertidigt arbejde oftere, end mange regner med.

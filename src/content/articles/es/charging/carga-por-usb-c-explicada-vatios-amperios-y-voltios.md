@@ -5,10 +5,11 @@ listSummary: "carga, bateria y android"
 hub: "charging"
 sourceNumber: 46
 order: 10
-tags: ["carga","bateria","android","guia","hardware"]
+tags: ["carga", "bateria", "android", "guia", "hardware"]
 locale: "es"
 draft: false
 ---
+
 Los vatios son la cifra que más importa. Los voltios y los amperios explican cómo llega el cargador a esa potencia, pero el número de vatios indica cuánta energía puede suministrar.
 
 Un cargador que ofrece 9 V a 2 A entrega 18 W. Otro que ofrece 20 V a 3 A entrega 60 W. La cuenta es sencilla: voltios por amperios es igual a vatios.

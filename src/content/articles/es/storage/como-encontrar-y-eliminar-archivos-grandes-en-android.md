@@ -5,10 +5,11 @@ listSummary: "La forma más rápida de liberar almacenamiento en Android es loca
 hub: "storage"
 sourceNumber: 82
 order: 4
-tags: ["almacenamiento","android","limpieza","optimizacion","guia"]
+tags: ["almacenamiento", "android", "limpieza", "optimizacion", "guia"]
 locale: "es"
 draft: false
 ---
+
 ---
 
 Un solo vídeo 4K de un viaje de fin de semana puede ocupar más que cientos de fotos. Lo mismo ocurre con un episodio descargado de Netflix, una carpeta olvidada de datos de un juego o un archivo ZIP que abriste hace meses.

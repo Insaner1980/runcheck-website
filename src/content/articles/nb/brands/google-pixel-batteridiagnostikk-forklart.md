@@ -5,10 +5,11 @@ listSummary: "batteri, helse og diagnostikk"
 hub: "brands"
 sourceNumber: 154
 order: 2
-tags: ["batteri","helse","diagnostikk","android","guide"]
+tags: ["batteri", "helse", "diagnostikk", "android", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Tidspunktet betyr også noe. Android 17 ble lansert 16. juni 2026 og er nå tilgjengelig på de fleste støttede Pixel-enheter, mens andre Android-produsenter får sine egne Android 17-baserte oppdateringer senere. Det betyr ikke at alle Pixel-telefoner plutselig får den samme batterisiden. Googles batteridiagnostikk er fortsatt delt etter modell.
 
 ## Batterihelse og kapasitet

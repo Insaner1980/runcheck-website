@@ -5,9 +5,10 @@ listSummary: "RAM booster app reality"
 hub: "myths"
 sourceNumber: 147
 order: 3
-tags: ["performance","speed","android","optimization","troubleshooting"]
+tags: ["performance", "speed", "android", "optimization", "troubleshooting"]
 draft: false
 ---
+
 On a modern Android phone, RAM cleaner and booster apps don't improve performance in any lasting way. They usually make the phone do more work, not less. Worse, they often ask for broad permissions so they can monitor usage, show ads, and keep themselves running in the background.
 
 ## Free RAM is not the goal

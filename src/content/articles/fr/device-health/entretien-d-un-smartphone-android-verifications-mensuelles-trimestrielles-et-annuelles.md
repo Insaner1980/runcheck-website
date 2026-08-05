@@ -5,10 +5,11 @@ listSummary: "La plupart des smartphones Android n’exigent pas une attention c
 hub: "device-health"
 sourceNumber: 8
 order: 4
-tags: ["stockage","android","nettoyage","optimisation","guide"]
+tags: ["stockage", "android", "nettoyage", "optimisation", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Quelques minutes à intervalles réguliers suffisent à éviter une grande partie de ces désagréments. Cette liste s’adapte à votre usage réel. Tout ne doit pas être fait chaque mois, et certaines vérifications ne sont utiles qu’une ou deux fois par an.
 
 ## Tous les mois

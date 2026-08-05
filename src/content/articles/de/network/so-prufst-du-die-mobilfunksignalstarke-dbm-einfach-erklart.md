@@ -5,10 +5,11 @@ listSummary: "Signalbalken reichen für einen schnellen Blick, sind aber keine M
 hub: "network"
 sourceNumber: 93
 order: 4
-tags: ["netzwerk","verbindungen","android","fehlerbehebung","ratgeber"]
+tags: ["netzwerk", "verbindungen", "android", "fehlerbehebung", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Das klingt technischer, als es ist. dBm beschreibt einfach die Leistung des Mobilfunksignals, das dein Smartphone empfängt. Je näher der Wert an null liegt, desto stärker ist das Signal. -75 dBm ist stärker als -95 dBm. So einfach ist das.
 
 ## dBm schnell einordnen
@@ -19,13 +20,13 @@ Die Skala ist logarithmisch. Eine Änderung um 3 dBm entspricht ungefähr einer 
 
 Für LTE und die meisten 5G-Verbindungen unter 6 GHz sind diese Bereiche eine brauchbare Faustregel:
 
-| Messwert | Was er in der Regel bedeutet |
-|---|---|
-| -50 bis -70 dBm | Ausgezeichnet. Anrufe und Daten sollten stabil funktionieren, sofern die Funkzelle nicht überlastet ist. |
-| -70 bis -85 dBm | Gut. Das ist ein normaler Wert für ordentliche Abdeckung im Freien oder in Fensternähe. |
-| -85 bis -100 dBm | Nutzbar, aber nicht besonders gut. Surfen funktioniert, Streams können puffern und die Uploadgeschwindigkeit bricht oft zuerst ein. |
-| -100 bis -110 dBm | Schwach. Anrufe können abbrechen, Nachrichten verspätet ankommen und das Modem braucht mehr Energie, um die Verbindung zu halten. |
-| Unter -110 dBm | Grenzwertig. Rechne mit Zeitüberschreitungen, kurzen Phasen ohne Netz oder einem erzwungenen Wechsel auf eine andere Netzebene. |
+| Messwert          | Was er in der Regel bedeutet                                                                                                        |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| -50 bis -70 dBm   | Ausgezeichnet. Anrufe und Daten sollten stabil funktionieren, sofern die Funkzelle nicht überlastet ist.                            |
+| -70 bis -85 dBm   | Gut. Das ist ein normaler Wert für ordentliche Abdeckung im Freien oder in Fensternähe.                                             |
+| -85 bis -100 dBm  | Nutzbar, aber nicht besonders gut. Surfen funktioniert, Streams können puffern und die Uploadgeschwindigkeit bricht oft zuerst ein. |
+| -100 bis -110 dBm | Schwach. Anrufe können abbrechen, Nachrichten verspätet ankommen und das Modem braucht mehr Energie, um die Verbindung zu halten.   |
+| Unter -110 dBm    | Grenzwertig. Rechne mit Zeitüberschreitungen, kurzen Phasen ohne Netz oder einem erzwungenen Wechsel auf eine andere Netzebene.     |
 
 Das sind keine allgemeingültigen Bestehensgrenzen. Ein Smartphone kann bei -95 dBm problemlos funktionieren, wenn das Signal sauber und die Funkzelle nicht ausgelastet ist. Ein anderes kann bei -75 dBm sehr langsam sein, wenn die Zelle überlastet ist oder starke Störungen auftreten.
 

@@ -5,10 +5,11 @@ listSummary: "Le abitudini di ricarica incidono su quanto a lungo la batteria de
 hub: "charging"
 sourceNumber: 38
 order: 2
-tags: ["ricarica","batteria","android","guida","hardware"]
+tags: ["ricarica", "batteria", "android", "guida", "hardware"]
 locale: "it"
 draft: false
 ---
+
 La migliore abitudine di ricarica è poco interessante: tieni il telefono fresco, evita di lasciarlo per ore al 100 % e non scaricarlo completamente ogni giorno. Tutto qui. Il resto sono dettagli.
 
 Questo non significa che devi sorvegliare la percentuale o scollegare il telefono appena raggiunge l'80 %. Un telefono è uno strumento, non un campione da laboratorio. Le batterie agli ioni di litio, però, invecchiano più rapidamente in alcune condizioni prevedibili, e la tua routine può aumentare lo stress oppure limitarlo.

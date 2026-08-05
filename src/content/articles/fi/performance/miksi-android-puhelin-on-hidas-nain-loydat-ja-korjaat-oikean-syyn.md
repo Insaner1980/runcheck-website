@@ -5,10 +5,11 @@ listSummary: "Android-puhelimesi on hitaampi kuin ennen, etkä todennäköisesti
 hub: "performance"
 sourceNumber: 64
 order: 1
-tags: ["suorituskyky","nopeus","android","optimointi","vianetsintä"]
+tags: ["suorituskyky", "nopeus", "android", "optimointi", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+
 Se ei automaattisesti tarkoita, että puhelin olisi käyttöikänsä päässä. Useimmat hidastumiset johtuvat muutamasta tarkistettavasta asiasta: vähäisestä tallennustilasta, raskaista taustasovelluksista, RAM-muistin vähyydestä, kuumuudesta, akun kulumisesta tai yhdestä päivityksen jälkeen huonosti toimivasta sovelluksesta.
 
 ## Nopea tarkistuslista

@@ -5,10 +5,11 @@ listSummary: "Le stockage Android peut s'user, mais la plupart des téléphones 
 hub: "storage"
 sourceNumber: 80
 order: 2
-tags: ["stockage","android","nettoyage","optimisation","guide"]
+tags: ["stockage", "android", "nettoyage", "optimisation", "guide"]
 locale: "fr"
 draft: false
 ---
+
 ---
 
 Comment savoir si le stockage de votre téléphone Android est en bon état, et pas simplement s'il lui reste de la place ? C'est agaçant, mais la plupart des appareils ne rendent toujours pas cette vérification facile.

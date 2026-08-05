@@ -5,10 +5,11 @@ listSummary: "La maggior parte di chi usa Android non ha bisogno di un'app antiv
 hub: "software"
 sourceNumber: 126
 order: 8
-tags: ["sicurezza","malware","android","privacy","guida"]
+tags: ["sicurezza", "malware", "android", "privacy", "guida"]
 locale: "it"
 draft: false
 ---
+
 Se installi app solo da Google Play, mantieni Android aggiornato e non apri link casuali a file APK, in genere le protezioni integrate di Android bastano. Se invece installi spesso app da altre fonti, usi un telefono non più supportato o gestisci dati sensibili, un'app di sicurezza aggiuntiva può avere senso.
 
 La differenza la fanno le abitudini, non le sensazioni.

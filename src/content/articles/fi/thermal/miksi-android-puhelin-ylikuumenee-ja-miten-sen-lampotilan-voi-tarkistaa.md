@@ -6,11 +6,12 @@ listSummary: "Tarkista puhelimen lämpötila ja selvitä ylikuumenemisen syy."
 hub: "thermal"
 sourceNumber: 53
 order: 1
-tags: ["lämpötila","kuumeneminen","android","vianetsintä","laitteisto"]
+tags: ["lämpötila", "kuumeneminen", "android", "vianetsintä", "laitteisto"]
 locale: "fi"
 draft: false
 ---
-*Android-puhelin voi tuntua kuumalta arkisesta syystä, vakavasta syystä tai ilman selvää syytä. Olennaista on tietää, mitä lukemaa tarkastelet ja onko se oikeasti merkityksellinen.*
+
+_Android-puhelin voi tuntua kuumalta arkisesta syystä, vakavasta syystä tai ilman selvää syytä. Olennaista on tietää, mitä lukemaa tarkastelet ja onko se oikeasti merkityksellinen._
 
 ## Tarkista ensin lämpötila
 

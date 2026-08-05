@@ -5,10 +5,11 @@ listSummary: "Du möchtest noch ein Video aufnehmen, doch Android meldet, dass n
 hub: "storage"
 sourceNumber: 85
 order: 7
-tags: ["speicher","android","bereinigung","optimierung","ratgeber"]
+tags: ["speicher", "android", "bereinigung", "optimierung", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Fotos sind meistens noch überschaubar. Videos sind das eigentliche Problem. Einige Minuten 4K-Material können mehr Platz belegen als mehrere Monate voller Screenshots. Eine Cloud-Sicherung hilft allerdings erst dann beim lokalen Speicher, wenn du die Kopien vom Smartphone entfernst.
 
 ## Beginne mit Google Fotos

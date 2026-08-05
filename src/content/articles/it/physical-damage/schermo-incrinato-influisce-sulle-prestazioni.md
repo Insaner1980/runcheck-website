@@ -5,10 +5,12 @@ listSummary: "Uno schermo incrinato non rallenta direttamente il processore."
 hub: "physical-damage"
 sourceNumber: 136
 order: 6
-tags: ["batteria","consumo","risoluzione-dei-problemi","android","prestazioni"]
+tags:
+  ["batteria", "consumo", "risoluzione-dei-problemi", "android", "prestazioni"]
 locale: "it"
 draft: false
 ---
+
 ---
 
 Uno schermo incrinato non rende più lenta la CPU. Le app non richiedono improvvisamente più potenza di calcolo solo perché il vetro si è rotto.

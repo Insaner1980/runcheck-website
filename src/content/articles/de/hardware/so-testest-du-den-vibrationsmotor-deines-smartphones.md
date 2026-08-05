@@ -5,10 +5,11 @@ listSummary: "hardware, testen und diagnose"
 hub: "hardware"
 sourceNumber: 109
 order: 6
-tags: ["hardware","testen","diagnose","android","ratgeber"]
+tags: ["hardware", "testen", "diagnose", "android", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 ---
 
 Ein stummes Smartphone bedeutet nicht automatisch, dass der Vibrationsmotor defekt ist. Die meisten Vibrationsprobleme entstehen zuerst durch Einstellungen, danach durch Software und erst zuletzt durch Hardware.

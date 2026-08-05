@@ -5,10 +5,11 @@ listSummary: "Pourquoi un composant système que vous n'ouvrez jamais reçoit-il
 hub: "software"
 sourceNumber: 129
 order: 11
-tags: ["android","mises-a-jour","securite","logiciel","guide"]
+tags: ["android", "mises-a-jour", "securite", "logiciel", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Vous n'appuyez probablement jamais sur une icône WebView. La plupart des gens ne le font pas. Pourtant, lorsqu'une application de messagerie ouvre une page de connexion, qu'un réseau social affiche un article sans vous faire quitter l'application ou qu'une application bancaire charge un écran d'authentification basé sur le Web, WebView peut assurer le rendu en arrière-plan.
 
 ## Ce que fait réellement WebView

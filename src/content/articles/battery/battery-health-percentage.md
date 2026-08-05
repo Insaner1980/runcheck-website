@@ -6,9 +6,10 @@ hub: "battery"
 sourceNumber: 13
 order: 3
 subgroup: "Health"
-tags: ["battery","health","diagnostics","android","guide"]
+tags: ["battery", "health", "diagnostics", "android", "guide"]
 draft: false
 ---
+
 The battery-health number is a wear number. It is not the same thing as the battery percentage in your status bar.
 
 If your phone reports 87% health, its cell can hold about 87% of the charge it held when it was new. It still works. The tank is just smaller now.

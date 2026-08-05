@@ -5,10 +5,11 @@ listSummary: "Estás al 18 %, el icono de la batería aparece en rojo y la panta
 hub: "myths"
 sourceNumber: 146
 order: 2
-tags: ["mitos","datos","android","bateria","desmitificacion"]
+tags: ["mitos", "datos", "android", "bateria", "desmitificacion"]
 locale: "es"
 draft: false
 ---
+
 En realidad, no ahorra batería.
 
 ## La respuesta sigue siendo no

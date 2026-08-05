@@ -5,10 +5,11 @@ listSummary: "Rajaa latausvika laturiin, porttiin, akkuun tai puhelimeen."
 hub: "charging"
 sourceNumber: 48
 order: 12
-tags: ["lataaminen","akku","android","opas","laitteisto"]
+tags: ["lataaminen", "akku", "android", "opas", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 Akkua on jäljellä 2 %, kytket puhelimen laturiin eikä mitään tapahdu. Ei latauskuvaketta. Ei värinää. Ei pienintäkään merkkiä siitä, että johto teki mitään.
 
 Puhelimen latautumattomuus on yleensä ketjuongelma. Virran täytyy kulkea pistorasiasta virtasovittimeen, johdon kautta USB-C-porttiin ja sieltä puhelimen sisäiseen latauselektroniikkaan. Yksi heikko lenkki riittää saamaan koko puhelimen näyttämään kuolleelta. Käy ketju läpi järjestyksessä, niin viallinen osa löytyy yleensä 10-15 minuutissa.

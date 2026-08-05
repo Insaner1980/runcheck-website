@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 20
 order: 10
 subgroup: "Health"
-tags: ["tecnologia-de-baterias","ciencia","guia","hardware"]
+tags: ["tecnologia-de-baterias", "ciencia", "guia", "hardware"]
 locale: "es"
 draft: false
 ---
+
 El motivo es el silicio-carbono. Sigue siendo una batería de iones de litio, pero el ánodo ha cambiado.
 
 ## Qué ha cambiado en el ánodo

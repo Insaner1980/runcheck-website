@@ -1,14 +1,15 @@
 ---
 title: "Bør jeg opdatere min Android-telefon? Fordele og ulemper"
-description: "De fleste råd om opdateringer er for bastante. \"Opdater altid med det samme\" lyder enkelt, men store Android-versioner kan have fejl i den første uge. \"Opdater aldrig, for telefonen kan blive langsommere\" er værre, fordi det efterlader kendte sikkerhedshuller åbne."
+description: 'De fleste råd om opdateringer er for bastante. "Opdater altid med det samme" lyder enkelt, men store Android-versioner kan have fejl i den første uge. "Opdater aldrig, for telefonen kan blive langsommere" er værre, fordi det efterlader kendte sikkerhedshuller åbne.'
 listSummary: "De fleste råd om opdateringer er for bastante."
 hub: "software"
 sourceNumber: 120
 order: 2
-tags: ["android","opdateringer","sikkerhed","software","guide"]
+tags: ["android", "opdateringer", "sikkerhed", "software", "guide"]
 locale: "da"
 draft: false
 ---
+
 Det praktiske svar er enkelt: Installer sikkerhedsopdateringer hurtigt. Vent eventuelt kort med store Android-versionsopdateringer, mens du undersøger, om der er alvorlige problemer, især når udgivelsen er helt ny.
 
 Android 17 blev udgivet den 16. juni 2026 til de fleste understøttede Pixel-telefoner. Samsung, Xiaomi, OnePlus, OPPO, Motorola og andre producenter følger deres egne tidsplaner. Når Android 17 dukker op på din enhed nu, er beslutningen derfor lidt anderledes end ved en almindelig månedlig sikkerhedsopdatering.

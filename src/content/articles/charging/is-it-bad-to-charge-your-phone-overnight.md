@@ -5,9 +5,10 @@ listSummary: "Overnight charging risk check"
 hub: "charging"
 sourceNumber: 42
 order: 6
-tags: ["charging","battery","android","guide","hardware"]
+tags: ["charging", "battery", "android", "guide", "hardware"]
 draft: false
 ---
+
 You plug in at 11 PM, wake up at 7 AM, and the phone has been sitting at 100% for hours. That feels wrong, mostly because old battery advice never really died.
 
 The old fear was overcharging. That's not the real issue anymore. The modern issue is time spent full.

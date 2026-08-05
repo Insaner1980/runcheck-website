@@ -5,10 +5,11 @@ listSummary: "laitteisto, testaus ja diagnostiikka"
 hub: "hardware"
 sourceNumber: 110
 order: 7
-tags: ["laitteisto","testaus","diagnostiikka","android","opas"]
+tags: ["laitteisto", "testaus", "diagnostiikka", "android", "opas"]
 locale: "fi"
 draft: false
 ---
+
 ---
 
 Kameran testaaminen helpottuu, kun lakkaat tuijottamasta megapikseleitä. Myös 50 MP:n kenno voi ottaa huonoja kuvia, jos linssi on likainen, automaattitarkennus on rikki tai kameramoduuli on iskun seurauksena hieman väärässä asennossa.

@@ -5,9 +5,10 @@ listSummary: "5G support checks"
 hub: "network"
 sourceNumber: 101
 order: 12
-tags: ["network","connectivity","android","troubleshooting","guide"]
+tags: ["network", "connectivity", "android", "troubleshooting", "guide"]
 draft: false
 ---
+
 A phone either has 5G hardware or it doesn't. Android 17, a carrier settings update, or a new SIM can't turn a 4G-only modem into a 5G modem.
 
 That sounds obvious, but it is the source of a lot of confusion. Plenty of recent budget Android phones are still 4G-only, while many older flagships already support 5G. The model number matters more than the year printed on the receipt.

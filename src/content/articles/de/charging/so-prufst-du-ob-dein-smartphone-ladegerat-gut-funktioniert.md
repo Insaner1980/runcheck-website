@@ -5,10 +5,11 @@ listSummary: "laden, akku und android"
 hub: "charging"
 sourceNumber: 44
 order: 8
-tags: ["laden","akku","android","ratgeber","hardware"]
+tags: ["laden", "akku", "android", "ratgeber", "hardware"]
 locale: "de"
 draft: false
 ---
+
 Ein Ladegerät kann mechanisch passen und beim Laden trotzdem versagen. USB-C sagt dir nur, dass der Stecker passt. Es verrät nicht, ob sich Netzteil, Kabel und Smartphone auf Schnellladen geeinigt haben.
 
 Android 17 ändert an diesem Grundproblem nichts. Es gibt weiterhin keine universelle Android-Anzeige mit der Meldung: „Dieses Ladegerät liefert gerade 23,4 W.“ Du musst die Leistung ableiten oder richtig messen.

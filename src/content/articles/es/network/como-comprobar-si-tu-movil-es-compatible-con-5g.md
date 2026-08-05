@@ -5,10 +5,11 @@ listSummary: "red, conectividad y android"
 hub: "network"
 sourceNumber: 101
 order: 12
-tags: ["red","conectividad","android","solucion-de-problemas","guia"]
+tags: ["red", "conectividad", "android", "solucion-de-problemas", "guia"]
 locale: "es"
 draft: false
 ---
+
 Un móvil tiene hardware 5G o no lo tiene. Android 17, una actualización de los ajustes del operador o una SIM nueva no pueden convertir un módem limitado a 4G en uno compatible con 5G.
 
 Parece obvio, pero provoca mucha confusión. Bastantes móviles Android económicos recientes siguen siendo solo 4G, mientras que muchos modelos de gama alta más antiguos ya admiten 5G. El número de modelo importa más que el año que aparece en el recibo.

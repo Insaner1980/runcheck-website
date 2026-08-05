@@ -5,10 +5,11 @@ listSummary: "De fleste Android-brugere har ikke brug for en separat antivirusap
 hub: "software"
 sourceNumber: 126
 order: 8
-tags: ["sikkerhed","malware","android","privatliv","guide"]
+tags: ["sikkerhed", "malware", "android", "privatliv", "guide"]
 locale: "da"
 draft: false
 ---
+
 Hvis du kun installerer apps fra Google Play, holder Android opdateret og ikke trykker dig videre gennem tilfældige APK-links, er Androids indbyggede beskyttelse som regel tilstrækkelig. Hvis du ofte installerer apps uden om Play Store, bruger en telefon uden softwaresupport eller anvender enheden til følsomt arbejde, kan en ekstra sikkerhedsapp give mening.
 
 Forskellen ligger i din adfærd, ikke i en diffus følelse af sikkerhed.

@@ -5,10 +5,11 @@ listSummary: "Recoges el móvil, el cristal parece intacto y durante un segundo 
 hub: "physical-damage"
 sourceNumber: 131
 order: 1
-tags: ["hardware","pruebas","diagnostico","android","guia"]
+tags: ["hardware", "pruebas", "diagnostico", "android", "guia"]
 locale: "es"
 draft: false
 ---
+
 No se trata de examinar cada píxel con angustia, como si fueras a comprar un móvil de segunda mano a un desconocido. Se trata de detectar lo que importa: grietas, píxeles muertos, zonas sin respuesta táctil, cambios de color, parpadeos y separación del panel.
 
 ## Empieza por el cristal y el marco

@@ -5,10 +5,11 @@ listSummary: "red, conectividad y android"
 hub: "network"
 sourceNumber: 98
 order: 9
-tags: ["red","conectividad","android","solucion-de-problemas","guia"]
+tags: ["red", "conectividad", "android", "solucion-de-problemas", "guia"]
 locale: "es"
 draft: false
 ---
+
 Intentas vincular unos auriculares, un reloj, un altavoz o el coche, y Android no encuentra el dispositivo o dice que está conectado aunque no funciona nada. Bluetooth es así. Puede pasar meses sin llamar la atención y, de repente, una vinculación guardada se estropea y parece que todo ha dejado de funcionar.
 
 Empieza por las comprobaciones sencillas antes de rebuscar en los ajustes. La mayoría de los fallos de Bluetooth no son problemas profundos de Android. Suelen deberse a vinculaciones antiguas, poca batería en el accesorio, distancia, interferencias o un dispositivo que en realidad no está en modo de vinculación.

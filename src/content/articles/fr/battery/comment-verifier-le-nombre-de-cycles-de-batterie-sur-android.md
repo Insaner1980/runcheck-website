@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 12
 order: 2
 subgroup: "Health"
-tags: ["batterie","etat","diagnostic","android","guide"]
+tags: ["batterie", "etat", "diagnostic", "android", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Ce chiffre compte parce qu'une batterie lithium-ion a une durée de vie limitée, mesurée en cycles. La plupart des batteries de téléphones modernes conservent environ 80 % de leur capacité initiale après 800 à 1 000 cycles, selon leur chimie et le fabricant. Au-delà, l'autonomie quotidienne diminue nettement.
 
 Depuis Android 14, l'API BatteryManager peut exposer le nombre de cycles, mais l'affichage réel dépend entièrement du fabricant. Quelques téléphones récents le montrent dans les Paramètres. La plupart ne le font toujours pas. Les méthodes ci-dessous sont classées selon le nombre d'appareils qu'elles couvrent, en commençant par celles qui fonctionnent sur le plus grand nombre de modèles, y compris les plus anciens.

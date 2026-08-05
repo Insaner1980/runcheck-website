@@ -6,10 +6,11 @@ listSummary: "Android-puhelin voi näyttää ehjältä, vaikka yksi osa olisi ri
 hub: "hardware"
 sourceNumber: 104
 order: 1
-tags: ["akku","virrankulutus","vianetsintä","android","suorituskyky"]
+tags: ["akku", "virrankulutus", "vianetsintä", "android", "suorituskyky"]
 locale: "fi"
 draft: false
 ---
+
 Hyvä uutinen on, että suurimman osan voi testata ennen kuin maksat korjauksesta. Androidin asetukset, valmistajien diagnostiikkatyökalut, valintakoodit ja käsin tehtävät tarkistukset kattavat tärkeimmät laitteisto-osat. Hankala puoli on se, ettei mikään menetelmä toimi aivan kaikissa puhelimissa.
 
 Android 17 julkaistiin ensin useimmille tuetuille Pixel-laitteille, ja muut valmistajat etenevät omien aikataulujensa mukaan. Sillä on merkitystä, koska diagnostiikkavalikot, akun kuntotiedot ja asetuspolut voivat vaihdella Android-version, valmistajan käyttöliittymän, operaattoriversion ja alueen mukaan. Pidä jokaista tämän oppaan koodia oikotienä, älä lupauksena.

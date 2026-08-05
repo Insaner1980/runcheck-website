@@ -5,10 +5,12 @@ listSummary: "5G ist nicht automatisch zu jeder Tageszeit die bessere Wahl."
 hub: "network"
 sourceNumber: 94
 order: 5
-tags: ["leistung","geschwindigkeit","android","optimierung","fehlerbehebung"]
+tags:
+  ["leistung", "geschwindigkeit", "android", "optimierung", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+
 Diesen Teil lässt Smartphone-Werbung meistens weg.
 
 ## Die Geschwindigkeit hängt davon ab, welches 5G du nutzt

@@ -5,10 +5,11 @@ listSummary: "reseau, connectivite et android"
 hub: "network"
 sourceNumber: 101
 order: 12
-tags: ["reseau","connectivite","android","depannage","guide"]
+tags: ["reseau", "connectivite", "android", "depannage", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Un téléphone possède le matériel nécessaire à la 5G, ou il ne le possède pas. Android 17, une mise à jour des paramètres de l'opérateur ou une nouvelle carte SIM ne peuvent pas transformer un modem limité à la 4G en modem 5G.
 
 Cela paraît évident, mais c'est une source fréquente de confusion. De nombreux téléphones Android d'entrée de gamme récents restent limités à la 4G, alors que plusieurs anciens modèles haut de gamme sont déjà compatibles avec la 5G. Le numéro de modèle compte davantage que l'année indiquée sur la facture.

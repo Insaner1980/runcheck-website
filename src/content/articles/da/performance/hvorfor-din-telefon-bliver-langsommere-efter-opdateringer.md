@@ -5,10 +5,11 @@ listSummary: "ydeevne, hastighed og android"
 hub: "performance"
 sourceNumber: 68
 order: 5
-tags: ["ydeevne","hastighed","android","optimering","fejlfinding"]
+tags: ["ydeevne", "hastighed", "android", "optimering", "fejlfinding"]
 locale: "da"
 draft: false
 ---
+
 Din telefon kan føles dårligere lige efter en Android-opdatering, uden at det automatisk betyder, at opdateringen har ødelagt noget. Det første døgn eller to efter en stor versionsopgradering er ofte rodet, fordi Android genopbygger ting i baggrunden, samtidig med at du prøver at bruge telefonen normalt.
 
 Det er irriterende, men også normalt.

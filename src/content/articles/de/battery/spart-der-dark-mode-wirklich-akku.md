@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 29
 order: 19
 subgroup: "Drain"
-tags: ["akku","mythen","android","testen","fakten"]
+tags: ["akku", "mythen", "android", "testen", "fakten"]
 locale: "de"
 draft: false
 ---
+
 Spart der Dark Mode Akku, oder ist das nur einer dieser Android-Tipps, die seit Jahren wiederholt werden? Die ehrliche Antwort lautet: Es hängt vom Display ab.
 
 Auf OLED-Smartphones, einschließlich AMOLED, kann der Dark Mode Akku sparen. Bei LCD-Geräten bringt er kaum etwas. Das ist der entscheidende Unterschied. Android 17, One UI, Pixel UI, ColorOS, HyperOS und andere Android-Oberflächen können beeinflussen, wo die Einstellung zu finden ist. An der Funktionsweise der Display-Hardware ändern sie nichts.

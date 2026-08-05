@@ -5,10 +5,11 @@ listSummary: "suorituskyky, nopeus ja android"
 hub: "performance"
 sourceNumber: 68
 order: 5
-tags: ["suorituskyky","nopeus","android","optimointi","vianetsintä"]
+tags: ["suorituskyky", "nopeus", "android", "optimointi", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+
 Puhelin voi tuntua huonommalta heti Android-päivityksen jälkeen, eikä se automaattisesti tarkoita päivityksen rikkoneen jotain. Ensimmäinen päivä tai kaksi suuren versiopäivityksen jälkeen on usein sekava, koska Android rakentaa asioita taustalla uudelleen samalla, kun yrität käyttää puhelinta normaalisti.
 
 Se on ärsyttävää, mutta myös tavallista.

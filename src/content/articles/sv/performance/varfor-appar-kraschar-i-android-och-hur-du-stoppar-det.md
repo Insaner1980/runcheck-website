@@ -5,10 +5,11 @@ listSummary: "Metabeskrivning: Android-appar kraschar av konkreta orsaker."
 hub: "performance"
 sourceNumber: 77
 order: 14
-tags: ["prestanda","hastighet","android","optimering","felsökning"]
+tags: ["prestanda", "hastighet", "android", "optimering", "felsökning"]
 locale: "sv"
 draft: false
 ---
+
 ---
 
 De flesta appkrascher är inte slumpmässiga. De känns slumpmässiga eftersom du inte ser felet som orsakade dem.

@@ -6,9 +6,10 @@ hub: "battery"
 sourceNumber: 35
 order: 25
 subgroup: "Drain"
-tags: ["battery","drain","troubleshooting","android","performance"]
+tags: ["battery", "drain", "troubleshooting", "android", "performance"]
 draft: false
 ---
+
 You're asleep. Your phone screen is off. Nothing is playing, nothing is downloading, and the battery still drops 18% overnight.
 
 That is the kind of drain wake locks can cause. A wake-lock request keeps part of the device awake when Android would otherwise let it sleep. The most common battery problem is a partial wake lock, which keeps the processor running while the screen stays off.

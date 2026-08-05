@@ -5,10 +5,11 @@ listSummary: "Vous ramassez le téléphone, le verre semble intact et, pendant u
 hub: "physical-damage"
 sourceNumber: 131
 order: 1
-tags: ["materiel","test","diagnostic","android","guide"]
+tags: ["materiel", "test", "diagnostic", "android", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Le but n'est pas de tester chaque pixel avec l'inquiétude de quelqu'un qui achète un smartphone d'occasion à un inconnu. Il s'agit de repérer ce qui compte vraiment : fissures, pixels morts, zones tactiles inactives, dérives de couleur, scintillement et décollement de la dalle.
 
 ## Commencez par le verre et le cadre

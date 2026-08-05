@@ -5,10 +5,11 @@ listSummary: "android, logiciels-malveillants et securite"
 hub: "software"
 sourceNumber: 125
 order: 7
-tags: ["android","logiciels-malveillants","securite","depannage","guide"]
+tags: ["android", "logiciels-malveillants", "securite", "depannage", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Cela ne prouve pas la présence d'un logiciel malveillant. Un téléphone peut aussi se comporter bizarrement lorsque son stockage est plein, qu'une application fonctionne mal ou qu'une mise à jour a échoué. Ces symptômes méritent tout de même une vérification.
 
 Commencez par les explications les plus banales. Cherchez ensuite un éventuel logiciel malveillant.

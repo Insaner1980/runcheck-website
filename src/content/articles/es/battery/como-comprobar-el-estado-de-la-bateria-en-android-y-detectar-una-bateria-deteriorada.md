@@ -8,12 +8,12 @@ hub: "battery"
 sourceNumber: 11
 order: 1
 subgroup: "Health"
-tags: ["bateria","estado","diagnostico","android","guia"]
+tags: ["bateria", "estado", "diagnostico", "android", "guia"]
 locale: "es"
 draft: false
 ---
-A diferencia de los iPhone, que muestran un porcentaje de estado de la batería en los modelos compatibles desde iOS 11.3, Android ha hecho históricamente que este dato sea más difícil de encontrar. No existe una pantalla universal de «estado de la batería». Hay que reunir la información a partir de las herramientas del fabricante, menús ocultos, patrones de uso y aplicaciones de diagnóstico.
 
+A diferencia de los iPhone, que muestran un porcentaje de estado de la batería en los modelos compatibles desde iOS 11.3, Android ha hecho históricamente que este dato sea más difícil de encontrar. No existe una pantalla universal de «estado de la batería». Hay que reunir la información a partir de las herramientas del fabricante, menús ocultos, patrones de uso y aplicaciones de diagnóstico.
 
 ## Respuesta rápida: cómo comprobar el estado de la batería
 
@@ -26,7 +26,6 @@ Hay tres métodos, del más rápido al más detallado.
 **Aplicación de diagnóstico.** Las aplicaciones de terceros estiman el estado de la batería siguiendo los patrones de carga y descarga durante varios días. Es la opción más detallada cuando el móvil no ofrece un indicador integrado.
 
 Una capacidad estimada inferior al 80 % de la capacidad nominal, o un estado como «Reducida», «Débil» o «Mala», hace razonable plantearse un cambio de batería. «No disponible» solo significa que el teléfono no puede calcular ese dato.
-
 
 ## Por qué se deterioran las baterías
 
@@ -41,7 +40,6 @@ Todos los móviles Android utilizan baterías de iones de litio o polímero de l
 **Los hábitos de carga importan, aunque menos de lo que suele decirse.** Cargar siempre hasta el 100 % y agotar la batería hasta el 0 % somete la celda a más tensión que mantenerla dentro del intervalo del 20-80 %. La carga rápida también produce más calor que la carga normal. Aun así, la diferencia al cabo de un año entre cargar siempre rápido hasta el 100 % y cargar con suavidad hasta el 80 % suele ser menor de lo que sugieren muchos consejos de Internet. El calor y el tiempo pesan más. El verdadero riesgo son los cargadores no certificados: una alimentación inestable puede dañar las celdas de forma permanente.
 
 El resultado es sencillo: una batería de 5.000 mAh se convierte poco a poco en una de 4.000 mAh y luego en una de 3.500 mAh, hasta que ya no aguanta un día normal.
-
 
 ## Pasos de diagnóstico manual
 
@@ -63,7 +61,6 @@ Los ajustes integrados de Android ofrecen pistas útiles incluso cuando no muest
 
 **Usa el diagnóstico del fabricante.** Además de los indicadores anteriores, algunos móviles incluyen pruebas específicas. En los Pixel compatibles, busca Diagnóstico de la batería en Ajustes > Batería. Samsung Members incluye una sección de Diagnóstico del teléfono que permite comprobar la batería. En determinados Xiaomi, los ajustes de protección de la batería muestran información más detallada, según el modelo y la versión de HyperOS.
 
-
 ## Diagnóstico avanzado: voltaje, temperatura y patrones de descarga
 
 Varias métricas permiten entender mejor qué sucede dentro de la celda.
@@ -81,7 +78,6 @@ Las aplicaciones de diagnóstico convierten estas observaciones en cifras. Sigue
 runcheck combina el diagnóstico de batería con el análisis de red, temperatura y almacenamiento en una evaluación unificada. Es útil porque los problemas de batería no siempre aparecen aislados. Un componente que funciona mal y genera calor puede parecer un problema de autonomía, mientras que un cuello de botella en el almacenamiento obliga a la CPU a trabajar más de lo necesario.
 
 Evita las aplicaciones que prometen «potenciar», «calibrar» o «restaurar» el estado de la batería. Ninguna aplicación puede revertir la degradación química. Las que resultan útiles muestran lecturas reales de voltaje y temperatura, guardan datos a lo largo del tiempo y funcionan en el propio dispositivo sin exigir cuentas ni subir información a la nube.
-
 
 ## Preguntas frecuentes
 
@@ -116,7 +112,6 @@ La capacidad real de la batería ya no coincide con lo que espera el software. A
 **¿Cada cuánto conviene comprobar el estado de la batería?**
 
 Cada pocos meses. La degradación es gradual y comprobarla de forma obsesiva no cambia el resultado. Tiene sentido hacer una revisión adicional si la autonomía cambia de repente, aparecen apagados inesperados o el móvil se calienta más de lo normal.
-
 
 ## Qué hacer con los resultados
 

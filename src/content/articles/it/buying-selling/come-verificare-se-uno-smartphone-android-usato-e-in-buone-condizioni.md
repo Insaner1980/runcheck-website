@@ -5,12 +5,12 @@ listSummary: "Uno smartphone usato per uno o due anni può sembrare perfetto e n
 hub: "buying-selling"
 sourceNumber: 2
 order: 1
-tags: ["guida-all-acquisto","android","confronto","valore","guida"]
+tags: ["guida-all-acquisto", "android", "confronto", "valore", "guida"]
 locale: "it"
 draft: false
 ---
-Per valutare le condizioni reali bastano circa quindici minuti e non serve installare nulla.
 
+Per valutare le condizioni reali bastano circa quindici minuti e non serve installare nulla.
 
 ## Inizia da ciò che non puoi vedere
 
@@ -24,7 +24,6 @@ Un valore superiore al 90 % è ottimo. Tra l'80 % e il 90 % significa che la bat
 
 Le condizioni della memoria sono più difficili da misurare, ma vanno comunque controllate. Apri Impostazioni > Memoria e guarda quanto spazio è occupato. Ancora più indicativo del numero è il comportamento del telefono: esita quando apri le app? La fotocamera impiega un secondo prima di salvare una foto? La memoria flash NAND rallenta quando si riempie e con l'usura provocata dalle scritture ripetute. Questi sintomi appaiono come una lentezza generale che spesso viene attribuita al processore.
 
-
 ## Controlli fisici
 
 Osserva lo schermo sotto una luce intensa e da più angolazioni. Piccoli graffi invisibili frontalmente diventano evidenti di lato. Controlla i bordi, dove spesso iniziano le crepe dopo una caduta. Appoggia lo smartphone su un tavolo piano. Se oscilla, il telaio potrebbe essere piegato oppure la batteria potrebbe essersi gonfiata. Una batteria gonfia è un problema di sicurezza, non solo di prestazioni.
@@ -33,13 +32,11 @@ Nella porta di ricarica si accumula lanugine proveniente dalle tasche. Guardala 
 
 I pulsanti devono scattare in modo netto. Un tasto di accensione molle o un bilanciere del volume che richiede due pressioni è un segno di usura che non migliorerà da solo.
 
-
 ## Schermo e touchscreen
 
 I pixel morti appaiono come piccoli punti scuri su uno sfondo bianco. Apri un browser, cerca "white screen test", passa alla modalità a schermo intero e osserva con attenzione. Ripeti con rosso, verde, blu e nero pieni per trovare problemi ai subpixel. I pannelli OLED possono anche sviluppare immagini residue permanenti dovute a elementi mostrati per mesi nella stessa posizione, come la barra di navigazione, la barra di stato o l'interfaccia di un'app usata spesso. Un'immagine grigia a schermo intero rende visibile il burn-in, se presente.
 
 Le zone morte del touchscreen sono più difficili da individuare. Attiva le Opzioni sviluppatore toccando sette volte Numero build in Impostazioni > Informazioni sullo smartphone, poi abilita Mostra posizione puntatore. Fai scorrere lentamente un dito su tutta la superficie del display. La traccia delle coordinate deve seguirlo senza interruzioni, soprattutto negli angoli e lungo i bordi, dove i collegamenti del cavo flessibile sono più vulnerabili ai danni da urto.
-
 
 ## Sensori, altoparlanti e fotocamere
 
@@ -49,11 +46,9 @@ Gli smartphone Samsung hanno un test hardware dedicato accessibile digitando `*#
 
 Riproduci musica dall'altoparlante a diversi livelli di volume. Crepitii o distorsioni a volume moderato possono indicare un danno. Registra una breve nota vocale e riascoltala per controllare il microfono. Apri sia la fotocamera anteriore sia quella posteriore e scatta alcune foto con una buona illuminazione. Cerca problemi di messa a fuoco, zone sfocate o una fotocamera che continua a cercare il fuoco senza riuscire a bloccarlo.
 
-
 ## Danni da liquidi
 
 Molti smartphone Android hanno un indicatore di contatto con liquidi, o LCI, visibile all'interno dell'alloggiamento della scheda SIM. Rimuovi il carrellino e guarda con una luce. Bianco o argento di solito indica che non c'è stato contatto con liquidi. Rosa o rosso significa che del liquido è entrato nel telefono in qualche momento. Un indicatore rosa non vuol dire che lo smartphone sia già guasto, ma la corrosione interna può peggiorare nel tempo. È un'informazione importante, non necessariamente un motivo automatico per scartarlo.
-
 
 ## Stato del software
 

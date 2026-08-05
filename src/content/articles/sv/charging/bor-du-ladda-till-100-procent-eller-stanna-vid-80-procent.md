@@ -5,10 +5,11 @@ listSummary: "80-procentsregeln är användbar, men många behandlar den som ett
 hub: "charging"
 sourceNumber: 43
 order: 7
-tags: ["laddning","batteri","android","guide","hårdvara"]
+tags: ["laddning", "batteri", "android", "guide", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 Vill du bara ha det praktiska svaret ska du använda smart laddning om telefonen har funktionen. Välj en fast gräns på 80 % bara när du vanligtvis har batteri över. Om telefonen redan har svårt att klara hela dagen behöver du inte göra vardagen sämre bara för att skydda batteriet på papperet.
 
 Det är inte disciplin. Det är bara onödigt krångel.
@@ -71,4 +72,4 @@ Aktivera smart laddning om funktionen finns. Ladda till 100 % när du behöver b
 
 Den sämsta vanan är inte att ibland ladda till 100 %. Det är att lämna telefonen full, varm och inkopplad i flera timmar varje natt utan att göra något åt det.
 
-*Metabeskrivning: Laddning till 80 % kan förlänga batteriets livslängd, men smart laddning är ett bättre standardval för de flesta. Här är när en fast 80-procentsgräns faktiskt är rimlig.*
+_Metabeskrivning: Laddning till 80 % kan förlänga batteriets livslängd, men smart laddning är ett bättre standardval för de flesta. Här är när en fast 80-procentsgräns faktiskt är rimlig._

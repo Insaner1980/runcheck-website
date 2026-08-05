@@ -5,9 +5,10 @@ listSummary: "Mobile data slowdown causes"
 hub: "network"
 sourceNumber: 97
 order: 8
-tags: ["performance","speed","android","optimization","troubleshooting"]
+tags: ["performance", "speed", "android", "optimization", "troubleshooting"]
 draft: false
 ---
+
 You're looking at full bars, but the page still won't load. The phone says 5G or LTE. The signal looks fine. Somehow, mobile data feels like it's moving through mud.
 
 That's because good signal only proves one thing: your phone can hear the cell tower well enough. It says less about tower load, plan priority, interference, carrier routing, VPN overhead, or whether your phone is connected to the right network layer.

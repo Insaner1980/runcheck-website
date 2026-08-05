@@ -5,10 +5,11 @@ listSummary: "ydeevne, hastighed og android"
 hub: "performance"
 sourceNumber: 67
 order: 4
-tags: ["ydeevne","hastighed","android","optimering","fejlfinding"]
+tags: ["ydeevne", "hastighed", "android", "optimering", "fejlfinding"]
 locale: "da"
 draft: false
 ---
+
 Nogle gange er det råd rigtigt. Ofte er det bare dovent.
 
 En nulstilling til fabriksindstillinger kan gøre en langsom telefon hurtigere, når årsagen er software: appdata, der er vokset unødigt, ødelagte indstillinger, beskadigede cachefiler, for mange apps i baggrunden eller en rodet gendannelse efter flere års opgraderinger. Den kan ikke reparere slidt flashlager, et svagt batteri, dårlig varmestyring, for lidt RAM eller et billigt chipset, der var langsomt fra første dag.

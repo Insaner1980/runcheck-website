@@ -5,10 +5,11 @@ listSummary: "Lataustavat vaikuttavat siihen, kuinka kauan puhelimen akku säily
 hub: "charging"
 sourceNumber: 38
 order: 2
-tags: ["lataaminen","akku","android","opas","laitteisto"]
+tags: ["lataaminen", "akku", "android", "opas", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 Paras lataustapa on tylsä: pidä puhelin viileänä, vältä pitämästä sitä tuntikausia 100 %:ssa äläkä tyhjennä akkua joka päivä kokonaan. Siinä se. Kaikki muu on yksityiskohtia.
 
 Tämä ei tarkoita, että varaustasoa pitäisi vahtia jatkuvasti tai puhelin irrottaa laturista samalla sekunnilla, kun se saavuttaa 80 %. Puhelin on työkalu, ei laboratorionäyte. Litiumioniakut kuitenkin vanhenevat nopeammin muutamissa ennakoitavissa olosuhteissa, ja latausrutiini voi joko lisätä tätä rasitusta tai pitää sen kurissa.

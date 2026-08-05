@@ -5,10 +5,11 @@ listSummary: "Du prüfst ein gebrauchtes Smartphone."
 hub: "hardware"
 sourceNumber: 106
 order: 3
-tags: ["hardware","testen","diagnose","android","ratgeber"]
+tags: ["hardware", "testen", "diagnose", "android", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Displayprobleme fallen bei normaler Nutzung kaum auf. Hintergrundbilder, Symbole, der Dunkelmodus und bewegte Inhalte verdecken viele Fehler. Mit ein paar Tests auf einfarbigen Flächen und einer Prüfung der Touch-Erkennung findest du sie deutlich leichter.
 
 ## Tote und festhängende Pixel

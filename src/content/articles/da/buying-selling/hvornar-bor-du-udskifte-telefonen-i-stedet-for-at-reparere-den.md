@@ -5,10 +5,11 @@ listSummary: "Sammenlign reparationspris, resterende support og telefonens værd
 hub: "buying-selling"
 sourceNumber: 4
 order: 2
-tags: ["android","opdateringer","sikkerhed","software","guide"]
+tags: ["android", "opdateringer", "sikkerhed", "software", "guide"]
 locale: "da"
 draft: false
 ---
+
 ## Reparationer, der næsten altid kan betale sig
 
 Batteriskift er det tydeligste økonomiske argument for at reparere en telefon. Et uafhængigt dansk værksted tager ofte cirka 400-1.100 kr. for mange Android-telefoner, mens autoriseret service og lukkede topmodeller kan koste mere. Prisen er stadig som regel en brøkdel af en ny telefon, og et friskt batteri genskaber skærmtiden og fjerner den begrænsning af CPU-ydelsen, som Android kan bruge for at beskytte en nedslidt battericelle. En forholdsvis lille regning kan give to til tre års ekstra brug.
@@ -17,7 +18,6 @@ Reparation af opladningsporten hører til samme kategori. Prisen ligger ofte omk
 
 Begge reparationer giver mening uanset telefonens alder, så længe den stadig modtager sikkerhedsopdateringer.
 
-
 ## Skærmreparationer: her bliver regnestykket strammere
 
 Prisen på en ny skærm varierer voldsomt. En billig telefon med flad LCD-skærm kan ofte repareres for cirka 600-1.500 kr. hos et uafhængigt værksted. En Samsung Galaxy S-model med buet OLED-skærm kan koste cirka 1.500-3.500 kr. Foldbare telefoner ligger i en helt anden klasse, hvor en ny indvendig skærm ofte koster 4.000-6.300 kr. eller mere.
@@ -25,7 +25,6 @@ Prisen på en ny skærm varierer voldsomt. En billig telefon med flad LCD-skærm
 Spørgsmålet er, hvad telefonen er værd efter reparationen. En skærmreparation til 1.500 kr. på en telefon, der er omkring 2.500 kr. værd og har tre års opdateringer tilbage, kan give mening. Den samme reparation på en telefon til 1.200 kr. med ét års support tilbage gør ikke. Pengene er bedre brugt på en nyere brugt eller istandsat telefon.
 
 Noget mange overser: En telefon med revnet, men fungerende skærm mister hurtigere gensalgsværdi end en telefon med et slidt batteri. Nogle gange kan det bedre betale sig at sælge den revnede telefon, som den er, og lægge pengene til en erstatning end at betale for reparationen.
-
 
 ## Hvornår udskiftning vinder
 
@@ -39,32 +38,29 @@ Nogle situationer gør reparation til et dårligt væddemål, selv når prisen u
 
 **Grænsen for RAM.** En telefon med 4 GB RAM kan stadig bruges til lette opgaver, men pladsen er trang til moderne Android, aktuelle apps og tung multitasking. Apps genindlæses konstant, skift mellem dem hakker, og processer dør tilfældigt i baggrunden. Ingen reparation eller nulstilling til fabriksindstillinger hæver den grænse.
 
-
 ## Prissammenligningen i praksis
 
 Vejledende danske værkstedspriser for Android-telefoner i 2026:
 
-| Reparation | Prisinterval | Tid |
-|--------|-----------|------|
-| Batteriskift | 400-1.100 kr. | 1-2 timer |
-| Opladningsport | 400-900 kr. | 1-2 timer |
-| Skærm, flad LCD | 600-1.500 kr. | 1-2 timer |
-| Skærm, buet OLED på topmodel | 1.500-3.500 kr. | 2-4 timer |
-| Indvendig skærm på foldbar telefon | 4.000-6.300 kr. eller mere | varierer |
-| Mindre vandskade eller rensning | 400-1.200 kr. | 1-3 dage |
-| Alvorlig vandskade | pris efter diagnose, ofte ikke rentabelt | varierer |
+| Reparation                         | Prisinterval                             | Tid       |
+| ---------------------------------- | ---------------------------------------- | --------- |
+| Batteriskift                       | 400-1.100 kr.                            | 1-2 timer |
+| Opladningsport                     | 400-900 kr.                              | 1-2 timer |
+| Skærm, flad LCD                    | 600-1.500 kr.                            | 1-2 timer |
+| Skærm, buet OLED på topmodel       | 1.500-3.500 kr.                          | 2-4 timer |
+| Indvendig skærm på foldbar telefon | 4.000-6.300 kr. eller mere               | varierer  |
+| Mindre vandskade eller rensning    | 400-1.200 kr.                            | 1-3 dage  |
+| Alvorlig vandskade                 | pris efter diagnose, ofte ikke rentabelt | varierer  |
 
 Autoriseret reparation er ofte dyrere, men bruger originale dele og kan omfatte garanti på arbejdet. Uafhængige værksteder er ofte billigere og hurtigere, men kvaliteten af reservedele varierer.
 
 En nyttig tommelfingerregel: Hvis den samlede reparation holder sig under 30 % af prisen på en sammenlignelig ny eller istandsat erstatning, er reparation næsten altid det rigtige valg. Det er en rettesnor, ikke en lov.
-
 
 ## Miljøperspektivet
 
 Fremstilling af en ny smartphone udleder ofte omkring 50-80 kg CO2e, afhængigt af model og forudsætningerne i den enkelte undersøgelse. Den kræver også udvinding af materialer som kobolt, litium, kobber, guld og sjældne jordarter. Reparation af en eksisterende telefon har kun en brøkdel af det aftryk. I EU gælder særlige regler om miljøvenligt design og energimærkning for telefoner, der er bragt i omsætning fra 20. juni 2025. De kræver blandt andet batterier, der er vurderet til mindst 800 cyklusser med 80 % resterende kapacitet, vigtige reservedele i syv år efter at modellen er taget af markedet, oplysninger om reparerbarhed på energimærket og adgang for professionelle reparatører til den software eller firmware, der er nødvendig ved udskiftning. Det særskilte direktiv om retten til reparation skal anvendes i medlemslandene fra 31. juli 2026 og styrker reparationsrettighederne for de omfattede produktgrupper.
 
 For den, der tager miljøbelastningen med i købsbeslutningen, bør reparation være udgangspunktet, medmindre økonomien klart taler for udskiftning.
-
 
 ## Ofte stillede spørgsmål
 

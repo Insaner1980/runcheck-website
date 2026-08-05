@@ -5,10 +5,11 @@ listSummary: "opladning, batteri og android"
 hub: "charging"
 sourceNumber: 47
 order: 11
-tags: ["opladning","batteri","android","guide","hardware"]
+tags: ["opladning", "batteri", "android", "guide", "hardware"]
 locale: "da"
 draft: false
 ---
+
 Din telefon siger, at den skal bruge tre timer på at blive fuldt opladet. I går sagde den én time. Opladeren ser ud som før, kablet ser ud som før, og der er ikke sket noget åbenlyst.
 
 Langsom opladning er irriterende, fordi årsagen ofte er kedelig: en svag adapter, et beskadiget kabel, fnuller i porten, varme eller en app, der bruger strøm, mens opladeren prøver at fylde batteriet. Start dér, før du går ud fra, at batteriet er ved at dø.

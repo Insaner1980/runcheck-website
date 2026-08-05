@@ -5,10 +5,11 @@ listSummary: "akku, virrankulutus ja vianetsintä"
 hub: "physical-damage"
 sourceNumber: 136
 order: 6
-tags: ["akku","virrankulutus","vianetsintä","android","suorituskyky"]
+tags: ["akku", "virrankulutus", "vianetsintä", "android", "suorituskyky"]
 locale: "fi"
 draft: false
 ---
+
 ---
 
 Haljennut näyttö ei hidasta CPU:ta. Sovellukset eivät yhtäkkiä tarvitse enemmän laskentatehoa vain siksi, että lasi rikkoutui.

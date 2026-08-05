@@ -5,10 +5,11 @@ listSummary: "Come puoi capire se la batteria di un Pixel è davvero usurata."
 hub: "brands"
 sourceNumber: 154
 order: 2
-tags: ["batteria","stato","diagnostica","android","guida"]
+tags: ["batteria", "stato", "diagnostica", "android", "guida"]
 locale: "it"
 draft: false
 ---
+
 Anche il momento conta. Android 17 è già disponibile sulla maggior parte dei Pixel supportati, mentre gli altri marchi Android riceveranno in seguito i propri aggiornamenti basati su Android 17. Questo non significa che ogni Pixel abbia improvvisamente la stessa schermata della batteria. Gli strumenti diagnostici di Google continuano a cambiare in base al modello.
 
 ## Stato e capacità della batteria

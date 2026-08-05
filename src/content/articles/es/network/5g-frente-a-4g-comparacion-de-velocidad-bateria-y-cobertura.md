@@ -5,10 +5,18 @@ listSummary: "El 5G no es automáticamente la mejor opción a todas horas."
 hub: "network"
 sourceNumber: 94
 order: 5
-tags: ["rendimiento","velocidad","android","optimizacion","solucion-de-problemas"]
+tags:
+  [
+    "rendimiento",
+    "velocidad",
+    "android",
+    "optimizacion",
+    "solucion-de-problemas",
+  ]
 locale: "es"
 draft: false
 ---
+
 Esa es la parte que suele faltar en la publicidad de los móviles.
 
 ## La velocidad depende del tipo de 5G

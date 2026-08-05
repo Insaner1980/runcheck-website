@@ -5,10 +5,11 @@ listSummary: "Votre téléphone Android ne s'allume plus ou reste sur un écran 
 hub: "performance"
 sourceNumber: 75
 order: 12
-tags: ["runcheck","seo","android","article","guide"]
+tags: ["runcheck", "seo", "android", "article", "guide"]
 locale: "fr"
 draft: false
 ---
+
 ---
 
 Quelqu'un branche un téléphone, ne voit rien, appuie cinq fois sur Marche-Arrêt et conclut qu'il est mort. C'est parfois vrai. Mais le plus souvent, la batterie est complètement vide, le logiciel s'est figé alors que l'écran était éteint ou l'écran est en panne tandis que le téléphone fonctionne encore.

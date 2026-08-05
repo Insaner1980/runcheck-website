@@ -5,10 +5,11 @@ listSummary: "Har du fundet en fil, der ender på .apk, i Downloads uden at kunn
 hub: "storage"
 sourceNumber: 84
 order: 6
-tags: ["lagerplads","android","oprydning","optimering","guide"]
+tags: ["lagerplads", "android", "oprydning", "optimering", "guide"]
 locale: "da"
 draft: false
 ---
+
 APK står for Android Package Kit. Det er et af de pakkeformater, Android bruger til at installere apps. Det vigtige ved oprydning er dette: Den APK-fil, du kan se i Downloads, er ikke den app, der kører på telefonen. Den er installationsfilen.
 
 Når appen først er installeret, afinstallerer du ikke appen og sletter ikke dens indstillinger ved at fjerne den efterladte APK-fil.

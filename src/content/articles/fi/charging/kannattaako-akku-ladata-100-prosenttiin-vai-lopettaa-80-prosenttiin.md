@@ -5,10 +5,11 @@ listSummary: "lataaminen, akku ja android"
 hub: "charging"
 sourceNumber: 43
 order: 7
-tags: ["lataaminen","akku","android","opas","laitteisto"]
+tags: ["lataaminen", "akku", "android", "opas", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 80 %:n sääntö on hyödyllinen, mutta sitä käsitellään joskus käskynä. Se ei ole sellainen. Latauksen rajoittaminen 80 %:iin voi hidastaa akun kulumista, mutta samalla päivä alkaa niin, että viidennes akun kapasiteetista puuttuu. Joillekin vaihtokauppa sopii hyvin. Toisille se on vain ärsyttävä.
 
 Käytännöllinen vastaus on tämä: käytä mukautuvaa latausta, jos puhelin tukee sitä. Käytä kiinteää 80 %:n rajaa vain silloin, kun akkua jää tavallisesti yli. Jos puhelin selviää muutenkin hädin tuskin päivästä, älä hankaloita arkea vain suojellaksesi akkua teoriassa.

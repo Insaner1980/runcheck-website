@@ -5,10 +5,11 @@ listSummary: "fabricante, android y diagnostico"
 hub: "brands"
 sourceNumber: 158
 order: 6
-tags: ["fabricante","android","diagnostico","especifico-de-la-marca","guia"]
+tags: ["fabricante", "android", "diagnostico", "especifico-de-la-marca", "guia"]
 locale: "es"
 draft: false
 ---
+
 ¿Cómo puedes saber si un problema de batería en un Pixel se debe al desgaste real del hardware o simplemente a una aplicación demasiado agresiva ejecutándose en segundo plano? En los Pixel recientes, Google ofrece más ayuda desde el propio dispositivo de la que mucha gente imagina. Lo incómodo es que no está reunida detrás de un único icono evidente.
 
 Las herramientas de solución de problemas de Pixel se reparten entre Ajustes, la nueva página de estado, la aplicación Mi Pixel y la herramienta independiente de diagnóstico para reparaciones. Suena más desordenado de lo que debería. Cuando sabes dónde está cada elemento, el sistema resulta útil para comprobar consumo de batería, problemas de carga, avisos de temperatura, fallos táctiles y pruebas de hardware relacionadas con reparaciones sin instalar una aplicación de diagnóstico cualquiera.

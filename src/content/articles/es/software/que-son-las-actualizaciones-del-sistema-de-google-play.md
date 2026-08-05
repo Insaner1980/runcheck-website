@@ -5,10 +5,11 @@ listSummary: "Abre la pantalla de actualizaciones de Android y probablemente ver
 hub: "software"
 sourceNumber: 124
 order: 6
-tags: ["android","actualizaciones","seguridad","software","guia"]
+tags: ["android", "actualizaciones", "seguridad", "software", "guia"]
 locale: "es"
 draft: false
 ---
+
 Parece un error. Normalmente no lo es.
 
 Son dos canales de actualización distintos. El nivel del parche de seguridad llega a través del fabricante del móvil, como Google, Samsung, Xiaomi, OnePlus o Motorola. La otra fecha procede del sistema modular de actualizaciones de Android de Google en los dispositivos compatibles.

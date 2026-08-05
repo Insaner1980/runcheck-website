@@ -1,14 +1,15 @@
 ---
 title: "Sådan får du mest muligt for din gamle Android-telefon"
-description: "Du nulstiller din gamle Galaxy, lægger den i en skuffe \"i en uge\", og seks måneder senere er den langt mindre værd. Sådan går mange telefonsalg galt. Telefonen går ikke i stykker. Timingen gør."
+description: 'Du nulstiller din gamle Galaxy, lægger den i en skuffe "i en uge", og seks måneder senere er den langt mindre værd. Sådan går mange telefonsalg galt. Telefonen går ikke i stykker. Timingen gør.'
 listSummary: "købsguide, android og sammenligning"
 hub: "buying-selling"
 sourceNumber: 144
 order: 8
-tags: ["købsguide","android","sammenligning","værdi","guide"]
+tags: ["købsguide", "android", "sammenligning", "værdi", "guide"]
 locale: "da"
 draft: false
 ---
+
 Assurant oplyste, at amerikanske mobilprogrammer for indbytning gav 6,4 milliarder USD tilbage til forbrugerne i 2025, 42 % mere end i 2024. Android-enheder var også ældre ved indlevering end tidligere, i gennemsnit 3,96 år. Det betyder noget, fordi en længere ejertid giver dig mere tid med telefonen, men mindre plads til at være langsom, når du endelig vil af med den.
 
 ## Sælg, før telefonen bliver sidste års nyhed

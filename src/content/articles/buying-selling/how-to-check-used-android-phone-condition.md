@@ -5,9 +5,10 @@ listSummary: "Used phone condition checks"
 hub: "buying-selling"
 sourceNumber: 2
 order: 1
-tags: ["buying-guide","android","comparison","value","guide"]
+tags: ["buying-guide", "android", "comparison", "value", "guide"]
 draft: false
 ---
+
 Assessing actual condition takes about fifteen minutes and doesn't require installing anything.
 
 <figure class="not-prose my-10">
@@ -27,7 +28,6 @@ Anything above 90% health is solid. Between 80% and 90% means the battery has se
 
 Storage condition is harder to quantify but worth checking. Open Settings > Storage and note how full the phone is. More telling than the raw number: does the phone hesitate when launching apps? Does the camera take a second before saving photos? NAND flash memory slows down as it fills and as cells wear from repeated writes, and these symptoms show up as general sluggishness that gets mistaken for a slow processor.
 
-
 ## The physical stuff
 
 Hold the phone under bright lighting and look at the screen from several angles. Small scratches invisible head-on become obvious at an angle. Check the edges where cracks from drops tend to start. Set the phone flat on a table. If it rocks or wobbles, either the frame is bent or the battery has started swelling. A swollen battery is a safety issue, not just a performance one.
@@ -36,13 +36,11 @@ The charging port collects lint from pockets over months of use. Look inside wit
 
 Buttons should click cleanly. A mushy power button or a volume rocker that needs to be pressed twice is wear that won't get better on its own.
 
-
 ## Screen and touch
 
 Dead pixels show up as tiny dark spots on a white background. Open a browser, search for "white screen test," go full-screen, and look carefully. Repeat with pure red, green, blue, and black to catch subpixel issues. OLED screens can also develop burn-in from elements displayed in the same position for months: the navigation bar, the status bar, a frequently used app's interface. A medium-gray full-screen image makes burn-in visible if it's there.
 
 Touch dead zones are trickier to spot. Enable Developer Options by tapping Build Number seven times under Settings > About Phone, then activate Show Pointer Location. Swipe a finger slowly across the entire display surface. The coordinate trail should follow without gaps, especially in the corners and along the edges where ribbon cable connections are most vulnerable to impact damage.
-
 
 ## Sensors, speakers, cameras
 
@@ -52,11 +50,9 @@ Samsung phones have a dedicated hardware test accessible by dialing `*#0*#`, cov
 
 Play music through the speaker at different volumes. Crackling or distortion at moderate levels suggests speaker damage. Record a short voice clip and play it back for the microphone. Open both front and rear cameras and take a few photos in decent light. Look for focus problems, blurry patches, or a camera that hunts back and forth without locking.
 
-
 ## Water damage
 
 Many Android phones have a liquid contact indicator (LCI) visible inside the SIM card tray slot. Remove the tray and look in with a light. White or silver means no water contact. Pink or red means liquid has entered the phone at some point. A pink indicator doesn't mean the phone is broken right now, but water damage tends to worsen as internal corrosion spreads. Worth knowing about, not an automatic disqualifier.
-
 
 ## Software state
 

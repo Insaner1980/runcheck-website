@@ -5,10 +5,11 @@ listSummary: "Signalbjælker er nyttige til et hurtigt blik, men de er ikke en m
 hub: "network"
 sourceNumber: 93
 order: 4
-tags: ["netværk","forbindelser","android","fejlfinding","guide"]
+tags: ["netværk", "forbindelser", "android", "fejlfinding", "guide"]
 locale: "da"
 draft: false
 ---
+
 Det lyder mere teknisk, end det er. dBm er blot det effektniveau, telefonen modtager fra mobilnettet. Jo tættere tallet er på nul, desto stærkere er signalet. En måling på -75 dBm er stærkere end -95 dBm. Så enkelt er det.
 
 ## Den hurtige måde at læse dBm på
@@ -19,13 +20,13 @@ Skalaen er logaritmisk. Hver ændring på 3 dBm svarer omtrent til en fordobling
 
 For LTE og de fleste 5G-forbindelser under 6 GHz er disse intervaller en nyttig tommelfingerregel:
 
-| Måling | Hvad det som regel betyder |
-|---|---|
-| Fra -50 til -70 dBm | Fremragende. Opkald og data bør være stabile, forudsat at masten ikke er overbelastet. |
-| Fra -70 til -85 dBm | Godt. Det er normalt ved fornuftig udendørs dækning eller tæt på et vindue. |
-| Fra -85 til -100 dBm | Brugbart, men ikke godt. Browsing virker, streaming kan buffer, og uploadhastigheden kan falde først. |
+| Måling                | Hvad det som regel betyder                                                                                             |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| Fra -50 til -70 dBm   | Fremragende. Opkald og data bør være stabile, forudsat at masten ikke er overbelastet.                                 |
+| Fra -70 til -85 dBm   | Godt. Det er normalt ved fornuftig udendørs dækning eller tæt på et vindue.                                            |
+| Fra -85 til -100 dBm  | Brugbart, men ikke godt. Browsing virker, streaming kan buffer, og uploadhastigheden kan falde først.                  |
 | Fra -100 til -110 dBm | Svagt. Opkald kan blive afbrudt, beskeder kan blive forsinket, og modemmet bruger mere strøm på at holde forbindelsen. |
-| Under -110 dBm | På grænsen. Forvent timeouts, perioder uden dækning eller tvunget skift til et andet netværkslag. |
+| Under -110 dBm        | På grænsen. Forvent timeouts, perioder uden dækning eller tvunget skift til et andet netværkslag.                      |
 
 Det er ikke universelle grænser for bestået eller dumpet. En telefon på -95 dBm kan fungere fint, hvis signalet er rent, og masten har ledig kapacitet. En anden telefon på -75 dBm kan være meget langsom, hvis cellen er belastet, eller der er meget interferens.
 

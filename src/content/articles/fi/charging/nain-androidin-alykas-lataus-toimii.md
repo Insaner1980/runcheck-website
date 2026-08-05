@@ -5,10 +5,11 @@ listSummary: "akku, kunto ja diagnostiikka"
 hub: "charging"
 sourceNumber: 51
 order: 15
-tags: ["akku","kunto","diagnostiikka","android","opas"]
+tags: ["akku", "kunto", "diagnostiikka", "android", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Miksi puhelin pysähtyy joskus 80 prosenttiin, pysyy siinä tuntikausia ja jatkaa yhtäkkiä lataamista juuri ennen heräämistä?
 
 Kyse on älykkäästä latauksesta. Se ei ole yksi Android-toiminto, jolla olisi sama kytkin kaikissa puhelimissa. Se on joukko valmistajien ratkaisuja samaan ongelmaan: akku viettää liikaa aikaa korkeassa varaustilassa, usein vielä lämpimänä.

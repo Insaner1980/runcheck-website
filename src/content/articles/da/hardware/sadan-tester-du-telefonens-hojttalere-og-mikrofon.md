@@ -5,10 +5,11 @@ listSummary: "De fleste lydproblemer på en telefon skyldes ikke en død højtta
 hub: "hardware"
 sourceNumber: 107
 order: 4
-tags: ["hardware","test","diagnostik","android","guide"]
+tags: ["hardware", "test", "diagnostik", "android", "guide"]
 locale: "da"
 draft: false
 ---
+
 Det gør ikke problemet mindre irriterende. Hvis andre ikke kan høre dig, eller højttaleren knitrer ved halv lydstyrke, skal du stadig finde ud af, hvilken del der svigter.
 
 ## Kend den lyddel, du tester

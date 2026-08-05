@@ -5,10 +5,11 @@ listSummary: "Hurtiglading kan gi mer batterislitasje, men wattstyrken er ikke d
 hub: "charging"
 sourceNumber: 39
 order: 3
-tags: ["lading","batteri","android","guide","maskinvare"]
+tags: ["lading", "batteri", "android", "guide", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 De fleste råd om hurtiglading er for dramatiske. Hurtiglading er ikke en dødsdom for batteriet, og langsom lading er ikke magi. Det egentlige spørsmålet er om telefonen holder seg kjølig mens den lades.
 
 Det er her svaret blir mindre ryddig. En 65 W-lader på et kjølig skrivebord kan være mildere mot batteriet enn en 15 W-lader under en pute. Wattstyrken betyr noe, men temperaturen betyr mer.

@@ -5,10 +5,11 @@ listSummary: "La modalità aereo può far ricaricare un telefono Android un po' 
 hub: "myths"
 sourceNumber: 148
 order: 4
-tags: ["ricarica","batteria","android","guida","hardware"]
+tags: ["ricarica", "batteria", "android", "guida", "hardware"]
 locale: "it"
 draft: false
 ---
+
 Colleghi il telefono quando è al 12 %, guardi l'orologio e inizi a cercare qualche trucco. La modalità aereo è uno dei pochi che produce davvero un effetto, ma non fa miracoli.
 
 Aiuta perché durante la ricarica il telefono consuma meno energia. Se rete cellulare, Wi-Fi, Bluetooth, notifiche e sincronizzazione in background richiedono meno potenza, una parte leggermente maggiore dell'energia fornita dal caricabatterie può finire nella batteria. Il guadagno è in genere ridotto. Con un caricabatterie rapido moderno potresti quasi non notarlo. Con un vecchio alimentatore da 5 W, una porta USB di un portatile o un power bank, invece, può fare la differenza.

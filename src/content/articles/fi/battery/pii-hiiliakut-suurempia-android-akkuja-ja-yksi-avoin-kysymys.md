@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 20
 order: 10
 subgroup: "Akun kunto"
-tags: ["akkutekniikka","tiede","opas","laitteisto"]
+tags: ["akkutekniikka", "tiede", "opas", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 Syynä on pii-hiilitekniikka. Akku on edelleen litiumioniakku, mutta anodi on muuttunut.
 
 ## Mikä anodissa muuttui

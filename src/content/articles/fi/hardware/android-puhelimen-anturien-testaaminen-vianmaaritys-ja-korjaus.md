@@ -5,10 +5,11 @@ listSummary: "Mistä tietää, onko automaattinen kierto rikki, kompassi sekaisi
 hub: "hardware"
 sourceNumber: 105
 order: 2
-tags: ["laitteisto","testaus","diagnostiikka","android","opas"]
+tags: ["laitteisto", "testaus", "diagnostiikka", "android", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Android-puhelimissa käytetään liike-, ympäristö-, sijainti- ja lähestymisantureita. Osa niistä on fyysisiä piirejä. Osa on "virtuaalisia" antureita, joiden arvot lasketaan usean fyysisen anturin tiedoista. Kun yksi tietolähde antaa häiriöistä dataa, peittyy tai poistuu käytöstä, oire voi näkyä aivan toisessa toiminnossa.
 
 Aloita yksinkertaisista testeistä. Ensimmäisiin tarkistuksiin ei tarvita root-oikeuksia, ADB:tä eikä laboratoriolaitteita.

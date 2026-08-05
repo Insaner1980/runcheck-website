@@ -1,17 +1,26 @@
-import { existsSync, mkdirSync, readdirSync, rmSync } from 'node:fs';
-import { writeFile } from 'node:fs/promises';
-import { dirname, resolve } from 'node:path';
-import { fileURLToPath, pathToFileURL } from 'node:url';
-import { spawnSync } from 'node:child_process';
+import { existsSync, mkdirSync, readdirSync, rmSync } from "node:fs";
+import { writeFile } from "node:fs/promises";
+import { dirname, resolve } from "node:path";
+import { fileURLToPath, pathToFileURL } from "node:url";
+import { spawnSync } from "node:child_process";
 
-const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const outputDir = resolve(root, 'output', 'search-thumbnail');
-const htmlPath = resolve(outputDir, 'render.html');
-const pngPath = resolve(outputDir, 'runcheck-search-thumbnail.png');
-const webpPath = resolve(root, 'public', 'runcheck-search-thumbnail.webp');
-const logoUrl = pathToFileURL(resolve(root, 'src', 'assets', 'runcheck-logo.webp')).toString();
+const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
+const outputDir = resolve(root, "output", "search-thumbnail");
+const htmlPath = resolve(outputDir, "render.html");
+const pngPath = resolve(outputDir, "runcheck-search-thumbnail.png");
+const webpPath = resolve(root, "public", "runcheck-search-thumbnail.webp");
+const logoUrl = pathToFileURL(
+  resolve(root, "src", "assets", "runcheck-logo.webp"),
+).toString();
 const fontUrl = pathToFileURL(
-  resolve(root, 'node_modules', '@fontsource-variable', 'manrope', 'files', 'manrope-latin-wght-normal.woff2'),
+  resolve(
+    root,
+    "node_modules",
+    "@fontsource-variable",
+    "manrope",
+    "files",
+    "manrope-latin-wght-normal.woff2",
+  ),
 ).toString();
 
 const chromeCandidates = [
@@ -25,7 +34,9 @@ const chromeCandidates = [
 const chromePath = chromeCandidates.find((candidate) => existsSync(candidate));
 
 if (!chromePath) {
-  throw new Error('Chrome or Edge was not found. Set CHROME_PATH to a Chromium executable.');
+  throw new Error(
+    "Chrome or Edge was not found. Set CHROME_PATH to a Chromium executable.",
+  );
 }
 
 mkdirSync(outputDir, { recursive: true });
@@ -138,40 +149,47 @@ rmSync(webpPath, { force: true });
 const screenshot = spawnSync(
   chromePath,
   [
-    '--headless=new',
-    '--disable-gpu',
-    '--hide-scrollbars',
-    '--no-first-run',
-    '--no-default-browser-check',
-    '--window-size=1200,1200',
-    '--virtual-time-budget=1000',
+    "--headless=new",
+    "--disable-gpu",
+    "--hide-scrollbars",
+    "--no-first-run",
+    "--no-default-browser-check",
+    "--window-size=1200,1200",
+    "--virtual-time-budget=1000",
     `--screenshot=${pngPath}`,
     pathToFileURL(htmlPath).toString(),
   ],
-  { stdio: 'inherit' },
+  { stdio: "inherit" },
 );
 
 if (screenshot.status !== 0) {
-  throw new Error(`Screenshot rendering failed with status ${screenshot.status}.`);
+  throw new Error(
+    `Screenshot rendering failed with status ${screenshot.status}.`,
+  );
 }
 
 const imageMagickRoot = String.raw`C:\Program Files`;
 const windowsImageMagickPaths = existsSync(imageMagickRoot)
   ? readdirSync(imageMagickRoot, { withFileTypes: true })
-      .filter((entry) => entry.isDirectory() && entry.name.startsWith('ImageMagick-'))
-      .map((entry) => resolve(imageMagickRoot, entry.name, 'magick.exe'))
+      .filter(
+        (entry) => entry.isDirectory() && entry.name.startsWith("ImageMagick-"),
+      )
+      .map((entry) => resolve(imageMagickRoot, entry.name, "magick.exe"))
   : [];
-const magickPath = [...windowsImageMagickPaths, '/usr/bin/magick', '/usr/local/bin/magick']
-  .find((candidate) => existsSync(candidate));
+const magickPath = [
+  ...windowsImageMagickPaths,
+  "/usr/bin/magick",
+  "/usr/local/bin/magick",
+].find((candidate) => existsSync(candidate));
 
 if (!magickPath || !existsSync(magickPath)) {
-  throw new Error('ImageMagick was not found under C:\\Program Files.');
+  throw new Error("ImageMagick was not found under C:\\Program Files.");
 }
 
 const convert = spawnSync(
   magickPath,
-  [pngPath, '-define', 'webp:method=6', '-quality', '88', webpPath],
-  { stdio: 'inherit' },
+  [pngPath, "-define", "webp:method=6", "-quality", "88", webpPath],
+  { stdio: "inherit" },
 );
 
 if (convert.status !== 0) {

@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 23
 order: 13
 subgroup: "Drain"
-tags: ["batteri","strømforbruk","feilsøking","android","ytelse"]
+tags: ["batteri", "strømforbruk", "feilsøking", "android", "ytelse"]
 locale: "nb"
 draft: false
 ---
+
 For en frisk Android-telefon er et tap på 2-5 % i løpet av natten et ganske uinteressant resultat. Telefonen holder fortsatt mobilforbindelsen aktiv, lytter etter varsler, synkroniserer noe kontodata og utfører små vedlikeholdsoppgaver. Når tapet ligger over 10 % natt etter natt, bør du slutte å avskrive det som vanlig bakgrunnsaktivitet.
 
 ## Sjekk batteriskjermen først

@@ -5,10 +5,11 @@ listSummary: "Il telefono mostra già quale versione di Android usa."
 hub: "software"
 sourceNumber: 119
 order: 1
-tags: ["android","aggiornamenti","sicurezza","software","guida"]
+tags: ["android", "aggiornamenti", "sicurezza", "software", "guida"]
 locale: "it"
 draft: false
 ---
+
 Sulla maggior parte dei dispositivi, apri Impostazioni, quindi Informazioni sullo smartphone o Informazioni sul tablet e infine Versione di Android. Su Samsung, vai in Impostazioni > Informazioni sul telefono > Informazioni software. La schermata non mostra soltanto il numero principale del sistema operativo: trovi anche la data dell'aggiornamento di sicurezza, quella dell'aggiornamento di sistema Google Play, il numero build e, in alcuni casi, la versione software del produttore.
 
 È il dettaglio che spesso sfugge. Android 17 è più recente di Android 16, ma una patch di sicurezza aggiornata conta altrettanto quando valuti se uno smartphone è ancora sicuro da usare.

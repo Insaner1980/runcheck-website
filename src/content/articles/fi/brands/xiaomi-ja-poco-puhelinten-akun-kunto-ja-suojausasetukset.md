@@ -5,10 +5,11 @@ listSummary: "Xiaomi-puhelinten akun kuntotiedot ovat edelleen epäyhtenäisiä.
 hub: "brands"
 sourceNumber: 155
 order: 3
-tags: ["akku","kunto","diagnostiikka","android","opas"]
+tags: ["akku", "kunto", "diagnostiikka", "android", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Android 17 ei ratkaise tätä itsestään. Google julkaisi Android 17:n ensin useimmille tuetuille Pixel-puhelimille, kun taas Xiaomi-, Redmi- ja POCO-laitteet saavat Android 17:ään perustuvia HyperOS-versioita myöhemmin. Silloinkin Xiaomi päättää malli- ja aluekohtaisesti, mitä Asetuksissa näytetään.
 
 Älä siis lue tätä yhtenä yleispätevänä Xiaomi-valikkopolkuna. Lue se tarkistuslistana.

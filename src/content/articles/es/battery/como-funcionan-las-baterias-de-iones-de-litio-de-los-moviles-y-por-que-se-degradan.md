@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 19
 order: 9
 subgroup: "Health"
-tags: ["tecnologia-de-baterias","ciencia","guia","hardware"]
+tags: ["tecnologia-de-baterias", "ciencia", "guia", "hardware"]
 locale: "es"
 draft: false
 ---
+
 Entender lo básico hace que los consejos habituales resulten menos misteriosos. La regla del 20 % al 80 %, las advertencias sobre el calor y el motivo por el que los móviles antiguos se apagan antes de tiempo proceden del mismo lugar: los iones de litio se mueven por una celda que cambia poco a poco cada vez que la utilizas.
 
 ## La celda básica

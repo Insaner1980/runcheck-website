@@ -5,9 +5,10 @@ listSummary: "5G vs 4G tradeoffs"
 hub: "network"
 sourceNumber: 94
 order: 5
-tags: ["performance","speed","android","optimization","troubleshooting"]
+tags: ["performance", "speed", "android", "optimization", "troubleshooting"]
 draft: false
 ---
+
 That's the part phone marketing usually skips.
 
 <figure class="not-prose my-10">

@@ -5,10 +5,11 @@ listSummary: "Telefonen blir svart, vägrar starta igen och visar till slut en v
 hub: "thermal"
 sourceNumber: 61
 order: 9
-tags: ["temperatur","värme","android","felsökning","hårdvara"]
+tags: ["temperatur", "värme", "android", "felsökning", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 En termisk avstängning betyder att telefonen skyddade sig själv. Android har olika temperaturlägen som gör att systemet kan minska arbetsbelastningen, strypa prestandan, sänka laddningshastigheten och i yttersta fall stänga av enheten. De exakta gränserna för batteri- och yttemperatur bestäms av tillverkaren, så lita inte på ett enda temperaturvärde som regel för alla telefoner.
 
 Avstängningen är inte problemet. Värmen som orsakade den är problemet.
@@ -83,4 +84,4 @@ Ja, för lätta uppgifter när den har svalnat. Återuppta inte genast samma kr�
 
 ---
 
-*Metabeskrivning: En telefon som stängs av på grund av överhettning skyddar sig själv. Kyl ned den säkert, kontrollera laddning, appar, Android-uppdateringar och batterihälsa, och lär dig när den behöver repareras.*
+_Metabeskrivning: En telefon som stängs av på grund av överhettning skyddar sig själv. Kyl ned den säkert, kontrollera laddning, appar, Android-uppdateringar och batterihälsa, och lär dig när den behöver repareras._

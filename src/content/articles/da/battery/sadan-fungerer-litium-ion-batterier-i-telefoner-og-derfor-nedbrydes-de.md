@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 19
 order: 9
 subgroup: "Health"
-tags: ["batteriteknologi","videnskab","guide","hardware"]
+tags: ["batteriteknologi", "videnskab", "guide", "hardware"]
 locale: "da"
 draft: false
 ---
+
 Når du forstår det grundlæggende, bliver de almindelige råd mindre mystiske. Reglen om 20-80 %, advarslen mod varme og grunden til, at gamle telefoner dør tidligt, udspringer alle af det samme: Litiumioner bevæger sig gennem en celle, der langsomt ændrer sig, hver gang du bruger den.
 
 ## Den grundlæggende celle

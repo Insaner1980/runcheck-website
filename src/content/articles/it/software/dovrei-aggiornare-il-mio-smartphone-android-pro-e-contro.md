@@ -1,14 +1,15 @@
 ---
 title: "Dovrei aggiornare il mio smartphone Android? Pro e contro"
-description: "Gran parte dei consigli sugli aggiornamenti è troppo assoluta. \"Aggiorna sempre subito\" suona bene, ma le nuove versioni principali di Android possono avere bug nei primi giorni. \"Non aggiornare mai perché il telefono potrebbe rallentare\" è peggio, perché lascia aperte vulnerabilità di sicurezza già note."
+description: 'Gran parte dei consigli sugli aggiornamenti è troppo assoluta. "Aggiorna sempre subito" suona bene, ma le nuove versioni principali di Android possono avere bug nei primi giorni. "Non aggiornare mai perché il telefono potrebbe rallentare" è peggio, perché lascia aperte vulnerabilità di sicurezza già note.'
 listSummary: "Gran parte dei consigli sugli aggiornamenti è troppo assoluta."
 hub: "software"
 sourceNumber: 120
 order: 2
-tags: ["android","aggiornamenti","sicurezza","software","guida"]
+tags: ["android", "aggiornamenti", "sicurezza", "software", "guida"]
 locale: "it"
 draft: false
 ---
+
 La risposta pratica è semplice: installa rapidamente le patch di sicurezza. Per gli aggiornamenti a una nuova versione principale di Android, fai prima un breve controllo, soprattutto quando il rilascio è appena avvenuto.
 
 Android 17 è stato pubblicato il 16 giugno 2026, prima per la maggior parte dei Pixel supportati, mentre Samsung, Xiaomi, OnePlus, OPPO, Motorola e gli altri produttori seguono calendari propri. Quando Android 17 compare sul tuo dispositivo in questa fase, la decisione è leggermente diversa rispetto a una normale patch mensile.

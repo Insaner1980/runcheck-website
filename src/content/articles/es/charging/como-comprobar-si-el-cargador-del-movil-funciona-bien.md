@@ -5,10 +5,11 @@ listSummary: "carga, bateria y android"
 hub: "charging"
 sourceNumber: 44
 order: 8
-tags: ["carga","bateria","android","guia","hardware"]
+tags: ["carga", "bateria", "android", "guia", "hardware"]
 locale: "es"
 draft: false
 ---
+
 Un cargador puede superar la prueba de encajar en el puerto y fallar en la prueba de carga. USB-C solo te dice que el conector entra. No confirma que el adaptador, el cable y el móvil hayan negociado la carga rápida.
 
 Android 17 no cambia este problema básico. Sigue sin existir una pantalla universal de Android que diga: "este cargador está suministrando 23,4 W ahora mismo". Tienes que deducirlo o medirlo correctamente.

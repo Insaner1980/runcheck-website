@@ -5,10 +5,11 @@ listSummary: "La pression mémoire apparaît quand Android manque de RAM et comm
 hub: "performance"
 sourceNumber: 76
 order: 13
-tags: ["performances","vitesse","android","optimisation","depannage"]
+tags: ["performances", "vitesse", "android", "optimisation", "depannage"]
 locale: "fr"
 draft: false
 ---
+
 ---
 
 La pression mémoire, c'est Android qui choisit ce qu'il doit sacrifier. Quand la RAM ne suffit plus pour tout garder, le système commence à fermer les processus les moins importants afin que le téléphone puisse continuer à fonctionner.

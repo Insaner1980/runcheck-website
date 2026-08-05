@@ -1,18 +1,21 @@
 ---
-import '@fontsource-variable/manrope';
-import '@fontsource/jetbrains-mono/400.css';
-import '@fontsource/jetbrains-mono/600.css';
-import '../styles/global.css';
-import Footer from '../components/Footer.astro';
-import Header from '../components/Header.astro';
-import { ARTICLE_LOCALES } from '../data/articleLocales.mjs';
+import "@fontsource-variable/manrope";
+import "@fontsource/jetbrains-mono/400.css";
+import "@fontsource/jetbrains-mono/600.css";
+import "../styles/global.css";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import { ARTICLE_LOCALES } from "../data/articleLocales.mjs";
 import {
   CLOUDFLARE_WEB_ANALYTICS_SCRIPT_URL,
   GA4_MEASUREMENT_ID,
   buildCloudflareWebAnalyticsBeaconConfig,
   buildGoogleTagScriptUrl,
-} from '../data/analytics.mjs';
-import { COUNTRY_TO_PRICING_TIER, FALLBACK_PRICING_TIER } from '../data/pricing.mjs';
+} from "../data/analytics.mjs";
+import {
+  COUNTRY_TO_PRICING_TIER,
+  FALLBACK_PRICING_TIER,
+} from "../data/pricing.mjs";
 import {
   DEFAULT_META_ROBOTS,
   DEFAULT_SEO_IMAGE,
@@ -26,7 +29,7 @@ import {
   buildWebPageJsonLd,
   buildWebSiteJsonLd,
   serializeJsonLd,
-} from '../data/seo.mjs';
+} from "../data/seo.mjs";
 
 type JsonLd = Record<string, unknown>;
 type ArticleLocale = keyof typeof ARTICLE_LOCALES;
@@ -35,7 +38,7 @@ interface Props {
   title: string;
   description: string;
   canonicalPath?: string;
-  ogType?: 'website' | 'article';
+  ogType?: "website" | "article";
   imageAlt?: string;
   jsonLd?: JsonLd | JsonLd[];
   metaRobots?: string;
@@ -47,14 +50,14 @@ const {
   title,
   description,
   canonicalPath = Astro.url.pathname,
-  ogType = 'website',
+  ogType = "website",
   imageAlt = DEFAULT_SEO_IMAGE_ALT,
   jsonLd = [],
   metaRobots = DEFAULT_META_ROBOTS,
-  lang = 'en',
+  lang = "en",
   alternateLocales = [],
 } = Astro.props;
-const site = Astro.site ?? new URL('https://runcheckapp.com');
+const site = Astro.site ?? new URL("https://runcheckapp.com");
 const canonicalUrl = new URL(canonicalPath, site).toString();
 const googleTagScriptUrl = buildGoogleTagScriptUrl();
 const cloudflareWebAnalyticsBeacon = buildCloudflareWebAnalyticsBeaconConfig();
@@ -64,7 +67,13 @@ const ogLocale = ARTICLE_LOCALES[lang].og;
 const structuredData = [
   buildWebSiteJsonLd({ site, language: lang }),
   buildOrganizationJsonLd({ site }),
-  buildWebPageJsonLd({ title, description, canonicalUrl, site, language: lang }),
+  buildWebPageJsonLd({
+    title,
+    description,
+    canonicalUrl,
+    site,
+    language: lang,
+  }),
   ...extraJsonLd,
 ];
 ---
@@ -82,19 +91,37 @@ const structuredData = [
     <meta name="apple-mobile-web-app-title" content={SITE_NAME} />
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="icon" type="image/webp" href="/runcheck-app-icon-192.webp" sizes="192x192" />
+    <link
+      rel="icon"
+      type="image/webp"
+      href="/runcheck-app-icon-192.webp"
+      sizes="192x192"
+    />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
     <link rel="manifest" href="/site.webmanifest" />
     <link rel="canonical" href={canonicalUrl} />
-    {alternateLocales.map((alternate) => (
-      <link rel="alternate" hreflang={alternate.lang} href={new URL(alternate.path, site).toString()} />
-    ))}
+    {
+      alternateLocales.map((alternate) => (
+        <link
+          rel="alternate"
+          hreflang={alternate.lang}
+          href={new URL(alternate.path, site).toString()}
+        />
+      ))
+    }
     <link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
     <meta property="og:site_name" content={SITE_NAME} />
     <meta property="og:locale" content={ogLocale} />
-    {alternateLocales.filter((alternate) => alternate.lang !== lang).map((alternate) => (
-      <meta property="og:locale:alternate" content={ARTICLE_LOCALES[alternate.lang]?.og ?? 'en_US'} />
-    ))}
+    {
+      alternateLocales
+        .filter((alternate) => alternate.lang !== lang)
+        .map((alternate) => (
+          <meta
+            property="og:locale:alternate"
+            content={ARTICLE_LOCALES[alternate.lang]?.og ?? "en_US"}
+          />
+        ))
+    }
     <meta property="og:type" content={ogType} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
@@ -118,15 +145,18 @@ const structuredData = [
         function gtag() {
           window.dataLayer.push(arguments);
         };
-      window.gtag('js', new Date());
-      window.gtag('config', ga4MeasurementId);
+      window.gtag("js", new Date());
+      window.gtag("config", ga4MeasurementId);
     </script>
-    {structuredData.map((item) => <script type="application/ld+json" set:html={serializeJsonLd(item)} />)}
+    {
+      structuredData.map((item) => (
+        <script type="application/ld+json" set:html={serializeJsonLd(item)} />
+      ))
+    }
     <script
       defer
       src={CLOUDFLARE_WEB_ANALYTICS_SCRIPT_URL}
-      data-cf-beacon={cloudflareWebAnalyticsBeacon}
-    ></script>
+      data-cf-beacon={cloudflareWebAnalyticsBeacon}></script>
   </head>
   <body class="min-h-screen bg-run-bg text-run-text antialiased">
     <Header locale={lang} />
@@ -141,18 +171,21 @@ const structuredData = [
       }}
     >
       (() => {
-        const countryStorageKey = 'runcheck-pricing-country';
+        const countryStorageKey = "runcheck-pricing-country";
 
         const getTier = (country) => {
-          if (!country) return '';
-          return countryToPricingTier[String(country).toUpperCase()] || fallbackPricingTier;
+          if (!country) return "";
+          return (
+            countryToPricingTier[String(country).toUpperCase()] ||
+            fallbackPricingTier
+          );
         };
 
         const readCachedCountry = () => {
           try {
-            return sessionStorage.getItem(countryStorageKey) || '';
+            return sessionStorage.getItem(countryStorageKey) || "";
           } catch {
-            return '';
+            return "";
           }
         };
 
@@ -172,30 +205,34 @@ const structuredData = [
           try {
             const controller = new AbortController();
             const timeout = window.setTimeout(() => controller.abort(), 1200);
-            const response = await fetch('/cdn-cgi/trace', {
-              cache: 'no-store',
+            const response = await fetch("/cdn-cgi/trace", {
+              cache: "no-store",
               signal: controller.signal,
             });
             window.clearTimeout(timeout);
-            if (!response.ok) return '';
+            if (!response.ok) return "";
             const trace = await response.text();
-            const country = trace.match(/^loc=([A-Z]{2})$/m)?.[1] || '';
+            const country = trace.match(/^loc=([A-Z]{2})$/m)?.[1] || "";
             writeCachedCountry(country);
             return country;
           } catch {
-            return '';
+            return "";
           }
         };
 
         const applyPricingTier = (tier) => {
           if (!tier) return;
-          document.querySelectorAll('[data-regional-price]').forEach((element) => {
-            const value = element.getAttribute(`data-${tier.toLowerCase()}`);
-            if (value) element.textContent = value;
-          });
-          document.querySelectorAll('[data-regional-pricing-note]').forEach((element) => {
-            element.hidden = tier !== fallbackPricingTier;
-          });
+          document
+            .querySelectorAll("[data-regional-price]")
+            .forEach((element) => {
+              const value = element.getAttribute(`data-${tier.toLowerCase()}`);
+              if (value) element.textContent = value;
+            });
+          document
+            .querySelectorAll("[data-regional-pricing-note]")
+            .forEach((element) => {
+              element.hidden = tier !== fallbackPricingTier;
+            });
         };
 
         getCloudflareCountry().then((country) => {
@@ -206,37 +243,43 @@ const structuredData = [
 
     <script>
       // Artikkelisivujen animaatiot: otsikkoalueen sisääntulo + korttien scroll-reveal
-      const shell = document.querySelector('.article-page-shell');
+      const shell = document.querySelector(".article-page-shell");
 
       if (shell) {
-        const head = shell.querySelectorAll(':scope > a, :scope > h1, :scope > p, :scope > .mt-8');
+        const head = shell.querySelectorAll(
+          ":scope > a, :scope > h1, :scope > p, :scope > .mt-8",
+        );
 
         head.forEach((el, i) => {
-          el.setAttribute('data-reveal', '');
-          el.style.setProperty('--reveal-delay', `${i * 90}ms`);
-          requestAnimationFrame(() => requestAnimationFrame(() => el.classList.add('is-revealed')));
+          el.setAttribute("data-reveal", "");
+          el.style.setProperty("--reveal-delay", `${i * 90}ms`);
+          requestAnimationFrame(() =>
+            requestAnimationFrame(() => el.classList.add("is-revealed")),
+          );
         });
 
-        const items = [...document.querySelectorAll('.article-link-list > li, .article-cta')];
+        const items = [
+          ...document.querySelectorAll(".article-link-list > li, .article-cta"),
+        ];
 
-        document.querySelectorAll('.article-link-list').forEach((list) => {
+        document.querySelectorAll(".article-link-list").forEach((list) => {
           [...list.children].forEach((li, i) => {
-            li.style.setProperty('--reveal-delay', `${(i % 4) * 70}ms`);
+            li.style.setProperty("--reveal-delay", `${(i % 4) * 70}ms`);
           });
         });
 
-        items.forEach((el) => el.setAttribute('data-reveal', ''));
+        items.forEach((el) => el.setAttribute("data-reveal", ""));
 
         const io = new IntersectionObserver(
           (entries) => {
             for (const entry of entries) {
               if (entry.isIntersecting) {
-                entry.target.classList.add('is-revealed');
+                entry.target.classList.add("is-revealed");
                 io.unobserve(entry.target);
               }
             }
           },
-          { threshold: 0.1, rootMargin: '0px 0px -6% 0px' }
+          { threshold: 0.1, rootMargin: "0px 0px -6% 0px" },
         );
 
         items.forEach((el) => io.observe(el));

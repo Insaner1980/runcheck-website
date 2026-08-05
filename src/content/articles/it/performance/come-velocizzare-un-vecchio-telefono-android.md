@@ -5,10 +5,18 @@ listSummary: "La maggior parte dei vecchi telefoni Android non rallenta perché 
 hub: "performance"
 sourceNumber: 65
 order: 2
-tags: ["prestazioni","velocita","android","ottimizzazione","risoluzione-dei-problemi"]
+tags:
+  [
+    "prestazioni",
+    "velocita",
+    "android",
+    "ottimizzazione",
+    "risoluzione-dei-problemi",
+  ]
 locale: "it"
 draft: false
 ---
+
 La soluzione, quindi, è pratica. Riduci la pressione sul telefono prima di concludere che l'hardware sia ormai inutilizzabile.
 
 ## Libera prima la memoria interna

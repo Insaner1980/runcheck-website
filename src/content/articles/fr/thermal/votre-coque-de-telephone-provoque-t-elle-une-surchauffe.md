@@ -5,10 +5,11 @@ listSummary: "temperature, thermique et android"
 hub: "thermal"
 sourceNumber: 60
 order: 8
-tags: ["temperature","thermique","android","depannage","materiel"]
+tags: ["temperature", "thermique", "android", "depannage", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 Votre coque n'est probablement pas la raison pour laquelle le téléphone chauffe. Elle peut malgré tout aggraver le problème.
 
 La chaleur vient de l'intérieur : SoC, GPU, modem, écran, batterie et circuit de recharge. Une coque ne crée pas cette chaleur. Elle ralentit simplement son évacuation. La plupart du temps, cela change peu de choses. Le mauvais jour, avec recharge rapide, GPS, soleil direct et coque épaisse, l'effet devient nettement plus important.

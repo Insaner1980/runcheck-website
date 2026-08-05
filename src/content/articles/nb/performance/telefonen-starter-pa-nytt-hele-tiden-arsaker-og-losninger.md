@@ -5,10 +5,11 @@ listSummary: "ytelse, hastighet og android"
 hub: "performance"
 sourceNumber: 74
 order: 11
-tags: ["ytelse","hastighet","android","optimalisering","feilsøking"]
+tags: ["ytelse", "hastighet", "android", "optimalisering", "feilsøking"]
 locale: "nb"
 draft: false
 ---
+
 ---
 
 Starter telefonen tilfeldig på nytt, eller sitter den fast i en oppstartssløyfe? Forskjellen er viktig.

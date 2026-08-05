@@ -5,10 +5,11 @@ listSummary: "Metabeskrivelse: Lær å lese WiFi-styrke på Android i dBm, ikke 
 hub: "network"
 sourceNumber: 90
 order: 1
-tags: ["nettverk","tilkobling","android","feilsøking","guide"]
+tags: ["nettverk", "tilkobling", "android", "feilsøking", "guide"]
 locale: "nb"
 draft: false
 ---
+
 WiFi-strekene i statusfeltet er en grov pekepinn, ikke en måling. Legg to telefoner ved siden av hverandre, så kan de fortsatt vise ulikt fordi produsentene og de ulike Android-grensesnittene ikke omsetter signalstyrke til streker på samme måte.
 
 Skal du feilsøke ordentlig, bør du se etter dBm. Tallet viser signalstyrken telefonen mottar fra ruteren.

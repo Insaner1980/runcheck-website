@@ -5,10 +5,11 @@ listSummary: "nätverk, anslutningar och android"
 hub: "network"
 sourceNumber: 99
 order: 10
-tags: ["nätverk","anslutningar","android","felsökning","guide"]
+tags: ["nätverk", "anslutningar", "android", "felsökning", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Ett VPN ändrar vägen som telefonens internettrafik tar. I stället för att apparna ansluter direkt via Wi-Fi-nätverket eller mobiloperatören skickar telefonen först trafiken genom en krypterad tunnel till en VPN-server. Webbplatser och appar ser VPN-serverns IP-adress, inte telefonens vanliga offentliga IP-adress.
 
 Det låter mer mystiskt än det är. Ett VPN är användbart, men det är inget kraftfält för integriteten.

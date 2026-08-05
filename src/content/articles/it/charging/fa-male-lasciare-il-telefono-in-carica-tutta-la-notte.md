@@ -5,10 +5,11 @@ listSummary: "Sui telefoni moderni, la ricarica notturna non è un problema se a
 hub: "charging"
 sourceNumber: 42
 order: 6
-tags: ["ricarica","batteria","android","guida","hardware"]
+tags: ["ricarica", "batteria", "android", "guida", "hardware"]
 locale: "it"
 draft: false
 ---
+
 Colleghi il telefono alle 23:00, ti svegli alle 7:00 e scopri che è rimasto al 100% per ore. Sembra sbagliato, soprattutto perché i vecchi consigli sulle batterie non sono mai scomparsi del tutto.
 
 Un tempo si temeva il sovraccarico. Oggi il vero problema è il tempo trascorso con la batteria completamente carica.

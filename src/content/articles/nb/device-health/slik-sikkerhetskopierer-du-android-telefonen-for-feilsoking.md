@@ -5,10 +5,11 @@ listSummary: "ytelse, hastighet og android"
 hub: "device-health"
 sourceNumber: 9
 order: 5
-tags: ["ytelse","hastighet","android","optimalisering","feilsøking"]
+tags: ["ytelse", "hastighet", "android", "optimalisering", "feilsøking"]
 locale: "nb"
 draft: false
 ---
+
 En god sikkerhetskopi trenger ikke å være avansert. Du må bare vite hva Android allerede lagrer, hva systemet hopper over, og hvilke apper som trenger sin egen sikkerhetskopi før du gjør noe destruktivt.
 
 ## Dette sikkerhetskopierer Google automatisk

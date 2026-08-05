@@ -5,10 +5,11 @@ listSummary: "Xiaomis information om batterihälsa är fortfarande inkonsekvent.
 hub: "brands"
 sourceNumber: 155
 order: 3
-tags: ["batteri","hälsa","diagnostik","android","guide"]
+tags: ["batteri", "hälsa", "diagnostik", "android", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Android 17 löser inte detta av sig självt. Google släppte Android 17 först till de flesta Pixel-enheter som stöds, och Xiaomi har redan gjort Android 17 Developer Preview tillgängligt för ett fåtal utvalda modeller. Den bredare utrullningen genom HyperOS kommer senare. Även då bestämmer Xiaomi vad som visas i Inställningar på varje modell och i varje region.
 
 Läs därför inte det här som en enda sökväg som fungerar på alla Xiaomi-telefoner. Se det som en checklista.

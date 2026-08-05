@@ -5,10 +5,18 @@ listSummary: "rendimiento, velocidad y android"
 hub: "performance"
 sourceNumber: 78
 order: 15
-tags: ["rendimiento","velocidad","android","optimizacion","solucion-de-problemas"]
+tags:
+  [
+    "rendimiento",
+    "velocidad",
+    "android",
+    "optimizacion",
+    "solucion-de-problemas",
+  ]
 locale: "es"
 draft: false
 ---
+
 ---
 
 Al bloatware, es decir, al software preinstalado que no necesitas, se le culpa de casi cualquier móvil Android lento. La realidad es menos espectacular. Una aplicación preinstalada no ralentiza nada por el mero hecho de que exista su icono. El problema empieza cuando se ejecuta en segundo plano, activa el móvil, envía notificaciones, se actualiza o mantiene servicios funcionando aunque nunca la hayas pedido.

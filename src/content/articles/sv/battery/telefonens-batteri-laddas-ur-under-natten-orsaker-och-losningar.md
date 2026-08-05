@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 23
 order: 13
 subgroup: "Drain"
-tags: ["batteri","batteriförbrukning","felsökning","android","prestanda"]
+tags: ["batteri", "batteriförbrukning", "felsökning", "android", "prestanda"]
 locale: "sv"
 draft: false
 ---
+
 För en välfungerande Android-telefon är 2-5 % under natten ett helt odramatiskt resultat. Den håller fortfarande mobilanslutningen aktiv, lyssnar efter aviseringar, synkroniserar vissa kontouppgifter och kör mindre underhållsjobb. När förlusten ligger över 10 % natt efter natt är det dags att sluta betrakta den som normalt bakgrundsbrus.
 
 ## Kontrollera batteriskärmen först

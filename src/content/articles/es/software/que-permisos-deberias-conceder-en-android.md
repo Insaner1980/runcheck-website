@@ -5,10 +5,11 @@ listSummary: "android, permisos y privacidad"
 hub: "software"
 sourceNumber: 127
 order: 9
-tags: ["android","permisos","privacidad","seguridad","guia"]
+tags: ["android", "permisos", "privacidad", "seguridad", "guia"]
 locale: "es"
 draft: false
 ---
+
 Que una aplicación de cámara pida acceso a la cámara tiene sentido. Que una linterna pida acceso a los contactos, no. La mayoría de las decisiones sobre permisos no son más complicadas.
 
 El problema es el momento. Las aplicaciones preguntan justo cuando intentas hacer algo, así que Permitir se convierte en el botón rápido. De ese modo se acumulan permisos que nunca debiste conceder.

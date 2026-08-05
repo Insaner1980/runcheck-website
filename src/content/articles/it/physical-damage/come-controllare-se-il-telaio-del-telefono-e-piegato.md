@@ -5,10 +5,12 @@ listSummary: "Un telaio piegato può sollevare lo schermo, causare problemi al t
 hub: "physical-damage"
 sourceNumber: 135
 order: 5
-tags: ["hardware","danni","riparazione","android","risoluzione-dei-problemi"]
+tags:
+  ["hardware", "danni", "riparazione", "android", "risoluzione-dei-problemi"]
 locale: "it"
 draft: false
 ---
+
 ---
 
 Il primo indizio di solito non è spettacolare. Una cover non aderisce più bene. La protezione dello schermo continua a sollevarsi su un angolo. Il telefono oscilla sul tavolo anche se il retro sembra intatto.

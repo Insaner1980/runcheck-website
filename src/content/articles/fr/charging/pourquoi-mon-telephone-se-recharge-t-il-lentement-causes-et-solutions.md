@@ -5,10 +5,11 @@ listSummary: "recharge, batterie et android"
 hub: "charging"
 sourceNumber: 47
 order: 11
-tags: ["recharge","batterie","android","guide","materiel"]
+tags: ["recharge", "batterie", "android", "guide", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 Votre téléphone annonce trois heures avant une recharge complète. Hier, il en fallait une. Le chargeur semble identique, le câble aussi, et rien n'a visiblement changé.
 
 La recharge lente est agaçante parce que sa cause est souvent banale : un adaptateur trop faible, un câble endommagé, des peluches dans le port, de la chaleur ou une application qui consomme de l'énergie pendant que le chargeur tente de remplir la batterie. Commencez par ces pistes avant de conclure que la batterie est en train de rendre l'âme.

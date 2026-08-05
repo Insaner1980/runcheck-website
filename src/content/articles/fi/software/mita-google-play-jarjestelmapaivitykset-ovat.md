@@ -5,10 +5,11 @@ listSummary: "Avaa Androidin päivitysnäkymä, ja näet todennäköisesti kaksi
 hub: "software"
 sourceNumber: 124
 order: 6
-tags: ["android","päivitykset","tietoturva","ohjelmisto","opas"]
+tags: ["android", "päivitykset", "tietoturva", "ohjelmisto", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Se näyttää virheeltä. Yleensä se ei ole sitä.
 
 Kyse on kahdesta eri päivityskanavasta. Tietoturvakorjaustaso tulee puhelimen valmistajalta, kuten Googlelta, Samsungilta, Xiaomilta, OnePlussalta tai Motorolalta. Toinen päivämäärä tulee Googlen modulaarisen Android-päivitysjärjestelmän kautta sitä tukevissa laitteissa.

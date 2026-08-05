@@ -5,10 +5,11 @@ listSummary: "Vérifiez la température et identifiez la cause de la surchauffe 
 hub: "thermal"
 sourceNumber: 53
 order: 1
-tags: ["temperature","thermique","android","depannage","materiel"]
+tags: ["temperature", "thermique", "android", "depannage", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 ## Commencez par vérifier la température
 
 Utilisez d'abord les outils intégrés. Ils sont moins spectaculaires que les applications de capteurs, mais risquent moins d'afficher une précision que le téléphone ne fournit pas réellement.
@@ -103,4 +104,4 @@ La recharge crée de la chaleur dans la batterie. La recharge rapide en crée da
 
 Commencez par les outils du fabricant, puis utilisez une application de diagnostic si vous avez besoin d'un historique. Considérez les codes de numérotation comme un bonus, pas comme une garantie. Et si le téléphone est clairement trop chaud, ne continuez pas à le solliciter. Supprimez la source de chaleur, laissez-le refroidir, puis cherchez le schéma qui se répète.
 
-*Meta description : Découvrez comment vérifier la température d'un téléphone Android, comment interpréter les températures sûres de la batterie et comment Android 17, les diagnostics Pixel, Samsung Members, la recharge, les applications et la puissance du signal influencent la surchauffe.*
+_Meta description : Découvrez comment vérifier la température d'un téléphone Android, comment interpréter les températures sûres de la batterie et comment Android 17, les diagnostics Pixel, Samsung Members, la recharge, les applications et la puissance du signal influencent la surchauffe._

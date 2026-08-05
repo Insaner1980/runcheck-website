@@ -5,10 +5,11 @@ listSummary: "carga, bateria y android"
 hub: "thermal"
 sourceNumber: 54
 order: 2
-tags: ["carga","bateria","android","guia","hardware"]
+tags: ["carga", "bateria", "android", "guia", "hardware"]
 locale: "es"
 draft: false
 ---
+
 Tienes el móvil en la mano, la pantalla se ha atenuado, la carga se ha ralentizado o detenido y la parte trasera está más caliente de lo normal. No intentes hacer nada ingenioso. Enfríalo de la forma aburrida.
 
 ## Haz esto primero

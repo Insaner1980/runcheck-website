@@ -6,9 +6,10 @@ hub: "battery"
 sourceNumber: 30
 order: 20
 subgroup: "Drain"
-tags: ["battery","myths","android","testing","facts"]
+tags: ["battery", "myths", "android", "testing", "facts"]
 draft: false
 ---
+
 The common advice is to turn 120Hz off if you care about battery. That's half right.
 
 A high refresh rate can drain more battery than 60Hz, but every 120Hz phone does not pay the same price. On an older or cheaper phone with a fixed high-refresh panel, 120Hz can make a clear dent in battery life. On a newer phone with a variable refresh panel, the cost is often much smaller because the screen doesn't sit at 120Hz all day. It ramps up for scrolling and animation, then drops when the image is static.

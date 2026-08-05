@@ -5,9 +5,10 @@ listSummary: "Wi-Fi battery drain myth"
 hub: "myths"
 sourceNumber: 149
 order: 5
-tags: ["network","connectivity","android","troubleshooting","guide"]
+tags: ["network", "connectivity", "android", "troubleshooting", "guide"]
 draft: false
 ---
+
 Most people worry about the wrong Wi-Fi problem. A phone connected to a strong Wi-Fi network is not the same thing as a phone wandering around all day, disconnected, scanning for networks it might join.
 
 That distinction matters. Connected Wi-Fi is usually cheap. Constant scanning is where the battery cost starts to show.

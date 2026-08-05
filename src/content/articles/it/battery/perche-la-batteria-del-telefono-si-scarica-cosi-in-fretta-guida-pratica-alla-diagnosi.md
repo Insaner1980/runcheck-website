@@ -6,10 +6,12 @@ hub: "battery"
 sourceNumber: 21
 order: 11
 subgroup: "Consumo della batteria"
-tags: ["batteria","consumo","risoluzione-dei-problemi","android","prestazioni"]
+tags:
+  ["batteria", "consumo", "risoluzione-dei-problemi", "android", "prestazioni"]
 locale: "it"
 draft: false
 ---
+
 Il modo più veloce per perdere tempo è cambiare dieci impostazioni insieme sperando che una risolva il problema. Prima fai la diagnosi. Poi correggi ciò che sta davvero consumando energia.
 
 ## Parti dai controlli più ovvi

@@ -6,9 +6,10 @@ hub: "battery"
 sourceNumber: 31
 order: 21
 subgroup: "Drain"
-tags: ["battery","health","diagnostics","android","guide"]
+tags: ["battery", "health", "diagnostics", "android", "guide"]
 draft: false
 ---
+
 You're outside in freezing weather, the phone says 38%, and then it shuts off like the battery hit zero. A few minutes indoors, it wakes up again and suddenly shows charge left.
 
 Annoying? Yes. Mysterious? Not really.

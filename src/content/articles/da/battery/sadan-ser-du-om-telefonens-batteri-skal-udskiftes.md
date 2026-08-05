@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 17
 order: 7
 subgroup: "Health"
-tags: ["batteri","tilstand","diagnostik","android","guide"]
+tags: ["batteri", "tilstand", "diagnostik", "android", "guide"]
 locale: "da"
 draft: false
 ---
+
 Hvordan ved du, om selve cellen er slidt op, eller om en enkelt app opfører sig dårligt, eller telefonen kæmper med et svagt signal?
 
 Forskellen betyder noget. Et nyt batteri løser ikke problemet med en app, der løber løbsk. At slette apps reparerer ikke en celle, som ikke længere kan levere den nødvendige strøm.

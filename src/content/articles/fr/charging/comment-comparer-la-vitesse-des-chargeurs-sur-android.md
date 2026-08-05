@@ -5,10 +5,11 @@ listSummary: "recharge, batterie et android"
 hub: "charging"
 sourceNumber: 45
 order: 9
-tags: ["recharge","batterie","android","guide","materiel"]
+tags: ["recharge", "batterie", "android", "guide", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 Vous branchez le chargeur de la table de nuit et le téléphone indique Charge rapide. Vous branchez celui du bureau, et le même message apparaît. Pourtant, l'un atteint 80 % avant la fin du café, l'autre non.
 
 Le libellé ne suffit pas. Vous devez comparer ce que le téléphone accepte réellement.

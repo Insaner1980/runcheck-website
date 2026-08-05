@@ -5,10 +5,11 @@ listSummary: "Meta-Beschreibung: Alte Downloads belegen auf Android-Smartphones 
 hub: "storage"
 sourceNumber: 88
 order: 10
-tags: ["speicher","android","bereinigung","optimierung","ratgeber"]
+tags: ["speicher", "android", "bereinigung", "optimierung", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Du öffnest einmal eine PDF-Datei, lädst eine APK zum Testen herunter, speicherst eine ZIP-Datei aus dem Browser und vergisst anschließend alles wieder. Sechs Monate später ist der Download-Ordner voller Dateien, die du kaum noch zuordnen kannst.
 
 Das ist normal. Android legt dort viele Dateien ab, die nur einmal gebraucht werden, und die meisten behandeln diesen Ordner nicht wie einen Bereich, der gelegentlich gepflegt werden muss. Dabei wäre genau das sinnvoll.

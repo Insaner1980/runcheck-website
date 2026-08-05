@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 16
 order: 6
 subgroup: "Health"
-tags: ["batteri","helse","diagnostikk","android","guide"]
+tags: ["batteri", "helse", "diagnostikk", "android", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Se på det som et stoppskilt. Et oppsvulmet mobilbatteri er ikke et ytelsesproblem. Batteriet er skadet og må håndteres forsiktig.
 
 **Metabeskrivelse:** Et oppsvulmet mobilbatteri kan bli en brannfare hvis det skades eller håndteres feil. Lær deg faresignalene, hva du må unngå, og hvordan telefonen leveres til reparasjon eller gjenvinning på en trygg måte.

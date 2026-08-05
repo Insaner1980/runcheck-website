@@ -6,10 +6,12 @@ hub: "battery"
 sourceNumber: 26
 order: 16
 subgroup: "Consumo della batteria"
-tags: ["batteria","consumo","risoluzione-dei-problemi","android","prestazioni"]
+tags:
+  ["batteria", "consumo", "risoluzione-dei-problemi", "android", "prestazioni"]
 locale: "it"
 draft: false
 ---
+
 È normale. Un consumo eccessivo a riposo non lo è.
 
 ## Quanto consumo a riposo è normale

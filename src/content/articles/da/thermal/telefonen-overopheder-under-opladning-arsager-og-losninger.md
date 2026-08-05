@@ -5,10 +5,11 @@ listSummary: "Det er normalt, at en telefon bliver lidt varm under opladning."
 hub: "thermal"
 sourceNumber: 58
 order: 6
-tags: ["opladning","batteri","android","guide","hardware"]
+tags: ["opladning", "batteri", "android", "guide", "hardware"]
 locale: "da"
 draft: false
 ---
+
 Ved opladning føres energi ind i et litium-ion-batteri, og noget af energien bliver til varme. Du mærker det mere med en oplader på 25 W, 45 W eller 65 W end med en gammel 5 W-oplader. Det betyder ikke i sig selv, at noget er gået i stykker. Det afgørende er, om telefonen køler af, når den mest krævende del af opladningen er overstået, eller om den bliver stadig varmere, hver gang du sætter stikket i.
 
 Som praktisk rettesnor er en batteritemperatur under 35 °C rolig under opladning. Fra 35 °C til 40 °C er telefonen varm, men stadig i et normalt arbejdsområde for hurtigopladning. Ved 40 °C og derover vil telefonen normalt begynde at beskytte sig selv ved at sænke opladningshastigheden. Hvis temperaturen fortsætter op, eller varmen er koncentreret omkring opladningsporten, bør du ikke længere afskrive det som normal varme.
@@ -111,4 +112,4 @@ Det kan hjælpe lidt, fordi processoren og baggrundsapps ikke længere tilfører
 
 ---
 
-*Metabeskrivelse: Hvis telefonen bliver varm under opladning, kan årsagen være hurtigopladning, krævende brug, et dårligt kabel, trådløs opladning, et tykt cover, softwarearbejde eller batterislitage. Sådan finder du årsagen på en sikker måde.*
+_Metabeskrivelse: Hvis telefonen bliver varm under opladning, kan årsagen være hurtigopladning, krævende brug, et dårligt kabel, trådløs opladning, et tykt cover, softwarearbejde eller batterislitage. Sådan finder du årsagen på en sikker måde._

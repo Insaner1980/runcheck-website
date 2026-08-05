@@ -5,10 +5,11 @@ listSummary: "How to start Android in Safe Mode, what it disables, and how to us
 hub: "performance"
 sourceNumber: 70
 order: 7
-tags: ["batteri","strømforbruk","feilsøking","android","ytelse"]
+tags: ["batteri", "strømforbruk", "feilsøking", "android", "ytelse"]
 locale: "nb"
 draft: false
 ---
+
 Hvordan finner du ut om telefonen er treg fordi Android har en dårlig dag, eller fordi én app ødelegger alt i bakgrunnen? Sikker modus er den ryddigste testen.
 
 Sikker modus starter Android med bare systemprogramvaren og de innebygde appene. Apper du har installert senere, deaktiveres til du starter telefonen på vanlig måte igjen. Ingenting slettes. Poenget er å isolere feilen: Hvis problemet forsvinner i sikker modus, er det sannsynligvis en tredjepartsapp som er involvert. Hvis problemet består, bør du undersøke Android, lagringsplassen, batteriet eller maskinvaren.

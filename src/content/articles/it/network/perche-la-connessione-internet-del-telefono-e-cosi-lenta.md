@@ -5,10 +5,18 @@ listSummary: "Perché un telefono arranca mentre il portatile accanto carica tut
 hub: "network"
 sourceNumber: 91
 order: 2
-tags: ["prestazioni","velocita","android","ottimizzazione","risoluzione-dei-problemi"]
+tags:
+  [
+    "prestazioni",
+    "velocita",
+    "android",
+    "ottimizzazione",
+    "risoluzione-dei-problemi",
+  ]
 locale: "it"
 draft: false
 ---
+
 Non partire con un ripristino dei dati di fabbrica. Parti dai fatti.
 
 ## Per prima cosa, separa il telefono dalla rete

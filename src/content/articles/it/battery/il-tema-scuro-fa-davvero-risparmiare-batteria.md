@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 29
 order: 19
 subgroup: "Consumo della batteria"
-tags: ["batteria","miti","android","test","dati"]
+tags: ["batteria", "miti", "android", "test", "dati"]
 locale: "it"
 draft: false
 ---
+
 Il tema scuro fa risparmiare batteria o è solo uno di quei consigli Android ripetuti all'infinito? La risposta corretta è: dipende dallo schermo.
 
 Sui telefoni OLED, compresi quelli AMOLED, il tema scuro può ridurre il consumo. Sui telefoni LCD cambia pochissimo. La distinzione è tutta qui. Android 17, One UI, Pixel UI, ColorOS, HyperOS e le altre interfacce Android possono cambiare la posizione dell'impostazione, ma non il funzionamento dell'hardware del display.

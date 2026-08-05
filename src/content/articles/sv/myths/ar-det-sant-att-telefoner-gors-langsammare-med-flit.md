@@ -5,10 +5,11 @@ listSummary: "prestanda, hastighet och android"
 hub: "myths"
 sourceNumber: 150
 order: 6
-tags: ["prestanda","hastighet","android","optimering","felsökning"]
+tags: ["prestanda", "hastighet", "android", "optimering", "felsökning"]
 locale: "sv"
 draft: false
 ---
+
 Telefonen kan absolut bli långsammare med tiden. Det obekväma är att flera saker kan vara sanna samtidigt: tillverkare har fattat beslut som skadat äldre enheter, men de flesta prestandaproblem beror fortfarande på ganska vardagliga tekniska orsaker.
 
 Planerat åldrande är alltså delvis verkligt. Men varje trög telefon är inte bevis på en hemlig avstängningsknapp.

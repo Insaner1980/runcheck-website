@@ -5,10 +5,11 @@ listSummary: "Scopri come leggere la potenza del WiFi su Android in dBm, non sol
 hub: "network"
 sourceNumber: 90
 order: 1
-tags: ["rete","connettivita","android","risoluzione-dei-problemi","guida"]
+tags: ["rete", "connettivita", "android", "risoluzione-dei-problemi", "guida"]
 locale: "it"
 draft: false
 ---
+
 Le tacche del WiFi nella barra di stato sono un'indicazione approssimativa, non una misura. Metti due telefoni uno accanto all'altro e possono comunque mostrare risultati diversi, perché interfacce Android e produttori non associano tutti le tacche alla potenza del segnale nello stesso modo.
 
 Per una diagnosi reale, cerca il valore in dBm. Indica la potenza del segnale che il telefono riceve dal router.

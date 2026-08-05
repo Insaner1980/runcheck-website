@@ -5,10 +5,11 @@ listSummary: "Varför behöver en systemkomponent som du aldrig öppnar uppdater
 hub: "software"
 sourceNumber: 129
 order: 11
-tags: ["android","uppdateringar","säkerhet","programvara","guide"]
+tags: ["android", "uppdateringar", "säkerhet", "programvara", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Du kanske aldrig trycker på någon WebView-ikon. Det gör de flesta inte. Men när en mejlapp öppnar en inloggningssida, en social app visar en artikel utan att lämna appen eller en bankapp laddar en webbaserad autentiseringssida är det ofta WebView som sköter renderingen i bakgrunden.
 
 ## Vad WebView faktiskt gör

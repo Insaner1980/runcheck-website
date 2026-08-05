@@ -5,10 +5,11 @@ listSummary: "temperatur, värme och android"
 hub: "device-health"
 sourceNumber: 10
 order: 6
-tags: ["temperatur","värme","android","felsökning","hårdvara"]
+tags: ["temperatur", "värme", "android", "felsökning", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 Android definierar ingen universell hälsopoäng för telefoner. Det finns ingen gemensam sida i Android där "82/100" betyder samma sak på alla märken. Samsung Batteri och enhetsvård kan visa ett optimeringsvärde av 100, och Pixel Enhetshälsa och support visar övergripande status och funktionsstatus, men det är tillverkarnas egna verktyg, inte en gemensam Android-standard. Diagnostikappar använder egna beräkningsmodeller. Vad som ingår i poängen, och var modellen har sina begränsningar, är viktigare än själva talet.
 
 ## Vad hälsopoängen mäter

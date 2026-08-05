@@ -5,10 +5,18 @@ listSummary: "Quali impostazioni delle Opzioni sviluppatore possono far sembrare
 hub: "performance"
 sourceNumber: 69
 order: 6
-tags: ["prestazioni","velocita","android","ottimizzazione","risoluzione-dei-problemi"]
+tags:
+  [
+    "prestazioni",
+    "velocita",
+    "android",
+    "ottimizzazione",
+    "risoluzione-dei-problemi",
+  ]
 locale: "it"
 draft: false
 ---
+
 Le Opzioni sviluppatore non sono una modalità turbo segreta. Gran parte del menu serve a testare le app, fare il debug e visualizzare informazioni diagnostiche. Alcune impostazioni possono far sembrare più veloce uno smartphone Android. Molte non offrono alcun vantaggio nell'uso normale. Alcune possono peggiorare la situazione.
 
 La parte utile è piccola, e questa è una buona notizia. Non devi modificare venti interruttori. Per la maggior parte delle persone, la configurazione migliore consiste nel portare le scale delle animazioni a 0,5x, provare eventualmente il blocco delle app memorizzate nella cache se il dispositivo mostra l'opzione e lasciare invariato tutto il resto.

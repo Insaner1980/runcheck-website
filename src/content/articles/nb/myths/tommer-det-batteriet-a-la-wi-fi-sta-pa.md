@@ -5,10 +5,11 @@ listSummary: "Metabeskrivelse: Det bruker vanligvis lite batteri å la Wi-Fi st�
 hub: "myths"
 sourceNumber: 149
 order: 5
-tags: ["nettverk","tilkobling","android","feilsøking","guide"]
+tags: ["nettverk", "tilkobling", "android", "feilsøking", "guide"]
 locale: "nb"
 draft: false
 ---
+
 De fleste bekymrer seg for feil Wi-Fi-problem. En telefon som er koblet til et sterkt Wi-Fi-nettverk, er ikke det samme som en telefon som går rundt hele dagen uten forbindelse og skanner etter nettverk den kanskje kan koble seg til.
 
 Forskjellen er viktig. Tilkoblet Wi-Fi bruker vanligvis lite strøm. Det er ved konstant skanning at batterikostnaden begynner å merkes.

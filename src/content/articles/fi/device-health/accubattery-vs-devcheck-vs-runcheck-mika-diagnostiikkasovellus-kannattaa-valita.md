@@ -6,10 +6,11 @@ listSummary: "vertailu, sovellukset ja android"
 hub: "device-health"
 sourceNumber: 139
 order: 8
-tags: ["vertailu","sovellukset","android","osto-opas","arvostelu"]
+tags: ["vertailu", "sovellukset", "android", "osto-opas", "arvostelu"]
 locale: "fi"
 draft: false
 ---
+
 Mikä sovellus kannattaa asentaa, jos Android-puhelin kuumenee, akku tyhjenee liian nopeasti tai laite vain tuntuu olevan jotenkin pielessä? Ärsyttävä vastaus on, etteivät AccuBattery, DevCheck ja runcheck oikeastaan tee samaa työtä.
 
 AccuBattery on tarkoitettu akun kapasiteetin pitkäaikaiseen seurantaan. DevCheck näyttää laitteiston ja järjestelmän reaaliaikaisia tietoja. runcheck antaa laajemman kuvan akun, lämpötilan, verkon ja tallennustilan kunnosta.

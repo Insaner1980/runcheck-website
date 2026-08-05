@@ -5,10 +5,18 @@ listSummary: "Come ridurre le animazioni Android tramite Opzioni sviluppatore."
 hub: "performance"
 sourceNumber: 72
 order: 9
-tags: ["prestazioni","velocita","android","ottimizzazione","risoluzione-dei-problemi"]
+tags:
+  [
+    "prestazioni",
+    "velocita",
+    "android",
+    "ottimizzazione",
+    "risoluzione-dei-problemi",
+  ]
 locale: "it"
 draft: false
 ---
+
 Un Galaxy serie A di tre anni può sembrare più lento di quanto sia davvero perché ogni tocco aspetta la fine di una piccola animazione. Apri un'app, torni indietro, cambi schermata, abbassi il pannello delle impostazioni rapide. I piccoli ritardi si accumulano.
 
 Ridurre le animazioni non rende più veloce la CPU. Non migliora il segnale, la velocità della memoria o lo stato della batteria. Elimina solo una parte dell'attesa tra un'azione e l'altra, e spesso basta per far sembrare migliore un telefono non più recente.

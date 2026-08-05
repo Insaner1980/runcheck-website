@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 31
 order: 21
 subgroup: "Drain"
-tags: ["batteri","hälsa","diagnostik","android","guide"]
+tags: ["batteri", "hälsa", "diagnostik", "android", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Du är ute i minusgrader, mobilen visar 38 % och sedan stängs den av som om batteriet hade nått noll. Några minuter inomhus vaknar den till liv igen och visar plötsligt att det finns laddning kvar.
 
 Irriterande? Ja. Mystiskt? Egentligen inte.

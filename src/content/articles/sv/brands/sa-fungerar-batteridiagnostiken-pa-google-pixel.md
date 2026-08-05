@@ -5,10 +5,11 @@ listSummary: "batteri, hälsa och diagnostik"
 hub: "brands"
 sourceNumber: 154
 order: 2
-tags: ["batteri","hälsa","diagnostik","android","guide"]
+tags: ["batteri", "hälsa", "diagnostik", "android", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Tidpunkten spelar också roll. Android 17 finns redan på de flesta Pixel-enheter som stöds, medan andra Android-tillverkare får sina egna Android 17-baserade uppdateringar senare. Det betyder inte att varje Pixel plötsligt får samma batterisida. Googles batteridiagnostik är fortfarande uppdelad efter modell.
 
 ## Batterihälsa och kapacitet

@@ -5,10 +5,11 @@ listSummary: "Vertaa korjauskustannusta, jäljellä olevaa tukea ja puhelimen ar
 hub: "buying-selling"
 sourceNumber: 4
 order: 2
-tags: ["android","päivitykset","tietoturva","ohjelmisto","opas"]
+tags: ["android", "päivitykset", "tietoturva", "ohjelmisto", "opas"]
 locale: "fi"
 draft: false
 ---
+
 ## Korjaukset, jotka lähes aina kannattavat
 
 Akun vaihto on puhelinkorjausten selkein taloudellinen voitto. Suomalaisten huoltoliikkeiden tämänhetkisissä hinnastoissa tavallisten Android-mallien akunvaihto maksaa esimerkkilaitteissa noin 50-100 euroa. Valtuutettu huolto ja tiiviisti rakennetut premium-mallit voivat maksaa enemmän. Kustannus on silti yleensä vain murto-osa uuden puhelimen hinnasta. Uusi akku palauttaa käyttöaikaa ja poistaa suorituskyvyn rajoituksia, joita Android voi käyttää kuluneen akun suojaamiseksi. Melko pieni korjauslasku voi tuoda kaksi tai kolme lisävuotta käyttöä.
@@ -17,7 +18,6 @@ Latausliittimen korjaus kuuluu usein samaan luokkaan. Hinta riippuu Suomessa voi
 
 Molemmat korjaukset ovat järkeviä puhelimen iästä riippumatta, kunhan laite saa edelleen tietoturvapäivityksiä.
 
-
 ## Näytön korjaus: tässä laskelma kiristyy
 
 Näytön vaihdon hinta vaihtelee valtavasti. Suomessa tavallisen puhelimen näytönkorjaus voi maksaa mallista ja varaosan laadusta riippuen noin 50-300 euroa. Premium-mallien OLED-näytöt ovat selvästi kalliimpia. Esimerkiksi joidenkin nykyisten Samsung Galaxy S- ja OnePlus-huippumallien näyttökorjaukset ovat suomalaisissa hinnastoissa noin 460-500 euroa. Taittuvat puhelimet ovat oma luokkansa, ja sisänäytön korjauksesta kannattaa pyytää aina mallikohtainen kustannusarvio.
@@ -25,7 +25,6 @@ Näytön vaihdon hinta vaihtelee valtavasti. Suomessa tavallisen puhelimen näyt
 Ratkaiseva kysymys on puhelimen arvo korjauksen jälkeen. 200 euron näytönkorjaus 350 euron arvoiseen puhelimeen voi olla järkevä, jos ohjelmistotukea on jäljellä kolme vuotta. Sama korjaus 180 euron arvoiseen puhelimeen, jolla on vuosi tukea jäljellä, ei yleensä kannata. Raha on parempi käyttää uudempaan käytettyyn tai kunnostettuun puhelimeen.
 
 Yksi asia jää helposti huomaamatta. Toimivankin puhelimen jälleenmyyntiarvo laskee haljenneen näytön vuoksi nopeammin kuin kuluneen akun vuoksi. Joskus puhelimen myyminen rikkinäisenä ja rahan käyttäminen korvaavaan laitteeseen tulee halvemmaksi kuin näytön korjaaminen ensin.
-
 
 ## Milloin vaihtaminen voittaa
 
@@ -39,32 +38,29 @@ Joissakin tilanteissa korjaus on huono veto, vaikka yksittäinen hinta vaikuttai
 
 **RAM-muistin raja.** Puhelin, jossa on 4 GB RAM-muistia, selviää edelleen kevyestä käytöstä, mutta nykyinen Android, uudet sovellukset ja raskas moniajo tekevät rajasta tiukan. Sovellukset latautuvat jatkuvasti uudelleen, moniajo nykii ja taustalla olevat sovellukset sulkeutuvat. Mikään korjaus tai tehdasasetusten palautus ei nosta tätä rajaa.
 
-
 ## Kustannusten vertailu käytännössä
 
 Suuntaa-antavia Android-puhelinten korjauskustannuksia Suomessa vuonna 2026:
 
-| Korjaus | Hinta-arvio | Aika |
-|--------|-----------|------|
-| Akun vaihto | noin 50-100 € | usein samana päivänä |
-| Latausliitin | mallikohtainen kustannusarvio | yleensä muutamasta tunnista päivään |
-| Näyttö (tavallinen LCD tai OLED) | noin 50-300 € | usein samana päivänä |
-| Näyttö (premium-OLED) | noin 460-500 € esimerkkimalleissa | sama päivä tai varaosan saatavuuden mukaan |
-| Näyttö (taittuvan puhelimen sisänäyttö) | mallikohtainen kustannusarvio | vaihtelee |
-| Kosteusvaurion puhdistus ja diagnostiikka | alkaen noin 60 €, varaosat erikseen | vaihtelee |
-| Laaja vesivahinkokorjaus | kustannusarvio tutkimuksen jälkeen | vaihtelee |
+| Korjaus                                   | Hinta-arvio                         | Aika                                       |
+| ----------------------------------------- | ----------------------------------- | ------------------------------------------ |
+| Akun vaihto                               | noin 50-100 €                       | usein samana päivänä                       |
+| Latausliitin                              | mallikohtainen kustannusarvio       | yleensä muutamasta tunnista päivään        |
+| Näyttö (tavallinen LCD tai OLED)          | noin 50-300 €                       | usein samana päivänä                       |
+| Näyttö (premium-OLED)                     | noin 460-500 € esimerkkimalleissa   | sama päivä tai varaosan saatavuuden mukaan |
+| Näyttö (taittuvan puhelimen sisänäyttö)   | mallikohtainen kustannusarvio       | vaihtelee                                  |
+| Kosteusvaurion puhdistus ja diagnostiikka | alkaen noin 60 €, varaosat erikseen | vaihtelee                                  |
+| Laaja vesivahinkokorjaus                  | kustannusarvio tutkimuksen jälkeen  | vaihtelee                                  |
 
 Valmistajan valtuuttama huolto on usein riippumatonta huoltoliikettä kalliimpi, mutta siinä käytetään tavallisesti alkuperäisiä osia ja työlle annetaan takuu. Riippumaton huoltoliike voi olla halvempi ja nopeampi, mutta varaosien laatu ja takuun ehdot vaihtelevat. Vertaa aina mallikohtaisia tarjouksia.
 
 Hyvä vertailukohta on 30 prosenttia: jos korjauksen kokonaiskustannus jää alle 30 prosenttiin vastaavan uuden tai kunnostetun puhelimen hinnasta, korjaus on lähes aina järkevä. Tämä on nyrkkisääntö, ei laki.
-
 
 ## Ympäristövaikutus
 
 Uuden älypuhelimen valmistus aiheuttaa mallista ja laskentatavasta riippuen usein noin 50-80 kg CO2e-päästöjä. Lisäksi valmistukseen tarvitaan kobolttia, litiumia, kuparia, kultaa ja harvinaisia maametalleja. Olemassa olevan puhelimen korjaamisen jalanjälki on tästä vain murto-osa. EU:ssa älypuhelinten ekosuunnittelu- ja energiamerkintäsäännöt koskevat puhelimia, jotka on saatettu markkinoille 20.6.2025 alkaen. Vaatimuksiin kuuluvat muun muassa vähintään 800 lataussyklin jälkeen vähintään 80 prosenttia kapasiteetistaan säilyttävä akku, keskeisten varaosien saatavuus vähintään seitsemän vuoden ajan mallin markkinoille saattamisen päättymisestä, korjattavuusluokka energiamerkinnässä sekä ammattikorjaajien pääsy osien vaihtamiseen tarvittavaan ohjelmistoon tai laiteohjelmistoon. Erillistä korjauttamisoikeutta koskevaa direktiiviä on alettava soveltaa jäsenmaissa 31.7.2026, ja se vahvistaa korjausoikeuksia sen piiriin kuuluvissa tuoteryhmissä.
 
 Jos ympäristövaikutus kuuluu ostopäätökseen, korjaamisen pitäisi olla oletus, ellei kustannusvertailu selvästi puolla vaihtamista.
-
 
 ## Usein kysyttyä
 

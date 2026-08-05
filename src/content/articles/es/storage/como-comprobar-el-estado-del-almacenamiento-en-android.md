@@ -5,10 +5,11 @@ listSummary: "Evalúa el estado del almacenamiento mediante su tipo, velocidad y
 hub: "storage"
 sourceNumber: 80
 order: 2
-tags: ["almacenamiento","android","limpieza","optimizacion","guia"]
+tags: ["almacenamiento", "android", "limpieza", "optimizacion", "guia"]
 locale: "es"
 draft: false
 ---
+
 ---
 
 ¿Cómo puedes saber si el almacenamiento de tu móvil Android está en buen estado y no solo si le queda espacio libre? Resulta molesto, pero la mayoría de los dispositivos todavía no lo ponen fácil.

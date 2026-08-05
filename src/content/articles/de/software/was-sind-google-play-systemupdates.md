@@ -5,10 +5,11 @@ listSummary: "android, updates und sicherheit"
 hub: "software"
 sourceNumber: 124
 order: 6
-tags: ["android","updates","sicherheit","software","ratgeber"]
+tags: ["android", "updates", "sicherheit", "software", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Das sieht wie ein Fehler aus. Meist ist es keiner.
 
 Es handelt sich um zwei verschiedene Updatekanäle. Die Sicherheitspatch-Ebene kommt vom Gerätehersteller, zum Beispiel Google, Samsung, Xiaomi, OnePlus oder Motorola. Das andere Datum stammt auf unterstützten Geräten aus Googles modularem Android-Updatesystem.

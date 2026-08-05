@@ -5,10 +5,11 @@ listSummary: "netzwerk, verbindungen und android"
 hub: "network"
 sourceNumber: 103
 order: 14
-tags: ["netzwerk","verbindungen","android","fehlerbehebung","ratgeber"]
+tags: ["netzwerk", "verbindungen", "android", "fehlerbehebung", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Latenz wird in Millisekunden (ms) gemessen. Weniger ist besser. Besonders wichtig sind drei Werte: Ping, Jitter und Paketverlust. Ping ist die Zeit für den Hin- und Rückweg von deinem Smartphone zu einem Server. Jitter zeigt, wie stark diese Zeit zwischen einzelnen Anfragen schwankt. Paketverlust ist der Anteil der Daten, die ihr Ziel gar nicht erreichen.
 
 Eine Verbindung mit 100 Mbit/s Download und 150 ms Ping kann sich schlechter anfühlen als eine Verbindung mit 20 Mbit/s und 15 ms Ping. Das klingt zunächst verkehrt, bis du spielst, einen Videoanruf führst oder einen entfernten Desktop bedienst. Geschwindigkeit bewegt Daten. Latenz bestimmt die Reaktionszeit.

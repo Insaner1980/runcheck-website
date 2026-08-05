@@ -5,10 +5,11 @@ listSummary: "Stai comprando uno smartphone usato, oppure il tuo non mostra una 
 hub: "software"
 sourceNumber: 122
 order: 4
-tags: ["android","aggiornamenti","sicurezza","software","guida"]
+tags: ["android", "aggiornamenti", "sicurezza", "software", "guida"]
 locale: "it"
 draft: false
 ---
+
 Sulla maggior parte degli smartphone Android, apri la pagina Informazioni sullo smartphone nelle Impostazioni e cerca Aggiornamento della sicurezza Android o il livello patch di sicurezza. La data avrà un formato simile a 2026-06-05.
 
 ## Dove trovare la data della patch

@@ -5,10 +5,11 @@ listSummary: "laden, akku und android"
 hub: "thermal"
 sourceNumber: 54
 order: 2
-tags: ["laden","akku","android","ratgeber","hardware"]
+tags: ["laden", "akku", "android", "ratgeber", "hardware"]
 locale: "de"
 draft: false
 ---
+
 Du hältst das Smartphone in der Hand, das Display ist dunkler geworden, der Ladevorgang wurde verlangsamt oder gestoppt und die Rückseite fühlt sich heißer an, als sie sollte. Versuche keine cleveren Tricks. Kühle es auf die langweilige Art ab.
 
 ## Das solltest du zuerst tun

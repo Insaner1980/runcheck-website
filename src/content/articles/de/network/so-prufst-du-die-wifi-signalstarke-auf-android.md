@@ -5,10 +5,11 @@ listSummary: "Meta-Beschreibung: So liest du die WiFi-Signalstärke auf Android 
 hub: "network"
 sourceNumber: 90
 order: 1
-tags: ["netzwerk","verbindungen","android","fehlerbehebung","ratgeber"]
+tags: ["netzwerk", "verbindungen", "android", "fehlerbehebung", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Die WiFi-Balken in der Statusleiste sind nur ein grober Hinweis, keine Messung. Legst du zwei Smartphones nebeneinander, können sie trotzdem unterschiedliche Werte anzeigen, weil Android-Oberflächen und Hersteller die Signalstärke nicht einheitlich in Balken umsetzen.
 
 Für echte Fehlersuche brauchst du dBm. Dieser Wert beschreibt die Signalstärke, die dein Smartphone vom Router empfängt.

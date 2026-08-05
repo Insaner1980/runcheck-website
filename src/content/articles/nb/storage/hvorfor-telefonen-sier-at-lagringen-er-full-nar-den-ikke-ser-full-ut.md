@@ -5,10 +5,11 @@ listSummary: "Finn årsaken når Android melder om full lagring selv om det ser 
 hub: "storage"
 sourceNumber: 87
 order: 9
-tags: ["lagring","android","opprydding","optimalisering","guide"]
+tags: ["lagring", "android", "opprydding", "optimalisering", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Irriterende, men ikke uvanlig. Lagringsvarsler i Android kan skyldes synlige filer, skjulte appdata, papirkurver, mislykkede nedlastinger, rester etter systemoppdateringer eller en lagringsdatabase som ikke har rukket å oppdatere seg. Etter en stor oppdatering, blant annet utrullingen av Android 17, som begynte på støttede Pixel-telefoner før oppdateringene fra andre produsenter kom bredere ut, kan slike avvik dukke opp i et døgn eller to mens telefonen blir ferdig med bakgrunnsarbeidet.
 
 Start med en omstart. Ja, faktisk. Det er den kjedelige løsningen, men den rydder opp i midlertidige prosesser som har låst seg oftere enn mange tror.

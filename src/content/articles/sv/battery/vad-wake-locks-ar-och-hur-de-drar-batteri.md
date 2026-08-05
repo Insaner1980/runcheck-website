@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 35
 order: 25
 subgroup: "Drain"
-tags: ["batteri","batteriförbrukning","felsökning","android","prestanda"]
+tags: ["batteri", "batteriförbrukning", "felsökning", "android", "prestanda"]
 locale: "sv"
 draft: false
 ---
+
 Du sover. Mobilens skärm är avstängd. Ingenting spelas upp, ingenting laddas ned och ändå sjunker batterinivån med 18 % under natten.
 
 Det är den typ av förbrukning som wake locks kan orsaka. En begäran om ett wake lock håller en del av enheten vaken när Android annars skulle låta den vila. Det vanligaste batteriproblemet är ett partiellt wake lock, som håller processorn igång medan skärmen förblir avstängd.

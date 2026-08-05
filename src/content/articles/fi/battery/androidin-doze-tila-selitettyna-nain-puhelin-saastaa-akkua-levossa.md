@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 34
 order: 24
 subgroup: "Virrankulutus"
-tags: ["akku","optimointi","android","vinkit","suorituskyky"]
+tags: ["akku", "optimointi", "android", "vinkit", "suorituskyky"]
 locale: "fi"
 draft: false
 ---
+
 Miksi kymmenen ilmoitusta saapui samalla hetkellä, kun nostit puhelimen käteesi? Usein vastaus on Doze.
 
 Doze on Androidin sisäänrakennettu lepotilajärjestelmä. Sitä ei tarvitse ottaa käyttöön, eikä useimpien tarvitse koskaan nähdä erillistä Doze-näkymää Asetuksissa. Se toimii taustalla, kun puhelin ei ole latauksessa, näyttö on sammutettu ja Android päättää, ettei jokaisen sovelluksen tarvitse saada toimia milloin tahansa.

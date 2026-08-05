@@ -6,9 +6,10 @@ hub: "battery"
 sourceNumber: 25
 order: 15
 subgroup: "Drain"
-tags: ["battery","drain","troubleshooting","android","performance"]
+tags: ["battery", "drain", "troubleshooting", "android", "performance"]
 draft: false
 ---
+
 Hidden battery drain is mostly about finding what keeps the phone awake when the screen is off.
 
 ## Start with the boring screen

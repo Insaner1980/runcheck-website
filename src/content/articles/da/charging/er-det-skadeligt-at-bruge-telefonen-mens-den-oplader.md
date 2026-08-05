@@ -5,10 +5,11 @@ listSummary: "opladning, batteri og android"
 hub: "charging"
 sourceNumber: 41
 order: 5
-tags: ["opladning","batteri","android","guide","hardware"]
+tags: ["opladning", "batteri", "android", "guide", "hardware"]
 locale: "da"
 draft: false
 ---
+
 Du er midt i et spil, batteriet er nede på 12 %, og opladeren ligger lige ved siden af. Du sætter den til og fortsætter. Telefonen bliver varm, billedhastigheden falder, og nu spekulerer du på, om du lige har gjort noget alvorligt ved batteriet.
 
 Det har du sandsynligvis ikke. Men du har skabt præcis den kombination af varmekilder, som batterier ikke bryder sig om.

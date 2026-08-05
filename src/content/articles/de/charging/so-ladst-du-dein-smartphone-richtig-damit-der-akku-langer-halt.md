@@ -5,10 +5,11 @@ listSummary: "Ladegewohnheiten beeinflussen, wie lange der Smartphone-Akku gesun
 hub: "charging"
 sourceNumber: 38
 order: 2
-tags: ["laden","akku","android","ratgeber","hardware"]
+tags: ["laden", "akku", "android", "ratgeber", "hardware"]
 locale: "de"
 draft: false
 ---
+
 Die beste Ladegewohnheit ist unspektakulär: Halte das Smartphone kühl, lass es nicht stundenlang bei 100 % liegen und entlade es nicht jeden Tag vollständig. Das ist im Grunde schon alles. Der Rest sind Einzelheiten.
 
 Du musst deshalb nicht ständig auf die Prozentanzeige schauen oder das Kabel in der Sekunde abziehen, in der 80 % erreicht sind. Ein Smartphone ist ein Werkzeug und keine Laborprobe. Lithium-Ionen-Akkus altern unter einigen gut vorhersehbaren Bedingungen jedoch schneller. Deine tägliche Laderoutine kann diese Belastung erhöhen oder in Grenzen halten.

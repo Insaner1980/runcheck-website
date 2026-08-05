@@ -5,10 +5,11 @@ listSummary: "Android-lagring kan slites, men de fleste telefoner viser ikke en 
 hub: "storage"
 sourceNumber: 80
 order: 2
-tags: ["lagring","android","opprydding","optimalisering","guide"]
+tags: ["lagring", "android", "opprydding", "optimalisering", "guide"]
 locale: "nb"
 draft: false
 ---
+
 ---
 
 Hvordan vet du om lagringen i Android-telefonen er i god stand, og ikke bare om den har nok ledig plass? Irriterende nok gjør de fleste telefoner dette fortsatt vanskelig.

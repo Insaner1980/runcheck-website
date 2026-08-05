@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 13
 order: 3
 subgroup: "Health"
-tags: ["batterie","etat","diagnostic","android","guide"]
+tags: ["batterie", "etat", "diagnostic", "android", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Le chiffre qui décrit l'état de la batterie mesure son usure. Ce n'est pas le même pourcentage que celui affiché dans la barre d'état.
 
 Si votre téléphone indique un état de 87 %, sa batterie peut stocker environ 87 % de la charge qu'elle contenait lorsqu'elle était neuve. Elle fonctionne encore. Son réservoir est simplement devenu plus petit.

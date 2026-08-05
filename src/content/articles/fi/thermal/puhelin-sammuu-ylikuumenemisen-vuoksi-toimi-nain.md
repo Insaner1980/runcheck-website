@@ -5,10 +5,11 @@ listSummary: "Puhelin pimenee, ei suostu käynnistymään ja näyttää lopulta 
 hub: "thermal"
 sourceNumber: 61
 order: 9
-tags: ["lämpötila","kuumeneminen","android","vianetsintä","laitteisto"]
+tags: ["lämpötila", "kuumeneminen", "android", "vianetsintä", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 Lämpötilan vuoksi tehty sammutus tarkoittaa, että puhelin suojasi itseään. Androidissa on lämpötilatiloja, joiden perusteella järjestelmä voi vähentää kuormitusta, rajoittaa suorituskykyä, hidastaa latausta ja äärimmäisessä tilanteessa sammuttaa laitteen. Akun ja ulkopinnan tarkat lämpörajat määrittää valmistaja, joten yhtä lukua ei pidä pitää kaikkia puhelimia koskevana sääntönä.
 
 Sammuminen ei ole varsinainen ongelma. Sen aiheuttanut kuumuus on.
@@ -83,4 +84,4 @@ Kyllä, kevyisiin tehtäviin sen jälkeen, kun puhelin on jäähtynyt. Älä jat
 
 ---
 
-*Metakuvaus: Ylikuumenemisen vuoksi sammuva puhelin suojaa itseään. Jäähdytä se turvallisesti, tarkista lataus, sovellukset, Android-päivitykset ja akun kunto sekä tunnista huollon tarve.*
+_Metakuvaus: Ylikuumenemisen vuoksi sammuva puhelin suojaa itseään. Jäähdytä se turvallisesti, tarkista lataus, sovellukset, Android-päivitykset ja akun kunto sekä tunnista huollon tarve._

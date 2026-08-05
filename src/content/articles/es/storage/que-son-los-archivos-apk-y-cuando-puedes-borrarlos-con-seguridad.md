@@ -5,10 +5,11 @@ listSummary: "¿Has encontrado un archivo terminado en .apk en Downloads y no re
 hub: "storage"
 sourceNumber: 84
 order: 6
-tags: ["almacenamiento","android","limpieza","optimizacion","guia"]
+tags: ["almacenamiento", "android", "limpieza", "optimizacion", "guia"]
 locale: "es"
 draft: false
 ---
+
 APK significa Android Package Kit. Es uno de los formatos de paquete que Android utiliza para instalar aplicaciones. Para la limpieza, lo importante es esto: el archivo APK que ves en Downloads no es la aplicación que se ejecuta en el móvil. Es el instalador.
 
 Una vez instalada la aplicación, borrar el APK sobrante no la desinstala ni elimina sus ajustes.

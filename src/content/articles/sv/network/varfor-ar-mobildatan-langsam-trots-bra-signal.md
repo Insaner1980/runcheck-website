@@ -5,10 +5,11 @@ listSummary: "Fulla signalstaplar garanterar inte snabb mobildata."
 hub: "network"
 sourceNumber: 97
 order: 8
-tags: ["prestanda","hastighet","android","optimering","felsökning"]
+tags: ["prestanda", "hastighet", "android", "optimering", "felsökning"]
 locale: "sv"
 draft: false
 ---
+
 Du ser fulla signalstaplar, men sidan vägrar ändå att öppnas. Telefonen visar 5G eller LTE. Signalen ser bra ut. Ändå känns det som om mobildatan tar sig fram genom sirap.
 
 Det beror på att bra signal egentligen bara bevisar en sak: telefonen hör mobilmasten tillräckligt bra. Staplarna säger mycket mindre om belastningen i nätet, abonnemangets villkor, störningar, operatörens routning, VPN-belastning eller om telefonen använder rätt nätverksskikt.

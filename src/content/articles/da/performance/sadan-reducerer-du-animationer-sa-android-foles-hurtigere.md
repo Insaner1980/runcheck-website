@@ -5,10 +5,11 @@ listSummary: "ydeevne, hastighed og android"
 hub: "performance"
 sourceNumber: 72
 order: 9
-tags: ["ydeevne","hastighed","android","optimering","fejlfinding"]
+tags: ["ydeevne", "hastighed", "android", "optimering", "fejlfinding"]
 locale: "da"
 draft: false
 ---
+
 En tre år gammel telefon i Galaxy A-serien kan føles langsommere, end den egentlig er, fordi hvert tryk venter på, at en lille animation bliver færdig. Åbn en app, gå tilbage, skift skærm, træk kvikmenuen ned. De små forsinkelser hober sig op.
 
 Når du reducerer animationerne, bliver CPU'en ikke hurtigere. Det forbedrer heller ikke signalet, lagerhastigheden eller batteritilstanden. Du fjerner blot noget af ventetiden mellem handlinger, og det er ofte nok til, at en ældre telefon føles bedre.

@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 30
 order: 20
 subgroup: "Drain"
-tags: ["batterie","mythes","android","test","faits"]
+tags: ["batterie", "mythes", "android", "test", "faits"]
 locale: "fr"
 draft: false
 ---
+
 Le conseil habituel consiste à désactiver le 120 Hz lorsqu'on veut préserver la batterie. Il n'est vrai qu'à moitié.
 
 Un taux de rafraîchissement élevé peut consommer davantage que 60 Hz, mais tous les téléphones 120 Hz n'en paient pas le même prix. Sur un modèle ancien ou abordable doté d'une fréquence élevée fixe, le 120 Hz peut réduire nettement l'autonomie. Sur un téléphone récent à fréquence variable, l'effet est souvent beaucoup plus faible, car l'écran ne reste pas à 120 Hz toute la journée. Il monte pendant le défilement et les animations, puis redescend lorsque l'image ne bouge plus.

@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 36
 order: 26
 subgroup: "Drain"
-tags: ["batterie","optimisation","android","conseils","performances"]
+tags: ["batterie", "optimisation", "android", "conseils", "performances"]
 locale: "fr"
 draft: false
 ---
+
 L'Économiseur de batterie est surtout utile avant que le téléphone soit presque à plat. L'activer à 8 % aide encore, mais à ce stade, l'essentiel de la charge a déjà disparu.
 
 Le bon réflexe dépend de la situation. Activez-le lorsque vous savez qu'il sera difficile de recharger votre téléphone : pendant un vol, une longue réunion, un trajet avec un signal faible, une journée passée dehors, ou chaque fois que l'autonomie compte davantage qu'une fluidité parfaite.

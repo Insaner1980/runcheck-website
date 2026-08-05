@@ -5,9 +5,10 @@ listSummary: "Xiaomi CIT hardware tests"
 hub: "brands"
 sourceNumber: 159
 order: 7
-tags: ["hardware","testing","diagnostics","android","guide"]
+tags: ["hardware", "testing", "diagnostics", "android", "guide"]
 draft: false
 ---
+
 CIT is the quickest built-in hardware check on most Xiaomi phones, including Redmi and POCO models running official MIUI or HyperOS. It's not pretty. It doesn't explain much. But when you need to know whether the touch screen, speaker, microphone, sensor, or camera is actually responding, it gets you there faster than most Play Store diagnostic apps.
 
 Xiaomi usually calls it hardware detection or CIT mode in support pages. You'll mostly see it when troubleshooting a specific issue, like a drifting touch screen or a phone that keeps restarting. The menu is meant for point-in-time testing, not health tracking.

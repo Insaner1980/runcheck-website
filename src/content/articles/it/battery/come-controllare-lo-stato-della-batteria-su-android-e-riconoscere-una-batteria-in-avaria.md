@@ -6,12 +6,12 @@ hub: "battery"
 sourceNumber: 11
 order: 1
 subgroup: "Stato della batteria"
-tags: ["batteria","stato","diagnostica","android","guida"]
+tags: ["batteria", "stato", "diagnostica", "android", "guida"]
 locale: "it"
 draft: false
 ---
-A differenza degli iPhone, che sui modelli supportati mostrano una percentuale dello stato della batteria da iOS 11.3, Android ha sempre reso questa informazione più difficile da trovare. Non esiste una schermata universale dedicata allo stato della batteria. Per farsi un quadro servono gli strumenti del produttore, i menu nascosti, l'andamento dei consumi e le app di diagnostica.
 
+A differenza degli iPhone, che sui modelli supportati mostrano una percentuale dello stato della batteria da iOS 11.3, Android ha sempre reso questa informazione più difficile da trovare. Non esiste una schermata universale dedicata allo stato della batteria. Per farsi un quadro servono gli strumenti del produttore, i menu nascosti, l'andamento dei consumi e le app di diagnostica.
 
 ## Risposta rapida: come controllare lo stato della batteria
 
@@ -24,7 +24,6 @@ Tre metodi, dal più rapido al più dettagliato.
 **App di diagnostica.** Le app di terze parti stimano lo stato della batteria osservando i cicli di carica e scarica per diversi giorni. È l'opzione più dettagliata quando il telefono non dispone di un indicatore integrato.
 
 Una capacità inferiore all'80 % rispetto a quella nominale, oppure uno stato diverso da "Buono" o "Normale", rende sensato valutare la sostituzione.
-
 
 ## Perché le batterie si deteriorano
 
@@ -39,7 +38,6 @@ Ogni smartphone Android usa una batteria agli ioni di litio o ai polimeri di lit
 **Le abitudini di ricarica contano, ma meno di quanto si pensa.** Portare sempre la batteria al 100 % e scaricarla fino allo 0 % la sottopone a più stress rispetto a mantenerla tra il 20 % e l'80 %. Anche la ricarica rapida produce più calore di quella standard. Tuttavia, nell'arco di un anno, la differenza tra ricaricare sempre rapidamente fino al 100 % e fermarsi con calma all'80 % è più piccola di quanto suggeriscano molti consigli online. Calore e tempo incidono di più. Il vero rischio sono i caricabatterie non certificati: un'alimentazione instabile può danneggiare le celle in modo permanente.
 
 Il risultato finale è semplice: una batteria da 5.000 mAh diventa lentamente una batteria da 4.000 mAh, poi da 3.500 mAh, finché l'energia rimasta non basta più per una giornata normale.
-
 
 ## Controlli manuali
 
@@ -61,7 +59,6 @@ Le impostazioni integrate di Android offrono indizi utili anche quando non mostr
 
 **Usa la diagnostica del produttore.** Oltre agli indicatori citati nella risposta rapida, alcuni telefoni includono test dedicati. Sui Pixel compatibili cerca Diagnostica della batteria nella sezione Batteria. Samsung Members offre una sezione completa di Diagnostica dello smartphone con un test della batteria. Nei dispositivi Xiaomi, le informazioni disponibili cambiano in base al modello e alla versione di HyperOS.
 
-
 ## Diagnostica avanzata: tensione, temperatura e andamento della scarica
 
 Per chi vuole un quadro più tecnico, alcune misure mostrano cosa sta succedendo all'interno della cella.
@@ -79,7 +76,6 @@ Le app di diagnostica trasformano queste osservazioni in numeri. Analizzano per 
 runcheck riunisce la diagnostica della batteria con l'analisi della rete, della temperatura e della memoria in una valutazione unica. È utile perché i problemi di batteria non compaiono sempre da soli. Un componente che si comporta male può produrre calore e sembrare un problema di autonomia, mentre una memoria quasi satura può costringere la CPU a lavorare più del necessario.
 
 Evita le app che promettono di "potenziare", "calibrare" o "ripristinare" lo stato della batteria. Nessuna app può invertire la degradazione chimica. Gli strumenti utili mostrano valori reali di tensione e temperatura, raccolgono dati nel tempo e funzionano sul dispositivo senza richiedere account o caricamenti sul cloud.
-
 
 ## Domande frequenti
 
@@ -114,7 +110,6 @@ La capacità reale non corrisponde più a quella attesa dal software. Con l'inve
 **Ogni quanto va controllato lo stato della batteria?**
 
 Ogni pochi mesi. La degradazione è graduale e controllarla ossessivamente non cambia il risultato. Vale la pena fare un controllo fuori programma quando l'autonomia cambia all'improvviso, il telefono si spegne senza motivo o diventa più caldo del solito.
-
 
 ## Come usare i risultati
 

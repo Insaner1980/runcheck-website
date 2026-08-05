@@ -5,10 +5,11 @@ listSummary: "verkko, yhteydet ja android"
 hub: "network"
 sourceNumber: 102
 order: 13
-tags: ["verkko","yhteydet","android","vianetsintä","opas"]
+tags: ["verkko", "yhteydet", "android", "vianetsintä", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Puhelimessa lukee `No Signal`, `No Service` tai `Emergency Calls Only`, ja kädessäsi oleva kallis pieni tietokone muuttuu yhtäkkiä kameraksi, joka toimii vain Wi-Fi-yhteydellä. Ärsyttävää, mutta ei aina vakavaa.
 
 Ratkaisevaa on erottaa toisistaan kolme mahdollista syytä: puhelin, SIM tai eSIM ja operaattorin verkko. Arvaileminen vie aikaa. Kun testaat ne järjestyksessä, vian lähde löytyy yleensä melko nopeasti.

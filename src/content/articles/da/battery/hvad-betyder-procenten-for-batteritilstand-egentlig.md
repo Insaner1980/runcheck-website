@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 13
 order: 3
 subgroup: "Health"
-tags: ["batteri","tilstand","diagnostik","android","guide"]
+tags: ["batteri", "tilstand", "diagnostik", "android", "guide"]
 locale: "da"
 draft: false
 ---
+
 Hvis telefonen viser 87 % batteritilstand, kan cellen lagre omkring 87 % af den opladning, den kunne rumme som ny. Batteriet virker stadig. Tanken er bare blevet mindre.
 
 **Metabeskrivelse:** Batteritilstanden viser telefonens aktuelle maksimale kapacitet sammenlignet med da batteriet var nyt. Se, hvad tallet betyder, hvorfor 80 % er vigtigt, og hvordan Android-telefoner rapporterer det.

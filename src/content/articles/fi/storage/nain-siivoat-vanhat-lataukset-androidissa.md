@@ -5,10 +5,11 @@ listSummary: "Vanhat lataukset vievät Android-puhelimesta tilaa huomaamatta."
 hub: "storage"
 sourceNumber: 88
 order: 10
-tags: ["tallennustila","android","siivous","optimointi","opas"]
+tags: ["tallennustila", "android", "siivous", "optimointi", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Avaat PDF-tiedoston kerran, lataat APK-tiedoston testaamista varten, tallennat selaimesta ZIP-tiedoston ja unohdat ne kaikki. Kuusi kuukautta myöhemmin Lataukset-kansio on täynnä tiedostoja, joita et tunnista.
 
 Se on tavallista. Android tallentaa sinne paljon kertakäyttöisiä tiedostoja, eikä useimpien mieleen tule ylläpitää kansiota säännöllisesti. Sitä kuitenkin tarvitaan.

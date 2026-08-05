@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 35
 order: 25
 subgroup: "Drain"
-tags: ["batteri","strømforbrug","fejlfinding","android","ydeevne"]
+tags: ["batteri", "strømforbrug", "fejlfinding", "android", "ydeevne"]
 locale: "da"
 draft: false
 ---
+
 Du sover. Telefonens skærm er slukket. Intet afspilles, intet downloades, og batteriet falder alligevel 18 % i løbet af natten.
 
 Det er den slags batteriforbrug, wake locks kan forårsage. En wake lock-anmodning holder en del af enheden vågen, selv om Android ellers ville lade den sove. Det mest almindelige batteriproblem er en partial wake lock, som holder processoren i gang, mens skærmen forbliver slukket.

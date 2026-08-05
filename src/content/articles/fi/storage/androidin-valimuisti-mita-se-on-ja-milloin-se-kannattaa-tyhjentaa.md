@@ -5,10 +5,11 @@ listSummary: "Välimuistitiedostojen tyhjentämisestä on hyötyä, mutta vain s
 hub: "storage"
 sourceNumber: 83
 order: 5
-tags: ["suorituskyky","nopeus","android","optimointi","vianetsintä"]
+tags: ["suorituskyky", "nopeus", "android", "optimointi", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+
 Ne eivät ole automaattisesti roskaa. Suurin osa niistä tekee sovelluksista nopeampia.
 
 Ongelma alkaa, jos välimuisti kasvaa liian suureksi, vioittuu tai jää jäljelle suuren sovellus- tai Android-päivityksen jälkeen, vaikka sovelluksen toimintatapa olisi muuttunut. Android 17 ei muuttanut perussääntöä. Se julkaistiin ensin useimmille tuetuille Pixel-puhelimille, ja muut Android-valmistajat tuovat sen omiin laitteisiinsa myöhemmin. Vakio-Androidissa välimuistia hallitaan silti sovellus kerrallaan.

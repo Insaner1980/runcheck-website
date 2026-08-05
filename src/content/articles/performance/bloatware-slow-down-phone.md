@@ -5,9 +5,10 @@ listSummary: "Bloatware impact and removal"
 hub: "performance"
 sourceNumber: 78
 order: 15
-tags: ["performance","speed","android","optimization","troubleshooting"]
+tags: ["performance", "speed", "android", "optimization", "troubleshooting"]
 draft: false
 ---
+
 ---
 
 Bloatware gets blamed for almost every slow Android phone, but the truth is less dramatic. A pre-installed app doesn't slow anything down just because its icon exists. The trouble starts when that app runs in the background, wakes the phone, sends notifications, updates itself, or keeps services active even though you never asked for it.

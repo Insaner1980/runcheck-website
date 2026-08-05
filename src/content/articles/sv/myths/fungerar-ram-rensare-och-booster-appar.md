@@ -5,10 +5,11 @@ listSummary: "Gör en RAM-booster Android-telefonen snabbare, eller får den bar
 hub: "myths"
 sourceNumber: 147
 order: 3
-tags: ["prestanda","hastighet","android","optimering","felsökning"]
+tags: ["prestanda", "hastighet", "android", "optimering", "felsökning"]
 locale: "sv"
 draft: false
 ---
+
 På en modern Android-telefon ger RAM-rensare och booster-appar ingen varaktig prestandaförbättring. De får oftast telefonen att arbeta mer, inte mindre. Ännu värre är att de ofta begär omfattande behörigheter för att kunna övervaka användningen, visa annonser och själva fortsätta köras i bakgrunden.
 
 ## Ledigt RAM är inte målet

@@ -5,10 +5,11 @@ listSummary: "batteri, helse og diagnostikk"
 hub: "myths"
 sourceNumber: 152
 order: 8
-tags: ["batteri","helse","diagnostikk","android","guide"]
+tags: ["batteri", "helse", "diagnostikk", "android", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Når en tre år gammel telefon dør før middagen, kan knappen for tilbakestilling til fabrikkinnstillinger virke fristende. Det føles som en ny start, og noen ganger er det nettopp det. Bare ikke for selve batteriet.
 
 En tilbakestilling kan forbedre batteritiden. Den kan ikke forbedre batterihelsen.

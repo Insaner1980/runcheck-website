@@ -5,10 +5,11 @@ listSummary: "L'ordre des étapes compte."
 hub: "buying-selling"
 sourceNumber: 5
 order: 3
-tags: ["guide-d-achat","android","comparaison","valeur","guide"]
+tags: ["guide-d-achat", "android", "comparaison", "valeur", "guide"]
 locale: "fr"
 draft: false
 ---
+
 ## Sauvegardez vos données avant toute autre chose
 
 Google peut sauvegarder automatiquement les contacts, les calendriers, les données d'applications et les paramètres de l'appareil lorsque la sauvegarde est activée. Vérifiez-la dans Paramètres > Google > Tous les services > Sauvegarde, puis appuyez sur « Sauvegarder maintenant » pour lancer une synchronisation.
@@ -18,7 +19,6 @@ Les photos et les vidéos demandent une vérification séparée. Si Google Photo
 Les applications d'authentification sont souvent oubliées. Google Authenticator, Microsoft Authenticator et Authy stockent les codes de validation en deux étapes dont dépendent de nombreux comptes. Transférez-les vers votre nouvel appareil ou exportez-les avant d'effacer le téléphone. La perte de ces codes 2FA peut bloquer l'accès à vos services bancaires, à votre messagerie ou à vos comptes professionnels. La récupération prend parfois plusieurs jours et exige une vérification d'identité auprès de chaque service.
 
 WhatsApp, Signal et Telegram utilisent leurs propres systèmes de sauvegarde, distincts de celui de Google. Sauvegardez les conversations séparément dans chaque application.
-
 
 ## Supprimez tous les comptes
 
@@ -30,7 +30,6 @@ Désactivez également Localiser dans les paramètres de sécurité ou de compte
 
 Si le téléphone utilise une eSIM, supprimez son profil. Une réinitialisation d'usine n'efface pas toujours les données eSIM, et un ancien profil peut perturber l'activation de la ligne du nouvel acheteur.
 
-
 ## Réinitialisez le téléphone
 
 Sur les Google Pixel, ouvrez Paramètres > Système > Options de réinitialisation > Effacer toutes les données (rétablir la configuration d'usine). Sur Samsung, le chemin se trouve généralement dans Paramètres > Gestion globale > Réinitialisation > Réinitialisation données usine. Sur les autres marques, l'emplacement varie et il vaut mieux suivre les instructions du fabricant.
@@ -38,7 +37,6 @@ Sur les Google Pixel, ouvrez Paramètres > Système > Options de réinitialisati
 Le téléphone redémarre sur l'écran de configuration initiale. N'allez pas plus loin. Laissez-le sur l'écran « Bonjour » ou sur le choix de la langue. Cela montre à l'acheteur qu'aucun compte n'est encore associé et que la FRP n'est pas active. Si l'assistant demande le compte Google d'un ancien propriétaire, le compte n'a pas été supprimé correctement. Reconnectez-vous, retirez-le, puis recommencez la réinitialisation.
 
 Les téléphones Android modernes utilisent le chiffrement par défaut. Android 7.0 et les versions ultérieures prennent en charge le chiffrement basé sur les fichiers, et les appareils commercialisés à l'origine avec Android 10 ou une version plus récente doivent l'utiliser. Sur un téléphone moderne correctement chiffré, la réinitialisation supprime les clés et les données de compte nécessaires à la lecture des anciens fichiers. Pour une revente normale, les données précédentes deviennent alors pratiquement irrécupérables. Cela suffit dans la plupart des cas.
-
 
 ## Nettoyez et documentez l'état du téléphone
 
@@ -48,11 +46,9 @@ Prenez des photos nettes des quatre côtés, de l'écran allumé sur la page de 
 
 Un état de la batterie supérieur à 85 % constitue un argument de vente. Mentionnez-le dans l'annonce.
 
-
 ## Mettez le logiciel à jour avant la réinitialisation, si possible
 
 Si vous avez le temps, installez toutes les mises à jour disponibles avant d'effacer le téléphone. Les acheteurs préfèrent un appareil qui utilise la version d'Android la plus récente proposée pour ce modèle, et ils évitent ainsi un téléchargement long pendant la configuration. Cela prouve aussi que le téléphone reçoit encore ses mises à jour et qu'il n'est pas bloqué sur une ancienne version.
-
 
 ## Fixez le prix
 
@@ -61,7 +57,6 @@ Regardez à quel prix le même modèle, dans un état comparable, se vend réell
 Les téléphones qui reçoivent encore des mises à jour se vendent généralement mieux que des modèles identiques arrivés en fin de suivi logiciel. Un état de la batterie supérieur à 85 %, accompagné d'une preuve, rassure davantage qu'une annonce sans aucune donnée sur la batterie.
 
 Affichez un prix légèrement supérieur à votre objectif pour conserver une petite marge de négociation.
-
 
 ## Où vendre le téléphone
 

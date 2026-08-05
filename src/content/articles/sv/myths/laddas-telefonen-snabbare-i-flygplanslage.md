@@ -5,10 +5,11 @@ listSummary: "laddning, batteri och android"
 hub: "myths"
 sourceNumber: 148
 order: 4
-tags: ["laddning","batteri","android","guide","hårdvara"]
+tags: ["laddning", "batteri", "android", "guide", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 Du kopplar in telefonen när den står på 12 %, tittar på klockan och börjar leta efter knep. Flygplansläge är ett av få som faktiskt kan göra skillnad, men det är ingen magisk genväg.
 
 Det hjälper eftersom telefonen förbrukar mindre ström medan den laddas. Mindre energi går till mobilnät, wifi, Bluetooth, aviseringar och synkronisering i bakgrunden, så lite mer av laddarens effekt kan hamna i batteriet. Skillnaden är vanligtvis liten. Med en modern snabbladdare märks den kanske knappt. Med en gammal 5 W-adapter, en USB-port på en bärbar dator eller en powerbank kan den spela större roll.

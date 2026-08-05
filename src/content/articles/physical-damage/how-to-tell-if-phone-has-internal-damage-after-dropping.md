@@ -5,9 +5,10 @@ listSummary: "Internal drop damage signs"
 hub: "physical-damage"
 sourceNumber: 132
 order: 2
-tags: ["temperature","thermal","android","troubleshooting","hardware"]
+tags: ["temperature", "thermal", "android", "troubleshooting", "hardware"]
 draft: false
 ---
+
 Most drops do nothing serious. Still, if the phone starts behaving differently afterward, don't talk yourself out of checking it.
 
 ## Check the battery first

@@ -5,10 +5,11 @@ listSummary: "tallennustila, android ja siivous"
 hub: "brands"
 sourceNumber: 157
 order: 5
-tags: ["tallennustila","android","siivous","optimointi","opas"]
+tags: ["tallennustila", "android", "siivous", "optimointi", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Laitteen ylläpito on hyödyllinen, mutta se on ensisijaisesti koontinäkymä ja vasta toissijaisesti optimointityökalu. Samasta paikasta voi etsiä akun kuluttajia, tallennustilan ahtautta, taustalla toimivia sovelluksia, muistinkäyttöä ja tietoturvatarkistuksia. Parhaita ovat yksittäiset työkalut, eivät yhden napautuksen siivouslupaukset.
 
 Samsung myös vaihtaa valikoiden nimiä One UI -versioiden välillä. Joissakin puhelimissa polku on `Asetukset > Laitteen ylläpito`, vanhemmissa versioissa esimerkiksi `Asetukset > Akku ja laitteen ylläpito`. Android 17 julkaistiin ensin useimmille tuetuille Pixel-puhelimille, ja Galaxy-laitteet saavat Samsungin Android 17:ään perustuvan One UI -päivityksen oman aikataulunsa mukaan. Pieniä nimi- ja asettelumuutoksia on siis odotettavissa lisää.

@@ -1,18 +1,18 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
 
-import tailwindcss from '@tailwindcss/vite';
+import tailwindcss from "@tailwindcss/vite";
 
-import sitemap from '@astrojs/sitemap';
-import { isProductionSitemapUrl } from './src/data/articleLocaleConfig.mjs';
+import sitemap from "@astrojs/sitemap";
+import { isProductionSitemapUrl } from "./src/data/articleLocaleConfig.mjs";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://runcheckapp.com',
-  output: 'static',
+  site: "https://runcheckapp.com",
+  output: "static",
   vite: {
-    plugins: [tailwindcss()]
+    plugins: [tailwindcss()],
   },
 
-  integrations: [sitemap({ filter: isProductionSitemapUrl })]
+  integrations: [sitemap({ filter: isProductionSitemapUrl })],
 });

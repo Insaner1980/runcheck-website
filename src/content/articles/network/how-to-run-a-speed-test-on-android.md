@@ -5,9 +5,10 @@ listSummary: "Android speed test basics"
 hub: "network"
 sourceNumber: 92
 order: 3
-tags: ["network","connectivity","android","troubleshooting","guide"]
+tags: ["network", "connectivity", "android", "troubleshooting", "guide"]
 draft: false
 ---
+
 The test tells you what happened at that moment, on that server, under those network conditions. It is a snapshot, not a diagnosis by itself. Still, it is the best first number to get when your phone feels slow.
 
 ## What the test measures

@@ -5,10 +5,11 @@ listSummary: "Samsung gør stadig batteritilstand mere besværlig, end den behø
 hub: "brands"
 sourceNumber: 153
 order: 1
-tags: ["batteri","tilstand","diagnostik","android","guide"]
+tags: ["batteri", "tilstand", "diagnostik", "android", "guide"]
 locale: "da"
 draft: false
 ---
+
 Det er netop usikkerheden, der er pointen. En Galaxy S25 med en nyere One UI-version kan vise batteritilstand i procent og antal cyklusser. En Galaxy S23 med en tilsyneladende tilsvarende opdatering gør det måske ikke. Android 17 blev først udgivet til de fleste understøttede Pixel-telefoner. Samsung lancerede den Android 17-baserede One UI 9-beta til Galaxy S26-serien i maj 2026, mens den brede stabile udrulning til Galaxy-telefoner følger Samsungs egen tidsplan. Samsung kan stadig selv bestemme, hvilke batterifelter der vises.
 
 Her er de kontroller, der er værd at bruge, og dem, der ser nyttige ud uden at fortælle ret meget.

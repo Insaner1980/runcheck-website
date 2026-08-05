@@ -6,9 +6,10 @@ listSummary: "Diagnostic app tradeoffs"
 hub: "device-health"
 sourceNumber: 139
 order: 8
-tags: ["comparison","apps","android","buying-guide","review"]
+tags: ["comparison", "apps", "android", "buying-guide", "review"]
 draft: false
 ---
+
 Which app should you install if your Android phone feels hot, drains too fast, or just seems "off"? The annoying answer is that AccuBattery, DevCheck, and runcheck don't really do the same job.
 
 AccuBattery is for long-term battery capacity tracking. DevCheck is for hardware and live system data. runcheck is for a broader health snapshot across battery, thermal, network, and storage.

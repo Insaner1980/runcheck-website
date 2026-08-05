@@ -5,10 +5,11 @@ listSummary: "Temperature checks and overheating causes"
 hub: "thermal"
 sourceNumber: 53
 order: 1
-tags: ["temperature","thermal","android","troubleshooting","hardware"]
+tags: ["temperature", "thermal", "android", "troubleshooting", "hardware"]
 draft: false
 ---
-*An Android phone can feel hot for boring reasons, serious reasons, or no obvious reason at all. The trick is knowing what number you are looking at and whether that number is actually meaningful.*
+
+_An Android phone can feel hot for boring reasons, serious reasons, or no obvious reason at all. The trick is knowing what number you are looking at and whether that number is actually meaningful._
 
 ## Check the temperature first
 

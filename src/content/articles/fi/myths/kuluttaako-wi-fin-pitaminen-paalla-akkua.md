@@ -5,10 +5,11 @@ listSummary: "Wi-Fin jättäminen päälle ei yleensä kuluta Androidissa paljon
 hub: "myths"
 sourceNumber: 149
 order: 5
-tags: ["verkko","yhteydet","android","vianetsintä","opas"]
+tags: ["verkko", "yhteydet", "android", "vianetsintä", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Useimmat ovat huolissaan väärästä Wi-Fi-ongelmasta. Vahvaan Wi-Fi-verkkoon yhdistetty puhelin on eri asia kuin puhelin, joka kulkee koko päivän ilman yhteyttä ja etsii verkkoja, joihin se voisi liittyä.
 
 Erolla on merkitystä. Yhdistetty Wi-Fi kuluttaa yleensä vähän. Jatkuva verkkojen haku alkaa näkyä akussa.

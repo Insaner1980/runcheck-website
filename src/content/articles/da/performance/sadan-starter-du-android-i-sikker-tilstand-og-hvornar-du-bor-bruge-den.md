@@ -5,10 +5,11 @@ listSummary: "How to start Android in Safe Mode, what it disables, and how to us
 hub: "performance"
 sourceNumber: 70
 order: 7
-tags: ["batteri","strømforbrug","fejlfinding","android","ydeevne"]
+tags: ["batteri", "strømforbrug", "fejlfinding", "android", "ydeevne"]
 locale: "da"
 draft: false
 ---
+
 Hvordan ved du, om telefonen er langsom, fordi Android har en dårlig dag, eller fordi én app ødelægger det hele i baggrunden? Sikker tilstand er den reneste test.
 
 Sikker tilstand starter Android med kun systemsoftwaren og de indbyggede apps. Apps, du selv har installeret senere, deaktiveres, indtil du genstarter normalt. Intet bliver slettet. Formålet er at isolere problemet: Hvis det forsvinder i Sikker tilstand, er en tredjepartsapp sandsynligvis involveret. Hvis problemet fortsætter, bør du se på selve Android, lagerpladsen, batteriet eller hardwaren.

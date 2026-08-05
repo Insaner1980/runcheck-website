@@ -5,10 +5,11 @@ listSummary: "Kontroller temperaturen og finn ut hva som får Android-telefonen 
 hub: "thermal"
 sourceNumber: 53
 order: 1
-tags: ["temperatur","varme","android","feilsøking","maskinvare"]
+tags: ["temperatur", "varme", "android", "feilsøking", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 ## Sjekk temperaturen først
 
 Begynn med de innebygde verktøyene. De er mindre imponerende enn sensorapper, men later sjeldnere som om telefonen gir tilgang til mer presise data enn den faktisk gjør.
@@ -103,4 +104,4 @@ Lading skaper varme i batteriet. Hurtiglading skaper mer. Bruk av telefonen samt
 
 Bruk produsentens verktøy først, og deretter en diagnoseapp hvis du trenger historikk. Se på oppringingskoder som en bonus, ikke en garanti. Når telefonen er tydelig varm, bør du ikke fortsette å presse den. Fjern varmekilden, la den kjøle seg ned og se etter mønsteret.
 
-*Metabeskrivelse: Lær hvordan du sjekker temperaturen på en Android-telefon, hva trygge batteritemperaturer betyr, og hvordan Android 17, Pixel-diagnostikk, Samsung Members, lading, apper og signalstyrke påvirker overoppheting.*
+_Metabeskrivelse: Lær hvordan du sjekker temperaturen på en Android-telefon, hva trygge batteritemperaturer betyr, og hvordan Android 17, Pixel-diagnostikk, Samsung Members, lading, apper og signalstyrke påvirker overoppheting._

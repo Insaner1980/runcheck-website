@@ -5,12 +5,12 @@ listSummary: "Molte persone sostituiscono lo smartphone dopo tre o quattro anni.
 hub: "device-health"
 sourceNumber: 3
 order: 2
-tags: ["memoria","android","pulizia","ottimizzazione","guida"]
+tags: ["memoria", "android", "pulizia", "ottimizzazione", "guida"]
 locale: "it"
 draft: false
 ---
-Quasi tutti questi problemi si possono evitare, o almeno rimandare.
 
+Quasi tutti questi problemi si possono evitare, o almeno rimandare.
 
 ## La prima settimana: impostazioni utili per anni
 
@@ -22,7 +22,6 @@ Configura il backup automatico delle foto su Google Foto, OneDrive o sul servizi
 
 Monta una cover e una pellicola protettiva. È un consiglio ovvio, ma basta una sola caduta senza protezione per dover spendere circa 100-400 € per riparare lo schermo, a seconda del pannello e del modello. Per la maggior parte dei modelli, una buona cover e un vetro temperato costano meno di 30 €.
 
-
 ## Abitudini quotidiane che contano
 
 L'abitudine quotidiana più dannosa è ricaricare in condizioni di forte calore. Usare intensamente lo smartphone mentre è collegato alla corrente, soprattutto con la ricarica rapida, può spingere la batteria oltre 35 °C, temperatura alla quale il degrado accelera. Una ricarica notturna a velocità normale su un comodino è più delicata di una ricarica rapida mentre giochi sotto il sole. Una singola sessione cambia poco, ma la chimica agli ioni di litio accumula gli effetti: trecento ricariche moderatamente calde in due anni producono un'usura misurabile.
@@ -30,7 +29,6 @@ L'abitudine quotidiana più dannosa è ricaricare in condizioni di forte calore.
 La ricarica wireless contribuisce al problema perché di solito è meno efficiente del cavo e l'energia persa diventa calore nello smartphone, nella base o nella cover. Con potenze wireless elevate, una parte posteriore tiepida e una velocità che cala quando il telefono si scalda sono normali. Togliere una cover spessa e usare una base meno potente aiuta. Usare il cavo per la ricarica notturna abituale e tenere il wireless per i momenti in cui è più comodo è un compromesso sensato.
 
 Per la memoria conta soprattutto fare pulizia periodicamente. Ogni pochi mesi apri Impostazioni > Memoria > App e ordina per dimensione, se il produttore offre questa opzione. Social network, browser e app di streaming accumulano cache in modo aggressivo e possono occupare diversi gigabyte di dati temporanei. Svuotare la cache di un'app non cancella dati personali o impostazioni, ma rimuove file che verranno ricreati quando serviranno. Cerca di mantenere l'utilizzo totale sotto l'80-85 %, così la memoria NAND conserva blocchi liberi sufficienti per le scritture e non subisce il rallentamento tipico delle unità quasi piene.
-
 
 ## Manutenzione mensile e stagionale
 
@@ -42,7 +40,6 @@ Pulisci la porta di ricarica. La lanugine delle tasche si compatta nel connettor
 
 Controlla lo stato della batteria alcune volte all'anno usando gli strumenti del produttore, come Samsung Members, le impostazioni Batteria dei Pixel o le funzioni di protezione della batteria di Xiaomi, oppure un'app di diagnostica. La tendenza conta più di una singola lettura. Se la batteria passa dal 95 % all'88 % in sei mesi, si sta degradando più rapidamente del previsto. Cambiare le abitudini di ricarica a quel punto può rallentare il calo prima che diventi un problema serio.
 
-
 ## Supporto software e durata prevista
 
 La situazione degli aggiornamenti Android è migliorata molto. La famiglia Google Pixel 8 e i modelli successivi ricevono sette anni di aggiornamenti del sistema operativo e di sicurezza. La famiglia Samsung Galaxy S24 e i modelli successivi con la stessa politica ricevono fino a sette generazioni di aggiornamenti del sistema operativo e sette anni di aggiornamenti di sicurezza. Samsung ha esteso il supporto anche alla fascia media: Galaxy A56, A36 e A26 ricevono fino a sei generazioni di aggiornamenti del sistema operativo e sei anni di aggiornamenti di sicurezza. OnePlus promette quattro aggiornamenti principali di Android e sei anni di aggiornamenti di sicurezza per OnePlus 13.
@@ -51,7 +48,6 @@ Molti modelli economici e flagship meno recenti si fermano ancora a due o tre an
 
 Le norme UE sull'ecodesign e sull'etichettatura energetica stabiliscono ora una base più solida per gli smartphone immessi sul mercato dell'Unione dal 20 giugno 2025. Tra gli altri requisiti, prevedono batterie capaci di sopportare almeno 800 cicli completi mantenendo almeno l'80 % della capacità iniziale, ricambi essenziali disponibili per sette anni dopo la fine della vendita del modello e aggiornamenti del sistema operativo per almeno cinque anni dalla data in cui viene immessa sul mercato l'ultima unità di quel modello. I benefici riguardano soprattutto chi acquista nell'UE, ma periodi di supporto più lunghi possono influenzare anche la pianificazione globale dei produttori.
 
-
 ## Quando conviene riparare
 
 Uno smartphone non deve essere perfetto per continuare a essere utile. In Italia, la sostituzione della batteria presso un laboratorio indipendente costa spesso circa 60-150 € per molti modelli comuni, mentre l'assistenza ufficiale e i dispositivi premium o pieghevoli possono costare di più. Se tutto il resto funziona bene, una batteria nuova può aggiungere due o tre anni di utilizzo. Anche riparare lo schermo può avere senso quando restano diversi anni di supporto software, ma il prezzo cambia moltissimo in base al pannello e al modello.
@@ -59,7 +55,6 @@ Uno smartphone non deve essere perfetto per continuare a essere utile. In Italia
 Le regole europee sulla riparazione seguono due percorsi. I requisiti specifici per gli smartphone previsti dall'ecodesign si applicano già ai dispositivi immessi sul mercato UE dal 20 giugno 2025 e riguardano durata della batteria, disponibilità dei ricambi, informazioni per la riparazione e accesso al software o firmware necessario alla sostituzione dei componenti. La direttiva sul diritto alla riparazione è entrata in vigore nel 2024 e dovrà essere applicata dagli Stati membri dal 31 luglio 2026. Rafforza i diritti di riparazione per le categorie di prodotti coperte dalle norme europee sulla riparabilità, ma non è la fonte di ogni requisito specifico sugli smartphone, sui ricambi o sull'etichetta energetica.
 
 In linea di massima, la riparazione smette di essere conveniente quando costa più del 30-40 % di uno smartphone sostitutivo paragonabile, oppure quando più componenti devono essere riparati nello stesso momento.
-
 
 ## Domande frequenti
 

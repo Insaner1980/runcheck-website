@@ -5,10 +5,11 @@ listSummary: "Du har 18 % kvar, batteriikonen är röd och översikten över de 
 hub: "myths"
 sourceNumber: 146
 order: 2
-tags: ["myter","fakta","android","batteri","mytgranskning"]
+tags: ["myter", "fakta", "android", "batteri", "mytgranskning"]
 locale: "sv"
 draft: false
 ---
+
 Det sparar egentligen inte batteri.
 
 ## Svaret är fortfarande nej

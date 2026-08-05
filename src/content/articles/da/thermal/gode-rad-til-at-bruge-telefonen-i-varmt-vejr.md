@@ -5,10 +5,11 @@ listSummary: "Varmt vejr belaster telefonens batteri og processor ekstra."
 hub: "thermal"
 sourceNumber: 63
 order: 11
-tags: ["temperatur","varme","android","fejlfinding","hardware"]
+tags: ["temperatur", "varme", "android", "fejlfinding", "hardware"]
 locale: "da"
 draft: false
 ---
+
 Du er på stranden, til en festival eller ude på en lang gåtur, og telefonen bliver pludselig så varm, at den er ubehagelig at holde. Så dæmpes skærmen. Få minutter senere går opladningen langsommere, eller kameraet nægter at optage. Det er ikke tilfældigt. Telefonen beskytter sig selv.
 
 Mange telefoner er beregnet til normal brug ved omkring 0-35 °C (32-95 °F). Det betyder ikke, at telefonen svigter, så snart luften rammer 36 °C, men sikkerhedsmarginen er væk. Læg direkte sol, navigation, mobildata, videooptagelse eller opladning oveni, og batteriets temperatur kan stige hurtigt.

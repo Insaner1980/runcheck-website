@@ -5,10 +5,11 @@ listSummary: "materiel, test et diagnostic"
 hub: "hardware"
 sourceNumber: 110
 order: 7
-tags: ["materiel","test","diagnostic","android","guide"]
+tags: ["materiel", "test", "diagnostic", "android", "guide"]
 locale: "fr"
 draft: false
 ---
+
 ---
 
 Tester un appareil photo devient plus simple dès que vous cessez de vous focaliser sur les mégapixels. Un capteur de 50 MP peut produire de mauvaises images si l'objectif est sale, si l'autofocus est endommagé ou si le module s'est légèrement déplacé après un choc.

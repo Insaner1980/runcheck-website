@@ -5,10 +5,11 @@ listSummary: "netzwerk, verbindungen und android"
 hub: "network"
 sourceNumber: 98
 order: 9
-tags: ["netzwerk","verbindungen","android","fehlerbehebung","ratgeber"]
+tags: ["netzwerk", "verbindungen", "android", "fehlerbehebung", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Du möchtest Kopfhörer, eine Smartwatch, einen Lautsprecher oder dein Auto koppeln, aber Android findet das Gerät nicht oder behauptet, es sei verbunden, obwohl nichts funktioniert. Bluetooth ist manchmal genau so. Monatelang läuft alles unauffällig, dann gerät eine gespeicherte Kopplung durcheinander und plötzlich wirkt die gesamte Verbindung defekt.
 
 Beginne mit den einfachen Prüfungen, bevor du tief in die Einstellungen gehst. Die meisten Bluetooth-Fehler sind keine grundlegenden Android-Probleme. Meist stecken veraltete Kopplungsdaten, ein fast leerer Zubehörakku, zu große Entfernung, Funkstörungen oder ein Gerät dahinter, das sich gar nicht richtig im Kopplungsmodus befindet.

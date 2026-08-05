@@ -5,9 +5,10 @@ listSummary: "Longer Android battery life"
 hub: "charging"
 sourceNumber: 37
 order: 1
-tags: ["charging","battery","android","guide","hardware"]
+tags: ["charging", "battery", "android", "guide", "hardware"]
 draft: false
 ---
+
 Most Android battery advice is either too obvious or too extreme. Yes, turning the screen brightness down helps. No, you don't need to turn your phone into a silent brick just to make it through the day.
 
 The useful approach is to fix the big drains first: display, cellular signal, background apps, location, and charging habits. Android 17 is now available first on most supported Pixel phones, while other Android makers will bring it to their own devices later. That means menu names vary, but the battery fundamentals haven't changed.

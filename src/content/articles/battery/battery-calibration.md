@@ -6,9 +6,10 @@ hub: "battery"
 sourceNumber: 15
 order: 5
 subgroup: "Health"
-tags: ["battery","health","diagnostics","android","guide"]
+tags: ["battery", "health", "diagnostics", "android", "guide"]
 draft: false
 ---
+
 Most battery calibration advice is a leftover from older battery tech and forum folklore. On modern Android phones, calibration does not improve battery life. It will not repair a worn battery or turn 82% battery health back into 95%.
 
 What it can sometimes do is fix a bad battery percentage reading.

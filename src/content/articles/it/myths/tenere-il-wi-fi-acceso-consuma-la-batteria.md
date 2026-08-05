@@ -5,10 +5,11 @@ listSummary: "Lasciare il Wi-Fi acceso di solito consuma poca batteria su Androi
 hub: "myths"
 sourceNumber: 149
 order: 5
-tags: ["rete","connettivita","android","risoluzione-dei-problemi","guida"]
+tags: ["rete", "connettivita", "android", "risoluzione-dei-problemi", "guida"]
 locale: "it"
 draft: false
 ---
+
 Molte persone si preoccupano del problema Wi-Fi sbagliato. Un telefono connesso a una rete Wi-Fi forte non è nella stessa situazione di un telefono che passa la giornata scollegato, cercando reti a cui potrebbe connettersi.
 
 La differenza conta. Una connessione Wi-Fi stabile consuma in genere poco. La ricerca continua delle reti è ciò che inizia a pesare sulla batteria.

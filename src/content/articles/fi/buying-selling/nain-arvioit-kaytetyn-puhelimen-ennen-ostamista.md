@@ -5,10 +5,11 @@ listSummary: "vertailu, sovellukset ja android"
 hub: "buying-selling"
 sourceNumber: 141
 order: 5
-tags: ["vertailu","sovellukset","android","osto-opas","arvostelu"]
+tags: ["vertailu", "sovellukset", "android", "osto-opas", "arvostelu"]
 locale: "fi"
 draft: false
 ---
+
 Pitelet siistiltä näyttävää käytettyä puhelinta. Näyttö on kirkas, myyjä vaikuttaa asialliselta ja hinta on juuri sen verran alhainen, että kauppa tuntuu hyvältä. Juuri tässä kohdassa moni lopettaa tarkistamisen ja alkaa perustella ostosta itselleen.
 
 Älä tee niin.

@@ -5,10 +5,11 @@ listSummary: "Hai lo smartphone in mano, lo schermo si è oscurato."
 hub: "thermal"
 sourceNumber: 54
 order: 2
-tags: ["ricarica","batteria","android","guida","hardware"]
+tags: ["ricarica", "batteria", "android", "guida", "hardware"]
 locale: "it"
 draft: false
 ---
+
 ## Cosa fare subito
 
 Scollega il caricabatterie. La ricarica aggiunge calore e lo smartphone non può raffreddarsi in modo efficiente mentre continui ad alimentarlo. Anche se Android ha già sospeso la ricarica, scollegarlo aiuta perché elimina dall'equazione caricabatterie, cavo e base wireless.
@@ -85,4 +86,4 @@ Per lunghe sessioni di gioco, un dissipatore a clip può aiutare perché allonta
 
 Raffreddare uno smartphone richiede soprattutto moderazione. Scollegalo, togli la cover, interrompi l'attività, spostalo lontano dal calore e non forzare un raffreddamento rapido. Se il problema torna durante un uso leggero, la causa è in genere un'app, un segnale debole, l'hardware di ricarica o l'usura della batteria.
 
-*Meta descrizione: Passaggi sicuri per raffreddare uno smartphone Android surriscaldato, cosa non fare, quando il calore è normale dopo Android 17 o altri aggiornamenti e quando la temperatura della batteria richiede una riparazione.*
+_Meta descrizione: Passaggi sicuri per raffreddare uno smartphone Android surriscaldato, cosa non fare, quando il calore è normale dopo Android 17 o altri aggiornamenti e quando la temperatura della batteria richiede una riparazione._

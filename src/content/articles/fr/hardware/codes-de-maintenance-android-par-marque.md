@@ -5,10 +5,11 @@ listSummary: "diagnostic, capteurs et android"
 hub: "hardware"
 sourceNumber: 113
 order: 10
-tags: ["diagnostic","capteurs","android","materiel","guide"]
+tags: ["diagnostic", "capteurs", "android", "materiel", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Les codes de maintenance Android sont utiles, mais leur fonctionnement est désordonné. Certains viennent d'Android, d'autres sont ajoutés par le fabricant, et quelques-uns disparaissent après une mise à jour du micrologiciel sans le moindre avertissement.
 
 La situation est encore plus visible depuis le déploiement d'Android 17. Google a d'abord publié Android 17 pour la plupart des Pixel compatibles, tandis que Samsung, Xiaomi, OnePlus, Motorola et les autres marques proposeront plus tard leurs propres versions d'Android 17. Un code qui fonctionne aujourd'hui sur un Pixel sous Android 17 ne dit donc rien sur un Galaxy ou un Redmi qui n'a pas encore reçu son micrologiciel Android 17.

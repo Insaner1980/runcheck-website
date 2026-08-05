@@ -6,9 +6,10 @@ hub: "battery"
 sourceNumber: 36
 order: 26
 subgroup: "Drain"
-tags: ["battery","optimization","android","tips","performance"]
+tags: ["battery", "optimization", "android", "tips", "performance"]
 draft: false
 ---
+
 Battery Saver helps most before the phone is desperate. Enabling it at 8% helps, but by then most of the battery is already gone.
 
 The better move is situational. Use it when you know charging will be difficult: a flight, a long meeting, a commute with weak signal, a day outside, or any time you need the phone to stay alive more than you need perfect smoothness.

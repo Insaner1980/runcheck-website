@@ -5,10 +5,11 @@ listSummary: "lataaminen, akku ja android"
 hub: "charging"
 sourceNumber: 47
 order: 11
-tags: ["lataaminen","akku","android","opas","laitteisto"]
+tags: ["lataaminen", "akku", "android", "opas", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 Puhelin ilmoittaa, että akun lataaminen täyteen kestää kolme tuntia. Eilen siihen meni tunti. Laturi näyttää samalta, latausjohto näyttää samalta eikä mikään selvä asia ole muuttunut.
 
 Hidas latautuminen ärsyttää, koska syy on usein varsin arkinen: tehoton laturi, vaurioitunut johto, taskunöyhtä, kuumuus tai sovellus, joka kuluttaa virtaa samalla kun laturi yrittää täyttää akkua. Tarkista nämä ennen kuin päätät akun olevan kuolemassa.

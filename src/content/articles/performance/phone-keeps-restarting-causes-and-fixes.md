@@ -5,9 +5,10 @@ listSummary: "Restart loop troubleshooting"
 hub: "performance"
 sourceNumber: 74
 order: 11
-tags: ["performance","speed","android","optimization","troubleshooting"]
+tags: ["performance", "speed", "android", "optimization", "troubleshooting"]
 draft: false
 ---
+
 ---
 
 Is the phone restarting, or is it stuck looping at startup? That difference matters.

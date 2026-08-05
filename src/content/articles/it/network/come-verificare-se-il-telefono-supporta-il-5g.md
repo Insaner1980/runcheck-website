@@ -5,10 +5,11 @@ listSummary: "Come capire se uno smartphone Android supporta il 5G."
 hub: "network"
 sourceNumber: 101
 order: 12
-tags: ["rete","connettivita","android","risoluzione-dei-problemi","guida"]
+tags: ["rete", "connettivita", "android", "risoluzione-dei-problemi", "guida"]
 locale: "it"
 draft: false
 ---
+
 Un telefono ha l'hardware 5G oppure non ce l'ha. Android 17, un aggiornamento delle impostazioni dell'operatore o una nuova SIM non possono trasformare un modem solo 4G in un modem 5G.
 
 Sembra ovvio, ma è una fonte frequente di confusione. Molti smartphone Android economici recenti sono ancora limitati al 4G, mentre diversi vecchi top di gamma supportano già il 5G. Il numero di modello conta più dell'anno stampato sulla ricevuta.

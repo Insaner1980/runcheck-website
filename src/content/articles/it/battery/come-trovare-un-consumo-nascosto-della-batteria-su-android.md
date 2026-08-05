@@ -6,10 +6,12 @@ hub: "battery"
 sourceNumber: 25
 order: 15
 subgroup: "Consumo della batteria"
-tags: ["batteria","consumo","risoluzione-dei-problemi","android","prestazioni"]
+tags:
+  ["batteria", "consumo", "risoluzione-dei-problemi", "android", "prestazioni"]
 locale: "it"
 draft: false
 ---
+
 Trovare un consumo nascosto significa soprattutto capire cosa mantiene attivo il telefono quando lo schermo è spento.
 
 ## Parti dalla schermata più banale

@@ -5,10 +5,11 @@ listSummary: "Varme fremskynder aldringen av litium-ion-batterier, særlig under
 hub: "thermal"
 sourceNumber: 62
 order: 10
-tags: ["temperatur","varme","android","feilsøking","maskinvare"]
+tags: ["temperatur", "varme", "android", "feilsøking", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 Varme er en av de raskeste måtene å fremskynde aldringen av et telefonbatteri på. Ikke umiddelbart. Stille og gradvis.
 
 Det er nettopp derfor dette er så irriterende. En varm ladeøkt i dag får vanligvis ikke telefonen til å svikte i morgen. Kostnaden viser seg måneder senere som kortere batteritid, tregere lading, tidligere avslåinger i kulde eller et tall for batterihelse som faller raskere enn forventet.

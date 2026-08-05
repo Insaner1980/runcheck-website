@@ -5,10 +5,11 @@ listSummary: "diagnostico, sensores y android"
 hub: "hardware"
 sourceNumber: 113
 order: 10
-tags: ["diagnostico","sensores","android","hardware","guia"]
+tags: ["diagnostico", "sensores", "android", "hardware", "guia"]
 locale: "es"
 draft: false
 ---
+
 Los códigos de servicio de Android son útiles, pero también bastante caóticos. Algunos forman parte de Android, otros los añade el fabricante y otros desaparecen tras una actualización del firmware sin previo aviso.
 
 Esto importa aún más ahora que Android 17 ya está disponible. Google lo lanzó primero para la mayoría de los Pixel compatibles, mientras Samsung, Xiaomi, OnePlus, Motorola y otras marcas distribuyen sus propias versiones de Android 17 en calendarios distintos. Que un código funcione hoy en un Pixel con Android 17 no dice nada sobre un Galaxy o Redmi que todavía no haya recibido su firmware de Android 17.

@@ -5,10 +5,11 @@ listSummary: "laddning, batteri och android"
 hub: "charging"
 sourceNumber: 44
 order: 8
-tags: ["laddning","batteri","android","guide","hårdvara"]
+tags: ["laddning", "batteri", "android", "guide", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 En laddare kan passa i uttaget och ändå misslyckas med själva laddningen. USB-C berättar bara att kontakten passar. Det säger inget om huruvida adaptern, kabeln och telefonen lyckades komma överens om snabbladdning.
 
 Android 17 ändrar inte det grundproblemet. Det finns fortfarande ingen gemensam Android-skärm som säger: "Den här laddaren levererar 23,4 W just nu." Du måste dra slutsatsen själv eller mäta ordentligt.

@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 28
 order: 18
 subgroup: "Drain"
-tags: ["batteri","strømforbruk","feilsøking","android","ytelse"]
+tags: ["batteri", "strømforbruk", "feilsøking", "android", "ytelse"]
 locale: "nb"
 draft: false
 ---
+
 Ja, 5G kan tappe batteriet raskere enn 4G LTE. Det er bare ikke den katastrofen det var på den første bølgen av 5G-telefoner.
 
 En analyse fra Ookla Speedtest Intelligence viste at 5G brukte omtrent 6-11 % mer batteri enn LTE, avhengig av telefonens SoC. Forskjellen er reell. På en nyere telefon med greit signal betyr den likevel vanligvis ikke forskjellen mellom å komme gjennom dagen og å stå med en tom telefon. På en eldre 5G-telefon, eller et sted der telefonen stadig hopper mellom LTE og 5G, kan utslaget fortsatt være tydelig.

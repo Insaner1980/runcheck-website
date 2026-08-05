@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 14
 order: 4
 subgroup: "Health"
-tags: ["batteri","strømforbrug","fejlfinding","android","ydeevne"]
+tags: ["batteri", "strømforbrug", "fejlfinding", "android", "ydeevne"]
 locale: "da"
 draft: false
 ---
+
 Androids batteristatistik er god til at indsnævre et problem, men den er ikke en præcis kvittering for, hvor hver eneste milliamperetime blev brugt. Tricket er at læse procenterne i deres sammenhæng.
 
 **Metabeskrivelse:** Androids statistik over batteriforbrug viser, hvilke apps og systemtjenester der bruger strøm. Se, hvor du finder tallene, hvad procenterne betyder, og hvordan du opdager reelle batteriproblemer.

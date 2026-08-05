@@ -5,10 +5,11 @@ listSummary: "Gran parte de los consejos sobre ahorro de batería que circulan p
 hub: "myths"
 sourceNumber: 145
 order: 1
-tags: ["mitos","datos","android","bateria","desmitificacion"]
+tags: ["mitos", "datos", "android", "bateria", "desmitificacion"]
 locale: "es"
 draft: false
 ---
+
 Eso no significa que cuidar la batería sea inútil. Significa que los viejos rituales no merecen tu atención.
 
 ## Mito: hay que agotar la batería antes de cargar

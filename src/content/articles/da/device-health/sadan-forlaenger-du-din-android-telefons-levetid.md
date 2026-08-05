@@ -5,12 +5,12 @@ listSummary: "lagerplads, android og oprydning"
 hub: "device-health"
 sourceNumber: 3
 order: 2
-tags: ["lagerplads","android","oprydning","optimering","guide"]
+tags: ["lagerplads", "android", "oprydning", "optimering", "guide"]
 locale: "da"
 draft: false
 ---
-Næsten alt det kan forebygges eller i det mindste udskydes.
 
+Næsten alt det kan forebygges eller i det mindste udskydes.
 
 ## Den første uge: indstillinger, der betaler sig i årevis
 
@@ -22,7 +22,6 @@ Sæt automatisk sikkerhedskopiering af billeder op i Google Fotos, OneDrive elle
 
 Brug cover og skærmbeskytter. Det er indlysende, men står her, fordi ét fald uden beskyttelse kan ende med en skærmreparation til cirka 800-3.000 kr. eller mere, afhængigt af model og skærmtype. Et fornuftigt cover og hærdet glas koster ofte under 300 kr. til mange telefoner.
 
-
 ## Daglige vaner, der gør en forskel
 
 Den mest skadelige daglige vane er opladning under varme forhold. Hvis du bruger telefonen hårdt, mens den er tilsluttet strøm, især med hurtigopladning, kan batteritemperaturen komme over 35 °C, hvor nedbrydningen går hurtigere. Opladning natten over på et natbord ved almindelig hastighed er mere skånsom end en hurtig opladning, mens du spiller i direkte sollys. En enkelt varm opladning betyder næsten ingenting, men litium-ion-kemi er kumulativ. Tre hundrede lidt for varme opladninger over to år kan ses på batteritilstanden.
@@ -30,7 +29,6 @@ Den mest skadelige daglige vane er opladning under varme forhold. Hvis du bruger
 Trådløs opladning bidrager til varmeproblemet, fordi den som regel er mindre effektiv end et kabel. Energitabet bliver til varme i telefonen, opladeren eller coveret. Ved højere trådløse effekter er en varm bagside og langsommere opladning normalt. Det hjælper at fjerne et tykt cover og bruge en oplader med lavere effekt. Et rimeligt kompromis er kabel til den almindelige opladning natten over og trådløs opladning, når bekvemmeligheden er vigtigst.
 
 For lagerplads handler vanen om at rydde op med jævne mellemrum. Åbn med nogle måneders mellemrum oversigten over apps i lagerpladsafsnittet i Indstillinger, og sorter efter størrelse. Sociale medier, browsere og streamingapps gemmer store mængder cachedata, nogle gange flere gigabyte midlertidige filer. Når du rydder en apps cache, slettes personlige data og indstillinger ikke. Kun filer, som appen kan oprette igen efter behov, fjernes. Hold den samlede brug under cirka 80-85 % for at undgå det ydelsestab, der opstår, når NAND-flash mangler rene blokke at skrive til.
-
 
 ## Månedlig og sæsonbestemt vedligeholdelse
 
@@ -42,7 +40,6 @@ Rens opladningsporten. Lommefnug presses sammen i porten over måneder og forhin
 
 Kontrollér batteritilstanden nogle gange om året med producentens værktøjer, for eksempel Samsung Members, Pixels batteriindstillinger eller Xiaomis funktioner til batteribeskyttelse, eller brug en diagnoseapp. Udviklingen betyder mere end en enkelt måling. Et batteri, der falder fra 95 % til 88 % på seks måneder, nedbrydes hurtigere end forventet. Hvis du ændrer opladningsvaner på det tidspunkt, kan du bremse faldet, før det bliver et reelt problem.
 
-
 ## Softwaresupport og tidslinjen
 
 Situationen med Android-opdateringer er blevet væsentligt bedre. Google Pixel 8-serien og nyere samt Samsung Galaxy S24-serien og nyere får syv års OS- og sikkerhedsopdateringer. Samsung har også forlænget perioden i mellemklassen: Galaxy A56, A36 og A26 får op til seks års opdateringer. OnePlus lover fire store OS-opgraderinger og seks års sikkerhedsopdateringer til OnePlus 13.
@@ -51,7 +48,6 @@ Billige telefoner og ældre topmodeller ender stadig ofte på to til tre år hos
 
 EU's regler om miljøvenligt design og energimærkning sætter nu et højere minimum for telefoner, der er bragt i omsætning i EU fra 20. juni 2025. De kræver blandt andet batterier, der kan klare mindst 800 fulde opladnings- og afladningscyklusser og stadig bevare mindst 80 % af kapaciteten, vigtige reservedele i syv år efter at salget af modellen er ophørt, og OS-opgraderinger i mindst fem år fra den dato, hvor den sidste enhed af modellen blev bragt i omsætning. Det gavner først og fremmest købere i EU, men lange supportperioder påvirker ofte producenternes globale planlægning.
 
-
 ## Hvornår reparation er det rigtige valg
 
 En telefon behøver ikke være fejlfri for at kunne bruges videre. Et batteriskift koster ofte cirka 400-900 kr. hos et uafhængigt dansk værksted og kan være dyrere hos autoriseret service eller på lukkede topmodeller. Det kan give en telefon, der ellers fungerer fint, to til tre ekstra år. En skærmreparation kan også betale sig, hvis telefonen stadig har flere års softwaresupport foran sig, men prisen varierer kraftigt efter model og skærmtype.
@@ -59,7 +55,6 @@ En telefon behøver ikke være fejlfri for at kunne bruges videre. Et batteriski
 EU's reparationsregler følger to spor. De særlige regler om miljøvenligt design for smartphones gælder allerede for enheder, der er bragt i omsætning i EU fra 20. juni 2025. De omfatter batteriets holdbarhed, adgang til reservedele, reparationsoplysninger og adgang til den software eller firmware, der er nødvendig ved udskiftning. Direktivet om retten til reparation trådte i kraft i 2024 og skal anvendes i medlemslandene fra 31. juli 2026. Det styrker retten til reparation for produktgrupper, der er omfattet af EU's reparationskrav, men det er ikke kilden til alle de særlige krav om reservedele eller energimærkning for smartphones.
 
 Reparation holder omtrent op med at give mening, når prisen overstiger 30-40 % af, hvad en sammenlignelig erstatningstelefon koster, eller når flere komponenter skal repareres samtidig.
-
 
 ## Ofte stillede spørgsmål
 

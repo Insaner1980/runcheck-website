@@ -5,10 +5,11 @@ listSummary: "diagnostico, sensores y android"
 hub: "hardware"
 sourceNumber: 118
 order: 15
-tags: ["diagnostico","sensores","android","hardware","guia"]
+tags: ["diagnostico", "sensores", "android", "hardware", "guia"]
 locale: "es"
 draft: false
 ---
+
 Un dispositivo de gama alta de 2026 puede incluir giroscopio, barómetro, sensor de huellas bajo la pantalla, varios sensores de activación y un buen número de sensores de movimiento calculados por software. Un móvil barato de hace unos años quizá solo tenga lo básico. Esa diferencia importa cuando la rotación de pantalla, el brillo automático, la orientación de la brújula, las aplicaciones de AR o la función de activar al levantar no se comportan como esperas.
 
 ## Empieza con una aplicación de sensores

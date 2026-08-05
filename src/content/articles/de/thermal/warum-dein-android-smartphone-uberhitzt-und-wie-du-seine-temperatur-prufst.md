@@ -5,11 +5,12 @@ listSummary: "Prüfe die Temperatur und finde heraus, warum dein Android-Smartph
 hub: "thermal"
 sourceNumber: 53
 order: 1
-tags: ["temperatur","warme","android","fehlerbehebung","hardware"]
+tags: ["temperatur", "warme", "android", "fehlerbehebung", "hardware"]
 locale: "de"
 draft: false
 ---
-*Ein Android-Smartphone kann aus banalen Gründen, aus ernsten Gründen oder scheinbar ganz ohne Grund heiß werden. Entscheidend ist, welche Zahl du betrachtest und ob diese Zahl überhaupt aussagekräftig ist.*
+
+_Ein Android-Smartphone kann aus banalen Gründen, aus ernsten Gründen oder scheinbar ganz ohne Grund heiß werden. Entscheidend ist, welche Zahl du betrachtest und ob diese Zahl überhaupt aussagekräftig ist._
 
 ## Prüfe zuerst die Temperatur
 

@@ -5,9 +5,10 @@ listSummary: "Screen burn-in reality"
 hub: "physical-damage"
 sourceNumber: 134
 order: 4
-tags: ["hardware","damage","repair","android","troubleshooting"]
+tags: ["hardware", "damage", "repair", "android", "troubleshooting"]
 draft: false
 ---
+
 ---
 
 True screen burn-in is permanent. If the pixels have aged unevenly, an app, video, or color-cycling trick can't make those worn pixels young again.

@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 34
 order: 24
 subgroup: "Drain"
-tags: ["batteri","optimalisering","android","tips","ytelse"]
+tags: ["batteri", "optimalisering", "android", "tips", "ytelse"]
 locale: "nb"
 draft: false
 ---
+
 Hvorfor kom ti varsler i samme øyeblikk som du tok opp telefonen? Svaret er ofte Doze.
 
 Doze er Androids innebygde system for hvilemodus. Du slår det ikke på selv, og de fleste ser aldri en egen Doze-side i Innstillinger. Systemet arbeider stille når telefonen ikke lades, skjermen er av og Android bestemmer at appene ikke lenger skal få kjøre akkurat når de vil.

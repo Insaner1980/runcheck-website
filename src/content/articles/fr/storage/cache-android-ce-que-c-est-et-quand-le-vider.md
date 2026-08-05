@@ -5,10 +5,11 @@ listSummary: "Vider les fichiers en cache peut être utile, mais seulement lorsq
 hub: "storage"
 sourceNumber: 83
 order: 5
-tags: ["performances","vitesse","android","optimisation","depannage"]
+tags: ["performances", "vitesse", "android", "optimisation", "depannage"]
 locale: "fr"
 draft: false
 ---
+
 Ces fichiers ne sont pas des déchets par défaut. Ils servent surtout à rendre les applications plus rapides.
 
 Les problèmes commencent lorsque le cache devient trop volumineux, se corrompt ou subsiste après une mise à jour majeure d'une application ou d'Android qui modifie son fonctionnement. Android 17 ne change pas cette règle de base. La version est d'abord proposée aux Pixel compatibles, tandis que son arrivée sur les autres téléphones dépend du calendrier de leur fabricant. Sur Android standard, le cache se gère toujours application par application.

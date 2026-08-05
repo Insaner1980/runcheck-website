@@ -5,10 +5,11 @@ listSummary: "De fleste batteriråd på nettet er fossiler."
 hub: "myths"
 sourceNumber: 145
 order: 1
-tags: ["myter","fakta","android","batteri","myteknusing"]
+tags: ["myter", "fakta", "android", "batteri", "myteknusing"]
 locale: "nb"
 draft: false
 ---
+
 Det betyr ikke at batteripleie er meningsløst. Det betyr at de gamle ritualene er feil sted å bruke oppmerksomheten.
 
 ## Myte: Tøm telefonen helt før du lader

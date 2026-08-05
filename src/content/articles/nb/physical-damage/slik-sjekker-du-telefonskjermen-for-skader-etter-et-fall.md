@@ -5,10 +5,11 @@ listSummary: "Du plukker opp telefonen, glasset ser helt ut, og et øyeblikk tro
 hub: "physical-damage"
 sourceNumber: 131
 order: 1
-tags: ["maskinvare","testing","diagnostikk","android","guide"]
+tags: ["maskinvare", "testing", "diagnostikk", "android", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Poenget er ikke å panikkteste hver eneste piksel som om du skulle kjøpe en brukt telefon av en fremmed. Du skal finne problemene som faktisk betyr noe: sprekker, døde piksler, områder uten berøringsrespons, fargeendringer, flimring og en skjerm som har løsnet fra rammen.
 
 ## Start med glasset og rammen

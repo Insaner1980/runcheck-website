@@ -1,21 +1,27 @@
 ---
-import { Image } from 'astro:assets';
-import logo from '../assets/runcheck-logo.webp';
-import ArticleSearch from './ArticleSearch.astro';
-import { ARTICLE_LOCALES } from '../data/articleLocales.mjs';
+import { Image } from "astro:assets";
+import logo from "../assets/runcheck-logo.webp";
+import ArticleSearch from "./ArticleSearch.astro";
+import { ARTICLE_LOCALES } from "../data/articleLocales.mjs";
 
-const { locale = 'en' } = Astro.props;
+const { locale = "en" } = Astro.props;
 const copy = ARTICLE_LOCALES[locale];
 const menuLabels = { open: copy.menu[0], close: copy.menu[1] };
 const navLinks = [
-  { href: '/#features', label: copy.nav[0] },
+  { href: "/#features", label: copy.nav[0] },
   { href: copy.root, label: copy.nav[1] },
 ];
 ---
 
 <header class="site-header fixed inset-x-0 top-0 z-50">
-  <div class="mx-auto flex max-w-[100rem] items-center justify-between gap-4 px-5 py-5">
-    <a href="/" class="flex min-w-0 items-center gap-3 font-semibold text-run-text" aria-label="runcheck home">
+  <div
+    class="mx-auto flex max-w-[100rem] items-center justify-between gap-4 px-5 py-5"
+  >
+    <a
+      href="/"
+      class="flex min-w-0 items-center gap-3 font-semibold text-run-text"
+      aria-label="runcheck home"
+    >
       <Image
         src={logo}
         alt=""
@@ -23,7 +29,10 @@ const navLinks = [
         loading="eager"
         fetchpriority="high"
       />
-      <span class="brand-shine-text text-lg lowercase leading-none" data-text="runcheck">runcheck</span>
+      <span
+        class="brand-shine-text text-lg lowercase leading-none"
+        data-text="runcheck">runcheck</span
+      >
     </a>
 
     <div class="order-3 md:hidden">
@@ -37,12 +46,28 @@ const navLinks = [
         data-close-label={menuLabels.close}
         data-nav-toggle
       >
-        <svg class="size-6 group-aria-[expanded=true]:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <svg
+          class="size-6 group-aria-[expanded=true]:hidden"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          aria-hidden="true"
+        >
           <line x1="3" y1="6" x2="21" y2="6"></line>
           <line x1="3" y1="12" x2="21" y2="12"></line>
           <line x1="3" y1="18" x2="21" y2="18"></line>
         </svg>
-        <svg class="hidden size-6 group-aria-[expanded=true]:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <svg
+          class="hidden size-6 group-aria-[expanded=true]:block"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          aria-hidden="true"
+        >
           <line x1="18" y1="6" x2="6" y2="18"></line>
           <line x1="6" y1="6" x2="18" y2="18"></line>
         </svg>
@@ -55,78 +80,98 @@ const navLinks = [
       data-open="false"
       aria-label={copy.menu[2]}
       class:list={[
-        'text-sm font-medium text-run-white',
-        'absolute left-5 right-5 top-20 z-50 flex flex-col items-stretch gap-1.5 rounded-panel p-3',
-        'max-md:border max-md:border-[color:var(--run-hero-nav-panel-edge)] max-md:bg-[color:var(--run-hero-nav-panel-bg)] max-md:shadow-[var(--run-hero-nav-panel-shadow)] max-md:backdrop-blur-[var(--run-glass-blur)]',
-        'pointer-events-none -translate-y-1 opacity-0 data-[open=true]:pointer-events-auto data-[open=true]:translate-y-0 data-[open=true]:opacity-100',
-        'motion-safe:transition motion-safe:duration-150 motion-safe:ease-out motion-reduce:transition-none',
-        'md:pointer-events-auto md:static md:translate-y-0 md:shrink-0 md:flex-row md:items-center md:justify-end md:gap-x-2 md:p-0 md:opacity-100',
+        "text-sm font-medium text-run-white",
+        "absolute left-5 right-5 top-20 z-50 flex flex-col items-stretch gap-1.5 rounded-panel p-3",
+        "max-md:border max-md:border-[color:var(--run-hero-nav-panel-edge)] max-md:bg-[color:var(--run-hero-nav-panel-bg)] max-md:shadow-[var(--run-hero-nav-panel-shadow)] max-md:backdrop-blur-[var(--run-glass-blur)]",
+        "pointer-events-none -translate-y-1 opacity-0 data-[open=true]:pointer-events-auto data-[open=true]:translate-y-0 data-[open=true]:opacity-100",
+        "motion-safe:transition motion-safe:duration-150 motion-safe:ease-out motion-reduce:transition-none",
+        "md:pointer-events-auto md:static md:translate-y-0 md:shrink-0 md:flex-row md:items-center md:justify-end md:gap-x-2 md:p-0 md:opacity-100",
       ]}
     >
-      {navLinks.map((link) => (
-        <a class="hero-nav-action" href={link.href} data-hero-nav-label={link.label}>
-          <span class="hero-nav-label">{link.label}</span>
-          <span class="hero-nav-label-gradient" aria-hidden="true">{link.label}</span>
-        </a>
-      ))}
+      {
+        navLinks.map((link) => (
+          <a
+            class="hero-nav-action"
+            href={link.href}
+            data-hero-nav-label={link.label}
+          >
+            <span class="hero-nav-label">{link.label}</span>
+            <span class="hero-nav-label-gradient" aria-hidden="true">
+              {link.label}
+            </span>
+          </a>
+        ))
+      }
 
       <ArticleSearch variant="header" locale={locale} />
     </nav>
-
   </div>
 </header>
 
 <script>
   // Mobiilin hampurilaisvalikko: avaa/sulkee navigaatiopaneelin pienillä näytöillä
-  const navToggle = document.querySelector('[data-nav-toggle]');
-  const primaryNav = document.querySelector('[data-primary-nav]');
+  const navToggle = document.querySelector("[data-nav-toggle]");
+  const primaryNav = document.querySelector("[data-primary-nav]");
 
-  if (navToggle instanceof HTMLButtonElement && primaryNav instanceof HTMLElement) {
-    const desktopQuery = window.matchMedia('(min-width: 768px)');
+  if (
+    navToggle instanceof HTMLButtonElement &&
+    primaryNav instanceof HTMLElement
+  ) {
+    const desktopQuery = window.matchMedia("(min-width: 768px)");
 
     const setNavOpen = (open) => {
       primaryNav.dataset.open = String(open);
-      navToggle.setAttribute('aria-expanded', String(open));
-      navToggle.setAttribute('aria-label', (open ? navToggle.dataset.closeLabel : navToggle.dataset.openLabel) ?? '');
+      navToggle.setAttribute("aria-expanded", String(open));
+      navToggle.setAttribute(
+        "aria-label",
+        (open ? navToggle.dataset.closeLabel : navToggle.dataset.openLabel) ??
+          "",
+      );
 
       // Suljettu mobiilipaneeli ei saa olla näppäimistöllä tavoitettavissa,
       // mutta työpöydällä navi on aina aktiivinen.
       if (open || desktopQuery.matches) {
-        primaryNav.removeAttribute('inert');
+        primaryNav.removeAttribute("inert");
       } else {
-        primaryNav.setAttribute('inert', '');
+        primaryNav.setAttribute("inert", "");
       }
     };
 
-    navToggle.addEventListener('click', () => {
-      setNavOpen(primaryNav.dataset.open !== 'true');
+    navToggle.addEventListener("click", () => {
+      setNavOpen(primaryNav.dataset.open !== "true");
     });
 
-    primaryNav.querySelectorAll('a').forEach((link) => {
-      link.addEventListener('click', () => setNavOpen(false));
+    primaryNav.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => setNavOpen(false));
     });
 
-    document.addEventListener('pointerdown', (event) => {
-      if (primaryNav.dataset.open !== 'true' || !(event.target instanceof Node)) {
+    document.addEventListener("pointerdown", (event) => {
+      if (
+        primaryNav.dataset.open !== "true" ||
+        !(event.target instanceof Node)
+      ) {
         return;
       }
 
-      if (primaryNav.contains(event.target) || navToggle.contains(event.target)) {
+      if (
+        primaryNav.contains(event.target) ||
+        navToggle.contains(event.target)
+      ) {
         return;
       }
 
       setNavOpen(false);
     });
 
-    document.addEventListener('keydown', (event) => {
-      if (event.key === 'Escape' && primaryNav.dataset.open === 'true') {
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && primaryNav.dataset.open === "true") {
         setNavOpen(false);
         navToggle.focus();
       }
     });
 
     // Sulje mobiilipaneeli leveyden vaihtuessa ja päivitä inert-tila molempiin suuntiin
-    desktopQuery.addEventListener('change', () => {
+    desktopQuery.addEventListener("change", () => {
       setNavOpen(false);
     });
 
@@ -135,14 +180,14 @@ const navLinks = [
   }
 
   // Kiinteä header: tausta ja viiva ilmestyvät skrollatessa
-  const siteHeader = document.querySelector('.site-header');
+  const siteHeader = document.querySelector(".site-header");
 
   if (siteHeader instanceof HTMLElement) {
     const onScroll = () => {
-      siteHeader.classList.toggle('is-scrolled', window.scrollY > 8);
+      siteHeader.classList.toggle("is-scrolled", window.scrollY > 8);
     };
 
     onScroll();
-    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener("scroll", onScroll, { passive: true });
   }
 </script>

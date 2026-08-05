@@ -5,10 +5,11 @@ listSummary: "Vergleiche Reparaturkosten, verbleibenden Support und Gerätewert,
 hub: "buying-selling"
 sourceNumber: 4
 order: 2
-tags: ["android","updates","sicherheit","software","ratgeber"]
+tags: ["android", "updates", "sicherheit", "software", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 ## Reparaturen, die sich fast immer lohnen
 
 Ein Akkutausch ist wirtschaftlich meist die eindeutigste Reparatur. Freie Werkstätten verlangen in Deutschland für viele Android-Smartphones ungefähr 60 bis 150 Euro, während autorisierte Services und versiegelte Premiummodelle teurer sein können. Die Kosten bleiben in der Regel deutlich unter dem Preis eines neuen Smartphones. Ein frischer Akku stellt die Bildschirmzeit weitgehend wieder her und kann die CPU-Drosselung beseitigen, die Android zum Schutz einer verschlissenen Zelle einsetzt. Eine vergleichsweise kleine Reparatur kann so zwei bis drei zusätzliche Nutzungsjahre bringen.
@@ -17,7 +18,6 @@ Reparaturen an der Ladebuchse gehören in dieselbe Kategorie. Je nach Modell und
 
 Beides gilt unabhängig vom Gerätealter, solange das Smartphone noch Sicherheitsupdates erhält.
 
-
 ## Displayreparaturen: Hier wird die Rechnung knapper
 
 Die Kosten für ein neues Display unterscheiden sich enorm. Bei einem günstigen Smartphone mit flachem LCD kann eine Reparatur in einer freien Werkstatt ungefähr 90 bis 200 Euro kosten. Bei einem Samsung Galaxy S mit gebogenem OLED-Display sind 200 bis 450 Euro möglich. Foldables spielen in einer anderen Preisklasse. Der Austausch des inneren Displays kostet häufig mehr als 450 Euro und kann je nach Modell 800 Euro oder mehr erreichen.
@@ -25,7 +25,6 @@ Die Kosten für ein neues Display unterscheiden sich enorm. Bei einem günstigen
 Die entscheidende Frage lautet: Was ist das Smartphone nach der Reparatur noch wert? Eine Displayreparatur für 220 Euro kann bei einem aktuell 400 Euro teuren Gerät mit drei verbleibenden Supportjahren sinnvoll sein. Bei einem Smartphone im Wert von 200 Euro, das nur noch ein Jahr Updates erhält, ist dieselbe Reparatur kaum vertretbar. Das Geld ist dann in einem neueren gebrauchten oder generalüberholten Smartphone besser angelegt.
 
 Ein Punkt wird oft übersehen: Ein Smartphone mit gesprungenem, aber noch funktionierendem Display verliert schneller an Wiederverkaufswert als eines mit einem verschlissenen Akku. Manchmal ist es günstiger, das beschädigte Gerät unverändert zu verkaufen und den Erlös in einen Ersatz zu stecken, statt vorher das Display reparieren zu lassen.
-
 
 ## Wann ein Ersatz die bessere Wahl ist
 
@@ -39,32 +38,29 @@ In manchen Situationen ist eine Reparatur trotz scheinbar vernünftiger Einzelko
 
 **RAM-Grenze.** Ein Smartphone mit 4 GB RAM reicht weiterhin für leichte Nutzung, wirkt bei aktuellem Android, modernen Apps und intensivem Multitasking aber schnell knapp. Apps werden ständig neu geladen, der Wechsel zwischen ihnen ruckelt und Hintergrundanwendungen werden unerwartet beendet. Keine Reparatur und kein Zurücksetzen auf Werkseinstellungen erhöht diese Grenze.
 
-
 ## Kostenvergleich in der Praxis
 
 Typische ungefähre Reparaturkosten für Android-Smartphones bei freien Werkstätten in Deutschland im Jahr 2026:
 
-| Reparatur | Kostenbereich | Dauer |
-|--------|-----------|------|
-| Akkutausch | 60 bis 150 Euro | 1 bis 2 Stunden |
-| Ladebuchse | 70 bis 160 Euro | 1 bis 2 Stunden |
-| Display (flaches LCD) | 90 bis 200 Euro | 1 bis 2 Stunden |
-| Display (gebogenes OLED, Flaggschiff) | 200 bis 450 Euro | 2 bis 4 Stunden |
-| Display (Foldable, innen) | 450 bis 800 Euro oder mehr | unterschiedlich |
-| Wasserschaden (gering) | 100 bis 300 Euro | 1 bis 3 Tage |
-| Wasserschaden (schwer) | 300 bis 800 Euro oder mehr | unterschiedlich |
+| Reparatur                             | Kostenbereich              | Dauer           |
+| ------------------------------------- | -------------------------- | --------------- |
+| Akkutausch                            | 60 bis 150 Euro            | 1 bis 2 Stunden |
+| Ladebuchse                            | 70 bis 160 Euro            | 1 bis 2 Stunden |
+| Display (flaches LCD)                 | 90 bis 200 Euro            | 1 bis 2 Stunden |
+| Display (gebogenes OLED, Flaggschiff) | 200 bis 450 Euro           | 2 bis 4 Stunden |
+| Display (Foldable, innen)             | 450 bis 800 Euro oder mehr | unterschiedlich |
+| Wasserschaden (gering)                | 100 bis 300 Euro           | 1 bis 3 Tage    |
+| Wasserschaden (schwer)                | 300 bis 800 Euro oder mehr | unterschiedlich |
 
 Autorisierte Reparaturen sind häufig teurer, verwenden dafür Originalteile und enthalten meist eine Garantie auf die ausgeführte Arbeit oder die eingesetzten Teile. Freie Werkstätten sind oft günstiger und schneller, die Qualität der Ersatzteile kann jedoch schwanken.
 
 Eine brauchbare Faustregel: Bleiben die gesamten Reparaturkosten unter 30 % des Preises eines vergleichbaren neuen oder generalüberholten Ersatzgeräts, ist die Reparatur fast immer die bessere Wahl. Es ist eine Orientierung, kein Gesetz.
-
 
 ## Der Umweltaspekt
 
 Die Herstellung eines neuen Smartphones verursacht je nach Modell und Annahmen der Untersuchung häufig ungefähr 50 bis 80 kg CO2e. Außerdem werden Rohstoffe wie Kobalt, Lithium, Kupfer, Gold und seltene Erden benötigt. Die Reparatur eines vorhandenen Geräts verursacht nur einen Bruchteil dieses Aufwands. In der EU gelten für Smartphones, die seit dem 20. Juni 2025 neu auf den Markt gebracht werden, spezielle Ökodesign- und Energiekennzeichnungsregeln. Sie verlangen unter anderem Akkus mit mindestens 800 Zyklen bis zu einer Restkapazität von 80 %, wichtige Ersatzteile für sieben Jahre nach dem Ende des Modellverkaufs, Reparierbarkeitsinformationen auf dem Energielabel und für professionelle Reparaturbetriebe Zugang zu benötigter Software oder Firmware. Die separate EU-Richtlinie zum Recht auf Reparatur wird in Deutschland derzeit umgesetzt. Der Bundesrat hat das Umsetzungsgesetz am 10. Juli 2026 gebilligt; die zentralen neuen Regeln sollen ab dem 31. Juli 2026 gelten.
 
 Wenn die Umweltwirkung in die Kaufentscheidung einfließt, sollte eine Reparatur der Ausgangspunkt sein, solange die Kosten nicht klar für einen Ersatz sprechen.
-
 
 ## Häufig gestellte Fragen
 

@@ -5,10 +5,11 @@ listSummary: "vergleich, apps und android"
 hub: "device-health"
 sourceNumber: 139
 order: 8
-tags: ["vergleich","apps","android","kaufratgeber","test"]
+tags: ["vergleich", "apps", "android", "kaufratgeber", "test"]
 locale: "de"
 draft: false
 ---
+
 Welche App solltest du installieren, wenn dein Android-Smartphone heiß wird, der Akku zu schnell leer ist oder sich das Gerät einfach "seltsam" verhält? Die lästige Antwort lautet: AccuBattery, DevCheck und runcheck erledigen nicht dieselbe Aufgabe.
 
 AccuBattery dient der langfristigen Schätzung der Akkukapazität. DevCheck zeigt Hardwaredetails und Live-Systemdaten. runcheck liefert einen breiteren Zustandsüberblick über Akku, Temperatur, Netzwerk und Speicher.

@@ -5,10 +5,11 @@ listSummary: "maskinvare, testing og diagnostikk"
 hub: "physical-damage"
 sourceNumber: 137
 order: 7
-tags: ["maskinvare","testing","diagnostikk","android","guide"]
+tags: ["maskinvare", "testing", "diagnostikk", "android", "guide"]
 locale: "nb"
 draft: false
 ---
+
 ---
 
 Hva bør du egentlig bruke til å rengjøre en telefon: vann, alkoholservietter, skjermspray eller det som tilfeldigvis står på kjøkkenbenken?

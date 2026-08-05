@@ -5,10 +5,11 @@ listSummary: "Passaggi pratici per risolvere i messaggi Nessun segnale."
 hub: "network"
 sourceNumber: 102
 order: 13
-tags: ["rete","connettivita","android","risoluzione-dei-problemi","guida"]
+tags: ["rete", "connettivita", "android", "risoluzione-dei-problemi", "guida"]
 locale: "it"
 draft: false
 ---
+
 Il telefono mostra `Nessun segnale`, `Nessun servizio` o `Solo chiamate di emergenza` e, all'improvviso, quel piccolo computer costoso che tieni in mano è soltanto una fotocamera con Wi-Fi. È irritante, ma non sempre è un problema grave.
 
 Il metodo più utile consiste nel separare tre possibili cause: il telefono, la SIM o eSIM e la rete dell'operatore. Procedere per tentativi fa perdere tempo. Controllarle in ordine permette quasi sempre di capire dove si trova il guasto.

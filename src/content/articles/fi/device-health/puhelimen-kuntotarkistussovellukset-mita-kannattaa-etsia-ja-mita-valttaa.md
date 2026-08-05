@@ -6,10 +6,11 @@ listSummary: "vertailu, sovellukset ja android"
 hub: "device-health"
 sourceNumber: 140
 order: 9
-tags: ["vertailu","sovellukset","android","osto-opas","arvostelu"]
+tags: ["vertailu", "sovellukset", "android", "osto-opas", "arvostelu"]
 locale: "fi"
 draft: false
 ---
+
 Hyvä puhelimen kuntosovellus kertoo, mitä puhelin itse ilmoittaa, missä tiedoissa on puutteita ja mitä voit oikeasti tehdä seuraavaksi. Huono sovellus näyttää valtavan "Optimoi"-painikkeen, pyörittää animaation ja toivoo, että napautat mainosta.
 
 Siinä kulkee raja. Kun tiedät, mitä etsiä, sitä on vaikea olla huomaamatta.

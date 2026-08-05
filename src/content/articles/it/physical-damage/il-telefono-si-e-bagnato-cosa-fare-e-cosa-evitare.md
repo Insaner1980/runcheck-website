@@ -5,10 +5,12 @@ listSummary: "Istruzioni passo passo per gestire uno smartphone Android bagnato.
 hub: "physical-damage"
 sourceNumber: 133
 order: 3
-tags: ["hardware","danni","riparazione","android","risoluzione-dei-problemi"]
+tags:
+  ["hardware", "danni", "riparazione", "android", "risoluzione-dei-problemi"]
 locale: "it"
 draft: false
 ---
+
 ---
 
 Tiri fuori il telefono dal lavandino, lo schermo è ancora acceso e il primo impulso è premere ogni pulsante per vedere se è sopravvissuto. Non farlo. In quel momento la scelta migliore è anche la più noiosa: interrompere l'alimentazione, allontanare il liquido dalle aperture e lasciare al telefono il tempo di asciugarsi.

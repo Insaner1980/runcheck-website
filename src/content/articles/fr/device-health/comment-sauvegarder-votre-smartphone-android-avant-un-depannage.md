@@ -5,10 +5,11 @@ listSummary: "performances, vitesse et android"
 hub: "device-health"
 sourceNumber: 9
 order: 5
-tags: ["performances","vitesse","android","optimisation","depannage"]
+tags: ["performances", "vitesse", "android", "optimisation", "depannage"]
 locale: "fr"
 draft: false
 ---
+
 Une bonne sauvegarde n’a pas besoin d’être compliquée. Vous devez surtout savoir ce qu’Android enregistre déjà, ce qu’il laisse de côté et quelles applications exigent leur propre sauvegarde avant toute opération destructive.
 
 ## Ce que Google sauvegarde automatiquement

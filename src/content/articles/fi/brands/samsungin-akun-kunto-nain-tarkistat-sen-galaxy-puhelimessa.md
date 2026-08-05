@@ -5,10 +5,11 @@ listSummary: "Samsung tekee akun kunnon tarkistamisesta yhä tarpeettoman monimu
 hub: "brands"
 sourceNumber: 153
 order: 1
-tags: ["akku","kunto","diagnostiikka","android","opas"]
+tags: ["akku", "kunto", "diagnostiikka", "android", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Juuri epävarmuus on olennaista. Uudella One UI -versiolla varustettu Galaxy S25 saattaa näyttää akun kuntoprosentin ja lataussyklien määrän asetuksissa. Näennäisesti samanlaisen päivityksen saanut Galaxy S23 ei välttämättä näytä niitä. Android 17 on jo saatavilla useimmissa tuetuissa Pixel-puhelimissa, ja Samsung käynnisti Android 17:ään perustuvan One UI 9:n betaohjelman Galaxy S26 -sarjalle toukokuussa 2026. Laajempi vakaa jakelu tulee myöhemmin, ja Samsung päättää edelleen, mitkä akkutiedot se näyttää kullakin laitteella.
 
 Seuraavat tarkistukset ovat oikeasti hyödyllisiä. Mukana ovat myös ne, jotka näyttävät hyödyllisiltä mutta kertovat vähän.

@@ -5,10 +5,11 @@ listSummary: "Gamla nedladdningar tar upp utrymme utan att märkas på Android-t
 hub: "storage"
 sourceNumber: 88
 order: 10
-tags: ["lagring","android","rensning","optimering","guide"]
+tags: ["lagring", "android", "rensning", "optimering", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Du öppnar en PDF-fil en gång, laddar ned en APK för att testa något, sparar en ZIP-fil från webbläsaren och glömmer sedan alltihop. Sex månader senare är mappen Downloads full av filer du inte känner igen.
 
 Det är normalt. Android lägger många engångsfiler där, och de flesta ser inte mappen som något som behöver underhållas. Men det behöver den.

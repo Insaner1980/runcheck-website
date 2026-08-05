@@ -5,10 +5,11 @@ listSummary: "Prova säkert läge före en fabriksåterställning."
 hub: "software"
 sourceNumber: 130
 order: 12
-tags: ["prestanda","hastighet","android","optimering","felsökning"]
+tags: ["prestanda", "hastighet", "android", "optimering", "felsökning"]
 locale: "sv"
 draft: false
 ---
+
 Rådet låter nästan för enkelt, men det är rätt svar vid de flesta Android-problem. Säkert läge är snabbt, går att lämna och raderar ingenting. En fabriksåterställning tömmer telefonen och kan förvandla ett femminutersproblem till en hel kväll med ominstallation av appar, återställning av konton och jakt på inställningar du hade glömt att du ändrade.
 
 Säkert läge först. Återställning sist.

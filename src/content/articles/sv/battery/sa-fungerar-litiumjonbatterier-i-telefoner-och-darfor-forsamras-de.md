@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 19
 order: 9
 subgroup: "Health"
-tags: ["batteriteknik","vetenskap","guide","hårdvara"]
+tags: ["batteriteknik", "vetenskap", "guide", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 När du förstår grunderna blir de vanliga råden mindre mystiska. Regeln 20-80 %, varningen för värme och anledningen till att gamla telefoner dör i förtid kommer från samma sak: litiumjoner rör sig genom en cell som förändras lite varje gång den används.
 
 ## Cellens grunddelar

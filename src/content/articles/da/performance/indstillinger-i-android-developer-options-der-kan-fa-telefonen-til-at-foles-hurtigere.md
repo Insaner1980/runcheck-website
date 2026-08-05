@@ -5,10 +5,11 @@ listSummary: "Which Android Developer Options can make a phone feel faster, whic
 hub: "performance"
 sourceNumber: 69
 order: 6
-tags: ["ydeevne","hastighed","android","optimering","fejlfinding"]
+tags: ["ydeevne", "hastighed", "android", "optimering", "fejlfinding"]
 locale: "da"
 draft: false
 ---
+
 Developer Options er ikke en hemmelig turbotilstand. Det meste af menuen er lavet til apptest, fejlfinding og visuel diagnosticering. Nogle få indstillinger kan få en Android-telefon til at føles hurtigere. Flere gør intet nyttigt ved almindelig brug. Enkelte kan gøre telefonen dårligere.
 
 Den nyttige del er lille, og det er gode nyheder. Du behøver ikke ændre tyve forskellige indstillinger. For de fleste er den bedste opsætning animationsskalaer på 0.5x, måske frysning af cachelagrede apps, hvis telefonen viser muligheden, og alt andet urørt.

@@ -5,10 +5,11 @@ listSummary: "Det kan vara nyttigt att rensa cachelagrade filer, men bara när d
 hub: "storage"
 sourceNumber: 83
 order: 5
-tags: ["prestanda","hastighet","android","optimering","felsökning"]
+tags: ["prestanda", "hastighet", "android", "optimering", "felsökning"]
 locale: "sv"
 draft: false
 ---
+
 Det är inte skräp från början. Det mesta finns där för att apparna ska kännas snabbare.
 
 Problemet uppstår när cacheminnet blir för stort, skadas eller ligger kvar efter en större app- eller Android-uppdatering som förändrar hur appen fungerar. Android 17 ändrar inte grundregeln. Versionen gjordes först tillgänglig för Pixel-enheter som stöds, medan andra Android-telefoner följer senare via sina tillverkare, men cache hanteras fortfarande app för app i standardversionen av Android.

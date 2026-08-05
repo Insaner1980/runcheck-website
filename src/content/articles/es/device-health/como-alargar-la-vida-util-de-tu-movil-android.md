@@ -5,12 +5,12 @@ listSummary: "almacenamiento, android y limpieza"
 hub: "device-health"
 sourceNumber: 3
 order: 2
-tags: ["almacenamiento","android","limpieza","optimizacion","guia"]
+tags: ["almacenamiento", "android", "limpieza", "optimizacion", "guia"]
 locale: "es"
 draft: false
 ---
-Casi todo eso se puede evitar o, al menos, retrasar.
 
+Casi todo eso se puede evitar o, al menos, retrasar.
 
 ## La primera semana: ajustes que compensan durante años
 
@@ -22,7 +22,6 @@ Configura una copia de seguridad automática de las fotos en Google Fotos, OneDr
 
 Pon una funda y un protector de pantalla. Es evidente, pero merece estar aquí porque una sola caída sin protección puede acabar en una reparación de más de 100 € o incluso de varios cientos, según el modelo y el tipo de pantalla. Una funda decente y un vidrio templado cuestan mucho menos.
 
-
 ## Hábitos diarios que importan
 
 El hábito cotidiano más dañino es cargar el móvil con demasiado calor. Usarlo de forma intensa mientras está enchufado, especialmente con carga rápida, puede elevar la batería por encima de 35 °C, una temperatura a partir de la cual la degradación se acelera. Cargarlo durante la noche sobre una mesilla y a una velocidad normal es más suave que darle una carga rápida mientras juegas bajo el sol. Una sola sesión apenas importa, pero la química de las baterías de iones de litio es acumulativa: trescientas cargas moderadamente calientes durante dos años terminan reflejándose en un peor estado de la batería.
@@ -30,7 +29,6 @@ El hábito cotidiano más dañino es cargar el móvil con demasiado calor. Usarl
 La carga inalámbrica también contribuye al calor porque suele ser menos eficiente que el cable. La energía perdida se transforma en calor en el móvil, la base o la funda. Con potencias inalámbricas altas es normal que la parte trasera se caliente y que la velocidad de carga baje. Quitar una funda gruesa y usar una base de menor potencia ayuda. Utilizar cable para la carga nocturna habitual y reservar la carga inalámbrica para momentos puntuales es un compromiso razonable.
 
 En el almacenamiento, el hábito útil es hacer limpieza periódica. Cada pocos meses, abre Ajustes > Almacenamiento > Aplicaciones y ordénalas por tamaño. Las redes sociales, los navegadores y las aplicaciones de vídeo acumulan caché de forma agresiva, a veces varios gigabytes de datos temporales. Vaciar la caché de una aplicación no borra tus datos personales ni sus ajustes; elimina archivos que volverá a crear cuando los necesite. Procura mantener el uso total por debajo del 80-85 % para evitar la pérdida de rendimiento que aparece cuando la memoria NAND se queda sin bloques limpios para nuevas escrituras.
-
 
 ## Mantenimiento mensual y estacional
 
@@ -42,7 +40,6 @@ Limpia el puerto de carga. La pelusa del bolsillo se comprime durante meses y te
 
 Comprueba el estado de la batería varias veces al año mediante las herramientas del fabricante, como Samsung Members, los ajustes de batería de Pixel o las funciones de protección de Xiaomi, o con una aplicación de diagnóstico. La tendencia importa más que una lectura aislada. Si una batería baja del 95 % al 88 % en seis meses, se está degradando más rápido de lo esperado. Cambiar los hábitos de carga en ese momento puede frenar el deterioro antes de que se convierta en un problema serio.
 
-
 ## El soporte de software y los plazos
 
 La situación de las actualizaciones de Android ha mejorado mucho. La familia Google Pixel 8 y posteriores y la familia Samsung Galaxy S24 y posteriores prometen siete años de actualizaciones del sistema operativo y de seguridad. Samsung también amplió el soporte de su gama media: los Galaxy A56, A36 y A26 reciben seis años. Para el OnePlus 13, OnePlus promete cuatro grandes actualizaciones de Android y seis años de parches de seguridad.
@@ -51,7 +48,6 @@ Muchos móviles económicos y modelos de gama alta más antiguos siguen quedánd
 
 Las normas europeas de ecodiseño y etiquetado energético establecen ahora un mínimo más sólido para los móviles introducidos en el mercado de la Unión Europea desde el 20 de junio de 2025. Exigen, entre otras medidas, baterías capaces de soportar al menos 800 ciclos de carga y descarga conservando como mínimo el 80 % de su capacidad, repuestos esenciales disponibles durante siete años después de que deje de venderse el modelo y actualizaciones del sistema operativo durante al menos cinco años desde la fecha en que se comercialice la última unidad de ese modelo. Esto beneficia sobre todo a quienes compran en la UE, aunque los periodos largos de soporte también pueden influir en la planificación mundial de los fabricantes.
 
-
 ## Cuándo merece la pena reparar
 
 Un móvil no tiene que estar perfecto para seguir usándolo. En España, cambiar la batería suele costar desde unas decenas de euros hasta algo más de 100 €, según el modelo, el taller y si se utiliza un servicio oficial. Esa reparación puede añadir dos o tres años de vida a un teléfono que funciona bien en todo lo demás. Reparar la pantalla también puede compensar cuando todavía quedan varios años de soporte de software, aunque el precio cambia mucho según el modelo y el tipo de panel.
@@ -59,7 +55,6 @@ Un móvil no tiene que estar perfecto para seguir usándolo. En España, cambiar
 Las normas europeas de reparación se dividen en dos vías. Las reglas de ecodiseño específicas para móviles ya se aplican a los dispositivos introducidos en el mercado de la UE desde el 20 de junio de 2025 y cubren la durabilidad de la batería, la disponibilidad de repuestos, la información de reparación y el acceso al software o firmware necesario para sustituir componentes. La Directiva sobre el derecho a reparar entró en vigor en 2024 y los Estados miembros deben aplicarla a partir del 31 de julio de 2026. Refuerza el derecho a reparar en las categorías de productos cubiertas por normas europeas de reparabilidad, pero no es el origen de todos los requisitos específicos sobre repuestos o etiquetado energético de los móviles.
 
 La reparación deja de tener sentido, a grandes rasgos, cuando supera el 30-40 % del precio de un móvil equivalente o cuando hay que arreglar varios componentes a la vez.
-
 
 ## Preguntas frecuentes
 

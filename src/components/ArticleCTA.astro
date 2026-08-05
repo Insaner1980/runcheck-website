@@ -1,5 +1,5 @@
 ---
-import { ARTICLE_LOCALES } from '../data/articleLocales.mjs';
+import { ARTICLE_LOCALES } from "../data/articleLocales.mjs";
 
 type ArticleLocale = keyof typeof ARTICLE_LOCALES;
 
@@ -7,7 +7,7 @@ interface Props {
   includeGuidesLink?: boolean;
   locale?: ArticleLocale;
 }
-const { includeGuidesLink = true, locale = 'en' } = Astro.props;
+const { includeGuidesLink = true, locale = "en" } = Astro.props;
 const copy = ARTICLE_LOCALES[locale].cta;
 ---
 
@@ -22,13 +22,21 @@ const copy = ARTICLE_LOCALES[locale].cta;
   </div>
 
   <div class="cta-actions article-cta-actions" aria-label={copy[2]}>
-    <a class="cta-action cta-action-primary article-cta-action" href="/#features">
+    <a
+      class="cta-action cta-action-primary article-cta-action"
+      href="/#features"
+    >
       {copy[3]}
     </a>
-    {includeGuidesLink && (
-      <a class="cta-action cta-action-secondary article-cta-action" href={ARTICLE_LOCALES[locale].root}>
-        {copy[4]}
-      </a>
-    )}
+    {
+      includeGuidesLink && (
+        <a
+          class="cta-action cta-action-secondary article-cta-action"
+          href={ARTICLE_LOCALES[locale].root}
+        >
+          {copy[4]}
+        </a>
+      )
+    }
   </div>
 </section>

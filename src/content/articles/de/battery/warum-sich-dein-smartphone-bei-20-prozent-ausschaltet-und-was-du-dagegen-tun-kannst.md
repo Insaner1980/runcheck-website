@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 22
 order: 12
 subgroup: "Drain"
-tags: ["akku","kalibrierung","fehlerbehebung","android","ratgeber"]
+tags: ["akku", "kalibrierung", "fehlerbehebung", "android", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 In gewisser Weise tut sie das. Die Zahl auf dem Display ist eine Schätzung, und alte Akkus lassen sich schwerer einschätzen.
 
 ## Das solltest du zuerst prüfen

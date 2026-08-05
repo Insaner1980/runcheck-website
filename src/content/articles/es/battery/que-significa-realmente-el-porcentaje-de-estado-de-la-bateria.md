@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 13
 order: 3
 subgroup: "Health"
-tags: ["bateria","estado","diagnostico","android","guia"]
+tags: ["bateria", "estado", "diagnostico", "android", "guia"]
 locale: "es"
 draft: false
 ---
+
 El porcentaje de estado de la batería mide el desgaste. No es lo mismo que el porcentaje que ves en la barra de estado.
 
 Si el móvil indica un 87 % de estado, la celda puede almacenar aproximadamente el 87 % de la carga que admitía cuando era nueva. Sigue funcionando. El depósito es simplemente más pequeño.

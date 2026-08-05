@@ -5,10 +5,11 @@ listSummary: "La mayoría de los móviles Android no necesitan atención constan
 hub: "device-health"
 sourceNumber: 8
 order: 4
-tags: ["almacenamiento","android","limpieza","optimizacion","guia"]
+tags: ["almacenamiento", "android", "limpieza", "optimizacion", "guia"]
 locale: "es"
 draft: false
 ---
+
 Esta lista se adapta al uso real del móvil. No hace falta repetir todas las tareas cada mes y algunas solo tienen sentido una o dos veces al año.
 
 ## Cada mes

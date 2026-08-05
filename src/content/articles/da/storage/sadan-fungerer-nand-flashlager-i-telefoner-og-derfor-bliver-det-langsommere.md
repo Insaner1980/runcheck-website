@@ -5,10 +5,11 @@ listSummary: "Metabeskrivelse: Telefonens lager bruger NAND-flashhukommelse."
 hub: "storage"
 sourceNumber: 89
 order: 11
-tags: ["ydeevne","hastighed","android","optimering","fejlfinding"]
+tags: ["ydeevne", "hastighed", "android", "optimering", "fejlfinding"]
 locale: "da"
 draft: false
 ---
+
 Din telefon kan have en hurtig SoC, masser af RAM og stadig føles træg, når lagerpladsen næsten er fuld. Apps holder en lille pause, før de åbner. Kameraet bruger et ekstra øjeblik på at gemme et billede. Opdateringer tager længere tid, end de burde.
 
 Det er ikke altid processorens skyld. Nogle gange er lageret flaskehalsen.

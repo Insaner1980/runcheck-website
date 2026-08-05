@@ -5,10 +5,11 @@ listSummary: "Puhelin näyttää jo Android-versionsa."
 hub: "software"
 sourceNumber: 119
 order: 1
-tags: ["android","päivitykset","tietoturva","ohjelmisto","opas"]
+tags: ["android", "päivitykset", "tietoturva", "ohjelmisto", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Useimmissa puhelimissa avaa Asetukset > Tietoja puhelimesta > Android-versio. Samsungissa käytä polkua Asetukset > Tietoja puhelimesta > Ohjelmiston tiedot. Näkymässä on muutakin kuin suuri käyttöjärjestelmän versionumero: se näyttää myös Androidin tietoturvapäivityksen päivämäärän, Google Play -järjestelmäpäivityksen päivämäärän, koontiversion numeron ja joskus valmistajan oman ohjelmistoversion.
 
 Tämä jää helposti huomaamatta. Android 17 kuulostaa uudemmalta kuin Android 16, ja sitä se onkin, mutta ajantasainen tietoturvapäivitys on aivan yhtä tärkeä, kun arvioit puhelimen turvallisuutta.

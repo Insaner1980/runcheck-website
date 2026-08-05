@@ -5,9 +5,10 @@ listSummary: "Proximity sensor behavior"
 hub: "hardware"
 sourceNumber: 117
 order: 14
-tags: ["diagnostics","sensors","android","hardware","guide"]
+tags: ["diagnostics", "sensors", "android", "hardware", "guide"]
 draft: false
 ---
+
 Halfway through a call, the screen wakes up against your face and your cheek opens the keypad. That's usually this tiny sensor failing at the one job nobody notices until it stops working.
 
 The sensor tells the phone when something is close to the front glass. During a call, that "something" is usually your face. Android then turns the screen off and ignores touch input so your ear doesn't become a touchscreen accessory.

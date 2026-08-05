@@ -5,10 +5,11 @@ listSummary: "performances, vitesse et android"
 hub: "performance"
 sourceNumber: 74
 order: 11
-tags: ["performances","vitesse","android","optimisation","depannage"]
+tags: ["performances", "vitesse", "android", "optimisation", "depannage"]
 locale: "fr"
 draft: false
 ---
+
 ---
 
 Votre téléphone redémarre-t-il au hasard, ou reste-t-il bloqué dans une boucle au démarrage ? La différence est importante.

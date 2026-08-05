@@ -5,10 +5,11 @@ listSummary: "Hitze beschleunigt die Alterung von Lithium-Ionen-Akkus, besonders
 hub: "thermal"
 sourceNumber: 62
 order: 10
-tags: ["temperatur","warme","android","fehlerbehebung","hardware"]
+tags: ["temperatur", "warme", "android", "fehlerbehebung", "hardware"]
 locale: "de"
 draft: false
 ---
+
 Hitze lässt einen Smartphone-Akku besonders schnell altern. Nicht sofort. Eher still und schleichend.
 
 Genau das macht sie so lästig. Ein heißer Ladevorgang heute führt normalerweise nicht dazu, dass das Smartphone morgen ausfällt. Die Folgen zeigen sich Monate später: kürzere Akkulaufzeit, langsameres Laden, frühere Abschaltungen bei Kälte oder ein Akkuzustand, der schneller als erwartet sinkt.

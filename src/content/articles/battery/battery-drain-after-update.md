@@ -6,9 +6,10 @@ hub: "battery"
 sourceNumber: 27
 order: 17
 subgroup: "Drain"
-tags: ["battery","drain","troubleshooting","android","performance"]
+tags: ["battery", "drain", "troubleshooting", "android", "performance"]
 draft: false
 ---
+
 That's common after updates. It should also settle.
 
 ## Android 17 note for Pixel owners

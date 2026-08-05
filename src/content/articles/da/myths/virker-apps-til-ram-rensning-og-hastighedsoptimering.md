@@ -5,10 +5,11 @@ listSummary: "Gør en RAM-booster din Android-telefon hurtigere, eller får den 
 hub: "myths"
 sourceNumber: 147
 order: 3
-tags: ["ydeevne","hastighed","android","optimering","fejlfinding"]
+tags: ["ydeevne", "hastighed", "android", "optimering", "fejlfinding"]
 locale: "da"
 draft: false
 ---
+
 På en moderne Android-telefon giver apps til RAM-rensning og hastighedsoptimering ingen varig forbedring af ydeevnen. De får som regel telefonen til at arbejde mere, ikke mindre. Værre endnu beder de ofte om omfattende tilladelser, så de kan overvåge brugen, vise reklamer og holde sig selv aktive i baggrunden.
 
 ## Ledig RAM er ikke målet

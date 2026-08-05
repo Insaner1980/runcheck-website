@@ -5,10 +5,11 @@ listSummary: "Samsung macht den Akkuzustand noch immer komplizierter als nötig.
 hub: "brands"
 sourceNumber: 153
 order: 1
-tags: ["akku","zustand","diagnose","android","ratgeber"]
+tags: ["akku", "zustand", "diagnose", "android", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Genau diese Unsicherheit ist der entscheidende Punkt. Ein Galaxy S25 mit einer aktuellen One-UI-Version kann Akkuzustand und Ladezyklen in den Einstellungen anzeigen. Ein Galaxy S23 mit scheinbar ähnlicher Software möglicherweise nicht. Android 17 ist bereits für die meisten unterstützten Pixel-Geräte verfügbar, und Samsung hat inzwischen die auf Android 17 basierende One UI 9 Beta für die Galaxy S26-Serie gestartet. Trotzdem entscheidet Samsung weiterhin selbst, welche Akkuwerte auf welchem Modell, in welcher Region und mit welcher Firmware sichtbar sind.
 
 Diese Prüfungen sind sinnvoll. Einige andere sehen nur nützlich aus, sagen aber kaum etwas über den tatsächlichen Zustand aus.

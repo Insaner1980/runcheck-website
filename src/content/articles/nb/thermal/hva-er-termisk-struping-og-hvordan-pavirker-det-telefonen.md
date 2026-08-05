@@ -5,10 +5,11 @@ listSummary: "Androids innebygde termiske struping beskytter telefonen mot varme
 hub: "thermal"
 sourceNumber: 56
 order: 4
-tags: ["temperatur","varme","android","feilsøking","maskinvare"]
+tags: ["temperatur", "varme", "android", "feilsøking", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 Hvorfor føles en rask telefon plutselig treg midt i et spill, en videosamtale eller et lengre kameraopptak? Som regel skyldes det termisk struping. Enheten er blitt varm, så Android og produsenten reduserer ytelsen før varmen blir et sikkerhetsproblem.
 
 ## Hva termisk struping betyr

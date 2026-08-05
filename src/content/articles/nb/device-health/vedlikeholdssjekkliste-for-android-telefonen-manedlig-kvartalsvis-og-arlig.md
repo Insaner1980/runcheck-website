@@ -5,10 +5,11 @@ listSummary: "De fleste Android-telefoner trenger ikke konstant oppfølging."
 hub: "device-health"
 sourceNumber: 8
 order: 4
-tags: ["lagring","android","opprydding","optimalisering","guide"]
+tags: ["lagring", "android", "opprydding", "optimalisering", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Denne sjekklisten kan tilpasses hvordan du faktisk bruker telefonen. Ikke alt må gjøres hver måned, og enkelte oppgaver er bare relevante én eller to ganger i året.
 
 ## Hver måned

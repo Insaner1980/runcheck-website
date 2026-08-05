@@ -5,12 +5,12 @@ listSummary: "Vérifiez le blocage, les comptes, la batterie et le suivi logicie
 hub: "buying-selling"
 sourceNumber: 6
 order: 4
-tags: ["guide-d-achat","android","comparaison","valeur","guide"]
+tags: ["guide-d-achat", "android", "comparaison", "valeur", "guide"]
 locale: "fr"
 draft: false
 ---
-Les vérifications ci-dessous sont classées par gravité. Les trois premières doivent vous faire renoncer à l’achat si elles échouent. Les autres déterminent la valeur réelle du téléphone.
 
+Les vérifications ci-dessous sont classées par gravité. Les trois premières doivent vous faire renoncer à l’achat si elles échouent. Les autres déterminent la valeur réelle du téléphone.
 
 ## Motifs de refus immédiat
 
@@ -24,17 +24,16 @@ Factory Reset Protection (FRP) est la protection antivol d’Android après réi
 
 Le verrouillage opérateur limite les réseaux utilisables. Insérez la carte SIM d’un autre opérateur que celui ayant vendu le téléphone, ou demandez une vérification par IMEI si l’appareil fonctionne uniquement avec une eSIM. S’il s’enregistre sur le réseau et passe un appel ou utilise les données mobiles, c’est bon signe. Un message indiquant que la SIM n’est pas prise en charge, que le réseau est verrouillé ou que l’enregistrement a échoué signifie généralement que l’appareil est bloqué. Un déverrouillage reste parfois possible, mais il dépend des règles de l’opérateur d’origine, de l’état des paiements et de la coopération du titulaire du compte. Ne payez pas le prix d’un téléphone désimlocké pour un appareil verrouillé.
 
-
 ## Batterie : le facteur qui pèse le plus sur le prix
 
 L’état de la batterie influence presque tout dans l’usage quotidien : l’autonomie écran allumé, la chaleur, les habitudes de recharge et parfois les performances sous forte charge. C’est aussi l’un des meilleurs leviers de négociation lors d’un achat d’occasion.
 
-| État de la batterie | Ce que cela signifie | Effet sur le prix |
-|---|---|---|
-| 90-100 % | Excellent état, usure minime | Le prix demandé peut être justifié |
-| 85-89 % | Usure normale, bonne durée de vie restante | Prix cohérent, sans forte décote nécessaire |
-| 80-84 % | Usure sensible, remplacement possible pendant la période d’utilisation | Déduisez le coût réaliste d’un remplacement local |
-| Moins de 80 % | Remplacement probablement nécessaire bientôt | Déduisez le coût du remplacement ou reconsidérez l’achat |
+| État de la batterie | Ce que cela signifie                                                   | Effet sur le prix                                        |
+| ------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------- |
+| 90-100 %            | Excellent état, usure minime                                           | Le prix demandé peut être justifié                       |
+| 85-89 %             | Usure normale, bonne durée de vie restante                             | Prix cohérent, sans forte décote nécessaire              |
+| 80-84 %             | Usure sensible, remplacement possible pendant la période d’utilisation | Déduisez le coût réaliste d’un remplacement local        |
+| Moins de 80 %       | Remplacement probablement nécessaire bientôt                           | Déduisez le coût du remplacement ou reconsidérez l’achat |
 
 Le prix réel d’un remplacement varie davantage que beaucoup de vendeurs ne le laissent entendre. Changer la batterie d’un ancien modèle peut rester abordable. Sur un appareil haut de gamme récent, étanche, pliable ou réparé dans un centre agréé, la facture peut dépasser largement une centaine d’euros. En France, demandez un devis pour le modèle exact avant l’achat et utilisez ce montant, plutôt qu’une fourchette générique trouvée en ligne.
 
@@ -54,25 +53,23 @@ Un téléphone à 82 % d’état de batterie ne vaut pas son prix affiché si vo
 
 Si l’acheteur et le vendeur veulent un point de référence unique couvrant la batterie, la température, le réseau et le stockage, une application de diagnostic comme **runcheck** peut calculer un score d’état pendant le rendez-vous. C’est moins ambigu que « il fonctionne très bien » ou « je crois que la batterie tient encore bien ».
 
-
 ## Suivi logiciel restant
 
 Les mises à jour de sécurité et le suivi du système déterminent combien de temps le téléphone restera raisonnablement sûr et compatible avec les applications. La durée varie fortement selon le fabricant, le modèle, la région et l’année de sortie.
 
-| Fabricant | Suivi des modèles haut de gamme récents | Suivi des modèles de milieu de gamme récents |
-|---|---|---|
-| Google | Pixel 8 et modèles ultérieurs : 7 ans de mises à jour du système et de sécurité | Pixel 8a et modèles ultérieurs : 7 ans |
-| Samsung | Série Galaxy S24 et modèles haut de gamme ultérieurs : 7 générations de mises à niveau du système et 7 ans de mises à jour de sécurité | Galaxy A56, A36 et A26 : 6 générations de mises à niveau du système et 6 ans de mises à jour de sécurité |
-| OnePlus | OnePlus 13 et 13R : 4 mises à jour majeures d’Android et 6 ans de mises à jour de sécurité | Variable selon le modèle |
-| Motorola | Variable selon le modèle, vérifiez la fiche exacte sur le site d’assistance de Motorola | Souvent plus court que chez Google ou Samsung, mais les modèles récents diffèrent |
-| Autres marques | Variable | Souvent 2-3 ans sur les anciens modèles ou les appareils d’entrée de gamme, tandis que les nouveaux modèles vendus dans l’UE sont concernés par les règles européennes de 2025 |
+| Fabricant      | Suivi des modèles haut de gamme récents                                                                                                | Suivi des modèles de milieu de gamme récents                                                                                                                                   |
+| -------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Google         | Pixel 8 et modèles ultérieurs : 7 ans de mises à jour du système et de sécurité                                                        | Pixel 8a et modèles ultérieurs : 7 ans                                                                                                                                         |
+| Samsung        | Série Galaxy S24 et modèles haut de gamme ultérieurs : 7 générations de mises à niveau du système et 7 ans de mises à jour de sécurité | Galaxy A56, A36 et A26 : 6 générations de mises à niveau du système et 6 ans de mises à jour de sécurité                                                                       |
+| OnePlus        | OnePlus 13 et 13R : 4 mises à jour majeures d’Android et 6 ans de mises à jour de sécurité                                             | Variable selon le modèle                                                                                                                                                       |
+| Motorola       | Variable selon le modèle, vérifiez la fiche exacte sur le site d’assistance de Motorola                                                | Souvent plus court que chez Google ou Samsung, mais les modèles récents diffèrent                                                                                              |
+| Autres marques | Variable                                                                                                                               | Souvent 2-3 ans sur les anciens modèles ou les appareils d’entrée de gamme, tandis que les nouveaux modèles vendus dans l’UE sont concernés par les règles européennes de 2025 |
 
 Pour les téléphones mis sur le marché de l’Union européenne à partir du 20 juin 2025, les règles d’écoconception imposent un niveau minimal plus élevé. Les mises à jour du système doivent rester disponibles pendant au moins cinq ans après la fin de la mise sur le marché du dernier exemplaire du modèle, et certaines pièces essentielles pendant sept ans après cette date. Ces règles aideront les futurs acheteurs d’occasion, mais elles ne prolongent pas automatiquement le suivi d’anciens modèles déjà abandonnés.
 
 Deux années ou plus de suivi restant constituent un achat plus serein. Avec moins d’un an, le téléphone approche de sa fin de vie du point de vue de la sécurité. Certaines applications bancaires, de paiement ou professionnelles peuvent refuser un appareil rooté, compromis ou trop ancien. Même si elles fonctionnent encore, un téléphone qui ne reçoit plus de correctifs de sécurité est un mauvais endroit pour conserver des comptes sensibles.
 
 Vérifiez la version d’Android et la date du correctif de sécurité dans la rubrique **À propos du téléphone** des paramètres. Un retard peut simplement venir d’un déploiement progressif. Si l’appareil refuse la version la plus récente officiellement disponible pour ce modèle, le problème peut venir du firmware, de la région logicielle, de l’opérateur ou du canal de mise à jour.
-
 
 ## Inspection physique
 
@@ -84,13 +81,11 @@ Dégâts liés à un liquide : de nombreux téléphones possèdent un indicateur
 
 Haut-parleurs, microphone et appareils photo : lancez un son à volume élevé, enregistrez votre voix, prenez des photos avec les caméras avant et arrière, testez la mise au point et filmez une courte séquence. Deux minutes suffisent pour découvrir des défauts coûteux après la vente.
 
-
 ## L’étiquette européenne de réparabilité
 
 Depuis le 20 juin 2025, les smartphones et tablettes ardoises mis sur le marché de l’Union européenne doivent porter une nouvelle étiquette énergétique. Elle indique notamment l’efficacité énergétique, l’autonomie par cycle, l’endurance de la batterie en cycles, la résistance aux chutes, la protection contre les infiltrations et une classe de réparabilité de A à E. A correspond à la meilleure réparabilité, E à la plus faible.
 
 Un téléphone d’occasion est rarement vendu avec sa boîte d’origine, et les anciens modèles peuvent ne pas avoir d’étiquette. Pour un appareil récent destiné au marché européen, vérifiez néanmoins sa classe de réparabilité dans la fiche du modèle ou dans la base EPREL lorsqu’elle est disponible. Une meilleure classe devrait faciliter et réduire le coût de l’entretien à long terme, notamment lorsque la batterie ou le port de recharge devra être remplacé.
-
 
 ## Questions fréquentes
 
@@ -113,7 +108,6 @@ Seulement si la réduction dépasse le coût de la réparation et si le suivi lo
 ### Un ancien modèle haut de gamme vaut-il mieux qu’un milieu de gamme récent ?
 
 Parfois. L’ancien haut de gamme peut avoir de meilleurs appareils photo, un meilleur écran, de meilleurs haut-parleurs et un processeur plus puissant. Le modèle récent de milieu de gamme peut offrir une batterie moins usée, un suivi logiciel plus long et des pièces moins coûteuses. Pour un achat d’occasion, le suivi restant et l’état de la batterie comptent souvent davantage que le prix de lancement.
-
 
 ## Conclusion
 

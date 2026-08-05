@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 35
 order: 25
 subgroup: "Drain"
-tags: ["batteri","strømforbruk","feilsøking","android","ytelse"]
+tags: ["batteri", "strømforbruk", "feilsøking", "android", "ytelse"]
 locale: "nb"
 draft: false
 ---
+
 Du sover. Telefonskjermen er av. Ingenting spilles av, ingenting lastes ned, og likevel faller batterinivået med 18 % i løpet av natten.
 
 Det er denne typen forbruk wake locks kan forårsake. En wake lock-forespørsel holder en del av enheten våken når Android ellers ville latt den hvile. Det vanligste batteriproblemet er en partial wake lock, som holder prosessoren i gang mens skjermen forblir av.

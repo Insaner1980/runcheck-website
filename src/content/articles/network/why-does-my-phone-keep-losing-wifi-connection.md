@@ -1,13 +1,14 @@
 ---
 title: "Why does my phone keep losing WiFi connection?"
-description: "The annoying version is when Wi-Fi works in the kitchen, drops in the bedroom, reconnects for ten seconds, then disappears again. Nothing looks obviously broken. The router is on, the password is right, and other apps keep blaming \"no internet.\""
+description: 'The annoying version is when Wi-Fi works in the kitchen, drops in the bedroom, reconnects for ten seconds, then disappears again. Nothing looks obviously broken. The router is on, the password is right, and other apps keep blaming "no internet."'
 listSummary: "Wi-Fi drop fixes"
 hub: "network"
 sourceNumber: 95
 order: 6
-tags: ["network","connectivity","android","troubleshooting","guide"]
+tags: ["network", "connectivity", "android", "troubleshooting", "guide"]
 draft: false
 ---
+
 Start with one question: do other devices on the same Wi-Fi also disconnect? If yes, work on the router or internet connection first. If only your phone drops, the problem is probably the phone, its saved network profile, or how it moves between bands.
 
 ## If several devices disconnect, blame the router first

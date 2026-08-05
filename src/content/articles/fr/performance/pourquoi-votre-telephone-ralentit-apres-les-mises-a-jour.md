@@ -5,10 +5,11 @@ listSummary: "performances, vitesse et android"
 hub: "performance"
 sourceNumber: 68
 order: 5
-tags: ["performances","vitesse","android","optimisation","depannage"]
+tags: ["performances", "vitesse", "android", "optimisation", "depannage"]
 locale: "fr"
 draft: false
 ---
+
 Votre téléphone peut sembler moins performant juste après une mise à jour Android, sans que celle-ci l'ait forcément endommagé. Les deux premiers jours qui suivent une mise à niveau majeure sont souvent désordonnés, car Android reconstruit différents éléments en arrière-plan pendant que vous essayez d'utiliser le téléphone normalement.
 
 C'est agaçant, mais c'est aussi normal.

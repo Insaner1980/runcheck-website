@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 16
 order: 6
 subgroup: "Health"
-tags: ["batteri","hälsa","diagnostik","android","guide"]
+tags: ["batteri", "hälsa", "diagnostik", "android", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Se det som en stoppsignal. Ett svullet mobilbatteri är inte ett prestandaproblem. Det är ett skadat batteri som måste hanteras försiktigt.
 
 **Metabeskrivning:** Ett svullet mobilbatteri kan bli en brandrisk om det skadas eller hanteras fel. Lär dig känna igen varningssignalerna, vad du ska undvika och hur telefonen lämnas till återvinning eller reparation på ett säkert sätt.

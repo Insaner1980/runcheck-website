@@ -7,9 +7,10 @@ hub: "battery"
 sourceNumber: 20
 order: 10
 subgroup: "Health"
-tags: ["battery-tech","science","education","hardware","guide"]
+tags: ["battery-tech", "science", "education", "hardware", "guide"]
 draft: false
 ---
+
 The reason is silicon-carbon. It is still lithium-ion, but the anode has changed.
 
 ## What changed in the anode

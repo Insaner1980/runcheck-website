@@ -5,10 +5,11 @@ listSummary: "Ripristinare le preferenze delle app sembra un'operazione capace d
 hub: "software"
 sourceNumber: 128
 order: 10
-tags: ["sicurezza","malware","android","privacy","guida"]
+tags: ["sicurezza", "malware", "android", "privacy", "guida"]
 locale: "it"
 draft: false
 ---
+
 Il problema è il nome, che non è molto chiaro. Il comando non ripristina le app. Reimposta le scelte del telefono relative ad autorizzazioni, app predefinite, notifiche, attività in background e app disattivate. Foto, messaggi, file, account salvati e dati delle app restano al loro posto.
 
 ## Cosa viene ripristinato

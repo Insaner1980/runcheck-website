@@ -5,10 +5,11 @@ listSummary: "recharge, batterie et android"
 hub: "charging"
 sourceNumber: 50
 order: 14
-tags: ["recharge","batterie","android","guide","materiel"]
+tags: ["recharge", "batterie", "android", "guide", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 La meilleure habitude de recharge sur Android en 2026 est assez banale : gardez le téléphone au frais, utilisez la limite de charge intégrée et évitez de laisser la batterie à 100 % toute la journée lorsque vous n'en avez pas besoin.
 
 Voilà l'essentiel. On transforme souvent l'entretien de la batterie en rituel, alors que les téléphones Android modernes font déjà une bonne partie du travail. Android 17 est disponible depuis le 16 juin 2026 sur la plupart des téléphones Pixel compatibles, et les autres marques suivent ensuite avec leurs propres versions d'Android 17. Les conseils ci-dessous dépendent toutefois davantage du fabricant que du numéro de version d'Android.

@@ -5,12 +5,12 @@ listSummary: "Un téléphone utilisé pendant un an ou deux peut sembler impecca
 hub: "buying-selling"
 sourceNumber: 2
 order: 1
-tags: ["guide-d-achat","android","comparaison","valeur","guide"]
+tags: ["guide-d-achat", "android", "comparaison", "valeur", "guide"]
 locale: "fr"
 draft: false
 ---
-Il faut environ quinze minutes pour évaluer l'état réel de l'appareil, sans rien installer.
 
+Il faut environ quinze minutes pour évaluer l'état réel de l'appareil, sans rien installer.
 
 ## Commencez par ce qui ne se voit pas
 
@@ -24,7 +24,6 @@ Au-dessus de 90 %, l'état est solide. Entre 80 % et 90 %, la batterie a déjà 
 
 L'état du stockage est plus difficile à mesurer, mais il mérite votre attention. Ouvrez Paramètres > Stockage et regardez le taux d'occupation. Le chiffre brut compte moins que le comportement du téléphone : hésite-t-il à ouvrir les applications ? L'appareil photo attend-il une seconde avant d'enregistrer une image ? La mémoire flash NAND ralentit à mesure qu'elle se remplit et que ses cellules s'usent au fil des écritures. Ces symptômes ressemblent alors à tort à un processeur trop lent.
 
-
 ## L'état physique
 
 Placez le téléphone sous une lumière vive et examinez l'écran sous plusieurs angles. De petites rayures invisibles de face apparaissent clairement en lumière rasante. Inspectez les bords, où commencent souvent les fissures après une chute. Posez ensuite le téléphone à plat sur une table. S'il bascule ou reste bancal, le châssis peut être tordu ou la batterie peut avoir commencé à gonfler. Une batterie gonflée est un problème de sécurité, pas seulement de performances.
@@ -33,13 +32,11 @@ Le port de charge accumule les fibres de poche au fil des mois. Éclairez l'int�
 
 Les boutons doivent produire un clic net. Un bouton d'alimentation mou ou une commande de volume qu'il faut presser deux fois est déjà usé, et cela ne s'améliorera pas tout seul.
 
-
 ## Écran et tactile
 
 Les pixels morts apparaissent comme de minuscules points sombres sur un fond blanc. Ouvrez un navigateur, recherchez « test écran blanc », passez en plein écran et observez attentivement. Recommencez avec des aplats rouge, vert, bleu et noir pour repérer les problèmes de sous-pixels. Les écrans OLED peuvent aussi garder une image rémanente après avoir affiché les mêmes éléments au même endroit pendant des mois : barre de navigation, barre d'état ou interface d'une application très utilisée. Une image gris moyen en plein écran rend ce marquage visible s'il existe.
 
 Les zones tactiles mortes sont plus difficiles à repérer. Activez les options pour les développeurs en appuyant sept fois sur le numéro de build dans Paramètres > À propos du téléphone, puis activez l'affichage de l'emplacement du pointeur. Faites glisser lentement un doigt sur toute la surface de l'écran. La trace des coordonnées doit rester continue, surtout dans les coins et près des bords, où les connexions de la nappe sont plus vulnérables aux chocs.
-
 
 ## Capteurs, haut-parleurs et appareils photo
 
@@ -49,11 +46,9 @@ Sur certains téléphones Samsung, le code `*#0*#` ouvre un menu de test matéri
 
 Écoutez de la musique par le haut-parleur à plusieurs volumes. Des craquements ou une distorsion à niveau modéré peuvent indiquer un dommage. Enregistrez un court message vocal, puis réécoutez-le pour tester le microphone. Ouvrez les appareils photo avant et arrière et prenez quelques images avec une lumière correcte. Cherchez des difficultés de mise au point, des zones floues ou un objectif qui cherche continuellement le point sans le trouver.
 
-
 ## Dégâts causés par un liquide
 
 De nombreux téléphones Android comportent un indicateur de contact avec un liquide, ou LCI, visible dans l'emplacement du tiroir SIM. Retirez le tiroir et éclairez l'intérieur. Un indicateur blanc ou argenté signale généralement l'absence de contact, tandis qu'un indicateur rose ou rouge indique qu'un liquide est entré dans le téléphone à un moment donné. Un indicateur rose ne signifie pas que l'appareil est actuellement en panne, mais les dégâts peuvent progresser avec la corrosion interne. C'est une information importante, pas nécessairement un motif d'abandon immédiat.
-
 
 ## État du logiciel
 

@@ -5,10 +5,11 @@ listSummary: "Colleghi alla corrente un OnePlus recente, distogli lo sguardo per
 hub: "brands"
 sourceNumber: 156
 order: 4
-tags: ["batteria","stato","diagnostica","android","guida"]
+tags: ["batteria", "stato", "diagnostica", "android", "guida"]
 locale: "it"
 draft: false
 ---
+
 La ricarica rapida non fa automaticamente male alla batteria. Il vero nemico è il calore. Un OnePlus che si ricarica a 80 W o 100 W mentre giochi, usi la navigazione o guardi contenuti in streaming può sottoporre la batteria a parecchio stress, se il software non gestisce bene la situazione.
 
 C'è poi una questione di tempistiche: Android 17 è stato distribuito prima sulla maggior parte dei Pixel supportati. I dispositivi OnePlus riceveranno in seguito gli aggiornamenti OxygenOS basati su Android 17, mentre le funzioni dedicate alla batteria possono ancora cambiare in base a modello, area geografica e build OTA. Non dare per scontato che un'impostazione sia disponibile finché non la vedi sul tuo telefono.

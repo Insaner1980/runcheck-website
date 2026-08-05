@@ -5,10 +5,11 @@ listSummary: "Hurtigopladning kan øge batterislitagen, men watt-tallet er ikke 
 hub: "charging"
 sourceNumber: 39
 order: 3
-tags: ["opladning","batteri","android","guide","hardware"]
+tags: ["opladning", "batteri", "android", "guide", "hardware"]
 locale: "da"
 draft: false
 ---
+
 De fleste råd om hurtigopladning er for dramatiske. Hurtigopladning er ikke en dødsdom for batteriet, og langsom opladning er ikke magi. Det egentlige spørgsmål er, om telefonen holder sig kølig under opladningen.
 
 Det er her, svaret bliver mindre enkelt. En 65 W-oplader på et køligt skrivebord kan være lettere for batteriet end en 15 W-oplader under en pude. Effekten betyder noget, men temperaturen betyder mere.

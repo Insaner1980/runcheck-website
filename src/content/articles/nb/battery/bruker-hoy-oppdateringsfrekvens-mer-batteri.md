@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 30
 order: 20
 subgroup: "Drain"
-tags: ["batteri","myter","android","testing","fakta"]
+tags: ["batteri", "myter", "android", "testing", "fakta"]
 locale: "nb"
 draft: false
 ---
+
 Det vanlige rådet er å slå av 120 Hz hvis batteritid er viktig. Det er bare halvt riktig.
 
 En høy oppdateringsfrekvens kan bruke mer batteri enn 60 Hz, men ikke alle 120 Hz-telefoner betaler samme pris. På en eldre eller billigere telefon med fast høy oppdateringsfrekvens kan 120 Hz gi et tydelig utslag på batteritiden. På en nyere telefon med variabel oppdateringsfrekvens er kostnaden ofte langt mindre, fordi skjermen ikke står på 120 Hz hele dagen. Den øker frekvensen ved rulling og animasjoner, og senker den igjen når bildet er statisk.

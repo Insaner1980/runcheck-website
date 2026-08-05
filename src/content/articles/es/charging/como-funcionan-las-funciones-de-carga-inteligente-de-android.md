@@ -5,10 +5,11 @@ listSummary: "bateria, estado y diagnostico"
 hub: "charging"
 sourceNumber: 51
 order: 15
-tags: ["bateria","estado","diagnostico","android","guia"]
+tags: ["bateria", "estado", "diagnostico", "android", "guia"]
 locale: "es"
 draft: false
 ---
+
 ¿Por qué tu móvil se detiene a veces en el 80 %, se queda así durante horas y, de repente, termina de cargarse justo antes de que te despiertes?
 
 Eso es la carga inteligente. No es una única función de Android con un interruptor universal. Es un conjunto de herramientas de distintos fabricantes que intentan resolver el mismo problema de la batería: pasar demasiado tiempo con un nivel de carga alto, sobre todo cuando el móvil está caliente.

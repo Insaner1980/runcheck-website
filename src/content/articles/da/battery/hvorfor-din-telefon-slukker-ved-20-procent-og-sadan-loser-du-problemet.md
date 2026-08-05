@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 22
 order: 12
 subgroup: "Drain"
-tags: ["batteri","kalibrering","fejlfinding","android","guide"]
+tags: ["batteri", "kalibrering", "fejlfinding", "android", "guide"]
 locale: "da"
 draft: false
 ---
+
 Det gør det på en måde. Tallet på skærmen er et estimat, og gamle batterier er sværere at estimere præcist.
 
 ## Det første, du skal kontrollere

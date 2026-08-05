@@ -5,10 +5,11 @@ listSummary: "De fleste advarsler om mobilspilling retter seg mot feil del av te
 hub: "thermal"
 sourceNumber: 55
 order: 3
-tags: ["sammenligning","apper","android","kjøpsguide","anmeldelse"]
+tags: ["sammenligning", "apper", "android", "kjøpsguide", "anmeldelse"]
 locale: "nb"
 draft: false
 ---
+
 ## Maskinvaren tåler spill
 
 Moderne SoC-er i telefoner er bygget for både korte kraftutbrudd og lange, tunge økter. De kjører spill, tar opp video, behandler bilder, driver skjermer med høy oppdateringsfrekvens og hopper mellom ytelsesnivåer tusenvis av ganger om dagen. Hvis et spill presser brikken for hardt, struper Android ytelsen før silisiumet når utrygge temperaturer.
@@ -89,4 +90,4 @@ En diagnoseapp kan bekrefte det du kjenner. runcheck er nyttig her fordi appen f
 
 Spilling skader vanligvis ikke telefonen direkte. Det skaper varme, og varme eldes batteriet raskere. Spill uten laderen tilkoblet når du kan, senk bildefrekvensen før telefonen blir varm, unngå hurtiglading under øktene og slutt å behandle termisk struping som noe du skal overvinne. Den er der for å beskytte telefonen.
 
-*Metabeskrivelse: Spilling på Android skader vanligvis ikke CPU eller GPU, men gjentatt varme fra lange økter, hurtiglading og høy lysstyrke kan eldes batteriet raskere.*
+_Metabeskrivelse: Spilling på Android skader vanligvis ikke CPU eller GPU, men gjentatt varme fra lange økter, hurtiglading og høy lysstyrke kan eldes batteriet raskere._

@@ -5,10 +5,11 @@ listSummary: "hardware, test og diagnostik"
 hub: "hardware"
 sourceNumber: 105
 order: 2
-tags: ["hardware","test","diagnostik","android","guide"]
+tags: ["hardware", "test", "diagnostik", "android", "guide"]
 locale: "da"
 draft: false
 ---
+
 Android-telefoner bruger en blanding af bevægelses-, miljø-, positions- og nærhedssensorer. Nogle er fysiske chips. Andre er "virtuelle" sensorer, som beregnes ud fra flere chips på én gang. Når én datakilde bliver ustabil, blokeret eller deaktiveret, kan symptomet dukke op et helt andet sted.
 
 Begynd enkelt. Du behøver hverken root, ADB eller et laboratoriebord til den første runde test.

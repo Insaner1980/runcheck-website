@@ -5,10 +5,11 @@ listSummary: "Come scegliere un'app per controllare lo stato di un telefono Andr
 hub: "device-health"
 sourceNumber: 140
 order: 9
-tags: ["confronto","app","android","guida-all-acquisto","recensione"]
+tags: ["confronto", "app", "android", "guida-all-acquisto", "recensione"]
 locale: "it"
 draft: false
 ---
+
 Una buona app per lo stato del telefono dovrebbe dirti che cosa comunica il dispositivo, quali dati sono poco affidabili e che cosa puoi fare dopo. Una cattiva mostra un enorme pulsante "Ottimizza", riproduce un'animazione e spera che tu tocchi un annuncio.
 
 Il confine è questo. Una volta capito che cosa cercare, non è affatto difficile riconoscerlo.

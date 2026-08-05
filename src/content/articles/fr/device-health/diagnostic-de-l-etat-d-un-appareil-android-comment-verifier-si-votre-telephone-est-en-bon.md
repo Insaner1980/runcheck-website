@@ -9,6 +9,7 @@ tags: []
 locale: "fr"
 draft: false
 ---
+
 Un diagnostic de l'appareil permet de repérer ces tendances plus tôt. Il est utile pour rechercher la cause d'un problème précis, préparer la vente d'un téléphone ou simplement déterminer si cette impression de lenteur est réelle.
 
 ---

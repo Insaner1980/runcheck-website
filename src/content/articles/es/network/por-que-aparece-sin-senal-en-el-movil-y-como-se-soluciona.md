@@ -5,10 +5,11 @@ listSummary: "red, conectividad y android"
 hub: "network"
 sourceNumber: 102
 order: 13
-tags: ["red","conectividad","android","solucion-de-problemas","guia"]
+tags: ["red", "conectividad", "android", "solucion-de-problemas", "guia"]
 locale: "es"
 draft: false
 ---
+
 El móvil muestra `Sin señal`, `Sin servicio` o `Solo llamadas de emergencia` y, de repente, ese pequeño ordenador caro que llevas en la mano se convierte en una cámara con Wi-Fi. Es molesto, pero no siempre indica un problema grave.
 
 La clave está en separar tres elementos: el móvil, la SIM o eSIM y la red del operador. Probar cosas al azar hace perder tiempo. Comprobarlas en orden suele revelar dónde está el fallo.

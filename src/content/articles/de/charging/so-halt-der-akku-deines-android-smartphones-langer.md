@@ -5,10 +5,11 @@ listSummary: "laden, akku und android"
 hub: "charging"
 sourceNumber: 37
 order: 1
-tags: ["laden","akku","android","ratgeber","hardware"]
+tags: ["laden", "akku", "android", "ratgeber", "hardware"]
 locale: "de"
 draft: false
 ---
+
 Viele Android-Akkutipps sind entweder zu offensichtlich oder völlig übertrieben. Natürlich hilft eine niedrigere Displayhelligkeit. Du musst dein Smartphone aber nicht in einen stummen Ziegelstein verwandeln, nur um durch den Tag zu kommen.
 
 Am meisten bringt es, zuerst die großen Verbraucher anzugehen: Display, Mobilfunkempfang, Hintergrund-Apps, Standort und Ladegewohnheiten. Android 17 ist seit dem 16. Juni 2026 für die meisten unterstützten Pixel-Geräte verfügbar. Andere Hersteller veröffentlichen ihre eigenen Versionen später. Die Menünamen unterscheiden sich deshalb, an den Grundlagen des Akkuverbrauchs hat sich jedoch nichts geändert.

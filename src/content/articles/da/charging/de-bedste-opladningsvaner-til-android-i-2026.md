@@ -5,10 +5,11 @@ listSummary: "opladning, batteri og android"
 hub: "charging"
 sourceNumber: 50
 order: 14
-tags: ["opladning","batteri","android","guide","hardware"]
+tags: ["opladning", "batteri", "android", "guide", "hardware"]
 locale: "da"
 draft: false
 ---
+
 Den bedste opladningsvane til Android i 2026 er kedelig: Hold telefonen kølig, brug den indbyggede opladningsgrænse, og lad ikke batteriet stå på 100 % hele dagen, når du ikke har brug for det.
 
 Det er det meste. Folk får batteripleje til at lyde som et ritual, men moderne Android-telefoner klarer allerede en stor del af arbejdet. Android 17 er nu udgivet til de fleste understøttede Pixel-telefoner, mens andre mærker følger senere med deres egne Android 17-versioner. Rådene nedenfor afhænger stadig mere af producenten end af Android-versionsnummeret.

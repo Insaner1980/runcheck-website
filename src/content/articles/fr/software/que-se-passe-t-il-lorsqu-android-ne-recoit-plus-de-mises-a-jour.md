@@ -5,10 +5,11 @@ listSummary: "La dernière mise à jour arrive, vous l'installez, puis rien de s
 hub: "software"
 sourceNumber: 121
 order: 3
-tags: ["android","mises-a-jour","securite","logiciel","guide"]
+tags: ["android", "mises-a-jour", "securite", "logiciel", "guide"]
 locale: "fr"
 draft: false
 ---
+
 C'est ce qui rend les smartphones qui ne sont plus suivis si trompeurs. Ils ne tombent pas soudainement en panne. Ils deviennent simplement un peu plus vulnérables chaque mois.
 
 ## Le risque de sécurité augmente avec le temps

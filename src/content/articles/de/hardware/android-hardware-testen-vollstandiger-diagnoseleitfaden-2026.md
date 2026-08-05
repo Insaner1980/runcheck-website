@@ -5,10 +5,11 @@ listSummary: "Ein Android-Smartphone kann äußerlich völlig in Ordnung wirken,
 hub: "hardware"
 sourceNumber: 104
 order: 1
-tags: ["akku","akkuverbrauch","fehlerbehebung","android","leistung"]
+tags: ["akku", "akkuverbrauch", "fehlerbehebung", "android", "leistung"]
 locale: "de"
 draft: false
 ---
+
 Die gute Nachricht: Vieles davon lässt sich prüfen, bevor du für eine Reparatur bezahlst. Android bietet Einstellungsseiten, Herstellerdiagnosen, Wählcodes und manuelle Tests für die wichtigsten Hardwarekomponenten. Der unübersichtliche Teil ist, dass nichts davon wirklich auf allen Geräten gleich funktioniert.
 
 Android 17 wurde am 16. Juni 2026 zunächst für die meisten unterstützten Pixel-Geräte veröffentlicht, während andere Hersteller ihren eigenen Zeitplänen folgen. Das ist relevant, weil Diagnosemenüs, Akkuzustandsanzeigen und Einstellungspfade je nach Android-Version, Herstelleroberfläche, Anbieter-Software und Region abweichen können. Behandle jeden Code in diesem Leitfaden als Abkürzung, nicht als Garantie.

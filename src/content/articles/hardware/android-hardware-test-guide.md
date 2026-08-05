@@ -5,9 +5,10 @@ listSummary: "Hardware diagnostic workflow"
 hub: "hardware"
 sourceNumber: 104
 order: 1
-tags: ["battery","drain","troubleshooting","android","performance"]
+tags: ["battery", "drain", "troubleshooting", "android", "performance"]
 draft: false
 ---
+
 The good news: you can test most of this before paying for repair. Android has settings pages, manufacturer diagnostics, dialer codes, and manual checks that cover the main hardware parts. The messy part is that none of it is truly universal.
 
 Android 17 is now rolling out first to supported Pixel phones, while other brands move on their own schedules. That matters because diagnostic menus, battery health screens, and settings paths can differ by Android version, OEM skin, carrier build, and region. Treat every code in this guide as a shortcut, not a promise.

@@ -5,10 +5,11 @@ listSummary: "Metabeskrivelse: Fryser Android-telefonen eller slutter den å rea
 hub: "performance"
 sourceNumber: 73
 order: 10
-tags: ["ytelse","hastighet","android","optimalisering","feilsøking"]
+tags: ["ytelse", "hastighet", "android", "optimalisering", "feilsøking"]
 locale: "nb"
 draft: false
 ---
+
 ---
 
 Du trykker på skjermen, men ingenting beveger seg. Appen står fortsatt åpen, klokken kan ha stoppet, og selv tilbakebevegelsen gjør ingenting. Da har telefonen fryst.

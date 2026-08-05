@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 36
 order: 26
 subgroup: "Drain"
-tags: ["batteri","optimalisering","android","tips","ytelse"]
+tags: ["batteri", "optimalisering", "android", "tips", "ytelse"]
 locale: "nb"
 draft: false
 ---
+
 Batterisparing hjelper mest før batteriet er nesten tomt. Det nytter å slå den på ved 8 %, men da er det meste av batteriet allerede brukt opp.
 
 Det er bedre å bruke funksjonen etter situasjonen. Slå den på når du vet at det blir vanskelig å lade: på en flyreise, i et langt møte, på vei til eller fra jobb med svakt signal, gjennom en dag utendørs, eller når det er viktigere at telefonen holder seg i gang enn at ytelsen er helt jevn.

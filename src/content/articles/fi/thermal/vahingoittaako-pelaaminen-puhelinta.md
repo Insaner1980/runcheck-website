@@ -5,10 +5,11 @@ listSummary: "Useimmat mobiilipelaamista koskevat varoitukset kohdistuvat puheli
 hub: "thermal"
 sourceNumber: 55
 order: 3
-tags: ["vertailu","sovellukset","android","osto-opas","arvostelu"]
+tags: ["vertailu", "sovellukset", "android", "osto-opas", "arvostelu"]
 locale: "fi"
 draft: false
 ---
+
 ## Laitteisto kestää pelaamista
 
 Nykyaikaisten puhelinten SoC-piirit on suunniteltu sekä lyhyisiin suorituskykypyrähdyksiin että pitkiin raskaisiin käyttökertoihin. Ne pyörittävät pelejä, tallentavat videota, käsittelevät kuvia, ohjaavat suuren virkistystaajuuden näyttöjä ja vaihtavat suorituskykytasolta toiselle tuhansia kertoja päivässä. Jos peli kuormittaa piiriä liikaa, Android rajoittaa sen suorituskykyä ennen kuin pii kuumenee vaarallisiin lukemiin.
@@ -89,4 +90,4 @@ Diagnostiikkasovellus voi vahvistaa sen, minkä tunnet kädessäsi. runcheck aut
 
 Pelaaminen ei yleensä vahingoita puhelinta suoraan. Se tuottaa lämpöä, ja lämpö vanhentaa akkua nopeammin. Pelaa ilman laturia aina kun voit, pienennä kuvataajuutta ennen kuin puhelin kuumenee, vältä pikalatausta pelikertojen aikana äläkä yritä päihittää lämpötilasta johtuvaa suorituskyvyn rajoittamista. Se suojaa puhelinta.
 
-*Metakuvaus: Android-pelaaminen ei tavallisesti vahingoita CPU:ta tai GPU:ta, mutta pitkien pelikertojen, pikalatauksen ja suuren näytön kirkkauden toistuvasti tuottama lämpö voi vanhentaa akkua nopeammin.*
+_Metakuvaus: Android-pelaaminen ei tavallisesti vahingoita CPU:ta tai GPU:ta, mutta pitkien pelikertojen, pikalatauksen ja suuren näytön kirkkauden toistuvasti tuottama lämpö voi vanhentaa akkua nopeammin._

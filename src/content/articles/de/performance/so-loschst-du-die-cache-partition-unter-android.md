@@ -5,10 +5,12 @@ listSummary: "leistung, geschwindigkeit und android"
 hub: "performance"
 sourceNumber: 71
 order: 8
-tags: ["leistung","geschwindigkeit","android","optimierung","fehlerbehebung"]
+tags:
+  ["leistung", "geschwindigkeit", "android", "optimierung", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+
 Du blickst auf Android Recovery, steuerst mit den Lautstärketasten wie im Jahr 2012 und suchst nach **Wipe cache partition**. Auf manchen Smartphones ist die Option vorhanden. Auf anderen ist sie verschwunden. Bei einigen wurde sie nie angeboten.
 
 Deshalb ist das Thema komplizierter, als viele Anleitungen vermuten lassen. Das Löschen der Cache-Partition kann bei bestimmten Samsung-Smartphones und älteren Android-Geräten noch sinnvoll sein. Eine allgemeine Android-Funktion ist es heute aber nicht mehr.

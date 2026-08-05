@@ -5,10 +5,11 @@ listSummary: "prestanda, hastighet och android"
 hub: "performance"
 sourceNumber: 72
 order: 9
-tags: ["prestanda","hastighet","android","optimering","felsökning"]
+tags: ["prestanda", "hastighet", "android", "optimering", "felsökning"]
 locale: "sv"
 draft: false
 ---
+
 En tre år gammal telefon i Galaxy A-serien kan kännas långsammare än den egentligen är, eftersom varje tryck måste vänta på att en liten animation ska bli klar. Öppna en app, gå tillbaka, byt skärm, dra ned snabbinställningarna. De små fördröjningarna läggs på varandra.
 
 Att minska animationerna gör inte CPU:n snabbare. Det förbättrar inte signalen, lagringshastigheten eller batterihälsan. Det tar bara bort en del av väntetiden mellan olika åtgärder, och det räcker ofta för att en äldre telefon ska kännas bättre.

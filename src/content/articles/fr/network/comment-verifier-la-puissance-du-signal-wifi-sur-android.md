@@ -5,10 +5,11 @@ listSummary: "Apprenez à lire la puissance du WiFi sur Android en dBm, et pas s
 hub: "network"
 sourceNumber: 90
 order: 1
-tags: ["reseau","connectivite","android","depannage","guide"]
+tags: ["reseau", "connectivite", "android", "depannage", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Les barres WiFi de la barre d'état donnent une indication approximative, pas une mesure. Placez deux téléphones côte à côte et ils peuvent afficher des résultats différents, car les interfaces Android et les fabricants ne convertissent pas tous la puissance du signal de la même manière.
 
 Pour un vrai diagnostic, cherchez la valeur en dBm. Elle indique la puissance du signal que votre téléphone reçoit du routeur.

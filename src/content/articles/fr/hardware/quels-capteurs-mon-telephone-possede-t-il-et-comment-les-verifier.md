@@ -5,10 +5,11 @@ listSummary: "diagnostic, capteurs et android"
 hub: "hardware"
 sourceNumber: 118
 order: 15
-tags: ["diagnostic","capteurs","android","materiel","guide"]
+tags: ["diagnostic", "capteurs", "android", "materiel", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Un modèle haut de gamme de 2026 peut intégrer un gyroscope, un baromètre, un capteur d’empreintes sous l’écran, plusieurs capteurs capables de réveiller l’appareil et toute une série de capteurs de mouvement calculés par logiciel. Un téléphone bon marché datant de quelques années peut se limiter au strict nécessaire. Cette différence devient visible lorsque la rotation de l’écran, la luminosité adaptative, la direction de la boussole, les applications AR ou l’activation au soulèvement ne fonctionnent pas comme prévu.
 
 ## Commencez par une application de capteurs

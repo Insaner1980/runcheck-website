@@ -5,10 +5,11 @@ listSummary: "maskinvare, testing og diagnostikk"
 hub: "hardware"
 sourceNumber: 109
 order: 6
-tags: ["maskinvare","testing","diagnostikk","android","guide"]
+tags: ["maskinvare", "testing", "diagnostikk", "android", "guide"]
 locale: "nb"
 draft: false
 ---
+
 ---
 
 At telefonen er stille, betyr ikke automatisk at vibrasjonsmotoren er ødelagt. De fleste vibrasjonsproblemer skyldes først innstillinger, deretter programvare og til slutt maskinvare.

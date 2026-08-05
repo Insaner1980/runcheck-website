@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 32
 order: 22
 subgroup: "Drain"
-tags: ["batteri","myter","android","testning","fakta"]
+tags: ["batteri", "myter", "android", "testning", "fakta"]
 locale: "sv"
 draft: false
 ---
+
 Vissa stänger av Bluetooth varje gång de slutar använda hörlurarna, eftersom de tror att det sparar en halv dags batteritid. Jag förstår tanken. För många år sedan var det ett ganska rimligt råd.
 
 På en modern Android-mobil är det vanligtvis inte värt besväret.

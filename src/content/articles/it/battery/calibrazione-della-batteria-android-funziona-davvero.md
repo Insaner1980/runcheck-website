@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 15
 order: 5
 subgroup: "Stato della batteria"
-tags: ["batteria","stato","diagnostica","android","guida"]
+tags: ["batteria", "stato", "diagnostica", "android", "guida"]
 locale: "it"
 draft: false
 ---
+
 Gran parte dei consigli sulla calibrazione della batteria arriva da tecnologie più vecchie e da vecchie leggende dei forum. Sugli smartphone Android moderni, calibrare non migliora l'autonomia. Non ripara una batteria usurata e non riporta uno stato dell'82 % al 95 %.
 
 A volte può correggere una percentuale di carica sbagliata.

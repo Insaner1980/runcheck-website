@@ -5,10 +5,18 @@ listSummary: "La presión de memoria aparece cuando Android se queda sin RAM y e
 hub: "performance"
 sourceNumber: 76
 order: 13
-tags: ["rendimiento","velocidad","android","optimizacion","solucion-de-problemas"]
+tags:
+  [
+    "rendimiento",
+    "velocidad",
+    "android",
+    "optimizacion",
+    "solucion-de-problemas",
+  ]
 locale: "es"
 draft: false
 ---
+
 ---
 
 La presión de memoria es Android decidiendo qué puede sacrificar. Cuando no hay RAM suficiente para todo, el sistema empieza a cerrar los procesos menos importantes para que el móvil pueda seguir funcionando.

@@ -5,10 +5,11 @@ listSummary: "opladning, batteri og android"
 hub: "charging"
 sourceNumber: 46
 order: 10
-tags: ["opladning","batteri","android","guide","hardware"]
+tags: ["opladning", "batteri", "android", "guide", "hardware"]
 locale: "da"
 draft: false
 ---
+
 Det er watt, du skal holde øje med. Volt og ampere forklarer, hvordan opladeren når dertil, men watt-tallet fortæller, hvor meget effekt der er til rådighed.
 
 En oplader, der leverer 9 V ved 2 A, giver 18 W. En oplader, der leverer 20 V ved 3 A, giver 60 W. Regnestykket er enkelt: volt gange ampere er lig med watt.

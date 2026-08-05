@@ -5,10 +5,11 @@ listSummary: "L'état de la batterie reste incohérent chez Xiaomi."
 hub: "brands"
 sourceNumber: 155
 order: 3
-tags: ["batterie","etat","diagnostic","android","guide"]
+tags: ["batterie", "etat", "diagnostic", "android", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Android 17 ne règle pas ce problème à lui seul. Google l'a d'abord publié sur la plupart des Pixel compatibles, et Xiaomi propose déjà une version Developer Preview sur un nombre limité d'appareils. La disponibilité grand public dépendra toutefois des futures versions d'HyperOS, et Xiaomi continuera à décider ce qui apparaît dans les Paramètres de chaque modèle et de chaque région.
 
 Ne considérez donc pas cet article comme le chemin universel de tous les Xiaomi. Utilisez-le comme une liste de vérifications.

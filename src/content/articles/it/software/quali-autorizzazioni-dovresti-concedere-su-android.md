@@ -5,10 +5,11 @@ listSummary: "La regola più semplice per le autorizzazioni Android è questa."
 hub: "software"
 sourceNumber: 127
 order: 9
-tags: ["android","autorizzazioni","privacy","sicurezza","guida"]
+tags: ["android", "autorizzazioni", "privacy", "sicurezza", "guida"]
 locale: "it"
 draft: false
 ---
+
 È normale che un'app fotocamera chieda accesso alla fotocamera. Non lo è che una torcia chieda i contatti. La maggior parte delle decisioni sulle autorizzazioni non è più complicata di così.
 
 Il problema è il momento. Le app chiedono l'accesso mentre stai cercando di fare qualcosa, quindi Consenti diventa il pulsante più rapido. È così che si accumulano autorizzazioni sbagliate.

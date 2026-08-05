@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 25
 order: 15
 subgroup: "Drain"
-tags: ["batterie","consommation","depannage","android","performances"]
+tags: ["batterie", "consommation", "depannage", "android", "performances"]
 locale: "fr"
 draft: false
 ---
+
 Une consommation cachée consiste surtout à découvrir ce qui empêche le téléphone de dormir lorsque l'écran est éteint.
 
 ## Commencez par l'écran le plus banal

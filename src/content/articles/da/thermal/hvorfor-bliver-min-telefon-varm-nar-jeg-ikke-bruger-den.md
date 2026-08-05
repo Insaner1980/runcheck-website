@@ -5,10 +5,11 @@ listSummary: "batteri, tilstand og diagnostik"
 hub: "thermal"
 sourceNumber: 57
 order: 5
-tags: ["batteri","tilstand","diagnostik","android","guide"]
+tags: ["batteri", "tilstand", "diagnostik", "android", "guide"]
 locale: "da"
 draft: false
 ---
+
 ## Begynd med de enkle kontroller
 
 Genstart telefonen først. Det er kedeligt råd, fordi det virker. En fastlåst baggrundstjeneste kan holde CPU'en vågen, og en genstart rydder ofte problemet, uden at du behøver lege detektiv i en halv time.
@@ -109,4 +110,4 @@ Trådløs opladning tæller som brug. En enhed på en opladningsplade oplader, f
 
 En telefon i hvile bliver varm, fordi den ikke rigtig hviler, eller fordi batteriet eller opladningsudstyret har et problem. Begynd med en genstart, batteriforbrug, signal, opladning og Sikker tilstand. Hvis det ikke forklarer problemet, er batteritilstand og en diagnose på et værksted næste skridt.
 
-*Metabeskrivelse: Hvis din Android-telefon bliver varm i tomgang, er årsagen som regel en baggrundsapp, dårligt signal, varme fra opladning, en nylig opdatering eller batterislitage. Sådan finder du årsagen på en sikker måde.*
+_Metabeskrivelse: Hvis din Android-telefon bliver varm i tomgang, er årsagen som regel en baggrundsapp, dårligt signal, varme fra opladning, en nylig opdatering eller batterislitage. Sådan finder du årsagen på en sikker måde._

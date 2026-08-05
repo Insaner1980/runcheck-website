@@ -5,9 +5,10 @@ listSummary: "Gaming heat and hardware wear"
 hub: "thermal"
 sourceNumber: 55
 order: 3
-tags: ["comparison","apps","android","buying-guide","review"]
+tags: ["comparison", "apps", "android", "buying-guide", "review"]
 draft: false
 ---
+
 Most warnings about mobile gaming are aimed at the wrong part of the phone. Gaming doesn't usually damage the CPU or GPU. Heat is the problem, and the battery is the part that pays for it.
 
 ## The hardware can handle games

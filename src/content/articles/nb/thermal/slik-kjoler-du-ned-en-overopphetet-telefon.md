@@ -5,10 +5,11 @@ listSummary: "lading, batteri og android"
 hub: "thermal"
 sourceNumber: 54
 order: 2
-tags: ["lading","batteri","android","guide","maskinvare"]
+tags: ["lading", "batteri", "android", "guide", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 ## Gjør dette først
 
 Koble fra laderen. Lading tilfører varme, og telefonen klarer ikke å kjøle seg effektivt ned mens du fortsetter å gi den strøm. Selv om Android allerede har satt ladingen på pause, hjelper det å koble fra fordi laderen, kabelen og ladeplaten fjernes fra ligningen.
@@ -85,4 +86,4 @@ Ved lange spilløkter kan en påmontert kjøler hjelpe fordi den flytter varme f
 
 Å kjøle ned en telefon handler mest om å holde igjen. Koble fra, ta av dekselet, stopp arbeidsbelastningen, flytt telefonen bort fra varmen og ikke tving fram rask nedkjøling. Hvis problemet kommer tilbake under lett bruk, er årsaken vanligvis en app, svakt signal, ladeutstyr eller batterislitasje.
 
-*Metabeskrivelse: Trygge trinn for å kjøle ned en overopphetet Android-telefon, hva du ikke bør gjøre, når varme er normalt etter Android 17 eller andre oppdateringer, og når batterivarme betyr at telefonen bør repareres.*
+_Metabeskrivelse: Trygge trinn for å kjøle ned en overopphetet Android-telefon, hva du ikke bør gjøre, når varme er normalt etter Android 17 eller andre oppdateringer, og når batterivarme betyr at telefonen bør repareres._

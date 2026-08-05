@@ -5,10 +5,11 @@ listSummary: "La ricarica rapida può aumentare l'usura della batteria."
 hub: "charging"
 sourceNumber: 39
 order: 3
-tags: ["ricarica","batteria","android","guida","hardware"]
+tags: ["ricarica", "batteria", "android", "guida", "hardware"]
 locale: "it"
 draft: false
 ---
+
 Molti consigli sulla ricarica rapida sono troppo drammatici. Non è una condanna a morte per la batteria e la ricarica lenta non è magia. La vera domanda è se il telefono resta fresco mentre si carica.
 
 È qui che la risposta diventa meno ordinata. Un caricabatterie da 65 W su una scrivania fresca può essere più delicato di uno da 15 W sotto un cuscino. I watt contano, ma la temperatura conta di più.

@@ -30,10 +30,10 @@ Static Astro 7 foundation for `https://runcheckapp.com`.
 
 All commands run from the project root.
 
-| Command | Action |
-| :-- | :-- |
-| `npm install` | Install dependencies |
-| `npm run dev -- --host 127.0.0.1` | Start local dev server |
-| `npm run build` | Build static output to `dist` |
-| `npm run preview` | Preview built output |
-| `npm run astro -- --help` | Show Astro CLI help |
+| Command                           | Action                        |
+| :-------------------------------- | :---------------------------- |
+| `npm install`                     | Install dependencies          |
+| `npm run dev -- --host 127.0.0.1` | Start local dev server        |
+| `npm run build`                   | Build static output to `dist` |
+| `npm run preview`                 | Preview built output          |
+| `npm run astro -- --help`         | Show Astro CLI help           |

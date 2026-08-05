@@ -5,10 +5,11 @@ listSummary: "prestanda, hastighet och android"
 hub: "storage"
 sourceNumber: 81
 order: 3
-tags: ["prestanda","hastighet","android","optimering","felsökning"]
+tags: ["prestanda", "hastighet", "android", "optimering", "felsökning"]
 locale: "sv"
 draft: false
 ---
+
 ---
 
 När lagringsutrymmet i en Android-telefon är fullt slutar den inte fungera på ett prydligt och förutsägbart sätt. Först börjar den bete sig märkligt.

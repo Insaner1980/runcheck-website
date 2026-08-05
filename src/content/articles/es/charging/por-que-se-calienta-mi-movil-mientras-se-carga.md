@@ -5,10 +5,11 @@ listSummary: "carga, bateria y android"
 hub: "charging"
 sourceNumber: 52
 order: 16
-tags: ["carga","bateria","android","guia","hardware"]
+tags: ["carga", "bateria", "android", "guia", "hardware"]
 locale: "es"
 draft: false
 ---
+
 Enchufas el móvil, vuelves 20 minutos después y la parte trasera está más caliente que tu mano. Un poco de calor es normal. Que resulte demasiado caliente para sujetarlo con comodidad, no.
 
 La carga siempre genera algo de calor porque una parte de la energía que entra se convierte en calor residual dentro del cargador, el cable y el teléfono. La carga rápida genera más. La carga inalámbrica suele generar todavía más. La cuestión no es si el móvil se calienta, sino si se mantiene dentro de un intervalo normal o empieza a protegerse.
@@ -81,6 +82,6 @@ Los refrigeradores para juegos tienen sentido si juegas durante sesiones largas 
 
 ## ¿Puedes comprobar la temperatura?
 
-Algunos móviles Android muestran la temperatura de la batería en Ajustes > Batería o en las herramientas de diagnóstico del dispositivo. Otros la ocultan. El código de marcación *#*#4636#*#* abre un menú de pruebas en algunos teléfonos, pero no funciona en todos.
+Algunos móviles Android muestran la temperatura de la batería en Ajustes > Batería o en las herramientas de diagnóstico del dispositivo. Otros la ocultan. El código de marcación _#_#4636#_#_ abre un menú de pruebas en algunos teléfonos, pero no funciona en todos.
 
 runcheck muestra la temperatura de la batería y el estado térmico en tiempo real durante la carga. Es útil porque "parece caliente" es una impresión subjetiva. Los números ayudan a distinguir entre un móvil simplemente templado y otro que está alcanzando sus límites térmicos.

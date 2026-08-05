@@ -5,10 +5,11 @@ listSummary: "lagerplads, android og oprydning"
 hub: "brands"
 sourceNumber: 157
 order: 5
-tags: ["lagerplads","android","oprydning","optimering","guide"]
+tags: ["lagerplads", "android", "oprydning", "optimering", "guide"]
 locale: "da"
 draft: false
 ---
+
 Enhedspleje er nyttigt, men det er først og fremmest et kontrolpanel og derefter et optimeringsværktøj. Det hjælper dig med at finde batteriforbrug, pres på lagerpladsen, baggrundsapps, hukommelsesforbrug og sikkerhedstjek samlet ét sted. De bedste dele er de konkrete værktøjer, ikke oprydning med ét tryk.
 
 Samsung ændrer også menunavne mellem One UI-versioner. Nogle telefoner viser Indstillinger > Enhedspleje. Andre viser Indstillinger > Batteri- og enhedspleje. Android 17 kom først til de fleste understøttede Pixel-telefoner, mens Galaxy-telefoner får Samsungs Android 17-baserede One UI-opdatering senere, så du kan forvente endnu en omgang mindre ændringer i ordvalg og layout.

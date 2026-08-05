@@ -5,10 +5,18 @@ listSummary: "rendimiento, velocidad y android"
 hub: "performance"
 sourceNumber: 72
 order: 9
-tags: ["rendimiento","velocidad","android","optimizacion","solucion-de-problemas"]
+tags:
+  [
+    "rendimiento",
+    "velocidad",
+    "android",
+    "optimizacion",
+    "solucion-de-problemas",
+  ]
 locale: "es"
 draft: false
 ---
+
 Un Galaxy de la serie A con tres años puede parecer más lento de lo que realmente es porque cada toque espera a que termine una pequeña animación. Abres una aplicación, vuelves atrás, cambias de pantalla o despliegas los ajustes rápidos. Esos pequeños retrasos se acumulan.
 
 Reducir las animaciones no acelera la CPU. Tampoco mejora la señal, la velocidad del almacenamiento ni el estado de la batería. Solo elimina parte de la espera entre acciones, y muchas veces basta para que un móvil antiguo se sienta mejor.

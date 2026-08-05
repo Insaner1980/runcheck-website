@@ -5,10 +5,11 @@ listSummary: "lataaminen, akku ja android"
 hub: "charging"
 sourceNumber: 37
 order: 1
-tags: ["lataaminen","akku","android","opas","laitteisto"]
+tags: ["lataaminen", "akku", "android", "opas", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 Useimmat Androidin akkuohjeet ovat joko liian itsestään selviä tai liian äärimmäisiä. Kyllä, näytön kirkkauden vähentäminen auttaa. Ei, puhelinta ei tarvitse muuttaa äänettömäksi tiiliskiveksi vain siksi, että akun pitäisi kestää iltaan asti.
 
 Hyödyllisin tapa on korjata ensin suurimmat kuluttajat: näyttö, mobiilisignaali, taustasovellukset, sijainti ja lataustavat. Android 17 julkaistiin ensin useimmille tuetuille Pixel-puhelimille, ja muut Android-valmistajat tuovat sen omille laitteilleen myöhemmin. Valikoiden nimet siis vaihtelevat, mutta akun toiminnan perusteet eivät ole muuttuneet.

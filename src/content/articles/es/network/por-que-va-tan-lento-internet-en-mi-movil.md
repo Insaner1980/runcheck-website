@@ -5,10 +5,18 @@ listSummary: "¿Por qué un móvil se arrastra mientras el portátil que tiene a
 hub: "network"
 sourceNumber: 91
 order: 2
-tags: ["rendimiento","velocidad","android","optimizacion","solucion-de-problemas"]
+tags:
+  [
+    "rendimiento",
+    "velocidad",
+    "android",
+    "optimizacion",
+    "solucion-de-problemas",
+  ]
 locale: "es"
 draft: false
 ---
+
 No empieces con un restablecimiento de fábrica. Empieza por reunir datos.
 
 ## Primero, separa el móvil de la red

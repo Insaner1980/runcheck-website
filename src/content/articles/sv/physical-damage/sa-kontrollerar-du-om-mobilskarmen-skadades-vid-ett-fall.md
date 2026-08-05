@@ -5,10 +5,11 @@ listSummary: "Du plockar upp mobilen, glaset ser helt ut och i några sekunder t
 hub: "physical-damage"
 sourceNumber: 131
 order: 1
-tags: ["hårdvara","testning","diagnostik","android","guide"]
+tags: ["hårdvara", "testning", "diagnostik", "android", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Målet är inte att panikgranska varje pixel som om du köpte en begagnad mobil av en främling. Det handlar om att hitta sådant som faktiskt spelar roll: sprickor, döda pixlar, områden där pekskärmen inte svarar, färgskiftningar, flimmer och en panel som har börjat lossna.
 
 ## Börja med glaset och ramen

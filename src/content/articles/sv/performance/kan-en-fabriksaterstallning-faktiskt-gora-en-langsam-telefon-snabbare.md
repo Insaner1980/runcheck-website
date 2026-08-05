@@ -5,10 +5,11 @@ listSummary: "Du sitter och tittar på knappen för fabriksåterställning efter
 hub: "performance"
 sourceNumber: 67
 order: 4
-tags: ["prestanda","hastighet","android","optimering","felsökning"]
+tags: ["prestanda", "hastighet", "android", "optimering", "felsökning"]
 locale: "sv"
 draft: false
 ---
+
 Ibland är rådet rätt. Ofta är det ett slentrianråd.
 
 En fabriksåterställning kan hjälpa när orsaken är programvara: uppsvällda appdata, trasiga inställningar, skadade cachefiler, för många bakgrundsappar eller en stökig återställning efter flera års uppgraderingar. Den lagar inte sliten flashlagring, ett svagt batteri, dålig värmehantering, för lite RAM eller ett billigt chipset som var långsamt från början.

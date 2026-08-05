@@ -5,10 +5,11 @@ listSummary: "Sei in videochiamata, tutti ti sentono, l'immagine sembra buona."
 hub: "network"
 sourceNumber: 103
 order: 14
-tags: ["rete","connettivita","android","risoluzione-dei-problemi","guida"]
+tags: ["rete", "connettivita", "android", "risoluzione-dei-problemi", "guida"]
 locale: "it"
 draft: false
 ---
+
 La latenza si misura in millisecondi (ms). Più è bassa, meglio è. I tre valori più importanti sono ping, jitter e perdita di pacchetti. Il ping è il tempo di andata e ritorno tra il telefono e un server. Il jitter indica quanto varia quel tempo tra una richiesta e l'altra. La perdita di pacchetti è la quota di dati che non arriva a destinazione.
 
 Una connessione da 100 Mbps con 150 ms di ping può sembrare peggiore di una da 20 Mbps con 15 ms. Sembra illogico finché non provi un gioco online, una videochiamata o un desktop remoto. La velocità trasferisce i dati. La latenza decide il tempo di risposta.

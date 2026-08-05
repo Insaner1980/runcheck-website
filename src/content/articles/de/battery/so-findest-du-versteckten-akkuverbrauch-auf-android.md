@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 25
 order: 15
 subgroup: "Drain"
-tags: ["akku","akkuverbrauch","fehlerbehebung","android","leistung"]
+tags: ["akku", "akkuverbrauch", "fehlerbehebung", "android", "leistung"]
 locale: "de"
 draft: false
 ---
+
 Bei verstecktem Akkuverbrauch geht es vor allem darum herauszufinden, was das Smartphone bei ausgeschaltetem Display wach hält.
 
 ## Beginne mit der langweiligen Anzeige

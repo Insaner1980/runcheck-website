@@ -5,9 +5,10 @@ listSummary: "Screen pixel and touch tests"
 hub: "hardware"
 sourceNumber: 106
 order: 3
-tags: ["hardware","testing","diagnostics","android","guide"]
+tags: ["hardware", "testing", "diagnostics", "android", "guide"]
 draft: false
 ---
+
 Screen problems hide well during normal use. Wallpapers, icons, dark mode, and motion all cover up defects. A few solid-color and touch tests make them much easier to catch.
 
 ## Dead pixels and stuck pixels

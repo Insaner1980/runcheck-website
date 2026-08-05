@@ -5,10 +5,11 @@ listSummary: "hardware, testen und diagnose"
 hub: "hardware"
 sourceNumber: 110
 order: 7
-tags: ["hardware","testen","diagnose","android","ratgeber"]
+tags: ["hardware", "testen", "diagnose", "android", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 ---
 
 Kameratests werden einfacher, sobald du nicht mehr nur an Megapixel denkst. Auch ein 50MP-Sensor kann schlechte Bilder liefern, wenn das Objektiv verschmutzt, der Autofokus beschädigt oder das Kameramodul nach einem Sturz leicht verschoben ist.

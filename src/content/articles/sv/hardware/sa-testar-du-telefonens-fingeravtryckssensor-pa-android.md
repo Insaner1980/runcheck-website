@@ -5,10 +5,11 @@ listSummary: "diagnostik, sensorer och android"
 hub: "hardware"
 sourceNumber: 114
 order: 11
-tags: ["diagnostik","sensorer","android","hårdvara","guide"]
+tags: ["diagnostik", "sensorer", "android", "hårdvara", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Är fingeravtryckssensorn trasig, eller är den bara irriterad på skärmskyddet? Det låter som ett skämt, men är den första frågan du bör ställa.
 
 Problem med fingeravtryck är ofta ganska vardagliga. Torr hud, fukt, ett billigt skärmskydd av härdat glas, en dålig registrering eller en halvfärdig programuppdatering kan få en fungerande sensor att verka död. Hårdvarufel förekommer också, särskilt efter ett fall eller ett skärmbyte, men börja inte där.

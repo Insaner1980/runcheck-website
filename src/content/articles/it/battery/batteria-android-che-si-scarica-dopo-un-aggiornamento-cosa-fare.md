@@ -6,10 +6,12 @@ hub: "battery"
 sourceNumber: 27
 order: 17
 subgroup: "Consumo della batteria"
-tags: ["batteria","consumo","risoluzione-dei-problemi","android","prestazioni"]
+tags:
+  ["batteria", "consumo", "risoluzione-dei-problemi", "android", "prestazioni"]
 locale: "it"
 draft: false
 ---
+
 Succede spesso dopo gli aggiornamenti. Dovrebbe anche risolversi.
 
 ## Nota su Android 17 per chi usa Pixel

@@ -5,10 +5,11 @@ listSummary: "hardware, testen und diagnose"
 hub: "hardware"
 sourceNumber: 111
 order: 8
-tags: ["hardware","testen","diagnose","android","ratgeber"]
+tags: ["hardware", "testen", "diagnose", "android", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 ---
 
 Wie viel kann dir ein winziger Aufkleber über einen Wasserschaden verraten? Weniger, als viele denken.

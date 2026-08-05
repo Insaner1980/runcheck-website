@@ -5,10 +5,11 @@ listSummary: "Una tarjeta microSD puede dar más espacio a un móvil Android, pe
 hub: "storage"
 sourceNumber: 86
 order: 8
-tags: ["almacenamiento","android","limpieza","optimizacion","guia"]
+tags: ["almacenamiento", "android", "limpieza", "optimizacion", "guia"]
 locale: "es"
 draft: false
 ---
+
 Esto importa aún más en 2026, porque los móviles Android combinan tipos de almacenamiento muy distintos. Muchos modelos de gama alta y media ya no incluyen ranura microSD. Los Pixel no la tienen, Samsung la eliminó hace años de la gama Galaxy S y varios modelos actuales de la gama Galaxy A también prescinden de ella. Al mismo tiempo, muchos Galaxy A y M más antiguos, modelos Motorola Moto G y móviles Sony Xperia siguen admitiendo microSD.
 
 Comprueba el modelo exacto. El nombre de la familia no basta.

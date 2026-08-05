@@ -5,10 +5,11 @@ listSummary: "Votre téléphone affiche déjà sa version d’Android."
 hub: "software"
 sourceNumber: 119
 order: 1
-tags: ["android","mises-a-jour","securite","logiciel","guide"]
+tags: ["android", "mises-a-jour", "securite", "logiciel", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Sur la plupart des appareils, ouvrez Paramètres, puis À propos du téléphone, puis Version d’Android. Sur un Samsung, utilisez Paramètres > À propos du téléphone > Informations sur le logiciel. Cet écran ne donne pas seulement le grand numéro du système : il affiche aussi la date de la mise à jour de sécurité Android, celle de la mise à jour du système Google Play, le numéro de version et parfois la version logicielle propre au fabricant.
 
 C’est le détail que beaucoup oublient. Android 17 est plus récent qu’Android 16, bien sûr, mais un correctif de sécurité à jour compte tout autant pour juger si un téléphone reste sûr à utiliser.

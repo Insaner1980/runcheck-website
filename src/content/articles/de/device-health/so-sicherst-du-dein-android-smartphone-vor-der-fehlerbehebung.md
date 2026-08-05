@@ -5,10 +5,12 @@ listSummary: "leistung, geschwindigkeit und android"
 hub: "device-health"
 sourceNumber: 9
 order: 5
-tags: ["leistung","geschwindigkeit","android","optimierung","fehlerbehebung"]
+tags:
+  ["leistung", "geschwindigkeit", "android", "optimierung", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+
 Eine gute Sicherung muss nicht kompliziert sein. Du musst nur wissen, was Android bereits speichert, was ausgelassen wird und welche Apps eine eigene Sicherung brauchen, bevor du etwas Unumkehrbares ausführst.
 
 ## Was Google automatisch sichert

@@ -5,10 +5,11 @@ listSummary: "materiel, dommages et reparation"
 hub: "physical-damage"
 sourceNumber: 135
 order: 5
-tags: ["materiel","dommages","reparation","android","depannage"]
+tags: ["materiel", "dommages", "reparation", "android", "depannage"]
 locale: "fr"
 draft: false
 ---
+
 ---
 
 Le premier indice est rarement spectaculaire. Une coque ne s'ajuste plus correctement. Une protection d'écran se soulève toujours dans le même coin. Le téléphone bascule sur une table alors que son dos semble intact.

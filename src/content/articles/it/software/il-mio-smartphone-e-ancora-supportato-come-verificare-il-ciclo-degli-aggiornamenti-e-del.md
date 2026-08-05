@@ -5,10 +5,11 @@ listSummary: "Il telefono può sembrare del tutto normale anche dopo avere super
 hub: "software"
 sourceNumber: 123
 order: 5
-tags: ["android","aggiornamenti","sicurezza","software","guida"]
+tags: ["android", "aggiornamenti", "sicurezza", "software", "guida"]
 locale: "it"
 draft: false
 ---
+
 È questo il punto che spesso sfugge. La fine del supporto non rende inutilizzabile lo smartphone. Il rischio continua semplicemente ad aumentare mentre il dispositivo sembra identico a prima.
 
 Il controllo richiede circa due minuti.

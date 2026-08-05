@@ -5,10 +5,11 @@ listSummary: "akku, zustand und diagnose"
 hub: "thermal"
 sourceNumber: 57
 order: 5
-tags: ["akku","zustand","diagnose","android","ratgeber"]
+tags: ["akku", "zustand", "diagnose", "android", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 ## Beginne mit den einfachen Prüfungen
 
 Starte das Smartphone zuerst neu. Der Rat klingt langweilig, weil er oft funktioniert. Ein festhängender Hintergrunddienst kann die CPU wach halten, und ein Neustart räumt das Problem auf, ohne dass du eine halbe Stunde Detektiv spielen musst.
@@ -109,4 +110,4 @@ Kabelloses Laden zählt als Nutzung. Ein Gerät auf einem Ladepad wird geladen, 
 
 Ein ruhendes Smartphone wird heiß, weil es nicht wirklich ruht oder weil Akku beziehungsweise Ladezubehör ein Problem haben. Beginne mit Neustart, Akkunutzung, Empfang, Laden und abgesichertem Modus. Erklärt das die Wärme nicht, sind Akkuzustand und eine Reparaturdiagnose die nächsten Schritte.
 
-*Meta-Beschreibung: Wenn dein Android-Smartphone im Leerlauf heiß wird, liegt es meist an einer Hintergrund-App, schlechtem Empfang, Ladewärme, einem kürzlichen Update oder Akkuverschleiß. So findest du die Ursache sicher.*
+_Meta-Beschreibung: Wenn dein Android-Smartphone im Leerlauf heiß wird, liegt es meist an einer Hintergrund-App, schlechtem Empfang, Ladewärme, einem kürzlichen Update oder Akkuverschleiß. So findest du die Ursache sicher._

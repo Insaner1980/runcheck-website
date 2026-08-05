@@ -5,10 +5,11 @@ listSummary: "Hvorfor slæber den ene telefon sig af sted, mens den bærbare com
 hub: "network"
 sourceNumber: 91
 order: 2
-tags: ["ydeevne","hastighed","android","optimering","fejlfinding"]
+tags: ["ydeevne", "hastighed", "android", "optimering", "fejlfinding"]
 locale: "da"
 draft: false
 ---
+
 Start ikke med en nulstilling til fabriksindstillinger. Start med konkrete oplysninger.
 
 ## Skeln først mellem telefonen og netværket

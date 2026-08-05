@@ -5,10 +5,11 @@ listSummary: "Votre téléphone Android peut sembler fonctionner normalement alo
 hub: "hardware"
 sourceNumber: 104
 order: 1
-tags: ["batterie","consommation","depannage","android","performances"]
+tags: ["batterie", "consommation", "depannage", "android", "performances"]
 locale: "fr"
 draft: false
 ---
+
 Bonne nouvelle : vous pouvez tester la plupart de ces éléments avant de payer une réparation. Android propose des pages de paramètres, les fabricants fournissent parfois leurs propres diagnostics, et plusieurs codes ou vérifications manuelles couvrent les principaux composants. Le problème, c'est qu'aucune méthode n'est vraiment universelle.
 
 Android 17 a été publié en juin 2026 pour la plupart des Pixel compatibles, tandis que les autres marques suivent leur propre calendrier. Cela compte, car les menus de diagnostic, les écrans consacrés à l'état de la batterie et les chemins dans les paramètres varient selon la version d'Android, l'interface du fabricant, la configuration opérateur et la région. Considérez chaque code de ce guide comme un raccourci possible, pas comme une promesse.

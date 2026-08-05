@@ -5,10 +5,11 @@ listSummary: "Android-sovellukset kaatuvat tietyistä syistä."
 hub: "performance"
 sourceNumber: 77
 order: 14
-tags: ["suorituskyky","nopeus","android","optimointi","vianetsintä"]
+tags: ["suorituskyky", "nopeus", "android", "optimointi", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+
 ---
 
 Useimmat sovellusten kaatumiset eivät ole satunnaisia. Ne vain tuntuvat siltä, koska et näe virheen varsinaista syytä.

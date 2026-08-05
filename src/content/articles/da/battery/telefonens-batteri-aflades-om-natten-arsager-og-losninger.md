@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 23
 order: 13
 subgroup: "Drain"
-tags: ["batteri","strømforbrug","fejlfinding","android","ydeevne"]
+tags: ["batteri", "strømforbrug", "fejlfinding", "android", "ydeevne"]
 locale: "da"
 draft: false
 ---
+
 For en velfungerende Android-telefon er et tab på 2-5 % i løbet af natten et kedeligt resultat. Den holder stadig mobilforbindelsen i gang, lytter efter notifikationer, synkroniserer nogle kontodata og udfører små vedligeholdelsesopgaver. Når tabet ligger over 10 % nat efter nat, skal du holde op med at betragte det som normal baggrundsstøj.
 
 ## Tjek først batteriskærmen

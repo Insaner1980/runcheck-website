@@ -1,15 +1,16 @@
 ---
 title: "Hvilke apps bruger mest batteri på Android?"
-description: "De fleste lister over \"apps, der sluger batteri\" lyder alt for sikre. Din telefon er ligeglad med, hvilken app der toppede en rangliste i en andens test. Det afgørende er, hvad du har installeret, hvilke tilladelser du har givet, hvor ofte du åbner appen, og om den fortsætter med at arbejde, efter at skærmen er slukket."
-listSummary: "De fleste lister over \"apps, der sluger batteri\" lyder alt for sikre."
+description: 'De fleste lister over "apps, der sluger batteri" lyder alt for sikre. Din telefon er ligeglad med, hvilken app der toppede en rangliste i en andens test. Det afgørende er, hvad du har installeret, hvilke tilladelser du har givet, hvor ofte du åbner appen, og om den fortsætter med at arbejde, efter at skærmen er slukket.'
+listSummary: 'De fleste lister over "apps, der sluger batteri" lyder alt for sikre.'
 hub: "battery"
 sourceNumber: 24
 order: 14
 subgroup: "Drain"
-tags: ["batteri","strømforbrug","fejlfinding","android","ydeevne"]
+tags: ["batteri", "strømforbrug", "fejlfinding", "android", "ydeevne"]
 locale: "da"
 draft: false
 ---
+
 Når det er sagt, er det ofte de samme kategorier, der skaber problemer.
 
 ## De typer apps, der normalt ligger øverst

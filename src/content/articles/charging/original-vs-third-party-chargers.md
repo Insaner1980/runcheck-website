@@ -5,9 +5,10 @@ listSummary: "Charger quality and compatibility"
 hub: "charging"
 sourceNumber: 49
 order: 13
-tags: ["charging","battery","android","guide","hardware"]
+tags: ["charging", "battery", "android", "guide", "hardware"]
 draft: false
 ---
+
 The safest charger for your Android phone doesn't have to be the one with the same logo as the phone. That's the part people get wrong.
 
 A good third-party USB-C charger from a known brand can be just as safe and just as fast as the manufacturer's charger. A no-name charger with fake markings, vague specs, and a suspicious price is the real problem. The logo matters less than the standards, the build quality, and the cable.

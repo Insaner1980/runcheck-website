@@ -5,10 +5,11 @@ listSummary: "De fleste lydproblemer på telefoner skyldes ikke en ødelagt høy
 hub: "hardware"
 sourceNumber: 107
 order: 4
-tags: ["maskinvare","testing","diagnostikk","android","guide"]
+tags: ["maskinvare", "testing", "diagnostikk", "android", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Det gjør ikke problemet mindre irriterende. Hvis andre ikke hører deg, eller høyttaleren skurrer allerede ved halv lydstyrke, må du fortsatt finne ut hvilken del som svikter.
 
 ## Finn ut hvilken lydkomponent du tester

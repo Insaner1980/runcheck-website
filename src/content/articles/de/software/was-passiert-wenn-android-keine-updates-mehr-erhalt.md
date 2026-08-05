@@ -5,10 +5,11 @@ listSummary: "Das letzte Update kommt, du installierst es, und danach passiert e
 hub: "software"
 sourceNumber: 121
 order: 3
-tags: ["android","updates","sicherheit","software","ratgeber"]
+tags: ["android", "updates", "sicherheit", "software", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Genau das macht nicht mehr unterstützte Smartphones so tückisch. Sie fallen nicht plötzlich aus. Sie werden mit jedem Monat nur ein wenig anfälliger.
 
 ## Das Sicherheitsrisiko wächst mit der Zeit

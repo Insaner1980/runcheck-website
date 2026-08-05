@@ -5,12 +5,12 @@ listSummary: "Sjekk batteri, skjerm, sensorer og programvare før du vurderer en
 hub: "buying-selling"
 sourceNumber: 2
 order: 1
-tags: ["kjøpsguide","android","sammenligning","verdi","guide"]
+tags: ["kjøpsguide", "android", "sammenligning", "verdi", "guide"]
 locale: "nb"
 draft: false
 ---
-Det tar omtrent femten minutter å vurdere den faktiske tilstanden, og du trenger ikke installere noe.
 
+Det tar omtrent femten minutter å vurdere den faktiske tilstanden, og du trenger ikke installere noe.
 
 ## Begynn med det du ikke kan se
 
@@ -24,7 +24,6 @@ Alt over 90 % batterihelse er bra. Mellom 80 % og 90 % betyr at batteriet er tyd
 
 Lagringens tilstand er vanskeligere å måle, men den bør kontrolleres. Åpne Innstillinger > Lagring og se hvor full telefonen er. Enda mer avslørende er oppførselen: Nøler telefonen når apper åpnes? Bruker kameraet et sekund før bildet lagres? NAND-minne blir langsommere når det fylles opp og når cellene slites av gjentatte skriveoperasjoner. Symptomene viser seg som generell treghet og blir lett forvekslet med en svak prosessor.
 
-
 ## Den fysiske tilstanden
 
 Hold telefonen under sterkt lys og se på skjermen fra flere vinkler. Små riper som er usynlige rett forfra, blir tydelige på skrå. Undersøk kantene, der sprekker etter fall ofte begynner. Legg telefonen flatt på et bord. Hvis den vipper, kan rammen være bøyd eller batteriet ha begynt å svelle. Et oppsvulmet batteri er et sikkerhetsproblem, ikke bare et ytelsesproblem.
@@ -33,13 +32,11 @@ Ladeporten samler lo fra lommer over flere måneders bruk. Se inn med en lommely
 
 Knappene skal ha et tydelig klikk. En myk av/på-knapp eller en volumknapp som må trykkes to ganger, er slitasje som ikke blir bedre av seg selv.
 
-
 ## Skjerm og berøring
 
 Døde piksler vises som små mørke punkter mot en hvit bakgrunn. Åpne en nettleser, søk etter "white screen test", bruk fullskjerm og se nøye. Gjenta med helt rødt, grønt, blått og svart for å finne feil i underpikslene. OLED-skjermer kan også få innbrenning fra elementer som har stått på samme sted i månedsvis, som navigasjonslinjen, statuslinjen eller grensesnittet i en mye brukt app. Et mellomgrått bilde i fullskjerm gjør innbrenning lettere å se.
 
 Døde berøringsområder er vanskeligere å oppdage. Aktiver utvikleralternativer ved å trykke sju ganger på Build Number under Innstillinger > Om telefonen, og slå deretter på `Show Pointer Location`. Før en finger sakte over hele skjermflaten. Koordinatsporet skal følge uten avbrudd, særlig i hjørnene og langs kantene, der flatkabeltilkoblinger er mest utsatt for støtskader.
-
 
 ## Sensorer, høyttalere og kameraer
 
@@ -49,11 +46,9 @@ Samsung-telefoner har en egen maskinvaretest som kan åpnes med `*#0*#`. Den dek
 
 Spill musikk gjennom høyttaleren på flere volumnivåer. Knitring eller forvrengning ved moderat lydstyrke tyder på høyttalerskade. Spill inn et kort lydklipp og hør det av for å teste mikrofonen. Åpne både front- og bakkameraet og ta noen bilder i godt lys. Se etter problemer med fokus, uklare områder eller et kamera som stadig søker frem og tilbake uten å låse fokus.
 
-
 ## Vannskade
 
 Mange Android-telefoner har en væskeindikator (LCI) som er synlig inne i åpningen til SIM-kortskuffen. Ta ut skuffen og se inn med lys. Hvit eller sølvfarget indikator betyr at den ikke har registrert væske. Rosa eller rød betyr at væske har kommet inn i telefonen på et tidspunkt. En rosa indikator betyr ikke at telefonen er ødelagt nå, men vannskader blir ofte verre når innvendig korrosjon sprer seg. Det er verdt å vite, men er ikke automatisk grunn til å avvise telefonen.
-
 
 ## Programvarestatus
 

@@ -5,10 +5,11 @@ listSummary: "Hvorfor går én telefon på sneglefart mens den bærbare PC-en ve
 hub: "network"
 sourceNumber: 91
 order: 2
-tags: ["ytelse","hastighet","android","optimalisering","feilsøking"]
+tags: ["ytelse", "hastighet", "android", "optimalisering", "feilsøking"]
 locale: "nb"
 draft: false
 ---
+
 Ikke start med å tilbakestille telefonen til fabrikkinnstillingene. Start med bevis.
 
 ## Skill først mellom telefonen og nettverket

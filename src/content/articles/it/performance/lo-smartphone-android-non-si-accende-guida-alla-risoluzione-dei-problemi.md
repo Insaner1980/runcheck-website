@@ -5,10 +5,11 @@ listSummary: "Lo smartphone Android non si accende o resta bloccato su una scher
 hub: "performance"
 sourceNumber: 75
 order: 12
-tags: ["runcheck","seo","android","articolo","guida"]
+tags: ["runcheck", "seo", "android", "articolo", "guida"]
 locale: "it"
 draft: false
 ---
+
 ---
 
 Colleghi lo smartphone alla corrente, non succede nulla, premi cinque volte il tasto di accensione e pensi che sia morto. A volte lo è. Più spesso, la batteria è completamente scarica, il software si è bloccato con lo schermo spento oppure il display non funziona anche se il telefono è ancora acceso.

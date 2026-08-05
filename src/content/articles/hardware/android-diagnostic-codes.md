@@ -5,9 +5,10 @@ listSummary: "Hidden hardware test codes"
 hub: "hardware"
 sourceNumber: 113
 order: 10
-tags: ["diagnostics","sensors","android","hardware","guide"]
+tags: ["diagnostics", "sensors", "android", "hardware", "guide"]
 draft: false
 ---
+
 Android service codes are useful, but they're messy. Some are part of Android, some are added by the manufacturer, and some disappear after a firmware update without any warning.
 
 That matters more now that Android 17 is rolling out. Google released Android 17 first for most supported Pixel devices, while Samsung, Xiaomi, OnePlus, Motorola, and other brands will ship their own Android 17 builds later. A code that works on a Pixel running Android 17 today may say nothing about a Galaxy or Redmi phone that hasn't received its Android 17 firmware yet.

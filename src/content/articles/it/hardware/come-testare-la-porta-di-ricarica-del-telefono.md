@@ -5,10 +5,11 @@ listSummary: "Scopri come testare la porta di ricarica di uno smartphone Android
 hub: "hardware"
 sourceNumber: 108
 order: 5
-tags: ["ricarica","batteria","android","guida","hardware"]
+tags: ["ricarica", "batteria", "android", "guida", "hardware"]
 locale: "it"
 draft: false
 ---
+
 ---
 
 Devi tenere il cavo in una posizione strana, l'icona di ricarica continua a comparire e sparire e il telefono si carica soltanto se rimane perfettamente immobile. Sembra subito una porta di ricarica guasta, ma non partire da quella conclusione.

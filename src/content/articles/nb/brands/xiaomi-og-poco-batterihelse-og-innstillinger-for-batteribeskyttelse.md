@@ -5,10 +5,11 @@ listSummary: "Støtten for batterihelse på Xiaomi er fortsatt ujevn."
 hub: "brands"
 sourceNumber: 155
 order: 3
-tags: ["batteri","helse","diagnostikk","android","guide"]
+tags: ["batteri", "helse", "diagnostikk", "android", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Android 17 rydder ikke opp i dette av seg selv. Google lanserte Android 17 først på de fleste støttede Pixel-telefoner. Xiaomi er blant produsentene som tilbyr Android 17 beta på enkelte enheter, mens stabile Android 17-baserte HyperOS-oppdateringer kommer etter Xiaomis egen modell- og regionplan. Også da bestemmer Xiaomi hva som vises i Innstillinger.
 
 Ikke les dette som én universell Xiaomi-meny. Les det som en sjekkliste.

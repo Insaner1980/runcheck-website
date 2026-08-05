@@ -37,15 +37,17 @@
   --color-run-amber: #f3c356;
   --color-run-blue: #4a9ede;
   --color-run-blue-highlight: #7cc0f5;
-  --color-feat-battery: #5DE4C7;
-  --color-feat-network: #369CF3;
-  --color-feat-thermal: #F5963A;
-  --color-feat-storage: #C8E636;
-  --color-feat-insights: #E8C44A;
-  --color-feat-private: #8B7FE8;
+  --color-feat-battery: #5de4c7;
+  --color-feat-network: #369cf3;
+  --color-feat-thermal: #f5963a;
+  --color-feat-storage: #c8e636;
+  --color-feat-insights: #e8c44a;
+  --color-feat-private: #8b7fe8;
   --font-display: "Switzer", var(--font-sans);
-  --font-sans: "Manrope Variable", "Manrope", ui-sans-serif, system-ui, sans-serif;
-  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Consolas, monospace;
+  --font-sans:
+    "Manrope Variable", "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-mono:
+    "JetBrains Mono", ui-monospace, SFMono-Regular, Consolas, monospace;
   --radius-panel: 0;
   --shadow-panel: 0 18px 60px rgb(0 0 0 / 0.28);
 }
@@ -57,25 +59,41 @@ html {
   --run-glass-blur: 12px;
   --run-glass-border: rgb(255 255 255 / 0.16);
   --run-glass-border-strong: rgb(255 255 255 / 0.24);
-  --run-glass-shadow: 0 8px 20px rgb(0 0 0 / 0.1), inset 0 1px 0 rgb(255 255 255 / 0.06);
-  --run-hero-nav-text-hover-fill:
-    linear-gradient(
-      100deg,
-      color-mix(in srgb, var(--color-run-blue-highlight) 82%, var(--color-run-blue) 18%),
-      var(--color-run-blue-highlight) 46%,
-      var(--color-run-blue)
-    );
+  --run-glass-shadow:
+    0 8px 20px rgb(0 0 0 / 0.1), inset 0 1px 0 rgb(255 255 255 / 0.06);
+  --run-hero-nav-text-hover-fill: linear-gradient(
+    100deg,
+    color-mix(
+      in srgb,
+      var(--color-run-blue-highlight) 82%,
+      var(--color-run-blue) 18%
+    ),
+    var(--color-run-blue-highlight) 46%,
+    var(--color-run-blue)
+  );
   --run-hero-nav-icon-hover-color: var(--color-run-blue-highlight);
   --run-hero-nav-text-hover-shadow:
     0 0 8px color-mix(in srgb, var(--color-run-blue-highlight) 68%, transparent),
-    0 0 22px color-mix(in srgb, var(--color-run-blue-highlight) 38%, transparent);
+    0 0 22px
+      color-mix(in srgb, var(--color-run-blue-highlight) 38%, transparent);
   --run-hero-nav-panel-bg: rgb(3 7 8 / 0.84);
   --run-hero-nav-panel-edge: rgb(255 255 255 / 0.12);
-  --run-hero-nav-panel-shadow: 0 18px 60px rgb(0 0 0 / 0.28), inset 0 1px 0 rgb(255 255 255 / 0.05);
+  --run-hero-nav-panel-shadow:
+    0 18px 60px rgb(0 0 0 / 0.28), inset 0 1px 0 rgb(255 255 255 / 0.05);
   --run-hero-nav-transition: 180ms cubic-bezier(0.2, 0.8, 0.2, 1);
-  --run-headline-blue-fill: linear-gradient(180deg, var(--color-run-blue-highlight), var(--color-run-blue));
-  --run-headline-line-filter: drop-shadow(0 0 5px var(--color-run-bg)) drop-shadow(0 3px 4px rgb(0 0 0 / 0.65));
-  --run-headline-metal-fill: linear-gradient(180deg, #fff, #c8d0d8 45%, #8a99a3);
+  --run-headline-blue-fill: linear-gradient(
+    180deg,
+    var(--color-run-blue-highlight),
+    var(--color-run-blue)
+  );
+  --run-headline-line-filter: drop-shadow(0 0 5px var(--color-run-bg))
+    drop-shadow(0 3px 4px rgb(0 0 0 / 0.65));
+  --run-headline-metal-fill: linear-gradient(
+    180deg,
+    #fff,
+    #c8d0d8 45%,
+    #8a99a3
+  );
   --run-brand-shine-duration: 7.2s;
   --run-brand-shine-fill: linear-gradient(
     110deg,
@@ -103,43 +121,82 @@ html {
   --run-pricing-card-blur: 22px;
   --run-pricing-card-padding: clamp(1.4rem, 3.5vw, 2.15rem);
   --run-pricing-card-radius: 0;
-  --run-pricing-card-shadow: 0 24px 70px rgb(0 0 0 / 0.22), inset 0 1px 0 rgb(255 255 255 / 0.06);
-  --run-pricing-pro-bg:
-    linear-gradient(180deg, rgb(24 25 27 / 0.68), rgb(10 11 13 / 0.72));
-  --run-pricing-pro-edge: color-mix(in srgb, var(--color-run-white) 28%, transparent);
+  --run-pricing-card-shadow:
+    0 24px 70px rgb(0 0 0 / 0.22), inset 0 1px 0 rgb(255 255 255 / 0.06);
+  --run-pricing-pro-bg: linear-gradient(
+    180deg,
+    rgb(24 25 27 / 0.68),
+    rgb(10 11 13 / 0.72)
+  );
+  --run-pricing-pro-edge: color-mix(
+    in srgb,
+    var(--color-run-white) 28%,
+    transparent
+  );
   --run-pricing-pro-radius: 0;
   --run-pricing-pro-shadow: 0 24px 70px rgb(0 0 0 / 0.28);
-  --run-faq-divider: color-mix(in srgb, var(--color-run-white) 12%, transparent);
-  --run-faq-divider-strong: color-mix(in srgb, var(--color-run-white) 20%, transparent);
-  --run-faq-topic-muted: color-mix(in srgb, var(--color-run-muted) 82%, transparent);
+  --run-faq-divider: color-mix(
+    in srgb,
+    var(--color-run-white) 12%,
+    transparent
+  );
+  --run-faq-divider-strong: color-mix(
+    in srgb,
+    var(--color-run-white) 20%,
+    transparent
+  );
+  --run-faq-topic-muted: color-mix(
+    in srgb,
+    var(--color-run-muted) 82%,
+    transparent
+  );
   --run-faq-transition: 180ms ease;
   --run-cta-overlay:
-    radial-gradient(ellipse at 50% 56%, rgb(3 7 8 / 0.14), rgb(3 7 8 / 0.62) 72%, rgb(3 7 8 / 0.88)),
-    linear-gradient(180deg, rgb(3 7 8 / 0.72), rgb(3 7 8 / 0.4) 38%, rgb(3 7 8 / 0.84));
+    radial-gradient(
+      ellipse at 50% 56%,
+      rgb(3 7 8 / 0.14),
+      rgb(3 7 8 / 0.62) 72%,
+      rgb(3 7 8 / 0.88)
+    ),
+    linear-gradient(
+      180deg,
+      rgb(3 7 8 / 0.72),
+      rgb(3 7 8 / 0.4) 38%,
+      rgb(3 7 8 / 0.84)
+    );
   --run-cta-action-bg: var(--color-run-blue);
-  --run-cta-action-bg-hover: color-mix(in srgb, var(--color-run-blue-highlight) 34%, var(--color-run-blue));
-  --run-cta-action-border: color-mix(in srgb, var(--color-run-white) 22%, transparent);
+  --run-cta-action-bg-hover: color-mix(
+    in srgb,
+    var(--color-run-blue-highlight) 34%,
+    var(--color-run-blue)
+  );
+  --run-cta-action-border: color-mix(
+    in srgb,
+    var(--color-run-white) 22%,
+    transparent
+  );
   --run-cta-action-secondary-bg: rgb(255 255 255 / 0.045);
-  --run-cta-action-shadow: 0 16px 44px rgb(0 0 0 / 0.32), 0 0 24px color-mix(in srgb, var(--color-run-blue) 22%, transparent);
+  --run-cta-action-shadow:
+    0 16px 44px rgb(0 0 0 / 0.32),
+    0 0 24px color-mix(in srgb, var(--color-run-blue) 22%, transparent);
   --run-cta-action-transition: 160ms ease;
-  --run-article-card-bg:
-    linear-gradient(
-      180deg,
-      color-mix(in srgb, var(--color-run-white) 2.8%, transparent),
-      color-mix(in srgb, var(--color-run-white) 0.8%, transparent)
-    );
-  --run-article-card-bg-hover:
-    linear-gradient(
-      180deg,
-      color-mix(in srgb, var(--color-run-white) 4.8%, transparent),
-      color-mix(in srgb, var(--color-run-white) 1.4%, transparent)
-    );
+  --run-article-card-bg: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--color-run-white) 2.8%, transparent),
+    color-mix(in srgb, var(--color-run-white) 0.8%, transparent)
+  );
+  --run-article-card-bg-hover: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--color-run-white) 4.8%, transparent),
+    color-mix(in srgb, var(--color-run-white) 1.4%, transparent)
+  );
   --run-article-card-padding: clamp(0.9rem, 1.8vw, 1.05rem);
   --run-article-card-radius: var(--radius-panel);
   --run-article-card-transition: 150ms ease;
   --run-article-cta-bg: rgb(255 255 255 / 0.02);
   --run-article-cta-border: rgb(255 255 255 / 0.09);
-  --run-article-cta-shadow: inset 0 1px 0 color-mix(in srgb, var(--color-run-white) 7%, transparent);
+  --run-article-cta-shadow: inset 0 1px 0
+    color-mix(in srgb, var(--color-run-white) 7%, transparent);
 
   background: var(--color-run-bg);
   color: var(--color-run-text);
@@ -455,7 +512,8 @@ a {
 
 .article-category-link:focus-visible,
 .article-index-more-link:focus-visible {
-  outline: 2px solid color-mix(in srgb, var(--color-run-blue-highlight) 68%, transparent);
+  outline: 2px solid
+    color-mix(in srgb, var(--color-run-blue-highlight) 68%, transparent);
   outline-offset: 0.2rem;
 }
 
@@ -636,7 +694,8 @@ a {
 }
 
 .article-list-link:focus-visible {
-  outline: 2px solid color-mix(in srgb, var(--color-run-blue-highlight) 68%, transparent);
+  outline: 2px solid
+    color-mix(in srgb, var(--color-run-blue-highlight) 68%, transparent);
   outline-offset: 0.2rem;
 }
 
@@ -823,7 +882,11 @@ a {
   overflow: hidden;
   opacity: 0.28;
   pointer-events: none;
-  -webkit-mask-image: linear-gradient(to bottom, rgb(0 0 0 / 0.85), transparent 85%);
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgb(0 0 0 / 0.85),
+    transparent 85%
+  );
   mask-image: linear-gradient(to bottom, rgb(0 0 0 / 0.85), transparent 85%);
 }
 
@@ -850,11 +913,12 @@ a {
   height: 1px;
   background:
     linear-gradient(
-      90deg,
-      transparent,
-      color-mix(in srgb, var(--color-run-blue-highlight) 40%, transparent) 12%,
-      transparent 26%
-    ) no-repeat,
+        90deg,
+        transparent,
+        color-mix(in srgb, var(--color-run-blue-highlight) 40%, transparent) 12%,
+        transparent 26%
+      )
+      no-repeat,
     linear-gradient(
       90deg,
       transparent,
@@ -862,8 +926,12 @@ a {
       rgb(255 255 255 / 0.1) 84%,
       transparent
     );
-  background-size: 60% 100%, 100% 100%;
-  background-position: -60% 0, 0 0;
+  background-size:
+    60% 100%,
+    100% 100%;
+  background-position:
+    -60% 0,
+    0 0;
 }
 
 /* Headerin julkaisulabel ja kiinteän headerin tausta */
@@ -931,19 +999,25 @@ a {
   .hero-baseline::before {
     background:
       linear-gradient(
-        90deg,
-        transparent,
-        color-mix(in srgb, var(--color-run-blue-highlight) 40%, transparent) 12%,
-        transparent 26%
-      ) no-repeat,
+          90deg,
+          transparent,
+          color-mix(in srgb, var(--color-run-blue-highlight) 40%, transparent)
+            12%,
+          transparent 26%
+        )
+        no-repeat,
       linear-gradient(
         90deg,
         transparent,
         rgb(255 255 255 / 0.1) 16%,
         rgb(255 255 255 / 0.12)
       );
-    background-size: 60% 100%, 100% 100%;
-    background-position: -60% 0, 0 0;
+    background-size:
+      60% 100%,
+      100% 100%;
+    background-position:
+      -60% 0,
+      0 0;
   }
 
   .hero-phone-stage {
@@ -1000,12 +1074,16 @@ a {
 /* Vaimea valojuova kulkee pohjaviivaa pitkin */
 @keyframes hero-baseline-scan {
   0% {
-    background-position: -60% 0, 0 0;
+    background-position:
+      -60% 0,
+      0 0;
   }
 
   55%,
   100% {
-    background-position: 160% 0, 0 0;
+    background-position:
+      160% 0,
+      0 0;
   }
 }
 
@@ -1069,7 +1147,6 @@ a {
     background-position: 50% 50%;
     opacity: 0;
   }
-
 }
 
 .section-shell {
@@ -1185,8 +1262,18 @@ a {
   height: 100%;
   object-fit: cover;
   object-position: center;
-  mask-image: radial-gradient(ellipse at 50% 56%, #000 0 52%, rgb(0 0 0 / 0.82) 64%, transparent 80%);
-  -webkit-mask-image: radial-gradient(ellipse at 50% 56%, #000 0 52%, rgb(0 0 0 / 0.82) 64%, transparent 80%);
+  mask-image: radial-gradient(
+    ellipse at 50% 56%,
+    #000 0 52%,
+    rgb(0 0 0 / 0.82) 64%,
+    transparent 80%
+  );
+  -webkit-mask-image: radial-gradient(
+    ellipse at 50% 56%,
+    #000 0 52%,
+    rgb(0 0 0 / 0.82) 64%,
+    transparent 80%
+  );
 }
 
 .feature-copy {
@@ -1451,7 +1538,9 @@ a {
   border-radius: 0.04rem;
   background: transparent;
   content: "";
-  filter: drop-shadow(0 0 8px color-mix(in srgb, var(--color-run-blue-highlight) 34%, transparent));
+  filter: drop-shadow(
+    0 0 8px color-mix(in srgb, var(--color-run-blue-highlight) 34%, transparent)
+  );
   transform: rotate(45deg);
   transform-origin: center;
 }
@@ -1540,7 +1629,8 @@ a {
 }
 
 .faq-item summary:focus-visible {
-  outline: 2px solid color-mix(in srgb, var(--color-run-blue-highlight) 68%, transparent);
+  outline: 2px solid
+    color-mix(in srgb, var(--color-run-blue-highlight) 68%, transparent);
   outline-offset: 0.25rem;
 }
 
@@ -1735,7 +1825,8 @@ a {
 }
 
 .cta-action-primary {
-  border: 1px solid color-mix(in srgb, var(--color-run-blue-highlight) 42%, transparent);
+  border: 1px solid
+    color-mix(in srgb, var(--color-run-blue-highlight) 42%, transparent);
   background: var(--run-cta-action-bg);
   box-shadow: var(--run-cta-action-shadow);
   color: var(--color-run-white);
@@ -1756,7 +1847,11 @@ a {
 
 .cta-action-secondary:hover,
 .cta-action-secondary:focus-visible {
-  border-color: color-mix(in srgb, var(--color-run-blue-highlight) 42%, transparent);
+  border-color: color-mix(
+    in srgb,
+    var(--color-run-blue-highlight) 42%,
+    transparent
+  );
   color: var(--color-run-blue-highlight);
   transform: translateY(-0.08rem);
 }
@@ -1969,14 +2064,12 @@ a {
   }
 }
 
-
 /* Osioiden erottimet: hillitty hiusviiva samaa kieltä heron pohjaviivan kanssa */
 .features-section > .section-shell,
 .pricing-section > .section-shell,
 .faq-section > .section-shell {
   border-bottom: 1px solid rgb(255 255 255 / 0.07);
 }
-
 
 /* Footer: sama muotokieli kuin headerissa */
 .site-footer {
@@ -2017,7 +2110,6 @@ a {
   color: var(--color-run-white);
 }
 
-
 /* Hakutulokset: tiivis lasipaneeli ja siro vierityspalkki */
 .search-results {
   padding: 0.55rem;
@@ -2046,7 +2138,6 @@ a {
 .search-results > li + li {
   border-top: 1px solid rgb(255 255 255 / 0.05);
 }
-
 
 /* Feature-reveal: tekstipalsta seuraa kuvaa pienellä viiveellä */
 @media (prefers-reduced-motion: no-preference) {

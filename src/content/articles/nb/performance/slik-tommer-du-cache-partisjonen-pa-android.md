@@ -5,10 +5,11 @@ listSummary: "ytelse, hastighet og android"
 hub: "performance"
 sourceNumber: 71
 order: 8
-tags: ["ytelse","hastighet","android","optimalisering","feilsøking"]
+tags: ["ytelse", "hastighet", "android", "optimalisering", "feilsøking"]
 locale: "nb"
 draft: false
 ---
+
 Du står i Android Recovery, bruker volumknappene som om det fortsatt var 2012, og leter etter **Wipe cache partition**. På noen telefoner finnes valget. På andre er det borte. På enkelte har det aldri vært tilgjengelig.
 
 Derfor er dette mer rotete enn mange veiledninger gir inntrykk av. Å tømme cache-partisjonen kan fortsatt være nyttig på visse Samsung-telefoner og eldre Android-enheter, men det er ikke lenger en universell Android-funksjon.

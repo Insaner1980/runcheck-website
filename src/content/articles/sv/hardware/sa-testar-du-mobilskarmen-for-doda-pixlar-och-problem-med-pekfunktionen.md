@@ -5,10 +5,11 @@ listSummary: "Du undersöker en begagnad telefon."
 hub: "hardware"
 sourceNumber: 106
 order: 3
-tags: ["hårdvara","testning","diagnostik","android","guide"]
+tags: ["hårdvara", "testning", "diagnostik", "android", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Skärmfel är lätta att missa vid vanlig användning. Bakgrundsbilder, ikoner, mörkt läge och rörelser döljer defekter. Med några tester av enfärgade bilder och pekfunktionen blir problemen mycket lättare att upptäcka.
 
 ## Döda pixlar och fastnade pixlar

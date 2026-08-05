@@ -5,10 +5,12 @@ listSummary: "leistung, geschwindigkeit und android"
 hub: "performance"
 sourceNumber: 72
 order: 9
-tags: ["leistung","geschwindigkeit","android","optimierung","fehlerbehebung"]
+tags:
+  ["leistung", "geschwindigkeit", "android", "optimierung", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+
 Ein drei Jahre altes Galaxy-A-Modell kann langsamer wirken, als es tatsächlich ist, weil nach jedem Tippen erst eine kleine Animation zu Ende laufen muss. App öffnen, zurückgehen, den Bildschirm wechseln, die Schnelleinstellungen herunterziehen. Diese kurzen Verzögerungen summieren sich.
 
 Weniger Animationen machen die CPU nicht schneller. Empfang, Speichergeschwindigkeit und Akkuzustand verbessern sich ebenfalls nicht. Du entfernst lediglich einen Teil der Wartezeit zwischen Aktionen. Bei einem älteren Smartphone reicht das oft schon, damit die Bedienung angenehmer wirkt.

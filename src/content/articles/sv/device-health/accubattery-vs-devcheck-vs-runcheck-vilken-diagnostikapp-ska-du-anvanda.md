@@ -1,14 +1,15 @@
 ---
 title: "AccuBattery vs DevCheck vs runcheck: vilken diagnostikapp ska du använda?"
-description: "Vilken app ska du installera om Android-telefonen känns varm, drar batteri för snabbt eller bara verkar vara \"ur form\"? Det irriterande svaret är att AccuBattery, DevCheck och runcheck egentligen inte gör samma jobb."
+description: 'Vilken app ska du installera om Android-telefonen känns varm, drar batteri för snabbt eller bara verkar vara "ur form"? Det irriterande svaret är att AccuBattery, DevCheck och runcheck egentligen inte gör samma jobb.'
 listSummary: "jämförelse, appar och android"
 hub: "device-health"
 sourceNumber: 139
 order: 8
-tags: ["jämförelse","appar","android","köpguide","recension"]
+tags: ["jämförelse", "appar", "android", "köpguide", "recension"]
 locale: "sv"
 draft: false
 ---
+
 AccuBattery är till för långsiktig uppföljning av batterikapaciteten. DevCheck visar hårdvara och systemdata i realtid. runcheck ger en bredare bild av telefonens skick utifrån batteri, temperatur, nätverk och lagring.
 
 Det kan låta som hårklyveri tills du står framför någon som säljer en begagnad telefon och har tio minuter på dig att bestämma dig. Då spelar det roll.
@@ -91,4 +92,4 @@ För en praktisk överblick över telefonens skick installerar du runcheck. Komb
 
 För de flesta är runcheck tillsammans med DevCheck den starkare kombinationen i vardagen. AccuBattery har fortfarande en tydlig plats när uppföljning av batterikapaciteten är hela poängen.
 
-*Metabeskrivning: Jämförelse mellan AccuBattery, DevCheck och runcheck utifrån batteriuppföljning, hårdvarudetaljer, stöd för Android-versioner och praktisk diagnostik.*
+_Metabeskrivning: Jämförelse mellan AccuBattery, DevCheck och runcheck utifrån batteriuppföljning, hårdvarudetaljer, stöd för Android-versioner och praktisk diagnostik._

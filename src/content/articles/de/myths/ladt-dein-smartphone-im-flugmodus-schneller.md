@@ -5,10 +5,11 @@ listSummary: "laden, akku und android"
 hub: "myths"
 sourceNumber: 148
 order: 4
-tags: ["laden","akku","android","ratgeber","hardware"]
+tags: ["laden", "akku", "android", "ratgeber", "hardware"]
 locale: "de"
 draft: false
 ---
+
 Du schließt dein Smartphone bei 12 % an, siehst auf die Uhr und suchst nach Tricks. Der Flugmodus gehört zu den wenigen, die tatsächlich etwas bewirken. Ein Wundermittel ist er trotzdem nicht.
 
 Er hilft, weil das Smartphone während des Ladens weniger Energie verbraucht. Wenn Mobilfunk, WLAN, Bluetooth, Benachrichtigungen und die Synchronisierung im Hintergrund weniger Strom benötigen, bleibt etwas mehr von der Leistung des Ladegeräts für den Akku übrig. Der Unterschied ist meistens klein. Mit einem modernen Schnellladegerät bemerkst du ihn womöglich kaum. Bei einem alten 5-W-Netzteil, einem USB-Anschluss am Laptop oder einer Powerbank kann er stärker auffallen.

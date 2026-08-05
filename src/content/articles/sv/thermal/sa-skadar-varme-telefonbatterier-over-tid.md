@@ -5,10 +5,11 @@ listSummary: "Värme är ett av de snabbaste sätten att få ett telefonbatteri 
 hub: "thermal"
 sourceNumber: 62
 order: 10
-tags: ["temperatur","värme","android","felsökning","hårdvara"]
+tags: ["temperatur", "värme", "android", "felsökning", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 Det är just därför problemet är så irriterande. Ett varmt laddningstillfälle i dag gör vanligtvis inte att telefonen slutar fungera i morgon. Kostnaden visar sig flera månader senare som kortare batteritid, långsammare laddning, tidigare avstängningar i kyla eller ett värde för batterihälsa som sjunker snabbare än väntat.
 
 Litiumjonbatterier slits oavsett vad du gör. Goda vanor stoppar inte åldrandet. De hindrar bara att du påskyndar det.
@@ -89,4 +90,4 @@ Det återställer batterikapaciteten och minskar det batterirelaterade motstånd
 
 ---
 
-*Metabeskrivning: Värme påskyndar åldrandet i litiumjonbatterier, särskilt under laddning och vid hög laddningsnivå. Här förklaras vad som händer inne i cellen och vilka vanor som minskar den långsiktiga skadan.*
+_Metabeskrivning: Värme påskyndar åldrandet i litiumjonbatterier, särskilt under laddning och vid hög laddningsnivå. Här förklaras vad som händer inne i cellen och vilka vanor som minskar den långsiktiga skadan._

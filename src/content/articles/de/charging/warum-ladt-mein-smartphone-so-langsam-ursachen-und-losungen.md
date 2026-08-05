@@ -5,10 +5,11 @@ listSummary: "laden, akku und android"
 hub: "charging"
 sourceNumber: 47
 order: 11
-tags: ["laden","akku","android","ratgeber","hardware"]
+tags: ["laden", "akku", "android", "ratgeber", "hardware"]
 locale: "de"
 draft: false
 ---
+
 Dein Smartphone zeigt drei Stunden bis zur vollständigen Ladung an. Gestern war es noch eine Stunde. Ladegerät und Kabel sehen unverändert aus, und offensichtlich ist nichts passiert.
 
 Langsames Laden nervt, weil die Ursache oft ziemlich banal ist: ein schwaches Netzteil, ein beschädigtes Kabel, Fusseln im Anschluss, Wärme oder eine App, die gleichzeitig so viel Strom verbraucht, wie das Ladegerät nachliefert. Prüfe diese Punkte, bevor du annimmst, dass der Akku kaputtgeht.

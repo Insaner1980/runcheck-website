@@ -5,10 +5,18 @@ listSummary: "Svuotare i file nella cache è utile, ma solo quando c'è un motiv
 hub: "storage"
 sourceNumber: 83
 order: 5
-tags: ["prestazioni","velocita","android","ottimizzazione","risoluzione-dei-problemi"]
+tags:
+  [
+    "prestazioni",
+    "velocita",
+    "android",
+    "ottimizzazione",
+    "risoluzione-dei-problemi",
+  ]
 locale: "it"
 draft: false
 ---
+
 Non sono rifiuti per definizione. La maggior parte serve a rendere le app più veloci.
 
 I problemi iniziano quando la cache cresce troppo, si danneggia o sopravvive a un importante aggiornamento dell'app o di Android che ne modifica il funzionamento. Android 17 non cambia la regola di base. Google lo ha reso disponibile per la maggior parte dei Pixel supportati, mentre sugli altri telefoni arriverà tramite i rispettivi produttori, ma su Android standard la cache continua a essere gestita app per app.

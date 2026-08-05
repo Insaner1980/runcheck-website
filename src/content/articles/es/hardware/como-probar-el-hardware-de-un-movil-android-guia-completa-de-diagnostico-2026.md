@@ -6,10 +6,11 @@ listSummary: "Un móvil Android puede parecer estar bien y tener una pieza que e
 hub: "hardware"
 sourceNumber: 104
 order: 1
-tags: ["bateria","consumo","solucion-de-problemas","android","rendimiento"]
+tags: ["bateria", "consumo", "solucion-de-problemas", "android", "rendimiento"]
 locale: "es"
 draft: false
 ---
+
 La buena noticia es que puedes comprobar casi todo esto antes de pagar una reparación. Android ofrece páginas de ajustes, diagnósticos del fabricante, códigos del marcador y pruebas manuales para los componentes principales. La parte complicada es que nada de ello funciona exactamente igual en todos los móviles.
 
 Google lanzó Android 17 el 16 de junio de 2026 para la mayoría de los Pixel compatibles, mientras que las demás marcas siguen sus propios calendarios. Esto importa porque los menús de diagnóstico, las pantallas sobre el estado de la batería y las rutas de Ajustes pueden variar según la versión de Android, la capa del fabricante, la compilación del operador y la región. Considera cada código de esta guía un atajo, no una promesa.

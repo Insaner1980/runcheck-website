@@ -5,10 +5,11 @@ listSummary: "Metakuvaus: Opi lukemaan Android-puhelimen Wi-Fi-signaalin voimakk
 hub: "network"
 sourceNumber: 90
 order: 1
-tags: ["verkko","yhteydet","android","vianetsintä","opas"]
+tags: ["verkko", "yhteydet", "android", "vianetsintä", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Tilarivin Wi-Fi-palkit antavat vain karkean vihjeen, eivät varsinaista mittaustulosta. Kaksi vierekkäin olevaa puhelinta voi näyttää eri määrän palkkeja, koska Android-versiot ja laitevalmistajat eivät muunna signaalin voimakkuutta palkeiksi samalla tavalla.
 
 Vianmäärityksessä kannattaa katsoa dBm-arvoa. Se kertoo, kuinka voimakkaan signaalin puhelin vastaanottaa reitittimestä.

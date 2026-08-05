@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 36
 order: 26
 subgroup: "Drain"
-tags: ["akku","optimierung","android","tipps","leistung"]
+tags: ["akku", "optimierung", "android", "tipps", "leistung"]
 locale: "de"
 draft: false
 ---
+
 Der Energiesparmodus bringt am meisten, bevor der Akku fast leer ist. Ihn bei 8 % einzuschalten hilft zwar, doch dann ist der größte Teil der Ladung bereits verbraucht.
 
 Sinnvoller ist ein situationsabhängiger Einsatz. Aktiviere ihn, wenn du weißt, dass Laden schwierig wird: auf einem Flug, in einer langen Besprechung, auf einer Pendelstrecke mit schwachem Empfang, während eines Tages im Freien oder immer dann, wenn das Smartphone länger durchhalten soll und eine vollkommen flüssige Bedienung weniger wichtig ist.

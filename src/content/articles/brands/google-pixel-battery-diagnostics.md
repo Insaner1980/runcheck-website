@@ -5,9 +5,10 @@ listSummary: "Pixel battery diagnostics"
 hub: "brands"
 sourceNumber: 154
 order: 2
-tags: ["battery","health","diagnostics","android","guide"]
+tags: ["battery", "health", "diagnostics", "android", "guide"]
 draft: false
 ---
+
 The timing matters too. Android 17 is already available on most supported Pixel devices, while other Android brands will receive their own Android 17-based updates later. That doesn't mean every Pixel suddenly gets the same battery screen. Google's battery diagnostics are still split by model.
 
 ## Battery health and capacity

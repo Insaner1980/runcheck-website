@@ -5,9 +5,10 @@ listSummary: "NFC testing steps"
 hub: "hardware"
 sourceNumber: 115
 order: 12
-tags: ["diagnostics","sensors","android","hardware","guide"]
+tags: ["diagnostics", "sensors", "android", "hardware", "guide"]
 draft: false
 ---
+
 You tap your phone on a payment terminal and nothing happens. Now you have two problems: the payment didn't go through, and you don't know whether NFC, Google Wallet, the card, the case, or the terminal is to blame.
 
 Start smaller. NFC is easy to test if you separate hardware reading from payments.

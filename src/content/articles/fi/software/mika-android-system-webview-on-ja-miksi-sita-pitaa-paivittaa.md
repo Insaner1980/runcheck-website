@@ -5,10 +5,11 @@ listSummary: "Miksi järjestelmäkomponentti, jota et koskaan avaa, tarvitsee p�
 hub: "software"
 sourceNumber: 129
 order: 11
-tags: ["android","päivitykset","tietoturva","ohjelmisto","opas"]
+tags: ["android", "päivitykset", "tietoturva", "ohjelmisto", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Et ehkä koskaan napauta WebView-kuvaketta. Useimmat eivät napauta. Kun sähköpostisovellus avaa kirjautumissivun, yhteisöpalvelu näyttää artikkelin poistumatta sovelluksesta tai pankkisovellus lataa verkkopohjaisen tunnistautumisnäkymän, WebView huolehtii usein sisällön piirtämisestä taustalla.
 
 ## Mitä WebView oikeasti tekee

@@ -5,10 +5,11 @@ listSummary: "Sammenlign reparasjonskostnad, gjenstående støtte og telefonens 
 hub: "buying-selling"
 sourceNumber: 4
 order: 2
-tags: ["android","oppdateringer","sikkerhet","programvare","guide"]
+tags: ["android", "oppdateringer", "sikkerhet", "programvare", "guide"]
 locale: "nb"
 draft: false
 ---
+
 ## Reparasjonene som nesten alltid lønner seg
 
 Batteribytte er det tydeligste økonomiske argumentet for reparasjon. Ved norske verksteder koster det ofte rundt 600-1 600 NOK for mange Android-telefoner, mens autorisert service og forseglede toppmodeller kan koste mer. Prisen er likevel vanligvis en brøkdel av en ny telefon. Et nytt batteri gir lengre skjermtid og kan fjerne ytelsesbegrensningen Android bruker når en svekket celle ikke leverer stabil spenning. En forholdsvis liten reparasjon kan gi to til tre ekstra år med bruk.
@@ -17,7 +18,6 @@ Reparasjon av ladeport ligger i samme kategori. På mange modeller koster det om
 
 Begge deler gir mening uavhengig av alder, så lenge telefonen fortsatt får sikkerhetsoppdateringer.
 
-
 ## Skjermreparasjon: her blir regnestykket strammere
 
 Prisen for å bytte skjerm varierer enormt. En rimelig telefon med flat LCD-skjerm kan koste omtrent 1 100-2 000 NOK å reparere ved et uavhengig verksted. En nyere Samsung Galaxy S-modell med OLED-skjerm kan ligge rundt 1 800-4 400 NOK, avhengig av modell, del og verksted. Brettbare telefoner er i en egen klasse, og reparasjon av den innvendige skjermen starter ofte på rundt 4 600 NOK og kan bli betydelig dyrere.
@@ -25,7 +25,6 @@ Prisen for å bytte skjerm varierer enormt. En rimelig telefon med flat LCD-skje
 Spørsmålet er hva telefonen er verdt etter reparasjonen. En skjermreparasjon til 2 000 NOK på en telefon som er verdt 4 000 NOK og har tre år med oppdateringer igjen, kan være fornuftig. Den samme reparasjonen på en telefon som er verdt 1 800 NOK og bare har ett år med støtte igjen, er det ikke. Da er pengene bedre brukt på en nyere brukt eller renovert telefon.
 
 Noe mange overser: En telefon med sprukket, men fungerende skjerm mister bruktverdi raskere enn en telefon med slitt batteri. Det kan derfor lønne seg å selge telefonen med skaden opplyst og bruke pengene på en erstatning, i stedet for å betale for reparasjonen først.
-
 
 ## Når utskifting vinner
 
@@ -39,25 +38,23 @@ Noen situasjoner gjør reparasjon til et dårlig valg selv om prisen virker rime
 
 **For lite RAM.** En telefon med 4 GB RAM kan fortsatt fungere til lett bruk, men kapasiteten er knapp for moderne Android, dagens apper og tung fleroppgavekjøring. Apper lastes stadig inn på nytt, bytte mellom dem hakker, og bakgrunnsapper avsluttes tilfeldig. Ingen reparasjon eller tilbakestilling til fabrikkinnstillinger øker den grensen.
 
-
 ## Kostnadssammenligning i praksis
 
 Veiledende reparasjonspriser for Android-telefoner ved norske verksteder i 2026:
 
-| Reparasjon | Prisområde | Tid |
-|--------|-----------|------|
-| Batteribytte | 600-1 600 NOK | 1-2 timer |
-| Ladeport | 700-1 500 NOK | 1-2 timer eller samme dag |
-| Skjerm (flat LCD eller rimelig modell) | 1 100-2 000 NOK | 1-2 timer |
-| Skjerm (OLED, toppmodell) | 1 800-4 400 NOK | 2-4 timer eller samme dag |
-| Skjerm (brettbar, innvendig) | Fra ca. 4 600 NOK | varierer |
-| Vannskade (mindre) | pris etter feilsøking | 1-3 dager |
-| Vannskade (alvorlig) | ofte ikke økonomisk å reparere | varierer |
+| Reparasjon                             | Prisområde                     | Tid                       |
+| -------------------------------------- | ------------------------------ | ------------------------- |
+| Batteribytte                           | 600-1 600 NOK                  | 1-2 timer                 |
+| Ladeport                               | 700-1 500 NOK                  | 1-2 timer eller samme dag |
+| Skjerm (flat LCD eller rimelig modell) | 1 100-2 000 NOK                | 1-2 timer                 |
+| Skjerm (OLED, toppmodell)              | 1 800-4 400 NOK                | 2-4 timer eller samme dag |
+| Skjerm (brettbar, innvendig)           | Fra ca. 4 600 NOK              | varierer                  |
+| Vannskade (mindre)                     | pris etter feilsøking          | 1-3 dager                 |
+| Vannskade (alvorlig)                   | ofte ikke økonomisk å reparere | varierer                  |
 
 Autorisert service kan koste mer, men bruker originale deler og gir vanligvis garanti på arbeidet. Uavhengige verksteder er ofte rimeligere og raskere, men kvaliteten på reservedelene varierer.
 
 En nyttig tommelfingerregel er at reparasjon nesten alltid er riktig hvis totalprisen holder seg under 30 % av prisen på en tilsvarende erstatning, ny eller renovert. Det er en rettesnor, ikke en lov.
-
 
 ## Miljøperspektivet
 
@@ -66,7 +63,6 @@ Produksjon av en ny smarttelefon fører ofte til omtrent 50-80 kg CO2e, avhengig
 I Norge ble energimerkekravene for smarttelefoner gjennomført fra 20. juni 2025, mens de tilhørende økodesignkravene trådte i kraft 1. januar 2026. De krever blant annet batterier vurdert til minst 800 sykluser med minst 80 % kapasitet igjen, viktige reservedeler i sju år etter at modellen tas ut av salg, reparerbarhetsinformasjon på energimerket og tilgang for profesjonelle reparatører til nødvendig programvare eller fastvare. EU-direktivet om retten til reparasjon skal gjennomføres av EU-landene fra 31. juli 2026, men er i juli 2026 fortsatt til vurdering i EØS-systemet og gjelder derfor ikke automatisk som norsk rett.
 
 For den som legger vekt på miljøvirkning ved kjøp, bør reparasjon være utgangspunktet med mindre økonomien klart taler for utskifting.
-
 
 ## Vanlige spørsmål
 

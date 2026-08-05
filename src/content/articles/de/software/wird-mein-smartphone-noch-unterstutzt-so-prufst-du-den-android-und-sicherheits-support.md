@@ -5,10 +5,11 @@ listSummary: "Prüfe Patch-Datum und Herstellerliste, um den verbleibenden Softw
 hub: "software"
 sourceNumber: 123
 order: 5
-tags: ["android","updates","sicherheit","software","ratgeber"]
+tags: ["android", "updates", "sicherheit", "software", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Genau das wird leicht übersehen. Das Supportende legt ein Smartphone nicht lahm. Das Risiko wächst einfach weiter, während sich das Gerät unverändert anfühlt.
 
 Die Prüfung dauert etwa zwei Minuten.

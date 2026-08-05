@@ -5,10 +5,11 @@ listSummary: "Dejar el Wi-Fi activado no suele consumir mucha batería en Androi
 hub: "myths"
 sourceNumber: 149
 order: 5
-tags: ["red","conectividad","android","solucion-de-problemas","guia"]
+tags: ["red", "conectividad", "android", "solucion-de-problemas", "guia"]
 locale: "es"
 draft: false
 ---
+
 La mayoría de la gente se preocupa por el problema equivocado del Wi-Fi. Un móvil conectado a una red Wi-Fi potente no está en la misma situación que otro que pasa todo el día desconectado y buscando redes a las que podría unirse.
 
 La diferencia importa. Mantener una conexión Wi-Fi estable suele costar poca energía. La búsqueda constante de redes es donde el consumo empieza a notarse.

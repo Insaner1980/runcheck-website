@@ -6,10 +6,11 @@ listSummary: "Puhelin voi näyttää täysin normaalilta, vaikka sen turvallinen
 hub: "software"
 sourceNumber: 123
 order: 5
-tags: ["android","päivitykset","tietoturva","ohjelmisto","opas"]
+tags: ["android", "päivitykset", "tietoturva", "ohjelmisto", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Tämä jää monelta huomaamatta. Tuen päättyminen ei tee puhelimesta käyttökelvotonta. Riski vain kasvaa hiljalleen, vaikka puhelin tuntuu entiseltään.
 
 Tarkistus vie noin kaksi minuuttia.

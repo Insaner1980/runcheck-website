@@ -5,10 +5,11 @@ listSummary: "Usare il telefono mentre è in carica è sicuro con un caricabatte
 hub: "charging"
 sourceNumber: 41
 order: 5
-tags: ["ricarica","batteria","android","guida","hardware"]
+tags: ["ricarica", "batteria", "android", "guida", "hardware"]
 locale: "it"
 draft: false
 ---
+
 Stai giocando, la batteria è al 12% e il caricabatterie è lì accanto. Colleghi il telefono e continui. Il dispositivo si scalda, il frame rate cala e inizi a chiederti se hai appena rovinato la batteria.
 
 Probabilmente no. Hai però creato proprio quella combinazione di fonti di calore che le batterie non gradiscono.

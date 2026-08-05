@@ -6,18 +6,18 @@ Tämä analyysipolku yhdistää Google Search Consolesta tuodut query × page ×
 
 CSV:n pitää sisältää seuraavat sarakkeet:
 
-| Sarake | Sisältö |
-|---|---|
-| `page` | Search Consolen canonical-sivun täydellinen URL |
-| `query` | Hakukysely |
-| `country` | Maa, mieluiten API:n ISO-koodi kuten `FIN`, `SWE` tai `ESP` |
-| `device` | `mobile`, `desktop` tai `tablet` |
-| `clicks` | Klikkaukset |
-| `impressions` | Näyttökerrat |
-| `CTR` | Desimaalina `0.025` tai prosenttina `2.5%` |
-| `average position` | Keskimääräinen sijoitus |
-| `start date` | Ajanjakson alku muodossa `YYYY-MM-DD` |
-| `end date` | Ajanjakson loppu muodossa `YYYY-MM-DD` |
+| Sarake             | Sisältö                                                     |
+| ------------------ | ----------------------------------------------------------- |
+| `page`             | Search Consolen canonical-sivun täydellinen URL             |
+| `query`            | Hakukysely                                                  |
+| `country`          | Maa, mieluiten API:n ISO-koodi kuten `FIN`, `SWE` tai `ESP` |
+| `device`           | `mobile`, `desktop` tai `tablet`                            |
+| `clicks`           | Klikkaukset                                                 |
+| `impressions`      | Näyttökerrat                                                |
+| `CTR`              | Desimaalina `0.025` tai prosenttina `2.5%`                  |
+| `average position` | Keskimääräinen sijoitus                                     |
+| `start date`       | Ajanjakson alku muodossa `YYYY-MM-DD`                       |
+| `end date`         | Ajanjakson loppu muodossa `YYYY-MM-DD`                      |
 
 Tyhjä mallipohja on tiedostossa `reports/search-console-import-template.csv`.
 

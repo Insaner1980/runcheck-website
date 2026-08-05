@@ -5,10 +5,11 @@ listSummary: "performances, vitesse et android"
 hub: "storage"
 sourceNumber: 81
 order: 3
-tags: ["performances","vitesse","android","optimisation","depannage"]
+tags: ["performances", "vitesse", "android", "optimisation", "depannage"]
 locale: "fr"
 draft: false
 ---
+
 ---
 
 Quand le stockage Android est plein, le téléphone ne tombe pas en panne proprement. Il commence par se comporter bizarrement.

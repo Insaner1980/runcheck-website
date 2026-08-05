@@ -5,10 +5,11 @@ listSummary: "Tehdasasetusten palautus voi parantaa Android-puhelimen akunkestoa
 hub: "myths"
 sourceNumber: 152
 order: 8
-tags: ["akku","kunto","diagnostiikka","android","opas"]
+tags: ["akku", "kunto", "diagnostiikka", "android", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Kun kolme vuotta vanha puhelin sammuu jo ennen päivällistä, tehdasasetusten palautus alkaa houkutella. Se tuntuu puhtaalta alulta, ja joskus sitä se onkin. Ei kuitenkaan akun kannalta.
 
 Tehdasasetusten palautus voi parantaa akunkestoa. Akun kuntoa se ei voi parantaa.

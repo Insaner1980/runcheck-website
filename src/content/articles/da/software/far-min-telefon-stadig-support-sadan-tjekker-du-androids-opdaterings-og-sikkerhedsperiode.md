@@ -5,10 +5,11 @@ listSummary: "Din telefon kan se helt normal ud og alligevel være forbi sin sik
 hub: "software"
 sourceNumber: 123
 order: 5
-tags: ["android","opdateringer","sikkerhed","software","guide"]
+tags: ["android", "opdateringer", "sikkerhed", "software", "guide"]
 locale: "da"
 draft: false
 ---
+
 Det er den del, mange overser. Når supporten ophører, bliver telefonen ikke ubrugelig. Risikoen vokser bare langsomt, mens telefonen føles præcis som før.
 
 Kontrollen tager omkring to minutter.

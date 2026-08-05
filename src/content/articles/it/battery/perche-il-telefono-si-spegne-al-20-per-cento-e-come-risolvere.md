@@ -6,10 +6,12 @@ hub: "battery"
 sourceNumber: 22
 order: 12
 subgroup: "Consumo della batteria"
-tags: ["batteria","calibrazione","risoluzione-dei-problemi","android","guida"]
+tags:
+  ["batteria", "calibrazione", "risoluzione-dei-problemi", "android", "guida"]
 locale: "it"
 draft: false
 ---
+
 In un certo senso è così. Il numero sullo schermo è una stima, e le batterie vecchie sono più difficili da stimare.
 
 ## Il primo controllo da fare

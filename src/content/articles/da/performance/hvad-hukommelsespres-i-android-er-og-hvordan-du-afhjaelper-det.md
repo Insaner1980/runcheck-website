@@ -5,10 +5,11 @@ listSummary: "Hukommelsespres opstår, når Android mangler RAM og begynder at l
 hub: "performance"
 sourceNumber: 76
 order: 13
-tags: ["ydeevne","hastighed","android","optimering","fejlfinding"]
+tags: ["ydeevne", "hastighed", "android", "optimering", "fejlfinding"]
 locale: "da"
 draft: false
 ---
+
 ---
 
 Hukommelsespres betyder, at Android vælger, hvad der kan undværes. Når der ikke er RAM nok til det hele, begynder systemet at lukke mindre vigtige processer, så telefonen kan blive ved med at fungere.

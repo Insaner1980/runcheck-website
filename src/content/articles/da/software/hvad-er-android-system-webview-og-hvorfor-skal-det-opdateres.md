@@ -5,10 +5,11 @@ listSummary: "Hvorfor har en systemkomponent, du aldrig åbner, brug for opdater
 hub: "software"
 sourceNumber: 129
 order: 11
-tags: ["android","opdateringer","sikkerhed","software","guide"]
+tags: ["android", "opdateringer", "sikkerhed", "software", "guide"]
 locale: "da"
 draft: false
 ---
+
 Du trykker måske aldrig på et WebView-ikon. Det gør de fleste ikke. Men når en mailapp åbner en loginside, en social app viser en artikel uden at forlade appen, eller en bankapp indlæser en webbaseret godkendelsesskærm, er det ofte WebView, der gengiver indholdet i baggrunden.
 
 ## Hvad WebView faktisk gør

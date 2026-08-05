@@ -5,10 +5,11 @@ listSummary: "laddning, batteri och android"
 hub: "charging"
 sourceNumber: 45
 order: 9
-tags: ["laddning","batteri","android","guide","hårdvara"]
+tags: ["laddning", "batteri", "android", "guide", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 Du kopplar in laddaren vid sängen och telefonen säger att den snabbladdar. Du kopplar in laddaren vid skrivbordet och får samma besked. Den ena når 80 % innan kaffet är klart. Den andra gör det inte.
 
 Etiketten räcker inte. Du behöver jämföra den effekt som telefonen faktiskt tar emot.

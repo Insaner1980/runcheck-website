@@ -5,9 +5,10 @@ listSummary: "Faster feel with reduced animations"
 hub: "performance"
 sourceNumber: 72
 order: 9
-tags: ["performance","speed","android","optimization","troubleshooting"]
+tags: ["performance", "speed", "android", "optimization", "troubleshooting"]
 draft: false
 ---
+
 A three-year-old Galaxy A-series phone can feel slower than it really is because every tap waits for a little animation to finish. Open an app, go back, switch screens, pull down quick settings. Small delays stack up.
 
 Reducing animations does not make the CPU faster. It does not improve signal, storage speed, or battery health. It just removes some of the waiting between actions, and that is often enough to make an older phone feel better.

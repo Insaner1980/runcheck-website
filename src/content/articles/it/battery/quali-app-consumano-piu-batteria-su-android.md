@@ -1,15 +1,17 @@
 ---
 title: "Quali app consumano più batteria su Android"
-description: "La maggior parte delle classifiche sulle \"app che consumano batteria\" è troppo sicura di sé. Al tuo telefono non interessa quale app sia arrivata prima in un test eseguito da qualcun altro. Conta ciò che hai installato, i permessi concessi, quanto spesso usi ogni app e se continua a lavorare dopo lo spegnimento dello schermo."
-listSummary: "La maggior parte delle classifiche sulle \"app che consumano batteria\" è troppo sicura di sé."
+description: 'La maggior parte delle classifiche sulle "app che consumano batteria" è troppo sicura di sé. Al tuo telefono non interessa quale app sia arrivata prima in un test eseguito da qualcun altro. Conta ciò che hai installato, i permessi concessi, quanto spesso usi ogni app e se continua a lavorare dopo lo spegnimento dello schermo.'
+listSummary: 'La maggior parte delle classifiche sulle "app che consumano batteria" è troppo sicura di sé.'
 hub: "battery"
 sourceNumber: 24
 order: 14
 subgroup: "Consumo della batteria"
-tags: ["batteria","consumo","risoluzione-dei-problemi","android","prestazioni"]
+tags:
+  ["batteria", "consumo", "risoluzione-dei-problemi", "android", "prestazioni"]
 locale: "it"
 draft: false
 ---
+
 Detto questo, le stesse categorie tornano spesso tra le cause principali.
 
 ## I tipi di app che di solito compaiono in cima

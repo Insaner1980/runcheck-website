@@ -5,10 +5,11 @@ listSummary: "Controlla se uno smartphone Android ha subito danni da liquidi esa
 hub: "hardware"
 sourceNumber: 111
 order: 8
-tags: ["hardware","test","diagnostica","android","guida"]
+tags: ["hardware", "test", "diagnostica", "android", "guida"]
 locale: "it"
 draft: false
 ---
+
 ---
 
 Quanto può rivelare un minuscolo adesivo sui danni da liquidi? Meno di quanto si pensi.

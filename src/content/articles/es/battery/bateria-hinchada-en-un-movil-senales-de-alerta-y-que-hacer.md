@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 16
 order: 6
 subgroup: "Health"
-tags: ["bateria","estado","diagnostico","android","guia"]
+tags: ["bateria", "estado", "diagnostico", "android", "guia"]
 locale: "es"
 draft: false
 ---
+
 Tómalo como una señal para parar. Una batería hinchada no es un problema de rendimiento. Es una batería dañada que debe manipularse con cuidado.
 
 **Metadescripción:** Una batería hinchada puede suponer un riesgo de incendio si se daña o se manipula mal. Aprende a reconocer las señales de alerta, qué debes evitar y cómo llevarla a reparar o reciclar de forma segura.

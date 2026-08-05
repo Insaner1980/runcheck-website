@@ -5,10 +5,11 @@ listSummary: "performances, vitesse et android"
 hub: "performance"
 sourceNumber: 69
 order: 6
-tags: ["performances","vitesse","android","optimisation","depannage"]
+tags: ["performances", "vitesse", "android", "optimisation", "depannage"]
 locale: "fr"
 draft: false
 ---
+
 Les options pour les développeurs ne sont pas un mode turbo secret. La plus grande partie du menu sert à tester des applications, déboguer le système et afficher des informations techniques. Quelques réglages peuvent donner l'impression qu'un téléphone Android est plus rapide. Plusieurs n'apportent rien d'utile dans un usage normal. Une poignée peut même aggraver les choses.
 
 La partie réellement utile est courte, et c'est une bonne nouvelle. Vous n'avez pas besoin de toucher à vingt interrupteurs. Pour la plupart des gens, le meilleur réglage consiste à placer les échelles d'animation sur 0,5x, éventuellement à tester le gel des applications mises en cache si le téléphone propose cette option, puis à laisser tout le reste tranquille.

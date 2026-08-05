@@ -5,10 +5,18 @@ listSummary: "Il 5G non è automaticamente la scelta migliore in ogni momento."
 hub: "network"
 sourceNumber: 94
 order: 5
-tags: ["prestazioni","velocita","android","ottimizzazione","risoluzione-dei-problemi"]
+tags:
+  [
+    "prestazioni",
+    "velocita",
+    "android",
+    "ottimizzazione",
+    "risoluzione-dei-problemi",
+  ]
 locale: "it"
 draft: false
 ---
+
 È la parte che il marketing dei telefoni tende a saltare.
 
 ## La velocità dipende dal tipo di 5G

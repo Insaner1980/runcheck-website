@@ -5,10 +5,11 @@ listSummary: "Du försöker spela in en video till, men Android säger att det i
 hub: "storage"
 sourceNumber: 85
 order: 7
-tags: ["lagring","android","rensning","optimering","guide"]
+tags: ["lagring", "android", "rensning", "optimering", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Foton går oftast att hantera. Video är det verkliga problemet. Några minuters 4K-material kan ta mer plats än flera månaders skärmbilder, och en säkerhetskopia i molnet hjälper inte förrän du tar bort de lokala kopiorna från telefonen.
 
 ## Börja med Google Photos

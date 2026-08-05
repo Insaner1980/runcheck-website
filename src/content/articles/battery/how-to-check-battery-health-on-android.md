@@ -6,11 +6,11 @@ hub: "battery"
 sourceNumber: 11
 order: 1
 subgroup: "Health"
-tags: ["battery","health","diagnostics","android","guide"]
+tags: ["battery", "health", "diagnostics", "android", "guide"]
 draft: false
 ---
-Unlike iPhones, which have displayed a battery health percentage on supported models since iOS 11.3, Android has historically made this harder to find. There's no universal "battery health" screen. The picture comes from manufacturer tools, hidden menus, usage patterns, and diagnostic apps.
 
+Unlike iPhones, which have displayed a battery health percentage on supported models since iOS 11.3, Android has historically made this harder to find. There's no universal "battery health" screen. The picture comes from manufacturer tools, hidden menus, usage patterns, and diagnostic apps.
 
 ## Quick answer: how to check battery health
 
@@ -23,7 +23,6 @@ Three methods, from fastest to most detailed.
 **Diagnostic app.** Third-party apps estimate battery health by tracking charge and discharge patterns over multiple days. This is the most detailed option when the phone lacks a built-in health indicator.
 
 A health reading below 80% of original design capacity, or anything other than "Good" / "Normal," means replacement is worth considering.
-
 
 ## Why batteries fail
 
@@ -38,7 +37,6 @@ Every Android phone uses a lithium-ion or lithium-polymer battery: lightweight, 
 **Charging habits matter, but less than people think.** Consistently charging to 100% and draining to 0% stresses the battery more than staying in the 20-80% range, and fast charging generates more heat than standard charging. But the difference between always fast-charging to 100% and gently charging to 80% over a year is smaller than most advice online suggests. Heat and time are the bigger factors. Uncertified chargers are the real risk: inconsistent power delivery can damage cells permanently.
 
 The end result: a 5,000 mAh battery slowly becomes 4,000 mAh, then 3,500 mAh, until what's left doesn't get through a normal day.
-
 
 ## Manual diagnostic steps
 
@@ -60,7 +58,6 @@ Android's built-in settings offer useful clues even without a dedicated health p
 
 **Check manufacturer diagnostics.** Beyond the health indicators listed in the Quick Answer section, some phones have dedicated diagnostics. On Pixel, look for Battery Diagnostics under Settings > Battery. Samsung's Members app has a full Diagnostics section that runs a battery test. Xiaomi devices often show detailed battery information under Settings > Battery > Battery Protection.
 
-
 ## Advanced diagnostics: voltage, temperature, and discharge patterns
 
 Several metrics reveal what's happening inside the cell for those who want the technical picture.
@@ -78,7 +75,6 @@ Diagnostic apps add numbers to these observations. They work by monitoring charg
 runcheck combines battery diagnostics with network, thermal, and storage analysis in a unified assessment. This matters because battery problems don't always exist in isolation. A thermal issue from a misbehaving component can mask itself as battery drain, and a storage bottleneck keeps the CPU working harder than necessary.
 
 Avoid apps that claim to "boost," "calibrate," or "restore" battery health. No app can reverse chemical degradation. The useful ones show actual voltage and temperature readings, track data over time, and run on-device without requiring accounts or cloud uploads.
-
 
 ## Frequently asked questions
 
@@ -113,7 +109,6 @@ The battery's actual capacity no longer matches what the software expects. As de
 **How often should battery health be checked?**
 
 Every few months. Degradation is gradual, and checking obsessively doesn't change the outcome. Good triggers for an unscheduled check: sudden changes in battery life, unexpected shutdowns, or the phone running hotter than usual.
-
 
 ## What to do with the results
 

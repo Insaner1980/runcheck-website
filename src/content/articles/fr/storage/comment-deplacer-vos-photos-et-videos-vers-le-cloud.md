@@ -5,10 +5,11 @@ listSummary: "Vous essayez d'enregistrer une dernière vidéo et Android annonce
 hub: "storage"
 sourceNumber: 85
 order: 7
-tags: ["stockage","android","nettoyage","optimisation","guide"]
+tags: ["stockage", "android", "nettoyage", "optimisation", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Les photos restent gérables. La vidéo est le vrai problème. Quelques minutes en 4K peuvent occuper davantage d'espace que plusieurs mois de captures d'écran, et la sauvegarde dans le cloud ne libère rien tant que vous n'avez pas supprimé les copies locales du téléphone.
 
 ## Commencez par Google Photos

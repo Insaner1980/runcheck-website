@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 12
 order: 2
 subgroup: "Health"
-tags: ["batteri","helse","diagnostikk","android","guide"]
+tags: ["batteri", "helse", "diagnostikk", "android", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Tallet er relevant fordi litium-ion-batterier har en begrenset levetid målt i sykluser. De fleste moderne telefonbatterier beholder omtrent 80 % av den opprinnelige kapasiteten etter 800-1 000 sykluser, avhengig av kjemi og produsent. Etter dette blir den daglige batteritiden merkbart kortere.
 
 Android har kunnet rapportere antall sykluser siden Android 14, da `EXTRA_CYCLE_COUNT` ble lagt til i BatteryManager. Om tallet faktisk vises, avhenger helt av produsenten. Noen få nyere telefoner viser det i Innstillinger. De fleste gjør det ikke. Metodene nedenfor er ordnet etter hvor mange enheter de fungerer på, med de bredeste alternativene først, også for eldre modeller.

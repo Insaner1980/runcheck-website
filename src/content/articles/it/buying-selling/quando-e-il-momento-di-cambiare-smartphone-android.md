@@ -5,10 +5,11 @@ listSummary: "Probabilmente non ti serve un nuovo smartphone Android solo perch�
 hub: "buying-selling"
 sourceNumber: 143
 order: 7
-tags: ["guida-all-acquisto","android","confronto","valore","guida"]
+tags: ["guida-all-acquisto", "android", "confronto", "valore", "guida"]
 locale: "it"
 draft: false
 ---
+
 Questo ritardo non rende obsoleto il tuo telefono. La vera domanda è più semplice: è ancora sicuro, utilizzabile e conveniente da riparare?
 
 ## Gli aggiornamenti di sicurezza sono la vera scadenza

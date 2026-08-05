@@ -5,10 +5,11 @@ listSummary: "lataaminen, akku ja android"
 hub: "hardware"
 sourceNumber: 108
 order: 5
-tags: ["lataaminen","akku","android","opas","laitteisto"]
+tags: ["lataaminen", "akku", "android", "opas", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 ---
 
 Pidät kaapelia oudossa kulmassa, latauskuvake vilkkuu ja puhelin latautuu vain, jos se pysyy täysin paikallaan. Tilanne tuntuu helposti rikkoutuneelta latausportilta, mutta älä aloita siitä oletuksesta.

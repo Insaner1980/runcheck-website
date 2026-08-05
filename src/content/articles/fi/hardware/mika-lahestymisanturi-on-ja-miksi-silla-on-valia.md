@@ -5,10 +5,11 @@ listSummary: "diagnostiikka, anturit ja android"
 hub: "hardware"
 sourceNumber: 117
 order: 14
-tags: ["diagnostiikka","anturit","android","laitteisto","opas"]
+tags: ["diagnostiikka", "anturit", "android", "laitteisto", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Kesken puhelun näyttö herää kasvojasi vasten, ja poski avaa numeronäppäimistön. Tavallisesti kyse on siitä, että tämä pieni anturi epäonnistuu tehtävässä, jota kukaan ei huomaa ennen kuin se lakkaa toimimasta.
 
 Anturi kertoo puhelimelle, milloin jokin on lähellä etulasia. Puhelun aikana tuo jokin on yleensä kasvosi. Android sammuttaa näytön ja estää kosketukset, jotta korvasi ei muutu kosketusnäytön lisälaitteeksi.

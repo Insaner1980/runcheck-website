@@ -5,10 +5,11 @@ listSummary: "Forhåndsinstallerte Android-apper kan bruke plass, sende varsler 
 hub: "performance"
 sourceNumber: 78
 order: 15
-tags: ["ytelse","hastighet","android","optimalisering","feilsøking"]
+tags: ["ytelse", "hastighet", "android", "optimalisering", "feilsøking"]
 locale: "nb"
 draft: false
 ---
+
 ---
 
 Bloatware får skylden for nesten alle trege Android-telefoner, men virkeligheten er mindre dramatisk. En forhåndsinstallert app gjør ikke telefonen treg bare fordi ikonet finnes. Problemene begynner når appen kjører i bakgrunnen, vekker telefonen, sender varsler, oppdaterer seg eller holder tjenester aktive selv om du aldri ba om det.

@@ -5,10 +5,11 @@ listSummary: "Du undersøker en brukt telefon."
 hub: "hardware"
 sourceNumber: 106
 order: 3
-tags: ["maskinvare","testing","diagnostikk","android","guide"]
+tags: ["maskinvare", "testing", "diagnostikk", "android", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Skjermfeil kan være vanskelige å se ved vanlig bruk. Bakgrunnsbilder, ikoner, mørk modus og bevegelser skjuler mye. Noen få tester med heldekkende farger og berøring gjør feilene langt enklere å oppdage.
 
 ## Døde og fastlåste piksler

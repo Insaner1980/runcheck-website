@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 16
 order: 6
 subgroup: "Health"
-tags: ["akku","zustand","diagnose","android","ratgeber"]
+tags: ["akku", "zustand", "diagnose", "android", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Sieh das als Stoppsignal. Ein aufgeblähter Smartphone-Akku ist kein Leistungsproblem. Der Akku ist beschädigt und muss vorsichtig behandelt werden.
 
 **Meta-Beschreibung:** Ein aufgeblähter Smartphone-Akku kann bei Beschädigung oder falscher Handhabung zum Brandrisiko werden. Erfahre, welche Warnzeichen es gibt, was du vermeiden solltest und wie Entsorgung oder Reparatur sicher ablaufen.

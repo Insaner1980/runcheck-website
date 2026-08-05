@@ -5,10 +5,11 @@ listSummary: "suorituskyky, nopeus ja android"
 hub: "device-health"
 sourceNumber: 9
 order: 5
-tags: ["suorituskyky","nopeus","android","optimointi","vianetsintä"]
+tags: ["suorituskyky", "nopeus", "android", "optimointi", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+
 Hyvän varmuuskopion ei tarvitse olla monimutkainen. Riittää, että tiedät, mitä Android jo tallentaa, mitä se jättää pois ja mitkä sovellukset tarvitsevat oman varmuuskopion ennen tuhoavia toimenpiteitä.
 
 ## Mitä Google varmuuskopioi automaattisesti

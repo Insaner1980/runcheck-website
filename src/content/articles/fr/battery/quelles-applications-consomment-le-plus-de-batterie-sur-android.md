@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 24
 order: 14
 subgroup: "Drain"
-tags: ["batterie","consommation","depannage","android","performances"]
+tags: ["batterie", "consommation", "depannage", "android", "performances"]
 locale: "fr"
 draft: false
 ---
+
 Cela dit, les mêmes catégories reviennent souvent.
 
 ## Les types d'applications qui arrivent généralement en tête

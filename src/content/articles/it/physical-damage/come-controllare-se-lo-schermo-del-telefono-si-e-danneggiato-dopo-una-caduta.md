@@ -5,10 +5,11 @@ listSummary: "Raccogli il telefono, il vetro sembra intatto e per un attimo pens
 hub: "physical-damage"
 sourceNumber: 131
 order: 1
-tags: ["hardware","test","diagnostica","android","guida"]
+tags: ["hardware", "test", "diagnostica", "android", "guida"]
 locale: "it"
 draft: false
 ---
+
 L'obiettivo non è controllare ogni pixel nel panico, come se stessi comprando uno smartphone usato da uno sconosciuto. Serve a individuare ciò che conta: crepe, pixel morti, zone del touchscreen che non rispondono, alterazioni dei colori, sfarfallio e distacco del pannello.
 
 ## Inizia dal vetro e dalla cornice

@@ -1,14 +1,15 @@
 ---
 title: "Come eseguire una diagnostica completa su uno smartphone Android"
-description: "Android non ha un unico pulsante \"Avvia diagnostica\" capace di controllare tutto in una volta. Gli strumenti esistono, ma sono distribuiti tra menu delle Impostazioni, codici nascosti da digitare nell'app Telefono, app dei produttori e comandi di sistema che la maggior parte delle persone non usa mai. Questa guida li riunisce in un'unica procedura adatta al maggior numero possibile di telefoni, indicando anche dove restano differenze dovute a produttore, operatore e versione di Android."
-listSummary: "Android non ha un unico pulsante \"Avvia diagnostica\" capace di controllare tutto in una volta."
+description: 'Android non ha un unico pulsante "Avvia diagnostica" capace di controllare tutto in una volta. Gli strumenti esistono, ma sono distribuiti tra menu delle Impostazioni, codici nascosti da digitare nell''app Telefono, app dei produttori e comandi di sistema che la maggior parte delle persone non usa mai. Questa guida li riunisce in un''unica procedura adatta al maggior numero possibile di telefoni, indicando anche dove restano differenze dovute a produttore, operatore e versione di Android.'
+listSummary: 'Android non ha un unico pulsante "Avvia diagnostica" capace di controllare tutto in una volta.'
 hub: "device-health"
 sourceNumber: 7
 order: 3
-tags: ["android","aggiornamenti","sicurezza","software","guida"]
+tags: ["android", "aggiornamenti", "sicurezza", "software", "guida"]
 locale: "it"
 draft: false
 ---
+
 ## Il percorso più rapido: gli strumenti diagnostici del produttore
 
 Molti dei principali produttori Android includono un'utilità di diagnostica, preinstallata oppure accessibile tramite un codice nascosto. Parti da qui prima di installare altre app.

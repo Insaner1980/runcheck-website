@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 18
 order: 8
 subgroup: "Health"
-tags: ["batteri","hälsa","diagnostik","android","guide"]
+tags: ["batteri", "hälsa", "diagnostik", "android", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Batterihälsa uppskattar hur mycket laddning cellen kan lagra jämfört med när den var ny. Ett batteri på 5 000 mAh med 80 % hälsa fungerar mer som ett batteri på 4 000 mAh. Telefonen fungerar fortfarande. Problemet är att batteriet inte längre har samma reserv för kyla, intensiv kameraanvändning, spel, navigering eller områden med svag signal.
 
 Det är då de märkliga beteendena börjar visa sig.
@@ -46,7 +47,7 @@ På andra Androidtelefoner bör du först kontrollera batteriavsnittet i Instäl
 
 Appar som AccuBattery kan fortfarande vara användbara, men behandla den första dagens data som brus. De uppskattar kapaciteten genom att följa laddning och urladdning över tid. Ge dem flera laddningstillfällen innan du litar på siffran.
 
-Knappkoden *#*#4636#*#* öppnar ibland en testmeny med batteriinformation. Ibland händer ingenting. Den inkonsekvensen är normal i tillverkarnas Androidversioner.
+Knappkoden _#_#4636#_#_ öppnar ibland en testmeny med batteriinformation. Ibland händer ingenting. Den inkonsekvensen är normal i tillverkarnas Androidversioner.
 
 ## Byta, anpassa eller uppgradera
 

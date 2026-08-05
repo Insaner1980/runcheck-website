@@ -5,10 +5,11 @@ listSummary: "Prøv sikker modus før du tilbakestiller til fabrikkinnstillingen
 hub: "software"
 sourceNumber: 130
 order: 12
-tags: ["ytelse","hastighet","android","optimalisering","feilsøking"]
+tags: ["ytelse", "hastighet", "android", "optimalisering", "feilsøking"]
 locale: "nb"
 draft: false
 ---
+
 Rådet høres nesten for enkelt ut, men det er riktig ved de fleste Android-problemer. Sikker modus er rask, reversibel og sletter ingenting. En tilbakestilling til fabrikkinnstillinger tømmer telefonen og kan gjøre et femminuttersproblem til en hel kveld med reinstallering av apper, gjenoppretting av kontoer og leting etter innstillinger du hadde glemt at du endret.
 
 Sikker modus først. Fabrikktilbakestilling sist.

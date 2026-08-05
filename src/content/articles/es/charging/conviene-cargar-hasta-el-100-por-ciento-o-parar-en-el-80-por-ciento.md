@@ -5,10 +5,11 @@ listSummary: "La regla del 80 % es útil, pero mucha gente la trata como un mand
 hub: "charging"
 sourceNumber: 43
 order: 7
-tags: ["carga","bateria","android","guia","hardware"]
+tags: ["carga", "bateria", "android", "guia", "hardware"]
 locale: "es"
 draft: false
 ---
+
 La respuesta práctica es sencilla: usa la carga adaptativa si tu móvil la ofrece. Aplica un límite fijo del 80 % solo cuando normalmente te sobra batería. Si el teléfono ya tiene dificultades para llegar al final del día, no empeores tu rutina diaria solo para proteger la batería sobre el papel.
 
 Eso no es disciplina. Es añadir fricción.
@@ -71,4 +72,4 @@ Activa la carga adaptativa si está disponible. Carga hasta el 100 % cuando nece
 
 El peor hábito no es cargar de vez en cuando hasta el 100 %. Es dejar el móvil lleno, caliente y enchufado durante horas todas las noches sin hacer nada al respecto.
 
-*Metadescripción: Cargar hasta el 80 % puede prolongar la vida útil de la batería, pero la carga adaptativa es la mejor opción predeterminada para la mayoría. Estos son los casos en los que un límite del 80 % realmente tiene sentido.*
+_Metadescripción: Cargar hasta el 80 % puede prolongar la vida útil de la batería, pero la carga adaptativa es la mejor opción predeterminada para la mayoría. Estos son los casos en los que un límite del 80 % realmente tiene sentido._

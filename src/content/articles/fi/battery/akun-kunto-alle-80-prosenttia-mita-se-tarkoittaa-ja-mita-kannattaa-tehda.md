@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 18
 order: 8
 subgroup: "Akun kunto"
-tags: ["akku","kunto","diagnostiikka","android","opas"]
+tags: ["akku", "kunto", "diagnostiikka", "android", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Akun kunto arvioi, kuinka paljon varausta kenno pystyy säilyttämään uuteen akkuun verrattuna. Kun 5 000 mAh:n akun kunto on 80 %, se toimii kapasiteetiltaan suunnilleen kuin 4 000 mAh:n akku. Puhelin toimii edelleen. Akussa ei kuitenkaan ole enää samanlaista varaa pakkaselle, raskaalle kamerankäytölle, pelaamiselle, navigoinnille tai heikon signaalin alueille.
 
 Siinä vaiheessa alkaa usein näkyä outoa käytöstä.
@@ -46,7 +47,7 @@ Muissa Android-puhelimissa tarkista ensin Asetusten akkuosio. Osa valmistajista 
 
 AccuBatteryn kaltaisista sovelluksista voi silti olla hyötyä, mutta ensimmäisen päivän tiedot ovat lähinnä kohinaa. Sovellukset arvioivat kapasiteettia seuraamalla lataamista ja purkautumista ajan mittaan. Anna niiden kerätä tietoa useista latausjaksoista ennen kuin luotat lukemaan.
 
-Valintakoodi *#*#4636#*#* avaa joissakin puhelimissa testausvalikon, jossa voi näkyä akkutietoja. Joissakin se ei tee mitään. Tällainen epäjohdonmukaisuus on tavallista valmistajien Android-versioissa.
+Valintakoodi _#_#4636#_#_ avaa joissakin puhelimissa testausvalikon, jossa voi näkyä akkutietoja. Joissakin se ei tee mitään. Tällainen epäjohdonmukaisuus on tavallista valmistajien Android-versioissa.
 
 ## Vaihda, sopeuta käyttöä tai päivitä puhelin
 

@@ -5,9 +5,10 @@ listSummary: "Airplane mode charging myth"
 hub: "myths"
 sourceNumber: 148
 order: 4
-tags: ["charging","battery","android","guide","hardware"]
+tags: ["charging", "battery", "android", "guide", "hardware"]
 draft: false
 ---
+
 You plug in your phone at 12%, look at the clock, and start hunting for tricks. Airplane mode is one of the few that actually has a real effect, but it isn't magic.
 
 It helps because the phone uses less power while it's charging. Less power going to cellular, Wi-Fi, Bluetooth, notifications, and background sync means a little more of the charger's output can go into the battery. The gain is usually small. On a modern fast charger, you might barely notice it. On an old 5W adapter, a laptop USB port, or a power bank, it can matter.

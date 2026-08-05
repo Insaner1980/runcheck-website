@@ -5,10 +5,11 @@ listSummary: "Find ud af, om ladefejlen skyldes opladeren, kablet, USB-C-porten,
 hub: "charging"
 sourceNumber: 48
 order: 12
-tags: ["opladning","batteri","android","guide","hardware"]
+tags: ["opladning", "batteri", "android", "guide", "hardware"]
 locale: "da"
 draft: false
 ---
+
 Du har 2 % tilbage, sætter telefonen til opladning, og der sker ingenting. Intet opladningsikon. Ingen vibration. Ikke det mindste tegn på, at kablet gjorde noget.
 
 En telefon, der ikke vil lade op, har som regel et problem et sted i kæden. Strømmen skal gå fra stikkontakten gennem adapteren, videre gennem kablet og USB-C-porten og til sidst ind i opladningshardwaren i telefonen. Ét svagt led er nok til, at det hele ser dødt ud. Gå kæden igennem i rækkefølge, så finder du normalt fejlen på 10-15 minutter.

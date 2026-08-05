@@ -5,9 +5,10 @@ listSummary: "Phone sensor inventory"
 hub: "hardware"
 sourceNumber: 118
 order: 15
-tags: ["diagnostics","sensors","android","hardware","guide"]
+tags: ["diagnostics", "sensors", "android", "hardware", "guide"]
 draft: false
 ---
+
 A 2026 flagship can have a gyroscope, barometer, under-display fingerprint sensor, multiple wake-up sensors, and a pile of software-derived motion sensors. A cheap phone from a few years ago may only have the basics. That difference matters when screen rotation, auto-brightness, compass direction, AR apps, or lift-to-wake don't behave the way you expect.
 
 ## Start with a sensor app

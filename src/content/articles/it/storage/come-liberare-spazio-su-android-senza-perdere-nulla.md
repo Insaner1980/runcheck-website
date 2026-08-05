@@ -5,10 +5,11 @@ listSummary: "Modi pratici per recuperare spazio su Android senza eliminare foto
 hub: "storage"
 sourceNumber: 79
 order: 1
-tags: ["memoria","android","pulizia","ottimizzazione","guida"]
+tags: ["memoria", "android", "pulizia", "ottimizzazione", "guida"]
 locale: "it"
 draft: false
 ---
+
 ---
 
 Stai cercando di scattare una foto, installare un aggiornamento o scaricare un file, e Android ti avvisa che non c'è abbastanza spazio. La reazione impulsiva è eliminare le foto. Non partire da lì.

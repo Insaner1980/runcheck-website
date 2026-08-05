@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 34
 order: 24
 subgroup: "Drain"
-tags: ["bateria","optimizacion","android","consejos","rendimiento"]
+tags: ["bateria", "optimizacion", "android", "consejos", "rendimiento"]
 locale: "es"
 draft: false
 ---
+
 ¿Por qué han llegado diez notificaciones justo cuando has cogido el móvil? Muchas veces, la respuesta es Doze.
 
 Doze es el sistema de reposo integrado en Android. No tienes que activarlo y la mayoría de la gente nunca ve una pantalla llamada Doze en Ajustes. Funciona de forma discreta cuando el móvil no está enchufado, la pantalla está apagada y Android decide que el dispositivo debe dejar de permitir que todas las aplicaciones se ejecuten cuando quieran.

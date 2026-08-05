@@ -5,10 +5,11 @@ listSummary: "Du trykker på Start, ser nålen springe og får et tal, der ser o
 hub: "network"
 sourceNumber: 92
 order: 3
-tags: ["netværk","forbindelser","android","fejlfinding","guide"]
+tags: ["netværk", "forbindelser", "android", "fejlfinding", "guide"]
 locale: "da"
 draft: false
 ---
+
 Testen viser, hvad der skete i det øjeblik, på den server og under de aktuelle netværksforhold. Det er et øjebliksbillede, ikke en diagnose i sig selv. Alligevel er det det bedste første tal at få, når telefonen føles langsom.
 
 ## Det måler testen

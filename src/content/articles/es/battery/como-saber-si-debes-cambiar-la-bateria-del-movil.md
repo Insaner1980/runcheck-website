@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 17
 order: 7
 subgroup: "Health"
-tags: ["bateria","estado","diagnostico","android","guia"]
+tags: ["bateria", "estado", "diagnostico", "android", "guia"]
 locale: "es"
 draft: false
 ---
+
 La diferencia importa. Una batería nueva no arreglará una aplicación descontrolada. Desinstalar aplicaciones tampoco reparará una celda que ya no puede suministrar suficiente energía.
 
 **Metadescripción:** Que la batería se agote rápido no siempre significa que debas cambiarla. Aprende a reconocer el desgaste real, qué conviene descartar primero y cómo comprobar el estado de la batería en Android.

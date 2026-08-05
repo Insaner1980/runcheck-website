@@ -5,10 +5,11 @@ listSummary: "Att återställa appinställningarna låter som något som borde r
 hub: "software"
 sourceNumber: 128
 order: 10
-tags: ["säkerhet","skadlig-programvara","android","integritet","guide"]
+tags: ["säkerhet", "skadlig-programvara", "android", "integritet", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Haken är att namnet är dåligt. Funktionen återställer inte apparna. Den återställer telefonens systemval kring behörigheter, standardappar, aviseringar, bakgrundsbeteende och inaktiverade appar. Foton, meddelanden, filer, sparade konton och appdata ligger kvar.
 
 ## Vad som återställs

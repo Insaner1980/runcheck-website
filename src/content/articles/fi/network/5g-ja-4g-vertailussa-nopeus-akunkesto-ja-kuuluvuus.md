@@ -5,10 +5,11 @@ listSummary: "5G ei ole automaattisesti parempi valinta päivän jokaisena hetke
 hub: "network"
 sourceNumber: 94
 order: 5
-tags: ["suorituskyky","nopeus","android","optimointi","vianetsintä"]
+tags: ["suorituskyky", "nopeus", "android", "optimointi", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+
 Tämä osa jää puhelinmainoksissa yleensä kertomatta.
 
 ## Nopeus riippuu käyttämästäsi 5G-verkosta

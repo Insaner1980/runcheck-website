@@ -5,10 +5,11 @@ listSummary: "Le bridage thermique intégré à Android protège votre télépho
 hub: "thermal"
 sourceNumber: 56
 order: 4
-tags: ["temperature","thermique","android","depannage","materiel"]
+tags: ["temperature", "thermique", "android", "depannage", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 Pourquoi un téléphone rapide devient-il soudain lent au milieu d'une partie, d'un appel vidéo ou d'une séance photo ? Le plus souvent, il s'agit de bridage thermique. L'appareil chauffe, alors Android et le fabricant réduisent ses performances avant que la température ne devienne un problème de sécurité.
 
 ## Ce que signifie le bridage thermique

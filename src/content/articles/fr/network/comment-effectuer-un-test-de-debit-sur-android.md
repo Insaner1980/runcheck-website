@@ -5,10 +5,11 @@ listSummary: "Vous appuyez sur Lancer, regardez l'aiguille bondir et obtenez un 
 hub: "network"
 sourceNumber: 92
 order: 3
-tags: ["reseau","connectivite","android","depannage","guide"]
+tags: ["reseau", "connectivite", "android", "depannage", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Le test indique ce qui s'est passé à cet instant, avec ce serveur et dans ces conditions réseau. C'est une photographie, pas un diagnostic complet. Cela reste néanmoins le meilleur premier chiffre à obtenir lorsque votre téléphone paraît lent.
 
 ## Ce que mesure le test

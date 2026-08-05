@@ -5,10 +5,11 @@ listSummary: "reseau, connectivite et android"
 hub: "network"
 sourceNumber: 100
 order: 11
-tags: ["reseau","connectivite","android","depannage","guide"]
+tags: ["reseau", "connectivite", "android", "depannage", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Les appels Wi-Fi sont des appels téléphoniques classiques acheminés par le Wi-Fi. Vous utilisez l'application Téléphone habituelle, votre numéro normal et votre forfait mobile. Votre correspondant n'a pas besoin de WhatsApp, Signal, Telegram ni d'une autre application.
 
 C'est tout leur intérêt. Vous pouvez vous trouver dans un sous-sol où le réseau mobile n'affiche qu'une barre instable, vous connecter à un bon Wi-Fi et passer malgré tout un appel normal.

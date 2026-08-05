@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 22
 order: 12
 subgroup: "Virrankulutus"
-tags: ["akku","kalibrointi","vianetsintä","android","opas"]
+tags: ["akku", "kalibrointi", "vianetsintä", "android", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Tavallaan se valehteleekin. Näytön lukema on arvio, ja vanhan akun varaustasoa on vaikeampi arvioida.
 
 ## Tarkista tämä ensin

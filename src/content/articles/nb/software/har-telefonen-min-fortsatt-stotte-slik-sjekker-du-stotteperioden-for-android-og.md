@@ -5,10 +5,11 @@ listSummary: "Telefonen kan se helt normal ut selv om den har passert den trygge
 hub: "software"
 sourceNumber: 123
 order: 5
-tags: ["android","oppdateringer","sikkerhet","programvare","guide"]
+tags: ["android", "oppdateringer", "sikkerhet", "programvare", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Det er dette mange overser. Slutt på støtte gjør ikke telefonen ubrukelig. Det betyr bare at risikoen fortsetter å øke mens telefonen føles akkurat som før.
 
 Sjekken tar omtrent to minutter.

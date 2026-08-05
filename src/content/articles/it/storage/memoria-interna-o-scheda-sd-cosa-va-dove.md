@@ -5,10 +5,11 @@ listSummary: "Una scheda microSD può dare più spazio a uno smartphone Android,
 hub: "storage"
 sourceNumber: 86
 order: 8
-tags: ["memoria","android","pulizia","ottimizzazione","guida"]
+tags: ["memoria", "android", "pulizia", "ottimizzazione", "guida"]
 locale: "it"
 draft: false
 ---
+
 Nel 2026 la differenza conta ancora di più, perché la memoria degli smartphone Android usa hardware molto diverso da un modello all'altro. Molti telefoni di fascia alta e media non hanno alcuno slot microSD. I Pixel non lo prevedono, Samsung lo ha eliminato dalla serie Galaxy S da anni e anche diversi modelli Galaxy A attuali ne fanno a meno. Allo stesso tempo, molti Galaxy A e M meno recenti, vari Motorola Moto G e diversi Sony Xperia supportano ancora le microSD.
 
 Controlla il modello esatto. Il nome della famiglia non basta.

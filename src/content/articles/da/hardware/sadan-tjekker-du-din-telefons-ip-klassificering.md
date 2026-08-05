@@ -5,10 +5,11 @@ listSummary: "diagnostik, sensorer og android"
 hub: "hardware"
 sourceNumber: 116
 order: 13
-tags: ["diagnostik","sensorer","android","hardware","guide"]
+tags: ["diagnostik", "sensorer", "android", "hardware", "guide"]
 locale: "da"
 draft: false
 ---
+
 Vandafvisende er ikke det samme som vandtæt, uanset hvor overbevisende specifikationerne lyder.
 
 Din telefon har enten en IP-klassificering, eller også har den ikke. Der findes ingen app, opkaldskode eller skjult Android-indstilling, som kan teste den bagefter.

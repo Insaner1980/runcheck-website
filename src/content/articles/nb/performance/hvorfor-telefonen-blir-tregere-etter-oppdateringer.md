@@ -5,10 +5,11 @@ listSummary: "ytelse, hastighet og android"
 hub: "performance"
 sourceNumber: 68
 order: 5
-tags: ["ytelse","hastighet","android","optimalisering","feilsøking"]
+tags: ["ytelse", "hastighet", "android", "optimalisering", "feilsøking"]
 locale: "nb"
 draft: false
 ---
+
 Telefonen kan føles dårligere rett etter en Android-oppdatering, uten at det automatisk betyr at oppdateringen har ødelagt noe. Det første døgnet eller de to første døgnene etter en stor versjonsoppgradering er ofte rotete, fordi Android bygger opp ting på nytt i bakgrunnen samtidig som du prøver å bruke telefonen som vanlig.
 
 Det er irriterende, men også normalt.

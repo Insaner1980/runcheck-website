@@ -5,10 +5,12 @@ listSummary: "Meta-Beschreibung: Volle Empfangsbalken garantieren keine schnelle
 hub: "network"
 sourceNumber: 97
 order: 8
-tags: ["leistung","geschwindigkeit","android","optimierung","fehlerbehebung"]
+tags:
+  ["leistung", "geschwindigkeit", "android", "optimierung", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+
 Du siehst volle Empfangsbalken, aber die Seite lädt trotzdem nicht. Das Smartphone zeigt 5G oder LTE an. Das Signal sieht gut aus. Trotzdem fühlt sich die mobile Datenverbindung an, als würde sie im Schlamm feststecken.
 
 Guter Empfang beweist nämlich nur eines: Dein Smartphone kann den Mobilfunkmast ausreichend gut erreichen. Die Balken sagen deutlich weniger über die Auslastung der Funkzelle, Tarifgrenzen, Störungen, die Netzführung des Anbieters, den zusätzlichen Aufwand eines VPNs oder die tatsächlich genutzte Netzebene aus.

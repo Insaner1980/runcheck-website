@@ -5,10 +5,11 @@ listSummary: "Bewerte den Speicherzustand anhand von Speichertyp, Geschwindigkei
 hub: "storage"
 sourceNumber: 80
 order: 2
-tags: ["speicher","android","bereinigung","optimierung","ratgeber"]
+tags: ["speicher", "android", "bereinigung", "optimierung", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 ---
 
 Wie erkennst du, ob der Speicher deines Android-Smartphones gesund und nicht nur knapp ist? Ärgerlicherweise machen es die meisten Geräte weiterhin unnötig schwer.

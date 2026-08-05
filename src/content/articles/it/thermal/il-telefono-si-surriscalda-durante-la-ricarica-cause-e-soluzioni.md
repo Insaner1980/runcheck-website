@@ -5,10 +5,11 @@ listSummary: "Se il telefono si scalda durante la ricarica, la causa può essere
 hub: "thermal"
 sourceNumber: 58
 order: 6
-tags: ["ricarica","batteria","android","guida","hardware"]
+tags: ["ricarica", "batteria", "android", "guida", "hardware"]
 locale: "it"
 draft: false
 ---
+
 È normale che un telefono diventi leggermente tiepido durante la ricarica. Non è normale che sia scomodo da tenere in mano.
 
 La ricarica trasferisce energia in una batteria agli ioni di litio, e una parte di quell'energia si trasforma in calore. Lo noterai di più con un caricabatterie da 25 W, 45 W o 65 W che con un vecchio alimentatore da 5 W. Questo, da solo, non significa che qualcosa sia guasto. La vera domanda è se il telefono si raffredda quando termina la fase più intensa della ricarica oppure continua a diventare sempre più caldo ogni volta che lo colleghi.

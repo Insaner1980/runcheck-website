@@ -11,6 +11,7 @@ tags: []
 locale: "es"
 draft: false
 ---
+
 Una comprobación del estado del dispositivo permite detectar esas tendencias pronto. Resulta útil para investigar un problema concreto, preparar un móvil para venderlo o averiguar si esa sensación de lentitud es real o solo una impresión.
 
 ---

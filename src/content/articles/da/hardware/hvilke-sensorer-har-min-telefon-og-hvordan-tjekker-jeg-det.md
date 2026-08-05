@@ -5,10 +5,11 @@ listSummary: "Hvorfor viser én telefon din gåretning præcist i Maps, mens en 
 hub: "hardware"
 sourceNumber: 118
 order: 15
-tags: ["diagnostik","sensorer","android","hardware","guide"]
+tags: ["diagnostik", "sensorer", "android", "hardware", "guide"]
 locale: "da"
 draft: false
 ---
+
 Et flagskib fra 2026 kan have et gyroskop, barometer, en fingeraftrykssensor under skærmen, flere wake-up-sensorer og en lang række softwareberegnede bevægelsessensorer. En billig telefon fra nogle år tilbage har måske kun det mest grundlæggende. Forskellen betyder noget, når skærmrotation, automatisk lysstyrke, kompasretning, AR-apps eller løft for at vække ikke fungerer, som du forventer.
 
 ## Start med en sensorapp

@@ -5,9 +5,10 @@ listSummary: "Health score signals explained"
 hub: "device-health"
 sourceNumber: 10
 order: 6
-tags: ["temperature","thermal","android","troubleshooting","hardware"]
+tags: ["temperature", "thermal", "android", "troubleshooting", "hardware"]
 draft: false
 ---
+
 Android itself doesn't define one universal phone health score. There is no cross-device Android Settings screen where "82/100" means the same thing on every brand. Samsung Battery and device care does show an optimization score out of 100, and Pixel Device health and support shows overall status and feature status, but those are manufacturer tools rather than a shared Android standard. Diagnostic apps use their own scoring models. What goes into these scores, and where they fall short, matters more than the number itself.
 
 ## What a health score measures

@@ -5,10 +5,11 @@ listSummary: "Puhelimen lievä lämpeneminen latauksen aikana on normaalia."
 hub: "thermal"
 sourceNumber: 58
 order: 6
-tags: ["lataaminen","akku","android","opas","laitteisto"]
+tags: ["lataaminen", "akku", "android", "opas", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 Latauksessa litiumioniakkuun siirretään energiaa, ja osa siitä muuttuu lämmöksi. Huomaat eron selvemmin 25 W:n, 45 W:n tai 65 W:n laturilla kuin vanhalla 5 W:n adapterilla. Se ei yksin tarkoita, että jokin olisi rikki. Olennaista on, jäähtyykö puhelin latauksen suuritehoisimman vaiheen jälkeen vai kuumeneeko se joka kerta enemmän, kun liität laturin.
 
 Käytännön ohjeena alle 35 °C:n akun lämpötila on latauksessa rauhallinen lukema. Välillä 35-40 °C puhelin on lämmin, mutta edelleen pikalataukselle tavallisella toiminta-alueella. Kun lämpötila on 40 °C tai enemmän, puhelimen pitäisi alkaa suojata itseään hidastamalla latausta. Jos lukema jatkaa nousuaan tai kuumuus keskittyy latausportin ympärille, sitä ei pidä enää pitää normaalina lämpönä.
@@ -111,4 +112,4 @@ Se voi auttaa hieman, koska suoritin ja taustasovellukset eivät enää tuota li
 
 ---
 
-*Metakuvaus: Jos puhelin kuumenee latauksessa, syynä voi olla pikalataus, raskas käyttö, viallinen kaapeli, langaton lataus, paksu suojakuori, ohjelmiston taustatyö tai akun kuluminen. Näin selvität syyn turvallisesti.*
+_Metakuvaus: Jos puhelin kuumenee latauksessa, syynä voi olla pikalataus, raskas käyttö, viallinen kaapeli, langaton lataus, paksu suojakuori, ohjelmiston taustatyö tai akun kuluminen. Näin selvität syyn turvallisesti._

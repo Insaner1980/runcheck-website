@@ -5,10 +5,11 @@ listSummary: "Come pulire in sicurezza lo schermo, la scocca."
 hub: "physical-damage"
 sourceNumber: 137
 order: 7
-tags: ["hardware","test","diagnostica","android","guida"]
+tags: ["hardware", "test", "diagnostica", "android", "guida"]
 locale: "it"
 draft: false
 ---
+
 ---
 
 Che cosa conviene usare davvero per pulire un telefono: acqua, salviette con alcol, spray per schermi o quello che si trova già sul piano della cucina?

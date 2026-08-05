@@ -6,12 +6,12 @@ hub: "battery"
 sourceNumber: 11
 order: 1
 subgroup: "Health"
-tags: ["batteri","helse","diagnostikk","android","guide"]
+tags: ["batteri", "helse", "diagnostikk", "android", "guide"]
 locale: "nb"
 draft: false
 ---
-I motsetning til iPhone, som har vist en prosentverdi for batterihelse på støttede modeller siden iOS 11.3, har dette historisk vært vanskeligere å finne på Android. Det finnes ingen universell skjerm for «batterihelse». Du må sette sammen bildet ved hjelp av produsentens verktøy, skjulte menyer, bruksmønstre og diagnoseapper.
 
+I motsetning til iPhone, som har vist en prosentverdi for batterihelse på støttede modeller siden iOS 11.3, har dette historisk vært vanskeligere å finne på Android. Det finnes ingen universell skjerm for «batterihelse». Du må sette sammen bildet ved hjelp av produsentens verktøy, skjulte menyer, bruksmønstre og diagnoseapper.
 
 ## Kort svar: Slik sjekker du batterihelsen
 
@@ -24,7 +24,6 @@ Tre metoder, fra den raskeste til den mest detaljerte.
 **Diagnoseapp.** Tredjepartsapper kan anslå batterihelsen ved å følge lade- og utladingsmønstre over flere dager. Dette er ofte det mest detaljerte alternativet når telefonen mangler en innebygd tilstandsindikator.
 
 En avlesning under 80 % av den opprinnelige kapasiteten, eller en status som er dårligere enn «God» eller «Normal», betyr at det er verdt å vurdere batteribytte.
-
 
 ## Hvorfor batterier svikter
 
@@ -39,7 +38,6 @@ Alle Android-telefoner bruker litium-ion- eller litium-polymerbatterier. De er l
 **Ladevaner betyr noe, men mindre enn mange tror.** Å lade konsekvent til 100 % og tømme batteriet til 0 % belaster det mer enn å holde seg omtrent mellom 20 % og 80 %. Hurtiglading gir også mer varme enn vanlig lading. Forskjellen mellom alltid å hurtiglade til 100 % og forsiktig å lade til 80 % gjennom ett år er likevel mindre enn mye av rådene på nettet antyder. Varme og tid betyr mer. Dårlige eller ikke-sertifiserte ladere er en reell risiko, fordi ustabil strømlevering kan skade battericellene permanent.
 
 Resultatet er at et batteri på 5 000 mAh langsomt blir et batteri på 4 000 mAh, deretter 3 500 mAh, helt til den gjenværende kapasiteten ikke lenger holder gjennom en vanlig dag.
-
 
 ## Manuelle diagnosetrinn
 
@@ -61,7 +59,6 @@ Androids innebygde innstillinger gir nyttige spor selv uten en egen prosentverdi
 
 **Bruk produsentens diagnoseverktøy.** I tillegg til tilstandsvisningene nevnt ovenfor har enkelte telefoner egne diagnosefunksjoner. På Pixel finner du **Batteridiagnostikk** under **Innstillinger > Batteri** på støttede modeller. Samsung Members har en full seksjon for Telefondiagnostikk med batteritest. Xiaomi-enheter kan vise mer batteriinformasjon under batteribeskyttelse, men navn og innhold varierer etter modell og programvareversjon.
 
-
 ## Avansert diagnostikk: spenning, temperatur og utladingsmønstre
 
 Flere måleverdier kan vise hva som skjer inne i battericellen når du vil gå mer teknisk til verks.
@@ -79,7 +76,6 @@ Diagnoseapper setter tall på disse observasjonene. De følger lade- og utlading
 runcheck samler batteridiagnostikk med analyse av nettverk, temperatur og lagring i én vurdering. Det er nyttig fordi batteriproblemer ikke alltid står alene. Et varmeproblem fra en komponent som oppfører seg feil, kan se ut som batteritømming, og en flaskehals i lagringen kan holde CPU-en i arbeid lenger enn nødvendig.
 
 Unngå apper som hevder at de kan «forsterke», «kalibrere» eller «gjenopprette» batterihelsen. Ingen app kan reversere kjemisk nedbrytning. Nyttige apper viser faktiske målinger av spenning og temperatur, følger data over tid og arbeider lokalt på enheten uten å kreve konto eller opplasting til nettskyen.
-
 
 ## Vanlige spørsmål
 
@@ -114,7 +110,6 @@ Batteriets faktiske kapasitet samsvarer ikke lenger med det programvaren forvent
 **Hvor ofte bør batterihelsen sjekkes?**
 
 Hver tredje eller fjerde måned er nok. Svekkelsen skjer gradvis, og hyppig kontroll endrer ikke utfallet. Gode grunner til å sjekke tidligere er en plutselig endring i batteritid, uventede avslåinger eller at telefonen blir varmere enn vanlig.
-
 
 ## Hva du bør gjøre med resultatene
 

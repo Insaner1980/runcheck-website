@@ -6,9 +6,10 @@ hub: "battery"
 sourceNumber: 26
 order: 16
 subgroup: "Drain"
-tags: ["battery","drain","troubleshooting","android","performance"]
+tags: ["battery", "drain", "troubleshooting", "android", "performance"]
 draft: false
 ---
+
 That's normal. Excessive idle drain is not.
 
 ## What normal idle drain looks like

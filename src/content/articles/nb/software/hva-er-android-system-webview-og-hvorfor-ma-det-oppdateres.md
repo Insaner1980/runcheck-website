@@ -5,10 +5,11 @@ listSummary: "Hvorfor trenger en systemkomponent du aldri åpner, oppdateringer 
 hub: "software"
 sourceNumber: 129
 order: 11
-tags: ["android","oppdateringer","sikkerhet","programvare","guide"]
+tags: ["android", "oppdateringer", "sikkerhet", "programvare", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Du åpner kanskje aldri Android System WebView direkte. Det gjør de færreste. Men når en e-postapp åpner en innloggingsside, en sosial app viser en artikkel uten å sende deg ut av appen, eller en bankapp laster en nettbasert autentiseringsside, er det ofte WebView som tegner innholdet i bakgrunnen.
 
 ## Dette gjør WebView

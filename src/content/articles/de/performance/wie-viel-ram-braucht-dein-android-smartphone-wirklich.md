@@ -5,10 +5,12 @@ listSummary: "Wie viel RAM reicht 2026 für ein Android-Smartphone?"
 hub: "performance"
 sourceNumber: 66
 order: 3
-tags: ["leistung","geschwindigkeit","android","optimierung","fehlerbehebung"]
+tags:
+  ["leistung", "geschwindigkeit", "android", "optimierung", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+
 Das bedeutet nicht, dass jedes Smartphone mit 6 GB unbrauchbar ist oder jedes Modell mit 16 GB sein Geld wert ist. Empfehlungen zum RAM werden schnell unübersichtlich, weil auch Android-Version, Herstelleroberfläche, App-Nutzung, Speichergeschwindigkeit, Akkuzustand und Einschränkungen für Hintergrundprozesse eine Rolle spielen.
 
 Trotzdem gibt es eine praktische Kaufempfehlung: 8 GB für normale Nutzung, 12 GB für alle, die länger Reserven haben möchten.

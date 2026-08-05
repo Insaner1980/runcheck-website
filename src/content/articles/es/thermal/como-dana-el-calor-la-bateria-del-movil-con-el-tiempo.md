@@ -5,10 +5,11 @@ listSummary: "El calor es una de las formas más rápidas de envejecer la bater�
 hub: "thermal"
 sourceNumber: 62
 order: 10
-tags: ["temperatura","termico","android","solucion-de-problemas","hardware"]
+tags: ["temperatura", "termico", "android", "solucion-de-problemas", "hardware"]
 locale: "es"
 draft: false
 ---
+
 Eso es lo molesto. Una sesión de carga con el móvil caliente hoy no suele hacer que falle mañana. El coste aparece meses después, en forma de menos autonomía, carga más lenta, apagados más tempranos cuando hace frío o un valor de estado de la batería que cae antes de lo esperado.
 
 Las baterías de iones de litio se desgastan hagas lo que hagas. Los buenos hábitos no detienen el envejecimiento. Solo evitan que lo aceleres.
@@ -89,4 +90,4 @@ Recupera capacidad y reduce la resistencia relacionada con la batería. Si el re
 
 ---
 
-*Metadescripción: El calor acelera el envejecimiento de las baterías de iones de litio, sobre todo durante la carga y con niveles altos. Descubre qué ocurre dentro de la celda y qué hábitos reducen el daño a largo plazo.*
+_Metadescripción: El calor acelera el envejecimiento de las baterías de iones de litio, sobre todo durante la carga y con niveles altos. Descubre qué ocurre dentro de la celda y qué hábitos reducen el daño a largo plazo._

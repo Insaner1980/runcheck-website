@@ -5,10 +5,11 @@ listSummary: "Perché uno smartphone mostra perfettamente la direzione in cui ca
 hub: "hardware"
 sourceNumber: 118
 order: 15
-tags: ["diagnostica","sensori","android","hardware","guida"]
+tags: ["diagnostica", "sensori", "android", "hardware", "guida"]
 locale: "it"
 draft: false
 ---
+
 Un modello di punta del 2026 può avere giroscopio, barometro, sensore di impronte sotto lo schermo, diversi sensori di riattivazione e numerosi sensori di movimento calcolati via software. Uno smartphone economico di qualche anno fa potrebbe avere soltanto l'essenziale. La differenza conta quando la rotazione dello schermo, la luminosità adattiva, la direzione della bussola, le app di realtà aumentata o la funzione che riattiva il display sollevando il telefono non funzionano come ti aspetti.
 
 ## Inizia con un'app per sensori

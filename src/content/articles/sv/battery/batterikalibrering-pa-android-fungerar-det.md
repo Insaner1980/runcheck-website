@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 15
 order: 5
 subgroup: "Health"
-tags: ["batteri","hälsa","diagnostik","android","guide"]
+tags: ["batteri", "hälsa", "diagnostik", "android", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Det kalibrering ibland kan göra är att rätta en felaktig visning av batteriprocenten.
 
 **Metabeskrivning:** Kalibrering av ett Android-batteri återställer inte förlorad kapacitet, men kan ibland rätta felaktiga procentvärden. Läs när det hjälper och när det bara slösar tid.

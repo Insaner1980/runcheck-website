@@ -5,10 +5,11 @@ listSummary: "verkko, yhteydet ja android"
 hub: "network"
 sourceNumber: 95
 order: 6
-tags: ["verkko","yhteydet","android","vianetsintä","opas"]
+tags: ["verkko", "yhteydet", "android", "vianetsintä", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Aloita yhdestä kysymyksestä: katkeaako yhteys myös muilta samaan Wi-Fi-verkkoon liitetyiltä laitteilta? Jos katkeaa, tutki ensin reititintä tai internetyhteyttä. Jos vain puhelin putoaa verkosta, vika on todennäköisemmin puhelimessa, tallennetussa verkkoprofiilissa tai tavassa, jolla laite vaihtaa taajuusalueelta toiselle.
 
 ## Jos useiden laitteiden yhteys katkeaa, epäile ensin reititintä

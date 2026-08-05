@@ -5,9 +5,10 @@ listSummary: "Fast charging battery impact"
 hub: "charging"
 sourceNumber: 39
 order: 3
-tags: ["charging","battery","android","guide","hardware"]
+tags: ["charging", "battery", "android", "guide", "hardware"]
 draft: false
 ---
+
 Most fast charging advice is too dramatic. Fast charging is not a battery death sentence, and slow charging is not magic. The real question is whether the phone stays cool while it charges.
 
 That is where the answer gets less tidy. A 65W charger on a cool desk can be easier on the battery than a 15W charger under a pillow. Wattage matters, but temperature matters more.

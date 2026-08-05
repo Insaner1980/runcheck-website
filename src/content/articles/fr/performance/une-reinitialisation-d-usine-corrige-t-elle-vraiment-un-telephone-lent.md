@@ -5,10 +5,11 @@ listSummary: "Vous fixez le bouton de réinitialisation d'usine parce que le té
 hub: "performance"
 sourceNumber: 67
 order: 4
-tags: ["performances","vitesse","android","optimisation","depannage"]
+tags: ["performances", "vitesse", "android", "optimisation", "depannage"]
 locale: "fr"
 draft: false
 ---
+
 Ce conseil est parfois juste. Souvent, il est paresseux.
 
 Une réinitialisation d'usine peut corriger un téléphone lent lorsque la cause est logicielle : données d'applications encombrantes, réglages défectueux, caches corrompus, trop d'applications en arrière-plan ou restauration désordonnée après des années de mises à niveau. Elle ne réparera pas un stockage flash usé, une batterie affaiblie, une mauvaise gestion thermique, une quantité de RAM insuffisante ni un processeur d'entrée de gamme qui était déjà lent au départ.

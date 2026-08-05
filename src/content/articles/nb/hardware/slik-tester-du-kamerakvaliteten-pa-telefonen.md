@@ -5,10 +5,11 @@ listSummary: "maskinvare, testing og diagnostikk"
 hub: "hardware"
 sourceNumber: 110
 order: 7
-tags: ["maskinvare","testing","diagnostikk","android","guide"]
+tags: ["maskinvare", "testing", "diagnostikk", "android", "guide"]
 locale: "nb"
 draft: false
 ---
+
 ---
 
 Det blir enklere å teste et kamera når du slutter å tenke på megapiksler. En sensor på 50 MP kan fortsatt ta dårlige bilder hvis objektivet er skittent, autofokusen er ødelagt eller kameramodulen har blitt forskjøvet litt.

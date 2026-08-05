@@ -5,10 +5,11 @@ listSummary: "red, conectividad y android"
 hub: "network"
 sourceNumber: 99
 order: 10
-tags: ["red","conectividad","android","solucion-de-problemas","guia"]
+tags: ["red", "conectividad", "android", "solucion-de-problemas", "guia"]
 locale: "es"
 draft: false
 ---
+
 Una VPN cambia la ruta que sigue el tráfico de Internet del móvil. En lugar de que las aplicaciones se conecten directamente a través de la red Wi-Fi o del operador móvil, el teléfono envía primero el tráfico por un túnel cifrado hasta un servidor VPN. Las páginas web y las aplicaciones ven la dirección IP de ese servidor, no la dirección IP pública habitual del móvil.
 
 Suena más misterioso de lo que es. Una VPN resulta útil, pero no es un escudo absoluto de privacidad.

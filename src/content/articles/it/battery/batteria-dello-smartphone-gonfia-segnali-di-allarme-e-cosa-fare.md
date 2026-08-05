@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 16
 order: 6
 subgroup: "Stato della batteria"
-tags: ["batteria","stato","diagnostica","android","guida"]
+tags: ["batteria", "stato", "diagnostica", "android", "guida"]
 locale: "it"
 draft: false
 ---
+
 Noti che la scocca posteriore si sta sollevando. Oppure sul bordo dello schermo è comparsa una piccola fessura. O magari lo smartphone, che prima restava perfettamente piatto, ora oscilla quando lo appoggi sul tavolo.
 
 Consideralo un segnale di stop. Il rigonfiamento della batteria non è un problema di prestazioni. Indica una batteria danneggiata, che va maneggiata con cautela.

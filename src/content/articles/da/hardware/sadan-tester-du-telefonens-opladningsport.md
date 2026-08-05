@@ -5,10 +5,11 @@ listSummary: "opladning, batteri og android"
 hub: "hardware"
 sourceNumber: 108
 order: 5
-tags: ["opladning","batteri","android","guide","hardware"]
+tags: ["opladning", "batteri", "android", "guide", "hardware"]
 locale: "da"
 draft: false
 ---
+
 ---
 
 Du holder kablet i en mærkelig vinkel, opladningsikonet bliver ved med at blinke, og telefonen oplader kun, når den ligger helt stille. Det føles som en ødelagt opladningsport, men begynd ikke dér.

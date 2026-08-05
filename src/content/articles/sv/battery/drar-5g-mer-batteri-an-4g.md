@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 28
 order: 18
 subgroup: "Drain"
-tags: ["batteri","batteriförbrukning","felsökning","android","prestanda"]
+tags: ["batteri", "batteriförbrukning", "felsökning", "android", "prestanda"]
 locale: "sv"
 draft: false
 ---
+
 Ja, 5G kan ladda ur batteriet snabbare än 4G LTE. Det är bara inte samma katastrof som med den första generationens 5G-telefoner.
 
 En analys från Ookla Speedtest Intelligence visade att 5G använde omkring 6-11 % mer batteri än LTE, beroende på telefonens SoC. Skillnaden är verklig. På en nyare telefon med bra signal är den ändå sällan det som avgör om batteriet räcker hela dagen. På en äldre 5G-telefon, eller på en plats där telefonen hela tiden växlar mellan LTE och 5G, kan effekten fortfarande vara tydlig.

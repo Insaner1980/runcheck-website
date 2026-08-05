@@ -5,10 +5,11 @@ listSummary: "Du tippst auf Start, beobachtest den Zeiger und bekommst eine Zahl
 hub: "network"
 sourceNumber: 92
 order: 3
-tags: ["netzwerk","verbindungen","android","fehlerbehebung","ratgeber"]
+tags: ["netzwerk", "verbindungen", "android", "fehlerbehebung", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Der Test zeigt, was in diesem Moment mit diesem Server und unter diesen Netzwerkbedingungen passiert ist. Er ist eine Momentaufnahme, keine vollständige Diagnose. Trotzdem ist er der beste erste Messwert, wenn sich dein Smartphone langsam anfühlt.
 
 ## Was der Test misst

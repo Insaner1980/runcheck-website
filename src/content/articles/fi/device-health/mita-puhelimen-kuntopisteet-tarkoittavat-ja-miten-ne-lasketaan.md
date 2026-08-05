@@ -5,10 +5,11 @@ listSummary: "lämpötila, kuumeneminen ja android"
 hub: "device-health"
 sourceNumber: 10
 order: 6
-tags: ["lämpötila","kuumeneminen","android","vianetsintä","laitteisto"]
+tags: ["lämpötila", "kuumeneminen", "android", "vianetsintä", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 Android ei määritä yleistä puhelimen kuntopistemallia. Eri valmistajien puhelimissa ei ole yhteistä Asetukset-näkymää, jossa esimerkiksi 82/100 tarkoittaisi aina samaa asiaa. Samsungin Akun ja laitteen ylläpito voi näyttää oman optimointipistemääränsä, ja Pixelin Device health and support näyttää laitteen ja eri ominaisuuksien tiloja, mutta ne ovat valmistajakohtaisia työkaluja, eivät Androidin yhteinen standardi. Diagnostiikkasovellukset käyttävät omia laskentamallejaan. Pisteisiin sisältyvät tiedot ja mallin rajoitukset ovat tärkeämpiä kuin yksi numero.
 
 ## Mitä kuntopisteet mittaavat

@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 12
 order: 2
 subgroup: "Health"
-tags: ["bateria","estado","diagnostico","android","guia"]
+tags: ["bateria", "estado", "diagnostico", "android", "guia"]
 locale: "es"
 draft: false
 ---
+
 La cifra importa porque las baterías de iones de litio tienen una vida útil limitada que se mide en ciclos. La mayoría de las baterías actuales conservan alrededor del 80 % de su capacidad original después de 800-1.000 ciclos, según la química y el fabricante. A partir de ahí, la autonomía diaria suele acortarse de forma perceptible.
 
 Android permite comunicar el número de ciclos desde Android 14 mediante BatteryManager, pero que el dato aparezca o no depende por completo del fabricante. Unos pocos móviles recientes lo muestran en Ajustes. La mayoría no. Los métodos siguientes están ordenados según la cantidad de dispositivos en los que funcionan, empezando por los que también sirven para modelos antiguos.

@@ -5,10 +5,11 @@ listSummary: "Du er nede på 18 %, batteriikonet er rødt, og oversigten over se
 hub: "myths"
 sourceNumber: 146
 order: 2
-tags: ["myter","fakta","android","batteri","myteaflivning"]
+tags: ["myter", "fakta", "android", "batteri", "myteaflivning"]
 locale: "da"
 draft: false
 ---
+
 Det sparer faktisk ikke batteri.
 
 ## Svaret er stadig nej

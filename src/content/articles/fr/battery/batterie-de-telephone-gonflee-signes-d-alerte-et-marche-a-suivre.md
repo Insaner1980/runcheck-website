@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 16
 order: 6
 subgroup: "Health"
-tags: ["batterie","etat","diagnostic","android","guide"]
+tags: ["batterie", "etat", "diagnostic", "android", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Prenez cela comme un signal d’arrêt. Le gonflement d’une batterie de téléphone n’est pas un problème de performances. La batterie est endommagée et doit être manipulée avec précaution.
 
 **Méta-description :** Une batterie de téléphone gonflée peut présenter un risque d’incendie si elle est endommagée ou mal manipulée. Apprenez à reconnaître les signes d’alerte, les gestes à éviter et la bonne façon de faire réparer ou recycler l’appareil.

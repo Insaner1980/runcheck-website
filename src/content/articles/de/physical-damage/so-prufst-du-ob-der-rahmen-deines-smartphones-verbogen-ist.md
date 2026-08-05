@@ -5,10 +5,11 @@ listSummary: "hardware, schaden und reparatur"
 hub: "physical-damage"
 sourceNumber: 135
 order: 5
-tags: ["hardware","schaden","reparatur","android","fehlerbehebung"]
+tags: ["hardware", "schaden", "reparatur", "android", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+
 ---
 
 Der erste Hinweis ist meist unspektakulär. Eine Hülle sitzt nicht mehr bündig. Eine Displayschutzfolie löst sich immer wieder an derselben Ecke. Das Smartphone wackelt auf dem Tisch, obwohl die Rückseite normal aussieht.

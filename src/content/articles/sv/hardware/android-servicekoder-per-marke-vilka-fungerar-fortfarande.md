@@ -5,10 +5,11 @@ listSummary: "diagnostik, sensorer och android"
 hub: "hardware"
 sourceNumber: 113
 order: 10
-tags: ["diagnostik","sensorer","android","hårdvara","guide"]
+tags: ["diagnostik", "sensorer", "android", "hårdvara", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Servicekoder för Android är användbara, men de är röriga. Vissa ingår i Android, andra läggs till av tillverkaren och några försvinner efter en firmwareuppdatering utan någon förvarning.
 
 Det spelar större roll nu när Android 17 har släppts. Google gjorde versionen tillgänglig först för de flesta Pixel-enheter som stöds, medan Samsung, Xiaomi, OnePlus, Motorola och andra märken levererar sina egna Android 17-versioner senare. Att en kod fungerar på en Pixel med Android 17 säger därför inget säkert om en Galaxy- eller Redmi-telefon som ännu inte har fått tillverkarens Android 17-firmware.

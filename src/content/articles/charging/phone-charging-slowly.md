@@ -5,9 +5,10 @@ listSummary: "Slow charging troubleshooting"
 hub: "charging"
 sourceNumber: 47
 order: 11
-tags: ["charging","battery","android","guide","hardware"]
+tags: ["charging", "battery", "android", "guide", "hardware"]
 draft: false
 ---
+
 Your phone says it needs three hours to reach full. Yesterday it needed one. The charger looks the same, the cable looks the same, and nothing obvious changed.
 
 Slow charging is annoying because the cause is often boring: a weak adapter, a damaged cable, pocket lint, heat, or an app burning power while the charger is trying to fill the battery. Start with those before assuming the battery is dying.

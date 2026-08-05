@@ -5,10 +5,11 @@ listSummary: "Das Zurücksetzen der App-Einstellungen klingt, als würde dabei e
 hub: "software"
 sourceNumber: 128
 order: 10
-tags: ["sicherheit","schadsoftware","android","datenschutz","ratgeber"]
+tags: ["sicherheit", "schadsoftware", "android", "datenschutz", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Der Haken ist der schlechte Name. Die Funktion setzt nicht deine Apps zurück. Sie setzt die systemweiten Entscheidungen rund um Berechtigungen, Standard-Apps, Benachrichtigungen, Hintergrundverhalten und deaktivierte Apps zurück. Fotos, Nachrichten, Dateien, gespeicherte Konten und App-Daten bleiben erhalten.
 
 ## Was zurückgesetzt wird

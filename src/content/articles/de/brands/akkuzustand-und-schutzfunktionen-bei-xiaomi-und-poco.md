@@ -5,10 +5,11 @@ listSummary: "Der Akkuzustand ist bei Xiaomi weiterhin uneinheitlich."
 hub: "brands"
 sourceNumber: 155
 order: 3
-tags: ["akku","zustand","diagnose","android","ratgeber"]
+tags: ["akku", "zustand", "diagnose", "android", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Android 17 räumt dieses Durcheinander nicht automatisch auf. Google veröffentlichte Android 17 zuerst für die meisten unterstützten Pixel-Geräte. Selbst wenn ein Xiaomi-, Redmi- oder POCO-Modell künftig eine darauf basierende HyperOS-Version erhält, entscheidet Xiaomi weiterhin, was auf dem jeweiligen Modell und in der jeweiligen Region in den Einstellungen erscheint.
 
 Lies diesen Text deshalb nicht als einen allgemeingültigen Xiaomi-Pfad, sondern als Checkliste.

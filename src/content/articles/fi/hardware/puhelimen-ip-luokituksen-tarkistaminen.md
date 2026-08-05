@@ -5,10 +5,11 @@ listSummary: "diagnostiikka, anturit ja android"
 hub: "hardware"
 sourceNumber: 116
 order: 13
-tags: ["diagnostiikka","anturit","android","laitteisto","opas"]
+tags: ["diagnostiikka", "anturit", "android", "laitteisto", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Vedenkestävä ei ole sama asia kuin vesitiivis, vaikka tekniset tiedot kuulostaisivat kuinka vakuuttavilta.
 
 Puhelimella joko on IP-luokitus tai ei ole. Sitä ei voi testata jälkikäteen sovelluksella, numerokoodilla tai piilotetulla Android-asetuksella.

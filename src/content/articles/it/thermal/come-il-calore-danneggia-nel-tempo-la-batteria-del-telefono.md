@@ -5,10 +5,12 @@ listSummary: "Il calore accelera l'invecchiamento delle batterie agli ioni di li
 hub: "thermal"
 sourceNumber: 62
 order: 10
-tags: ["temperatura","termico","android","risoluzione-dei-problemi","hardware"]
+tags:
+  ["temperatura", "termico", "android", "risoluzione-dei-problemi", "hardware"]
 locale: "it"
 draft: false
 ---
+
 Il calore è uno dei modi più rapidi per far invecchiare la batteria di un telefono. Non all'istante. In silenzio.
 
 Ed è proprio questo a renderlo insidioso. Una sessione di ricarica molto calda oggi, in genere, non farà smettere di funzionare il telefono domani. Il costo si manifesta mesi dopo: autonomia ridotta, ricarica più lenta, spegnimenti anticipati con il freddo oppure un valore dello stato della batteria che scende prima del previsto.

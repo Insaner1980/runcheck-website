@@ -5,10 +5,11 @@ listSummary: "Useimmat Android-käyttäjät eivät tarvitse erillistä virustorj
 hub: "software"
 sourceNumber: 126
 order: 8
-tags: ["tietoturva","haittaohjelmat","android","yksityisyys","opas"]
+tags: ["tietoturva", "haittaohjelmat", "android", "yksityisyys", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Jos asennat sovelluksia vain Google Playsta, pidät Androidin ajan tasalla etkä availe satunnaisia APK-linkkejä, Androidin sisäinen suojaus yleensä riittää. Jos asennat usein sovelluksia muista lähteistä, käytät päivitystuetta vaille jäänyttä puhelinta tai käsittelet laitteella arkaluontoisia työasioita, erillisestä tietoturvasovelluksesta voi olla hyötyä.
 
 Ero syntyy käyttötavasta, ei siitä, miltä tilanne tuntuu.

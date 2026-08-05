@@ -5,10 +5,11 @@ listSummary: "reseau, connectivite et android"
 hub: "network"
 sourceNumber: 98
 order: 9
-tags: ["reseau","connectivite","android","depannage","guide"]
+tags: ["reseau", "connectivite", "android", "depannage", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Vous essayez d'associer des écouteurs, une montre, une enceinte ou votre voiture, et Android ne voit pas l'appareil. Ou bien il indique que la connexion est établie alors que rien ne fonctionne. Le Bluetooth est comme ça. Il peut rester discret pendant des mois, puis une ancienne association se dérègle et tout paraît cassé.
 
 Commencez par les vérifications simples avant de fouiller dans les paramètres. La plupart des pannes Bluetooth ne viennent pas d'un problème profond d'Android. Il s'agit plus souvent d'une association obsolète, d'une batterie faible, d'une distance trop grande, d'interférences ou d'un accessoire qui n'est pas réellement en mode association.

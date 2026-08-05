@@ -5,10 +5,11 @@ listSummary: "hardware, pruebas y diagnostico"
 hub: "hardware"
 sourceNumber: 111
 order: 8
-tags: ["hardware","pruebas","diagnostico","android","guia"]
+tags: ["hardware", "pruebas", "diagnostico", "android", "guia"]
 locale: "es"
 draft: false
 ---
+
 ---
 
 ¿Cuánto puede decirte una pegatina diminuta sobre los daños por agua? Menos de lo que suele creerse.

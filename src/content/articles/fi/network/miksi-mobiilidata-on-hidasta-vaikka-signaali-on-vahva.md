@@ -5,10 +5,11 @@ listSummary: "Täydet signaalipalkit eivät takaa nopeaa mobiilidataa."
 hub: "network"
 sourceNumber: 97
 order: 8
-tags: ["suorituskyky","nopeus","android","optimointi","vianetsintä"]
+tags: ["suorituskyky", "nopeus", "android", "optimointi", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+
 Näytössä on täydet palkit, mutta sivu ei silti avaudu. Puhelin näyttää 5G:tä tai LTE:tä. Signaali vaikuttaa hyvältä. Mobiilidata liikkuu silti kuin tervassa.
 
 Vahva signaali todistaa oikeastaan vain yhden asian: puhelin kuulee tukiaseman riittävän hyvin. Se kertoo paljon vähemmän tukiaseman kuormasta, liittymän nopeusrajasta, häiriöistä, operaattorin reitityksestä, VPN:n lisäkuormasta tai siitä, onko puhelin parhaassa mahdollisessa verkkotilassa.

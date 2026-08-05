@@ -5,10 +5,11 @@ listSummary: "Den sidste opdatering kommer, du installerer den, og derefter sker
 hub: "software"
 sourceNumber: 121
 order: 3
-tags: ["android","opdateringer","sikkerhed","software","guide"]
+tags: ["android", "opdateringer", "sikkerhed", "software", "guide"]
 locale: "da"
 draft: false
 ---
+
 Det er netop det, der gør telefoner uden support vanskelige at vurdere. De holder ikke pludselig op med at fungere. De bliver bare lidt mere udsatte for hver måned, der går.
 
 ## Sikkerhedsrisikoen vokser med tiden

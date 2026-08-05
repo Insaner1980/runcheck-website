@@ -5,10 +5,11 @@ listSummary: "Identifiez pourquoi Android signale un stockage plein alors que de
 hub: "storage"
 sourceNumber: 87
 order: 9
-tags: ["stockage","android","nettoyage","optimisation","guide"]
+tags: ["stockage", "android", "nettoyage", "optimisation", "guide"]
 locale: "fr"
 draft: false
 ---
+
 C'est agaçant, mais pas rare. Les alertes de stockage d'Android peuvent venir de fichiers visibles, de données d'applications cachées, de corbeilles, de téléchargements interrompus, de restes de mise à jour système ou d'une base de données de stockage qui n'a pas encore été actualisée. Après une mise à jour majeure, notamment lors du déploiement d'Android 17 sur la plupart des Pixel compatibles avant les mises à jour plus larges des fabricants, ce type d'incohérence peut durer un jour ou deux pendant que le téléphone termine ses opérations.
 
 Commencez par redémarrer. Vraiment. C'est la solution la moins spectaculaire, mais elle débloque plus souvent qu'on ne le pense des tâches temporaires restées en attente.

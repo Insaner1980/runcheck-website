@@ -5,10 +5,11 @@ listSummary: "Averigua si el fallo de carga está en el cargador, el cable, el p
 hub: "charging"
 sourceNumber: 48
 order: 12
-tags: ["carga","bateria","android","guia","hardware"]
+tags: ["carga", "bateria", "android", "guia", "hardware"]
 locale: "es"
 draft: false
 ---
+
 Te queda un 2 %, conectas el móvil y no ocurre nada. No aparece el icono de carga. No vibra. No hay la menor señal de que el cable haya hecho algo.
 
 Cuando un móvil no carga, el problema suele estar en algún punto de la cadena. La electricidad debe pasar desde el enchufe al adaptador, atravesar el cable y el puerto USB-C, y llegar al circuito de carga dentro del teléfono. Basta con que falle un eslabón para que todo parezca muerto. Revisa la cadena en orden y normalmente encontrarás la pieza defectuosa en 10-15 minutos.

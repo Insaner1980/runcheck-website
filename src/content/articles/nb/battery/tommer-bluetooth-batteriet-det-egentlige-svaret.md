@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 32
 order: 22
 subgroup: "Drain"
-tags: ["batteri","myter","android","testing","fakta"]
+tags: ["batteri", "myter", "android", "testing", "fakta"]
 locale: "nb"
 draft: false
 ---
+
 Noen slår av Bluetooth hver gang de er ferdige med øreproppene, fordi de tror det sparer en halv dags batteri. Jeg skjønner tankegangen. For noen år siden var det et ganske fornuftig råd.
 
 På en moderne Android-telefon er det vanligvis ikke verdt bryet.

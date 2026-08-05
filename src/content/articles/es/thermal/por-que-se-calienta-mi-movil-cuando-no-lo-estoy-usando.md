@@ -5,10 +5,11 @@ listSummary: "bateria, estado y diagnostico"
 hub: "thermal"
 sourceNumber: 57
 order: 5
-tags: ["bateria","estado","diagnostico","android","guia"]
+tags: ["bateria", "estado", "diagnostico", "android", "guia"]
 locale: "es"
 draft: false
 ---
+
 Un móvil bloqueado y colocado boca arriba sobre una mesa no debería parecer que ha estado ejecutando un juego dentro de tu bolsillo. Un poco de calor es normal. Si está realmente caliente mientras permanece inactivo, normalmente significa que algo sigue trabajando.
 
 ## Empieza por las comprobaciones sencillas

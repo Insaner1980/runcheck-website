@@ -5,10 +5,11 @@ listSummary: "Metabeskrivelse: Slår ikke Android-telefonen seg på, eller sitte
 hub: "performance"
 sourceNumber: 75
 order: 12
-tags: ["runcheck","seo","android","artikkel","guide"]
+tags: ["runcheck", "seo", "android", "artikkel", "guide"]
 locale: "nb"
 draft: false
 ---
+
 ---
 
 Noen kobler en telefon til laderen, ser ingenting, trykker fem ganger på av/på-knappen og antar at den er død. Noen ganger stemmer det. Oftere er batteriet helt utladet, programvaren har fryst mens skjermen er av, eller skjermen har sviktet selv om resten av telefonen fortsatt kjører.

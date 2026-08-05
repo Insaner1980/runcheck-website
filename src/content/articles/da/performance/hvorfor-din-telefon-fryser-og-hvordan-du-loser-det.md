@@ -5,10 +5,11 @@ listSummary: "Fryser din Android-telefon eller holder den op med at reagere?"
 hub: "performance"
 sourceNumber: 73
 order: 10
-tags: ["ydeevne","hastighed","android","optimering","fejlfinding"]
+tags: ["ydeevne", "hastighed", "android", "optimering", "fejlfinding"]
 locale: "da"
 draft: false
 ---
+
 ---
 
 Du trykker på skærmen, men intet bevæger sig. Appen er stadig synlig, uret kan være gået i stå, og selv tilbagebevægelsen gør ingenting. Telefonen er frosset.

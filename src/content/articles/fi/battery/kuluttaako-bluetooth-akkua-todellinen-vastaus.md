@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 32
 order: 22
 subgroup: "Virrankulutus"
-tags: ["akku","myytit","android","testaus","faktat"]
+tags: ["akku", "myytit", "android", "testaus", "faktat"]
 locale: "fi"
 draft: false
 ---
+
 Joku laittaa Bluetoothin pois päältä aina, kun lopettaa nappikuulokkeiden käytön, koska uskoo säästävänsä puoli päivää akkua. Ymmärrän ajatuksen. Se oli ihan kelvollinen neuvo vuosia sitten.
 
 Nykyaikaisessa Android-puhelimessa Bluetoothin jatkuva pois kytkeminen ei yleensä ole vaivan arvoista.

@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 25
 order: 15
 subgroup: "Drain"
-tags: ["batteri","strømforbrug","fejlfinding","android","ydeevne"]
+tags: ["batteri", "strømforbrug", "fejlfinding", "android", "ydeevne"]
 locale: "da"
 draft: false
 ---
+
 Skjult batteriafladning handler mest om at finde det, der holder telefonen vågen, mens skærmen er slukket.
 
 ## Begynd med den kedelige skærm

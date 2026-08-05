@@ -5,10 +5,11 @@ listSummary: "Votre téléphone Android se fige ou ne répond plus ?"
 hub: "performance"
 sourceNumber: 73
 order: 10
-tags: ["performances","vitesse","android","optimisation","depannage"]
+tags: ["performances", "vitesse", "android", "optimisation", "depannage"]
 locale: "fr"
 draft: false
 ---
+
 ---
 
 Vous touchez l'écran et rien ne bouge. L'application reste affichée, l'horloge peut être bloquée et même le geste de retour ne répond plus. Le téléphone est figé.

@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 23
 order: 13
 subgroup: "Drain"
-tags: ["batterie","consommation","depannage","android","performances"]
+tags: ["batterie", "consommation", "depannage", "android", "performances"]
 locale: "fr"
 draft: false
 ---
+
 Sur un téléphone Android en bon état, une perte nocturne de 2 à 5 % n'a rien d'inquiétant. L'appareil maintient sa connexion mobile, écoute les notifications, synchronise certaines données de compte et exécute de petites tâches de maintenance. Lorsque la perte dépasse 10 % nuit après nuit, cessez de la considérer comme une simple activité de fond.
 
 ## Commencez par l'écran de la batterie

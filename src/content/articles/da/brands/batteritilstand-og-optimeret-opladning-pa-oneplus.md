@@ -5,10 +5,11 @@ listSummary: "batteri, tilstand og diagnostik"
 hub: "brands"
 sourceNumber: 156
 order: 4
-tags: ["batteri","tilstand","diagnostik","android","guide"]
+tags: ["batteri", "tilstand", "diagnostik", "android", "guide"]
 locale: "da"
 draft: false
 ---
+
 Hurtigopladning er ikke automatisk skadelig. Varme er den egentlige fjende. En OnePlus-telefon, der oplader med 80 W eller 100 W, mens du spiller, navigerer eller streamer, kan udsætte batteriet for stor belastning, hvis softwaren ikke håndterer det ordentligt.
 
 En bemærkning om tidspunktet: Android 17 er nu udgivet og kom først til de fleste understøttede Pixel-telefoner. OnePlus-enheder får senere OxygenOS-opdateringer baseret på Android 17, og batterifunktionerne kan stadig variere efter model, område og OTA-version. Gå ikke ud fra, at en indstilling findes, før du kan se den på din egen telefon.

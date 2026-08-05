@@ -5,10 +5,11 @@ listSummary: "Samsung continua a rendere lo stato della batteria più complicato
 hub: "brands"
 sourceNumber: 153
 order: 1
-tags: ["batteria","stato","diagnostica","android","guida"]
+tags: ["batteria", "stato", "diagnostica", "android", "guida"]
 locale: "it"
 draft: false
 ---
+
 L'incertezza è proprio il punto. Un Galaxy S25 con una versione recente di One UI può mostrare la percentuale di stato della batteria e il numero di cicli nelle Impostazioni. Un Galaxy S23 con un aggiornamento apparentemente simile potrebbe non farlo. Android 17 è stato distribuito prima sulla maggior parte dei Pixel supportati. Samsung ha avviato a maggio 2026 la beta di One UI 9, basata su Android 17, per la serie Galaxy S26 in alcuni mercati; la distribuzione stabile sugli altri Galaxy seguirà il calendario di Samsung. E sarà comunque Samsung a decidere quali dati della batteria mostrare.
 
 Questi sono i controlli che vale la pena usare e quelli che sembrano utili, ma dicono ben poco.

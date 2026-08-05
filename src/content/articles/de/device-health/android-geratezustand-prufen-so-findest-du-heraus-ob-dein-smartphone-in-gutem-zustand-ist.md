@@ -9,6 +9,7 @@ tags: []
 locale: "de"
 draft: false
 ---
+
 Eine Zustandsprüfung erkennt solche Trends früh. Sie hilft bei der Fehlersuche, vor dem Verkauf eines Smartphones oder einfach dann, wenn du wissen möchtest, ob sich das Gerät wirklich langsamer anfühlt oder ob der Eindruck täuscht.
 
 ---

@@ -5,10 +5,11 @@ listSummary: "laden, akku und android"
 hub: "charging"
 sourceNumber: 42
 order: 6
-tags: ["laden","akku","android","ratgeber","hardware"]
+tags: ["laden", "akku", "android", "ratgeber", "hardware"]
 locale: "de"
 draft: false
 ---
+
 Du steckst das Smartphone um 23 Uhr an, wachst um 7 Uhr auf, und der Akku lag stundenlang bei 100 %. Das fühlt sich falsch an, vor allem weil alte Akku-Ratschläge einfach nicht verschwinden wollen.
 
 Früher ging es um die Angst vor dem Überladen. Das ist heute nicht mehr das eigentliche Problem. Entscheidend ist vielmehr, wie lange der Akku voll bleibt.

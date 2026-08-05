@@ -5,10 +5,11 @@ listSummary: "suorituskyky, nopeus ja android"
 hub: "performance"
 sourceNumber: 72
 order: 9
-tags: ["suorituskyky","nopeus","android","optimointi","vianetsintä"]
+tags: ["suorituskyky", "nopeus", "android", "optimointi", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+
 Kolme vuotta vanha Galaxy A -sarjan puhelin voi tuntua hitaammalta kuin se oikeasti on, koska jokainen napautus odottaa pienen animaation valmistumista. Avaa sovellus, palaa takaisin, vaihda näkymää, vedä pika-asetukset alas. Pienet viiveet kasaantuvat.
 
 Animaatioiden vähentäminen ei nopeuta CPU:ta. Se ei paranna yhteyttä, tallennustilan nopeutta tai akun kuntoa. Se vain poistaa osan toimintojen välisestä odottelusta, ja usein juuri se saa vanhemman puhelimen tuntumaan paremmalta.

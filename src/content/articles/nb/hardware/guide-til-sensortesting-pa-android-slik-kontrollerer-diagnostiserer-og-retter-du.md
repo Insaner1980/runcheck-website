@@ -5,10 +5,11 @@ listSummary: "maskinvare, testing og diagnostikk"
 hub: "hardware"
 sourceNumber: 105
 order: 2
-tags: ["maskinvare","testing","diagnostikk","android","guide"]
+tags: ["maskinvare", "testing", "diagnostikk", "android", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Android-telefoner bruker en blanding av bevegelses-, miljø-, posisjons- og nærhetssensorer. Noen er fysiske brikker. Andre er «virtuelle» sensorer som beregnes fra flere brikker samtidig. Når én kilde gir støy, blokkeres eller deaktiveres, kan symptomet dukke opp et helt annet sted.
 
 Begynn enkelt. Du trenger ikke root, ADB eller en laboratoriebenk til den første testrunden.

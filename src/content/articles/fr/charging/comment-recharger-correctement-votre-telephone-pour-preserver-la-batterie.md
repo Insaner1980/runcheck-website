@@ -5,10 +5,11 @@ listSummary: "Vos habitudes de recharge influencent la durée de vie de la batte
 hub: "charging"
 sourceNumber: 38
 order: 2
-tags: ["recharge","batterie","android","guide","materiel"]
+tags: ["recharge", "batterie", "android", "guide", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 La meilleure habitude de recharge est assez banale : gardez le téléphone au frais, évitez de le laisser à 100 % pendant des heures et ne le déchargez pas complètement chaque jour. Voilà l'essentiel. Le reste relève des détails.
 
 Cela ne signifie pas que vous devez surveiller constamment le pourcentage ou débrancher le téléphone à la seconde où il atteint 80 %. Un téléphone est un outil, pas un échantillon de laboratoire. Les batteries lithium-ion vieillissent toutefois plus vite dans quelques situations prévisibles, et votre routine peut soit ajouter du stress, soit le limiter.

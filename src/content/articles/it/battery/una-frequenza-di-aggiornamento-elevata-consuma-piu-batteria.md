@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 30
 order: 20
 subgroup: "Consumo della batteria"
-tags: ["batteria","miti","android","test","dati"]
+tags: ["batteria", "miti", "android", "test", "dati"]
 locale: "it"
 draft: false
 ---
+
 Il consiglio comune è disattivare i 120 Hz se vuoi risparmiare batteria. È vero solo a metà.
 
 Una frequenza di aggiornamento elevata può consumare più energia dei 60 Hz, ma non tutti i telefoni a 120 Hz pagano lo stesso prezzo. Su un modello vecchio o economico con pannello ad alta frequenza fissa, i 120 Hz possono ridurre chiaramente l'autonomia. Su un telefono più recente con frequenza variabile, il costo è spesso molto più basso perché lo schermo non resta a 120 Hz per tutta la giornata. Sale durante lo scorrimento e le animazioni, poi scende quando l'immagine è statica.

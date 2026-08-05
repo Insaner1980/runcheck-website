@@ -9,6 +9,7 @@ tags: []
 locale: "sv"
 draft: false
 ---
+
 En hälsokontroll gör att sådana förändringar upptäcks tidigare. Den är användbar när du felsöker ett visst problem, förbereder en telefon för försäljning eller bara vill veta om känslan av att den blivit långsam stämmer.
 
 ---

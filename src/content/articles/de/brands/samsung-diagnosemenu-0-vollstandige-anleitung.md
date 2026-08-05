@@ -5,10 +5,11 @@ listSummary: "Du gibst #0# in die Samsung Telefon App ein, und die normale Wähl
 hub: "brands"
 sourceNumber: 160
 order: 8
-tags: ["hersteller","android","diagnose","markenspezifisch","ratgeber"]
+tags: ["hersteller", "android", "diagnose", "markenspezifisch", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Wenn es funktioniert, wirkt es fast zu einfach. Wenn nicht, kann es erstaunlich frustrierend sein, weil Samsung dieses Menü nicht wie eine normale Verbraucherfunktion behandelt. Betrachte es als systemnahes Servicemenü, das auf vielen Galaxy-Geräten funktioniert, aber nicht auf jedem Modell, Provider-Build oder in jeder Region garantiert verfügbar ist.
 
 ## Bevor du den Code ausprobierst
@@ -85,4 +86,4 @@ Ist `*#0*#` blockiert, verschwende keine Stunde mit der Wähltastatur. Führe st
 
 ---
 
-*Meta-Beschreibung: Der Samsung-Code `*#0*#` kann ein verstecktes Galaxy-Diagnosemenü für Display, Touchscreen, Sensoren, Kameras, Lautsprecher und Vibration öffnen. Hier erfährst du, was es prüft und welche Alternative du nutzen kannst, wenn der Code blockiert ist.*
+_Meta-Beschreibung: Der Samsung-Code `*#0*#` kann ein verstecktes Galaxy-Diagnosemenü für Display, Touchscreen, Sensoren, Kameras, Lautsprecher und Vibration öffnen. Hier erfährst du, was es prüft und welche Alternative du nutzen kannst, wenn der Code blockiert ist._

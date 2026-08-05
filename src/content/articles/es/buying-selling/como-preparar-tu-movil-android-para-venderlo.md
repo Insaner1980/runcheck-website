@@ -5,10 +5,11 @@ listSummary: "El orden importa."
 hub: "buying-selling"
 sourceNumber: 5
 order: 3
-tags: ["guia-de-compra","android","comparacion","valor","guia"]
+tags: ["guia-de-compra", "android", "comparacion", "valor", "guia"]
 locale: "es"
 draft: false
 ---
+
 ## Haz una copia de seguridad antes que nada
 
 Google guarda automáticamente contactos, calendarios, datos de aplicaciones y ajustes del dispositivo si la copia de seguridad está activada. En Android actual, compruébalo en Ajustes > Google > Todos los servicios > Copia de seguridad y toca Crear copia de seguridad para forzar una sincronización. La ruta puede variar ligeramente según el fabricante.
@@ -18,7 +19,6 @@ Las fotos y los vídeos necesitan una comprobación aparte. Si utilizas Google F
 Las aplicaciones de autenticación son lo que más se olvida. Google Authenticator, Microsoft Authenticator y Authy guardan códigos de verificación en dos pasos de los que dependen muchas cuentas. Transfiérelos al nuevo dispositivo o expórtalos antes de borrar el móvil. Perder los códigos de 2FA puede dejarte sin acceso a la banca, el correo electrónico y las cuentas de trabajo. Recuperarlos puede exigir varios días y una verificación de identidad con cada servicio.
 
 WhatsApp, Signal y Telegram utilizan sistemas de copia propios, separados de la copia de Google. Guarda las conversaciones desde cada aplicación.
-
 
 ## Quita todas las cuentas
 
@@ -30,7 +30,6 @@ Comprueba también Localizador de Google y las funciones de localización del fa
 
 Si el móvil utiliza una eSIM, elimina el perfil. El restablecimiento de fábrica no siempre borra los datos de la eSIM, y un perfil que siga presente puede complicar la activación del operador para el comprador.
 
-
 ## Restablece el móvil
 
 En Android estándar, busca la opción Restablecer el estado de fábrica dentro del apartado Sistema de Ajustes. El nombre exacto cambia entre fabricantes. En Samsung, la ruta habitual es Ajustes > Administración general > Restablecer > Restablecer valores de fábrica.
@@ -38,7 +37,6 @@ En Android estándar, busca la opción Restablecer el estado de fábrica dentro 
 El móvil se reiniciará y mostrará la pantalla de configuración inicial. No avances. Déjalo en la pantalla de bienvenida o de selección de idioma. Así el comprador puede comprobar que no quedan cuentas vinculadas y que FRP no está activo. Si durante la configuración se solicita una cuenta de Google utilizada anteriormente en el dispositivo, la cuenta no se eliminó correctamente. Inicia sesión, quítala y vuelve a restablecer el móvil.
 
 Los móviles Android modernos utilizan cifrado de forma predeterminada. Android 7.0 y versiones posteriores admiten cifrado basado en archivos, y los dispositivos lanzados con Android 10 o una versión posterior están obligados a utilizarlo. En un teléfono moderno correctamente cifrado, el restablecimiento elimina las claves y los datos de cuenta necesarios para leer los archivos anteriores. Para una venta normal, eso hace que la información antigua sea prácticamente irrecuperable y suele ser suficiente.
-
 
 ## Limpia y documenta el estado
 
@@ -48,11 +46,9 @@ Haz fotos claras de los cuatro lados, de la pantalla encendida en la configuraci
 
 Un estado de la batería superior al 85 % es un argumento de venta. Indícalo en el anuncio.
 
-
 ## Actualiza el software antes de restablecerlo (opcional, pero recomendable)
 
 Si tienes tiempo, instala todas las actualizaciones disponibles antes del restablecimiento. Quien compra suele preferir un móvil con la versión más reciente de Android disponible para ese modelo, y así evita una descarga larga durante la configuración. También demuestra que el dispositivo todavía recibe actualizaciones y que no se ha quedado bloqueado en una versión antigua.
-
 
 ## Fija el precio
 
@@ -61,7 +57,6 @@ Comprueba por cuánto se ha vendido realmente el mismo modelo en un estado parec
 Los móviles que todavía reciben actualizaciones de software se venden por más que modelos idénticos cuyo soporte ya ha terminado. Un estado de la batería superior al 85 % y documentado también vale más que una afirmación sin pruebas.
 
 Pon el precio un poco por encima de tu objetivo para dejar margen de negociación.
-
 
 ## Dónde venderlo
 

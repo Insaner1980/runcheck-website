@@ -5,10 +5,11 @@ listSummary: "Kuumuus on yksi nopeimmista tavoista vanhentaa puhelimen akkua."
 hub: "thermal"
 sourceNumber: 62
 order: 10
-tags: ["lämpötila","kuumeneminen","android","vianetsintä","laitteisto"]
+tags: ["lämpötila", "kuumeneminen", "android", "vianetsintä", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 Juuri se tekee asiasta hankalan. Yksi kuuma latauskerta tänään ei yleensä riko puhelinta huomenna. Seuraukset näkyvät kuukausien päästä lyhyempänä akkukestona, hitaampana latauksena, aikaisempina sammumisina kylmässä tai odotettua nopeammin laskevana akun kuntolukemana.
 
 Litiumioniakut kuluvat riippumatta siitä, mitä teet. Hyvät tavat eivät pysäytä vanhenemista. Ne vain estävät sinua nopeuttamasta sitä.
@@ -89,4 +90,4 @@ Akun vaihto palauttaa kapasiteettia ja vähentää akusta johtuvaa sisäistä va
 
 ---
 
-*Metakuvaus: Kuumuus nopeuttaa litiumioniakun vanhenemista etenkin latauksen ja korkean varaustason aikana. Näin kenno muuttuu ja nämä tavat vähentävät pitkäaikaista kulumista.*
+_Metakuvaus: Kuumuus nopeuttaa litiumioniakun vanhenemista etenkin latauksen ja korkean varaustason aikana. Näin kenno muuttuu ja nämä tavat vähentävät pitkäaikaista kulumista._

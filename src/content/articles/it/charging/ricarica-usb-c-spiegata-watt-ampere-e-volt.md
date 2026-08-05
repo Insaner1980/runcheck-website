@@ -5,10 +5,11 @@ listSummary: "Cosa significano watt, ampere e volt nella ricarica di uno smartph
 hub: "charging"
 sourceNumber: 46
 order: 10
-tags: ["ricarica","batteria","android","guida","hardware"]
+tags: ["ricarica", "batteria", "android", "guida", "hardware"]
 locale: "it"
 draft: false
 ---
+
 I watt sono il dato che conta. Volt e ampere spiegano come il caricabatterie raggiunge quella potenza, ma i watt indicano quanta energia può fornire.
 
 Un caricabatterie che eroga 9 V a 2 A fornisce 18 W. Uno che eroga 20 V a 3 A fornisce 60 W. Il calcolo è semplice: volt per ampere uguale watt.

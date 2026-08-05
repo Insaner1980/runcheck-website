@@ -6,10 +6,11 @@ listSummary: "Olet ostamassa käytettyä puhelinta tai oma puhelimesi ei ole nä
 hub: "software"
 sourceNumber: 122
 order: 4
-tags: ["android","päivitykset","tietoturva","ohjelmisto","opas"]
+tags: ["android", "päivitykset", "tietoturva", "ohjelmisto", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Avaa useimmissa Android-puhelimissa Asetukset-sovelluksen Tietoja puhelimesta -sivu ja etsi kohta Androidin tietoturvapäivitys tai Android security patch level. Päivämäärä näyttää esimerkiksi tältä: 2026-06-05.
 
 ## Mistä tietoturvapäivityksen päivämäärä löytyy

@@ -5,9 +5,10 @@ listSummary: "Upgrade timing signs"
 hub: "buying-selling"
 sourceNumber: 143
 order: 7
-tags: ["buying-guide","android","comparison","value","guide"]
+tags: ["buying-guide", "android", "comparison", "value", "guide"]
 draft: false
 ---
+
 That delay doesn't make your phone obsolete. The real upgrade question is simpler: is it still secure, usable, and worth repairing?
 
 ## Security updates are the real deadline

@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 30
 order: 20
 subgroup: "Drain"
-tags: ["bateria","mitos","android","pruebas","datos"]
+tags: ["bateria", "mitos", "android", "pruebas", "datos"]
 locale: "es"
 draft: false
 ---
+
 El consejo habitual es desactivar los 120 Hz si te preocupa la batería. Es cierto a medias.
 
 Una frecuencia de actualización alta puede consumir más batería que 60 Hz, pero no todos los móviles de 120 Hz pagan el mismo precio. En un teléfono antiguo o económico con un panel de frecuencia fija, 120 Hz puede reducir claramente la autonomía. En un móvil más reciente con frecuencia variable, el coste suele ser mucho menor porque la pantalla no permanece a 120 Hz durante todo el día. Sube al desplazarte o durante las animaciones y baja cuando la imagen está quieta.

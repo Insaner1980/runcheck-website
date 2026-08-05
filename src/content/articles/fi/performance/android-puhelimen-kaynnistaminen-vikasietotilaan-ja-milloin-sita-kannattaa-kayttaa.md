@@ -6,10 +6,11 @@ listSummary: "akku, virrankulutus ja vianetsintä"
 hub: "performance"
 sourceNumber: 70
 order: 7
-tags: ["akku","virrankulutus","vianetsintä","android","suorituskyky"]
+tags: ["akku", "virrankulutus", "vianetsintä", "android", "suorituskyky"]
 locale: "fi"
 draft: false
 ---
+
 Mistä tiedät, johtuuko puhelimen hitaus Androidin tilapäisestä ongelmasta vai yhdestä taustalla kaiken sotkevasta sovelluksesta? Vikasietotila on selkein tapa ottaa siitä selvää.
 
 Vikasietotilassa Android käynnistyy vain järjestelmäohjelmiston ja valmiiksi asennettujen sovellusten kanssa. Myöhemmin asentamasi sovellukset poistetaan käytöstä, kunnes käynnistät puhelimen normaalisti uudelleen. Mitään ei poisteta. Tarkoitus on rajata syytä: jos ongelma katoaa vikasietotilassa, mukana on todennäköisesti kolmannen osapuolen sovellus. Jos ongelma jatkuu, syytä kannattaa etsiä Androidista, tallennustilasta, akusta tai laitteistosta.

@@ -6,9 +6,10 @@ hub: "battery"
 sourceNumber: 29
 order: 19
 subgroup: "Drain"
-tags: ["battery","myths","android","testing","facts"]
+tags: ["battery", "myths", "android", "testing", "facts"]
 draft: false
 ---
+
 Does dark mode save battery, or is it just one of those Android tips that gets repeated forever? The honest answer is: it depends on the screen.
 
 On OLED phones, including AMOLED, dark mode can save battery. On LCD phones, it barely matters. That's the whole divide. Android 17, One UI, Pixel UI, ColorOS, HyperOS, and other Android skins can change where the setting lives, but they don't change how the display hardware works.

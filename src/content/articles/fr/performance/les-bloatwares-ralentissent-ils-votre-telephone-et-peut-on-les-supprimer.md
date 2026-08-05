@@ -5,10 +5,11 @@ listSummary: "performances, vitesse et android"
 hub: "performance"
 sourceNumber: 78
 order: 15
-tags: ["performances","vitesse","android","optimisation","depannage"]
+tags: ["performances", "vitesse", "android", "optimisation", "depannage"]
 locale: "fr"
 draft: false
 ---
+
 ---
 
 Les bloatwares sont accusés de ralentir presque tous les téléphones Android, mais la réalité est moins spectaculaire. Une application préinstallée ne ralentit pas l'appareil simplement parce que son icône existe. Le problème commence lorsqu'elle fonctionne en arrière-plan, réveille le téléphone, envoie des notifications, se met à jour ou maintient des services actifs alors que vous ne lui avez rien demandé.

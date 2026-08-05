@@ -5,10 +5,11 @@ listSummary: "hardware, pruebas y diagnostico"
 hub: "physical-damage"
 sourceNumber: 137
 order: 7
-tags: ["hardware","pruebas","diagnostico","android","guia"]
+tags: ["hardware", "pruebas", "diagnostico", "android", "guia"]
 locale: "es"
 draft: false
 ---
+
 ---
 
 ¿Qué deberías usar realmente para limpiar un móvil: agua, toallitas con alcohol, un espray para pantallas o lo que haya a mano en la cocina?

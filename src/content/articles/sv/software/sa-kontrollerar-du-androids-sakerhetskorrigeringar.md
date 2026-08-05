@@ -6,10 +6,11 @@ listSummary: "Kontrollera säkerhetsuppdateringens datum och om en nyare uppdate
 hub: "software"
 sourceNumber: 122
 order: 4
-tags: ["android","uppdateringar","säkerhet","programvara","guide"]
+tags: ["android", "uppdateringar", "säkerhet", "programvara", "guide"]
 locale: "sv"
 draft: false
 ---
+
 På de flesta Android-telefoner öppnar du sidan Om telefonen i Inställningar och letar efter säkerhetsuppdateringar för Android eller Androids säkerhetskorrigeringsnivå. Datumet ser ut ungefär så här: 2026-06-05.
 
 ## Var du hittar datumet

@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 35
 order: 25
 subgroup: "Virrankulutus"
-tags: ["akku","virrankulutus","vianetsintä","android","suorituskyky"]
+tags: ["akku", "virrankulutus", "vianetsintä", "android", "suorituskyky"]
 locale: "fi"
 draft: false
 ---
+
 Nukut. Puhelimen näyttö on sammutettu. Mitään ei toisteta tai ladata, mutta akku menettää yön aikana silti 18 %.
 
 Wake lockit voivat aiheuttaa juuri tällaista kulutusta. Wake lock -pyyntö pitää osan laitteesta hereillä tilanteessa, jossa Android muuten antaisi sen nukkua. Tavallisin akkuongelma on osittainen wake lock, joka pitää suorittimen käynnissä näytön pysyessä sammutettuna.

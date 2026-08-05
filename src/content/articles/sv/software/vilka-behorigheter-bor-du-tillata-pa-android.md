@@ -5,10 +5,11 @@ listSummary: "android, behörigheter och integritet"
 hub: "software"
 sourceNumber: 127
 order: 9
-tags: ["android","behörigheter","integritet","säkerhet","guide"]
+tags: ["android", "behörigheter", "integritet", "säkerhet", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Att en kameraapp vill använda kameran är rimligt. Att en ficklampa vill läsa kontakterna är det inte. De flesta beslut om behörigheter är inte mer komplicerade än så.
 
 Problemet är tidpunkten. Appar frågar när du försöker få något gjort, och då blir Tillåt den snabba knappen. Det är så olämpliga behörigheter samlas på hög.

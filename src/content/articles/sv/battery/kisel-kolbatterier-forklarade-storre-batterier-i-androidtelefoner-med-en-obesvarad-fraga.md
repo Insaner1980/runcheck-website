@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 20
 order: 10
 subgroup: "Health"
-tags: ["batteriteknik","vetenskap","guide","hårdvara"]
+tags: ["batteriteknik", "vetenskap", "guide", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 Förklaringen är kisel-kolteknik, ofta kallad silicon-carbon. Det är fortfarande litiumjon, men anoden har förändrats.
 
 ## Vad som har förändrats i anoden

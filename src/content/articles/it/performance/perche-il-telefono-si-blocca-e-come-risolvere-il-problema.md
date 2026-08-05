@@ -5,10 +5,18 @@ listSummary: "Il telefono Android si blocca o non risponde?"
 hub: "performance"
 sourceNumber: 73
 order: 10
-tags: ["prestazioni","velocita","android","ottimizzazione","risoluzione-dei-problemi"]
+tags:
+  [
+    "prestazioni",
+    "velocita",
+    "android",
+    "ottimizzazione",
+    "risoluzione-dei-problemi",
+  ]
 locale: "it"
 draft: false
 ---
+
 ---
 
 Tocchi lo schermo e non si muove nulla. L'app è ancora visibile, l'orologio può essere fermo e neppure il gesto Indietro risponde. Il telefono si è bloccato.

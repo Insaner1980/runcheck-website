@@ -5,10 +5,11 @@ listSummary: "carga, bateria y android"
 hub: "charging"
 sourceNumber: 45
 order: 9
-tags: ["carga","bateria","android","guia","hardware"]
+tags: ["carga", "bateria", "android", "guia", "hardware"]
 locale: "es"
 draft: false
 ---
+
 Conectas el cargador de la mesilla y el móvil indica Carga rápida. Conectas el del escritorio y muestra lo mismo. Uno lleva la batería al 80 % antes de que termines el café. El otro no.
 
 La etiqueta no basta. Tienes que comparar lo que el móvil acepta realmente.

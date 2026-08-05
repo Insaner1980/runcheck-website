@@ -5,10 +5,11 @@ listSummary: "opladning, batteri og android"
 hub: "charging"
 sourceNumber: 52
 order: 16
-tags: ["opladning","batteri","android","guide","hardware"]
+tags: ["opladning", "batteri", "android", "guide", "hardware"]
 locale: "da"
 draft: false
 ---
+
 Du sætter telefonen til opladning, kommer tilbage 20 minutter senere og opdager, at bagsiden føles varmere end din hånd. Lidt varme er normalt. En telefon, der bliver for varm til, at du kan holde den behageligt, er ikke.
 
 Opladning skaber altid en vis mængde varme, fordi noget af den tilførte energi bliver til spildvarme i opladeren, kablet og telefonen. Hurtigopladning skaber mere. Trådløs opladning skaber som regel endnu mere. Spørgsmålet er ikke, om telefonen bliver varm. Det er, om den holder sig inden for et normalt område eller begynder at beskytte sig selv.
@@ -81,6 +82,6 @@ Gaming-kølere giver mening, hvis du spiller i lange perioder med strømmen tils
 
 ## Kan du kontrollere temperaturen?
 
-Nogle Android-telefoner viser batteritemperaturen under **Indstillinger > Batteri** eller i enhedens diagnoseværktøjer. Andre skjuler den. Opkaldskoden *#*#4636#*#* åbner en testmenu på visse telefoner, men den virker ikke overalt.
+Nogle Android-telefoner viser batteritemperaturen under **Indstillinger > Batteri** eller i enhedens diagnoseværktøjer. Andre skjuler den. Opkaldskoden _#_#4636#_#_ åbner en testmenu på visse telefoner, men den virker ikke overalt.
 
 runcheck viser batteritemperatur og termisk status i realtid under opladning. Det er nyttigt, fordi "føles varm" er subjektivt. Tal viser, om telefonen blot er lun, eller om den faktisk nærmer sig sine termiske grænser.

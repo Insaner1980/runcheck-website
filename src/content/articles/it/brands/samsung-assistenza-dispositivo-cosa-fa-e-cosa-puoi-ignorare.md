@@ -5,10 +5,11 @@ listSummary: "Stai cercando di liberare spazio prima di un viaggio."
 hub: "brands"
 sourceNumber: 157
 order: 5
-tags: ["memoria","android","pulizia","ottimizzazione","guida"]
+tags: ["memoria", "android", "pulizia", "ottimizzazione", "guida"]
 locale: "it"
 draft: false
 ---
+
 Assistenza dispositivo è utile, ma prima di tutto è un pannello di controllo e solo in secondo luogo uno strumento di ottimizzazione. Riunisce consumo della batteria, pressione sulla memoria interna, app in background, uso della RAM e controlli di sicurezza. Le funzioni migliori sono quelle specifiche, non la pulizia con un solo tocco.
 
 Anche i nomi dei menu cambiano tra le versioni di One UI. Su alcuni telefoni trovi Impostazioni > Assistenza dispositivo, su altri Impostazioni > Assistenza dispositivo e batteria. Android 17 è stato distribuito prima sulla maggior parte dei Pixel supportati, mentre i Galaxy riceveranno più avanti l'aggiornamento One UI basato su Android 17. È quindi probabile che cambino ancora alcuni testi e dettagli dell'interfaccia.

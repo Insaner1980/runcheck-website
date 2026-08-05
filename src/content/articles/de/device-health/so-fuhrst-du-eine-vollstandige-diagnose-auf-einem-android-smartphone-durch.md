@@ -5,10 +5,11 @@ listSummary: "Android hat keine einzelne Schaltfläche, die auf einmal eine voll
 hub: "device-health"
 sourceNumber: 7
 order: 3
-tags: ["android","updates","sicherheit","software","ratgeber"]
+tags: ["android", "updates", "sicherheit", "software", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 ## Der schnellste Weg: Diagnosewerkzeuge des Herstellers
 
 Viele große Android-Hersteller liefern ein eigenes Diagnosewerkzeug mit. Es ist entweder vorinstalliert oder über einen versteckten Code erreichbar. Beginne hier, bevor du etwas installierst.

@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 36
 order: 26
 subgroup: "Virrankulutus"
-tags: ["akku","optimointi","android","vinkit","suorituskyky"]
+tags: ["akku", "optimointi", "android", "vinkit", "suorituskyky"]
 locale: "fi"
 draft: false
 ---
+
 Virransäästöstä on eniten hyötyä ennen kuin akku on lähes tyhjä. Sen laittaminen päälle 8 %:ssa auttaa, mutta siinä vaiheessa suurin osa varauksesta on jo käytetty.
 
 Parempi ratkaisu riippuu tilanteesta. Ota se käyttöön, kun tiedät lataamisen olevan hankalaa: lennolla, pitkässä kokouksessa, heikon kuuluvuuden työmatkalla, ulkona vietetyn päivän aikana tai aina silloin, kun puhelimen pysyminen toimintakykyisenä on täydellistä sulavuutta tärkeämpää.

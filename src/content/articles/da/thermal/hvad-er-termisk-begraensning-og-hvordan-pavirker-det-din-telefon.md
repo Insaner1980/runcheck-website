@@ -5,10 +5,11 @@ listSummary: "temperatur, varme og android"
 hub: "thermal"
 sourceNumber: 56
 order: 4
-tags: ["temperatur","varme","android","fejlfinding","hardware"]
+tags: ["temperatur", "varme", "android", "fejlfinding", "hardware"]
 locale: "da"
 draft: false
 ---
+
 ## Hvad termisk begrænsning betyder
 
 Det er en kontrolleret nedbremsning. Telefonen kan sænke hastigheden på CPU og GPU, dæmpe skærmen, reducere opladningseffekten, begrænse radiofunktionerne eller skrue ned for anden strømkrævende adfærd for at få temperaturen ned.
@@ -103,4 +104,4 @@ En batteritilstand under 80 % er en almindelig grænse for at overveje udskiftni
 
 Telefonens termiske sikkerhedssystem er ikke din fjende. Du kan mindske begrænsningen ved at sænke belastningen, forbedre kølingen, undgå varme omgivelser og lade være med at kombinere hurtigopladning med krævende brug. Men hvis det sker under let brug, bør du ikke ignorere det. Så kan årsagen være en app, et svagt signal, opladeren eller et slidt batteri.
 
-*Metabeskrivelse: Androids indbyggede termiske begrænsning beskytter telefonen mod varme. Læs om Androids termiske niveauer, termisk spillerum, almindelige udløsere og sikre måder at reducere begrænsningen på.*
+_Metabeskrivelse: Androids indbyggede termiske begrænsning beskytter telefonen mod varme. Læs om Androids termiske niveauer, termisk spillerum, almindelige udløsere og sikre måder at reducere begrænsningen på._

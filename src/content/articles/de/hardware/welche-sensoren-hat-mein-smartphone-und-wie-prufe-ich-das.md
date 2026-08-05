@@ -5,10 +5,11 @@ listSummary: "diagnose, sensoren und android"
 hub: "hardware"
 sourceNumber: 118
 order: 15
-tags: ["diagnose","sensoren","android","hardware","ratgeber"]
+tags: ["diagnose", "sensoren", "android", "hardware", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Ein Flaggschiffmodell von 2026 kann ein Gyroskop, ein Barometer, einen Fingerabdrucksensor unter dem Display, mehrere Wake-up-Sensoren und eine ganze Reihe softwareberechneter Bewegungssensoren haben. Ein günstiges Smartphone von vor ein paar Jahren bietet vielleicht nur die Grundausstattung. Dieser Unterschied macht sich bemerkbar, wenn Bildschirmdrehung, adaptive Helligkeit, Kompassrichtung, AR-Apps oder die Aktivierung beim Anheben nicht wie erwartet funktionieren.
 
 ## Beginne mit einer Sensor-App

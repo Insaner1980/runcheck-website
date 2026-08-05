@@ -5,10 +5,11 @@ listSummary: "prestanda, hastighet och android"
 hub: "device-health"
 sourceNumber: 9
 order: 5
-tags: ["prestanda","hastighet","android","optimering","felsökning"]
+tags: ["prestanda", "hastighet", "android", "optimering", "felsökning"]
 locale: "sv"
 draft: false
 ---
+
 En bra säkerhetskopia behöver inte vara avancerad. Du behöver bara veta vad Android redan sparar, vad systemet hoppar över och vilka appar som kräver en egen säkerhetskopia innan du gör något destruktivt.
 
 ## Det här säkerhetskopierar Google automatiskt

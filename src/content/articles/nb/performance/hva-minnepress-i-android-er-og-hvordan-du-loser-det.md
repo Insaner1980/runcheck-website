@@ -5,10 +5,11 @@ listSummary: "Minnepress oppstår når Android har for lite RAM og begynner å a
 hub: "performance"
 sourceNumber: 76
 order: 13
-tags: ["ytelse","hastighet","android","optimalisering","feilsøking"]
+tags: ["ytelse", "hastighet", "android", "optimalisering", "feilsøking"]
 locale: "nb"
 draft: false
 ---
+
 ---
 
 Minnepress betyr at Android må velge hva systemet kan ofre. Når det ikke er nok RAM til alt, begynner telefonen å avslutte mindre viktige prosesser for å holde resten i gang.

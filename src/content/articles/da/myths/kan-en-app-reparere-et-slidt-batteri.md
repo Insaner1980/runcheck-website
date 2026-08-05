@@ -5,10 +5,11 @@ listSummary: "Metabeskrivelse: Ingen Android-app kan reparere et slidt batteri."
 hub: "myths"
 sourceNumber: 151
 order: 7
-tags: ["myter","fakta","android","batteri","myteaflivning"]
+tags: ["myter", "fakta", "android", "batteri", "myteaflivning"]
 locale: "da"
 draft: false
 ---
+
 Kan en batterireparationsapp virkelig genskabe tabt kapacitet? Nej. Hverken en reparationsapp, en booster, et kalibreringsværktøj eller en optimeringsapp med en flot animation kan gøre det.
 
 Batteriet er en fysisk komponent. Når kemien inde i cellen er blevet ældre, kan software ikke genskabe den kapacitet, der er gået tabt.

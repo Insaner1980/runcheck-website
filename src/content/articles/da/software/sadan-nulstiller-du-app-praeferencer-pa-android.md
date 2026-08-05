@@ -5,10 +5,11 @@ listSummary: "At nulstille app-præferencer lyder, som om noget vigtigt bliver s
 hub: "software"
 sourceNumber: 128
 order: 10
-tags: ["sikkerhed","malware","android","privatliv","guide"]
+tags: ["sikkerhed", "malware", "android", "privatliv", "guide"]
 locale: "da"
 draft: false
 ---
+
 Problemet er navnet. Funktionen nulstiller ikke dine apps. Den nulstiller telefonens apprelaterede valg omkring tilladelser, standardapps, notifikationer, baggrundsadfærd og deaktiverede apps. Dine billeder, beskeder, filer, gemte konti og appdata bliver liggende.
 
 ## Hvad den nulstiller

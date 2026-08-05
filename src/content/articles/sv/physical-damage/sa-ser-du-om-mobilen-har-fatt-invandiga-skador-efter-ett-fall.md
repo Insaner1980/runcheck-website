@@ -5,10 +5,11 @@ listSummary: "En mobil kan slå i golvet, se helt normal ut och ändå ha fått 
 hub: "physical-damage"
 sourceNumber: 132
 order: 2
-tags: ["temperatur","värme","android","felsökning","hårdvara"]
+tags: ["temperatur", "värme", "android", "felsökning", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 De flesta fall orsakar inget allvarligt. Men om mobilen börjar bete sig annorlunda efteråt ska du inte övertala dig själv att strunta i det.
 
 ## Kontrollera batteriet först

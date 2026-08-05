@@ -5,12 +5,12 @@ listSummary: "Tarkista lukitus, tilisidokset, akku ja ohjelmistotuki ennen kaupp
 hub: "buying-selling"
 sourceNumber: 6
 order: 4
-tags: ["osto-opas","android","vertailu","arvo","opas"]
+tags: ["osto-opas", "android", "vertailu", "arvo", "opas"]
 locale: "fi"
 draft: false
 ---
-Alla olevat tarkistukset ovat vakavuusjärjestyksessä. Kolme ensimmäistä ratkaisevat, kannattaako kauppa tehdä lainkaan. Loput kertovat, mitä puhelimesta on oikeasti järkevää maksaa.
 
+Alla olevat tarkistukset ovat vakavuusjärjestyksessä. Kolme ensimmäistä ratkaisevat, kannattaako kauppa tehdä lainkaan. Loput kertovat, mitä puhelimesta on oikeasti järkevää maksaa.
 
 ## Kauppa kannattaa jättää tekemättä, jos jokin näistä ei täyty
 
@@ -24,17 +24,16 @@ Factory Reset Protection (FRP) on Androidin varkaudenestolukitus. Jos edellinen 
 
 Operaattorilukitus rajoittaa sitä, minkä verkon SIM-korttia puhelimessa voi käyttää. Suomessa lukitut puhelimet ovat nykyisin harvinaisempia kuin joillakin muilla markkinoilla, mutta niitä on edelleen liikkeellä, etenkin vanhemmissa ja ulkomailta tuoduissa laitteissa. Kokeile puhelimessa eri operaattorin SIM-korttia tai tarkista yhteensopivuus omalta operaattorilta, jos laite käyttää vain eSIMiä. Jos puhelin rekisteröityy verkkoon ja sillä voi soittaa tai käyttää mobiilidataa, tilanne näyttää hyvältä. Ilmoitukset kuten "SIM not supported" tai "network locked" viittaavat yleensä lukitukseen. Lukituksen voi joskus poistaa, mutta se riippuu alkuperäisen operaattorin ehdoista ja tilinhaltijan yhteistyöstä. Lukitusta puhelimesta ei pidä maksaa lukitsemattoman laitteen hintaa.
 
-
 ## Akku vaikuttaa hintaan eniten
 
 Akun kunto vaikuttaa päivittäiseen käyttöön enemmän kuin lähes mikään muu yksittäinen asia. Se näkyy näytön käyttöajassa, lämpötilassa, lataustarpeessa ja joissakin tilanteissa myös suorituskyvyssä. Se on samalla paras perustelu hinnasta neuvottelemiseen.
 
-| Akun kunto | Mitä se tarkoittaa | Vaikutus hintaan |
-|---|---|---|
-| 90-100 % | Erinomainen, vain vähän kulumaa | Täysi pyyntihinta voi olla perusteltu |
-| 85-89 % | Normaalia käyttöä, käyttöikää hyvin jäljellä | Kohtuullinen hinta, ei yleensä suurta vähennystä |
-| 80-84 % | Kuluminen näkyy, akku voi vaatia vaihdon omistusaikana | Vähennä realistinen paikallinen akunvaihdon hinta |
-| Alle 80 % | Vaihto on todennäköisesti pian ajankohtainen | Vähennä vaihtokustannus tai harkitse toista laitetta |
+| Akun kunto | Mitä se tarkoittaa                                     | Vaikutus hintaan                                     |
+| ---------- | ------------------------------------------------------ | ---------------------------------------------------- |
+| 90-100 %   | Erinomainen, vain vähän kulumaa                        | Täysi pyyntihinta voi olla perusteltu                |
+| 85-89 %    | Normaalia käyttöä, käyttöikää hyvin jäljellä           | Kohtuullinen hinta, ei yleensä suurta vähennystä     |
+| 80-84 %    | Kuluminen näkyy, akku voi vaatia vaihdon omistusaikana | Vähennä realistinen paikallinen akunvaihdon hinta    |
+| Alle 80 %  | Vaihto on todennäköisesti pian ajankohtainen           | Vähennä vaihtokustannus tai harkitse toista laitetta |
 
 Vaihtohinta vaihtelee enemmän kuin myynti-ilmoituksista yleensä käy ilmi. Suomessa tavallisen Android-puhelimen akunvaihto maksaa mallista ja huoltoliikkeestä riippuen usein noin 70-120 euroa. Uudemman lippulaivamallin, valtuutetun huollon tai taittuvan puhelimen korjaus voi nousta selvästi korkeammaksi, jopa noin 300 euroon. Pyydä ennen ostoa tarjous juuri kyseiseen malliin ja käytä sitä hinnasta neuvotellessa yleisen arvion sijaan.
 
@@ -54,25 +53,23 @@ Jos puhelimen akun kunto on 82 %, pyyntihinta ei kerro koko kustannusta. Kun tod
 
 Jos ostaja ja myyjä haluavat yhden vertailukohdan akun, lämpötilan, verkkoyhteyden ja tallennustilan yhteiskunnolle, **runcheck** voi muodostaa tapaamisen aikana kuntopisteet. Se on yksiselitteisempi lähtökohta kuin "toimii hyvin" tai "akku on mielestäni vielä hyvä".
 
-
 ## Jäljellä oleva ohjelmistotuki
 
 Tietoturvapäivitykset ja käyttöjärjestelmätuki ratkaisevat, kuinka pitkään puhelin pysyy turvallisena ja yhteensopivana sovellusten kanssa. Tuki vaihtelee paljon valmistajan, mallin, alueen ja julkaisuvuoden mukaan.
 
-| Valmistaja | Uusien lippulaivamallien tuki | Uusien keskihintaisten mallien tuki |
-|---|---|---|
-| Google | Pixel 8 ja uudemmat: 7 vuotta käyttöjärjestelmä- ja tietoturvapäivityksiä | Pixel 8a ja uudemmat: 7 vuotta |
-| Samsung | Galaxy S24 -sarja ja uudemmat lippulaivamallit: 7 Android-sukupolvea ja 7 vuotta tietoturvapäivityksiä | Galaxy A56, A36 ja A26: 6 Android-sukupolvea ja 6 vuotta tietoturvapäivityksiä |
-| OnePlus | OnePlus 13 ja 13R: 4 suurta Android-päivitystä ja 6 vuotta tietoturvapäivityksiä | Vaihtelee mallin mukaan |
-| Motorola | Vaihtelee mallin mukaan, tarkista juuri kyseinen tuote Motorolan tukisivulta | Usein Googlea ja Samsungia lyhyempi, mutta uusissa malleissa on eroja |
-| Muut merkit | Vaihtelee | Vanhemmissa tai edullisissa malleissa usein 2-3 vuotta, kun taas uusiin EU-markkinoille tuotuihin puhelimiin vaikuttavat vuonna 2025 voimaan tulleet EU-vaatimukset |
+| Valmistaja  | Uusien lippulaivamallien tuki                                                                          | Uusien keskihintaisten mallien tuki                                                                                                                                 |
+| ----------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Google      | Pixel 8 ja uudemmat: 7 vuotta käyttöjärjestelmä- ja tietoturvapäivityksiä                              | Pixel 8a ja uudemmat: 7 vuotta                                                                                                                                      |
+| Samsung     | Galaxy S24 -sarja ja uudemmat lippulaivamallit: 7 Android-sukupolvea ja 7 vuotta tietoturvapäivityksiä | Galaxy A56, A36 ja A26: 6 Android-sukupolvea ja 6 vuotta tietoturvapäivityksiä                                                                                      |
+| OnePlus     | OnePlus 13 ja 13R: 4 suurta Android-päivitystä ja 6 vuotta tietoturvapäivityksiä                       | Vaihtelee mallin mukaan                                                                                                                                             |
+| Motorola    | Vaihtelee mallin mukaan, tarkista juuri kyseinen tuote Motorolan tukisivulta                           | Usein Googlea ja Samsungia lyhyempi, mutta uusissa malleissa on eroja                                                                                               |
+| Muut merkit | Vaihtelee                                                                                              | Vanhemmissa tai edullisissa malleissa usein 2-3 vuotta, kun taas uusiin EU-markkinoille tuotuihin puhelimiin vaikuttavat vuonna 2025 voimaan tulleet EU-vaatimukset |
 
 EU-markkinoille 20.6.2025 alkaen saatettuihin puhelinmalleihin sovelletaan ekosuunnitteluvaatimuksia, jotka nostavat vähimmäistasoa. Valmistajan on tarjottava käyttöjärjestelmäpäivityksiä vähintään viiden vuoden ajan siitä, kun mallin viimeinen yksikkö saatetaan markkinoille, ja keskeisiä varaosia on oltava saatavilla seitsemän vuotta mallin markkinoilta poistumisen jälkeen. Säännöt auttavat tulevia käytettyjen puhelinten ostajia, mutta ne eivät pidennä automaattisesti jo tuen ulkopuolelle jääneiden vanhojen mallien käyttöikää.
 
 Vähintään kaksi vuotta jäljellä olevaa tukea on turvallinen lähtökohta. Alle vuosi tarkoittaa, että puhelin lähestyy tietoturvan kannalta käyttöikänsä loppua. Osa pankki-, maksu- ja työsovelluksista voi kieltäytyä toimimasta laitteessa, joka on rootattu, jonka eheystarkistus ei läpäise vaatimuksia tai jonka ohjelmisto on liian vanha. Vaikka sovellukset vielä toimisivat, puhelin ilman tietoturvapäivityksiä ei ole hyvä paikka arkaluonteisille tileille.
 
 Tarkista Android-versio ja tietoturvapäivityksen päivämäärä Asetusten puhelintiedoista. Jos päivitys on jäljessä, kyse voi olla vain viivästyneestä jakelusta. Jos puhelin ei pysty asentamaan mallille julkaistua uusinta versiota, ongelma voi liittyä laiteohjelmistoon, alueversioon, operaattoriohjelmistoon tai päivityskanavaan.
-
 
 ## Fyysinen tarkastus
 
@@ -84,13 +81,11 @@ Vesivaurio: monissa puhelimissa on SIM-kelkan lähellä tai aukon sisällä nest
 
 Kaiuttimet, mikrofoni ja kamerat: toista ääntä suurella voimakkuudella, tallenna puhenäyte, ota kuvia etu- ja takakameroilla, kokeile tarkennusta ja kuvaa lyhyt video. Kahden minuutin tarkistus voi paljastaa vikoja, joiden löytäminen kaupan jälkeen tulee kalliiksi.
 
-
 ## EU:n korjattavuusmerkintä
 
 EU-markkinoille 20.6.2025 alkaen saatettavissa älypuhelimissa ja taulutietokoneissa on oltava uusi energiamerkintä. Siinä ilmoitetaan energiatehokkuus, akun käyttöaika latausta kohti, akun kesto lataussykleinä, pudotuskestävyyden luokka, pöly- ja vesisuojaus sekä korjattavuusluokka A-E. A on parhaiten ja E heikoimmin korjattava.
 
 Käytetyn puhelimen mukana ei välttämättä tule alkuperäistä pakkausta, eikä vanhemmilla malleilla ole tätä merkintää. Uudemman EU-markkinoille tarkoitetun mallin korjattavuusluokka kannattaa kuitenkin tarkistaa valmistajan tuotetiedoista tai EPREL-tietokannasta. Hyvä korjattavuusluokka voi tarkoittaa, että akun tai latausliitännän korjaaminen on myöhemmin helpompaa ja edullisempaa.
-
 
 ## Usein kysytyt kysymykset
 
@@ -115,7 +110,6 @@ Vain jos alennus on korjauskustannusta suurempi ja ohjelmistotukea on jäljellä
 ### Onko vanha lippulaivapuhelin parempi kuin uudempi keskihintainen malli?
 
 Joskus. Vanhassa lippulaivassa voi olla parempi kamera, näyttö, kaiuttimet ja suoritin. Uudemmassa keskihintaisessa mallissa voi olla parempikuntoinen akku, pidempi ohjelmistotuki ja edullisemmat varaosat. Käytettyä puhelinta ostettaessa jäljellä oleva tuki ja akun kunto ratkaisevat usein enemmän kuin alkuperäinen julkaisuhinta.
-
 
 ## Yhteenveto
 

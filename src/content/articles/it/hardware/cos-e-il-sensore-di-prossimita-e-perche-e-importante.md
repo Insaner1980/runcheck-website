@@ -5,10 +5,11 @@ listSummary: "Come funziona il sensore di prossimità di uno smartphone Android.
 hub: "hardware"
 sourceNumber: 117
 order: 14
-tags: ["diagnostica","sensori","android","hardware","guida"]
+tags: ["diagnostica", "sensori", "android", "hardware", "guida"]
 locale: "it"
 draft: false
 ---
+
 A metà di una chiamata, lo schermo si riaccende mentre è appoggiato al viso e la guancia apre il tastierino. Di solito è questo minuscolo sensore che non riesce più a svolgere l'unico compito di cui nessuno si accorge finché smette di funzionare.
 
 Il sensore comunica al telefono quando qualcosa si trova vicino al vetro anteriore. Durante una chiamata, quel "qualcosa" è normalmente il tuo viso. Android spegne quindi lo schermo e ignora i tocchi, così l'orecchio non diventa un accessorio per il touchscreen.

@@ -5,10 +5,11 @@ listSummary: "vergleich, apps und android"
 hub: "device-health"
 sourceNumber: 140
 order: 9
-tags: ["vergleich","apps","android","kaufratgeber","test"]
+tags: ["vergleich", "apps", "android", "kaufratgeber", "test"]
 locale: "de"
 draft: false
 ---
+
 Eine gute App zur Zustandsprüfung sagt dir, welche Daten dein Smartphone meldet, wo diese Daten unsicher sind und was du als Nächstes tatsächlich tun kannst. Eine schlechte App zeigt einen riesigen "Optimieren"-Knopf, spielt eine Animation ab und hofft, dass du auf eine Anzeige tippst.
 
 Genau dort verläuft die Grenze. Sobald du weißt, worauf du achten musst, ist sie nicht besonders subtil.

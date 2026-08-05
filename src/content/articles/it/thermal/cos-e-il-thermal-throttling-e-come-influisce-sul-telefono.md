@@ -5,10 +5,12 @@ listSummary: "Il rallentamento termico integrato in Android protegge il telefono
 hub: "thermal"
 sourceNumber: 56
 order: 4
-tags: ["temperatura","termico","android","risoluzione-dei-problemi","hardware"]
+tags:
+  ["temperatura", "termico", "android", "risoluzione-dei-problemi", "hardware"]
 locale: "it"
 draft: false
 ---
+
 Perché un telefono veloce diventa improvvisamente lento a metà di una partita, una videochiamata o una sessione con la fotocamera? Nella maggior parte dei casi si tratta di thermal throttling. Il dispositivo è caldo, quindi Android e il produttore riducono le prestazioni prima che il calore diventi un problema di sicurezza.
 
 ## Cosa significa thermal throttling

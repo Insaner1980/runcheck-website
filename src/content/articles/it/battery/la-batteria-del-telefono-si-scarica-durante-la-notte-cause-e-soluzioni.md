@@ -6,10 +6,12 @@ hub: "battery"
 sourceNumber: 23
 order: 13
 subgroup: "Consumo della batteria"
-tags: ["batteria","consumo","risoluzione-dei-problemi","android","prestazioni"]
+tags:
+  ["batteria", "consumo", "risoluzione-dei-problemi", "android", "prestazioni"]
 locale: "it"
 draft: false
 ---
+
 Su un telefono Android in buone condizioni, perdere il 2-5 % durante la notte è un risultato del tutto normale. Il dispositivo mantiene comunque la connessione mobile, resta in ascolto per le notifiche, sincronizza alcuni dati degli account ed esegue piccoli lavori di manutenzione. Quando la perdita supera il 10 % notte dopo notte, non trattarla più come normale attività in background.
 
 ## Controlla prima la schermata della batteria

@@ -5,10 +5,11 @@ listSummary: "Puhelimen tallennustila perustuu NAND-flash-muistiin."
 hub: "storage"
 sourceNumber: 89
 order: 11
-tags: ["suorituskyky","nopeus","android","optimointi","vianetsintä"]
+tags: ["suorituskyky", "nopeus", "android", "optimointi", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+
 Puhelimessa voi olla nopea SoC, runsaasti RAM-muistia ja silti tahmea käyttötuntuma, kun tallennustila on lähes täynnä. Sovellukset pysähtyvät hetkeksi ennen avautumista. Kamera tarvitsee ylimääräisen hetken kuvan tallentamiseen. Päivitykset kestävät liian kauan.
 
 Syy ei aina ole suorittimessa. Joskus pullonkaula on tallennustila.

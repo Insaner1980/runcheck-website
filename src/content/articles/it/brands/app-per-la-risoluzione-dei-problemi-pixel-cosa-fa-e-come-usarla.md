@@ -5,10 +5,11 @@ listSummary: "L'app per la risoluzione dei problemi Pixel e gli strumenti diagno
 hub: "brands"
 sourceNumber: 158
 order: 6
-tags: ["produttore","android","diagnostica","specifico-per-marca","guida"]
+tags: ["produttore", "android", "diagnostica", "specifico-per-marca", "guida"]
 locale: "it"
 draft: false
 ---
+
 Come fai a capire se un problema alla batteria del Pixel dipende dalla vera usura dell'hardware oppure da un'app troppo affamata rimasta in background? Sui Pixel recenti, Google offre più strumenti direttamente sul dispositivo di quanto molte persone immaginino. La parte scomoda è che non si trovano tutti dietro una singola icona ben visibile.
 
 Gli strumenti Pixel per la risoluzione dei problemi sono distribuiti tra Impostazioni, la nuova pagina sullo stato del dispositivo, l'app My Pixel e lo strumento separato per la diagnostica delle riparazioni. Sembra più complicato del necessario. Una volta capito dove si trova ogni funzione, però, il sistema è utile per controllare consumo della batteria, problemi di ricarica, avvisi di temperatura, difetti del touch e componenti hardware prima o dopo una riparazione, senza installare un'app di diagnostica qualsiasi.

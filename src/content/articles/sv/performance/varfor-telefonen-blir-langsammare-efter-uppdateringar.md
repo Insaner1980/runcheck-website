@@ -5,10 +5,11 @@ listSummary: "prestanda, hastighet och android"
 hub: "performance"
 sourceNumber: 68
 order: 5
-tags: ["prestanda","hastighet","android","optimering","felsökning"]
+tags: ["prestanda", "hastighet", "android", "optimering", "felsökning"]
 locale: "sv"
 draft: false
 ---
+
 Telefonen kan kännas sämre direkt efter en Android-uppdatering, utan att uppdateringen för den skull har förstört något. Det första dygnet eller två efter en större versionsuppgradering är ofta stökiga, eftersom Android bygger om saker i bakgrunden samtidigt som du försöker använda telefonen som vanligt.
 
 Det är irriterande, men också normalt.

@@ -5,10 +5,11 @@ listSummary: "hårdvara, testning och diagnostik"
 hub: "physical-damage"
 sourceNumber: 137
 order: 7
-tags: ["hårdvara","testning","diagnostik","android","guide"]
+tags: ["hårdvara", "testning", "diagnostik", "android", "guide"]
 locale: "sv"
 draft: false
 ---
+
 ---
 
 Vad ska man egentligen använda för att rengöra en telefon: vatten, alkoholservetter, skärmspray eller det som redan står på köksbänken?

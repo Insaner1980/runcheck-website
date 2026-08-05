@@ -5,9 +5,10 @@ listSummary: "Bent frame checks"
 hub: "physical-damage"
 sourceNumber: 135
 order: 5
-tags: ["hardware","damage","repair","android","troubleshooting"]
+tags: ["hardware", "damage", "repair", "android", "troubleshooting"]
 draft: false
 ---
+
 ---
 
 The first clue usually isn't dramatic. A case stops sitting flush. A screen protector keeps lifting on one corner. The phone rocks on a table even though the back looks fine.

@@ -5,10 +5,11 @@ listSummary: "La maggior parte degli smartphone Android non richiede attenzioni 
 hub: "device-health"
 sourceNumber: 8
 order: 4
-tags: ["memoria","android","pulizia","ottimizzazione","guida"]
+tags: ["memoria", "android", "pulizia", "ottimizzazione", "guida"]
 locale: "it"
 draft: false
 ---
+
 La frequenza va adattata a come usi davvero il telefono. Non serve fare ogni cosa tutti i mesi, e alcuni controlli hanno senso soltanto una o due volte l'anno.
 
 ## Ogni mese

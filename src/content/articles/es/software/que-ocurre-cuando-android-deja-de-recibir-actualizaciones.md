@@ -5,10 +5,11 @@ listSummary: "Llega la última actualización, la instalas y después no pasa na
 hub: "software"
 sourceNumber: 121
 order: 3
-tags: ["android","actualizaciones","seguridad","software","guia"]
+tags: ["android", "actualizaciones", "seguridad", "software", "guia"]
 locale: "es"
 draft: false
 ---
+
 Eso es lo complicado de los móviles sin soporte. No dejan de funcionar de repente. Simplemente quedan un poco más expuestos cada mes.
 
 ## El riesgo de seguridad aumenta con el tiempo

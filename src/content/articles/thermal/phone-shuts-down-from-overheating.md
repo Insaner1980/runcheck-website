@@ -5,9 +5,10 @@ listSummary: "Overheating shutdown response"
 hub: "thermal"
 sourceNumber: 61
 order: 9
-tags: ["temperature","thermal","android","troubleshooting","hardware"]
+tags: ["temperature", "thermal", "android", "troubleshooting", "hardware"]
 draft: false
 ---
+
 Your phone goes black, refuses to come back on, and then eventually shows a heat warning. Annoying, yes. Usually a good sign, though.
 
 A thermal shutdown means the phone protected itself. Android has thermal states that let the system reduce workload, throttle performance, slow charging, and, at the extreme end, shut the device down. The exact battery and skin-temperature limits are set by the manufacturer, so don't trust any single number as a rule for every phone.

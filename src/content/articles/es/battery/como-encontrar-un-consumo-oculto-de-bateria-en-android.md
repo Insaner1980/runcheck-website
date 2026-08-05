@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 25
 order: 15
 subgroup: "Drain"
-tags: ["bateria","consumo","solucion-de-problemas","android","rendimiento"]
+tags: ["bateria", "consumo", "solucion-de-problemas", "android", "rendimiento"]
 locale: "es"
 draft: false
 ---
+
 Encontrar un consumo oculto consiste, sobre todo, en descubrir qué mantiene despierto el móvil cuando la pantalla está apagada.
 
 ## Empieza por la pantalla aburrida

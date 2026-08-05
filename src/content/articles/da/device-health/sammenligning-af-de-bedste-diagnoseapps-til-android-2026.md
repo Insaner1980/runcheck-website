@@ -5,10 +5,11 @@ listSummary: "Sammenlign diagnoseapps efter, hvad de måler, og hvilke problemer
 hub: "device-health"
 sourceNumber: 138
 order: 7
-tags: ["sammenligning","apps","android","købsguide","anmeldelse"]
+tags: ["sammenligning", "apps", "android", "købsguide", "anmeldelse"]
 locale: "da"
 draft: false
 ---
+
 De fleste diagnoseapps til Android er ikke rigtigt diagnoseapps. De er batteriwidgets, specifikationslister, reklamefælder eller gamle "telefonrensere", som har fået sat en tilstandsscore ovenpå.
 
 De bedre apps er mere ærlige om, hvad de gør. AccuBattery følger batteriets adfærd over tid. DevCheck og AIDA64 viser hardwareoplysninger. Phone Doctor Plus kører praktiske test af komponenterne. runcheck ser på enhedens tilstand på tværs af batteri, temperatur, netværk og lagerplads i stedet for at lade ét tal fortælle hele historien.

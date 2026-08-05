@@ -5,10 +5,11 @@ listSummary: "Du kobler til en nyere OnePlus-telefon, ser bort et par minutter, 
 hub: "brands"
 sourceNumber: 156
 order: 4
-tags: ["batteri","helse","diagnostikk","android","guide"]
+tags: ["batteri", "helse", "diagnostikk", "android", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Hurtiglading er ikke automatisk skadelig. Varme er den virkelige fienden. En OnePlus-telefon som lader med 80 W eller 100 W mens du spiller, navigerer eller strømmer, kan utsette batteriet for mye belastning hvis programvaren ikke håndterer det godt.
 
 En tidsmerknad til: Android 17 er nå først ute på de fleste støttede Pixel-telefoner. OnePlus-enheter får Android 17-baserte OxygenOS-oppdateringer senere, og batterifunksjonene kan fortsatt variere etter modell, region og OTA-versjon. Ikke gå ut fra at en innstilling finnes før du faktisk ser den på telefonen.

@@ -5,10 +5,18 @@ listSummary: "Las aplicaciones de Android se cierran por motivos concretos."
 hub: "performance"
 sourceNumber: 77
 order: 14
-tags: ["rendimiento","velocidad","android","optimizacion","solucion-de-problemas"]
+tags:
+  [
+    "rendimiento",
+    "velocidad",
+    "android",
+    "optimizacion",
+    "solucion-de-problemas",
+  ]
 locale: "es"
 draft: false
 ---
+
 ---
 
 La mayoría de los cierres de aplicaciones no son aleatorios. Lo parecen porque no ves el error que los ha provocado.

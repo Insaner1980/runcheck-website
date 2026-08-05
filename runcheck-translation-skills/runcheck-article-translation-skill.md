@@ -38,8 +38,8 @@ Each batch must contain:
 
 Always use this master skill together with exactly one matching locale profile.
 
-| Locale | Profile file |
-|---|---|
+| Locale  | Profile file                            |
+| ------- | --------------------------------------- |
 | `fi-FI` | `runcheck-translation-profile-fi-FI.md` |
 | `sv-SE` | `runcheck-translation-profile-sv-SE.md` |
 | `nb-NO` | `runcheck-translation-profile-nb-NO.md` |

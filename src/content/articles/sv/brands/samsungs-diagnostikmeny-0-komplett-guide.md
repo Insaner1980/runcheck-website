@@ -5,10 +5,11 @@ listSummary: "Du skriver #0# i appen Samsung Phone och den vanliga knappsatsen f
 hub: "brands"
 sourceNumber: 160
 order: 8
-tags: ["tillverkare","android","diagnostik","märkesspecifikt","guide"]
+tags: ["tillverkare", "android", "diagnostik", "märkesspecifikt", "guide"]
 locale: "sv"
 draft: false
 ---
+
 När det fungerar känns det nästan för enkelt. När det inte fungerar kan det vara oväntat frustrerande eftersom Samsung inte presenterar menyn som en vanlig konsumentfunktion. Se den som en lågnivåmeny för service som ofta fungerar på Galaxy-telefoner, inte som en garanterad funktion på varje modell, operatörsversion eller marknad.
 
 ## Innan du provar koden
@@ -85,4 +86,4 @@ Om `*#0*#` är blockerat behöver du inte ägna en timme åt att bråka med tele
 
 ---
 
-*Metabeskrivning: Samsungs kod `*#0*#` kan öppna en dold diagnostikmeny på Galaxy-telefoner för tester av skärm, pekfunktion, sensorer, kamera, högtalare och vibration. Här ser du vad den kontrollerar och vad du kan använda när koden är blockerad.*
+_Metabeskrivning: Samsungs kod `*#0*#` kan öppna en dold diagnostikmeny på Galaxy-telefoner för tester av skärm, pekfunktion, sensorer, kamera, högtalare och vibration. Här ser du vad den kontrollerar och vad du kan använda när koden är blockerad._

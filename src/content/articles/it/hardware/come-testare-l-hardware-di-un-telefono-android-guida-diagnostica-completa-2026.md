@@ -5,10 +5,12 @@ listSummary: "Un telefono Android può sembrare in perfetto stato e avere comunq
 hub: "hardware"
 sourceNumber: 104
 order: 1
-tags: ["batteria","consumo","risoluzione-dei-problemi","android","prestazioni"]
+tags:
+  ["batteria", "consumo", "risoluzione-dei-problemi", "android", "prestazioni"]
 locale: "it"
 draft: false
 ---
+
 La buona notizia è che puoi controllare gran parte dell'hardware prima di pagare una riparazione. Android offre schermate di sistema, strumenti diagnostici dei produttori, codici da digitare nell'app Telefono e test manuali per i componenti principali. La parte scomoda è che nulla di tutto questo è davvero universale.
 
 Google ha pubblicato Android 17 il 16 giugno 2026 per la maggior parte dei Pixel supportati, mentre gli altri marchi seguono calendari propri. Questo conta perché menu diagnostici, schermate sullo stato della batteria e percorsi nelle Impostazioni cambiano in base alla versione di Android, all'interfaccia del produttore, alla configurazione dell'operatore e alla regione. Considera ogni codice di questa guida una scorciatoia, non una promessa.

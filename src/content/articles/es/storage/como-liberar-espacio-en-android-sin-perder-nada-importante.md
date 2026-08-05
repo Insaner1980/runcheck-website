@@ -5,10 +5,11 @@ listSummary: "almacenamiento, android y limpieza"
 hub: "storage"
 sourceNumber: 79
 order: 1
-tags: ["almacenamiento","android","limpieza","optimizacion","guia"]
+tags: ["almacenamiento", "android", "limpieza", "optimizacion", "guia"]
 locale: "es"
 draft: false
 ---
+
 ---
 
 Intentas hacer una foto, instalar una actualización o descargar un archivo y Android te dice que no queda espacio. La reacción de pánico es borrar fotos. No empieces por ahí.

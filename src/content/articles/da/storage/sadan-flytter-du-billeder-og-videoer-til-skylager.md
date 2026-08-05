@@ -5,10 +5,11 @@ listSummary: "Du prøver at optage én video mere, og Android siger, at der ikke
 hub: "storage"
 sourceNumber: 85
 order: 7
-tags: ["lagerplads","android","oprydning","optimering","guide"]
+tags: ["lagerplads", "android", "oprydning", "optimering", "guide"]
 locale: "da"
 draft: false
 ---
+
 Billeder er til at håndtere. Video er det virkelige problem. Få minutters 4K-optagelse kan fylde mere end flere måneders skærmbilleder, og sikkerhedskopiering i skyen hjælper først på telefonens lagerplads, når du fjerner de lokale kopier.
 
 ## Begynd med Google Photos

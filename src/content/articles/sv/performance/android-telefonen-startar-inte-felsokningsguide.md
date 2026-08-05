@@ -5,10 +5,11 @@ listSummary: "Startar inte Android-telefonen, eller har den fastnat på en svart
 hub: "performance"
 sourceNumber: 75
 order: 12
-tags: ["runcheck","seo","android","artikel","guide"]
+tags: ["runcheck", "seo", "android", "artikel", "guide"]
 locale: "sv"
 draft: false
 ---
+
 ---
 
 Någon ansluter laddaren, ser ingenting, trycker fem gånger på strömknappen och antar att telefonen är död. Ibland är den det. Oftare är batteriet helt urladdat, programvaran har frusit medan skärmen är släckt eller skärmen har gått sönder trots att telefonen fortfarande är igång.

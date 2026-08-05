@@ -5,10 +5,11 @@ listSummary: "Varför går allt trögt på telefonen när den bärbara datorn br
 hub: "network"
 sourceNumber: 91
 order: 2
-tags: ["prestanda","hastighet","android","optimering","felsökning"]
+tags: ["prestanda", "hastighet", "android", "optimering", "felsökning"]
 locale: "sv"
 draft: false
 ---
+
 Börja inte med en fabriksåterställning. Börja med fakta.
 
 ## Börja med att skilja telefonen från nätverket

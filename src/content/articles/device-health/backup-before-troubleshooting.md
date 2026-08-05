@@ -5,9 +5,10 @@ listSummary: "Backup steps before troubleshooting"
 hub: "device-health"
 sourceNumber: 9
 order: 5
-tags: ["performance","speed","android","optimization","troubleshooting"]
+tags: ["performance", "speed", "android", "optimization", "troubleshooting"]
 draft: false
 ---
+
 A good backup doesn't need to be fancy. You just need to know what Android already saves, what it skips, and which apps need their own backup before you touch anything destructive.
 
 ## What Google backs up automatically

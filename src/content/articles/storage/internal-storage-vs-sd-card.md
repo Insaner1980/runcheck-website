@@ -5,9 +5,10 @@ listSummary: "Internal vs SD storage choices"
 hub: "storage"
 sourceNumber: 86
 order: 8
-tags: ["storage","android","cleanup","optimization","guide"]
+tags: ["storage", "android", "cleanup", "optimization", "guide"]
 draft: false
 ---
+
 This matters more in 2026 because Android phone storage is split across very different hardware. Many flagships and mid-range phones have no microSD slot at all. Pixel phones don't have one, Samsung dropped it from the Galaxy S line years ago, and several current Galaxy A models skip it too. At the same time, many older Galaxy A and M phones, Motorola Moto G models, and Sony Xperia phones still support microSD.
 
 Check your exact model. Product family names are not enough.

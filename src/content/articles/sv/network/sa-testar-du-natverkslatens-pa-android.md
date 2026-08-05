@@ -5,10 +5,11 @@ listSummary: "Du sitter i ett videosamtal."
 hub: "network"
 sourceNumber: 103
 order: 14
-tags: ["nätverk","anslutningar","android","felsökning","guide"]
+tags: ["nätverk", "anslutningar", "android", "felsökning", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Latens mäts i millisekunder (ms), och lägre är bättre. Tre värden är viktigast: ping, jitter och paketförlust. Ping är tiden det tar för data att färdas från telefonen till en server och tillbaka. Jitter visar hur mycket tiden varierar mellan förfrågningarna. Paketförlust är andelen data som aldrig kommer fram.
 
 En anslutning med 100 Mbps nedladdning och 150 ms ping kan kännas sämre än en anslutning med 20 Mbps och 15 ms ping. Det låter bakvänt tills du provar onlinespel, videosamtal eller fjärrskrivbord. Hastighet flyttar data. Latens styr reaktionstiden.

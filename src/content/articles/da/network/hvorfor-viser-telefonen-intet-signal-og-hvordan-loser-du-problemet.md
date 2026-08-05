@@ -5,10 +5,11 @@ listSummary: "netværk, forbindelser og android"
 hub: "network"
 sourceNumber: 102
 order: 13
-tags: ["netværk","forbindelser","android","fejlfinding","guide"]
+tags: ["netværk", "forbindelser", "android", "fejlfinding", "guide"]
 locale: "da"
 draft: false
 ---
+
 Telefonen viser `Intet signal`, `Ingen tjeneste` eller `Kun nødopkald`, og pludselig er den dyre lille computer i hånden reduceret til et kamera med Wi-Fi. Irriterende, men ikke altid alvorligt.
 
 Tricket er at skelne mellem tre mulige årsager: telefonen, SIM- eller eSIM-kortet og mobilselskabets netværk. Gætteri spilder tid. Hvis du tester dem i den rigtige rækkefølge, finder du som regel ud af, hvor fejlen ligger.

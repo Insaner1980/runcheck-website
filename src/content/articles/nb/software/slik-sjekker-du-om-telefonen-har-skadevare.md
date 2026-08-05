@@ -5,10 +5,11 @@ listSummary: "Du bruker telefonen som vanlig."
 hub: "software"
 sourceNumber: 125
 order: 7
-tags: ["android","skadevare","sikkerhet","feilsøking","guide"]
+tags: ["android", "skadevare", "sikkerhet", "feilsøking", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Det beviser ikke at telefonen har skadevare. Telefoner kan også oppføre seg merkelig når lagringsplassen er full, en app har låst seg eller en oppdatering har gått galt. Men slike symptomer er verdt å undersøke.
 
 Begynn med de kjedelige forklaringene. Se deretter etter skadevare.

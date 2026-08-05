@@ -5,10 +5,11 @@ listSummary: "Metadescripción: Usar el móvil mientras se carga es seguro con u
 hub: "charging"
 sourceNumber: 41
 order: 5
-tags: ["carga","bateria","android","guia","hardware"]
+tags: ["carga", "bateria", "android", "guia", "hardware"]
 locale: "es"
 draft: false
 ---
+
 Estás jugando, la batería está al 12 % y tienes el cargador al lado. Lo conectas y sigues. El móvil se calienta, baja la tasa de fotogramas y empiezas a preguntarte si acabas de hacerle algo terrible a la batería.
 
 Probablemente no. Pero sí has creado justo la combinación de calor que peor llevan las baterías.

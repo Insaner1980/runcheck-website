@@ -5,10 +5,11 @@ listSummary: "lading, batteri og android"
 hub: "charging"
 sourceNumber: 45
 order: 9
-tags: ["lading","batteri","android","guide","maskinvare"]
+tags: ["lading", "batteri", "android", "guide", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 Du kobler til laderen ved sengen, og telefonen viser «Hurtiglading». Du kobler til laderen ved skrivebordet, og den viser det samme. Den ene får telefonen til 80 % før kaffen er ferdig. Den andre gjør ikke det.
 
 Teksten er ikke nok. Du må sammenligne hva telefonen faktisk tar imot.

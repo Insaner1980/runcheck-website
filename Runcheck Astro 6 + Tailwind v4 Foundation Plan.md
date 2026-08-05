@@ -1,6 +1,7 @@
 # Runcheck Astro 6 + Tailwind v4 Foundation Plan
 
 ## Summary
+
 - Scaffold `C:\Dev\runcheck-website` as a new static Astro site using the minimal template, TypeScript, Tailwind v4, content collections, sitemap, and Cloudflare Pages-compatible `dist` output.
 - Keep the visible shell minimal: real `Header`/`Footer`, article index/detail pages, and placeholder-only `Hero`, `Features`, `Pricing`, `FAQ`, and `CTA` sections.
 - Verified current local/runtime facts: folder is empty, not a git repo, Node is `v24.15.0`, npm is `11.13.0`.
@@ -8,6 +9,7 @@
 - Official docs checked: [Astro install](https://docs.astro.build/en/install-and-setup/), [deprecated Astro Tailwind integration note](https://docs.astro.build/en/guides/integrations-guide/tailwind/), [Tailwind Astro guide](https://tailwindcss.com/docs/installation/framework-guides/astro), [Tailwind `@theme`](https://tailwindcss.com/docs/theme), [Astro content collections](https://docs.astro.build/en/guides/content-collections/), [Astro sitemap](https://docs.astro.build/en/guides/integrations-guide/sitemap/), [Cloudflare Pages Astro guide](https://developers.cloudflare.com/pages/framework-guides/deploy-an-astro-site/).
 
 ## Implementation Changes
+
 - Scaffold with the verified command form:
   `npm create astro@latest -- -- . --template minimal --yes --install --no-git --skip-houston`
 - Add integrations and pin exact versions:
@@ -21,6 +23,7 @@
 - Avoid scoped CSS and avoid `@apply`; if a future scoped style needs `@apply`, it must start with `@reference "tailwindcss";`.
 
 ## File And Interface Plan
+
 - `src/layouts/BaseLayout.astro`: owns `Header`, `<slot />`, and `Footer`; imports global CSS and fonts; requires `title` and `description` props, accepts optional `canonicalPath` and `ogType`; emits charset, viewport, canonical, sitemap link, Open Graph, and Twitter meta.
 - `src/components/Header.astro`: wordmark/logo, nav links `/#features`, `/#pricing`, `/articles/`, and Download CTA to `/#download`; responsive via Tailwind only.
 - `src/components/Footer.astro`: simple footer with wordmark, article/home links, and current year.
@@ -36,6 +39,7 @@
 - Memory update: because this introduces architecture, add one ad-hoc memory note under `C:\Users\emmah\.codex\memories\extensions\ad_hoc\notes\...`; do not edit `MEMORY.md` directly.
 
 ## Verification Plan
+
 - Before installing, re-run `npm view` for the listed packages; if newer latest versions exist, use the newer exact versions and record them.
 - Run `npm run build`; expected result: Astro builds static output to `dist`, including `sitemap-index.xml`, article pages, and `robots.txt`.
 - Start dev server with `npm run dev -- --host 127.0.0.1`; if port `4321` is busy, rerun with `--port 4322`.
@@ -43,6 +47,7 @@
 - Final implementation report must list created files, pinned versions, dev server URL, and any uncertainty. Expected uncertainty after this plan: none; canonical domain is locked to `https://runcheckapp.com`.
 
 ## Assumptions
+
 - Canonical production domain is `https://runcheckapp.com`.
 - No git initialization or commit is required unless separately requested; if committed later, use a Finnish commit message.
 - Placeholder section content is intentionally minimal and not a marketing design pass.

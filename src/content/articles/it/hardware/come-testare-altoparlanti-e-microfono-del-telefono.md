@@ -5,10 +5,11 @@ listSummary: "La maggior parte dei problemi audio non dipende da un altoparlante
 hub: "hardware"
 sourceNumber: 107
 order: 4
-tags: ["hardware","test","diagnostica","android","guida"]
+tags: ["hardware", "test", "diagnostica", "android", "guida"]
 locale: "it"
 draft: false
 ---
+
 Il problema resta fastidioso. Se chi ti chiama non ti sente o l'altoparlante gracchia già a metà volume, devi comunque capire quale componente non funziona.
 
 ## Capisci quale componente audio stai testando

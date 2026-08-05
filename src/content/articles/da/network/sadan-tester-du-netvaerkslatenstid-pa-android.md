@@ -5,10 +5,11 @@ listSummary: "netværk, forbindelser og android"
 hub: "network"
 sourceNumber: 103
 order: 14
-tags: ["netværk","forbindelser","android","fejlfinding","guide"]
+tags: ["netværk", "forbindelser", "android", "fejlfinding", "guide"]
 locale: "da"
 draft: false
 ---
+
 Latenstid måles i millisekunder (ms). Lavere er bedre. Tre tal er særligt vigtige: ping, jitter og pakketab. Ping er den tid, det tager for data at rejse fra telefonen til en server og tilbage. Jitter viser, hvor meget denne tid svinger mellem målingerne. Pakketab er den andel af dataene, der aldrig når frem.
 
 En forbindelse med 100 Mbps download og 150 ms ping kan føles dårligere end en forbindelse med 20 Mbps og 15 ms ping. Det virker bagvendt, indtil du prøver onlinespil, videoopkald eller fjernskrivebord. Hastighed flytter data. Latenstid styrer reaktionstiden.

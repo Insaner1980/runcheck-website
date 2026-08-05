@@ -5,10 +5,11 @@ listSummary: "hardware, test og diagnostik"
 hub: "hardware"
 sourceNumber: 110
 order: 7
-tags: ["hardware","test","diagnostik","android","guide"]
+tags: ["hardware", "test", "diagnostik", "android", "guide"]
 locale: "da"
 draft: false
 ---
+
 ---
 
 Det bliver lettere at teste et kamera, når du holder op med at tænke på megapixels. En sensor på 50 MP kan stadig tage dårlige billeder, hvis objektivet er snavset, autofokus er defekt, eller kameramodulet er blevet slået en smule ud af position.

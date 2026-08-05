@@ -5,10 +5,11 @@ listSummary: "De fleste advarsler om mobilgaming retter sig mod den forkerte del
 hub: "thermal"
 sourceNumber: 55
 order: 3
-tags: ["sammenligning","apps","android","købsguide","anmeldelse"]
+tags: ["sammenligning", "apps", "android", "købsguide", "anmeldelse"]
 locale: "da"
 draft: false
 ---
+
 ## Hardwaren kan klare spil
 
 Moderne SoC'er til telefoner er bygget til både korte perioder med høj belastning og lange, krævende sessioner. De kører spil, optager video, behandler billeder, driver skærme med høj opdateringshastighed og skifter mellem ydelsesniveauer tusindvis af gange om dagen. Hvis et spil presser chippen for hårdt, begrænser Android ydeevnen, før siliciumchippen når usikre grænser.
@@ -89,4 +90,4 @@ En diagnoseapp kan bekræfte det, du mærker. runcheck er nyttig her, fordi appe
 
 Gaming skader normalt ikke telefonen direkte. Det skaber varme, og varme får batteriet til at ældes hurtigere. Spil uden oplader, når du kan, sænk billedhastigheden, før telefonen bliver varm, undgå hurtigopladning under sessionerne, og hold op med at behandle termisk begrænsning som noget, der skal besejres. Den er der for at beskytte telefonen.
 
-*Metabeskrivelse: Gaming på Android skader normalt ikke CPU eller GPU, men gentagen varme fra lange sessioner, hurtigopladning og høj lysstyrke kan få batteriet til at ældes hurtigere.*
+_Metabeskrivelse: Gaming på Android skader normalt ikke CPU eller GPU, men gentagen varme fra lange sessioner, hurtigopladning og høj lysstyrke kan få batteriet til at ældes hurtigere._

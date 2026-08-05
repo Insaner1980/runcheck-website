@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 17
 order: 7
 subgroup: "Health"
-tags: ["batteri","hälsa","diagnostik","android","guide"]
+tags: ["batteri", "hälsa", "diagnostik", "android", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Skillnaden spelar roll. Ett nytt batteri löser inte problemet med en app som löper amok. Att radera appar reparerar inte en cell som inte längre kan leverera tillräckligt med effekt.
 
 **Metabeskrivning:** Snabb batteriförbrukning betyder inte alltid att mobilbatteriet behöver bytas. Lär dig känna igen verkligt batterislitage, vad du bör utesluta först och hur du kontrollerar batterihälsan på Android.

@@ -5,10 +5,11 @@ listSummary: "Metabeskrivelse: Gamle downloads optager stille og roligt plads p�
 hub: "storage"
 sourceNumber: 88
 order: 10
-tags: ["lagerplads","android","oprydning","optimering","guide"]
+tags: ["lagerplads", "android", "oprydning", "optimering", "guide"]
 locale: "da"
 draft: false
 ---
+
 Du åbner en PDF-fil én gang, downloader en APK-fil for at teste noget, gemmer en ZIP-fil fra en browser og glemmer derefter det hele. Seks måneder senere er mappen Downloads fuld af filer, du ikke kan genkende.
 
 Det er normalt. Android placerer mange engangsfiler der, og de fleste betragter ikke pladsen som noget, der kræver vedligeholdelse. Det gør den.

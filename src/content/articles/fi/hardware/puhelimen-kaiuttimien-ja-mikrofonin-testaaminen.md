@@ -5,10 +5,11 @@ listSummary: "Useimmat puhelimen ääniongelmat eivät johdu kuolleesta kaiuttim
 hub: "hardware"
 sourceNumber: 107
 order: 4
-tags: ["laitteisto","testaus","diagnostiikka","android","opas"]
+tags: ["laitteisto", "testaus", "diagnostiikka", "android", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Se ei tee ongelmasta vähemmän ärsyttävää. Jos soittajat eivät kuule sinua tai kaiutin särisee jo puolella äänenvoimakkuudella, sinun pitää silti selvittää, mikä osa temppuilee.
 
 ## Tiedä, mitä ääniosaa testaat

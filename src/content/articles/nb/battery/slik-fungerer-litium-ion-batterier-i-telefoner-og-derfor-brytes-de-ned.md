@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 19
 order: 9
 subgroup: "Health"
-tags: ["batteriteknologi","vitenskap","guide","maskinvare"]
+tags: ["batteriteknologi", "vitenskap", "guide", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 Når du forstår det grunnleggende, blir de vanlige rådene mindre mystiske. 20-80-regelen, advarslene mot varme og grunnen til at gamle telefoner slår seg av for tidlig, kommer fra samme sted: litiumioner som beveger seg gjennom en celle som forandrer seg litt hver gang du bruker den.
 
 ## Den grunnleggende cellen

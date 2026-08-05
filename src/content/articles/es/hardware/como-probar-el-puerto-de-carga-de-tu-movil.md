@@ -5,10 +5,11 @@ listSummary: "carga, bateria y android"
 hub: "hardware"
 sourceNumber: 108
 order: 5
-tags: ["carga","bateria","android","guia","hardware"]
+tags: ["carga", "bateria", "android", "guia", "hardware"]
 locale: "es"
 draft: false
 ---
+
 ---
 
 Tienes que sujetar el cable en un ángulo extraño, el icono de carga aparece y desaparece, y el móvil solo carga si permanece completamente quieto. Es fácil pensar que el puerto está averiado, pero no empieces por ahí.

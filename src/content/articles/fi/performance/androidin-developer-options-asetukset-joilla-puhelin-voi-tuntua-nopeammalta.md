@@ -6,10 +6,11 @@ listSummary: "suorituskyky, nopeus ja android"
 hub: "performance"
 sourceNumber: 69
 order: 6
-tags: ["suorituskyky","nopeus","android","optimointi","vianetsintä"]
+tags: ["suorituskyky", "nopeus", "android", "optimointi", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+
 Developer Options ei ole salainen turbotila. Suurin osa valikosta on tarkoitettu sovellusten testaamiseen, virheenkorjaukseen ja visuaaliseen diagnostiikkaan. Muutama asetus voi saada Android-puhelimen tuntumaan nopeammalta. Monista ei ole tavallisessa käytössä hyötyä, ja osa voi tehdä puhelimesta huonomman.
 
 Hyödyllinen osuus on pieni, mikä on hyvä asia. Sinun ei tarvitse koskea kahteenkymmeneen valintaan. Useimmille paras kokonaisuus on animaatioasteikkojen asettaminen arvoon 0.5x, mahdollisesti välimuistissa olevien sovellusten jäädyttäminen, jos puhelin tarjoaa asetuksen, ja kaiken muun jättäminen rauhaan.

@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 15
 order: 5
 subgroup: "Health"
-tags: ["batterie","etat","diagnostic","android","guide"]
+tags: ["batterie", "etat", "diagnostic", "android", "guide"]
 locale: "fr"
 draft: false
 ---
+
 La plupart des conseils sur l'étalonnage viennent d'anciennes technologies de batterie et de mythes répétés sur les forums. Sur un téléphone Android moderne, l'étalonnage n'améliore pas l'autonomie. Il ne répare pas une batterie usée et ne fait pas remonter un état de 82 % à 95 %.
 
 Il peut parfois corriger un pourcentage de charge erroné.

@@ -5,9 +5,10 @@ listSummary: "APK cleanup safety"
 hub: "storage"
 sourceNumber: 84
 order: 6
-tags: ["storage","android","cleanup","optimization","guide"]
+tags: ["storage", "android", "cleanup", "optimization", "guide"]
 draft: false
 ---
+
 APK stands for Android Package Kit. It is one of the package formats Android uses to install apps. The important part for cleanup is this: the APK file you can see in Downloads is not the app that runs on your phone. It is the installer.
 
 Once the app is installed, deleting the leftover APK does not uninstall the app and does not erase its settings.

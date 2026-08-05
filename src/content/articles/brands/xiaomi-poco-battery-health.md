@@ -5,9 +5,10 @@ listSummary: "Xiaomi and POCO battery settings"
 hub: "brands"
 sourceNumber: 155
 order: 3
-tags: ["battery","health","diagnostics","android","guide"]
+tags: ["battery", "health", "diagnostics", "android", "guide"]
 draft: false
 ---
+
 Android 17 doesn't clean this up by itself. Google released Android 17 first for most supported Pixel phones, while Xiaomi, Redmi, and POCO devices will receive Android 17-based HyperOS builds later. Even then, Xiaomi decides what appears in Settings on each model and region.
 
 So don't read this as one universal Xiaomi path. Read it as a checklist.

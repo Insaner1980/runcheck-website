@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 18
 order: 8
 subgroup: "Health"
-tags: ["akku","zustand","diagnose","android","ratgeber"]
+tags: ["akku", "zustand", "diagnose", "android", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Der Akkuzustand schätzt, wie viel Ladung die Zelle im Vergleich zum Neuzustand noch speichern kann. Ein Akku mit 5.000 mAh verhält sich bei 80 % Akkuzustand eher wie ein Akku mit 4.000 mAh. Das Smartphone funktioniert weiterhin. Dem Akku fehlen aber Reserven für Kälte, intensive Kameranutzung, Spiele, Navigation oder Gebiete mit schwachem Signal.
 
 Dann beginnt das merkwürdige Verhalten.
@@ -46,7 +47,7 @@ Bei anderen Android-Smartphones prüfst du zuerst den Akku-Bereich der Einstellu
 
 Apps wie AccuBattery können trotzdem nützlich sein, aber betrachte den ersten Tag als Rauschen. Solche Apps schätzen die Kapazität, indem sie Lade- und Entladeverhalten über längere Zeit beobachten. Gib ihnen mehrere Ladevorgänge, bevor du der Zahl vertraust.
 
-Der Wählcode *#*#4636#*#* öffnet manchmal ein Testmenü mit Akkuinformationen. Manchmal passiert gar nichts. Diese Uneinheitlichkeit ist bei herstellerspezifischen Android-Versionen normal.
+Der Wählcode _#_#4636#_#_ öffnet manchmal ein Testmenü mit Akkuinformationen. Manchmal passiert gar nichts. Diese Uneinheitlichkeit ist bei herstellerspezifischen Android-Versionen normal.
 
 ## Austauschen, anpassen oder aufrüsten
 

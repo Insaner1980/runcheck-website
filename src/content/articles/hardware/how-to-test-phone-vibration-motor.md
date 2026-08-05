@@ -5,9 +5,10 @@ listSummary: "Vibration motor tests"
 hub: "hardware"
 sourceNumber: 109
 order: 6
-tags: ["hardware","testing","diagnostics","android","guide"]
+tags: ["hardware", "testing", "diagnostics", "android", "guide"]
 draft: false
 ---
+
 ---
 
 A silent phone doesn't automatically mean the vibration motor is dead. Most vibration problems come from settings first, software second, and hardware last.

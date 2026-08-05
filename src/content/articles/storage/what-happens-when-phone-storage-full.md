@@ -5,9 +5,10 @@ listSummary: "Full storage consequences"
 hub: "storage"
 sourceNumber: 81
 order: 3
-tags: ["performance","speed","android","optimization","troubleshooting"]
+tags: ["performance", "speed", "android", "optimization", "troubleshooting"]
 draft: false
 ---
+
 ---
 
 When Android storage is full, the phone doesn't fail gracefully. It gets weird first.

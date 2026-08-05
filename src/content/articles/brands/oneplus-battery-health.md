@@ -5,9 +5,10 @@ listSummary: "OnePlus battery settings"
 hub: "brands"
 sourceNumber: 156
 order: 4
-tags: ["battery","health","diagnostics","android","guide"]
+tags: ["battery", "health", "diagnostics", "android", "guide"]
 draft: false
 ---
+
 Fast charging is not automatically bad. Heat is the real enemy. A OnePlus phone that charges at 80W or 100W while you're gaming, navigating, or streaming can create a lot of battery stress unless the software manages it well.
 
 One more timing note: Android 17 is now out first on most supported Pixel phones. OnePlus devices will get Android 17-based OxygenOS updates later, and battery features can still differ by model, region, and OTA build. Don't assume a setting exists until you see it on your own phone.

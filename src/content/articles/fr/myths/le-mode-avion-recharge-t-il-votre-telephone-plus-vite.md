@@ -5,10 +5,11 @@ listSummary: "recharge, batterie et android"
 hub: "myths"
 sourceNumber: 148
 order: 4
-tags: ["recharge","batterie","android","guide","materiel"]
+tags: ["recharge", "batterie", "android", "guide", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 Vous branchez votre téléphone à 12 %, regardez l'heure et commencez à chercher une astuce. Le mode Avion est l'une des rares astuces qui ont un effet réel, mais il ne fait pas de miracle.
 
 Il aide parce que le téléphone consomme moins d'énergie pendant la recharge. Si le réseau mobile, le Wi-Fi, le Bluetooth, les notifications et la synchronisation en arrière-plan utilisent moins de puissance, une part un peu plus grande de ce que fournit le chargeur peut aller à la batterie. Le gain reste généralement faible. Avec un chargeur rapide moderne, vous le remarquerez à peine. Avec un ancien adaptateur de 5 W, un port USB d'ordinateur portable ou une batterie externe, la différence peut être visible.

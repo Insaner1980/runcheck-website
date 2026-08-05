@@ -5,10 +5,11 @@ listSummary: "Die Temperatur eines Smartphones hängt von Umgebung, Akkutemperat
 hub: "thermal"
 sourceNumber: 59
 order: 7
-tags: ["temperatur","warme","android","fehlerbehebung","hardware"]
+tags: ["temperatur", "warme", "android", "fehlerbehebung", "hardware"]
 locale: "de"
 draft: false
 ---
+
 Wie heiß ist zu heiß? Die etwas lästige Antwort lautet: Es hängt davon ab, welche Temperatur du misst.
 
 Die Umgebungsluft hat einen Wert. Die Außenseite des Smartphones hat einen anderen. Der Akkusensor liefert noch einmal einen eigenen Wert, und dieser ist für die Alterung des Akkus besonders wichtig. Ein Smartphone kann sich in deiner Hand nur leicht warm anfühlen, obwohl Akku oder SoC bereits heiß genug sind, damit Android die Leistung reduziert.

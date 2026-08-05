@@ -1,15 +1,16 @@
 ---
 title: "Vilka appar drar mest batteri på Android"
-description: "De flesta listor över \"appar som drar batteri\" låter alltför säkra. Telefonen bryr sig inte om vilken app som toppade en rankning i någon annans testmiljö. Den bryr sig om vad du har installerat, vilka behörigheter apparna har fått, hur ofta de öppnas och om de fortsätter arbeta när skärmen släcks."
-listSummary: "De flesta listor över \"appar som drar batteri\" låter alltför säkra."
+description: 'De flesta listor över "appar som drar batteri" låter alltför säkra. Telefonen bryr sig inte om vilken app som toppade en rankning i någon annans testmiljö. Den bryr sig om vad du har installerat, vilka behörigheter apparna har fått, hur ofta de öppnas och om de fortsätter arbeta när skärmen släcks.'
+listSummary: 'De flesta listor över "appar som drar batteri" låter alltför säkra.'
 hub: "battery"
 sourceNumber: 24
 order: 14
 subgroup: "Drain"
-tags: ["batteri","batteriförbrukning","felsökning","android","prestanda"]
+tags: ["batteri", "batteriförbrukning", "felsökning", "android", "prestanda"]
 locale: "sv"
 draft: false
 ---
+
 Med det sagt återkommer samma kategorier gång på gång.
 
 ## Apptyperna som oftast ligger nära toppen

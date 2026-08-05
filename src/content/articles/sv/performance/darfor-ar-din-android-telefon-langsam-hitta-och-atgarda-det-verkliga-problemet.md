@@ -5,10 +5,11 @@ listSummary: "Din Android-telefon är långsammare än förr, och du inbillar di
 hub: "performance"
 sourceNumber: 64
 order: 1
-tags: ["prestanda","hastighet","android","optimering","felsökning"]
+tags: ["prestanda", "hastighet", "android", "optimering", "felsökning"]
 locale: "sv"
 draft: false
 ---
+
 Det betyder inte automatiskt att telefonen är förbrukad. De flesta prestandaproblem kommer från några orsaker som går att kontrollera: lite ledigt lagringsutrymme, tunga bakgrundsappar, minnesbrist, värme, batterislitage eller en enda dålig app efter en uppdatering.
 
 ## Den snabba checklistan

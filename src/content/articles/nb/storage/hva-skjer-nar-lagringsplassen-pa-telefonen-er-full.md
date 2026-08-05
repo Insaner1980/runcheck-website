@@ -5,10 +5,11 @@ listSummary: "ytelse, hastighet og android"
 hub: "storage"
 sourceNumber: 81
 order: 3
-tags: ["ytelse","hastighet","android","optimalisering","feilsøking"]
+tags: ["ytelse", "hastighet", "android", "optimalisering", "feilsøking"]
 locale: "nb"
 draft: false
 ---
+
 ---
 
 Når lagringsplassen på Android-telefonen er full, svikter den ikke pent og ryddig. Først begynner den å oppføre seg merkelig.

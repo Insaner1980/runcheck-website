@@ -5,10 +5,11 @@ listSummary: "lading, batteri og android"
 hub: "charging"
 sourceNumber: 44
 order: 8
-tags: ["lading","batteri","android","guide","maskinvare"]
+tags: ["lading", "batteri", "android", "guide", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 En lader kan passe i kontakten og likevel stryke på ladetesten. USB-C forteller bare at pluggen passer. Det sier ikke om adapteren, kabelen og telefonen ble enige om hurtiglading.
 
 Android 17 endrer ikke dette grunnleggende problemet. Det finnes fortsatt ingen universell Android-skjerm som sier: «Denne laderen leverer 23,4 W akkurat nå.» Du må enten trekke en slutning eller måle ordentlig.

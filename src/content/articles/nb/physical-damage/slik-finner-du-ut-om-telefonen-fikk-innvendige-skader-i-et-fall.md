@@ -5,10 +5,11 @@ listSummary: "En telefon kan treffe gulvet, se helt normal ut og likevel ha en f
 hub: "physical-damage"
 sourceNumber: 132
 order: 2
-tags: ["temperatur","varme","android","feilsøking","maskinvare"]
+tags: ["temperatur", "varme", "android", "feilsøking", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 De fleste fall fører ikke til alvorlig skade. Men hvis telefonen oppfører seg annerledes etterpå, bør du ikke overtale deg selv til å la være å kontrollere den.
 
 ## Kontroller batteriet først

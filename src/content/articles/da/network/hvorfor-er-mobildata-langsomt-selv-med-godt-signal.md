@@ -5,10 +5,11 @@ listSummary: "Metabeskrivelse: Fuld signalstyrke er ingen garanti for hurtig mob
 hub: "network"
 sourceNumber: 97
 order: 8
-tags: ["ydeevne","hastighed","android","optimering","fejlfinding"]
+tags: ["ydeevne", "hastighed", "android", "optimering", "fejlfinding"]
 locale: "da"
 draft: false
 ---
+
 Du ser fulde signalbjælker, men siden vil stadig ikke indlæses. Telefonen viser 5G eller LTE. Signalet ser fint ud. Alligevel føles mobildata, som om det bevæger sig gennem mudder.
 
 Det skyldes, at et godt signal kun beviser én ting: Telefonen kan høre mobilmasten godt nok. Det siger langt mindre om belastningen på masten, prioriteten i dit abonnement, interferens, operatørens routing, belastningen fra en VPN eller om telefonen er forbundet til det rigtige netværkslag.

@@ -5,10 +5,11 @@ listSummary: "batterie, consommation et depannage"
 hub: "performance"
 sourceNumber: 70
 order: 7
-tags: ["batterie","consommation","depannage","android","performances"]
+tags: ["batterie", "consommation", "depannage", "android", "performances"]
 locale: "fr"
 draft: false
 ---
+
 Comment savoir si votre téléphone est lent parce qu'Android passe une mauvaise journée ou parce qu'une application perturbe tout en arrière-plan ? Le mode sans échec est le test le plus propre.
 
 Ce mode démarre Android uniquement avec le logiciel système et les applications préinstallées. Les applications que vous avez ajoutées ensuite sont désactivées jusqu'au prochain redémarrage normal. Rien n'est supprimé. Le but est d'isoler la cause : si le problème disparaît en mode sans échec, une application tierce est probablement impliquée. S'il reste présent, examinez plutôt Android, le stockage, la batterie ou le matériel.

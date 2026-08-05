@@ -5,10 +5,12 @@ listSummary: "leistung, geschwindigkeit und android"
 hub: "storage"
 sourceNumber: 81
 order: 3
-tags: ["leistung","geschwindigkeit","android","optimierung","fehlerbehebung"]
+tags:
+  ["leistung", "geschwindigkeit", "android", "optimierung", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+
 ---
 
 Wenn der Android-Speicher voll ist, fällt das Smartphone nicht einfach sauber aus. Zuerst verhält es sich merkwürdig.

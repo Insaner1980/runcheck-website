@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 33
 order: 23
 subgroup: "Virrankulutus"
-tags: ["android","päivitykset","tietoturva","ohjelmisto","opas"]
+tags: ["android", "päivitykset", "tietoturva", "ohjelmisto", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Suuri osa Android-puhelimen virrankulutuksesta syntyy silloin, kun et tee sillä mitään kiinnostavaa. Näyttö on sammutettu ja puhelin makaa pöydällä, mutta akku tyhjenee silti, koska sovellukset, radiot, anturit ja tilien synkronointi herättävät laitetta taustalla.
 
 Android 17:n jakelu alkoi kesäkuussa 2026 ensin useimmille tuetuille Pixel-laitteille. Samsung, Xiaomi, OnePlus, Motorola ja muut OEM-valmistajat julkaisevat omat Android 17 -versionsa omien aikataulujensa mukaan. Alla olevat periaatteet pätevät edelleen, mutta valikkopolku voi siirtyä yhden tason verran puhelimesta riippuen.

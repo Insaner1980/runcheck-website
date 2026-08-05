@@ -5,10 +5,11 @@ listSummary: "Signalstaplarna fungerar för en snabb blick, men de är inget mä
 hub: "network"
 sourceNumber: 93
 order: 4
-tags: ["nätverk","anslutningar","android","felsökning","guide"]
+tags: ["nätverk", "anslutningar", "android", "felsökning", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Det låter mer tekniskt än det är. dBm beskriver helt enkelt den effektnivå som telefonen tar emot från mobilnätet. Ju närmare noll värdet ligger, desto starkare är signalen. -75 dBm är alltså starkare än -95 dBm. Så enkelt är det.
 
 ## Så tolkar du dBm snabbt
@@ -19,13 +20,13 @@ Skalan är logaritmisk. Varje skillnad på 3 dBm motsvarar ungefär en fördubbl
 
 För LTE och de flesta 5G-anslutningar under 6 GHz är följande intervall användbara som tumregel:
 
-| Värde | Vad det vanligtvis betyder |
-|---|---|
-| -50 till -70 dBm | Utmärkt. Samtal och data bör vara stabila, förutsatt att basstationen inte är överbelastad. |
-| -70 till -85 dBm | Bra. Det här är normalt för hygglig täckning utomhus eller nära ett fönster. |
-| -85 till -100 dBm | Användbart, men inte särskilt bra. Webbsurfning fungerar, strömning kan buffra och uppladdningshastigheten försämras ofta först. |
-| -100 till -110 dBm | Svagt. Samtal kan brytas, meddelanden kan fördröjas och modemet använder mer ström för att hålla anslutningen. |
-| Under -110 dBm | På gränsen. Räkna med timeout, korta stunder utan tjänst eller att telefonen tvingas växla till en annan nätverkstyp. |
+| Värde              | Vad det vanligtvis betyder                                                                                                       |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| -50 till -70 dBm   | Utmärkt. Samtal och data bör vara stabila, förutsatt att basstationen inte är överbelastad.                                      |
+| -70 till -85 dBm   | Bra. Det här är normalt för hygglig täckning utomhus eller nära ett fönster.                                                     |
+| -85 till -100 dBm  | Användbart, men inte särskilt bra. Webbsurfning fungerar, strömning kan buffra och uppladdningshastigheten försämras ofta först. |
+| -100 till -110 dBm | Svagt. Samtal kan brytas, meddelanden kan fördröjas och modemet använder mer ström för att hålla anslutningen.                   |
+| Under -110 dBm     | På gränsen. Räkna med timeout, korta stunder utan tjänst eller att telefonen tvingas växla till en annan nätverkstyp.            |
 
 Det här är inga universella gränser för godkänt eller underkänt. En telefon på -95 dBm kan fungera bra om signalen är ren och basstationen har ledig kapacitet. En annan telefon på -75 dBm kan gå långsamt om cellen är överbelastad eller störningarna är kraftiga.
 

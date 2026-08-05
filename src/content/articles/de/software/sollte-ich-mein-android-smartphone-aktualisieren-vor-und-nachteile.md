@@ -1,14 +1,15 @@
 ---
 title: "Sollte ich mein Android-Smartphone aktualisieren? Vor- und Nachteile"
-description: "Viele Ratschläge zu Updates sind zu absolut. \"Immer sofort aktualisieren\" klingt ordentlich, doch große Android-Versionen können in der ersten Woche Fehler haben. \"Nie aktualisieren, weil das Smartphone langsamer werden könnte\" ist schlimmer, denn damit bleiben bekannte Sicherheitslücken offen."
+description: 'Viele Ratschläge zu Updates sind zu absolut. "Immer sofort aktualisieren" klingt ordentlich, doch große Android-Versionen können in der ersten Woche Fehler haben. "Nie aktualisieren, weil das Smartphone langsamer werden könnte" ist schlimmer, denn damit bleiben bekannte Sicherheitslücken offen.'
 listSummary: "Viele Ratschläge zu Updates sind zu absolut."
 hub: "software"
 sourceNumber: 120
 order: 2
-tags: ["android","updates","sicherheit","software","ratgeber"]
+tags: ["android", "updates", "sicherheit", "software", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Die praktische Antwort ist einfach: Installiere Sicherheitsupdates zügig. Bei großen Android-Versionsupdates solltest du vorher kurz prüfen, ob es bekannte Probleme gibt, besonders direkt nach der Veröffentlichung.
 
 Android 17 wird seit Juni 2026 zuerst für unterstützte Pixel-Smartphones verteilt. Andere Hersteller folgen nach ihren eigenen Zeitplänen, teilweise zunächst mit Betaversionen. Wenn Android 17 heute auf deinem Gerät erscheint, ist die Entscheidung daher etwas anders als bei einem normalen monatlichen Patch.

@@ -5,10 +5,11 @@ listSummary: "Lo stato della batteria sui dispositivi Xiaomi continua a essere i
 hub: "brands"
 sourceNumber: 155
 order: 3
-tags: ["batteria","stato","diagnostica","android","guida"]
+tags: ["batteria", "stato", "diagnostica", "android", "guida"]
 locale: "it"
 draft: false
 ---
+
 Android 17 non risolve da solo questa situazione. Google lo ha distribuito prima sulla maggior parte dei Pixel supportati, mentre Xiaomi, Redmi e POCO riceveranno in seguito versioni di HyperOS basate su Android 17. Anche allora sarà Xiaomi a decidere che cosa compare nelle Impostazioni di ogni modello e regione.
 
 Non leggere quindi questa guida come un unico percorso valido per tutti i dispositivi Xiaomi. Usala come lista di controlli.

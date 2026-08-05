@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 27
 order: 17
 subgroup: "Drain"
-tags: ["bateria","consumo","solucion-de-problemas","android","rendimiento"]
+tags: ["bateria", "consumo", "solucion-de-problemas", "android", "rendimiento"]
 locale: "es"
 draft: false
 ---
+
 Es habitual después de una actualización. También debería estabilizarse.
 
 ## Una nota sobre Android 17 para quienes usan un Pixel

@@ -6,9 +6,10 @@ hub: "battery"
 sourceNumber: 12
 order: 2
 subgroup: "Health"
-tags: ["battery","health","diagnostics","android","guide"]
+tags: ["battery", "health", "diagnostics", "android", "guide"]
 draft: false
 ---
+
 This number matters because lithium-ion batteries have a finite lifespan measured in cycles. Most modern phone batteries retain about 80% of their original capacity after 800 to 1,000 cycles, depending on chemistry and manufacturer. After that, daily battery life shortens noticeably.
 
 Android has supported reporting cycle count since Android 14 through the BatteryManager API, but whether the number actually appears depends entirely on the manufacturer. A handful of recent phones show it in Settings. Most don't. The methods below are ordered by how many devices they work on, starting with approaches that cover the widest range, including older models.

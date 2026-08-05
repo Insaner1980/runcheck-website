@@ -5,10 +5,11 @@ listSummary: "osto-opas, android ja vertailu"
 hub: "buying-selling"
 sourceNumber: 142
 order: 6
-tags: ["osto-opas","android","vertailu","arvo","opas"]
+tags: ["osto-opas", "android", "vertailu", "arvo", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Vielä viime kuussa puhelimen akku kesti nukkumaanmenoon asti. Nyt laturia tarvitaan jo päivällisellä. Kaikki muu toimii edelleen: kamera, näyttö, sovellukset, tallennustila ja viestit. Laite ei ole rikki. Sen akku on väsynyt.
 
 Tämä ero voi säästää paljon rahaa.

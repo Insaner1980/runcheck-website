@@ -5,9 +5,10 @@ listSummary: "Pixel Troubleshooting app guide"
 hub: "brands"
 sourceNumber: 158
 order: 6
-tags: ["manufacturer","android","diagnostics","brand-specific","guide"]
+tags: ["manufacturer", "android", "diagnostics", "brand-specific", "guide"]
 draft: false
 ---
+
 How do you tell whether a Pixel battery problem is real hardware wear or just one greedy app running in the background? On recent Pixels, Google gives you more on-device help than most people realize. The awkward part is that it doesn't all live behind one obvious app icon.
 
 Pixel's troubleshooting tools are spread across Settings, the newer health page, the My Pixel app, and the separate repair diagnostics tool. That sounds messier than it should. Once you know where each piece lives, though, the system is useful for checking battery drain, charging problems, temperature warnings, touch issues, and repair-related hardware checks without installing a random diagnostic app.

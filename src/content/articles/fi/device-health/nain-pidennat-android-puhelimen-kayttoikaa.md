@@ -5,12 +5,12 @@ listSummary: "tallennustila, android ja siivous"
 hub: "device-health"
 sourceNumber: 3
 order: 2
-tags: ["tallennustila","android","siivous","optimointi","opas"]
+tags: ["tallennustila", "android", "siivous", "optimointi", "opas"]
 locale: "fi"
 draft: false
 ---
-Lähes kaiken tämän voi estää tai ainakin siirtää myöhemmäksi.
 
+Lähes kaiken tämän voi estää tai ainakin siirtää myöhemmäksi.
 
 ## Ensimmäinen viikko: asetukset, joista on hyötyä vuosiksi
 
@@ -22,7 +22,6 @@ Ota automaattinen kuvien varmuuskopiointi käyttöön Google Kuvissa, OneDrivess
 
 Käytä suojakuorta ja näytönsuojaa. Neuvon itsestäänselvyys ei tee siitä vähemmän tärkeää. Yksi pudotus ilman suojausta voi johtaa mallista riippuen noin 160-500 euron näytönkorjaukseen, kun suojakuori ja panssarilasi maksavat yleensä vain murto-osan siitä.
 
-
 ## Päivittäiset tavat, joilla on merkitystä
 
 Haitallisin päivittäinen tapa on ladata puhelinta kuumissa oloissa. Raskas käyttö latauksen aikana, etenkin pikalatauksella, voi nostaa akun lämpötilan yli 35 °C:seen, jolloin kuluminen nopeutuu. Yöllä pöydällä tavallisella nopeudella lataaminen on akulle lempeämpää kuin nopea lisälataus pelaamisen aikana suorassa auringonpaisteessa. Yksi latauskerta ei juuri merkitse, mutta litiumioniakun kemiallinen kuluminen kertyy. Kolmesataa hieman liian kuumaa latausta kahden vuoden aikana näkyy jo akun kunnossa.
@@ -30,7 +29,6 @@ Haitallisin päivittäinen tapa on ladata puhelinta kuumissa oloissa. Raskas kä
 Langaton lataus lisää lämpökuormaa, koska se on yleensä kaapelia tehottomampi. Osa energiasta muuttuu lämmöksi puhelimessa, latausalustassa tai suojakuoressa. Suurella langattomalla latausteholla lämmin takakansi ja kaapelia hitaampi lataus ovat tavallisia. Paksun kuoren irrottaminen langattoman latauksen ajaksi ja pienempitehoisen alustan käyttäminen auttavat. Kaapeli tavalliseen yölataukseen ja langaton lataus silloin, kun helppous on tärkeintä, on järkevä kompromissi.
 
 Tallennustilan kannalta tärkein tapa on säännöllinen siivous. Avaa muutaman kuukauden välein asetusten sovelluskohtainen tallennustilanäkymä ja järjestä sovellukset koon mukaan. Sosiaalisen median sovellukset, selaimet ja suoratoistosovellukset keräävät välimuistiin helposti useita gigatavuja väliaikaista dataa. Sovelluksen välimuistin tyhjentäminen ei poista henkilökohtaisia tietoja tai asetuksia, vaan tiedostoja, jotka sovellus luo tarvittaessa uudelleen. Pidä tallennustilan käyttö alle 80-85 prosentissa, jotta NAND-flashmuistin kirjoitusnopeus ei kärsi puhtaiden lohkojen loppumisesta.
-
 
 ## Kuukausittainen ja kausittainen huolto
 
@@ -42,7 +40,6 @@ Puhdista latausportti. Taskunöyhtä tiivistyy porttiin kuukausien aikana ja est
 
 Tarkista akun kunto muutaman kerran vuodessa valmistajan omilla työkaluilla, kuten Samsung Membersillä tai Pixelin Battery health -näkymällä, tai diagnostiikkasovelluksella. Kehityssuunta on yhtä yksittäistä lukemaa tärkeämpi. Jos akun kunto laskee 95 prosentista 88 prosenttiin kuudessa kuukaudessa, se kuluu odotettua nopeammin. Lataustapojen muuttaminen tässä vaiheessa voi hidastaa kehitystä ennen kuin siitä tulee todellinen ongelma.
 
-
 ## Ohjelmistotuki ja käyttöiän aikajana
 
 Android-puhelinten päivitystilanne on parantunut paljon. Google Pixel 8 -mallisto ja sitä uudemmat sekä Samsung Galaxy S24 -mallisto ja sitä uudemmat saavat seitsemän vuotta käyttöjärjestelmä- ja tietoturvapäivityksiä. Samsung on pidentänyt tukea myös keskihintaisiin malleihin: Galaxy A56, A36 ja A26 saavat kuusi vuotta päivityksiä. OnePlus 13 saa neljä suurta Android-päivitystä ja kuusi vuotta tietoturvapäivityksiä.
@@ -51,7 +48,6 @@ Edullisissa puhelimissa ja vanhemmissa huippumalleissa tuki jää monilla valmis
 
 EU:n ekosuunnittelu- ja energiamerkintäsäännöt asettavat nykyään aiempaa vahvemman vähimmäistason puhelimille, jotka on saatettu EU:n markkinoille 20.6.2025 alkaen. Vaatimuksiin kuuluvat muun muassa vähintään 800 lataus- ja purkaussykliä kestävä akku, jonka kapasiteetista on sen jälkeen jäljellä vähintään 80 prosenttia, keskeisten varaosien saatavuus vähintään seitsemän vuoden ajan mallin myynnin päättymisen jälkeen sekä käyttöjärjestelmäpäivitykset vähintään viideksi vuodeksi siitä, kun mallin viimeinen kappale on saatettu markkinoille. Säännöt auttavat suoraan EU:n ostajia, ja pitkät tukiajat vaikuttavat usein myös valmistajien maailmanlaajuiseen tuotesuunnitteluun.
 
-
 ## Milloin korjaaminen kannattaa
 
 Puhelimen ei tarvitse olla täydellinen, jotta sitä kannattaa jatkaa. Suomalaisten huoltoliikkeiden nykyisissä hinnastoissa tavallisten Android-puhelinten akunvaihto maksaa esimerkkimalleissa noin 50-100 euroa. Se voi tuoda muuten hyvin toimivalle puhelimelle kaksi tai kolme lisävuotta. Näytön korjaaminenkin voi olla järkevää, jos laitteella on vielä useita vuosia ohjelmistotukea jäljellä, mutta hinta vaihtelee voimakkaasti näyttötekniikan ja mallin mukaan.
@@ -59,7 +55,6 @@ Puhelimen ei tarvitse olla täydellinen, jotta sitä kannattaa jatkaa. Suomalais
 EU:n korjaussäännöt kulkevat kahta reittiä. Älypuhelimia koskevat ekosuunnitteluvaatimukset ovat jo voimassa laitteille, jotka on saatettu EU:n markkinoille 20.6.2025 alkaen. Ne kattavat akun kestävyyden, varaosien saatavuuden, korjaustiedot sekä osan vaihtamiseen tarvittavan ohjelmiston tai laiteohjelmiston saatavuuden. Erillinen korjauttamisoikeutta koskeva direktiivi tuli voimaan vuonna 2024, ja jäsenmaiden on alettava soveltaa sitä 31.7.2026. Se vahvistaa korjausoikeuksia tuoteryhmissä, joita EU:n korjattavuussäännöt koskevat, mutta kaikki älypuhelinten varaosa- tai energiamerkintävaatimukset eivät perustu tähän direktiiviin.
 
 Korjaaminen lakkaa yleensä olemasta järkevää, kun kustannus ylittää noin 30-40 prosenttia vastaavan uuden tai kunnostetun puhelimen hinnasta tai kun monta osaa tarvitsee korjausta samaan aikaan.
-
 
 ## Usein kysyttyä
 

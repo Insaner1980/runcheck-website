@@ -5,10 +5,11 @@ listSummary: "performances, vitesse et android"
 hub: "network"
 sourceNumber: 96
 order: 7
-tags: ["performances","vitesse","android","optimisation","depannage"]
+tags: ["performances", "vitesse", "android", "optimisation", "depannage"]
 locale: "fr"
 draft: false
 ---
+
 Que faut-il essayer en premier lorsque le Wi-Fi ne fonctionne plus sur Android ? Ne commencez pas par une réinitialisation d'usine et ne passez pas une demi-heure à modifier le routeur avant d'avoir testé les solutions les plus simples. La plupart des problèmes entrent dans l'une de ces trois catégories : le téléphone refuse de se connecter, la connexion se coupe sans arrêt, ou le téléphone reste connecté mais Internet ne répond presque plus.
 
 Suivez les étapes dans cet ordre. Vous gagnerez du temps.

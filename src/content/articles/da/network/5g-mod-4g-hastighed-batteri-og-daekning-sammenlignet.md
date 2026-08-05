@@ -5,10 +5,11 @@ listSummary: "5G er ikke automatisk det bedste valg hvert minut af dagen."
 hub: "network"
 sourceNumber: 94
 order: 5
-tags: ["ydeevne","hastighed","android","optimering","fejlfinding"]
+tags: ["ydeevne", "hastighed", "android", "optimering", "fejlfinding"]
 locale: "da"
 draft: false
 ---
+
 Det er den del, telefonmarkedsføringen som regel springer over.
 
 ## Hastigheden afhænger af, hvilken 5G-forbindelse du bruger

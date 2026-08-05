@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 13
 order: 3
 subgroup: "Health"
-tags: ["batteri","helse","diagnostikk","android","guide"]
+tags: ["batteri", "helse", "diagnostikk", "android", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Hvis telefonen rapporterer 87 % batterihelse, kan cellen holde omtrent 87 % av ladingen den kunne lagre da den var ny. Batteriet fungerer fortsatt. Tanken har bare blitt mindre.
 
 **Metabeskrivelse:** Prosentverdien for batterihelse viser telefonens nåværende maksimale kapasitet sammenlignet med da batteriet var nytt. Se hva tallet betyr, hvorfor 80 % er viktig, og hvordan Android-telefoner rapporterer det.

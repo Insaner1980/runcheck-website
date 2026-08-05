@@ -6,12 +6,12 @@ hub: "battery"
 sourceNumber: 11
 order: 1
 subgroup: "Health"
-tags: ["batteri","hälsa","diagnostik","android","guide"]
+tags: ["batteri", "hälsa", "diagnostik", "android", "guide"]
 locale: "sv"
 draft: false
 ---
-På iPhone har batterihälsan visats i procent på modeller som stöds sedan iOS 11.3. På Android har uppgiften historiskt varit svårare att hitta. Det finns ingen gemensam skärm för "batterihälsa" på alla telefoner. I stället får du lägga ihop information från tillverkarens verktyg, dolda menyer, användningsmönster och diagnostikappar.
 
+På iPhone har batterihälsan visats i procent på modeller som stöds sedan iOS 11.3. På Android har uppgiften historiskt varit svårare att hitta. Det finns ingen gemensam skärm för "batterihälsa" på alla telefoner. I stället får du lägga ihop information från tillverkarens verktyg, dolda menyer, användningsmönster och diagnostikappar.
 
 ## Snabbt svar: så kontrollerar du batterihälsan
 
@@ -24,7 +24,6 @@ Tre metoder, från den snabbaste till den mest detaljerade.
 **Diagnostikapp.** Appar från tredje part uppskattar batterihälsan genom att följa laddnings- och urladdningsmönster under flera dagar. Det är det mest detaljerade alternativet när telefonen saknar en inbyggd hälsoindikator.
 
 Om värdet ligger under 80 % av den ursprungliga kapaciteten, eller om statusen är något annat än "Good" eller "Normal", är det rimligt att överväga ett batteribyte.
-
 
 ## Varför batterier blir dåliga
 
@@ -39,7 +38,6 @@ Alla Android-telefoner använder litiumjon- eller litiumpolymerbatterier. De är
 **Laddningsvanorna spelar roll, men mindre än många tror.** Att ständigt ladda till 100 % och tömma till 0 % belastar batteriet mer än att hålla sig inom intervallet 20-80 %. Snabbladdning skapar också mer värme än vanlig laddning. Men skillnaden efter ett år mellan att alltid snabbladda till 100 % och att försiktigt ladda till 80 % är mindre än många råd på nätet får det att låta. Värme och tid väger tyngre. Den verkliga risken är laddare som inte är certifierade, eftersom ojämn strömförsörjning kan skada cellerna permanent.
 
 Resultatet blir att ett batteri på 5 000 mAh långsamt blir ett på 4 000 mAh och sedan 3 500 mAh, tills kapaciteten inte längre räcker genom en vanlig dag.
-
 
 ## Manuella diagnostiksteg
 
@@ -61,7 +59,6 @@ Androids inbyggda inställningar ger användbara ledtrådar även utan en särsk
 
 **Kontrollera tillverkarens diagnostik.** Utöver hälsoindikatorerna i snabbsvaret har vissa telefoner särskilda diagnostikverktyg. På Pixel kan du leta efter Batteridiagnostik under Inställningar > Batteri. Samsung Members har ett helt diagnostikavsnitt som kan testa batteriet. Xiaomi-enheter visar ofta mer batteriinformation under Settings > Battery > Battery protection.
 
-
 ## Avancerad diagnostik: spänning, temperatur och urladdningsmönster
 
 För den som vill ha en mer teknisk bild finns flera mätvärden som visar vad som händer inne i cellen.
@@ -79,7 +76,6 @@ Diagnostikappar sätter siffror på observationerna. De följer laddnings- och u
 runcheck kombinerar batteridiagnostik med analys av nätverk, temperatur och lagring i en samlad bedömning. Det spelar roll eftersom batteriproblem inte alltid uppstår isolerat. Ett värmeproblem från en komponent som beter sig fel kan se ut som hög batteriförbrukning, och en flaskhals i lagringen kan hålla CPU:n sysselsatt mer än nödvändigt.
 
 Undvik appar som påstår sig kunna "förbättra", "kalibrera" eller "återställa" batterihälsan. Ingen app kan vända kemiskt slitage. Användbara appar visar verkliga värden för spänning och temperatur, följer data över tid och fungerar lokalt på enheten utan krav på konto eller molnuppladdning.
-
 
 ## Vanliga frågor
 
@@ -114,7 +110,6 @@ Batteriets verkliga kapacitet stämmer inte längre med vad programvaran förvä
 **Hur ofta bör batterihälsan kontrolleras?**
 
 Med några månaders mellanrum. Försämringen sker gradvis, och det hjälper inte att kontrollera värdet hela tiden. Bra skäl till en extra kontroll är en plötslig förändring i batteritid, oväntade avstängningar eller att telefonen blir varmare än vanligt.
-
 
 ## Så använder du resultaten
 

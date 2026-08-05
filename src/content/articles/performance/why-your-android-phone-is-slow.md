@@ -5,9 +5,10 @@ listSummary: "Slow phone diagnosis"
 hub: "performance"
 sourceNumber: 64
 order: 1
-tags: ["performance","speed","android","optimization","troubleshooting"]
+tags: ["performance", "speed", "android", "optimization", "troubleshooting"]
 draft: false
 ---
+
 That doesn't automatically mean the phone is finished. Most slowdowns come from a few causes you can check: low storage, heavy background apps, memory pressure, heat, battery wear, or one bad app after an update.
 
 ## The fast checklist

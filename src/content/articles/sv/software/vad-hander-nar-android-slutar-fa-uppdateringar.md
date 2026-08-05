@@ -5,10 +5,11 @@ listSummary: "Den sista uppdateringen kommer, du installerar den och sedan händ
 hub: "software"
 sourceNumber: 121
 order: 3
-tags: ["android","uppdateringar","säkerhet","programvara","guide"]
+tags: ["android", "uppdateringar", "säkerhet", "programvara", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Det är just det som gör telefoner utan support knepiga. De slutar inte plötsligt fungera. De blir bara lite mer utsatta för varje månad som går.
 
 ## Säkerhetsrisken ökar med tiden

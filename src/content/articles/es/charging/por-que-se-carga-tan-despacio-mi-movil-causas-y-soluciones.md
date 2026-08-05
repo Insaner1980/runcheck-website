@@ -5,10 +5,11 @@ listSummary: "carga, bateria y android"
 hub: "charging"
 sourceNumber: 47
 order: 11
-tags: ["carga","bateria","android","guia","hardware"]
+tags: ["carga", "bateria", "android", "guia", "hardware"]
 locale: "es"
 draft: false
 ---
+
 El móvil indica que necesita tres horas para cargarse por completo. Ayer necesitaba una. El cargador parece el mismo, el cable también, y no ha cambiado nada evidente.
 
 La carga lenta resulta molesta porque la causa suele ser bastante corriente: un adaptador poco potente, un cable dañado, pelusas en el bolsillo, calor o una aplicación que consume energía mientras el cargador intenta llenar la batería. Empieza por ahí antes de dar por hecho que la batería está muriendo.

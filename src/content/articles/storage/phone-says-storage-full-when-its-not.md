@@ -5,9 +5,10 @@ listSummary: "False storage-full warnings"
 hub: "storage"
 sourceNumber: 87
 order: 9
-tags: ["storage","android","cleanup","optimization","guide"]
+tags: ["storage", "android", "cleanup", "optimization", "guide"]
 draft: false
 ---
+
 Annoying, but not rare. Android storage warnings can come from visible files, hidden app data, trash folders, failed downloads, system update leftovers, or a storage database that hasn't caught up yet. After a major update, including the Android 17 rollout that started on supported Pixel phones before wider manufacturer updates, this kind of confusion can show up for a day or two while the phone settles.
 
 Start with a reboot. No, really. It is the boring fix, but it clears stuck temporary work more often than people expect.

@@ -5,10 +5,11 @@ listSummary: "La chaleur sollicite davantage la batterie et le processeur de vot
 hub: "thermal"
 sourceNumber: 63
 order: 11
-tags: ["temperature","thermique","android","depannage","materiel"]
+tags: ["temperature", "thermique", "android", "depannage", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 Vous êtes à la plage, dans un festival ou en pleine promenade, et votre téléphone devient soudain presque trop chaud pour être tenu en main. L’écran baisse ensuite sa luminosité. Quelques minutes plus tard, la recharge ralentit ou l’appareil photo refuse d’enregistrer. Ce n’est pas aléatoire. Le téléphone se protège.
 
 De nombreux téléphones sont conçus pour une utilisation normale entre environ 0 °C et 35 °C (32 °F à 95 °F). Cela ne signifie pas qu’ils tombent en panne dès que l’air atteint 36 °C, mais leur marge thermique disparaît. Ajoutez le soleil direct, la navigation, les données mobiles, l’enregistrement vidéo ou la recharge, et la température de la batterie peut monter rapidement.

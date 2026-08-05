@@ -5,10 +5,11 @@ listSummary: "De fleste gamle Android-telefoner blir ikke trege fordi prosessore
 hub: "performance"
 sourceNumber: 65
 order: 2
-tags: ["ytelse","hastighet","android","optimalisering","feilsøking"]
+tags: ["ytelse", "hastighet", "android", "optimalisering", "feilsøking"]
 locale: "nb"
 draft: false
 ---
+
 Løsningen er derfor praktisk. Reduser presset på telefonen før du konkluderer med at maskinvaren er ferdig.
 
 ## Frigjør lagringsplass først

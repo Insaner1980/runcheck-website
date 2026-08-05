@@ -5,10 +5,11 @@ listSummary: "carga, bateria y android"
 hub: "thermal"
 sourceNumber: 58
 order: 6
-tags: ["carga","bateria","android","guia","hardware"]
+tags: ["carga", "bateria", "android", "guia", "hardware"]
 locale: "es"
 draft: false
 ---
+
 Es normal que un móvil se caliente un poco mientras se carga. No es normal que resulte incómodo sujetarlo.
 
 La carga introduce energía en una batería de iones de litio, y parte de esa energía se convierte en calor. Lo notarás más con un cargador de 25 W, 45 W o 65 W que con un antiguo adaptador de 5 W. Eso no significa por sí solo que haya algo averiado. La cuestión es si el móvil se enfría cuando termina la fase más intensa de la carga o si se calienta cada vez más siempre que lo enchufas.

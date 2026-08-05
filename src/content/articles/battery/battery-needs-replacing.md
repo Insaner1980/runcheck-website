@@ -6,9 +6,10 @@ hub: "battery"
 sourceNumber: 17
 order: 7
 subgroup: "Health"
-tags: ["battery","health","diagnostics","android","guide"]
+tags: ["battery", "health", "diagnostics", "android", "guide"]
 draft: false
 ---
+
 How do you know the cell is actually worn out, instead of one app behaving badly or your phone struggling with weak signal?
 
 That distinction matters. A new battery will not fix a rogue app. Deleting apps will not fix a cell that can no longer deliver power.

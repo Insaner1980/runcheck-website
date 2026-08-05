@@ -5,10 +5,11 @@ listSummary: "Du hast im Downloads-Ordner eine Datei mit der Endung .apk gefunde
 hub: "storage"
 sourceNumber: 84
 order: 6
-tags: ["speicher","android","bereinigung","optimierung","ratgeber"]
+tags: ["speicher", "android", "bereinigung", "optimierung", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 APK steht für Android Package Kit. Es ist eines der Paketformate, mit denen Android Apps installiert. Für die Speicherbereinigung ist vor allem eines wichtig: Die sichtbare APK-Datei im Downloads-Ordner ist nicht die App, die auf deinem Smartphone läuft. Sie ist das Installationspaket.
 
 Sobald die App installiert ist, deinstallierst du sie nicht, wenn du die übrig gebliebene APK-Datei löschst. Auch ihre Einstellungen bleiben erhalten.

@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 12
 order: 2
 subgroup: "Health"
-tags: ["batteri","hälsa","diagnostik","android","guide"]
+tags: ["batteri", "hälsa", "diagnostik", "android", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Siffran spelar roll eftersom litiumjonbatterier har en begränsad livslängd som mäts i cykler. De flesta moderna mobilbatterier behåller omkring 80 % av sin ursprungliga kapacitet efter 800-1 000 cykler, beroende på kemi och tillverkare. Därefter blir den dagliga batteritiden märkbart kortare.
 
 Sedan Android 14 kan systemet rapportera cykelantal via BatteryManager API, men om siffran faktiskt visas beror helt på tillverkaren. Ett fåtal nyare telefoner visar den i inställningarna. De flesta gör det inte. Metoderna nedan är ordnade efter hur många enheter de fungerar på, med de bredaste alternativen först, inklusive äldre modeller.

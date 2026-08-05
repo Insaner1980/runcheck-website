@@ -1,14 +1,15 @@
 ---
 title: "Which apps drain the most battery on Android"
-description: "Most lists of \"battery-draining apps\" are too confident. Your phone doesn't care which app topped a ranking on someone else's test bench. It cares what you installed, what permissions you gave it, how often you open it, and whether it keeps working after the screen turns off."
+description: 'Most lists of "battery-draining apps" are too confident. Your phone doesn''t care which app topped a ranking on someone else''s test bench. It cares what you installed, what permissions you gave it, how often you open it, and whether it keeps working after the screen turns off.'
 listSummary: "Battery-heavy app detection"
 hub: "battery"
 sourceNumber: 24
 order: 14
 subgroup: "Drain"
-tags: ["battery","drain","troubleshooting","android","performance"]
+tags: ["battery", "drain", "troubleshooting", "android", "performance"]
 draft: false
 ---
+
 That said, the same categories keep causing trouble.
 
 ## The app types that usually sit near the top

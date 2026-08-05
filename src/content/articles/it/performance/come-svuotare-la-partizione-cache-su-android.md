@@ -5,10 +5,18 @@ listSummary: "Cosa fa la pulizia della partizione cache di Android."
 hub: "performance"
 sourceNumber: 71
 order: 8
-tags: ["prestazioni","velocita","android","ottimizzazione","risoluzione-dei-problemi"]
+tags:
+  [
+    "prestazioni",
+    "velocita",
+    "android",
+    "ottimizzazione",
+    "risoluzione-dei-problemi",
+  ]
 locale: "it"
 draft: false
 ---
+
 Stai guardando Android Recovery, usando i tasti del volume come se fosse ancora il 2012, e cerchi **Wipe cache partition**. Su alcuni telefoni c'è. Su altri è sparita. Su altri ancora non è mai stata disponibile.
 
 Ecco perché l'argomento è più complicato di quanto ammettano molte guide. Svuotare la partizione cache può ancora essere utile su alcuni telefoni Samsung e sui dispositivi Android meno recenti, ma non è più una funzione universale di Android.

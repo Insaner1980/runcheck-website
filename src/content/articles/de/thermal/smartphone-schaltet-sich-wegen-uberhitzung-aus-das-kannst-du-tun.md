@@ -5,10 +5,11 @@ listSummary: "Wenn sich ein Smartphone wegen Überhitzung ausschaltet, schützt 
 hub: "thermal"
 sourceNumber: 61
 order: 9
-tags: ["temperatur","warme","android","fehlerbehebung","hardware"]
+tags: ["temperatur", "warme", "android", "fehlerbehebung", "hardware"]
 locale: "de"
 draft: false
 ---
+
 Dein Smartphone wird schwarz, lässt sich nicht mehr einschalten und zeigt irgendwann eine Temperaturwarnung. Ärgerlich, ja. Meist ist das aber ein gutes Zeichen.
 
 Eine Abschaltung wegen Überhitzung bedeutet, dass sich das Smartphone selbst geschützt hat. Android kennt mehrere Temperaturstufen, in denen das System die Auslastung senkt, die Leistung drosselt, den Ladevorgang verlangsamt und das Gerät im äußersten Fall ausschaltet. Die genauen Grenzwerte für Akku- und Oberflächentemperatur legt der Hersteller fest. Verlass dich deshalb nicht auf eine einzelne Zahl als allgemeine Regel für jedes Smartphone.

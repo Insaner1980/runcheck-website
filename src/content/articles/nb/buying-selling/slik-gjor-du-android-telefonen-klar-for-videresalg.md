@@ -5,10 +5,11 @@ listSummary: "Rekkefølgen betyr noe."
 hub: "buying-selling"
 sourceNumber: 5
 order: 3
-tags: ["kjøpsguide","android","sammenligning","verdi","guide"]
+tags: ["kjøpsguide", "android", "sammenligning", "verdi", "guide"]
 locale: "nb"
 draft: false
 ---
+
 ## Sikkerhetskopier før du gjør noe annet
 
 Google sikkerhetskopierer kontakter, kalendere, appdata og enhetsinnstillinger automatisk når sikkerhetskopiering er aktivert. Kontroller dette under `Settings > System > Backup` eller `Settings > Google > Backup`, og velg `Back up now` for å starte en synkronisering. Menynavnene kan variere mellom produsenter og Android-versjoner.
@@ -18,7 +19,6 @@ Bilder og videoer krever egen kontroll. Hvis Google Photos eller en annen skytje
 Autentiseringsapper er det folk oftest glemmer. Google Authenticator, Microsoft Authenticator og Authy inneholder tofaktorkoder som mange nettkontoer er avhengige av. Overfør dem til en ny enhet eller eksporter dem før telefonen slettes. Hvis du mister 2FA-kodene, kan du bli låst ute av bank, e-post og jobbkontoer, og gjenoppretting kan ta flere dager med identitetskontroll hos hver tjeneste.
 
 WhatsApp, Signal og Telegram har egne sikkerhetskopieringssystemer som er separate fra Google. Sikkerhetskopier samtalene inne i hver app.
-
 
 ## Fjern alle kontoer
 
@@ -30,7 +30,6 @@ Slå av Find Hub eller Find My Device, avhengig av Android-versjon og region.
 
 Hvis telefonen bruker eSIM, må profilen slettes. En tilbakestilling fjerner ikke alltid eSIM-data, og en profil som blir liggende igjen, kan gjøre operatøraktiveringen vanskeligere for kjøperen.
 
-
 ## Tilbakestill telefonen
 
 På mange Android-telefoner finner du tilbakestillingen under `Settings > System > Reset Options > Erase All Data (Factory Reset)`. På Samsung ligger den vanligvis under `Settings > General Management > Reset > Factory Data Reset`. Menynavn og plassering kan variere etter modell og programvareversjon.
@@ -38,7 +37,6 @@ På mange Android-telefoner finner du tilbakestillingen under `Settings > System
 Telefonen starter på nytt til den første oppsettskjermen. Ikke gå videre. La den stå på "Hello"- eller språkvalgsskjermen. Det viser kjøperen at ingen kontoer er tilknyttet, og at FRP ikke er aktiv. Hvis oppsettet ber om en Google-konto fra en tidligere eier, ble kontoen ikke fjernet riktig. Logg inn, fjern kontoen og tilbakestill på nytt.
 
 Moderne Android-telefoner bruker kryptering som standard. Android 7.0 og nyere støtter filbasert kryptering, og enheter som ble lansert med Android 10 eller nyere, må bruke det. På en riktig kryptert moderne Android-telefon fjerner en tilbakestilling nøklene og kontodataene som trengs for å lese tidligere brukerfiler. Dermed er gamle data i praksis ikke gjenopprettelige ved vanlig videresalg. For de fleste selgere er dette tilstrekkelig.
-
 
 ## Rengjør og dokumenter
 
@@ -48,18 +46,15 @@ Ta tydelige bilder av alle fire sider, skjermen slått på ved oppsettskjermen o
 
 Batterihelse over 85 % er et salgsargument. Skriv det i annonsen.
 
-
 ## Oppdater programvaren før tilbakestilling (valgfritt, men anbefalt)
 
 Hvis du har tid, installer alle tilgjengelige oppdateringer før tilbakestillingen. Kjøpere foretrekker en telefon som kjører den nyeste Android-versjonen som er tilgjengelig for modellen, og de slipper en lang nedlasting under oppsettet. Det viser også at telefonen fortsatt kan motta oppdateringer og ikke har satt seg fast på en gammel versjon.
-
 
 ## Sett prisen
 
 Sammenlign samme modell i tilsvarende stand på FINN.no og andre norske bruktmarkeder. Se på flere realistiske annonser, ikke bare de høyeste prisantydningene. Sammenlign også med konkrete innbytteestimater fra tjenester som Telenor Innbytte, Telia Mobilpant eller Elkjøps innbytteordning. Telefoner som fortsatt får programvareoppdateringer, selges for mer enn ellers identiske modeller som ikke lenger støttes. Dokumentert batterihelse over 85 % gir normalt et bedre utgangspunkt enn en annonse uten batteridata.
 
 Legg prisen litt over målet hvis du vil ha rom for forhandling.
-
 
 ## Hvor du kan selge
 

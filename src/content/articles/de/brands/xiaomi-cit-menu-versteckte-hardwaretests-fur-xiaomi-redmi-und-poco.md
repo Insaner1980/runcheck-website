@@ -5,10 +5,11 @@ listSummary: "CIT ist auf den meisten Xiaomi-Smartphones der schnellste integrie
 hub: "brands"
 sourceNumber: 159
 order: 7
-tags: ["hardware","testen","diagnose","android","ratgeber"]
+tags: ["hardware", "testen", "diagnose", "android", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Xiaomi bezeichnet die Funktion auf Supportseiten meist als Hardware detection oder CIT mode. Du triffst vor allem bei der Suche nach einem konkreten Fehler darauf, etwa bei einem ungenauen Touchscreen oder einem Smartphone, das ständig neu startet. Das Menü ist für eine Prüfung in diesem Moment gedacht, nicht für eine langfristige Zustandsüberwachung.
 
 Das ist der ganze Trick.
@@ -89,4 +90,4 @@ Meist ja, wenn das Gerät mit offizieller Xiaomi-Firmware läuft. Welche Tests e
 
 ---
 
-*Meta-Beschreibung: Das CIT-Menü von Xiaomi bietet integrierte Hardwaretests für Xiaomi-Smartphones. Hier findest du die Wählcodes, den Weg über die Einstellungen, sinnvolle Tests und die Grenzen von CIT.*
+_Meta-Beschreibung: Das CIT-Menü von Xiaomi bietet integrierte Hardwaretests für Xiaomi-Smartphones. Hier findest du die Wählcodes, den Weg über die Einstellungen, sinnvolle Tests und die Grenzen von CIT._

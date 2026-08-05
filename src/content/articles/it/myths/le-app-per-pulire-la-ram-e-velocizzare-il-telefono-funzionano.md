@@ -5,10 +5,18 @@ listSummary: "Un booster della RAM rende davvero più veloce un telefono Android
 hub: "myths"
 sourceNumber: 147
 order: 3
-tags: ["prestazioni","velocita","android","ottimizzazione","risoluzione-dei-problemi"]
+tags:
+  [
+    "prestazioni",
+    "velocita",
+    "android",
+    "ottimizzazione",
+    "risoluzione-dei-problemi",
+  ]
 locale: "it"
 draft: false
 ---
+
 Su un telefono Android moderno, le app di pulizia della RAM e i booster non migliorano le prestazioni in modo duraturo. In genere costringono il telefono a lavorare di più, non di meno. Peggio ancora, spesso chiedono autorizzazioni molto ampie per controllare l'utilizzo, mostrare pubblicità e restare attive in background.
 
 ## Avere RAM libera non è l'obiettivo

@@ -5,10 +5,18 @@ listSummary: "rendimiento, velocidad y android"
 hub: "storage"
 sourceNumber: 81
 order: 3
-tags: ["rendimiento","velocidad","android","optimizacion","solucion-de-problemas"]
+tags:
+  [
+    "rendimiento",
+    "velocidad",
+    "android",
+    "optimizacion",
+    "solucion-de-problemas",
+  ]
 locale: "es"
 draft: false
 ---
+
 ---
 
 Cuando el almacenamiento de Android está lleno, el móvil no falla de forma elegante. Antes empieza a hacer cosas raras.

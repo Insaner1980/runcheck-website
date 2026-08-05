@@ -5,9 +5,10 @@ listSummary: "Factory reset battery myth"
 hub: "myths"
 sourceNumber: 152
 order: 8
-tags: ["battery","health","diagnostics","android","guide"]
+tags: ["battery", "health", "diagnostics", "android", "guide"]
 draft: false
 ---
+
 A three-year-old phone that dies before dinner makes the factory reset button look tempting. It feels like a clean slate, and sometimes it is. Just not for the battery itself.
 
 A factory reset can improve battery life. It cannot improve battery health.

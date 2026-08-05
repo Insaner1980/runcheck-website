@@ -5,10 +5,11 @@ listSummary: "performances, vitesse et android"
 hub: "performance"
 sourceNumber: 72
 order: 9
-tags: ["performances","vitesse","android","optimisation","depannage"]
+tags: ["performances", "vitesse", "android", "optimisation", "depannage"]
 locale: "fr"
 draft: false
 ---
+
 Un Galaxy série A âgé de trois ans peut sembler plus lent qu'il ne l'est réellement, simplement parce que chaque action attend la fin d'une petite animation. Ouvrir une application, revenir en arrière, changer d'écran, afficher les réglages rapides : ces brefs délais finissent par s'additionner.
 
 Réduire les animations n'accélère pas le CPU. Cela n'améliore ni le signal, ni la vitesse du stockage, ni l'état de la batterie. Vous supprimez seulement une partie de l'attente entre les actions, ce qui suffit souvent à rendre un ancien téléphone plus agréable.

@@ -5,10 +5,11 @@ listSummary: "Åbn opdateringssiden på din Android-telefon, og du vil sandsynli
 hub: "software"
 sourceNumber: 124
 order: 6
-tags: ["android","opdateringer","sikkerhed","software","guide"]
+tags: ["android", "opdateringer", "sikkerhed", "software", "guide"]
 locale: "da"
 draft: false
 ---
+
 Det ligner en fejl. Som regel er det ikke.
 
 Der er tale om to forskellige opdateringskanaler. Sikkerhedsrettelsesniveauet kommer gennem telefonens producent, for eksempel Google, Samsung, Xiaomi, OnePlus eller Motorola. Den anden dato kommer gennem Googles modulbaserede Android-opdateringssystem på enheder, der understøtter det.

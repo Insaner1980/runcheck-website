@@ -5,10 +5,11 @@ listSummary: "hardware, danos y reparacion"
 hub: "physical-damage"
 sourceNumber: 134
 order: 4
-tags: ["hardware","danos","reparacion","android","solucion-de-problemas"]
+tags: ["hardware", "danos", "reparacion", "android", "solucion-de-problemas"]
 locale: "es"
 draft: false
 ---
+
 ---
 
 El quemado real de pantalla es permanente. Si los píxeles han envejecido de forma desigual, ninguna aplicación, vídeo ni truco de cambio de colores puede devolver la juventud a los píxeles desgastados.

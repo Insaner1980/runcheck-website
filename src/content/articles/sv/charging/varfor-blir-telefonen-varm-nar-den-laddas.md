@@ -5,10 +5,11 @@ listSummary: "laddning, batteri och android"
 hub: "charging"
 sourceNumber: 52
 order: 16
-tags: ["laddning","batteri","android","guide","hårdvara"]
+tags: ["laddning", "batteri", "android", "guide", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 Du kopplar in telefonen, kommer tillbaka 20 minuter senare och märker att baksidan känns varmare än handen. Lite värme är normalt. Det är däremot inte normalt om telefonen blir så het att den inte går att hålla bekvämt.
 
 Laddning skapar alltid en viss mängd värme eftersom en del av den inkommande energin blir spillvärme i laddaren, kabeln och telefonen. Snabbladdning skapar mer. Trådlös laddning brukar skapa ännu mer. Frågan är inte om telefonen blir varm, utan om den håller sig inom ett normalt intervall eller börjar skydda sig själv.

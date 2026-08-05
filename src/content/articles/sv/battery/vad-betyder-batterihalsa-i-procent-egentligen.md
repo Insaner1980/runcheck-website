@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 13
 order: 3
 subgroup: "Health"
-tags: ["batteri","hälsa","diagnostik","android","guide"]
+tags: ["batteri", "hälsa", "diagnostik", "android", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Om telefonen visar 87 % batterihälsa kan cellen lagra omkring 87 % av den laddning den rymde när den var ny. Den fungerar fortfarande. Tanken har bara blivit mindre.
 
 **Metabeskrivning:** Batterihälsa i procent visar telefonens nuvarande maximala kapacitet jämfört med när batteriet var nytt. Läs vad siffran betyder, varför 80 % spelar roll och hur Android-telefoner rapporterar den.

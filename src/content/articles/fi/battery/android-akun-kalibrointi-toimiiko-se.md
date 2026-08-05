@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 15
 order: 5
 subgroup: "Akun kunto"
-tags: ["akku","kunto","diagnostiikka","android","opas"]
+tags: ["akku", "kunto", "diagnostiikka", "android", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Suurin osa akun kalibrointiohjeista on jäänne vanhemmasta akkutekniikasta ja keskustelupalstojen perimätietoa. Nykyaikaisessa Android-puhelimessa kalibrointi ei paranna akunkestoa. Se ei korjaa kulunutta akkua eikä muuta 82 prosentin akun kuntoa takaisin 95 prosenttiin.
 
 Joskus se voi kuitenkin korjata väärin näkyvän varaustason.

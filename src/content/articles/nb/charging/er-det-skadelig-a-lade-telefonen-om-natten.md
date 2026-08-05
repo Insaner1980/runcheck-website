@@ -5,10 +5,11 @@ listSummary: "Nattlading går fint på moderne telefoner når tilpasset lading e
 hub: "charging"
 sourceNumber: 42
 order: 6
-tags: ["lading","batteri","android","guide","maskinvare"]
+tags: ["lading", "batteri", "android", "guide", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 Du kobler til laderen kl. 23, våkner kl. 7, og telefonen har stått på 100 % i flere timer. Det føles feil, mest fordi gamle batteriråd aldri helt forsvant.
 
 Den gamle frykten handlet om overlading. Det er ikke det egentlige problemet lenger. Det moderne problemet er hvor lenge batteriet står fulladet.

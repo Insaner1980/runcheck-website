@@ -5,10 +5,11 @@ listSummary: "Lukittuna pöydällä makaavan puhelimen ei pitäisi tuntua siltä
 hub: "thermal"
 sourceNumber: 57
 order: 5
-tags: ["akku","kunto","diagnostiikka","android","opas"]
+tags: ["akku", "kunto", "diagnostiikka", "android", "opas"]
 locale: "fi"
 draft: false
 ---
+
 ## Aloita yksinkertaisista tarkistuksista
 
 Käynnistä puhelin ensin uudelleen. Neuvo on tylsä juuri siksi, että se toimii. Jumiutunut taustapalvelu voi pitää CPU:n hereillä, ja uudelleenkäynnistys poistaa ongelman ilman puolen tunnin salapoliisityötä.
@@ -109,4 +110,4 @@ Langaton lataaminen lasketaan käytöksi. Latausalustalla oleva laite latautuu, 
 
 Levossa oleva puhelin kuumenee, koska se ei oikeasti lepää tai koska akussa tai latausjärjestelyssä on ongelma. Aloita uudelleenkäynnistyksestä, akun käytöstä, signaalista, lataamisesta ja vikasietotilasta. Jos ne eivät selitä ilmiötä, tarkista seuraavaksi akun kunto ja huollon diagnostiikka.
 
-*Metakuvaus: Jos Android-puhelin kuumenee käyttämättömänä, syynä on yleensä taustasovellus, heikko signaali, lataamisen tuottama lämpö, tuore päivitys tai akun kuluminen. Näin selvität syyn turvallisesti.*
+_Metakuvaus: Jos Android-puhelin kuumenee käyttämättömänä, syynä on yleensä taustasovellus, heikko signaali, lataamisen tuottama lämpö, tuore päivitys tai akun kuluminen. Näin selvität syyn turvallisesti._

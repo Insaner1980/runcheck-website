@@ -5,10 +5,11 @@ listSummary: "guia-de-compra, android y comparacion"
 hub: "buying-selling"
 sourceNumber: 142
 order: 6
-tags: ["guia-de-compra","android","comparacion","valor","guia"]
+tags: ["guia-de-compra", "android", "comparacion", "valor", "guia"]
 locale: "es"
 draft: false
 ---
+
 El mes pasado, tu móvil aguantaba hasta la hora de dormir. Ahora necesita un cargador antes de cenar. Todo lo demás sigue funcionando: cámara, pantalla, aplicaciones, almacenamiento y mensajes. El dispositivo no está roto. La batería está desgastada.
 
 Esa diferencia puede ahorrarte dinero.

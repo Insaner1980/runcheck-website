@@ -5,10 +5,11 @@ listSummary: "Telefonens temperatur avhenger av omgivelsesvarme, batteritemperat
 hub: "thermal"
 sourceNumber: 59
 order: 7
-tags: ["temperatur","varme","android","feilsøking","maskinvare"]
+tags: ["temperatur", "varme", "android", "feilsøking", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 Når er telefonen for varm? Det irriterende svaret er at det avhenger av hvilken temperatur du måler.
 
 Luften rundt telefonen er ett tall. Temperaturen på utsiden er et annet. Batterisensoren viser et tredje, og den er viktigst for batteriets aldring. En telefon kan kjennes bare litt varm i hånden selv om batteriet eller SoC allerede er varmt nok til at Android begynner å redusere ytelsen.

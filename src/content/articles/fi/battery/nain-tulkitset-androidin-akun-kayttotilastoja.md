@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 14
 order: 4
 subgroup: "Akun kunto"
-tags: ["akku","virrankulutus","vianetsintä","android","suorituskyky"]
+tags: ["akku", "virrankulutus", "vianetsintä", "android", "suorituskyky"]
 locale: "fi"
 draft: false
 ---
+
 Avaat Akun käyttö -näkymän ja näet yhden sovelluksen kohdalla 42 %. Se näyttää pahalta. Joskus se onkin ongelma. Joskus luku ei kerro juuri mitään.
 
 Androidin akkutilastot auttavat rajaamaan vikaa, mutta ne eivät ole tarkka kuitti jokaisesta kulutetusta milliampeeritunnista. Olennaista on lukea prosentteja oikeassa yhteydessä.

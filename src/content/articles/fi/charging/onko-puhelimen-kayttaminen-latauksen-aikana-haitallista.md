@@ -5,10 +5,11 @@ listSummary: "Puhelinta on turvallista käyttää latauksen aikana, kun laturi j
 hub: "charging"
 sourceNumber: 41
 order: 5
-tags: ["lataaminen","akku","android","opas","laitteisto"]
+tags: ["lataaminen", "akku", "android", "opas", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 Pelaat, akun varausta on jäljellä 12 % ja laturi on aivan vieressä. Kytket puhelimen lataukseen ja jatkat. Puhelin lämpenee, kuvataajuus laskee, ja alat miettiä, teitkö akulle juuri jotain todella pahaa.
 
 Todennäköisesti et. Loit kuitenkin juuri sellaisen lämpökuorman, josta akut eivät pidä.

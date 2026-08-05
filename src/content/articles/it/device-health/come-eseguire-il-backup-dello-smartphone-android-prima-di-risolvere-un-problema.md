@@ -5,10 +5,18 @@ listSummary: "Esegui il backup prima di cancellare i dati di un'app."
 hub: "device-health"
 sourceNumber: 9
 order: 5
-tags: ["prestazioni","velocita","android","ottimizzazione","risoluzione-dei-problemi"]
+tags:
+  [
+    "prestazioni",
+    "velocita",
+    "android",
+    "ottimizzazione",
+    "risoluzione-dei-problemi",
+  ]
 locale: "it"
 draft: false
 ---
+
 Un buon backup non deve essere complicato. Devi solo sapere cosa salva già Android, cosa lascia fuori e quali app richiedono una procedura propria prima di fare qualcosa di distruttivo.
 
 ## Cosa salva automaticamente Google

@@ -5,10 +5,11 @@ listSummary: "diagnostiikka, anturit ja android"
 hub: "hardware"
 sourceNumber: 112
 order: 9
-tags: ["diagnostiikka","anturit","android","laitteisto","opas"]
+tags: ["diagnostiikka", "anturit", "android", "laitteisto", "opas"]
 locale: "fi"
 draft: false
 ---
+
 ---
 
 Kirjoitat yhteen Galaxy-puhelimeen `*#0*#`, ja näytölle avautuu kattava laitteistotestien valikko. Kirjoitat saman koodin toiseen Galaxyyn, eikä mitään tapahdu.
@@ -29,12 +30,12 @@ Useimmat testikoodit käynnistyvät heti, kun kirjoitat viimeisen merkin. Joissa
 
 Nämä ovat lähimpänä Androidin yhteisiä diagnostiikkakoodeja, mutta niidenkään toimivuutta ei taata kaikissa laitteissa.
 
-| Koodi | Mitä se tekee | Huomautukset |
-|---|---|---|
-| `*#06#` | Näyttää IMEI-tunnuksen ja joskus myös MEID- tai EID-tunnuksen | Laajimmin tuettu puhelinkoodi. Hyödyllinen takuuasioissa, estolistatarkistuksissa ja operaattorin tuessa. |
-| `#07#` | Näyttää sääntelytiedot ja SAR-arvot | Toimii monissa Android-puhelimissa. Joissakin on painettava soittopainiketta. |
-| `*#*#4636#*#*` | Avaa Androidin Testing-valikon | Voi näyttää puhelin- ja verkkotietoja, signaalitietoja, akkutilastoja ja Wi-Fi-tietoja. Saatavuus vaihtelee paljon. |
-| `*#*#426#*#*` | Avaa Firebase Cloud Messaging -diagnostiikan | Kannattaa kokeilla Phone by Google -sovelluksessa. Hyödyllinen, jos push-ilmoitukset eivät saavu. |
+| Koodi          | Mitä se tekee                                                 | Huomautukset                                                                                                        |
+| -------------- | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| `*#06#`        | Näyttää IMEI-tunnuksen ja joskus myös MEID- tai EID-tunnuksen | Laajimmin tuettu puhelinkoodi. Hyödyllinen takuuasioissa, estolistatarkistuksissa ja operaattorin tuessa.           |
+| `#07#`         | Näyttää sääntelytiedot ja SAR-arvot                           | Toimii monissa Android-puhelimissa. Joissakin on painettava soittopainiketta.                                       |
+| `*#*#4636#*#*` | Avaa Androidin Testing-valikon                                | Voi näyttää puhelin- ja verkkotietoja, signaalitietoja, akkutilastoja ja Wi-Fi-tietoja. Saatavuus vaihtelee paljon. |
+| `*#*#426#*#*`  | Avaa Firebase Cloud Messaging -diagnostiikan                  | Kannattaa kokeilla Phone by Google -sovelluksessa. Hyödyllinen, jos push-ilmoitukset eivät saavu.                   |
 
 `*#*#4636#*#*` on yksi verkossa useimmin mainituista Android-koodeista, mutta älä ylläty, jos nykyinen valikko näyttää vähemmän tietoja kuin vanhoissa kuvakaappauksissa. Uudemmat Android-versiot ja valmistajien käyttöliittymät piilottavat aiempaa enemmän verkko- ja akkutietoja.
 
@@ -46,20 +47,20 @@ Avaa Samsung Members, valitse Discover-välilehdeltä `Diagnostics` ja sitten `P
 
 Samsungin valintakoodit voivat silti olla hyödyllisiä, etenkin lukitsemattomissa puhelimissa. One UI:n suojausasetukset, Auto Blocker, yrityskäytännöt ja operaattorin laiteohjelmisto voivat kuitenkin estää niiden toiminnan.
 
-| Koodi | Mitä se tekee | Huomautukset |
-|---|---|---|
-| `*#0*#` | Avaa Samsungin tärkeimmän laitteistotestivalikon | Testeihin voi kuulua näytön värit, kosketus, kuuloke, kaiutin, värinä, kamerat, anturit, S Pen ja muita osia. |
-| `*#0228#` | Akun tilan näyttö | Näyttää monissa malleissa akun jännitteen ja muita reaaliaikaisia tietoja. Osa uusista ohjelmistoversioista estää koodin. |
-| `*#0011#` | ServiceMode-verkkonäyttö | Hyödyllinen signaali- ja palvelevan solun tietoihin. Älä muuta asetuksia. |
-| `*#0842#` | Värinätesti | Toimii monissa Samsung-malleissa, mutta ei kaikissa. |
-| `*#0673#` tai `*#0289#` | Äänitesti | Kaiuttimen ja kuulokkeen toiminta vaihtelee mallin mukaan. |
-| `*#2663#` | Kosketusohjelmiston tiedot | Huoltoteknikot käyttävät tätä usein. |
-| `*#7353#` | Pikatestivalikko | Yleisempi vanhemmissa Galaxy-malleissa. |
-| `*#1234#` | Laiteohjelmiston versiotiedot | Näyttää AP-, CP- ja CSC-koontiversiot. |
-| `*#7412365#` | Kameran laiteohjelmiston tiedot | Saatavuus vaihtelee. |
-| `*#0588#` | Lähestymisanturin testi | Hyödyllinen, jos näyttö ei sammu puhelun aikana. |
-| `*#9900#` | SysDump-tila | Tarkoitettu lähinnä lokeihin ja virheenkorjaukseen. Älä muuta satunnaisia asetuksia. |
-| `*#9090#` | Diagnostiikkamääritykset | Älä muuta mitään ilman virallisia huolto-ohjeita. |
+| Koodi                   | Mitä se tekee                                    | Huomautukset                                                                                                              |
+| ----------------------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
+| `*#0*#`                 | Avaa Samsungin tärkeimmän laitteistotestivalikon | Testeihin voi kuulua näytön värit, kosketus, kuuloke, kaiutin, värinä, kamerat, anturit, S Pen ja muita osia.             |
+| `*#0228#`               | Akun tilan näyttö                                | Näyttää monissa malleissa akun jännitteen ja muita reaaliaikaisia tietoja. Osa uusista ohjelmistoversioista estää koodin. |
+| `*#0011#`               | ServiceMode-verkkonäyttö                         | Hyödyllinen signaali- ja palvelevan solun tietoihin. Älä muuta asetuksia.                                                 |
+| `*#0842#`               | Värinätesti                                      | Toimii monissa Samsung-malleissa, mutta ei kaikissa.                                                                      |
+| `*#0673#` tai `*#0289#` | Äänitesti                                        | Kaiuttimen ja kuulokkeen toiminta vaihtelee mallin mukaan.                                                                |
+| `*#2663#`               | Kosketusohjelmiston tiedot                       | Huoltoteknikot käyttävät tätä usein.                                                                                      |
+| `*#7353#`               | Pikatestivalikko                                 | Yleisempi vanhemmissa Galaxy-malleissa.                                                                                   |
+| `*#1234#`               | Laiteohjelmiston versiotiedot                    | Näyttää AP-, CP- ja CSC-koontiversiot.                                                                                    |
+| `*#7412365#`            | Kameran laiteohjelmiston tiedot                  | Saatavuus vaihtelee.                                                                                                      |
+| `*#0588#`               | Lähestymisanturin testi                          | Hyödyllinen, jos näyttö ei sammu puhelun aikana.                                                                          |
+| `*#9900#`               | SysDump-tila                                     | Tarkoitettu lähinnä lokeihin ja virheenkorjaukseen. Älä muuta satunnaisia asetuksia.                                      |
+| `*#9090#`               | Diagnostiikkamääritykset                         | Älä muuta mitään ilman virallisia huolto-ohjeita.                                                                         |
 
 Jos `*#0*#` ei toimi, älä päättele puhelimen olevan väärennös. Kokeile ensin Samsung Phone -sovellusta Google Phonen sijaan. Tarkista sen jälkeen Samsung Membersin diagnostiikka. Jos se toimii, laitteistotestit ovat edelleen käytettävissä, vaikka piilotettu koodi olisi estetty.
 
@@ -67,12 +68,12 @@ Jos `*#0*#` ei toimi, älä päättele puhelimen olevan väärennös. Kokeile en
 
 Pixel-puhelimet ovat Samsungia rajoitetumpia. Niissä ei ole Samsungin `*#0*#`-valikkoa vastaavaa yleistä testivalikkoa.
 
-| Koodi | Mitä se tekee | Huomautukset |
-|---|---|---|
+| Koodi          | Mitä se tekee                                                       | Huomautukset                                                                                                                                          |
+| -------------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `*#*#7287#*#*` | Avaa Pixel Repair Diagnostics App -sovelluksen tuetuissa laitteissa | Google dokumentoi koodin Pixelin omatoimikorjauksiin. Se vaatii internetyhteyden, ja toiminta voi vaihdella mallin, alueen ja ohjelmistotilan mukaan. |
-| `*#*#4636#*#*` | Androidin Testing-valikko | Käytetään usein puhelin- ja verkkotietoihin, mutta kentät vaihtelevat Android-version mukaan. |
-| `*#*#426#*#*` | FCM-diagnostiikka | Hyödyllinen push-ilmoitusten ongelmien selvittämisessä. |
-| `#07#` | Sääntely- ja SAR-tiedot | Toimii monissa Pixel-malleissa. |
+| `*#*#4636#*#*` | Androidin Testing-valikko                                           | Käytetään usein puhelin- ja verkkotietoihin, mutta kentät vaihtelevat Android-version mukaan.                                                         |
+| `*#*#426#*#*`  | FCM-diagnostiikka                                                   | Hyödyllinen push-ilmoitusten ongelmien selvittämisessä.                                                                                               |
+| `#07#`         | Sääntely- ja SAR-tiedot                                             | Toimii monissa Pixel-malleissa.                                                                                                                       |
 
 Pixel 6:ssa ja uudemmissa, Pixel Fold mukaan lukien, on myös Asetusten `Device health and support` -osio. Se on usein parempi ensimmäinen paikka akun, latauksen, suorituskyvyn ja tuen tarkistamiseen kuin piilotettu huoltokoodi.
 
@@ -82,11 +83,11 @@ Android 17 on saatavana langattomana päivityksenä tuetuille Pixel-laitteille P
 
 Xiaomin CIT-valikko on yksi Androidin paremmista valmistajakohtaisista testikokonaisuuksista, mutta sen sisältö vaihtelee MIUI:n, HyperOS:n, alueversion ja mallisarjan mukaan.
 
-| Koodi | Mitä se tekee | Huomautukset |
-|---|---|---|
-| `*#*#6484#*#*` | Avaa CIT-laitteistotestivalikon | Sisältää usein näytön, kosketuksen, värinän, kaiuttimien, mikrofonien, kameroiden, antureiden, GPS:n, Wi-Fin, Bluetoothin, SIM-kortin, näppäinten, sormenjälkitunnistimen, infrapunalähettimen ja NFC:n testejä. |
-| `*#*#64663#*#*` | Vaihtoehtoinen CIT-koodi | Toimii joissakin vanhemmissa Xiaomi-malleissa. |
-| `*#*#4636#*#*` | Androidin Testing-valikko | Saatavuus vaihtelee etenkin uudemmissa HyperOS-versioissa. |
+| Koodi           | Mitä se tekee                   | Huomautukset                                                                                                                                                                                                     |
+| --------------- | ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `*#*#6484#*#*`  | Avaa CIT-laitteistotestivalikon | Sisältää usein näytön, kosketuksen, värinän, kaiuttimien, mikrofonien, kameroiden, antureiden, GPS:n, Wi-Fin, Bluetoothin, SIM-kortin, näppäinten, sormenjälkitunnistimen, infrapunalähettimen ja NFC:n testejä. |
+| `*#*#64663#*#*` | Vaihtoehtoinen CIT-koodi        | Toimii joissakin vanhemmissa Xiaomi-malleissa.                                                                                                                                                                   |
+| `*#*#4636#*#*`  | Androidin Testing-valikko       | Saatavuus vaihtelee etenkin uudemmissa HyperOS-versioissa.                                                                                                                                                       |
 
 Joissakin Xiaomi-puhelimissa diagnostiikka avautuu myös puhelimen tietosivulta napauttamalla `Kernel version` -kohtaa useita kertoja. Jos valintakoodi ei toimi, kokeile tätä reittiä.
 
@@ -94,12 +95,12 @@ Joissakin Xiaomi-puhelimissa diagnostiikka avautuu myös puhelimen tietosivulta 
 
 OnePlusin diagnostiikkapääsy on muuttunut vuosien aikana, kun OxygenOS on lähentynyt ColorOS:ää. Vanhojen oppaiden ohjeet eivät välttämättä vastaa nykyistä puhelintasi.
 
-| Koodi | Mitä se tekee | Huomautukset |
-|---|---|---|
-| `*#808#` | Engineering Mode | Laitteistotesteihin voi kuulua näyttö, kosketus, kamerat, anturit, ääni, lataus ja verkkokomponentit. Saatavuus vaihtelee OxygenOS-version ja alueen mukaan. |
-| `*#*#4636#*#*` | Androidin Testing-valikko | Toimii edelleen monissa malleissa. |
-| `*#888#` | Laitteistoversio tai tuotantotiedot | Ei ole käytettävissä kaikissa malleissa. |
-| `*#1234#` | Laiteohjelmiston versio | Toimii joissakin OnePlus-versioissa. |
+| Koodi          | Mitä se tekee                       | Huomautukset                                                                                                                                                 |
+| -------------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `*#808#`       | Engineering Mode                    | Laitteistotesteihin voi kuulua näyttö, kosketus, kamerat, anturit, ääni, lataus ja verkkokomponentit. Saatavuus vaihtelee OxygenOS-version ja alueen mukaan. |
+| `*#*#4636#*#*` | Androidin Testing-valikko           | Toimii edelleen monissa malleissa.                                                                                                                           |
+| `*#888#`       | Laitteistoversio tai tuotantotiedot | Ei ole käytettävissä kaikissa malleissa.                                                                                                                     |
+| `*#1234#`      | Laiteohjelmiston versio             | Toimii joissakin OnePlus-versioissa.                                                                                                                         |
 
 Ole varovainen Engineering Mode -valikossa. Käytä testinäkymiä, mutta älä muuta modeemin, kalibroinnin tai huollon asetuksia.
 
@@ -107,11 +108,11 @@ Ole varovainen Engineering Mode -valikossa. Käytä testinäkymiä, mutta älä 
 
 Motorolalla on vähemmän julkisia valintakoodeja kuin Samsungilla tai Xiaomilla, mutta monissa malleissa on huoltotestisovellus.
 
-| Koodi | Mitä se tekee | Huomautukset |
-|---|---|---|
-| `*#*#2486#*#*` | Avaa CQATest- tai huoltotestivalikon | Voi sisältää näytön, kosketuksen, kaiuttimen, värinän, kameran ja antureiden testejä. |
-| `*#*#4636#*#*` | Androidin Testing-valikko | Toimii monissa malleissa. |
-| `.12345+=` | Avaa engineering mode -tilan puhelimen omasta laskinsovelluksesta | Toimii vain joissakin Motorola-laitteissa ja vain esiasennetussa laskimessa. |
+| Koodi          | Mitä se tekee                                                     | Huomautukset                                                                          |
+| -------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| `*#*#2486#*#*` | Avaa CQATest- tai huoltotestivalikon                              | Voi sisältää näytön, kosketuksen, kaiuttimen, värinän, kameran ja antureiden testejä. |
+| `*#*#4636#*#*` | Androidin Testing-valikko                                         | Toimii monissa malleissa.                                                             |
+| `.12345+=`     | Avaa engineering mode -tilan puhelimen omasta laskinsovelluksesta | Toimii vain joissakin Motorola-laitteissa ja vain esiasennetussa laskimessa.          |
 
 Jos CQATest ilmestyy sovellusluetteloon testin jälkeen, älä säikähdä. Se on Motorolan tehdastestikomponentti.
 
@@ -119,12 +120,12 @@ Jos CQATest ilmestyy sovellusluetteloon testin jälkeen, älä säikähdä. Se o
 
 OPPO ja Realme jakavat paljon ColorOS-pohjaista tekniikkaa, joten myös niiden huoltokoodit menevät osittain päällekkäin.
 
-| Koodi | Mitä se tekee | Huomautukset |
-|---|---|---|
-| `*#899#` | Manuaalinen testi- tai engineering-valikko | Tavallinen laitteistotestien aloituspiste monissa ColorOS- ja Realme UI -versioissa. |
-| `*#800#` | Engineering- tai lokityökalu | Käytetään usein lokeihin ja verkkodiagnostiikkaan. |
-| `*#6776#` | Ohjelmisto- ja laitetiedot | Näyttää malli- ja laiteohjelmistotietoja monissa laitteissa. |
-| `*#*#4636#*#*` | Androidin Testing-valikko | Saatavuus vaihtelee. |
+| Koodi          | Mitä se tekee                              | Huomautukset                                                                         |
+| -------------- | ------------------------------------------ | ------------------------------------------------------------------------------------ |
+| `*#899#`       | Manuaalinen testi- tai engineering-valikko | Tavallinen laitteistotestien aloituspiste monissa ColorOS- ja Realme UI -versioissa. |
+| `*#800#`       | Engineering- tai lokityökalu               | Käytetään usein lokeihin ja verkkodiagnostiikkaan.                                   |
+| `*#6776#`      | Ohjelmisto- ja laitetiedot                 | Näyttää malli- ja laiteohjelmistotietoja monissa laitteissa.                         |
+| `*#*#4636#*#*` | Androidin Testing-valikko                  | Saatavuus vaihtelee.                                                                 |
 
 Turvallisempi vaihtoehto on yleensä puhelimen sisäänrakennettu Phone Manager-, My OPPO-, My realme- tai Support-sovellus, jos sellainen kuuluu malliin.
 

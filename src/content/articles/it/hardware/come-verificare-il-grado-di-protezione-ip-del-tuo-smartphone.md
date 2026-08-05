@@ -5,10 +5,11 @@ listSummary: "Cosa significano i gradi IP67, IP68 e IP69 per gli smartphone."
 hub: "hardware"
 sourceNumber: 116
 order: 13
-tags: ["diagnostica","sensori","android","hardware","guida"]
+tags: ["diagnostica", "sensori", "android", "hardware", "guida"]
 locale: "it"
 draft: false
 ---
+
 Resistente all'acqua non significa impermeabile, per quanto sicura possa sembrare la scheda tecnica.
 
 Il tuo smartphone ha una classificazione IP oppure no. Non esistono app, codici da digitare nel telefono o impostazioni Android nascoste in grado di verificarla in un secondo momento.

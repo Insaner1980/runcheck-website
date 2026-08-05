@@ -5,10 +5,11 @@ listSummary: "Du prøver å ta opp én video til, og Android sier at det ikke er
 hub: "storage"
 sourceNumber: 85
 order: 7
-tags: ["lagring","android","opprydding","optimalisering","guide"]
+tags: ["lagring", "android", "opprydding", "optimalisering", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Bilder er håndterlige. Video er det virkelige problemet. Noen få minutter med 4K-opptak kan bruke mer plass enn flere måneder med skjermbilder, og sikkerhetskopiering til skyen hjelper først når du fjerner de lokale kopiene fra telefonen.
 
 ## Begynn med Google Photos

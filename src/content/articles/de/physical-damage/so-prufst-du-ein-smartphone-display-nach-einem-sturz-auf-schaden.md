@@ -5,10 +5,11 @@ listSummary: "hardware, testen und diagnose"
 hub: "physical-damage"
 sourceNumber: 131
 order: 1
-tags: ["hardware","testen","diagnose","android","ratgeber"]
+tags: ["hardware", "testen", "diagnose", "android", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Es geht nicht darum, in Panik jedes einzelne Pixel zu testen, als würdest du ein gebrauchtes Smartphone von einer fremden Person kaufen. Du willst die Dinge finden, die wirklich zählen: Risse, tote Pixel, Bereiche ohne Touch-Reaktion, Farbverschiebungen, Flackern und ein gelöstes Displaypanel.
 
 ## Beginne mit Glas und Rahmen

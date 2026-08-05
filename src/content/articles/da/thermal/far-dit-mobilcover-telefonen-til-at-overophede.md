@@ -5,10 +5,11 @@ listSummary: "Dit cover er sandsynligvis ikke grunden til, at telefonen bliver v
 hub: "thermal"
 sourceNumber: 60
 order: 8
-tags: ["temperatur","varme","android","fejlfinding","hardware"]
+tags: ["temperatur", "varme", "android", "fejlfinding", "hardware"]
 locale: "da"
 draft: false
 ---
+
 Varmen kommer inde fra telefonen: SoC, GPU, modem, skærm, batteri og opladningshardware. Et cover skaber ikke varmen. Det gør det bare sværere for telefonen at komme af med den. De fleste dage betyder det næsten ingenting. På den forkerte dag, med hurtigopladning, GPS, direkte sol og et tykt cover, betyder det meget.
 
 Den forskel er værd at holde fast i. Det er doven fejlfinding at give coveret skylden for enhver varm telefon. Det er lige så dårligt at ignorere det fuldstændigt.
@@ -73,4 +74,4 @@ Hvis telefonen overopheder uden cover, uden oplader, uden en krævende app og ve
 
 ---
 
-*Metabeskrivelse: Mobilcovers skaber ikke varme, men tykke covers af TPU eller silikone samt robuste covers og pungcovers kan holde på den under hurtigopladning, trådløs opladning, spil, navigation eller varmt vejr.*
+_Metabeskrivelse: Mobilcovers skaber ikke varme, men tykke covers af TPU eller silikone samt robuste covers og pungcovers kan holde på den under hurtigopladning, trådløs opladning, spil, navigation eller varmt vejr._

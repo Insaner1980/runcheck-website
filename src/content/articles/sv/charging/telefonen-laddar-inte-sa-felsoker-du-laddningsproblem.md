@@ -5,10 +5,11 @@ listSummary: "Felsök laddaren, kabeln, USB-C-porten och batteriet när telefone
 hub: "charging"
 sourceNumber: 48
 order: 12
-tags: ["laddning","batteri","android","guide","hårdvara"]
+tags: ["laddning", "batteri", "android", "guide", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 Du har 2 % kvar, ansluter telefonen och ingenting händer. Ingen laddningsikon. Ingen vibration. Inte minsta tecken på att kabeln gjorde någon skillnad.
 
 En telefon som inte laddar har ofta ett fel någonstans i kedjan. Strömmen måste gå från vägguttaget genom nätadaptern, kabeln och USB-C-porten till laddningskomponenterna inne i telefonen. Det räcker med en svag länk för att allt ska se dött ut. Gå igenom kedjan i ordning, så hittar du vanligtvis den felande delen på 10-15 minuter.

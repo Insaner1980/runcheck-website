@@ -5,10 +5,12 @@ listSummary: "Un telefono può cadere a terra, sembrare del tutto normale e aver
 hub: "physical-damage"
 sourceNumber: 132
 order: 2
-tags: ["temperatura","termico","android","risoluzione-dei-problemi","hardware"]
+tags:
+  ["temperatura", "termico", "android", "risoluzione-dei-problemi", "hardware"]
 locale: "it"
 draft: false
 ---
+
 La maggior parte delle cadute non provoca danni seri. Se però il telefono inizia a comportarsi diversamente subito dopo, non ignorare il cambiamento.
 
 ## Controlla prima la batteria

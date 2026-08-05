@@ -5,10 +5,11 @@ listSummary: "Eikö Android-puhelin käynnisty tai jääkö näyttö mustaksi?"
 hub: "performance"
 sourceNumber: 75
 order: 12
-tags: ["runcheck","seo","android","artikkeli","opas"]
+tags: ["runcheck", "seo", "android", "artikkeli", "opas"]
 locale: "fi"
 draft: false
 ---
+
 ---
 
 Joku liittää puhelimen laturiin, ei näe mitään, painaa virtapainiketta viisi kertaa ja päättelee laitteen kuolleen. Joskus se onkin. Useammin akku on purkautunut täysin, ohjelmisto on jumiutunut näytön ollessa sammuksissa tai näyttö on rikkoutunut, vaikka itse puhelin toimii yhä.

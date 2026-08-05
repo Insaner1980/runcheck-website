@@ -5,10 +5,11 @@ listSummary: "Vous examinez un smartphone d'occasion."
 hub: "hardware"
 sourceNumber: 106
 order: 3
-tags: ["materiel","test","diagnostic","android","guide"]
+tags: ["materiel", "test", "diagnostic", "android", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Les défauts d'écran se dissimulent facilement pendant un usage normal. Le fond d'écran, les icônes, le mode sombre et les animations peuvent les masquer. Quelques tests avec des couleurs unies et des gestes tactiles suffisent à les rendre beaucoup plus visibles.
 
 ## Pixels morts et pixels bloqués

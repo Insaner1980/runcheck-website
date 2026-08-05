@@ -5,10 +5,11 @@ listSummary: "laitteisto, vauriot ja korjaaminen"
 hub: "physical-damage"
 sourceNumber: 135
 order: 5
-tags: ["laitteisto","vauriot","korjaaminen","android","vianetsintä"]
+tags: ["laitteisto", "vauriot", "korjaaminen", "android", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+
 ---
 
 Ensimmäinen merkki ei yleensä ole dramaattinen. Suojakuori ei enää istu tiiviisti. Näytönsuojus nousee jatkuvasti yhdestä kulmasta. Puhelin keinuu pöydällä, vaikka taustapuoli näyttää normaalilta.

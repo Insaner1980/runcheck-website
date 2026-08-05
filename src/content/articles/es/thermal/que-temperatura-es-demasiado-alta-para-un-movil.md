@@ -5,10 +5,11 @@ listSummary: "La temperatura del móvil depende del calor ambiental, la batería
 hub: "thermal"
 sourceNumber: 59
 order: 7
-tags: ["temperatura","termico","android","solucion-de-problemas","hardware"]
+tags: ["temperatura", "termico", "android", "solucion-de-problemas", "hardware"]
 locale: "es"
 draft: false
 ---
+
 ¿Cuándo está demasiado caliente? La respuesta molesta es que depende de qué temperatura estés midiendo.
 
 La temperatura del aire alrededor del móvil es una cifra. La de su superficie exterior es otra. El sensor de la batería ofrece una tercera, y esa es la más importante para el envejecimiento de la batería. Un móvil puede parecer solo templado en la mano mientras la batería o el SoC ya están lo bastante calientes para que Android reduzca el rendimiento.

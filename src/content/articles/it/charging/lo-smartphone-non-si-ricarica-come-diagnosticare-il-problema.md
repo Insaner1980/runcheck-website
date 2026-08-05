@@ -5,10 +5,11 @@ listSummary: "Una lista pratica per diagnosticare i problemi di ricarica su Andr
 hub: "charging"
 sourceNumber: 48
 order: 12
-tags: ["ricarica","batteria","android","guida","hardware"]
+tags: ["ricarica", "batteria", "android", "guida", "hardware"]
 locale: "it"
 draft: false
 ---
+
 La batteria è al 2 %, colleghi lo smartphone e non succede nulla. Nessuna icona di ricarica. Nessuna vibrazione. Nemmeno un piccolo segnale che il cavo abbia fatto qualcosa.
 
 Quando un telefono non si ricarica, il problema di solito è in un punto della catena. L'energia deve passare dalla presa all'alimentatore, poi attraverso il cavo e la porta USB-C, fino ai circuiti di ricarica interni. Basta un solo anello debole per far sembrare morto tutto il sistema. Controlla la catena in ordine e, nella maggior parte dei casi, troverai il componente difettoso in 10-15 minuti.

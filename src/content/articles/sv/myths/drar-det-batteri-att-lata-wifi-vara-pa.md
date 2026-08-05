@@ -5,10 +5,11 @@ listSummary: "Att låta wifi vara på drar vanligtvis inte mycket batteri på An
 hub: "myths"
 sourceNumber: 149
 order: 5
-tags: ["nätverk","anslutningar","android","felsökning","guide"]
+tags: ["nätverk", "anslutningar", "android", "felsökning", "guide"]
 locale: "sv"
 draft: false
 ---
+
 De flesta oroar sig för fel wifi-problem. En telefon som är ansluten till ett starkt wifi-nätverk är inte samma sak som en telefon som går omkring hela dagen utan anslutning och söker efter nätverk den kanske kan ansluta till.
 
 Skillnaden spelar roll. Anslutet wifi kostar vanligtvis lite energi. Det är ständig sökning som börjar synas i batteriförbrukningen.

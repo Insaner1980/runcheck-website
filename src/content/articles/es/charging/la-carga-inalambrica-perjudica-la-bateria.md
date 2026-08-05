@@ -5,10 +5,11 @@ listSummary: "La carga inalámbrica suele ser segura para la batería, pero gene
 hub: "charging"
 sourceNumber: 40
 order: 4
-tags: ["carga","bateria","android","guia","hardware"]
+tags: ["carga", "bateria", "android", "guia", "hardware"]
 locale: "es"
 draft: false
 ---
+
 ¿La carga inalámbrica perjudica la batería o es otra preocupación exagerada de internet? La respuesta más justa es que funciona bien, pero es más fácil usarla mal que la carga por cable.
 
 El problema no es la transmisión inalámbrica en sí. Es el calor. La carga inalámbrica pierde más energía durante la transferencia que un cable, y esa energía desperdiciada se convierte en calor en el móvil, en la base o en ambos.

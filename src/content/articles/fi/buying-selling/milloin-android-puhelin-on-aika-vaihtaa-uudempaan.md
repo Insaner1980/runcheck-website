@@ -5,10 +5,11 @@ listSummary: "Et luultavasti tarvitse uutta Android-puhelinta vain siksi, että 
 hub: "buying-selling"
 sourceNumber: 143
 order: 7
-tags: ["osto-opas","android","vertailu","arvo","opas"]
+tags: ["osto-opas", "android", "vertailu", "arvo", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Viive ei tee puhelimestasi vanhentunutta. Todellinen vaihtokysymys on yksinkertaisempi: onko laite yhä turvallinen ja käyttökelpoinen, ja kannattaako sitä vielä korjata?
 
 ## Tietoturvapäivitykset ovat todellinen takaraja

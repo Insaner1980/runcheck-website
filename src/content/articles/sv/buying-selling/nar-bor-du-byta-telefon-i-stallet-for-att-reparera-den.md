@@ -5,10 +5,11 @@ listSummary: "Jämför reparationskostnaden, återstående support och telefonen
 hub: "buying-selling"
 sourceNumber: 4
 order: 2
-tags: ["android","uppdateringar","säkerhet","programvara","guide"]
+tags: ["android", "uppdateringar", "säkerhet", "programvara", "guide"]
 locale: "sv"
 draft: false
 ---
+
 ## Reparationerna som nästan alltid lönar sig
 
 Batteribyten är det tydligaste ekonomiska argumentet för reparation. För många vanliga Android-modeller i Sverige ligger priset ungefär på 800-1 500 kr, medan auktoriserad service och förseglade premiummodeller kan kosta mer. Det är ändå ofta en bråkdel av priset för en ny telefon. Ett nytt batteri återställer skärmtiden och kan minska den CPU-begränsning som Android använder när ett försämrat batteri inte längre levererar stabil effekt. En relativt liten reparationskostnad kan ge två till tre års extra användning.
@@ -17,7 +18,6 @@ Reparation av laddningsporten hör till samma kategori. Hos svenska verkstäder 
 
 Båda reparationerna kan vara rimliga oavsett telefonens ålder, så länge den fortfarande får säkerhetsuppdateringar.
 
-
 ## Skärmreparationer: när kalkylen blir svårare
 
 Priset för ett skärmbyte varierar enormt. En billigare telefon med platt LCD-skärm kan kosta omkring 1 000-1 800 kr att reparera. En Samsung Galaxy S-modell med avancerad OLED-skärm kan ligga ungefär på 2 600-4 800 kr. Vikbara telefoner är en egen kategori, där byte av den inre skärmen ofta kostar omkring 4 950-7 000 kr eller mer.
@@ -25,7 +25,6 @@ Priset för ett skärmbyte varierar enormt. En billigare telefon med platt LCD-s
 Frågan är vad telefonen är värd efter reparationen. Ett skärmbyte för 2 000 kr på en telefon som är värd 3 500 kr och har tre års uppdateringar kvar kan vara rimligt. Samma reparation på en telefon värd 1 800 kr med ett års support kvar är det inte. Då gör pengarna större nytta som del av köpet av en nyare begagnad eller rekonditionerad telefon.
 
 Något många missar är att en telefon med sprucken men fungerande skärm tappar andrahandsvärde snabbare än en telefon med slitet batteri. Ibland är det bättre att sälja telefonen i befintligt skick och lägga pengarna på en ersättare än att betala för skärmbytet.
-
 
 ## När ett byte är det bättre valet
 
@@ -39,32 +38,29 @@ Vissa situationer gör reparation till en dålig affär även när det första p
 
 **RAM-gränsen.** En telefon med 4 GB RAM kan fortfarande fungera för lätt användning, men det är snålt för modern Android, aktuella appar och tung multitasking. Appar laddas om hela tiden, växlingen hackar och bakgrundsappar stängs utan förvarning. Ingen reparation eller fabriksåterställning höjer den gränsen.
 
-
 ## Kostnadsjämförelsen i praktiken
 
 Ungefärliga svenska reparationspriser för Android-telefoner 2026:
 
-| Reparation | Prisintervall | Tid |
-|--------|-----------|------|
-| Batteribyte | 800-1 500 kr | ofta 30-60 minuter |
-| Laddningsport | 600-1 300 kr | ofta 30-60 minuter |
-| Skärm, platt LCD eller budgetmodell | 1 000-1 800 kr | ofta samma dag |
-| Skärm, OLED på flaggskepp | 2 600-4 800 kr | varierar |
-| Inre skärm på vikbar telefon | 4 950-7 000 kr eller mer | varierar |
-| Mindre fuktskada | pris efter felsökning | ofta 1-3 dagar |
-| Svår fuktskada | pris efter felsökning, ibland inte reparerbar | varierar |
+| Reparation                          | Prisintervall                                 | Tid                |
+| ----------------------------------- | --------------------------------------------- | ------------------ |
+| Batteribyte                         | 800-1 500 kr                                  | ofta 30-60 minuter |
+| Laddningsport                       | 600-1 300 kr                                  | ofta 30-60 minuter |
+| Skärm, platt LCD eller budgetmodell | 1 000-1 800 kr                                | ofta samma dag     |
+| Skärm, OLED på flaggskepp           | 2 600-4 800 kr                                | varierar           |
+| Inre skärm på vikbar telefon        | 4 950-7 000 kr eller mer                      | varierar           |
+| Mindre fuktskada                    | pris efter felsökning                         | ofta 1-3 dagar     |
+| Svår fuktskada                      | pris efter felsökning, ibland inte reparerbar | varierar           |
 
 Auktoriserad service använder normalt originaldelar och lämnar villkor för arbetet, men kan kosta mer. Oberoende verkstäder kan vara billigare och snabbare, medan kvaliteten på delar och garantier varierar.
 
 En användbar riktlinje är att reparera när den totala kostnaden ligger under 30 % av priset för en jämförbar ny eller rekonditionerad telefon. Se det som en tumregel, inte som en lag.
-
 
 ## Miljöperspektivet
 
 Tillverkningen av en ny smarttelefon orsakar ofta ungefär 50-80 kg CO2e beroende på modell och studiens antaganden. Den kräver dessutom utvinning av bland annat kobolt, litium, koppar, guld och sällsynta jordartsmetaller. Att reparera en befintlig telefon står för en bråkdel av det avtrycket. Inom EU gäller särskilda regler om ekodesign och energimärkning för telefoner som släpps ut på marknaden från den 20 juni 2025. De kräver bland annat batterier som är specificerade för minst 800 cykler med minst 80 % kvarvarande kapacitet, viktiga reservdelar i sju år efter att modellen slutat säljas, reparerbarhetsinformation på energimärkningen och tillgång för professionella reparatörer till programvara eller fast programvara som behövs vid delbyten. Det separata direktivet om rätt till reparation ska vara genomfört av medlemsländerna senast den 31 juli 2026 och stärker reparationsrätten för produktkategorier som omfattas.
 
 För den som väger in miljöpåverkan i köpbeslutet bör reparation vara utgångspunkten, om inte ekonomin tydligt talar för ett byte.
-
 
 ## Vanliga frågor
 

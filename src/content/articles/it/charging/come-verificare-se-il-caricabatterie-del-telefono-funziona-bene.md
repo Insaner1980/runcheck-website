@@ -5,10 +5,11 @@ listSummary: "Scopri come verificare se il caricabatterie del tuo telefono Andro
 hub: "charging"
 sourceNumber: 44
 order: 8
-tags: ["ricarica","batteria","android","guida","hardware"]
+tags: ["ricarica", "batteria", "android", "guida", "hardware"]
 locale: "it"
 draft: false
 ---
+
 Un caricabatterie può superare la prova del connettore e fallire quella della ricarica. USB-C ti dice soltanto che la spina entra. Non ti dice se adattatore, cavo e telefono hanno concordato una modalità di ricarica rapida.
 
 Android 17 non cambia questo problema di base. Non esiste ancora una schermata universale di Android che dica: "questo caricabatterie sta fornendo 23,4 W in questo momento". Devi ricavarlo dai dati disponibili oppure misurarlo nel modo corretto.

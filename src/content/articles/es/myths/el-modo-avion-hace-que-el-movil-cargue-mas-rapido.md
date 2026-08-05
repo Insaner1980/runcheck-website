@@ -5,10 +5,11 @@ listSummary: "carga, bateria y android"
 hub: "myths"
 sourceNumber: 148
 order: 4
-tags: ["carga","bateria","android","guia","hardware"]
+tags: ["carga", "bateria", "android", "guia", "hardware"]
 locale: "es"
 draft: false
 ---
+
 Conectas el móvil cuando está al 12 %, miras el reloj y empiezas a buscar trucos. El modo avión es uno de los pocos que tiene un efecto real, pero no hace milagros.
 
 Ayuda porque el móvil consume menos energía mientras se está cargando. Si se gasta menos en la conexión móvil, el Wi-Fi, el Bluetooth, las notificaciones y la sincronización en segundo plano, una parte algo mayor de la potencia del cargador puede llegar a la batería. La mejora suele ser pequeña. Con un cargador rápido moderno, quizá ni la notes. Con un adaptador antiguo de 5 W, un puerto USB de un portátil o una batería externa, puede marcar más diferencia.

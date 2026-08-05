@@ -5,10 +5,18 @@ listSummary: "rendimiento, velocidad y android"
 hub: "performance"
 sourceNumber: 68
 order: 5
-tags: ["rendimiento","velocidad","android","optimizacion","solucion-de-problemas"]
+tags:
+  [
+    "rendimiento",
+    "velocidad",
+    "android",
+    "optimizacion",
+    "solucion-de-problemas",
+  ]
 locale: "es"
 draft: false
 ---
+
 Tu móvil puede funcionar peor justo después de una actualización de Android, y eso no significa automáticamente que la actualización lo haya estropeado. El primer día o los dos primeros tras una actualización importante suelen ser incómodos porque Android está reconstruyendo elementos en segundo plano mientras intentas utilizar el dispositivo con normalidad.
 
 Es molesto, pero también normal.

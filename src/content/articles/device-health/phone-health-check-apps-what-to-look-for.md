@@ -5,9 +5,10 @@ listSummary: "Health check app selection"
 hub: "device-health"
 sourceNumber: 140
 order: 9
-tags: ["comparison","apps","android","buying-guide","review"]
+tags: ["comparison", "apps", "android", "buying-guide", "review"]
 draft: false
 ---
+
 A good phone health app should tell you what your phone is reporting, where the data is weak, and what you can actually do next. A bad one shows a giant "Optimize" button, runs an animation, and hopes you tap an ad.
 
 That is the line. It is not subtle once you know what to look for.

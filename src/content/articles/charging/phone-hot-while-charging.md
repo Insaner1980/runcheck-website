@@ -5,9 +5,10 @@ listSummary: "Charging heat causes"
 hub: "charging"
 sourceNumber: 52
 order: 16
-tags: ["charging","battery","android","guide","hardware"]
+tags: ["charging", "battery", "android", "guide", "hardware"]
 draft: false
 ---
+
 You plug in your phone, come back 20 minutes later, and the back feels warmer than your hand. A little warmth is normal. A phone that gets too hot to hold comfortably is not.
 
 Charging always creates some heat because some incoming energy turns into waste heat inside the charger, cable, and phone. Fast charging creates more. Wireless charging usually creates more again. The question isn't whether the phone gets warm. The question is whether it stays in a normal range or starts protecting itself.
@@ -80,6 +81,6 @@ Gaming coolers make sense if you play while plugged in for long sessions. They a
 
 ## Can you check the temperature?
 
-Some Android phones show battery temperature in Settings > Battery or device diagnostics. Others hide it. The dialer code *#*#4636#*#* opens a testing menu on some phones, but it doesn't work everywhere.
+Some Android phones show battery temperature in Settings > Battery or device diagnostics. Others hide it. The dialer code _#_#4636#_#_ opens a testing menu on some phones, but it doesn't work everywhere.
 
 runcheck shows real-time battery temperature and thermal status during charging. That's useful because "feels hot" is subjective. Numbers tell you whether the phone is merely warm or actually running into thermal limits.

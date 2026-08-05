@@ -5,10 +5,11 @@ listSummary: "Metakuvaus: Nopein tapa vapauttaa Android-puhelimen tallennustilaa
 hub: "storage"
 sourceNumber: 82
 order: 4
-tags: ["tallennustila","android","siivous","optimointi","opas"]
+tags: ["tallennustila", "android", "siivous", "optimointi", "opas"]
 locale: "fi"
 draft: false
 ---
+
 ---
 
 Yksi viikonloppumatkalla kuvattu 4K-video voi olla suurempi kuin sadat valokuvat yhteensä. Saman verran tilaa voi viedä yksi ladattu Netflix-jakso, unohtunut pelikansio tai kuukausia sitten avattu ZIP-tiedosto.

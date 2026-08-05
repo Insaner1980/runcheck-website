@@ -5,10 +5,12 @@ listSummary: "Apri le Impostazioni di qualsiasi smartphone Android e troverai le
 hub: "device-health"
 sourceNumber: 10
 order: 6
-tags: ["temperatura","termico","android","risoluzione-dei-problemi","hardware"]
+tags:
+  ["temperatura", "termico", "android", "risoluzione-dei-problemi", "hardware"]
 locale: "it"
 draft: false
 ---
+
 Android non definisce un punteggio di stato universale. Non esiste una schermata comune a tutti i dispositivi in cui "82/100" significhi la stessa cosa su ogni marca. Lo strumento Samsung per l'assistenza del dispositivo può mostrare un punteggio di ottimizzazione su 100, mentre Device health and support sui Pixel mostra lo stato generale e quello delle funzioni. Sono comunque strumenti dei produttori, non uno standard condiviso da Android. Le app di diagnostica usano modelli propri. Conta più capire quali dati entrano nel calcolo e quali limiti hanno che fissarsi sul numero finale.
 
 ## Cosa misura un punteggio di stato

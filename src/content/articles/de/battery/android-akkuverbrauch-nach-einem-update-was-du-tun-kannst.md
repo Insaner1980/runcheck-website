@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 27
 order: 17
 subgroup: "Drain"
-tags: ["akku","akkuverbrauch","fehlerbehebung","android","leistung"]
+tags: ["akku", "akkuverbrauch", "fehlerbehebung", "android", "leistung"]
 locale: "de"
 draft: false
 ---
+
 Das ist nach Updates häufig. Es sollte sich aber auch wieder legen.
 
 ## Hinweis zu Android 17 für Pixel-Besitzer

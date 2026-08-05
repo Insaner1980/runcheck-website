@@ -5,10 +5,11 @@ listSummary: "performances, vitesse et android"
 hub: "myths"
 sourceNumber: 150
 order: 6
-tags: ["performances","vitesse","android","optimisation","depannage"]
+tags: ["performances", "vitesse", "android", "optimisation", "depannage"]
 locale: "fr"
 draft: false
 ---
+
 Votre téléphone peut réellement devenir plus lent avec le temps. La partie gênante, c'est que plusieurs choses peuvent être vraies en même temps : des fabricants ont pris des décisions qui ont nui à des appareils anciens, tandis que la plupart des ralentissements ont encore des causes techniques bien moins spectaculaires.
 
 Oui, l'obsolescence programmée existe en partie. Non, chaque téléphone qui saccade n'est pas la preuve d'un interrupteur secret.

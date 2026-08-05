@@ -5,10 +5,11 @@ listSummary: "laitteisto, testaus ja diagnostiikka"
 hub: "hardware"
 sourceNumber: 109
 order: 6
-tags: ["laitteisto","testaus","diagnostiikka","android","opas"]
+tags: ["laitteisto", "testaus", "diagnostiikka", "android", "opas"]
 locale: "fi"
 draft: false
 ---
+
 ---
 
 Äänetön puhelin ei automaattisesti tarkoita, että värinämoottori on rikki. Useimmat värinäongelmat johtuvat ensin asetuksista, sitten ohjelmistosta ja vasta viimeisenä laitteistosta.

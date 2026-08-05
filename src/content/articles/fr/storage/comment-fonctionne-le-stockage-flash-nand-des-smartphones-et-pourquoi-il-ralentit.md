@@ -5,10 +5,11 @@ listSummary: "Le stockage des smartphones utilise de la mémoire flash NAND."
 hub: "storage"
 sourceNumber: 89
 order: 11
-tags: ["performances","vitesse","android","optimisation","depannage"]
+tags: ["performances", "vitesse", "android", "optimisation", "depannage"]
 locale: "fr"
 draft: false
 ---
+
 Votre téléphone peut disposer d'un SoC rapide et de beaucoup de RAM, tout en devenant poussif lorsque son stockage est presque plein. Les applications marquent une pause avant de s'ouvrir. L'appareil photo met un peu plus de temps à enregistrer une image. Les mises à jour durent plus longtemps qu'elles ne le devraient.
 
 Le processeur n'est pas toujours responsable. Le stockage peut être le goulot d'étranglement.

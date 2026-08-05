@@ -5,10 +5,11 @@ listSummary: "La carga rápida puede aumentar el desgaste de la batería, pero l
 hub: "charging"
 sourceNumber: 39
 order: 3
-tags: ["carga","bateria","android","guia","hardware"]
+tags: ["carga", "bateria", "android", "guia", "hardware"]
 locale: "es"
 draft: false
 ---
+
 La mayoría de los consejos sobre carga rápida son demasiado alarmistas. La carga rápida no condena la batería, y cargar despacio tampoco hace milagros. La pregunta importante es si el móvil se mantiene fresco mientras carga.
 
 Ahí es donde la respuesta se complica. Un cargador de 65 W sobre una mesa fresca puede castigar menos la batería que uno de 15 W debajo de una almohada. La potencia importa, pero la temperatura importa más.

@@ -5,10 +5,11 @@ listSummary: "En Android-telefon kan se helt normal ut trots att en komponent h�
 hub: "hardware"
 sourceNumber: 104
 order: 1
-tags: ["batteri","batteriförbrukning","felsökning","android","prestanda"]
+tags: ["batteri", "batteriförbrukning", "felsökning", "android", "prestanda"]
 locale: "sv"
 draft: false
 ---
+
 Den goda nyheten är att det mesta går att testa innan du betalar för en reparation. Android har inställningssidor, tillverkarnas diagnostikverktyg, knappkoder och manuella kontroller för de viktigaste hårdvarudelarna. Det besvärliga är att inget av detta är helt universellt.
 
 Android 17 släpptes den 16 juni 2026 och gjordes tillgängligt för de flesta Pixel-modeller som stöds, medan andra märken följer sina egna tidplaner. Det spelar roll eftersom diagnostikmenyer, sidor för batterihälsa och inställningsvägar kan skilja sig mellan Android-versioner, OEM-gränssnitt, operatörsversioner och regioner. Se varje kod i guiden som en genväg, inte som ett löfte.

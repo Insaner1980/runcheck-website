@@ -5,10 +5,11 @@ listSummary: "verkko, yhteydet ja android"
 hub: "network"
 sourceNumber: 101
 order: 12
-tags: ["verkko","yhteydet","android","vianetsintä","opas"]
+tags: ["verkko", "yhteydet", "android", "vianetsintä", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Puhelimessa joko on 5G-laitteisto tai ei ole. Android 17, operaattoriasetusten päivitys tai uusi SIM-kortti ei muuta pelkkää 4G:tä tukevaa modeemia 5G-modeemiksi.
 
 Tämä kuulostaa itsestään selvältä, mutta aiheuttaa paljon sekaannusta. Monet uudetkin edulliset Android-puhelimet tukevat vain 4G:tä, kun taas useissa vanhemmissa huippumalleissa on jo 5G. Tarkka mallinumero kertoo enemmän kuin kuitissa näkyvä ostovuosi.

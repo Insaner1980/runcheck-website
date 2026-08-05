@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 17
 order: 7
 subgroup: "Stato della batteria"
-tags: ["batteria","stato","diagnostica","android","guida"]
+tags: ["batteria", "stato", "diagnostica", "android", "guida"]
 locale: "it"
 draft: false
 ---
+
 Come fai a capire se la cella è davvero usurata, invece di avere un'app che si comporta male o un telefono in difficoltà per il segnale debole?
 
 La distinzione conta. Una batteria nuova non risolverà il problema di un'app fuori controllo. Eliminare qualche app non riparerà una cella che non riesce più a erogare la potenza richiesta.

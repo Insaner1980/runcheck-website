@@ -5,10 +5,11 @@ listSummary: "How to start Android in Safe Mode, what it disables, and how to us
 hub: "performance"
 sourceNumber: 70
 order: 7
-tags: ["batteri","batteriförbrukning","felsökning","android","prestanda"]
+tags: ["batteri", "batteriförbrukning", "felsökning", "android", "prestanda"]
 locale: "sv"
 draft: false
 ---
+
 Hur vet du om telefonen är långsam för att Android har en dålig dag, eller för att en app ställer till med allt i bakgrunden? Säkert läge är det tydligaste testet.
 
 I säkert läge startar Android bara systemprogramvaran och de förinstallerade apparna. Appar som du själv har installerat inaktiveras tills telefonen startas om normalt. Ingenting raderas. Syftet är att isolera problemet: om det försvinner i säkert läge är en tredjepartsapp troligen inblandad. Om problemet finns kvar bör du i stället titta på Android, lagringen, batteriet eller hårdvaran.

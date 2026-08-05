@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 31
 order: 21
 subgroup: "Consumo della batteria"
-tags: ["batteria","stato","diagnostica","android","guida"]
+tags: ["batteria", "stato", "diagnostica", "android", "guida"]
 locale: "it"
 draft: false
 ---
+
 Sei fuori con una temperatura sotto zero, il telefono indica il 38 % e poi si spegne come se la batteria fosse arrivata a zero. Dopo qualche minuto al chiuso, si riaccende e mostra di nuovo una carica residua.
 
 Fastidioso? Sì. Misterioso? Non proprio.

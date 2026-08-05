@@ -5,10 +5,11 @@ listSummary: "recharge, batterie et android"
 hub: "hardware"
 sourceNumber: 108
 order: 5
-tags: ["recharge","batterie","android","guide","materiel"]
+tags: ["recharge", "batterie", "android", "guide", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 ---
 
 Vous devez tenir le câble dans un angle improbable, l'icône de charge apparaît puis disparaît, et le téléphone ne se recharge que s'il reste parfaitement immobile. Tout porte à croire que le port est hors service, mais ne commencez pas par cette conclusion.

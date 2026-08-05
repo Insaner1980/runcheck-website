@@ -5,10 +5,11 @@ listSummary: "opladning, batteri og android"
 hub: "charging"
 sourceNumber: 44
 order: 8
-tags: ["opladning","batteri","android","guide","hardware"]
+tags: ["opladning", "batteri", "android", "guide", "hardware"]
 locale: "da"
 draft: false
 ---
+
 En oplader kan passe i stikket og stadig dumpe selve opladningstesten. USB-C fortæller kun, at stikket passer. Det fortæller ikke, om adapteren, kablet og telefonen kan blive enige om hurtigopladning.
 
 Android 17 ændrer ikke det grundlæggende problem. Der findes stadig ikke én fælles Android-skærm, der siger: "Denne oplader leverer 23,4 W lige nu." Du er nødt til at udlede det eller måle det ordentligt.

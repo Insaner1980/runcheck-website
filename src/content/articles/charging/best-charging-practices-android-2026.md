@@ -5,9 +5,10 @@ listSummary: "2026 charging habits"
 hub: "charging"
 sourceNumber: 50
 order: 14
-tags: ["charging","battery","android","guide","hardware"]
+tags: ["charging", "battery", "android", "guide", "hardware"]
 draft: false
 ---
+
 The best Android charging habit in 2026 is boring: keep the phone cool, use the built-in charge limit, and don't leave the battery sitting at 100% all day when you don't need to.
 
 That's most of it. People make battery care sound like a ritual, but modern Android phones already do a lot of the work. Supported Pixel phones are now receiving Android 17 first, with other brands following later through their own Android 17 builds. The charging advice below still depends more on the manufacturer than on the Android version number.

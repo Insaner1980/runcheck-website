@@ -5,9 +5,10 @@ listSummary: "No-power troubleshooting steps"
 hub: "performance"
 sourceNumber: 75
 order: 12
-tags: ["runcheck","seo","android","article","guide"]
+tags: ["runcheck", "seo", "android", "article", "guide"]
 draft: false
 ---
+
 ---
 
 Someone plugs in a phone, sees nothing, presses Power five times, and assumes it's dead. Sometimes it is. More often, the battery is fully drained, the software is frozen with the screen off, or the display has failed while the phone itself is still running.

@@ -5,10 +5,18 @@ listSummary: "¿Tu móvil Android se congela o deja de responder?"
 hub: "performance"
 sourceNumber: 73
 order: 10
-tags: ["rendimiento","velocidad","android","optimizacion","solucion-de-problemas"]
+tags:
+  [
+    "rendimiento",
+    "velocidad",
+    "android",
+    "optimizacion",
+    "solucion-de-problemas",
+  ]
 locale: "es"
 draft: false
 ---
+
 ---
 
 Tocas la pantalla y no se mueve nada. La aplicación sigue ahí, el reloj puede haberse quedado parado y ni siquiera responde el gesto de volver atrás. Eso es un móvil congelado.

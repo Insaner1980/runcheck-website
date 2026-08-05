@@ -5,9 +5,10 @@ listSummary: "Charging failure diagnosis"
 hub: "charging"
 sourceNumber: 48
 order: 12
-tags: ["charging","battery","android","guide","hardware"]
+tags: ["charging", "battery", "android", "guide", "hardware"]
 draft: false
 ---
+
 You're at 2%, you plug the phone in, and nothing happens. No charging icon. No vibration. No tiny sign that the cable did anything.
 
 A phone that won't charge is usually a chain problem. Power has to move from the wall outlet, through the adapter, through the cable, through the USB-C port, and into the charging hardware inside the phone. One weak link is enough to make the whole thing look dead. Work through the chain in order and you'll usually find the bad part in 10-15 minutes.

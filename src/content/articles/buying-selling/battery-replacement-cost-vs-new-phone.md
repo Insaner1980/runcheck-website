@@ -5,9 +5,10 @@ listSummary: "Battery replacement value math"
 hub: "buying-selling"
 sourceNumber: 142
 order: 6
-tags: ["buying-guide","android","comparison","value","guide"]
+tags: ["buying-guide", "android", "comparison", "value", "guide"]
 draft: false
 ---
+
 Last month your phone lasted until bedtime. Now it needs a charger by dinner. Everything else still works: camera, screen, apps, storage, messages. The device is not broken. Its cell is tired.
 
 That distinction saves money.

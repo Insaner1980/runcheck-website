@@ -5,10 +5,11 @@ listSummary: "batteri, batteriförbrukning och felsökning"
 hub: "physical-damage"
 sourceNumber: 136
 order: 6
-tags: ["batteri","batteriförbrukning","felsökning","android","prestanda"]
+tags: ["batteri", "batteriförbrukning", "felsökning", "android", "prestanda"]
 locale: "sv"
 draft: false
 ---
+
 ---
 
 En sprucken skärm gör inte CPU:n långsammare. Appar behöver inte plötsligt mer processorkraft bara för att glaset har gått sönder.

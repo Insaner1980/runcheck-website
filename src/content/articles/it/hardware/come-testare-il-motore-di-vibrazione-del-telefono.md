@@ -5,10 +5,11 @@ listSummary: "Metodi rapidi per testare il motore di vibrazione di uno smartphon
 hub: "hardware"
 sourceNumber: 109
 order: 6
-tags: ["hardware","test","diagnostica","android","guida"]
+tags: ["hardware", "test", "diagnostica", "android", "guida"]
 locale: "it"
 draft: false
 ---
+
 ---
 
 Un telefono silenzioso non significa automaticamente che il motore di vibrazione sia guasto. La maggior parte dei problemi nasce prima dalle impostazioni, poi dal software e soltanto alla fine dall'hardware.

@@ -5,10 +5,11 @@ listSummary: "nettverk, tilkobling og android"
 hub: "network"
 sourceNumber: 98
 order: 9
-tags: ["nettverk","tilkobling","android","feilsøking","guide"]
+tags: ["nettverk", "tilkobling", "android", "feilsøking", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Du prøver å koble til ørepropper, en klokke, en høyttaler eller bilen, men Android finner ikke enheten. Eller telefonen sier at den er tilkoblet, mens ingenting faktisk virker. Bluetooth er slik. Det kan fungere stille i månedsvis, før én lagret sammenkobling blir rar og får hele systemet til å virke ødelagt.
 
 Begynn med de enkle kontrollene før du graver deg ned i innstillingene. De fleste Bluetooth-feil er ikke alvorlige Android-problemer. De skyldes gamle sammenkoblinger, lite strøm på tilbehøret, avstand, forstyrrelser eller en enhet som egentlig ikke er i sammenkoblingsmodus.

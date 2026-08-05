@@ -5,10 +5,11 @@ listSummary: "akku, zustand und diagnose"
 hub: "myths"
 sourceNumber: 152
 order: 8
-tags: ["akku","zustand","diagnose","android","ratgeber"]
+tags: ["akku", "zustand", "diagnose", "android", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Wenn ein drei Jahre altes Smartphone schon vor dem Abend leer ist, wirkt das Zurücksetzen auf Werkseinstellungen verlockend. Es fühlt sich wie ein Neuanfang an, und manchmal ist es genau das. Nur nicht für den Akku selbst.
 
 Ein Zurücksetzen kann die Akkulaufzeit verbessern. Den Akkuzustand verbessert es nicht.

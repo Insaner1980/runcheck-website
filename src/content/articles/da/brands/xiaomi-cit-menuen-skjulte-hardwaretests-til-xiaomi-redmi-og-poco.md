@@ -5,10 +5,11 @@ listSummary: "Brug Xiaomis CIT-menu til at teste telefonens vigtigste hardwarede
 hub: "brands"
 sourceNumber: 159
 order: 7
-tags: ["hardware","test","diagnostik","android","guide"]
+tags: ["hardware", "test", "diagnostik", "android", "guide"]
 locale: "da"
 draft: false
 ---
+
 Xiaomi kalder den som regel hardware detection eller CIT mode på sine supportsider. Du møder den oftest under fejlfinding af et bestemt problem, for eksempel en touchskærm, der registrerer berøringer forkert, eller en telefon, der bliver ved med at genstarte. Menuen er lavet til en kontrol her og nu, ikke til at følge enhedens tilstand over tid.
 
 Det er hele pointen.
@@ -89,4 +90,4 @@ Som regel ja, når enheden kører officiel Xiaomi-firmware. De tilgængelige tes
 
 ---
 
-*Metabeskrivelse: Xiaomis CIT-menu giver dig adgang til indbyggede hardwaretests på Xiaomi-telefoner. Se opkaldskoderne, stien via Indstillinger, de nyttigste tests og det, CIT ikke kan diagnosticere.*
+_Metabeskrivelse: Xiaomis CIT-menu giver dig adgang til indbyggede hardwaretests på Xiaomi-telefoner. Se opkaldskoderne, stien via Indstillinger, de nyttigste tests og det, CIT ikke kan diagnosticere._

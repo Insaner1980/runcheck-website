@@ -5,10 +5,12 @@ listSummary: "securite, logiciels-malveillants et android"
 hub: "software"
 sourceNumber: 128
 order: 10
-tags: ["securite","logiciels-malveillants","android","confidentialite","guide"]
+tags:
+  ["securite", "logiciels-malveillants", "android", "confidentialite", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Le nom est simplement trompeur. Cette opération ne réinitialise pas les applications elles-mêmes. Elle remet à zéro les choix du système qui concernent les autorisations, les applications par défaut, les notifications, l'activité en arrière-plan et les applications désactivées. Vos photos, messages, fichiers, comptes enregistrés et données d'application restent en place.
 
 ## Ce qui est réinitialisé

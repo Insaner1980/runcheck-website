@@ -5,10 +5,11 @@ listSummary: "temperatur, varme og android"
 hub: "device-health"
 sourceNumber: 10
 order: 6
-tags: ["temperatur","varme","android","feilsøking","maskinvare"]
+tags: ["temperatur", "varme", "android", "feilsøking", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 Android definerer ingen universell helsescore for telefoner. Det finnes ingen felles Android-side der 82 av 100 betyr nøyaktig det samme på alle merker. Samsung Batteri og enhetsvedlikehold kan vise en optimaliseringsscore på opptil 100, og Pixel Enhetstilstand og brukerstøtte viser generell status og funksjonsstatus, men dette er produsentverktøy og ikke en delt Android-standard. Diagnoseapper bruker sine egne beregningsmodeller. Hva de tar med, og hvor modellene kommer til kort, betyr mer enn selve tallet.
 
 ## Dette måler en helsescore

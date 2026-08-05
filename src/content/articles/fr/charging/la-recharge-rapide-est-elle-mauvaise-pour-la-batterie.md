@@ -5,10 +5,11 @@ listSummary: "recharge, batterie et android"
 hub: "charging"
 sourceNumber: 39
 order: 3
-tags: ["recharge","batterie","android","guide","materiel"]
+tags: ["recharge", "batterie", "android", "guide", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 La plupart des conseils sur la recharge rapide sont trop alarmistes. Elle ne condamne pas votre batterie, et la recharge lente n'a rien de magique. La vraie question est de savoir si le téléphone reste frais pendant la recharge.
 
 C'est là que la réponse devient moins nette. Un chargeur de 65 W utilisé sur un bureau frais peut ménager davantage la batterie qu'un chargeur de 15 W placé sous un oreiller. La puissance compte, mais la température compte plus.

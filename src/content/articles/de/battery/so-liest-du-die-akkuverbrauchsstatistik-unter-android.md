@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 14
 order: 4
 subgroup: "Health"
-tags: ["akku","akkuverbrauch","fehlerbehebung","android","leistung"]
+tags: ["akku", "akkuverbrauch", "fehlerbehebung", "android", "leistung"]
 locale: "de"
 draft: false
 ---
+
 Die Android-Akkustatistik hilft dabei, ein Problem einzugrenzen. Sie ist aber keine exakte Abrechnung darüber, wohin jede einzelne Milliamperestunde geflossen ist. Entscheidend ist, die Prozentwerte im richtigen Zusammenhang zu lesen.
 
 **Meta-Beschreibung:** Die Android-Akkustatistik zeigt, welche Apps und Systemdienste Energie verbrauchen. Erfahre, wo du die Werte findest, was die Prozentangaben bedeuten und wie du echte Akkuprobleme erkennst.

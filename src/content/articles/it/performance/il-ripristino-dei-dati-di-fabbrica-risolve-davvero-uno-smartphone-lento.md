@@ -5,10 +5,18 @@ listSummary: "Stai fissando il pulsante per il ripristino dei dati di fabbrica p
 hub: "performance"
 sourceNumber: 67
 order: 4
-tags: ["prestazioni","velocita","android","ottimizzazione","risoluzione-dei-problemi"]
+tags:
+  [
+    "prestazioni",
+    "velocita",
+    "android",
+    "ottimizzazione",
+    "risoluzione-dei-problemi",
+  ]
 locale: "it"
 draft: false
 ---
+
 A volte è il consiglio giusto. Spesso è solo una risposta pigra.
 
 Un ripristino dei dati di fabbrica può rendere di nuovo veloce uno smartphone quando la causa è software: dati delle app cresciuti troppo, impostazioni danneggiate, cache corrotte, troppe app in background o un ripristino disordinato dopo anni di aggiornamenti. Non risolve una memoria flash usurata, una batteria debole, una cattiva gestione termica, poca RAM o un chipset economico che era lento fin dall'inizio.

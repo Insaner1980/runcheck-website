@@ -5,10 +5,11 @@ listSummary: "performances, vitesse et android"
 hub: "performance"
 sourceNumber: 65
 order: 2
-tags: ["performances","vitesse","android","optimisation","depannage"]
+tags: ["performances", "vitesse", "android", "optimisation", "depannage"]
 locale: "fr"
 draft: false
 ---
+
 La solution est donc pratique. Réduisez la pression exercée sur le téléphone avant de conclure que le matériel est dépassé.
 
 ## Libérez d’abord du stockage

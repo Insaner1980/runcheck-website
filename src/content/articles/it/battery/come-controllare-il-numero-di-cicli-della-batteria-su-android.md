@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 12
 order: 2
 subgroup: "Stato della batteria"
-tags: ["batteria","stato","diagnostica","android","guida"]
+tags: ["batteria", "stato", "diagnostica", "android", "guida"]
 locale: "it"
 draft: false
 ---
+
 Questo numero conta perché le batterie agli ioni di litio hanno una durata limitata, misurata anche in cicli. Molte batterie moderne mantengono circa l'80 % della capacità originale dopo 800-1.000 cicli, a seconda della chimica e del produttore. Superata quella fase, l'autonomia quotidiana inizia spesso a ridursi in modo evidente.
 
 Android supporta la comunicazione del conteggio dei cicli da Android 14, ma la presenza del dato dipende interamente dal produttore. Alcuni telefoni recenti lo mostrano nelle Impostazioni. La maggior parte no. I metodi qui sotto partono dalle soluzioni che funzionano sul maggior numero di dispositivi, compresi i modelli più vecchi.

@@ -5,10 +5,11 @@ listSummary: "Metakuvaus: Kuuma sää rasittaa puhelimen akkua ja suoritinta."
 hub: "thermal"
 sourceNumber: 63
 order: 11
-tags: ["lämpötila","kuumeneminen","android","vianetsintä","laitteisto"]
+tags: ["lämpötila", "kuumeneminen", "android", "vianetsintä", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 Olet rannalla, festivaaleilla tai pitkällä kävelyllä, ja puhelin alkaa yhtäkkiä tuntua liian kuumalta kädessä. Sitten näyttö himmenee. Muutaman minuutin kuluttua lataus hidastuu tai kamera ei enää suostu kuvaamaan. Se ei ole satunnaista. Puhelin suojaa itseään.
 
 Monet puhelimet on suunniteltu tavalliseen käyttöön noin 0-35 °C:n (32-95 °F:n) ympäristölämpötilassa. Se ei tarkoita, että laite lakkaa toimimasta heti ilman lämmetessä 36 °C:seen, mutta lämpövaraa ei juuri enää ole. Kun mukaan tulevat suora aurinko, navigointi, mobiilidata, videokuvaus tai lataus, akun lämpötila voi nousta nopeasti.

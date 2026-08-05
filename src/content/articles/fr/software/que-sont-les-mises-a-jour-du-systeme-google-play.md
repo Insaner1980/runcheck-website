@@ -5,10 +5,11 @@ listSummary: "Ouvrez l'écran des mises à jour de votre téléphone Android et 
 hub: "software"
 sourceNumber: 124
 order: 6
-tags: ["android","mises-a-jour","securite","logiciel","guide"]
+tags: ["android", "mises-a-jour", "securite", "logiciel", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Cela ressemble à une erreur. En général, ce n'en est pas une.
 
 Il s'agit de deux canaux distincts. Le niveau du correctif de sécurité arrive par le fabricant du téléphone, par exemple Google, Samsung, Xiaomi, OnePlus ou Motorola. L'autre date provient du système modulaire de mise à jour d'Android de Google, sur les appareils compatibles.

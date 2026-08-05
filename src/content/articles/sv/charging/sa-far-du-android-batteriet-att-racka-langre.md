@@ -5,10 +5,11 @@ listSummary: "laddning, batteri och android"
 hub: "charging"
 sourceNumber: 37
 order: 1
-tags: ["laddning","batteri","android","guide","hårdvara"]
+tags: ["laddning", "batteri", "android", "guide", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 De flesta batteriråd för Android är antingen för självklara eller alldeles för extrema. Ja, lägre ljusstyrka hjälper. Nej, du behöver inte göra telefonen till en tyst tegelsten bara för att den ska hålla hela dagen.
 
 Det användbara angreppssättet är att börja med de stora förbrukarna: skärmen, mobilnätet, bakgrundsappar, platsåtkomst och laddningsvanor. Android 17 släpptes först till de flesta Pixel-enheter som stöds, medan andra Android-tillverkare kommer med sina egna versioner senare. Menynamnen varierar därför, men grunderna för batteritid är desamma.

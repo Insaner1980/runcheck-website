@@ -5,10 +5,12 @@ listSummary: "leistung, geschwindigkeit und android"
 hub: "myths"
 sourceNumber: 150
 order: 6
-tags: ["leistung","geschwindigkeit","android","optimierung","fehlerbehebung"]
+tags:
+  ["leistung", "geschwindigkeit", "android", "optimierung", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+
 Dein Smartphone kann mit der Zeit durchaus langsamer werden. Das Unbequeme daran ist, dass mehrere Dinge gleichzeitig wahr sein können: Hersteller haben Entscheidungen getroffen, die älteren Geräten geschadet haben, und trotzdem entstehen die meisten Leistungseinbrüche durch eher langweilige technische Ursachen.
 
 Ja, geplante Obsoleszenz ist teilweise real. Nein, nicht jedes ruckelnde Smartphone beweist einen geheimen Abschaltschalter.

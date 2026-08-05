@@ -5,9 +5,10 @@ listSummary: "Water damage inspection"
 hub: "hardware"
 sourceNumber: 111
 order: 8
-tags: ["hardware","testing","diagnostics","android","guide"]
+tags: ["hardware", "testing", "diagnostics", "android", "guide"]
 draft: false
 ---
+
 ---
 
 How much can a tiny sticker tell you about water damage? Less than people think.

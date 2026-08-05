@@ -5,10 +5,11 @@ listSummary: "Metabeskrivelse: Den raskeste måten å frigjøre lagringsplass p�
 hub: "storage"
 sourceNumber: 82
 order: 4
-tags: ["lagring","android","opprydding","optimalisering","guide"]
+tags: ["lagring", "android", "opprydding", "optimalisering", "guide"]
 locale: "nb"
 draft: false
 ---
+
 ---
 
 Én 4K-video fra en helgetur kan være større enn flere hundre bilder. Det samme kan én nedlastet Netflix-episode, en glemt mappe med spilldata eller en ZIP-fil du åpnet for flere måneder siden.

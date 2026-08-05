@@ -5,10 +5,11 @@ listSummary: "laitteisto, testaus ja diagnostiikka"
 hub: "hardware"
 sourceNumber: 111
 order: 8
-tags: ["laitteisto","testaus","diagnostiikka","android","opas"]
+tags: ["laitteisto", "testaus", "diagnostiikka", "android", "opas"]
 locale: "fi"
 draft: false
 ---
+
 ---
 
 Kuinka paljon pieni tarra voi kertoa vesivahingosta? Vähemmän kuin moni luulee.

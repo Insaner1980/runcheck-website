@@ -5,10 +5,11 @@ listSummary: "Miksi yksi puhelin matelee, vaikka vieressä oleva kannettava lata
 hub: "network"
 sourceNumber: 91
 order: 2
-tags: ["suorituskyky","nopeus","android","optimointi","vianetsintä"]
+tags: ["suorituskyky", "nopeus", "android", "optimointi", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+
 Älä aloita tehdasasetusten palautuksesta. Aloita havainnoista.
 
 ## Selvitä ensin, onko vika puhelimessa vai verkossa

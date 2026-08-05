@@ -5,10 +5,11 @@ listSummary: "reseau, connectivite et android"
 hub: "network"
 sourceNumber: 99
 order: 10
-tags: ["reseau","connectivite","android","depannage","guide"]
+tags: ["reseau", "connectivite", "android", "depannage", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Un VPN modifie le chemin emprunté par le trafic Internet de votre téléphone. Au lieu de laisser les applications se connecter directement par le réseau Wi-Fi ou l'opérateur mobile, le téléphone envoie d'abord le trafic dans un tunnel chiffré jusqu'à un serveur VPN. Les sites et les applications voient l'adresse IP de ce serveur, pas l'adresse IP publique habituelle de votre connexion.
 
 Cela paraît plus mystérieux que ça ne l'est. Un VPN est utile, mais ce n'est pas un champ de force pour la vie privée.

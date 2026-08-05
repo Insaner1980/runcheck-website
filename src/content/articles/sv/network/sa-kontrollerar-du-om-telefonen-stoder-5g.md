@@ -5,10 +5,11 @@ listSummary: "nätverk, anslutningar och android"
 hub: "network"
 sourceNumber: 101
 order: 12
-tags: ["nätverk","anslutningar","android","felsökning","guide"]
+tags: ["nätverk", "anslutningar", "android", "felsökning", "guide"]
 locale: "sv"
 draft: false
 ---
+
 En telefon har antingen hårdvara för 5G eller så har den inte det. Android 17, en uppdatering av operatörsinställningarna eller ett nytt SIM-kort kan inte förvandla ett modem som bara stöder 4G till ett 5G-modem.
 
 Det låter självklart, men orsakar mycket förvirring. Många nya Android-telefoner i budgetklassen har fortfarande bara 4G, samtidigt som flera äldre flaggskeppsmodeller redan stöder 5G. Modellnumret säger mer än årtalet på kvittot.

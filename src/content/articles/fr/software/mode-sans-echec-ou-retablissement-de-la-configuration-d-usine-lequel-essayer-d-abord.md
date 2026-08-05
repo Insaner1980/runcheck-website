@@ -5,10 +5,11 @@ listSummary: "Essayez le mode sans échec avant de rétablir la configuration d'
 hub: "software"
 sourceNumber: 130
 order: 12
-tags: ["performances","vitesse","android","optimisation","depannage"]
+tags: ["performances", "vitesse", "android", "optimisation", "depannage"]
 locale: "fr"
 draft: false
 ---
+
 Le conseil paraît simpliste, mais c'est la bonne réponse dans la plupart des dépannages Android. Le mode sans échec est rapide, réversible et n'efface rien. Le rétablissement de la configuration d'usine supprime les données du téléphone et peut transformer un problème de cinq minutes en une soirée passée à réinstaller les applications, reconnecter les comptes et retrouver les réglages oubliés.
 
 Mode sans échec d'abord. Effacement complet en dernier.

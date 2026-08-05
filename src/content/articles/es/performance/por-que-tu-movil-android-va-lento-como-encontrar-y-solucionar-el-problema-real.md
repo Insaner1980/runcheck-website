@@ -5,10 +5,18 @@ listSummary: "Tu móvil Android va más lento que antes, y probablemente no te l
 hub: "performance"
 sourceNumber: 64
 order: 1
-tags: ["rendimiento","velocidad","android","optimizacion","solucion-de-problemas"]
+tags:
+  [
+    "rendimiento",
+    "velocidad",
+    "android",
+    "optimizacion",
+    "solucion-de-problemas",
+  ]
 locale: "es"
 draft: false
 ---
+
 Eso no significa automáticamente que el móvil haya llegado al final de su vida. La mayoría de las ralentizaciones proceden de unas pocas causas que puedes comprobar: poco espacio libre, aplicaciones pesadas en segundo plano, presión sobre la RAM, calor, desgaste de la batería o una aplicación defectuosa después de una actualización.
 
 ## La comprobación rápida

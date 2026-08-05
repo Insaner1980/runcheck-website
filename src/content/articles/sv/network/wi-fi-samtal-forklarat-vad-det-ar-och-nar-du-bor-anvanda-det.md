@@ -5,10 +5,11 @@ listSummary: "nätverk, anslutningar och android"
 hub: "network"
 sourceNumber: 100
 order: 11
-tags: ["nätverk","anslutningar","android","felsökning","guide"]
+tags: ["nätverk", "anslutningar", "android", "felsökning", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Wi-Fi-samtal är vanliga telefonsamtal som går via Wi-Fi. Du använder telefonens vanliga uppringare, ditt vanliga telefonnummer och ditt mobilabonnemang. Personen du ringer behöver inte WhatsApp, Signal, Telegram eller någon annan app.
 
 Det är den stora fördelen. Du kan stå i en källare med en enda fladdrande signalstapel, ansluta till ett bra Wi-Fi-nätverk och ändå ringa ett vanligt telefonsamtal.

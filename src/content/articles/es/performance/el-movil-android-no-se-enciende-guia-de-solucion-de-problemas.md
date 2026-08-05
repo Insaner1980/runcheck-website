@@ -5,10 +5,11 @@ listSummary: "¿Tu móvil Android no se enciende o se ha quedado con la pantalla
 hub: "performance"
 sourceNumber: 75
 order: 12
-tags: ["runcheck","seo","android","articulo","guia"]
+tags: ["runcheck", "seo", "android", "articulo", "guia"]
 locale: "es"
 draft: false
 ---
+
 ---
 
 Alguien conecta un móvil, no ve nada, pulsa cinco veces el botón de encendido y da por hecho que está muerto. A veces lo está. Con más frecuencia, la batería se ha descargado por completo, el software se ha congelado con la pantalla apagada o la pantalla ha fallado aunque el propio móvil siga funcionando.

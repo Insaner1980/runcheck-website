@@ -5,10 +5,11 @@ listSummary: "diagnostik, sensorer och android"
 hub: "hardware"
 sourceNumber: 117
 order: 14
-tags: ["diagnostik","sensorer","android","hårdvara","guide"]
+tags: ["diagnostik", "sensorer", "android", "hårdvara", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Mitt under ett samtal tänds skärmen mot ansiktet och kinden öppnar knappsatsen. Då är det ofta den lilla sensorn som misslyckas med det enda jobb ingen tänker på förrän det slutar fungera.
 
 Sensorn talar om för telefonen när något befinner sig nära frontglaset. Under ett samtal är detta "något" vanligtvis ditt ansikte. Android släcker då skärmen och ignorerar tryckningar så att örat inte blir ett tillbehör till pekskärmen.

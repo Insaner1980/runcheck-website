@@ -1,33 +1,29 @@
 ---
-import RegionalPrice from './RegionalPrice.astro';
-import RegionalPricingNote from './RegionalPricingNote.astro';
+import RegionalPrice from "./RegionalPrice.astro";
+import RegionalPricingNote from "./RegionalPricingNote.astro";
 
 const freeFeatures = [
-  'Battery, network, thermal, and storage monitoring',
+  "Battery, network, thermal, and storage monitoring",
   "Your phone's Health Score",
-  'Network speed tests',
-  'Recent history',
-  'No account, no ads',
+  "Network speed tests",
+  "Recent history",
+  "No account, no ads",
 ];
 
 const proFeatures = [
-  'Long-term history and trends',
-  'Charger comparison',
-  'See which apps drain your battery',
-  'Home screen widgets',
-  'Smart insights on your home screen',
-  'Thermal history',
-  'Charge-time estimates',
-  'Storage cleanup',
-  'Export your data (CSV)',
-  'Deeper cross-category insights',
+  "Long-term history and trends",
+  "Charger comparison",
+  "See which apps drain your battery",
+  "Home screen widgets",
+  "Smart insights on your home screen",
+  "Thermal history",
+  "Charge-time estimates",
+  "Storage cleanup",
+  "Export your data (CSV)",
+  "Deeper cross-category insights",
 ];
 
-const proFeatureColumns = [
-  proFeatures.slice(0, 5),
-  proFeatures.slice(5),
-];
-
+const proFeatureColumns = [proFeatures.slice(0, 5), proFeatures.slice(5)];
 ---
 
 <section id="pricing" class="pricing-section bg-run-bg">
@@ -35,9 +31,17 @@ const proFeatureColumns = [
     <div class="section-intro-split">
       <div class="section-intro-heading">
         <p class="section-eyebrow">Pricing</p>
-        <h2 class="section-display-heading">Start free. Upgrade once for <span class="section-heading-accent">deeper</span> phone insights.</h2>
+        <h2 class="section-display-heading">
+          Start free. Upgrade once for <span class="section-heading-accent"
+            >deeper</span
+          > phone insights.
+        </h2>
       </div>
-      <p class="section-intro-copy">Free covers the current state of your phone. Pro unlocks the longer view: trends, app usage, charger performance, thermal logs, widgets, exports, and cleanup tools, with no subscription.</p>
+      <p class="section-intro-copy">
+        Free covers the current state of your phone. Pro unlocks the longer
+        view: trends, app usage, charger performance, thermal logs, widgets,
+        exports, and cleanup tools, with no subscription.
+      </p>
     </div>
 
     <div class="pricing-split">
@@ -45,16 +49,16 @@ const proFeatureColumns = [
         <h3>Free</h3>
 
         <div>
-          <p class="pricing-price-metal" aria-live="polite"><RegionalPrice plan="free" /></p>
-          <p class="pricing-plan-section-label">ESSENTIAL CHECKS FOR YOUR PHONE'S CURRENT CONDITION.</p>
+          <p class="pricing-price-metal" aria-live="polite">
+            <RegionalPrice plan="free" />
+          </p>
+          <p class="pricing-plan-section-label">
+            ESSENTIAL CHECKS FOR YOUR PHONE'S CURRENT CONDITION.
+          </p>
         </div>
 
         <ul class="pricing-feature-list">
-          {
-            freeFeatures.map((feature) => (
-              <li>{feature}</li>
-            ))
-          }
+          {freeFeatures.map((feature) => <li>{feature}</li>)}
         </ul>
       </article>
 
@@ -82,7 +86,10 @@ const proFeatureColumns = [
         </div>
 
         <div class="pricing-trial-divider" aria-hidden="true"></div>
-        <p class="pricing-plan-trial">7-day free trial. <span class="pricing-plan-purchase">One-time purchase.</span></p>
+        <p class="pricing-plan-trial">
+          7-day free trial. <span class="pricing-plan-purchase"
+            >One-time purchase.</span>
+        </p>
       </article>
     </div>
   </div>

@@ -5,10 +5,11 @@ listSummary: "Mikään Android-sovellus ei voi korjata heikentynyttä akkua."
 hub: "myths"
 sourceNumber: 151
 order: 7
-tags: ["myytit","faktat","android","akku","myytinmurtaminen"]
+tags: ["myytit", "faktat", "android", "akku", "myytinmurtaminen"]
 locale: "fi"
 draft: false
 ---
+
 Voiko akunkorjaussovellus oikeasti palauttaa menetetyn kapasiteetin? Ei. Ei korjaussovellus, tehostin, kalibrointityökalu eikä näyttävällä animaatiolla varustettu optimointisovellus.
 
 Akku on fyysinen osa. Kun kennon kemia on vanhentunut, ohjelmisto ei voi palauttaa menetettyä kapasiteettia.

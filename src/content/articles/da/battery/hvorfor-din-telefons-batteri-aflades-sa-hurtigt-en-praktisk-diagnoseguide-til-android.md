@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 21
 order: 11
 subgroup: "Drain"
-tags: ["batteri","strømforbrug","fejlfinding","android","ydeevne"]
+tags: ["batteri", "strømforbrug", "fejlfinding", "android", "ydeevne"]
 locale: "da"
 draft: false
 ---
+
 Den hurtigste måde at spilde tiden på er at ændre ti indstillinger på én gang og håbe, at en af dem hjælper. Find først årsagen. Ret derefter det, der faktisk bruger strømmen.
 
 ## Begynd med de oplagte kontroller

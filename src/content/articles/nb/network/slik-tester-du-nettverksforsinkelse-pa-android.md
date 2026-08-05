@@ -5,10 +5,11 @@ listSummary: "Du sitter i en videosamtale."
 hub: "network"
 sourceNumber: 103
 order: 14
-tags: ["nettverk","tilkobling","android","feilsøking","guide"]
+tags: ["nettverk", "tilkobling", "android", "feilsøking", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Forsinkelse måles i millisekunder (ms). Lavere er bedre. Tre tall er særlig viktige: ping, jitter og pakketap. Ping er tiden det tar for data å gå fra telefonen til en server og tilbake. Jitter viser hvor mye denne tiden varierer mellom målingene. Pakketap er andelen data som aldri kommer fram.
 
 En forbindelse med 100 Mbps nedlasting og 150 ms ping kan føles dårligere enn en forbindelse med 20 Mbps og 15 ms ping. Det høres bakvendt ut helt til du prøver spilling, videosamtaler eller eksternt skrivebord. Hastighet flytter data. Forsinkelse styrer reaksjonstiden.

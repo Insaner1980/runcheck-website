@@ -5,9 +5,10 @@ listSummary: "Cache partition cleanup"
 hub: "performance"
 sourceNumber: 71
 order: 8
-tags: ["performance","speed","android","optimization","troubleshooting"]
+tags: ["performance", "speed", "android", "optimization", "troubleshooting"]
 draft: false
 ---
+
 You are staring at Android Recovery, using the volume buttons like it is 2012 again, and looking for **Wipe cache partition**. On some phones it is there. On others it is gone. On a few, it was never exposed in the first place.
 
 That is why this topic is messier than most guides admit. Wiping the cache partition can still be useful on certain Samsung phones and older Android devices, but it is not a universal Android feature anymore.

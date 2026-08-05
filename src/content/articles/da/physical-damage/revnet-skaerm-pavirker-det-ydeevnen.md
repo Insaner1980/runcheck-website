@@ -5,10 +5,11 @@ listSummary: "batteri, strømforbrug og fejlfinding"
 hub: "physical-damage"
 sourceNumber: 136
 order: 6
-tags: ["batteri","strømforbrug","fejlfinding","android","ydeevne"]
+tags: ["batteri", "strømforbrug", "fejlfinding", "android", "ydeevne"]
 locale: "da"
 draft: false
 ---
+
 ---
 
 En revnet skærm gør ikke CPU'en langsommere. Dine apps kræver ikke pludselig mere processorkraft, bare fordi glasset er gået i stykker.

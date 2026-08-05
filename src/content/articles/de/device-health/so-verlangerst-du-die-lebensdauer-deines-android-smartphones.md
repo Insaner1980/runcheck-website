@@ -5,12 +5,12 @@ listSummary: "Die meisten Menschen ersetzen ihr Smartphone nach drei bis vier Ja
 hub: "device-health"
 sourceNumber: 3
 order: 2
-tags: ["speicher","android","bereinigung","optimierung","ratgeber"]
+tags: ["speicher", "android", "bereinigung", "optimierung", "ratgeber"]
 locale: "de"
 draft: false
 ---
-Fast all das lässt sich verhindern oder zumindest hinauszögern.
 
+Fast all das lässt sich verhindern oder zumindest hinauszögern.
 
 ## Die erste Woche: Einstellungen, die sich jahrelang auszahlen
 
@@ -22,7 +22,6 @@ Richte eine automatische Fotosicherung in Google Fotos, OneDrive oder einem ande
 
 Verwende eine Hülle und einen Displayschutz. Das klingt selbstverständlich, steht hier aber aus gutem Grund: Ein einziger ungeschützter Sturz kann in Deutschland je nach Modell eine Displayreparatur von etwa 100 bis 300 Euro verursachen. Eine brauchbare Hülle und ein Schutzglas kosten für die meisten Smartphones zusammen weniger als 30 Euro.
 
-
 ## Gewohnheiten, die im Alltag zählen
 
 Die schädlichste tägliche Gewohnheit ist das Laden bei hoher Temperatur. Wenn du das Smartphone während des Ladens stark beanspruchst, besonders beim Schnellladen, kann die Akkutemperatur über 35 °C steigen. Ab dort beschleunigt sich der Verschleiß. Langsames Laden über Nacht auf einem Nachttisch ist schonender als schnelles Nachladen beim Spielen in direkter Sonne. Eine einzelne heiße Ladesitzung macht kaum einen Unterschied. Bei Lithium-Ionen-Akkus summiert sich die Belastung jedoch: Dreihundert leicht zu heiße Ladevorgänge über zwei Jahre führen zu messbar schlechterem Akkuzustand.
@@ -30,7 +29,6 @@ Die schädlichste tägliche Gewohnheit ist das Laden bei hoher Temperatur. Wenn 
 Kabelloses Laden verstärkt das Wärmeproblem, weil es meist weniger effizient als ein Kabel ist. Die zusätzliche Verlustleistung wird im Smartphone, Ladepad oder in der Hülle zu Wärme. Bei hoher kabelloser Ladeleistung sind eine warme Rückseite und langsameres Laden normal. Eine dicke Hülle während des Ladens abzunehmen und ein Ladepad mit geringerer Leistung zu verwenden hilft. Für das regelmäßige Laden über Nacht ein Kabel zu nutzen und kabellos nur dann zu laden, wenn es bequem ist, ist ein vernünftiger Kompromiss.
 
 Beim Speicher zählt regelmäßiges Aufräumen. Öffne alle paar Monate Einstellungen > Speicher > Apps und sortiere nach Größe. Social-Media-Apps, Browser und Streaming-Apps legen aggressive Caches an, die mehrere Gigabyte temporäre Daten enthalten können. Wenn du den Cache einer App löschst, verschwinden keine persönlichen Daten oder Einstellungen. Entfernt werden Dateien, die die App bei Bedarf erneut erstellt. Halte die gesamte Speichernutzung möglichst unter 80 bis 85 %, damit NAND-Flash beim Schreiben genügend freie Blöcke behält und die Leistung nicht unnötig einbricht.
-
 
 ## Monatliche und saisonale Pflege
 
@@ -42,7 +40,6 @@ Reinige die Ladebuchse. Taschenfussel werden über Monate immer tiefer hineinged
 
 Prüfe den Akkuzustand mehrmals im Jahr mit den Herstellerwerkzeugen, etwa Samsung Members, den Akku-Einstellungen eines Pixel oder den Akkuschutzfunktionen von Xiaomi, oder mit einer Diagnose-App. Der Verlauf ist wichtiger als ein einzelner Wert. Fällt ein Akku in sechs Monaten von 95 % auf 88 %, verschleißt er schneller als erwartet. Dann können angepasste Ladegewohnheiten den weiteren Rückgang bremsen, bevor daraus ein echtes Problem wird.
 
-
 ## Software-Support und Lebensdauer
 
 Die Update-Situation bei Android hat sich deutlich verbessert. Für die Google-Pixel-8-Familie und neuere Pixel sowie die Samsung-Galaxy-S24-Familie und neuere Modelle sind sieben Jahre Betriebssystem- und Sicherheitsupdates zugesagt. Samsung hat längere Laufzeiten auch auf die Mittelklasse ausgeweitet: Galaxy A56, A36 und A26 erhalten sechs Jahre Updates. Beim OnePlus 13 sind vier große Android-Upgrades und sechs Jahre Sicherheitsupdates vorgesehen.
@@ -51,7 +48,6 @@ Günstige Smartphones und ältere Flaggschiffe vieler Hersteller bleiben trotzde
 
 Die EU-Ökodesign- und Energiekennzeichnungsregeln schaffen seit dem 20. Juni 2025 eine stärkere Untergrenze für neu auf den EU-Markt gebrachte Smartphones. Sie verlangen unter anderem Akkus, die mindestens 800 vollständige Lade- und Entladezyklen überstehen und dabei noch mindestens 80 % Kapazität behalten, wichtige Ersatzteile für sieben Jahre nach dem Verkaufsende des Modells sowie Betriebssystem-Upgrades für mindestens fünf Jahre ab dem Zeitpunkt, an dem das letzte Gerät des Modells auf den Markt gebracht wurde. Davon profitieren vor allem Käufer in der EU. Lange Supportzeiträume wirken sich jedoch häufig auch auf die globale Produktplanung aus.
 
-
 ## Wann eine Reparatur sinnvoll ist
 
 Ein Smartphone muss nicht perfekt sein, damit du es weiterverwenden kannst. Ein Akkutausch kostet bei einer freien Werkstatt in Deutschland je nach Modell häufig ungefähr 60 bis 150 Euro, bei autorisierten Services teilweise mehr. Ist das Gerät ansonsten in gutem Zustand, kann ein neuer Akku zwei bis drei zusätzliche Nutzungsjahre bringen. Auch eine Displayreparatur kann sinnvoll sein, wenn noch mehrere Jahre Software-Support übrig sind. Der Preis hängt allerdings stark von Displaytyp und Modell ab.
@@ -59,7 +55,6 @@ Ein Smartphone muss nicht perfekt sein, damit du es weiterverwenden kannst. Ein 
 Die europäischen Reparaturregeln bestehen aus zwei getrennten Bereichen. Die Smartphone-spezifischen Ökodesignvorschriften gelten bereits für Geräte, die seit dem 20. Juni 2025 neu auf den EU-Markt gebracht werden. Sie regeln Akkubeständigkeit, Ersatzteilverfügbarkeit, Reparaturinformationen und den Zugang zu Software oder Firmware, die für einen Teiletausch nötig ist. Die EU-Richtlinie zum Recht auf Reparatur trat 2024 in Kraft. In Deutschland hat der Bundesrat das Umsetzungsgesetz am 10. Juli 2026 gebilligt; die zentralen neuen Regeln sollen ab dem 31. Juli 2026 gelten. Dieses Recht stärkt Reparaturansprüche für Produktgruppen mit EU-Reparierbarkeitsvorgaben, ist aber nicht die Quelle jeder einzelnen Smartphone-Regel zu Ersatzteilen oder Energiekennzeichnung.
 
 Eine Reparatur lohnt sich ungefähr dann nicht mehr, wenn sie mehr als 30 bis 40 % eines vergleichbaren Ersatzgeräts kostet oder mehrere Bauteile gleichzeitig defekt sind.
-
 
 ## Häufig gestellte Fragen
 

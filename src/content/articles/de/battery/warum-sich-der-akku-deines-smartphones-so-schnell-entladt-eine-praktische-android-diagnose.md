@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 21
 order: 11
 subgroup: "Drain"
-tags: ["akku","akkuverbrauch","fehlerbehebung","android","leistung"]
+tags: ["akku", "akkuverbrauch", "fehlerbehebung", "android", "leistung"]
 locale: "de"
 draft: false
 ---
+
 Am schnellsten verschwendest du Zeit, wenn du zehn Einstellungen gleichzeitig änderst und hoffst, dass eine davon hilft. Erst diagnostizieren. Dann genau das beheben, was tatsächlich Strom verbraucht.
 
 ## Beginne mit den naheliegenden Prüfungen

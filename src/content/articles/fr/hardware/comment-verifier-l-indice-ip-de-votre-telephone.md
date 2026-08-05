@@ -5,10 +5,11 @@ listSummary: "diagnostic, capteurs et android"
 hub: "hardware"
 sourceNumber: 116
 order: 13
-tags: ["diagnostic","capteurs","android","materiel","guide"]
+tags: ["diagnostic", "capteurs", "android", "materiel", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Résistant à l’eau ne veut pas dire étanche, même si la fiche technique semble très sûre d’elle.
 
 Votre téléphone a un indice IP ou il n’en a pas. Aucune application, aucun code à saisir dans l’application Téléphone et aucun réglage Android caché ne peut le tester après coup.

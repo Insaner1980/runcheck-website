@@ -5,9 +5,10 @@ listSummary: "Wi-Fi signal strength checks"
 hub: "network"
 sourceNumber: 90
 order: 1
-tags: ["network","connectivity","android","troubleshooting","guide"]
+tags: ["network", "connectivity", "android", "troubleshooting", "guide"]
 draft: false
 ---
+
 The WiFi bars in the status bar are a rough hint, not a measurement. Put two phones beside each other and they can still disagree because Android skins and manufacturers don't all map signal strength the same way.
 
 For real troubleshooting, look for dBm. That number is the signal strength your phone is receiving from the router.

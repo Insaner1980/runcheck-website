@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 31
 order: 21
 subgroup: "Drain"
-tags: ["akku","zustand","diagnose","android","ratgeber"]
+tags: ["akku", "zustand", "diagnose", "android", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Du bist bei Frost draußen, dein Smartphone zeigt 38 % an und schaltet sich plötzlich aus, als wäre der Akku leer. Ein paar Minuten später bist du wieder drinnen, das Gerät startet erneut und zeigt auf einmal noch Ladung an.
 
 Nervig? Ja. Rätselhaft? Eigentlich nicht.

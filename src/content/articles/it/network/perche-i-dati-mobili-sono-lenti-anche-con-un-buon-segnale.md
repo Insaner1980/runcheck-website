@@ -5,10 +5,18 @@ listSummary: "Le tacche piene non garantiscono dati mobili veloci."
 hub: "network"
 sourceNumber: 97
 order: 8
-tags: ["prestazioni","velocita","android","ottimizzazione","risoluzione-dei-problemi"]
+tags:
+  [
+    "prestazioni",
+    "velocita",
+    "android",
+    "ottimizzazione",
+    "risoluzione-dei-problemi",
+  ]
 locale: "it"
 draft: false
 ---
+
 Vedi tutte le tacche, ma la pagina continua a non caricarsi. Il telefono mostra 5G o LTE. Il segnale sembra ottimo. Eppure i dati mobili avanzano con una lentezza esasperante.
 
 Un buon segnale dimostra soprattutto una cosa: il telefono riesce a comunicare abbastanza bene con la stazione radio. Dice molto meno sul carico della rete, sulla priorità prevista dall'offerta, sulle interferenze, sull'instradamento dell'operatore, sul sovraccarico introdotto da una VPN o sul livello di rete a cui il telefono è collegato.

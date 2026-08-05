@@ -5,10 +5,11 @@ listSummary: "Forrige måned holdt telefonen helt til leggetid."
 hub: "buying-selling"
 sourceNumber: 142
 order: 6
-tags: ["kjøpsguide","android","sammenligning","verdi","guide"]
+tags: ["kjøpsguide", "android", "sammenligning", "verdi", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Det skillet kan spare deg for mye penger.
 
 Et batteribytte kan være en av reparasjonene som gir mest igjen for pengene, men bare hvis telefonen fortsatt har programvarestøtte, grei ytelse og ikke en hel rekke andre maskinvareproblemer. Ellers setter du bare et nytt batteri inn i en telefon som allerede er på vei ut.
@@ -103,4 +104,4 @@ Oppgrader hvis støtten er avsluttet, ytelsen allerede er dårlig, lagringsplass
 
 Det kjedelige svaret er vanligvis det riktige: Ikke oppgrader for å løse én utslitt del, og ikke reparer en telefon som allerede har strøket på tre forskjellige områder. Batteribytte er vedlikehold. Oppgradering er utskifting. Finn ut hvilket problem du faktisk har.
 
-*Metabeskrivelse: Praktisk veiledning til kostnaden ved batteribytte på Android sammenlignet med kjøp av ny telefon, med norske priseksempler, batterikontroll for Pixel og Samsung, programvarestøtte og enkle beslutningsregler.*
+_Metabeskrivelse: Praktisk veiledning til kostnaden ved batteribytte på Android sammenlignet med kjøp av ny telefon, med norske priseksempler, batterikontroll for Pixel og Samsung, programvarestøtte og enkle beslutningsregler._

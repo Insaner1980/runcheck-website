@@ -5,10 +5,11 @@ listSummary: "Vous n'avez probablement pas besoin d'un nouveau smartphone Androi
 hub: "buying-selling"
 sourceNumber: 143
 order: 7
-tags: ["guide-d-achat","android","comparaison","valeur","guide"]
+tags: ["guide-d-achat", "android", "comparaison", "valeur", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Ce délai ne rend pas votre téléphone obsolète. La vraie question est plus simple : reste-t-il sûr, utilisable et rentable à réparer ?
 
 ## Les mises à jour de sécurité fixent la vraie échéance

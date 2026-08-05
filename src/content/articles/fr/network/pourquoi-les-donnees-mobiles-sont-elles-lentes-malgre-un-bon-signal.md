@@ -5,10 +5,11 @@ listSummary: "Meta description : Toutes les barres de réseau ne garantissent pa
 hub: "network"
 sourceNumber: 97
 order: 8
-tags: ["performances","vitesse","android","optimisation","depannage"]
+tags: ["performances", "vitesse", "android", "optimisation", "depannage"]
 locale: "fr"
 draft: false
 ---
+
 Toutes les barres sont affichées, mais la page refuse toujours de s'ouvrir. Le téléphone indique 5G ou LTE. Le signal semble bon. Pourtant, les données mobiles avancent péniblement.
 
 C'est parce qu'un bon signal ne prouve qu'une chose : votre téléphone capte suffisamment l'antenne-relais. Il ne dit presque rien sur la charge de cette antenne, les limites de votre forfait, les interférences, le routage de l'opérateur, le VPN ou la couche réseau réellement utilisée par le téléphone.

@@ -5,10 +5,11 @@ listSummary: "recharge, batterie et android"
 hub: "charging"
 sourceNumber: 44
 order: 8
-tags: ["recharge","batterie","android","guide","materiel"]
+tags: ["recharge", "batterie", "android", "guide", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 Un chargeur peut réussir le test de la prise sans réussir celui de la charge. USB-C indique seulement que le connecteur entre dans le port. Il ne dit pas si l'adaptateur, le câble et le téléphone se sont accordés sur la charge rapide.
 
 Android 17 ne change pas ce problème de fond. Il n'existe toujours pas d'écran Android universel indiquant : « ce chargeur fournit actuellement 23,4 W ». Vous devez l'estimer ou le mesurer correctement.

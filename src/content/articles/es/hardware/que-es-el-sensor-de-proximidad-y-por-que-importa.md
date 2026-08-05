@@ -5,10 +5,11 @@ listSummary: "diagnostico, sensores y android"
 hub: "hardware"
 sourceNumber: 117
 order: 14
-tags: ["diagnostico","sensores","android","hardware","guia"]
+tags: ["diagnostico", "sensores", "android", "hardware", "guia"]
 locale: "es"
 draft: false
 ---
+
 A mitad de una llamada, la pantalla se enciende contra tu cara y la mejilla abre el teclado. Normalmente es este pequeño sensor fallando en la única tarea que nadie nota hasta que deja de funcionar.
 
 El sensor avisa al móvil cuando algo está cerca del cristal frontal. Durante una llamada, ese "algo" suele ser tu cara. Android apaga entonces la pantalla e ignora las pulsaciones para que tu oreja no se convierta en un accesorio táctil.

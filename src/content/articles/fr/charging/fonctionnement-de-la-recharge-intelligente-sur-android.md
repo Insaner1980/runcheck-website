@@ -5,10 +5,11 @@ listSummary: "batterie, etat et diagnostic"
 hub: "charging"
 sourceNumber: 51
 order: 15
-tags: ["batterie","etat","diagnostic","android","guide"]
+tags: ["batterie", "etat", "diagnostic", "android", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Pourquoi votre téléphone s'arrête-t-il parfois à 80 %, reste-t-il ainsi pendant des heures, puis termine-t-il soudainement la recharge juste avant votre réveil ?
 
 C'est la recharge intelligente. Il ne s'agit pas d'une fonction Android unique avec un interrupteur universel. C'est un ensemble d'outils proposés par les fabricants pour limiter le même problème : le temps passé à un niveau de charge élevé, surtout lorsque le téléphone est chaud.

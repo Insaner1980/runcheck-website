@@ -5,10 +5,11 @@ listSummary: "android, käyttöoikeudet ja yksityisyys"
 hub: "software"
 sourceNumber: 127
 order: 9
-tags: ["android","käyttöoikeudet","yksityisyys","tietoturva","opas"]
+tags: ["android", "käyttöoikeudet", "yksityisyys", "tietoturva", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Kamerasovelluksen pyyntö käyttää kameraa on järkevä. Taskulamppusovelluksen pyyntö käyttää yhteystietoja ei ole. Useimmat lupapäätökset eivät ole tämän monimutkaisempia.
 
 Ongelma on ajoituksessa. Sovellus kysyy lupaa juuri silloin, kun yrität saada jotakin tehtyä, joten Salli tuntuu nopeimmalta painikkeelta. Näin tarpeettomia lupia kertyy.

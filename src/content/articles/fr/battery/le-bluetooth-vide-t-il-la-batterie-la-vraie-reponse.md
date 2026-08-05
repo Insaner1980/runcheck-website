@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 32
 order: 22
 subgroup: "Drain"
-tags: ["batterie","mythes","android","test","faits"]
+tags: ["batterie", "mythes", "android", "test", "faits"]
 locale: "fr"
 draft: false
 ---
+
 Certaines personnes désactivent le Bluetooth dès qu'elles retirent leurs écouteurs, persuadées de gagner une demi-journée d'autonomie. Je comprends le réflexe. Il y a plusieurs années, ce conseil se défendait.
 
 Sur un téléphone Android moderne, l'effort en vaut rarement la peine.

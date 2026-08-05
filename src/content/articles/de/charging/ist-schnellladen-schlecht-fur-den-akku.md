@@ -5,10 +5,11 @@ listSummary: "Schnellladen kann den Akku zusätzlich beanspruchen, doch die Watt
 hub: "charging"
 sourceNumber: 39
 order: 3
-tags: ["laden","akku","android","ratgeber","hardware"]
+tags: ["laden", "akku", "android", "ratgeber", "hardware"]
 locale: "de"
 draft: false
 ---
+
 Die meisten Ratschläge zum Schnellladen sind zu dramatisch. Schnellladen ist kein Todesurteil für den Akku, und langsames Laden ist keine Magie. Entscheidend ist vor allem, ob das Smartphone beim Laden kühl bleibt.
 
 Genau deshalb ist die Antwort nicht ganz sauber. Ein 65-W-Ladegerät auf einem kühlen Schreibtisch kann den Akku weniger belasten als ein 15-W-Ladegerät unter einem Kissen. Die Leistung spielt eine Rolle, die Temperatur aber eine größere.

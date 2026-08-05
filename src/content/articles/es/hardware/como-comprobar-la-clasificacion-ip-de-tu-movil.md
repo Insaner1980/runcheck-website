@@ -5,10 +5,11 @@ listSummary: "diagnostico, sensores y android"
 hub: "hardware"
 sourceNumber: 116
 order: 13
-tags: ["diagnostico","sensores","android","hardware","guia"]
+tags: ["diagnostico", "sensores", "android", "hardware", "guia"]
 locale: "es"
 draft: false
 ---
+
 Resistente al agua no significa impermeable, por muy convincente que suene la ficha técnica.
 
 Tu móvil tiene una clasificación IP o no la tiene. No existe ninguna aplicación, código del marcador ni ajuste oculto de Android que pueda comprobarla a posteriori.

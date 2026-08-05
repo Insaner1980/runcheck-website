@@ -5,10 +5,11 @@ listSummary: "diagnostiikka, anturit ja android"
 hub: "hardware"
 sourceNumber: 114
 order: 11
-tags: ["diagnostiikka","anturit","android","laitteisto","opas"]
+tags: ["diagnostiikka", "anturit", "android", "laitteisto", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Onko sormenjälkitunnistin rikki vai ärsyttääkö sitä vain näytönsuojasi? Se kuulostaa vitsiltä, mutta tämä kannattaa selvittää ensimmäisenä.
 
 Sormenjäljen tunnistusongelmien syyt ovat usein arkisia. Kuiva iho, kosteus, halpa karkaistusta lasista valmistettu näytönsuoja, huono rekisteröinti tai keskeneräinen ohjelmistopäivitys voi saada toimivan tunnistimen näyttämään rikkinäiseltä. Laitteistovikojakin tapahtuu, etenkin pudotuksen tai näyttökorjauksen jälkeen, mutta älä aloita siitä oletuksesta.

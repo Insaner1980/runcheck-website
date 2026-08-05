@@ -5,10 +5,11 @@ listSummary: "suorituskyky, nopeus ja android"
 hub: "performance"
 sourceNumber: 71
 order: 8
-tags: ["suorituskyky","nopeus","android","optimointi","vianetsintä"]
+tags: ["suorituskyky", "nopeus", "android", "optimointi", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+
 Katselet Android Recovery -valikkoa, liikut äänenvoimakkuuspainikkeilla kuin elettäisiin taas vuotta 2012 ja etsit kohtaa **Wipe cache partition**. Joissakin puhelimissa se näkyy. Toisissa se on poistettu. Osassa sitä ei ole koskaan ollut käyttäjän valittavana.
 
 Siksi aihe on sotkuisempi kuin useimmat ohjeet antavat ymmärtää. Välimuistiosion tyhjentämisestä voi edelleen olla hyötyä joissakin Samsung-puhelimissa ja vanhemmissa Android-laitteissa, mutta se ei enää ole yleinen Android-toiminto.

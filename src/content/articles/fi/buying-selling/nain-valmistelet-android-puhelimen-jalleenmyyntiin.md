@@ -5,10 +5,11 @@ listSummary: "Järjestyksellä on merkitystä."
 hub: "buying-selling"
 sourceNumber: 5
 order: 3
-tags: ["osto-opas","android","vertailu","arvo","opas"]
+tags: ["osto-opas", "android", "vertailu", "arvo", "opas"]
 locale: "fi"
 draft: false
 ---
+
 ## Varmuuskopioi ennen kaikkea muuta
 
 Google voi varmuuskopioida yhteystiedot, kalenterit, sovellustiedot ja laiteasetukset automaattisesti, jos varmuuskopiointi on käytössä. Googlen nykyisessä ohjeessa polku on Settings > Google > All services > Backup. Valitse Back up now, jotta viimeisimmät tiedot synkronoidaan ennen puhelimen tyhjentämistä.
@@ -18,7 +19,6 @@ Kuvat ja videot vaativat erillisen tarkistuksen. Jos Google Kuvat tai jokin muu 
 Todennussovellukset unohtuvat helposti. Google Authenticator, Microsoft Authenticator ja Authy sisältävät kaksivaiheisen tunnistautumisen koodeja, joista monet verkkotilit riippuvat. Siirrä tilit uuteen laitteeseen tai vie ne talteen ennen puhelimen tyhjentämistä. 2FA-koodien menettäminen voi estää pääsyn pankkiin, sähköpostiin ja työtilille, ja käyttöoikeuden palauttaminen voi vaatia usean päivän tunnistautumisprosessin jokaisen palvelun kanssa erikseen.
 
 WhatsApp ja Signal käyttävät Googlen laitevarmuuskopiosta erillisiä varmuuskopiointi- tai siirtotapoja. Tee siirto tai varmuuskopio kummankin sovelluksen omilla työkaluilla. Telegramin tavalliset pilvikeskustelut synkronoituvat tilille ja näkyvät uudessa laitteessa kirjautumisen jälkeen, mutta salaiset keskustelut ovat laitekohtaisia eivätkä siirry samalla tavalla.
-
 
 ## Poista kaikki tilit
 
@@ -30,7 +30,6 @@ Poista laite tarvittaessa Googlen Find Hub -palvelusta ja varmista, ettei laitte
 
 Jos puhelimessa on eSIM, poista profiili erikseen. Tehdasasetusten palautus ei kaikissa laitteissa poista eSIM-tietoja, ja vanha profiili voi sotkea ostajan liittymän käyttöönottoa.
 
-
 ## Palauta tehdasasetukset
 
 Googlen käyttämä valikkopolku on Settings > System > Reset options > Erase all data (factory reset). Samsungissa vastaava polku on Settings > General management > Reset > Factory data reset. Valikkojen nimet voivat vaihdella mallin ja ohjelmistoversion mukaan.
@@ -38,7 +37,6 @@ Googlen käyttämä valikkopolku on Settings > System > Reset options > Erase al
 Puhelin käynnistyy uudelleen ensimmäiseen käyttöönottonäkymään. Älä jatka siitä eteenpäin. Jätä laite Hello- tai kielivalintanäyttöön. Se osoittaa ostajalle, ettei puhelimeen ole liitetty tilejä eikä FRP estä käyttöönottoa. Jos käyttöönotto pyytää aiemman omistajan Google-tiliä, tiliä ei poistettu oikein. Kirjaudu sisään, poista tili ja palauta tehdasasetukset uudelleen.
 
 Nykyaikaiset Android-puhelimet käyttävät salausta oletusarvoisesti. Android 7.0 ja sitä uudemmat tukevat tiedostopohjaista salausta, ja Android 10:llä tai sitä uudemmalla julkaistujen laitteiden on käytettävä sitä. Oikein salatussa nykyaikaisessa Android-puhelimessa tehdasasetusten palautus poistaa avaimet ja tilitiedot, joita vanhojen käyttäjätiedostojen lukeminen edellyttää. Tavallisessa jälleenmyyntitilanteessa tiedot eivät tämän jälkeen ole käytännössä palautettavissa. Useimmille myyjille tämä riittää.
-
 
 ## Puhdista ja dokumentoi
 
@@ -48,18 +46,15 @@ Ota selkeät kuvat kaikista neljästä sivusta, käyttöönottonäkymässä olev
 
 Yli 85 prosentin akun kunto on myyntivaltti. Mainitse se ilmoituksessa.
 
-
 ## Päivitä ohjelmisto ennen palautusta (valinnainen mutta suositeltava)
 
 Jos aikaa on, asenna kaikki saatavilla olevat päivitykset ennen tehdasasetusten palautusta. Ostajat suosivat puhelimia, joissa on mallille uusin saatavilla oleva Android-versio, eikä heidän tarvitse odottaa pitkää latausta käyttöönoton aikana. Samalla osoitat, että puhelin pystyy edelleen vastaanottamaan päivityksiä eikä ole juuttunut vanhaan versioon.
-
 
 ## Aseta hinta
 
 Tarkista, millä hinnalla saman mallin ja kuntoluokan puhelimia on todella myyty, älä katso vain pyyntihintoja. eBayn Sold items -suodatin näyttää toteutuneita kansainvälisiä kauppoja. Suomessa Tori, Huuto.net ja Facebook Marketplace auttavat hahmottamaan paikallista hintatasoa, mutta ilmoitushinta ei vielä kerro toteutunutta kauppahintaa. Puhelin, joka saa edelleen ohjelmistopäivityksiä, on arvokkaampi kuin muuten samanlainen malli, jonka tuki on päättynyt. Dokumentoitu, yli 85 prosentin akun kunto nostaa arvoa verrattuna puhelimeen, josta kuntotietoa ei ole.
 
 Aseta hinta hieman tavoitetta korkeammalle, jotta neuvotteluvaraa jää.
-
 
 ## Missä puhelimen voi myydä
 

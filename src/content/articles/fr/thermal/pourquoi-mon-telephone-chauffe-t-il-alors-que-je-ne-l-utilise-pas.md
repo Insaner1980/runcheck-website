@@ -5,10 +5,11 @@ listSummary: "batterie, etat et diagnostic"
 hub: "thermal"
 sourceNumber: 57
 order: 5
-tags: ["batterie","etat","diagnostic","android","guide"]
+tags: ["batterie", "etat", "diagnostic", "android", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Un téléphone verrouillé, posé à plat sur un bureau, ne devrait pas donner l'impression d'avoir fait tourner un jeu dans votre poche. Une légère chaleur est normale. Une chaleur nette au repos signifie généralement que quelque chose continue de fonctionner.
 
 ## Commencez par les vérifications simples

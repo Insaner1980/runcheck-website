@@ -5,10 +5,11 @@ listSummary: "Heißes Wetter belastet Akku und Prozessor deines Smartphones zus�
 hub: "thermal"
 sourceNumber: 63
 order: 11
-tags: ["temperatur","warme","android","fehlerbehebung","hardware"]
+tags: ["temperatur", "warme", "android", "fehlerbehebung", "hardware"]
 locale: "de"
 draft: false
 ---
+
 Du bist am Strand, auf einem Festival oder bei einem langen Spaziergang, und plötzlich wird das Smartphone unangenehm warm. Dann wird das Display dunkler. Wenige Minuten später lädt es langsamer oder die Kamera verweigert die Aufnahme. Das passiert nicht zufällig. Das Smartphone schützt sich selbst.
 
 Viele Geräte sind für den normalen Betrieb ungefähr zwischen 0 °C und 35 °C (32 °F bis 95 °F) ausgelegt. Das bedeutet nicht, dass sie bei 36 °C sofort ausfallen. Der Spielraum wird aber knapp. Direkte Sonne, Navigation, mobile Daten, Videoaufnahmen oder Laden können die Akkutemperatur dann schnell weiter erhöhen.

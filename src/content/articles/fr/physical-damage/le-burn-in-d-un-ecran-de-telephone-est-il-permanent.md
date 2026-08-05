@@ -5,10 +5,11 @@ listSummary: "materiel, dommages et reparation"
 hub: "physical-damage"
 sourceNumber: 134
 order: 4
-tags: ["materiel","dommages","reparation","android","depannage"]
+tags: ["materiel", "dommages", "reparation", "android", "depannage"]
 locale: "fr"
 draft: false
 ---
+
 ---
 
 Le véritable burn-in est permanent. Lorsque les pixels ont vieilli de façon inégale, aucune application, vidéo ni succession de couleurs ne peut rendre leur jeunesse aux pixels usés.

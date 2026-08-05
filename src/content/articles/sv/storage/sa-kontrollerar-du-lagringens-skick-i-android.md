@@ -5,10 +5,11 @@ listSummary: "Bedöm lagringens skick genom att kontrollera typ, hastighet och t
 hub: "storage"
 sourceNumber: 80
 order: 2
-tags: ["lagring","android","rensning","optimering","guide"]
+tags: ["lagring", "android", "rensning", "optimering", "guide"]
 locale: "sv"
 draft: false
 ---
+
 ---
 
 Hur vet du om lagringen i en Android-telefon är i gott skick, i stället för att bara se hur mycket utrymme som är ledigt? Irriterande nog gör de flesta telefoner det fortfarande inte lätt.

@@ -5,10 +5,11 @@ listSummary: "lading, batteri og android"
 hub: "charging"
 sourceNumber: 37
 order: 1
-tags: ["lading","batteri","android","guide","maskinvare"]
+tags: ["lading", "batteri", "android", "guide", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 De fleste batteriråd for Android er enten for opplagte eller for ekstreme. Ja, det hjelper å redusere lysstyrken. Nei, du trenger ikke gjøre telefonen til en lydløs murstein bare for å komme deg gjennom dagen.
 
 Det nyttige er å ta de største strømslukene først: skjermen, mobilsignalet, bakgrunnsapper, posisjon og ladevaner. Android 17 er nå tilgjengelig på de fleste støttede Pixel-telefoner, mens andre Android-produsenter kommer med sine egne versjoner senere. Menynavnene varierer derfor, men de grunnleggende batterirådene er de samme.

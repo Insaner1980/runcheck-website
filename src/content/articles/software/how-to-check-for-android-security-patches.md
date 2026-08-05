@@ -5,9 +5,10 @@ listSummary: "Security patch checks"
 hub: "software"
 sourceNumber: 122
 order: 4
-tags: ["android","updates","security","software","guide"]
+tags: ["android", "updates", "security", "software", "guide"]
 draft: false
 ---
+
 On most Android phones, open the About phone page in Settings and look for Android security update or Android security patch level. The date will look like 2026-06-05.
 
 ## Where to find the patch date

@@ -5,10 +5,11 @@ listSummary: "suorituskyky, nopeus ja android"
 hub: "performance"
 sourceNumber: 74
 order: 11
-tags: ["suorituskyky","nopeus","android","optimointi","vianetsintä"]
+tags: ["suorituskyky", "nopeus", "android", "optimointi", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+
 ---
 
 Käynnistyykö puhelin uudelleen vai jääkö se kiertämään käynnistysvaihetta? Erolla on väliä.

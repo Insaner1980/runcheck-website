@@ -5,9 +5,10 @@ listSummary: "Healthier charging habits"
 hub: "charging"
 sourceNumber: 38
 order: 2
-tags: ["charging","battery","android","guide","hardware"]
+tags: ["charging", "battery", "android", "guide", "hardware"]
 draft: false
 ---
+
 The best charging habit is boring: keep the phone cool, avoid sitting at 100% for hours, and don't run it flat every day. That's it. The rest is detail.
 
 That doesn't mean you need to babysit the battery percentage or unplug the phone the second it reaches 80%. A phone is a tool, not a lab sample. But lithium-ion batteries do age faster under a few predictable conditions, and your charging routine can either add to that stress or keep it under control.

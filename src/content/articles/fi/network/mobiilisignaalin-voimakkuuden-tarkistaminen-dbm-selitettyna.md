@@ -5,10 +5,11 @@ listSummary: "Signaalipalkit sopivat nopeaan vilkaisuun, mutta ne eivät ole mit
 hub: "network"
 sourceNumber: 93
 order: 4
-tags: ["verkko","yhteydet","android","vianetsintä","opas"]
+tags: ["verkko", "yhteydet", "android", "vianetsintä", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Se kuulostaa teknisemmältä kuin onkaan. dBm kertoo vain sen radiotehon, jonka puhelin vastaanottaa mobiiliverkosta. Mitä lähempänä nollaa luku on, sitä voimakkaampi signaali. Lukema -75 dBm on voimakkaampi kuin -95 dBm. Siinä koko perusajatus.
 
 ## dBm-luvun nopea tulkinta
@@ -19,13 +20,13 @@ Asteikko on logaritminen. Jokainen 3 dBm:n muutos vastaa suunnilleen vastaanotet
 
 LTE- ja useimmissa alle 6 GHz:n 5G-yhteyksissä seuraavat alueet ovat hyödyllisiä suuntaviivoja:
 
-| Lukema | Mitä se tavallisesti tarkoittaa |
-|---|---|
-| -50 - -70 dBm | Erinomainen. Puheluiden ja datan pitäisi toimia vakaasti, ellei tukiasema ole ruuhkainen. |
-| -70 - -85 dBm | Hyvä. Tämä on tavallinen lukema kohtuullisessa ulkokuuluvuudessa tai ikkunan lähellä. |
-| -85 - -100 dBm | Käyttökelpoinen mutta ei hyvä. Selaaminen toimii, suoratoisto voi puskuroida ja lähetysnopeus heikkenee usein ensimmäisenä. |
-| -100 - -110 dBm | Heikko. Puhelut voivat katketa, tekstiviestit viivästyä ja modeemi kuluttaa enemmän virtaa yhteyden ylläpitämiseen. |
-| Alle -110 dBm | Rajatapaus. Varaudu aikakatkaisuihin, hetkittäiseen verkkoyhteyden katoamiseen tai siirtymiseen toiseen verkkotekniikkaan. |
+| Lukema          | Mitä se tavallisesti tarkoittaa                                                                                             |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| -50 - -70 dBm   | Erinomainen. Puheluiden ja datan pitäisi toimia vakaasti, ellei tukiasema ole ruuhkainen.                                   |
+| -70 - -85 dBm   | Hyvä. Tämä on tavallinen lukema kohtuullisessa ulkokuuluvuudessa tai ikkunan lähellä.                                       |
+| -85 - -100 dBm  | Käyttökelpoinen mutta ei hyvä. Selaaminen toimii, suoratoisto voi puskuroida ja lähetysnopeus heikkenee usein ensimmäisenä. |
+| -100 - -110 dBm | Heikko. Puhelut voivat katketa, tekstiviestit viivästyä ja modeemi kuluttaa enemmän virtaa yhteyden ylläpitämiseen.         |
+| Alle -110 dBm   | Rajatapaus. Varaudu aikakatkaisuihin, hetkittäiseen verkkoyhteyden katoamiseen tai siirtymiseen toiseen verkkotekniikkaan.  |
 
 Nämä eivät ole yleispäteviä hyväksymis- tai hylkäysrajoja. Puhelin voi toimia -95 dBm:n signaalilla aivan hyvin, jos signaali on puhdas ja tukiasemassa on vapaata kapasiteettia. Toinen puhelin voi madella -75 dBm:n lukemalla, jos solu on ruuhkainen tai häiriöitä on paljon.
 

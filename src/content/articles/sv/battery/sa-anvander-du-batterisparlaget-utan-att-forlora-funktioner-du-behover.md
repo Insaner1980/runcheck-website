@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 36
 order: 26
 subgroup: "Drain"
-tags: ["batteri","optimering","android","tips","prestanda"]
+tags: ["batteri", "optimering", "android", "tips", "prestanda"]
 locale: "sv"
 draft: false
 ---
+
 Batterisparläget gör störst nytta innan läget blir akut. Att aktivera det vid 8 % hjälper, men då är större delen av laddningen redan borta.
 
 Det smartare valet beror på situationen. Slå på det när du vet att det blir svårt att ladda: under en flygresa, ett långt möte, en pendling med svag signal, en dag utomhus eller när det är viktigare att telefonen håller sig igång än att allt känns helt mjukt.

@@ -5,9 +5,10 @@ listSummary: "Downloads cleanup"
 hub: "storage"
 sourceNumber: 88
 order: 10
-tags: ["storage","android","cleanup","optimization","guide"]
+tags: ["storage", "android", "cleanup", "optimization", "guide"]
 draft: false
 ---
+
 You open a PDF once, download an APK to test something, save a zip file from a browser, and then forget all of it. Six months later, the Downloads folder is full of files you don't recognize.
 
 That is normal. Android puts a lot of one-time files there, and most people don't treat that space like something that needs maintenance. It does.

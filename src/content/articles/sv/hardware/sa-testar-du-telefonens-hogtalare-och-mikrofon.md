@@ -5,10 +5,11 @@ listSummary: "De flesta ljudproblem i telefoner beror inte på trasiga högtalar
 hub: "hardware"
 sourceNumber: 107
 order: 4
-tags: ["hårdvara","testning","diagnostik","android","guide"]
+tags: ["hårdvara", "testning", "diagnostik", "android", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Det gör inte problemet mindre irriterande. Om den du ringer inte hör dig eller högtalaren sprakar redan vid halva volymen behöver du fortfarande ta reda på vilken del som krånglar.
 
 ## Ta reda på vilken ljuddel du testar

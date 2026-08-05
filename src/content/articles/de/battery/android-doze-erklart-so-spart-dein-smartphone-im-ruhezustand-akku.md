@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 34
 order: 24
 subgroup: "Drain"
-tags: ["akku","optimierung","android","tipps","leistung"]
+tags: ["akku", "optimierung", "android", "tipps", "leistung"]
 locale: "de"
 draft: false
 ---
+
 Warum sind zehn Benachrichtigungen genau in dem Moment eingetroffen, als du dein Smartphone in die Hand genommen hast? Häufig lautet die Antwort: Doze.
 
 Doze ist das integrierte Leerlaufsystem von Android. Du musst es nicht einschalten, und die meisten Menschen sehen nie einen eigenen Doze-Bildschirm in den Einstellungen. Es arbeitet unauffällig, wenn das Smartphone nicht am Ladegerät hängt, das Display ausgeschaltet ist und Android entscheidet, dass nicht jede App jederzeit beliebig laufen sollte.

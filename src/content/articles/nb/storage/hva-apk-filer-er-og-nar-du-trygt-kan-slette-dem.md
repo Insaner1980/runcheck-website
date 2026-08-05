@@ -5,10 +5,11 @@ listSummary: "Har du funnet en fil som slutter på .apk i Nedlastinger, uten å 
 hub: "storage"
 sourceNumber: 84
 order: 6
-tags: ["lagring","android","opprydding","optimalisering","guide"]
+tags: ["lagring", "android", "opprydding", "optimalisering", "guide"]
 locale: "nb"
 draft: false
 ---
+
 APK står for Android Package Kit. Det er ett av pakkeformatene Android bruker til å installere apper. Det viktige ved opprydding er dette: APK-filen du ser i Nedlastinger, er ikke appen som kjører på telefonen. Den er installasjonsfilen.
 
 Når appen er installert, kan du slette APK-filen som ligger igjen, uten å avinstallere appen eller fjerne innstillingene dens.

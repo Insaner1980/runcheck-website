@@ -5,10 +5,11 @@ listSummary: "ydeevne, hastighed og android"
 hub: "performance"
 sourceNumber: 65
 order: 2
-tags: ["ydeevne","hastighed","android","optimering","fejlfinding"]
+tags: ["ydeevne", "hastighed", "android", "optimering", "fejlfinding"]
 locale: "da"
 draft: false
 ---
+
 Løsningen er derfor praktisk. Fjern presset fra telefonen, før du antager, at hardwaren er færdig.
 
 ## Frigør lagerplads først

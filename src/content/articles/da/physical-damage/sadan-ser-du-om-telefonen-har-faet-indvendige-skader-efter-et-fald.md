@@ -5,10 +5,11 @@ listSummary: "En telefon kan ramme gulvet, se helt normal ud og stadig have en s
 hub: "physical-damage"
 sourceNumber: 132
 order: 2
-tags: ["temperatur","varme","android","fejlfinding","hardware"]
+tags: ["temperatur", "varme", "android", "fejlfinding", "hardware"]
 locale: "da"
 draft: false
 ---
+
 De fleste fald giver ingen alvorlig skade. Men hvis telefonen begynder at opføre sig anderledes bagefter, bør du ikke tale dig selv fra at undersøge den.
 
 ## Tjek batteriet først

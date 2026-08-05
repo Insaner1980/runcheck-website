@@ -5,10 +5,11 @@ listSummary: "De fleste råd om at spare batteri på nettet er fossiler."
 hub: "myths"
 sourceNumber: 145
 order: 1
-tags: ["myter","fakta","android","batteri","myteaflivning"]
+tags: ["myter", "fakta", "android", "batteri", "myteaflivning"]
 locale: "da"
 draft: false
 ---
+
 Det betyder ikke, at batteripleje er opdigtet. Det betyder, at de gamle ritualer er det forkerte sted at bruge din energi.
 
 ## Myte: Telefonen skal aflades helt før opladning

@@ -1,14 +1,15 @@
 ---
 title: "Cómo realizar un diagnóstico completo en un móvil Android"
-description: "Android no tiene un único botón de \"ejecutar diagnóstico\" que lo compruebe todo de una vez. Las herramientas existen, pero están repartidas entre los menús de Ajustes, códigos ocultos del marcador, aplicaciones del fabricante y comandos del sistema que la mayoría de la gente nunca llega a ver. Esta guía las reúne en un solo recorrido que abarca el mayor número posible de móviles, sin ocultar las diferencias entre fabricantes, operadoras y versiones de Android."
-listSummary: "Android no tiene un único botón de \"ejecutar diagnóstico\" que lo compruebe todo de una vez."
+description: 'Android no tiene un único botón de "ejecutar diagnóstico" que lo compruebe todo de una vez. Las herramientas existen, pero están repartidas entre los menús de Ajustes, códigos ocultos del marcador, aplicaciones del fabricante y comandos del sistema que la mayoría de la gente nunca llega a ver. Esta guía las reúne en un solo recorrido que abarca el mayor número posible de móviles, sin ocultar las diferencias entre fabricantes, operadoras y versiones de Android.'
+listSummary: 'Android no tiene un único botón de "ejecutar diagnóstico" que lo compruebe todo de una vez.'
 hub: "device-health"
 sourceNumber: 7
 order: 3
-tags: ["android","actualizaciones","seguridad","software","guia"]
+tags: ["android", "actualizaciones", "seguridad", "software", "guia"]
 locale: "es"
 draft: false
 ---
+
 ## La vía más rápida: las herramientas de diagnóstico del fabricante
 
 Muchos fabricantes importantes incluyen su propia utilidad de diagnóstico, ya sea preinstalada o accesible mediante un código oculto. Empieza por aquí antes de instalar nada.

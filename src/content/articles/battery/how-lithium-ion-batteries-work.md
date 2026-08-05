@@ -6,9 +6,10 @@ hub: "battery"
 sourceNumber: 19
 order: 9
 subgroup: "Health"
-tags: ["battery-tech","science","education","hardware","guide"]
+tags: ["battery-tech", "science", "education", "hardware", "guide"]
 draft: false
 ---
+
 Understanding the basics makes the usual advice less mysterious. The 20% to 80% rule, the warning about heat, and the reason old phones die early all come from the same place: lithium ions moving through a cell that slowly changes every time you use it.
 
 <figure class="not-prose my-10">

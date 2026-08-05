@@ -5,10 +5,11 @@ listSummary: "Una situazione tipica dell'assistenza tecnica è questa."
 hub: "storage"
 sourceNumber: 87
 order: 9
-tags: ["memoria","android","pulizia","ottimizzazione","guida"]
+tags: ["memoria", "android", "pulizia", "ottimizzazione", "guida"]
 locale: "it"
 draft: false
 ---
+
 È irritante, ma non raro. Gli avvisi di spazio insufficiente su Android possono dipendere da file visibili, dati nascosti delle app, cestini, download non riusciti, residui di aggiornamenti di sistema o da un database della memoria che non si è ancora aggiornato. Dopo un aggiornamento importante, compreso il rilascio di Android 17 arrivato prima sui Pixel supportati e poi tramite gli aggiornamenti dei vari produttori, per un giorno o due i valori possono risultare poco chiari mentre il telefono completa le operazioni in background.
 
 Inizia riavviando. Davvero. È la soluzione noiosa, ma sblocca i processi temporanei più spesso di quanto si pensi.

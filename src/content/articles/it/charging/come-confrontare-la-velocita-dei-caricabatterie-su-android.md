@@ -5,10 +5,11 @@ listSummary: "Metodi pratici per confrontare la velocità dei caricabatterie And
 hub: "charging"
 sourceNumber: 45
 order: 9
-tags: ["ricarica","batteria","android","guida","hardware"]
+tags: ["ricarica", "batteria", "android", "guida", "hardware"]
 locale: "it"
 draft: false
 ---
+
 Colleghi il caricabatterie vicino al letto e il telefono indica Ricarica rapida. Colleghi quello sulla scrivania e compare la stessa dicitura. Con uno arrivi all'80% prima che il caffè sia pronto, con l'altro no.
 
 La scritta non basta. Devi confrontare la potenza che il telefono accetta davvero.

@@ -5,10 +5,11 @@ listSummary: "Kabelloses Laden ist für den Smartphone-Akku normalerweise sicher
 hub: "charging"
 sourceNumber: 40
 order: 4
-tags: ["laden","akku","android","ratgeber","hardware"]
+tags: ["laden", "akku", "android", "ratgeber", "hardware"]
 locale: "de"
 draft: false
 ---
+
 Ist kabelloses Laden schlecht für den Akku, oder macht sich das Internet wieder einmal zu viele Sorgen? Die faire Antwort lautet: Kabelloses Laden ist in Ordnung, lässt sich aber leichter ungünstig einsetzen als Laden per Kabel.
 
 Das Problem ist nicht die drahtlose Energieübertragung selbst. Das Problem ist Wärme. Beim kabellosen Laden geht während der Übertragung mehr Energie verloren als über ein Kabel. Diese verlorene Energie wird im Smartphone, im Ladepad oder in beiden Geräten zu Wärme.

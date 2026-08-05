@@ -5,10 +5,11 @@ listSummary: "batteri, helse og diagnostikk"
 hub: "thermal"
 sourceNumber: 57
 order: 5
-tags: ["batteri","helse","diagnostikk","android","guide"]
+tags: ["batteri", "helse", "diagnostikk", "android", "guide"]
 locale: "nb"
 draft: false
 ---
+
 En låst telefon som ligger med skjermen opp på et bord, skal ikke føles som om den nettopp har kjørt et spill i lommen. Litt varme er normalt. Tydelig varme i hvile betyr vanligvis at noe fortsatt arbeider.
 
 ## Begynn med de enkle kontrollene

@@ -5,10 +5,11 @@ listSummary: "batteri, strømforbruk og feilsøking"
 hub: "physical-damage"
 sourceNumber: 136
 order: 6
-tags: ["batteri","strømforbruk","feilsøking","android","ytelse"]
+tags: ["batteri", "strømforbruk", "feilsøking", "android", "ytelse"]
 locale: "nb"
 draft: false
 ---
+
 ---
 
 En sprukket skjerm gjør ikke CPU-en tregere. Appene trenger ikke plutselig mer prosessorkraft fordi glasset er knust.

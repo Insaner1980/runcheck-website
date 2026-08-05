@@ -5,10 +5,18 @@ listSummary: "La pressione sulla memoria si verifica quando Android ha poca RAM 
 hub: "performance"
 sourceNumber: 76
 order: 13
-tags: ["prestazioni","velocita","android","ottimizzazione","risoluzione-dei-problemi"]
+tags:
+  [
+    "prestazioni",
+    "velocita",
+    "android",
+    "ottimizzazione",
+    "risoluzione-dei-problemi",
+  ]
 locale: "it"
 draft: false
 ---
+
 ---
 
 La pressione sulla memoria è il modo in cui Android decide cosa sacrificare. Quando la RAM non basta per tutto, il sistema inizia a chiudere i processi meno importanti per continuare a funzionare.

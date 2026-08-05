@@ -5,10 +5,11 @@ listSummary: "diagnostico, sensores y android"
 hub: "hardware"
 sourceNumber: 115
 order: 12
-tags: ["diagnostico","sensores","android","hardware","guia"]
+tags: ["diagnostico", "sensores", "android", "hardware", "guia"]
 locale: "es"
 draft: false
 ---
+
 Acercas el móvil a un terminal de pago y no ocurre nada. Ahora tienes dos problemas: el pago no se ha completado y no sabes si el culpable es el NFC, Google Wallet, la tarjeta, la funda o el propio terminal.
 
 Empieza por algo más pequeño. El NFC es fácil de probar si separas la lectura del hardware de los pagos.

@@ -5,10 +5,11 @@ listSummary: "Forudinstallerede Android-apps kan optage plads, sende notifikatio
 hub: "performance"
 sourceNumber: 78
 order: 15
-tags: ["ydeevne","hastighed","android","optimering","fejlfinding"]
+tags: ["ydeevne", "hastighed", "android", "optimering", "fejlfinding"]
 locale: "da"
 draft: false
 ---
+
 ---
 
 Bloatware får skylden for næsten alle langsomme Android-telefoner, men virkeligheden er mindre dramatisk. En forudinstalleret app gør ikke telefonen langsommere, bare fordi dens ikon findes. Problemet begynder, når appen kører i baggrunden, vækker telefonen, sender notifikationer, opdaterer sig selv eller holder tjenester aktive, selv om du aldrig har bedt om det.

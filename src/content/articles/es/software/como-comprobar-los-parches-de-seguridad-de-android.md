@@ -5,10 +5,11 @@ listSummary: "Comprueba la fecha del parche de seguridad y si hay una actualizac
 hub: "software"
 sourceNumber: 122
 order: 4
-tags: ["android","actualizaciones","seguridad","software","guia"]
+tags: ["android", "actualizaciones", "seguridad", "software", "guia"]
 locale: "es"
 draft: false
 ---
+
 En la mayoría de móviles Android, abre Información del teléfono en Ajustes y busca Actualización de seguridad de Android o el nivel del parche de seguridad de Android. La fecha tendrá un formato parecido a 2026-06-05.
 
 ## Dónde encontrar la fecha del parche

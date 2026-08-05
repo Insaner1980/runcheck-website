@@ -5,10 +5,11 @@ listSummary: "Åpne oppdateringsskjermen på Android, så ser du sannsynligvis t
 hub: "software"
 sourceNumber: 124
 order: 6
-tags: ["android","oppdateringer","sikkerhet","programvare","guide"]
+tags: ["android", "oppdateringer", "sikkerhet", "programvare", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Det ser ut som en feil. Vanligvis er det ikke det.
 
 Dette er to forskjellige oppdateringskanaler. Sikkerhetsoppdateringen kommer gjennom telefonprodusenten, for eksempel Google, Samsung, Xiaomi, OnePlus eller Motorola. Den andre datoen kommer gjennom Googles modulbaserte oppdateringssystem for Android på enheter som støtter det.

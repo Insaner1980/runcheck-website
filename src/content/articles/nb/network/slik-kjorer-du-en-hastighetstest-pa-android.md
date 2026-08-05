@@ -5,10 +5,11 @@ listSummary: "Du trykker på start, ser nålen hoppe og får et tall som ser off
 hub: "network"
 sourceNumber: 92
 order: 3
-tags: ["nettverk","tilkobling","android","feilsøking","guide"]
+tags: ["nettverk", "tilkobling", "android", "feilsøking", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Testen viser hva som skjedde akkurat da, mot den serveren og under de nettverksforholdene. Den er et øyeblikksbilde, ikke en diagnose alene. Likevel er dette det beste første tallet å hente inn når telefonen føles treg.
 
 ## Hva testen måler

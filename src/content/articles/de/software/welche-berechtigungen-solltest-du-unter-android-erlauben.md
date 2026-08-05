@@ -5,10 +5,11 @@ listSummary: "android, berechtigungen und datenschutz"
 hub: "software"
 sourceNumber: 127
 order: 9
-tags: ["android","berechtigungen","datenschutz","sicherheit","ratgeber"]
+tags: ["android", "berechtigungen", "datenschutz", "sicherheit", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Dass eine Kamera-App auf die Kamera zugreifen möchte, ist logisch. Dass eine Taschenlampen-App deine Kontakte lesen will, ist es nicht. Viel komplizierter sind die meisten Entscheidungen nicht.
 
 Das Problem ist der Zeitpunkt. Apps fragen genau dann, wenn du etwas erledigen willst. Dadurch wird Zulassen schnell zur bequemsten Schaltfläche, und unnötige Berechtigungen sammeln sich an.

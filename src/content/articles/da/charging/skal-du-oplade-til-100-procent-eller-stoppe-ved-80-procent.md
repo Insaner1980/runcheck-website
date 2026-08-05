@@ -5,10 +5,11 @@ listSummary: "80 %-reglen er nyttig, men mange behandler den som en regel, der a
 hub: "charging"
 sourceNumber: 43
 order: 7
-tags: ["opladning","batteri","android","guide","hardware"]
+tags: ["opladning", "batteri", "android", "guide", "hardware"]
 locale: "da"
 draft: false
 ---
+
 Hvis du bare vil have det praktiske svar, så brug adaptiv opladning, hvis telefonen har det. Brug kun en fast grænse på 80 %, når du normalt har batteri til overs. Hvis telefonen allerede har svært ved at holde hele dagen, skal du ikke gøre hverdagen mere besværlig bare for at beskytte batteriet på papiret.
 
 Det er ikke disciplin. Det er bare besvær.
@@ -71,4 +72,4 @@ Aktivér adaptiv opladning, hvis den findes. Oplad til 100 %, når du har brug f
 
 Den værste vane er ikke lejlighedsvis at oplade til 100 %. Det er at lade telefonen stå fuld, varm og tilsluttet i timevis hver nat uden at gøre noget ved det.
 
-*Metabeskrivelse: Opladning til 80 % kan forlænge batteriets levetid, men adaptiv opladning er det bedste standardvalg for de fleste. Her er de situationer, hvor en grænse på 80 % faktisk giver mening.*
+_Metabeskrivelse: Opladning til 80 % kan forlænge batteriets levetid, men adaptiv opladning er det bedste standardvalg for de fleste. Her er de situationer, hvor en grænse på 80 % faktisk giver mening._

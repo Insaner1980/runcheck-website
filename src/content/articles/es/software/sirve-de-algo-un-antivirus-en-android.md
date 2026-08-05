@@ -5,10 +5,11 @@ listSummary: "La mayoría de las personas no necesita instalar un antivirus apar
 hub: "software"
 sourceNumber: 126
 order: 8
-tags: ["seguridad","software-malicioso","android","privacidad","guia"]
+tags: ["seguridad", "software-malicioso", "android", "privacidad", "guia"]
 locale: "es"
 draft: false
 ---
+
 Si solo instalas aplicaciones desde Google Play, mantienes Android actualizado y no abres enlaces aleatorios a archivos APK, la protección integrada suele ser suficiente. Si instalas APK con frecuencia, utilizas un móvil que ya no recibe soporte o manejas información sensible, una aplicación de seguridad adicional puede tener sentido.
 
 La diferencia está en el comportamiento, no en las sensaciones.

@@ -7,10 +7,11 @@ listSummary: "Kokeile vikasietotilaa ennen tehdasasetusten palautusta."
 hub: "software"
 sourceNumber: 130
 order: 12
-tags: ["suorituskyky","nopeus","android","optimointi","vianetsintä"]
+tags: ["suorituskyky", "nopeus", "android", "optimointi", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+
 Neuvo kuulostaa melkein liian yksinkertaiselta, mutta useimmissa Android-ongelmissa se on oikea vastaus. Vikasietotila on nopea, siitä voi poistua helposti eikä se poista mitään. Tehdasasetusten palautus tyhjentää puhelimen ja voi muuttaa viiden minuutin ongelman illaksi, joka kuluu sovellusten asentamiseen, tilien palauttamiseen ja unohtuneiden asetusten etsimiseen.
 
 Ensin vikasietotila. Palautus vasta viimeisenä.

@@ -1,14 +1,15 @@
 ---
 title: "Så kör du en fullständig diagnostik på en Android-telefon"
-description: "Android har ingen enda knapp för \"kör diagnostik\" som kontrollerar allt på en gång. Verktygen finns, men de är utspridda mellan inställningar, dolda telefonkoder, tillverkarnas appar och systemkommandon som de flesta aldrig ser. Den här guiden samlar dem i en genomgång som täcker så många telefoner som möjligt och visar samtidigt var skillnader mellan tillverkare, operatörer och Android-versioner sätter gränser."
-listSummary: "Android har ingen enda knapp för \"kör diagnostik\" som kontrollerar allt på en gång."
+description: 'Android har ingen enda knapp för "kör diagnostik" som kontrollerar allt på en gång. Verktygen finns, men de är utspridda mellan inställningar, dolda telefonkoder, tillverkarnas appar och systemkommandon som de flesta aldrig ser. Den här guiden samlar dem i en genomgång som täcker så många telefoner som möjligt och visar samtidigt var skillnader mellan tillverkare, operatörer och Android-versioner sätter gränser.'
+listSummary: 'Android har ingen enda knapp för "kör diagnostik" som kontrollerar allt på en gång.'
 hub: "device-health"
 sourceNumber: 7
 order: 3
-tags: ["android","uppdateringar","säkerhet","programvara","guide"]
+tags: ["android", "uppdateringar", "säkerhet", "programvara", "guide"]
 locale: "sv"
 draft: false
 ---
+
 ## Snabbaste vägen: tillverkarens diagnostikverktyg
 
 Många stora Android-tillverkare skickar med egna diagnostikverktyg, antingen förinstallerade eller tillgängliga genom en dold kod. Börja här innan du installerar något.

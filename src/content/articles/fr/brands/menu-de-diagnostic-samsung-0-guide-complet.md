@@ -5,10 +5,11 @@ listSummary: "fabricant, android et diagnostic"
 hub: "brands"
 sourceNumber: 160
 order: 8
-tags: ["fabricant","android","diagnostic","specifique-a-la-marque","guide"]
+tags: ["fabricant", "android", "diagnostic", "specifique-a-la-marque", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Vous saisissez `*#0*#` dans l'application Téléphone Samsung, et le clavier de numérotation habituel disparaît. À sa place apparaît une grille très simple de boutons pour tester l'écran, la dalle tactile, les haut-parleurs, les capteurs, les appareils photo, le moteur de vibration et les boutons physiques.
 
 Quand cela fonctionne, le procédé semble presque trop facile. Quand rien ne se passe, il peut devenir étonnamment frustrant, car Samsung ne présente pas ce menu comme une fonction ordinaire destinée au grand public. Considérez-le comme un menu de service de bas niveau qui fonctionne souvent sur les téléphones Galaxy, pas comme une option garantie sur chaque modèle, chaque version opérateur ou chaque région.

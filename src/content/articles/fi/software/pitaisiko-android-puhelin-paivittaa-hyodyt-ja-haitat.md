@@ -1,14 +1,15 @@
 ---
 title: "Pitäisikö Android-puhelin päivittää? Hyödyt ja haitat"
-description: "Useimmat päivitysohjeet ovat liian ehdottomia. \"Asenna aina heti\" kuulostaa selkeältä, mutta suuriin Android-julkaisuihin voi ensimmäisellä viikolla liittyä virheitä. \"Älä koskaan päivitä, koska puhelin voi hidastua\" on vielä huonompi neuvo, sillä silloin tunnetut tietoturva-aukot jäävät avoimiksi."
+description: 'Useimmat päivitysohjeet ovat liian ehdottomia. "Asenna aina heti" kuulostaa selkeältä, mutta suuriin Android-julkaisuihin voi ensimmäisellä viikolla liittyä virheitä. "Älä koskaan päivitä, koska puhelin voi hidastua" on vielä huonompi neuvo, sillä silloin tunnetut tietoturva-aukot jäävät avoimiksi.'
 listSummary: "Useimmat päivitysohjeet ovat liian ehdottomia."
 hub: "software"
 sourceNumber: 120
 order: 2
-tags: ["android","päivitykset","tietoturva","ohjelmisto","opas"]
+tags: ["android", "päivitykset", "tietoturva", "ohjelmisto", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Käytännöllinen vastaus on yksinkertainen: asenna tietoturvapäivitykset nopeasti. Asenna suuret Android-versiopäivitykset lyhyen tilannearvion jälkeen, varsinkin kun julkaisu on aivan uusi.
 
 Android 17 julkaistiin 16. kesäkuuta 2026, ja se on nyt saatavilla useimmille tuetuille Pixel-laitteille. Muiden valmistajien Android 17 -päivitykset etenevät niiden omien aikataulujen mukaan. Kun Android 17 ilmestyy laitteellesi, päätös on hieman erilainen kuin tavallisen kuukausipäivityksen kohdalla.

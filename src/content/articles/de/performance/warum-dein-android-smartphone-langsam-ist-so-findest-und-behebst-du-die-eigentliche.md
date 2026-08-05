@@ -5,10 +5,12 @@ listSummary: "Dein Android-Smartphone ist langsamer als früher, und wahrscheinl
 hub: "performance"
 sourceNumber: 64
 order: 1
-tags: ["leistung","geschwindigkeit","android","optimierung","fehlerbehebung"]
+tags:
+  ["leistung", "geschwindigkeit", "android", "optimierung", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+
 Das bedeutet nicht automatisch, dass das Smartphone am Ende ist. Die meisten Verlangsamungen haben einige wenige Ursachen, die du prüfen kannst: knapper Speicherplatz, stark aktive Hintergrund-Apps, zu wenig RAM, Hitze, Akkuverschleiß oder eine einzelne fehlerhafte App nach einem Update.
 
 ## Die schnelle Checkliste

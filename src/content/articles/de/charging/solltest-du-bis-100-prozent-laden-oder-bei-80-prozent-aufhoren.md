@@ -5,10 +5,11 @@ listSummary: "laden, akku und android"
 hub: "charging"
 sourceNumber: 43
 order: 7
-tags: ["laden","akku","android","ratgeber","hardware"]
+tags: ["laden", "akku", "android", "ratgeber", "hardware"]
 locale: "de"
 draft: false
 ---
+
 Die 80-%-Regel ist nützlich, wird aber oft wie ein Gebot behandelt. Das ist sie nicht. Das Laden bis 80 % kann den Akkuverschleiß verlangsamen, bedeutet aber auch, dass dir zu Tagesbeginn ein Fünftel der Kapazität fehlt. Für manche ist dieser Tausch sinnvoll, für andere einfach lästig.
 
 Wenn du nur eine praktische Antwort möchtest: Nutze adaptives Laden, sofern dein Smartphone es unterstützt. Verwende ein festes 80-%-Limit nur dann, wenn du im Alltag gewöhnlich genug Akkureserve hast. Kommt dein Smartphone schon jetzt kaum durch den Tag, solltest du deinen Alltag nicht verschlechtern, nur um den Akku auf dem Papier zu schonen.

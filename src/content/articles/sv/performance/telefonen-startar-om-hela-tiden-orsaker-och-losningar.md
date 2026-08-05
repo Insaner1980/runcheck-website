@@ -5,10 +5,11 @@ listSummary: "prestanda, hastighet och android"
 hub: "performance"
 sourceNumber: 74
 order: 11
-tags: ["prestanda","hastighet","android","optimering","felsökning"]
+tags: ["prestanda", "hastighet", "android", "optimering", "felsökning"]
 locale: "sv"
 draft: false
 ---
+
 ---
 
 Startar telefonen om, eller har den fastnat i en startloop? Skillnaden spelar roll.

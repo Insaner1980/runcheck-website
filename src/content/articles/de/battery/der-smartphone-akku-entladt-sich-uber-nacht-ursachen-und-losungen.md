@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 23
 order: 13
 subgroup: "Drain"
-tags: ["akku","akkuverbrauch","fehlerbehebung","android","leistung"]
+tags: ["akku", "akkuverbrauch", "fehlerbehebung", "android", "leistung"]
 locale: "de"
 draft: false
 ---
+
 Bei einem gesunden Android-Smartphone sind 2 bis 5 % Verlust über Nacht ein unspektakuläres Ergebnis. Es hält weiterhin die Mobilfunkverbindung, wartet auf Benachrichtigungen, synchronisiert einige Kontodaten und erledigt kleinere Wartungsaufgaben. Liegt der Verlust Nacht für Nacht über 10 %, solltest du ihn nicht mehr als normales Hintergrundrauschen behandeln.
 
 ## Prüfe zuerst die Akkuanzeige

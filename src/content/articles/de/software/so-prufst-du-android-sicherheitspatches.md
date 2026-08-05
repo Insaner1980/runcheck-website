@@ -5,10 +5,11 @@ listSummary: "Prüfe das Datum des Sicherheitsupdates und ob ein neueres Update 
 hub: "software"
 sourceNumber: 122
 order: 4
-tags: ["android","updates","sicherheit","software","ratgeber"]
+tags: ["android", "updates", "sicherheit", "software", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Auf den meisten Android-Smartphones öffnest du in den Einstellungen die Seite mit den Geräteinformationen und suchst nach Android-Sicherheitsupdate oder Android-Sicherheitspatch-Ebene. Das Datum sieht zum Beispiel so aus: 2026-06-05.
 
 ## Wo du das Patch-Datum findest

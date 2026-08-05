@@ -5,10 +5,11 @@ listSummary: "suorituskyky, nopeus ja android"
 hub: "storage"
 sourceNumber: 81
 order: 3
-tags: ["suorituskyky","nopeus","android","optimointi","vianetsintä"]
+tags: ["suorituskyky", "nopeus", "android", "optimointi", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+
 ---
 
 Kun Android-puhelimen tallennustila täyttyy, puhelin ei lakkaa toimimasta siististi ja ennakoitavasti. Se alkaa ensin käyttäytyä oudosti.

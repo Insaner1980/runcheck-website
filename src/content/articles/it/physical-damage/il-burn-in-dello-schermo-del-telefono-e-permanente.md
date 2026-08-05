@@ -5,10 +5,12 @@ listSummary: "Il vero burn-in dei display OLED e AMOLED è in genere permanente.
 hub: "physical-damage"
 sourceNumber: 134
 order: 4
-tags: ["hardware","danni","riparazione","android","risoluzione-dei-problemi"]
+tags:
+  ["hardware", "danni", "riparazione", "android", "risoluzione-dei-problemi"]
 locale: "it"
 draft: false
 ---
+
 ---
 
 Il vero burn-in dello schermo è permanente. Se i pixel sono invecchiati in modo irregolare, nessuna app, video o sequenza di colori può far tornare giovani quelli più usurati.

@@ -5,10 +5,11 @@ listSummary: "hårdvara, testning och diagnostik"
 hub: "hardware"
 sourceNumber: 109
 order: 6
-tags: ["hårdvara","testning","diagnostik","android","guide"]
+tags: ["hårdvara", "testning", "diagnostik", "android", "guide"]
 locale: "sv"
 draft: false
 ---
+
 ---
 
 En tyst telefon betyder inte automatiskt att vibrationsmotorn är trasig. De flesta vibrationsproblem beror först på inställningar, sedan på programvara och sist på hårdvara.

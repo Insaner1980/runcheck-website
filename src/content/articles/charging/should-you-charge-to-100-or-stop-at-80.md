@@ -5,9 +5,10 @@ listSummary: "80 percent charging limits"
 hub: "charging"
 sourceNumber: 43
 order: 7
-tags: ["charging","battery","android","guide","hardware"]
+tags: ["charging", "battery", "android", "guide", "hardware"]
 draft: false
 ---
+
 The 80% rule is useful, but people treat it like a commandment. It isn't. Charging to 80% can slow battery wear, yet it also means you start the day with one fifth of your battery missing. That trade-off is great for some people and irritating for others.
 
 If you just want the practical answer: use adaptive charging if your phone has it. Use an 80% hard limit only when you usually have battery to spare. If your phone already struggles to make it through the day, don't make your daily life worse just to protect the battery on paper.

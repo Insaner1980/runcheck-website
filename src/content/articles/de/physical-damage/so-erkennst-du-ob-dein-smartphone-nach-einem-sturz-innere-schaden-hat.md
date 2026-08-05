@@ -5,10 +5,11 @@ listSummary: "Ein Smartphone kann auf den Boden fallen, völlig normal aussehen 
 hub: "physical-damage"
 sourceNumber: 132
 order: 2
-tags: ["temperatur","warme","android","fehlerbehebung","hardware"]
+tags: ["temperatur", "warme", "android", "fehlerbehebung", "hardware"]
 locale: "de"
 draft: false
 ---
+
 Die meisten Stürze richten keinen ernsthaften Schaden an. Verhält sich das Smartphone danach anders, solltest du das trotzdem nicht einfach wegreden.
 
 ## Prüfe zuerst den Akku

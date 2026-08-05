@@ -6,10 +6,11 @@ listSummary: "Testaa Xiaomin CIT-valikolla puhelimen keskeiset laitteisto-osat."
 hub: "brands"
 sourceNumber: 159
 order: 7
-tags: ["laitteisto","testaus","diagnostiikka","android","opas"]
+tags: ["laitteisto", "testaus", "diagnostiikka", "android", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Xiaomi käyttää tukisivuillaan tavallisesti nimitystä hardware detection tai CIT mode. Toiminto tulee useimmiten vastaan tietyn ongelman, kuten harhailevan kosketusnäytön tai jatkuvasti käynnistyvän puhelimen, vianmäärityksessä. Valikko on tarkoitettu senhetkiseen testaukseen, ei laitteen kunnon pitkäaikaiseen seurantaan.
 
 Siinä koko idea.
@@ -90,4 +91,4 @@ Yleensä kyllä, kun laitteessa on virallinen Xiaomi-ohjelmisto. Käytettäviss�
 
 ---
 
-*Metakuvaus: Xiaomin CIT-valikossa voi suorittaa puhelimen sisäänrakennettuja laitteistotestejä. Oppaassa käydään läpi numeronvalintakoodit, Asetusten reitti, hyödylliset testit ja asiat, joita CIT ei pysty diagnosoimaan.*
+_Metakuvaus: Xiaomin CIT-valikossa voi suorittaa puhelimen sisäänrakennettuja laitteistotestejä. Oppaassa käydään läpi numeronvalintakoodit, Asetusten reitti, hyödylliset testit ja asiat, joita CIT ei pysty diagnosoimaan._

@@ -5,12 +5,12 @@ listSummary: "En ett år gammel telefon kan ofte koste omtrent halvparten av nyp
 hub: "buying-selling"
 sourceNumber: 6
 order: 4
-tags: ["kjøpsguide","android","sammenligning","verdi","guide"]
+tags: ["kjøpsguide", "android", "sammenligning", "verdi", "guide"]
 locale: "nb"
 draft: false
 ---
-Kontrollene nedenfor er ordnet etter hvor alvorlige problemene er. De tre første er absolutte stoppunkter. Resten avgjør hva telefonen faktisk er verdt.
 
+Kontrollene nedenfor er ordnet etter hvor alvorlige problemene er. De tre første er absolutte stoppunkter. Resten avgjør hva telefonen faktisk er verdt.
 
 ## Stopp handelen hvis disse kontrollene ikke bestås
 
@@ -24,17 +24,16 @@ Factory Reset Protection (FRP) er Androids tyverisikring. Hvis den forrige eiere
 
 Operatørlås begrenser hvilke mobilnett telefonen kan bruke. De fleste nyere telefoner i Norge selges uten operatørlås, men eldre eller brukte enheter kan fortsatt være låst. Sett inn et SIM-kort fra en annen operatør enn den telefonen opprinnelig ble solgt med, eller bruk operatørens IMEI-kontroll hvis telefonen bare støtter eSIM. Hvis den registrerer seg i nettet og kan ringe eller bruke mobildata, er det et godt tegn. Meldinger som "SIM-kort støttes ikke", "nettverk låst" eller manglende registrering betyr vanligvis at den er låst. En operatørlåst telefon kan noen ganger låses opp, men det avhenger av den opprinnelige operatørens regler, betalingsstatus og samarbeid fra kontoeieren. Ikke betal pris som for en ulåst telefon hvis den er låst.
 
-
 ## Batteriet er den største prisvariabelen
 
 Batterihelsen påvirker den daglige bruken mer enn nesten noe annet. Den avgjør hvor lenge skjermen kan være på, hvor varm telefonen blir, hvordan du må lade, og i noen tilfeller ytelsen under belastning. Det er også det beste forhandlingskortet når du kjøper brukt.
 
-| Batterihelse | Hva det betyr | Innvirkning på pris |
-|---|---|---|
-| 90-100 % | Svært god, minimal slitasje | Full prisantydning kan være rimelig |
-| 85-89 % | Normal bruk, mye levetid igjen | Rimelig pris uten større fratrekk |
-| 80-84 % | Merkbar slitasje, batteribytte kan bli nødvendig mens du eier telefonen | Trekk fra den faktiske lokale kostnaden for batteribytte |
-| Under 80 % | Batteribytte vil sannsynligvis bli nødvendig snart | Trekk fra kostnaden, eller vurder en annen telefon |
+| Batterihelse | Hva det betyr                                                           | Innvirkning på pris                                      |
+| ------------ | ----------------------------------------------------------------------- | -------------------------------------------------------- |
+| 90-100 %     | Svært god, minimal slitasje                                             | Full prisantydning kan være rimelig                      |
+| 85-89 %      | Normal bruk, mye levetid igjen                                          | Rimelig pris uten større fratrekk                        |
+| 80-84 %      | Merkbar slitasje, batteribytte kan bli nødvendig mens du eier telefonen | Trekk fra den faktiske lokale kostnaden for batteribytte |
+| Under 80 %   | Batteribytte vil sannsynligvis bli nødvendig snart                      | Trekk fra kostnaden, eller vurder en annen telefon       |
 
 Den faktiske prisen på batteribytte varierer mer enn mange selgere vil innrømme. Et enkelt bytte på en eldre Android-telefon kan være forholdsvis rimelig. En nyere forseglet toppmodell, et autorisert verksted eller en brettbar telefon kan koste langt mer. Som praktisk utgangspunkt ligger et vanlig batteribytte hos norske verksteder ofte rundt 900-2 000 kr for tradisjonelle modeller, mens nyere toppmodeller og brettbare telefoner kan koste mer. Be om et lokalt pristilbud før kjøpet og bruk det i stedet for et generelt anslag.
 
@@ -54,25 +53,23 @@ En telefon med 82 % batterihelse og en prisantydning på 4 500 kr er ikke egentl
 
 Hvis kjøper og selger ønsker ett felles referansepunkt for telefonens samlede tilstand, kan en diagnoseapp som **runcheck** lage en helsescore basert på batteri, temperatur, nettverk og lagring mens dere møtes. Det er mindre tvetydig enn "den fungerer fint" eller "jeg tror batteriet fortsatt er bra".
 
-
 ## Hvor mye programvarestøtte er igjen?
 
 Sikkerhetsoppdateringer og OS-støtte avgjør hvor lenge telefonen forblir trygg og kompatibel med apper. Dette varierer mye mellom produsenter, modeller, regioner og lanseringsår.
 
-| Produsent | Nyere toppmodeller | Nyere mellomklassemodeller |
-|---|---|---|
-| Google | Pixel 8 og nyere: 7 år med OS- og sikkerhetsoppdateringer | Pixel 8a og nyere: 7 år |
-| Samsung | Galaxy S24-serien og nyere toppmodeller: 7 generasjoner OS-oppgraderinger og 7 år med sikkerhetsoppdateringer | Galaxy A56, A36 og A26: 6 generasjoner OS-oppgraderinger og 6 år med sikkerhetsoppdateringer |
-| OnePlus | OnePlus 13 og 13R: 4 store Android-oppdateringer og 6 år med sikkerhetsoppdateringer | Varierer etter modell |
-| Motorola | Varierer etter modell, sjekk den konkrete modellen på Motorolas støttesider | Ofte kortere enn hos Google og Samsung, men nyere modeller varierer |
-| Andre merker | Varierer | Ofte 2-3 år på eldre eller rimelige modeller, mens nyere telefoner på EØS-markedet kan omfattes av regler som gjaldt i EU fra 2025 og trådte i kraft i Norge 1. januar 2026 |
+| Produsent    | Nyere toppmodeller                                                                                            | Nyere mellomklassemodeller                                                                                                                                                  |
+| ------------ | ------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Google       | Pixel 8 og nyere: 7 år med OS- og sikkerhetsoppdateringer                                                     | Pixel 8a og nyere: 7 år                                                                                                                                                     |
+| Samsung      | Galaxy S24-serien og nyere toppmodeller: 7 generasjoner OS-oppgraderinger og 7 år med sikkerhetsoppdateringer | Galaxy A56, A36 og A26: 6 generasjoner OS-oppgraderinger og 6 år med sikkerhetsoppdateringer                                                                                |
+| OnePlus      | OnePlus 13 og 13R: 4 store Android-oppdateringer og 6 år med sikkerhetsoppdateringer                          | Varierer etter modell                                                                                                                                                       |
+| Motorola     | Varierer etter modell, sjekk den konkrete modellen på Motorolas støttesider                                   | Ofte kortere enn hos Google og Samsung, men nyere modeller varierer                                                                                                         |
+| Andre merker | Varierer                                                                                                      | Ofte 2-3 år på eldre eller rimelige modeller, mens nyere telefoner på EØS-markedet kan omfattes av regler som gjaldt i EU fra 2025 og trådte i kraft i Norge 1. januar 2026 |
 
 I EU begynte de nye økodesignkravene for smarttelefoner og nettbrett å gjelde 20. juni 2025. De ble gjennomført i norsk rett og trådte i kraft i Norge 1. januar 2026. For modeller som omfattes, skal operativsystemoppgraderinger være tilgjengelige i minst fem år fra datoen da den siste enheten av modellen ble satt på markedet, og viktige reservedeler skal være tilgjengelige i sju år etter samme tidspunkt. Dette hjelper fremtidige brukttelefonkjøpere, men forlenger ikke automatisk levetiden til eldre telefoner som allerede er uten støtte.
 
 To år eller mer med støtte igjen er et trygt kjøp. Under ett år betyr at telefonen nærmer seg slutten av sikkerhetslevetiden. Noen bank-, betalings- og jobbapper kan nekte å kjøre på enheter som er rootet, kompromittert eller for gamle. Selv når appene fortsatt virker, er en telefon uten sikkerhetsoppdateringer et dårlig sted å oppbevare sensitive kontoer.
 
 Sjekk Android-versjon og dato for sikkerhetsoppdatering under **Innstillinger > Om telefonen**. Hvis telefonen ligger etter med oppdateringer, kan det bare skyldes forsinket utrulling. Hvis den ikke kan installere den nyeste versjonen som er tilgjengelig for modellen, kan det være et problem med fastvaren, regionvarianten, operatørtilpasningen eller oppdateringskanalen.
-
 
 ## Fysisk kontroll
 
@@ -84,13 +81,11 @@ Vannskade: Mange telefoner har en væskeindikator ved eller inne i SIM-kortskuff
 
 Høyttalere, mikrofoner og kameraer: Spill av lyd med høyt volum, ta opp et kort lydklipp, ta bilder med front- og bakkameraene, test fokus og spill inn en kort video. Disse kontrollene tar to minutter og avslører feil som er dyre å oppdage etter kjøpet.
 
-
 ## Det norske energimerket og reparerbarhetsklassen
 
 Siden 20. juni 2025 må smarttelefoner og nettbrett som settes på det norske markedet, ha et nytt energimerke. Merket viser energieffektivitet, batteritid per lading, forventet batterilevetid målt i sykluser, fallbestandighetsklasse, beskyttelse mot vann og støv og en reparerbarhetsklasse fra A til E. A er lettest å reparere. E er vanskeligst.
 
 En brukt telefon kommer ofte uten originaleske, og eldre modeller har kanskje ikke merket i det hele tatt. For nyere modeller på det norske markedet er reparerbarhetsklassen likevel verdt å sjekke i produktoppføringen eller i EPREL når modellen finnes der. En telefon med god reparerbarhetsklasse bør være enklere og rimeligere å holde i drift enn en modell med dårlig klasse, særlig når batteriet eller ladeporten til slutt må repareres.
-
 
 ## Ofte stilte spørsmål
 
@@ -113,7 +108,6 @@ Bare hvis prisavslaget er større enn reparasjonskostnaden, og telefonen har nok
 ### Er en gammel toppmodell bedre enn en nyere mellomklassemodell?
 
 Noen ganger. En eldre toppmodell kan ha bedre kamera, skjerm, høyttalere og prosessor. En nyere mellomklassemodell kan ha friskere batteri, lengre programvarestøtte og rimeligere reservedeler. Ved brukt kjøp betyr gjenværende støtte og batteritilstand ofte mer enn den opprinnelige lanseringsprisen.
-
 
 ## Konklusjon
 

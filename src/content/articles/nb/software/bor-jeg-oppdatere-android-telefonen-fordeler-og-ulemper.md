@@ -5,10 +5,11 @@ listSummary: "De fleste råd om oppdateringer er for bastante."
 hub: "software"
 sourceNumber: 120
 order: 2
-tags: ["android","oppdateringer","sikkerhet","programvare","guide"]
+tags: ["android", "oppdateringer", "sikkerhet", "programvare", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Det praktiske svaret er enkelt: Installer sikkerhetsoppdateringer raskt. Installer store Android-oppgraderinger etter en kort kontroll, særlig når versjonen er helt ny.
 
 Android 17 ble lansert 16. juni 2026, først for de fleste støttede Pixel-telefoner. Samsung, Xiaomi, OnePlus, OPPO, Motorola og andre produsenter følger med egne tidsplaner, og enkelte tilbyr foreløpig bare beta- eller testversjoner. Når Android 17 dukker opp på telefonen din nå, er vurderingen derfor litt annerledes enn ved en vanlig månedlig oppdatering.

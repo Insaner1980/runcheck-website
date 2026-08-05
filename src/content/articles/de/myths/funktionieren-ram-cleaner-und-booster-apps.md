@@ -5,10 +5,12 @@ listSummary: "leistung, geschwindigkeit und android"
 hub: "myths"
 sourceNumber: 147
 order: 3
-tags: ["leistung","geschwindigkeit","android","optimierung","fehlerbehebung"]
+tags:
+  ["leistung", "geschwindigkeit", "android", "optimierung", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+
 Auf einem modernen Android-Smartphone verbessern RAM-Cleaner und Booster-Apps die Leistung nicht dauerhaft. In der Regel sorgen sie dafür, dass das Gerät mehr arbeiten muss, nicht weniger. Noch problematischer ist, dass sie oft weitreichende Berechtigungen verlangen, um die Nutzung zu überwachen, Werbung einzublenden und selbst ständig im Hintergrund aktiv zu bleiben.
 
 ## Freier RAM ist nicht das Ziel

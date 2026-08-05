@@ -5,10 +5,11 @@ listSummary: "Du hältst ein gebrauchtes Smartphone in der Hand, das sauber auss
 hub: "buying-selling"
 sourceNumber: 141
 order: 5
-tags: ["vergleich","apps","android","kaufratgeber","test"]
+tags: ["vergleich", "apps", "android", "kaufratgeber", "test"]
 locale: "de"
 draft: false
 ---
+
 Tu das nicht.
 
 Ein gebrauchtes Android-Smartphone kann einen schwachen Akku, eine gesperrte IMEI, ein ausgetauschtes Display mit schlechter Touch-Erkennung, einen Wasserschaden, einen defekten Ladeanschluss oder Software kurz vor dem Supportende verbergen. Auf den Fotos im Inserat siehst du davon oft nichts.
@@ -107,4 +108,4 @@ Plane für die Prüfung 20 bis 30 Minuten ein. Ein guter Verkäufer wartet viell
 
 Es gibt immer noch andere gebrauchte Smartphones.
 
-*Meta-Beschreibung: Schritt-für-Schritt-Anleitung zum Prüfen eines gebrauchten Android-Smartphones vor dem Kauf, einschließlich IMEI, Akkuzustand, Display, Hardware, Software-Support und Preisverhandlung.*
+_Meta-Beschreibung: Schritt-für-Schritt-Anleitung zum Prüfen eines gebrauchten Android-Smartphones vor dem Kauf, einschließlich IMEI, Akkuzustand, Display, Hardware, Software-Support und Preisverhandlung._

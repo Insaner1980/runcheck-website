@@ -5,10 +5,18 @@ listSummary: "Soluzioni passo passo per i problemi Wi-Fi su Android."
 hub: "network"
 sourceNumber: 96
 order: 7
-tags: ["prestazioni","velocita","android","ottimizzazione","risoluzione-dei-problemi"]
+tags:
+  [
+    "prestazioni",
+    "velocita",
+    "android",
+    "ottimizzazione",
+    "risoluzione-dei-problemi",
+  ]
 locale: "it"
 draft: false
 ---
+
 Cosa conviene provare per prima cosa quando il Wi-Fi su Android smette di funzionare? Non partire da un ripristino dei dati di fabbrica e non perdere mezz'ora a modificare il router prima di aver controllato le cose semplici. La maggior parte dei problemi rientra in tre casi: il telefono non si connette, si connette ma perde spesso la rete, oppure resta connesso ma Internet sembra non funzionare.
 
 Segui queste soluzioni nell'ordine indicato. Risparmi tempo.

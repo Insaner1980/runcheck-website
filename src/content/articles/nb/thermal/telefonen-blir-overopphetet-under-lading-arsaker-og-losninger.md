@@ -5,10 +5,11 @@ listSummary: "lading, batteri og android"
 hub: "thermal"
 sourceNumber: 58
 order: 6
-tags: ["lading","batteri","android","guide","maskinvare"]
+tags: ["lading", "batteri", "android", "guide", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 At en telefon blir litt varm under lading, er normalt. At den blir ubehagelig å holde i, er det ikke.
 
 Når et litium-ion-batteri lades, blir noe av energien til varme. Du merker det tydeligere med en lader på 25 W, 45 W eller 65 W enn med en gammel 5 W-lader. Det betyr ikke i seg selv at noe er ødelagt. Det viktige er om telefonen kjøler seg ned etter den mest intensive delen av ladingen, eller om den blir stadig varmere hver gang du kobler den til.

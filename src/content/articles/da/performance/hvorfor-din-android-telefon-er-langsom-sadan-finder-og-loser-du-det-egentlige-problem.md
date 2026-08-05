@@ -5,10 +5,11 @@ listSummary: "Din Android-telefon er langsommere end før, og du bilder dig sand
 hub: "performance"
 sourceNumber: 64
 order: 1
-tags: ["ydeevne","hastighed","android","optimering","fejlfinding"]
+tags: ["ydeevne", "hastighed", "android", "optimering", "fejlfinding"]
 locale: "da"
 draft: false
 ---
+
 Det betyder ikke automatisk, at telefonen er færdig. De fleste hastighedsproblemer skyldes nogle få ting, du selv kan kontrollere: for lidt ledig lagerplads, tunge baggrundsapps, mangel på RAM, varme, batterislid eller én dårlig app efter en opdatering.
 
 ## Den hurtige tjekliste

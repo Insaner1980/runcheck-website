@@ -5,9 +5,10 @@ listSummary: "Monthly phone maintenance cadence"
 hub: "device-health"
 sourceNumber: 8
 order: 4
-tags: ["storage","android","cleanup","optimization","guide"]
+tags: ["storage", "android", "cleanup", "optimization", "guide"]
 draft: false
 ---
+
 This checklist scales to how you actually use a phone. Not everything needs to happen every month, and some tasks only matter once or twice a year.
 
 ## Every month

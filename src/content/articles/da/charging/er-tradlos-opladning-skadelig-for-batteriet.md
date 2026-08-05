@@ -5,10 +5,11 @@ listSummary: "Trådløs opladning er normalt sikker for telefonens batteri, men 
 hub: "charging"
 sourceNumber: 40
 order: 4
-tags: ["opladning","batteri","android","guide","hardware"]
+tags: ["opladning", "batteri", "android", "guide", "hardware"]
 locale: "da"
 draft: false
 ---
+
 Er trådløs opladning skadelig for batteriet, eller er det bare endnu en ting, internettet bekymrer sig for meget om? Det rimelige svar er: Trådløs opladning er fin, men det er lettere at gøre forkert end opladning med kabel.
 
 Problemet er ikke selve den trådløse strøm. Problemet er varme. Trådløs opladning spilder mere energi under overførslen end et kabel, og den spildte energi bliver til varme i telefonen, opladningspladen eller begge dele.

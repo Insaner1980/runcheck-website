@@ -5,10 +5,11 @@ listSummary: "Ninguna aplicación para Android puede reparar una batería degrad
 hub: "myths"
 sourceNumber: 151
 order: 7
-tags: ["mitos","datos","android","bateria","desmitificacion"]
+tags: ["mitos", "datos", "android", "bateria", "desmitificacion"]
 locale: "es"
 draft: false
 ---
+
 ¿De verdad puede una aplicación para reparar baterías recuperar la capacidad perdida? No. Ni una aplicación de reparación, ni un acelerador, ni una herramienta de calibración, ni un optimizador con una animación atractiva.
 
 La batería es un componente físico. Cuando la química del interior de la celda ha envejecido, el software no puede devolverle la capacidad perdida.

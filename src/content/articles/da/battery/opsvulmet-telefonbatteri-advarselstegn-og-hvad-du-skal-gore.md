@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 16
 order: 6
 subgroup: "Health"
-tags: ["batteri","tilstand","diagnostik","android","guide"]
+tags: ["batteri", "tilstand", "diagnostik", "android", "guide"]
 locale: "da"
 draft: false
 ---
+
 Du opdager, at bagpanelet løfter sig. Eller at der er kommet en lille sprække langs kanten af skærmen. Eller at telefonen pludselig vipper på bordet, selv om den før lå helt fladt.
 
 Tag det som et stopskilt. Et opsvulmet telefonbatteri er ikke et problem med ydeevnen. Det er et beskadiget batteri, som skal håndteres forsigtigt.

@@ -5,10 +5,11 @@ listSummary: "Dein Android-Smartphone lässt sich nicht einschalten oder zeigt n
 hub: "performance"
 sourceNumber: 75
 order: 12
-tags: ["runcheck","seo","android","artikel","ratgeber"]
+tags: ["runcheck", "seo", "android", "artikel", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 ---
 
 Jemand schließt ein Smartphone an, sieht nichts, drückt fünfmal auf Ein/Aus und hält es für tot. Manchmal ist es das. Häufiger ist der Akku vollständig entladen, die Software bei ausgeschaltetem Display eingefroren oder der Bildschirm ausgefallen, während das Smartphone selbst noch läuft.

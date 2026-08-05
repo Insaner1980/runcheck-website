@@ -5,10 +5,11 @@ listSummary: "lagring, android och rensning"
 hub: "brands"
 sourceNumber: 157
 order: 5
-tags: ["lagring","android","rensning","optimering","guide"]
+tags: ["lagring", "android", "rensning", "optimering", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Enhetsvård är användbart, men det är först och främst en översikt och i andra hand ett optimeringsverktyg. Där kan du hitta batteriförbrukning, lagringsproblem, bakgrundsappar, minnesanvändning och säkerhetskontroller på ett ställe. De specifika verktygen är de bästa delarna, inte städningen med ett tryck.
 
 Samsung ändrar också namn på menyer mellan olika One UI-versioner. Vissa telefoner visar Inställningar > Enhetsvård. Andra visar Inställningar > Batteri och enhetsvård. Android 17 har nu släppts först till de flesta Pixel-telefoner som stöds, medan Galaxy-telefoner får Samsungs Android 17-baserade One UI-uppdatering senare. Räkna därför med ännu en omgång mindre ändringar i ordval och layout.

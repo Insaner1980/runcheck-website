@@ -5,10 +5,11 @@ listSummary: "Metodi semplici per verificare se l'NFC funziona su uno smartphone
 hub: "hardware"
 sourceNumber: 115
 order: 12
-tags: ["diagnostica","sensori","android","hardware","guida"]
+tags: ["diagnostica", "sensori", "android", "hardware", "guida"]
 locale: "it"
 draft: false
 ---
+
 Avvicini il telefono a un terminale di pagamento e non succede nulla. Ora hai due problemi: il pagamento non è riuscito e non sai se la causa è l'NFC, Google Wallet, la carta, la cover o il terminale.
 
 Parti da una prova più semplice. Testare l'NFC è facile se separi la lettura hardware dai pagamenti.

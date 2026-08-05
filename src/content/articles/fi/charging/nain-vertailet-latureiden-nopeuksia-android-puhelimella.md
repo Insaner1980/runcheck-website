@@ -5,10 +5,11 @@ listSummary: "lataaminen, akku ja android"
 hub: "charging"
 sourceNumber: 45
 order: 9
-tags: ["lataaminen","akku","android","opas","laitteisto"]
+tags: ["lataaminen", "akku", "android", "opas", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 Kytket puhelimen yöpöydän laturiin, ja näytössä lukee Fast charging. Kytket sen työpöydän laturiin, ja teksti on sama. Toisella akku ehtii 80 prosenttiin ennen kuin kahvi on valmista, toisella ei.
 
 Pelkkä latausilmoitus ei riitä. Vertailussa ratkaisee se, kuinka paljon tehoa puhelin todella ottaa vastaan.

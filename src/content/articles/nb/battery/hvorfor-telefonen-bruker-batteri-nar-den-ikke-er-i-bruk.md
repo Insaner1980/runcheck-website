@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 26
 order: 16
 subgroup: "Drain"
-tags: ["batteri","strømforbruk","feilsøking","android","ytelse"]
+tags: ["batteri", "strømforbruk", "feilsøking", "android", "ytelse"]
 locale: "nb"
 draft: false
 ---
+
 Det er normalt. Unormalt høyt batteriforbruk i hvile er det ikke.
 
 ## Slik ser normalt batteriforbruk i hvile ut

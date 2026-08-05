@@ -5,10 +5,18 @@ listSummary: "Perché gli smartphone Android possono rallentare dopo gli aggiorn
 hub: "performance"
 sourceNumber: 68
 order: 5
-tags: ["prestazioni","velocita","android","ottimizzazione","risoluzione-dei-problemi"]
+tags:
+  [
+    "prestazioni",
+    "velocita",
+    "android",
+    "ottimizzazione",
+    "risoluzione-dei-problemi",
+  ]
 locale: "it"
 draft: false
 ---
+
 Subito dopo un aggiornamento di Android, lo smartphone può sembrare peggiorato. Non significa automaticamente che l'aggiornamento lo abbia danneggiato. Il primo giorno o i primi due dopo il passaggio a una nuova versione importante sono spesso disordinati, perché Android ricostruisce diversi elementi in background mentre tu cerchi di usare normalmente il dispositivo.
 
 È fastidioso, ma è anche normale.

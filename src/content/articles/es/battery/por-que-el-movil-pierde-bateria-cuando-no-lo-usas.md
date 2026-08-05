@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 26
 order: 16
 subgroup: "Drain"
-tags: ["bateria","consumo","solucion-de-problemas","android","rendimiento"]
+tags: ["bateria", "consumo", "solucion-de-problemas", "android", "rendimiento"]
 locale: "es"
 draft: false
 ---
+
 Eso es normal. Un consumo excesivo en reposo no lo es.
 
 ## Qué consumo en reposo puede considerarse normal

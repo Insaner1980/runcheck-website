@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 20
 order: 10
 subgroup: "Health"
-tags: ["batteriteknologi","vitenskap","guide","maskinvare"]
+tags: ["batteriteknologi", "vitenskap", "guide", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 Årsaken er silisium-karbon. Det er fortsatt litium-ion, men anoden er endret.
 
 ## Hva som er endret i anoden

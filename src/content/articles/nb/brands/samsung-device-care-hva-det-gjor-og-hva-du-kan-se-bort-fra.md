@@ -5,10 +5,11 @@ listSummary: "lagring, android og opprydding"
 hub: "brands"
 sourceNumber: 157
 order: 5
-tags: ["lagring","android","opprydding","optimalisering","guide"]
+tags: ["lagring", "android", "opprydding", "optimalisering", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Device care er nyttig, men først og fremst som et kontrollpanel og deretter som et optimaliseringsverktøy. Det hjelper deg med å finne batteriforbruk, lagringspress, bakgrunnsapper, minnebruk og sikkerhetskontroller på ett sted. De beste delene er de konkrete verktøyene, ikke oppryddingen med ett trykk.
 
 Samsung endrer også menynavn mellom One UI-versjoner. På nyere norske telefoner heter området ofte Enhetsvedlikehold, mens andre programvareversjoner kan vise Batteri- og enhetsvedlikehold. Android 17 er nå først ute på de fleste støttede Pixel-telefoner, mens Galaxy-telefoner får Samsungs Android 17-baserte One UI-oppdatering senere. Du kan derfor regne med enda en runde med små endringer i ordlyd og oppsett.

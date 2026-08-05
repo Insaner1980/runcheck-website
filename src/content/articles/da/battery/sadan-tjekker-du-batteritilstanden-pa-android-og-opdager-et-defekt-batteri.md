@@ -6,12 +6,12 @@ hub: "battery"
 sourceNumber: 11
 order: 1
 subgroup: "Health"
-tags: ["batteri","tilstand","diagnostik","android","guide"]
+tags: ["batteri", "tilstand", "diagnostik", "android", "guide"]
 locale: "da"
 draft: false
 ---
-I modsætning til iPhone, som har vist en procentværdi for batteritilstand på understøttede modeller siden iOS 11.3, har Android historisk gjort oplysningerne sværere at finde. Der findes ikke én universel skærm til "batteritilstand". Du må danne dig et billede ud fra producentens værktøjer, skjulte menuer, brugsmønstre og diagnoseapps.
 
+I modsætning til iPhone, som har vist en procentværdi for batteritilstand på understøttede modeller siden iOS 11.3, har Android historisk gjort oplysningerne sværere at finde. Der findes ikke én universel skærm til "batteritilstand". Du må danne dig et billede ud fra producentens værktøjer, skjulte menuer, brugsmønstre og diagnoseapps.
 
 ## Hurtigt svar: Sådan tjekker du batteritilstanden
 
@@ -24,7 +24,6 @@ Der er tre metoder, fra den hurtigste til den mest detaljerede.
 **Diagnoseapp.** Tredjepartsapps estimerer batteritilstanden ved at følge opladnings- og afladningsmønstre over flere dage. Det er den mest detaljerede mulighed, når telefonen ikke har en indbygget indikator.
 
 En måling under 80 % af den oprindelige kapacitet eller en status, der ikke er "Good" eller "Normal", betyder, at det er værd at overveje et batteriskift.
-
 
 ## Hvorfor batterier bliver slidt
 
@@ -39,7 +38,6 @@ Alle Android-telefoner bruger et litium-ion- eller litium-polymerbatteri. De er 
 **Opladningsvaner betyder noget, men mindre end mange tror.** Det belaster batteriet mere altid at oplade til 100 % og aflade til 0 % end at holde sig omkring 20-80 %. Hurtigopladning skaber også mere varme end almindelig opladning. Forskellen mellem altid at hurtigoplade til 100 % og forsigtigt oplade til 80 % gennem et år er dog mindre, end mange råd på nettet antyder. Varme og tid betyder mere. Ikke-certificerede opladere er den reelle risiko, fordi ustabil strømforsyning kan beskadige cellerne permanent.
 
 Resultatet er, at et batteri på 5.000 mAh langsomt bliver til 4.000 mAh og derefter 3.500 mAh, indtil den resterende kapacitet ikke længere rækker gennem en normal dag.
-
 
 ## Manuelle diagnosetrin
 
@@ -61,7 +59,6 @@ Androids indbyggede indstillinger kan give nyttige spor, selv uden en præcis pr
 
 **Brug producentens diagnoseværktøjer.** Ud over indikatorerne i det hurtige svar har nogle telefoner særskilte diagnoser. På Pixel kan du se efter Batteridiagnostik under Indstillinger > Batteri. Samsung Members har en samlet sektion til Telefondiagnosticering, som kan teste batteriet. Xiaomi-enheder viser ofte flere batterioplysninger under Batteri > Battery protection.
 
-
 ## Avanceret diagnose: spænding, temperatur og afladningsmønstre
 
 Flere målinger kan vise, hvad der sker inde i cellen, hvis du vil have det tekniske billede.
@@ -79,7 +76,6 @@ Diagnoseapps sætter tal på observationerne. De følger opladning og afladning 
 runcheck kombinerer batteridiagnostik med analyse af netværk, temperatur og lagerplads i én samlet vurdering. Det er relevant, fordi batteriproblemer ikke altid optræder alene. Et varmeproblem fra en komponent, der opfører sig forkert, kan ligne batteriafladning, og en flaskehals i lageret kan få CPU'en til at arbejde hårdere end nødvendigt.
 
 Undgå apps, der hævder at kunne "booste", "kalibrere" eller "gendanne" batteritilstanden. Ingen app kan vende kemisk nedbrydning. Nyttige apps viser reelle målinger af spænding og temperatur, følger data over tid og arbejder på enheden uden at kræve en konto eller upload til skyen.
-
 
 ## Ofte stillede spørgsmål
 
@@ -114,7 +110,6 @@ Batteriets faktiske kapacitet svarer ikke længere til det, softwaren forventer.
 **Hvor ofte bør batteritilstanden kontrolleres?**
 
 Hver få måneder. Nedbrydningen sker gradvist, og hyppige kontroller ændrer ikke resultatet. Gode grunde til en ekstra kontrol er pludseligt kortere batteritid, uventede nedlukninger eller en telefon, der bliver varmere end normalt.
-
 
 ## Hvad du skal gøre med resultaterne
 

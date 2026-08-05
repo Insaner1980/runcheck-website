@@ -5,10 +5,11 @@ listSummary: "diagnostik, sensorer och android"
 hub: "hardware"
 sourceNumber: 116
 order: 13
-tags: ["diagnostik","sensorer","android","hårdvara","guide"]
+tags: ["diagnostik", "sensorer", "android", "hårdvara", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Vattentålig är inte samma sak som vattentät, oavsett hur självsäkert det låter i specifikationen.
 
 Telefonen har antingen en IP-klassning eller så har den inte det. Det finns ingen app, kod i Telefon-appen eller dold Android-inställning som kan testa det i efterhand.

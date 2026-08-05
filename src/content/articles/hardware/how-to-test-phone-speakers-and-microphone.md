@@ -5,9 +5,10 @@ listSummary: "Speaker and microphone tests"
 hub: "hardware"
 sourceNumber: 107
 order: 4
-tags: ["hardware","testing","diagnostics","android","guide"]
+tags: ["hardware", "testing", "diagnostics", "android", "guide"]
 draft: false
 ---
+
 That doesn't make the problem less annoying. If callers can't hear you or your speaker crackles at half volume, you still need to know which part is failing.
 
 ## Know which audio part you're testing

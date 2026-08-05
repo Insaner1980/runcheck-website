@@ -5,10 +5,11 @@ listSummary: "android, tilladelser og privatliv"
 hub: "software"
 sourceNumber: 127
 order: 9
-tags: ["android","tilladelser","privatliv","sikkerhed","guide"]
+tags: ["android", "tilladelser", "privatliv", "sikkerhed", "guide"]
 locale: "da"
 draft: false
 ---
+
 Det giver mening, at en kameraapp beder om adgang til kameraet. Det gør det ikke, hvis en lommelygteapp vil have adgang til dine kontakter. De fleste beslutninger om tilladelser er ikke mere komplicerede end det.
 
 Problemet er tidspunktet. Apps spørger, mens du prøver at få noget gjort, så Tillad bliver den hurtige knap. Sådan hober dårlige tilladelser sig op.

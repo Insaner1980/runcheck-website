@@ -5,10 +5,11 @@ listSummary: "Metabeskrivelse: Ingen Android-app kan reparere et degradert batte
 hub: "myths"
 sourceNumber: 151
 order: 7
-tags: ["myter","fakta","android","batteri","myteknusing"]
+tags: ["myter", "fakta", "android", "batteri", "myteknusing"]
 locale: "nb"
 draft: false
 ---
+
 Kan en batterireparasjonsapp faktisk gi deg den tapte kapasiteten tilbake? Nei. Ikke en reparasjonsapp, ikke en booster, ikke et kalibreringsverktøy og ikke en optimaliseringsapp med en pen animasjon.
 
 Batteriet er en fysisk komponent. Når kjemien i cellen har blitt eldre, kan ikke programvare gjenopprette kapasiteten som er gått tapt.

@@ -9,6 +9,7 @@ tags: []
 locale: "it"
 draft: false
 ---
+
 Un controllo dello stato del dispositivo aiuta a individuare presto queste tendenze. È utile quando devi risolvere un problema specifico, preparare lo smartphone per la vendita o capire se quella sensazione di lentezza è reale oppure no.
 
 ---

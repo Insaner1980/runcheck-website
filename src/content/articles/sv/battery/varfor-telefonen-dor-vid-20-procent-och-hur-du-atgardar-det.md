@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 22
 order: 12
 subgroup: "Drain"
-tags: ["batteri","kalibrering","felsökning","android","guide"]
+tags: ["batteri", "kalibrering", "felsökning", "android", "guide"]
 locale: "sv"
 draft: false
 ---
+
 På sätt och vis gör den det. Siffran på skärmen är en uppskattning, och gamla batterier är svårare att bedöma korrekt.
 
 ## Det första du bör kontrollera

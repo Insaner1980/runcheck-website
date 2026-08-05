@@ -5,10 +5,11 @@ listSummary: "Gran parte dei consigli online per risparmiare batteria è un foss
 hub: "myths"
 sourceNumber: 145
 order: 1
-tags: ["miti","dati","android","batteria","verifica-dei-miti"]
+tags: ["miti", "dati", "android", "batteria", "verifica-dei-miti"]
 locale: "it"
 draft: false
 ---
+
 Questo non significa che prendersi cura della batteria sia inutile. Significa che i vecchi rituali sono il posto sbagliato in cui spendere energie.
 
 ## Mito: bisogna scaricare il telefono fino allo zero prima di ricaricarlo

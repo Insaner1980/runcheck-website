@@ -5,10 +5,11 @@ listSummary: "lataaminen, akku ja android"
 hub: "charging"
 sourceNumber: 46
 order: 10
-tags: ["lataaminen","akku","android","opas","laitteisto"]
+tags: ["lataaminen", "akku", "android", "opas", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 Wattimäärä on laturin tärkein luku. Voltit ja ampeerit kertovat, miten laturi pääsee siihen, mutta watit ilmaisevat käytettävissä olevan tehon.
 
 Laturi, jonka lähtö on 9 V ja 2 A, tuottaa 18 W. Kun lähtö on 20 V ja 3 A, teho on 60 W. Lasku on yksinkertainen: voltit kerrottuna ampeereilla ovat watteja.

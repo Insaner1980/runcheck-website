@@ -5,10 +5,18 @@ listSummary: "Borrar archivos en caché es útil, pero solo cuando existe un mot
 hub: "storage"
 sourceNumber: 83
 order: 5
-tags: ["rendimiento","velocidad","android","optimizacion","solucion-de-problemas"]
+tags:
+  [
+    "rendimiento",
+    "velocidad",
+    "android",
+    "optimizacion",
+    "solucion-de-problemas",
+  ]
 locale: "es"
 draft: false
 ---
+
 Eso no es basura por defecto. La mayor parte existe para que las aplicaciones respondan más rápido.
 
 El problema empieza cuando los archivos en caché crecen demasiado, se dañan o permanecen después de una actualización importante de la aplicación o de Android que cambia su funcionamiento. Android 17 no modifica la regla básica. La actualización empezó a distribuirse en los Pixel compatibles y llegará a otros móviles Android más adelante a través de sus fabricantes, pero en Android estándar la caché sigue gestionándose aplicación por aplicación.

@@ -5,10 +5,11 @@ listSummary: "Telefoner använder NAND-flashminne."
 hub: "storage"
 sourceNumber: 89
 order: 11
-tags: ["prestanda","hastighet","android","optimering","felsökning"]
+tags: ["prestanda", "hastighet", "android", "optimering", "felsökning"]
 locale: "sv"
 draft: false
 ---
+
 En telefon kan ha en snabb SoC, gott om RAM och ändå kännas trög när lagringen nästan är full. Appar dröjer innan de öppnas. Kameran behöver ett extra ögonblick för att spara ett foto. Uppdateringar tar längre tid än de borde.
 
 Det är inte alltid processorns fel. Ibland är lagringen flaskhalsen.

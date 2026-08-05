@@ -5,10 +5,11 @@ listSummary: "sammenligning, apps og android"
 hub: "device-health"
 sourceNumber: 140
 order: 9
-tags: ["sammenligning","apps","android","købsguide","anmeldelse"]
+tags: ["sammenligning", "apps", "android", "købsguide", "anmeldelse"]
 locale: "da"
 draft: false
 ---
+
 En god app til kontrol af telefonens tilstand bør fortælle, hvad telefonen rapporterer, hvor dataene er usikre, og hvad du faktisk kan gøre bagefter. En dårlig app viser en enorm "Optimer"-knap, afspiller en animation og håber, at du trykker på en reklame.
 
 Det er skillelinjen. Den er ikke svær at se, når du først ved, hvad du leder efter.

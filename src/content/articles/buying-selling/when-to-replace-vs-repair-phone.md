@@ -5,9 +5,10 @@ listSummary: "Repair cost vs replacement timing"
 hub: "buying-selling"
 sourceNumber: 4
 order: 2
-tags: ["android","updates","security","software","guide"]
+tags: ["android", "updates", "security", "software", "guide"]
 draft: false
 ---
+
 ## The repairs that almost always make sense
 
 Battery replacements are the clearest win in phone repair economics. A third-party shop often charges around $50-150 for many Android phones, with official service and sealed premium models running higher. Either way, the cost is usually a fraction of a new phone, and a fresh battery restores screen-on time while eliminating the CPU throttling that Android may apply to protect a degraded cell. A relatively small repair bill can buy two to three more years of use.
@@ -16,7 +17,6 @@ Charging port repairs are in the same category. Roughly $60-150 at many shops, o
 
 Both apply regardless of age, as long as the phone still gets security updates.
 
-
 ## Screen repairs: where the math gets tighter
 
 Screen replacement costs vary enormously. A budget phone with a flat LCD might cost $70-180 to fix at a third-party shop. A Samsung Galaxy S series with a curved OLED display can run $180-400. Foldable phones are in another league, with inner screen repairs often exceeding $400.
@@ -24,7 +24,6 @@ Screen replacement costs vary enormously. A budget phone with a flat LCD might c
 The question: what's the phone worth after the repair? A $200 screen fix on a phone currently worth $350 with three years of updates left makes sense. The same repair on a phone worth $180 with one year of updates doesn't. That money is better put toward a newer used or refurbished phone.
 
 Something people overlook: a phone with a cracked screen that still functions loses resale value faster than one with a worn battery. Selling a cracked phone as-is and putting the money toward a replacement sometimes works out better than paying for the repair.
-
 
 ## When replacement wins
 
@@ -38,32 +37,29 @@ Some situations make repair a poor bet even when the cost seems reasonable.
 
 **RAM ceiling.** A phone with 4 GB of RAM can still work for light use, but it feels tight for modern Android, current apps, and heavy multitasking. Constant app reloading, stuttering multitasking, apps dying randomly in the background. No repair or factory reset raises that ceiling.
 
-
 ## The cost comparison in practice
 
 Typical 2026 repair costs for Android phones at third-party shops:
 
-| Repair | Cost range | Time |
-|--------|-----------|------|
-| Battery replacement | $50-150 | 1-2 hours |
-| Charging port | $60-150 | 1-2 hours |
-| Screen (flat LCD) | $70-180 | 1-2 hours |
-| Screen (curved OLED, flagship) | $180-400 | 2-4 hours |
-| Screen (foldable, inner) | $400-700+ | varies |
-| Water damage (minor) | $100-250 | 1-3 days |
-| Water damage (severe) | $300-600+ | varies |
+| Repair                         | Cost range | Time      |
+| ------------------------------ | ---------- | --------- |
+| Battery replacement            | $50-150    | 1-2 hours |
+| Charging port                  | $60-150    | 1-2 hours |
+| Screen (flat LCD)              | $70-180    | 1-2 hours |
+| Screen (curved OLED, flagship) | $180-400   | 2-4 hours |
+| Screen (foldable, inner)       | $400-700+  | varies    |
+| Water damage (minor)           | $100-250   | 1-3 days  |
+| Water damage (severe)          | $300-600+  | varies    |
 
 Manufacturer-authorized repair costs 20-50% more but uses genuine parts and usually includes a warranty on the work. Third-party shops are cheaper and faster, though parts quality varies.
 
 A useful benchmark: if total repair cost stays below 30% of what a comparable replacement costs (new or refurbished), repair is almost always the right call. Treat it as a rule of thumb, not a law.
-
 
 ## The environmental angle
 
 Manufacturing a new smartphone often produces roughly 50-80 kg CO2e, depending on model and study assumptions, and requires mining materials such as cobalt, lithium, copper, gold, and rare earth elements. Repairing an existing phone has a fraction of that footprint. In the EU, smartphone-specific ecodesign and energy labelling rules apply to phones placed on the market from 20 June 2025. They require, among other things, batteries rated for at least 800 cycles to 80% capacity, critical spare parts for seven years after the model leaves the market, repairability information on the energy label, and access for professional repairers to software or firmware needed for replacement. The separate Right to Repair Directive must be applied by member states from 31 July 2026 and strengthens repair rights for covered product categories.
 
 For anyone who factors environmental impact into purchasing decisions, repair should be the default unless the financial math clearly favors replacement.
-
 
 ## Frequently asked questions
 

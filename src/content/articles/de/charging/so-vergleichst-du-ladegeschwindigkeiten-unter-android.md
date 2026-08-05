@@ -5,10 +5,11 @@ listSummary: "laden, akku und android"
 hub: "charging"
 sourceNumber: 45
 order: 9
-tags: ["laden","akku","android","ratgeber","hardware"]
+tags: ["laden", "akku", "android", "ratgeber", "hardware"]
 locale: "de"
 draft: false
 ---
+
 Du schließt das Ladegerät am Bett an, und das Smartphone meldet Schnellladen. Beim Ladegerät auf dem Schreibtisch erscheint dieselbe Meldung. Mit dem einen erreichst du 80 %, bevor der Kaffee fertig ist, mit dem anderen nicht.
 
 Die Anzeige reicht nicht. Du musst vergleichen, welche Leistung das Smartphone tatsächlich annimmt.

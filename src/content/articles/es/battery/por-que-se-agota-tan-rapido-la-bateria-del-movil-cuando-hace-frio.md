@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 31
 order: 21
 subgroup: "Drain"
-tags: ["bateria","estado","diagnostico","android","guia"]
+tags: ["bateria", "estado", "diagnostico", "android", "guia"]
 locale: "es"
 draft: false
 ---
+
 Estás fuera, hace un frío helador, el móvil marca un 38 % y de repente se apaga como si la batería hubiera llegado a cero. Unos minutos después, ya en un lugar cálido, vuelve a encenderse y muestra que aún le queda carga.
 
 ¿Molesto? Sí. ¿Misterioso? En realidad, no.

@@ -5,10 +5,11 @@ listSummary: "hardware, pruebas y diagnostico"
 hub: "hardware"
 sourceNumber: 107
 order: 4
-tags: ["hardware","pruebas","diagnostico","android","guia"]
+tags: ["hardware", "pruebas", "diagnostico", "android", "guia"]
 locale: "es"
 draft: false
 ---
+
 Eso no hace que el problema sea menos molesto. Si nadie te oye durante una llamada o el altavoz crepita a medio volumen, necesitas saber qué pieza está fallando.
 
 ## Identifica qué componente de audio estás probando

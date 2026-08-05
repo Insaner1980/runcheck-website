@@ -5,10 +5,12 @@ listSummary: "Dein Android-Smartphone friert ein oder reagiert nicht mehr?"
 hub: "performance"
 sourceNumber: 73
 order: 10
-tags: ["leistung","geschwindigkeit","android","optimierung","fehlerbehebung"]
+tags:
+  ["leistung", "geschwindigkeit", "android", "optimierung", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+
 ---
 
 Du tippst auf den Bildschirm und nichts bewegt sich. Die App bleibt sichtbar, die Uhrzeit steht vielleicht still und selbst die Zurück-Geste funktioniert nicht. Das Smartphone ist eingefroren.

@@ -5,10 +5,11 @@ listSummary: "temperatur, warme und android"
 hub: "thermal"
 sourceNumber: 56
 order: 4
-tags: ["temperatur","warme","android","fehlerbehebung","hardware"]
+tags: ["temperatur", "warme", "android", "fehlerbehebung", "hardware"]
 locale: "de"
 draft: false
 ---
+
 ## Was thermische Drosselung bedeutet
 
 Es handelt sich um eine kontrollierte Verlangsamung. Das Smartphone senkt die Geschwindigkeit von CPU oder GPU, dimmt das Display, reduziert die Ladeleistung, begrenzt die Funkaktivität oder drosselt andere stromintensive Vorgänge, damit die Temperatur wieder sinkt.
@@ -103,4 +104,4 @@ Ein Akkuzustand unter 80 % ist bei Smartphones, die diesen Wert anzeigen, eine v
 
 Das thermische Schutzsystem deines Smartphones ist nicht der Feind. Du kannst die Drosselung verringern, indem du die Belastung senkst, die Kühlung verbesserst, heiße Umgebungen meidest und Schnellladen nicht mit intensiver Nutzung kombinierst. Tritt sie schon bei leichter Nutzung auf, solltest du sie aber nicht ignorieren. Dann kann eine App, schwacher Empfang, ein Ladegerät oder ein verschlissener Akku dahinterstecken.
 
-*Meta-Beschreibung: Die integrierte thermische Drosselung von Android schützt dein Smartphone vor Hitze. Erfahre mehr über die thermischen Android-Stufen, Thermal Headroom, häufige Auslöser und sichere Gegenmaßnahmen.*
+_Meta-Beschreibung: Die integrierte thermische Drosselung von Android schützt dein Smartphone vor Hitze. Erfahre mehr über die thermischen Android-Stufen, Thermal Headroom, häufige Auslöser und sichere Gegenmaßnahmen._

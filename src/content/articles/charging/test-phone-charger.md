@@ -5,9 +5,10 @@ listSummary: "Charger health testing"
 hub: "charging"
 sourceNumber: 44
 order: 8
-tags: ["charging","battery","android","guide","hardware"]
+tags: ["charging", "battery", "android", "guide", "hardware"]
 draft: false
 ---
+
 A charger can pass the fit test and still fail the charging test. USB-C only tells you the plug fits. It doesn't tell you whether the adapter, cable, and phone agreed on fast charging.
 
 Android 17 doesn't change that basic problem. There still isn't one universal Android screen that says, "this charger is delivering 23.4W right now." You have to infer it, or measure it properly.

@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 19
 order: 9
 subgroup: "Stato della batteria"
-tags: ["tecnologia-delle-batterie","scienza","guida","hardware"]
+tags: ["tecnologia-delle-batterie", "scienza", "guida", "hardware"]
 locale: "it"
 draft: false
 ---
+
 Capire le basi rende meno misteriosi i consigli più comuni. La regola del 20-80 %, gli avvertimenti sul calore e il motivo per cui i telefoni vecchi si spengono prima del previsto dipendono tutti dalla stessa cosa: gli ioni di litio si muovono in una cella che cambia lentamente ogni volta che la usi.
 
 ## La struttura di base della cella

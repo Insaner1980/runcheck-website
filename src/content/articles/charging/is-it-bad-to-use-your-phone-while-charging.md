@@ -5,9 +5,10 @@ listSummary: "Using phone while charging"
 hub: "charging"
 sourceNumber: 41
 order: 5
-tags: ["charging","battery","android","guide","hardware"]
+tags: ["charging", "battery", "android", "guide", "hardware"]
 draft: false
 ---
+
 You're playing a game, the battery is at 12%, and the charger is right there. So you plug in and keep going. The phone gets warm, the frame rate dips, and now you're wondering whether you've just done something terrible to the battery.
 
 You probably haven't. But you did create the exact heat stack that batteries dislike.

@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 23
 order: 13
 subgroup: "Drain"
-tags: ["bateria","consumo","solucion-de-problemas","android","rendimiento"]
+tags: ["bateria", "consumo", "solucion-de-problemas", "android", "rendimiento"]
 locale: "es"
 draft: false
 ---
+
 En un móvil Android en buen estado, perder entre un 2 % y un 5 % durante la noche es un resultado aburrido. El dispositivo sigue manteniendo la conexión móvil, esperando notificaciones, sincronizando algunos datos de cuentas y ejecutando pequeñas tareas de mantenimiento. Cuando la pérdida supera el 10 % noche tras noche, deja de tratarla como un consumo normal en segundo plano.
 
 ## Comprueba primero la pantalla de batería

@@ -5,10 +5,11 @@ listSummary: "bateria, estado y diagnostico"
 hub: "myths"
 sourceNumber: 152
 order: 8
-tags: ["bateria","estado","diagnostico","android","guia"]
+tags: ["bateria", "estado", "diagnostico", "android", "guia"]
 locale: "es"
 draft: false
 ---
+
 Cuando un móvil de tres años no llega vivo a la cena, el botón de restablecimiento de fábrica empieza a resultar tentador. Parece una forma de comenzar de cero y, a veces, lo es. Pero no para la batería en sí.
 
 Un restablecimiento de fábrica puede mejorar la autonomía. No puede mejorar el estado de la batería.

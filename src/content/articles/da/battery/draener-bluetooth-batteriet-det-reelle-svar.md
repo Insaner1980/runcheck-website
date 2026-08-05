@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 32
 order: 22
 subgroup: "Drain"
-tags: ["batteri","myter","android","test","fakta"]
+tags: ["batteri", "myter", "android", "test", "fakta"]
 locale: "da"
 draft: false
 ---
+
 Nogle slår Bluetooth fra, hver gang de er færdige med at bruge deres høretelefoner, fordi de tror, at det sparer en halv dags batteri. Jeg forstår godt tanken. For mange år siden var det et rimeligt råd.
 
 På en moderne Android-telefon er det som regel ikke besværet værd.

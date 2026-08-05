@@ -5,10 +5,11 @@ listSummary: "Snabbladdning kan öka slitaget på batteriet, men wattalet är in
 hub: "charging"
 sourceNumber: 39
 order: 3
-tags: ["laddning","batteri","android","guide","hårdvara"]
+tags: ["laddning", "batteri", "android", "guide", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 De flesta råd om snabbladdning är för dramatiska. Snabbladdning är ingen dödsdom för batteriet, och långsam laddning är inte magisk. Den verkliga frågan är om telefonen håller sig sval medan den laddas.
 
 Där blir svaret mindre prydligt. En laddare på 65 W på ett svalt skrivbord kan vara skonsammare mot batteriet än en laddare på 15 W under en kudde. Wattalet spelar roll, men temperaturen spelar större roll.

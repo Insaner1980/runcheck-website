@@ -5,10 +5,11 @@ listSummary: "diagnostic, capteurs et android"
 hub: "hardware"
 sourceNumber: 114
 order: 11
-tags: ["diagnostic","capteurs","android","materiel","guide"]
+tags: ["diagnostic", "capteurs", "android", "materiel", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Le lecteur d'empreintes est-il cassé, ou votre protection d'écran lui complique-t-elle simplement la tâche ? La question paraît légère, mais c'est la première à se poser.
 
 Les causes d'échec sont souvent banales. Une peau sèche, de l'humidité, un verre trempé bas de gamme, un mauvais enregistrement ou une mise à jour logicielle inachevée peuvent donner l'impression qu'un lecteur en bon état est hors service. Une panne matérielle reste possible, surtout après une chute ou un remplacement d'écran, mais ne commencez pas par cette hypothèse.

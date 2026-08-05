@@ -5,10 +5,11 @@ listSummary: "ydeevne, hastighed og android"
 hub: "storage"
 sourceNumber: 81
 order: 3
-tags: ["ydeevne","hastighed","android","optimering","fejlfinding"]
+tags: ["ydeevne", "hastighed", "android", "optimering", "fejlfinding"]
 locale: "da"
 draft: false
 ---
+
 ---
 
 Når Android-lagerpladsen er fuld, svigter telefonen ikke på en pæn og tydelig måde. Først begynder den bare at opføre sig mærkeligt.

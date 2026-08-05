@@ -5,9 +5,10 @@ listSummary: "RAM needs explained"
 hub: "performance"
 sourceNumber: 66
 order: 3
-tags: ["performance","speed","android","optimization","troubleshooting"]
+tags: ["performance", "speed", "android", "optimization", "troubleshooting"]
 draft: false
 ---
+
 That doesn't mean every 6 GB phone is trash or every 16 GB phone is worth the money. RAM advice gets messy because Android version, manufacturer skin, app habits, storage speed, battery condition, and background restrictions all matter.
 
 Still, there is a practical buying answer: 8 GB for normal users, 12 GB for people who expect the phone to stay comfortable longer.

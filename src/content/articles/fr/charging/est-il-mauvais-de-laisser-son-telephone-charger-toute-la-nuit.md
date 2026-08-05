@@ -5,10 +5,11 @@ listSummary: "recharge, batterie et android"
 hub: "charging"
 sourceNumber: 42
 order: 6
-tags: ["recharge","batterie","android","guide","materiel"]
+tags: ["recharge", "batterie", "android", "guide", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 Vous branchez le téléphone à 23 h, vous vous réveillez à 7 h et la batterie est restée à 100 % pendant des heures. Cela paraît mauvais, surtout parce que les vieux conseils sur les batteries n'ont jamais vraiment disparu.
 
 Autrefois, la crainte portait sur la surcharge. Ce n'est plus le vrai problème. Aujourd'hui, la question est plutôt le temps passé à pleine charge.

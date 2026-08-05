@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 32
 order: 22
 subgroup: "Consumo della batteria"
-tags: ["batteria","miti","android","test","dati"]
+tags: ["batteria", "miti", "android", "test", "dati"]
 locale: "it"
 draft: false
 ---
+
 C'è chi disattiva il Bluetooth ogni volta che smette di usare gli auricolari, convinto di risparmiare mezza giornata di autonomia. Capisco il ragionamento. Anni fa era un consiglio sensato.
 
 Su un moderno telefono Android, di solito non vale la fatica.

@@ -5,10 +5,11 @@ listSummary: "hardware, pruebas y diagnostico"
 hub: "hardware"
 sourceNumber: 109
 order: 6
-tags: ["hardware","pruebas","diagnostico","android","guia"]
+tags: ["hardware", "pruebas", "diagnostico", "android", "guia"]
 locale: "es"
 draft: false
 ---
+
 ---
 
 Que un móvil no vibre no significa automáticamente que el motor esté averiado. La mayoría de los problemas de vibración empiezan en los ajustes, después viene el software y solo al final el hardware.

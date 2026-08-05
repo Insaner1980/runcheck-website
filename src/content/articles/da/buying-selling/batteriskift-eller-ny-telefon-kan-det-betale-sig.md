@@ -5,10 +5,11 @@ listSummary: "købsguide, android og sammenligning"
 hub: "buying-selling"
 sourceNumber: 142
 order: 6
-tags: ["købsguide","android","sammenligning","værdi","guide"]
+tags: ["købsguide", "android", "sammenligning", "værdi", "guide"]
 locale: "da"
 draft: false
 ---
+
 For en måned siden holdt telefonen til sengetid. Nu skal den i opladeren før aftensmaden. Alt andet virker stadig: kamera, skærm, apps, lagerplads og beskeder. Telefonen er ikke gået i stykker. Batteriet er slidt.
 
 Den forskel kan spare dig penge.

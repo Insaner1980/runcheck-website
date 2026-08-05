@@ -5,10 +5,11 @@ listSummary: "Les applications Android plantent pour des raisons précises."
 hub: "performance"
 sourceNumber: 77
 order: 14
-tags: ["performances","vitesse","android","optimisation","depannage"]
+tags: ["performances", "vitesse", "android", "optimisation", "depannage"]
 locale: "fr"
 draft: false
 ---
+
 ---
 
 La plupart des plantages d'applications ne sont pas aléatoires. Ils en donnent l'impression parce que vous ne voyez pas l'erreur qui les a déclenchés.

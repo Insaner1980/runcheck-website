@@ -5,10 +5,11 @@ listSummary: "opladning, batteri og android"
 hub: "charging"
 sourceNumber: 37
 order: 1
-tags: ["opladning","batteri","android","guide","hardware"]
+tags: ["opladning", "batteri", "android", "guide", "hardware"]
 locale: "da"
 draft: false
 ---
+
 De fleste råd om Android-batterier er enten alt for indlysende eller alt for ekstreme. Ja, lavere skærmlysstyrke hjælper. Nej, du behøver ikke forvandle telefonen til en lydløs mursten for at komme igennem dagen.
 
 Den nyttige tilgang er at tage de store strømslugere først: skærmen, mobilsignalet, baggrundsapps, placering og opladningsvaner. Android 17 er nu tilgængelig på de fleste understøttede Pixel-telefoner, mens andre Android-producenter senere kommer med deres egne versioner. Menunavnene varierer derfor, men de grundlæggende batteriforhold er de samme.

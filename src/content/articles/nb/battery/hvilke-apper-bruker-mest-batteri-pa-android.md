@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 24
 order: 14
 subgroup: "Drain"
-tags: ["batteri","strømforbruk","feilsøking","android","ytelse"]
+tags: ["batteri", "strømforbruk", "feilsøking", "android", "ytelse"]
 locale: "nb"
 draft: false
 ---
+
 Når det er sagt, er det de samme kategoriene som stadig skaper problemer.
 
 ## Apptypene som vanligvis ligger nær toppen

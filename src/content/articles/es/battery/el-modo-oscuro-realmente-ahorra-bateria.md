@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 29
 order: 19
 subgroup: "Drain"
-tags: ["bateria","mitos","android","pruebas","datos"]
+tags: ["bateria", "mitos", "android", "pruebas", "datos"]
 locale: "es"
 draft: false
 ---
+
 ¿El modo oscuro ahorra batería o es uno de esos consejos sobre Android que se repiten eternamente? La respuesta real es que depende de la pantalla.
 
 En los móviles OLED, incluidos los que utilizan AMOLED, el modo oscuro puede ahorrar batería. En los móviles LCD apenas influye. Esa es la diferencia fundamental. Android 17, One UI, Pixel UI, ColorOS, HyperOS y otras capas de Android pueden cambiar el lugar donde aparece el ajuste, pero no modifican el funcionamiento del hardware de la pantalla.

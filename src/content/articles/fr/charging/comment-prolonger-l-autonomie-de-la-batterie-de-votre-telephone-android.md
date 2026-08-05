@@ -5,10 +5,11 @@ listSummary: "recharge, batterie et android"
 hub: "charging"
 sourceNumber: 37
 order: 1
-tags: ["recharge","batterie","android","guide","materiel"]
+tags: ["recharge", "batterie", "android", "guide", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 La plupart des conseils sur l'autonomie d'Android sont soit trop évidents, soit trop extrêmes. Oui, réduire la luminosité aide. Non, vous n'avez pas besoin de transformer votre téléphone en brique silencieuse pour tenir toute la journée.
 
 La méthode utile consiste à commencer par les postes qui consomment le plus : l'écran, le signal mobile, les applications en arrière-plan, la localisation et les habitudes de recharge. Android 17 est disponible depuis le 16 juin 2026 sur la plupart des Pixel compatibles, tandis que les autres fabricants l'adaptent ensuite à leurs propres appareils éligibles. Les noms des menus varient donc, mais les principes de base de l'autonomie n'ont pas changé.

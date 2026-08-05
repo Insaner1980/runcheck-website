@@ -5,10 +5,12 @@ listSummary: "Le custodie non creano calore, ma i modelli spessi in TPU."
 hub: "thermal"
 sourceNumber: 60
 order: 8
-tags: ["temperatura","termico","android","risoluzione-dei-problemi","hardware"]
+tags:
+  ["temperatura", "termico", "android", "risoluzione-dei-problemi", "hardware"]
 locale: "it"
 draft: false
 ---
+
 Probabilmente la custodia non è il motivo per cui il telefono si scalda. Può comunque peggiorare il problema.
 
 Il calore nasce all'interno del telefono: SoC, GPU, modem, schermo, batteria e circuito di ricarica. Una custodia non crea quel calore. Rallenta però la capacità del telefono di disperderlo. Nella maggior parte delle giornate cambia poco. Nel momento sbagliato, con ricarica rapida, GPS, sole diretto e una custodia spessa, cambia parecchio.

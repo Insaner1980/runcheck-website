@@ -5,10 +5,11 @@ listSummary: "laitteisto, testaus ja diagnostiikka"
 hub: "physical-damage"
 sourceNumber: 137
 order: 7
-tags: ["laitteisto","testaus","diagnostiikka","android","opas"]
+tags: ["laitteisto", "testaus", "diagnostiikka", "android", "opas"]
 locale: "fi"
 draft: false
 ---
+
 ---
 
 Mitä puhelimen puhdistamiseen oikeastaan pitäisi käyttää: vettä, alkoholipyyhkeitä, näyttösuihketta vai jotakin keittiön kaapista löytyvää?

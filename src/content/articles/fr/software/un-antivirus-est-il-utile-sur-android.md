@@ -5,10 +5,12 @@ listSummary: "La plupart des utilisateurs d'Android n'ont pas besoin d'installer
 hub: "software"
 sourceNumber: 126
 order: 8
-tags: ["securite","logiciels-malveillants","android","confidentialite","guide"]
+tags:
+  ["securite", "logiciels-malveillants", "android", "confidentialite", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Si vous installez vos applications uniquement depuis Google Play, gardez Android à jour et évitez les liens menant à des APK inconnus, les protections intégrées à Android suffisent généralement. En revanche, si vous installez souvent des applications en dehors du Play Store, utilisez un téléphone qui ne reçoit plus de mises à jour ou manipulez des données sensibles, une application de sécurité supplémentaire peut se justifier.
 
 La différence tient à vos habitudes, pas à une impression de sécurité.

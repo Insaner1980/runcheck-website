@@ -5,10 +5,11 @@ listSummary: "laden, akku und android"
 hub: "thermal"
 sourceNumber: 58
 order: 6
-tags: ["laden","akku","android","ratgeber","hardware"]
+tags: ["laden", "akku", "android", "ratgeber", "hardware"]
 locale: "de"
 draft: false
 ---
+
 Dass ein Smartphone beim Laden leicht warm wird, ist normal. Wenn es unangenehm heiß in der Hand liegt, ist es das nicht.
 
 Beim Laden fließt Energie in einen Lithium-Ionen-Akku, und ein Teil davon wird zu Wärme. Mit einem Ladegerät mit 25 W, 45 W oder 65 W bemerkst du das stärker als mit einem alten 5-W-Netzteil. Das allein bedeutet noch keinen Defekt. Entscheidend ist, ob das Smartphone nach der leistungsintensiven Ladephase wieder abkühlt oder bei jedem Anschließen weiter aufheizt.

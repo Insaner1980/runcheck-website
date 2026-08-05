@@ -5,11 +5,11 @@ listSummary: "Lifespan maintenance and replacement timing"
 hub: "device-health"
 sourceNumber: 3
 order: 2
-tags: ["storage","android","cleanup","optimization","guide"]
+tags: ["storage", "android", "cleanup", "optimization", "guide"]
 draft: false
 ---
-Almost all of that is preventable, or at least delayable.
 
+Almost all of that is preventable, or at least delayable.
 
 ## The first week: settings that pay off for years
 
@@ -21,7 +21,6 @@ Set up automatic photo backup to Google Photos, OneDrive, or whatever cloud serv
 
 Put a case and screen protector on. Obvious, but it's here because a single drop without protection can cost $100-300 in screen repair. A decent case and tempered glass protector costs under $30 for most phones.
 
-
 ## Daily habits that matter
 
 The single most damaging daily habit is charging in hot conditions. Using the phone heavily while it's plugged in, especially with fast charging, pushes battery temperatures above 35°C where degradation accelerates. Charging overnight on a bedside table at standard speed is gentler than a quick top-up while gaming in direct sunlight. Any single session barely matters, but lithium-ion chemistry is cumulative: three hundred mildly hot charges over two years add up to measurably worse battery health.
@@ -29,7 +28,6 @@ The single most damaging daily habit is charging in hot conditions. Using the ph
 Wireless charging contributes to the heat problem because it is usually less efficient than a cable, and the extra loss turns into heat in the phone, pad, or case. At higher wireless wattages, warm backs and slower charging are normal. Removing a thick case during wireless charging and using a lower-wattage pad helps. Using a cable for regular overnight charging and saving wireless for convenience moments is a reasonable compromise.
 
 For storage, the relevant habit is periodic cleanup. Every few months, open Settings > Storage > Apps and sort by size. Social media apps, browsers, and video streaming apps cache aggressively, sometimes holding multiple gigabytes of temporary data. Clearing an app's cache doesn't delete personal data or settings; it removes files the app will regenerate when needed. Keep total storage usage below 80-85% to avoid the performance penalty that hits when NAND flash runs out of clean blocks for writes.
-
 
 ## Monthly and seasonal maintenance
 
@@ -41,7 +39,6 @@ Clean the charging port. Pocket lint compresses into the port over months and ev
 
 Check battery health a few times a year through the manufacturer tools (Samsung Members, Pixel Battery settings, Xiaomi Battery Protection) or a diagnostic app. The trend matters more than any single reading. A battery dropping from 95% to 88% in six months is degrading faster than expected, and adjusting charging habits at that point can slow the decline before it becomes a real problem.
 
-
 ## Software support and the timeline
 
 The update picture for Android has improved a lot. The Google Pixel 8 family and newer and the Samsung Galaxy S24 family and newer both promise seven years of OS and security updates. Samsung extended this to its mid-range line: the Galaxy A56, A36, and A26 get six years. OnePlus promises four OS upgrades and six years of security patches on the OnePlus 13.
@@ -50,7 +47,6 @@ Budget phones and older flagships still land at two to three years from most man
 
 EU ecodesign and energy labelling rules now set a stronger floor for phones placed on the EU market from 20 June 2025. They require, among other things, batteries that withstand at least 800 charge and discharge cycles while retaining at least 80% capacity, critical spare parts available for seven years after the end of sales of the model, and operating system upgrades for at least five years from the date the last unit of that model is placed on the market. This mainly helps EU buyers, but long support windows often influence global product planning too.
 
-
 ## When repair is the right call
 
 A phone doesn't have to be perfect to keep using. A battery replacement, often around $50-150 or local equivalent at a third-party shop and sometimes more through official service, can add two to three years of life to a phone that's fine in every other way. A screen repair can also make sense when the phone still has years of software support ahead, though the price varies wildly by display type and model.
@@ -58,7 +54,6 @@ A phone doesn't have to be perfect to keep using. A battery replacement, often a
 EU repair rules are split across two tracks. The smartphone-specific ecodesign rules already apply to devices placed on the EU market from 20 June 2025 and cover battery durability, spare-parts availability, repair information, and access to software or firmware needed for replacement. The Right to Repair Directive entered into force in 2024 and must be applied by member states from 31 July 2026. It strengthens repair rights for product categories covered by EU reparability rules, but it is not the source of every smartphone-specific spare-part or energy-label requirement.
 
 Repair stops making sense roughly when the cost exceeds 30-40% of what a comparable replacement phone would cost, or when multiple components need work at the same time.
-
 
 ## Frequently asked questions
 

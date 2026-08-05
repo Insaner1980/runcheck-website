@@ -5,10 +5,11 @@ listSummary: "Din Android-telefon kan se helt normal ud, selv om én del er ved 
 hub: "hardware"
 sourceNumber: 104
 order: 1
-tags: ["batteri","strømforbrug","fejlfinding","android","ydeevne"]
+tags: ["batteri", "strømforbrug", "fejlfinding", "android", "ydeevne"]
 locale: "da"
 draft: false
 ---
+
 Den gode nyhed er, at du kan teste det meste, før du betaler for en reparation. Android har indstillingssider, producenternes egne diagnoseværktøjer, opkaldskoder og manuelle kontroller, som dækker de vigtigste hardwaredele. Det besværlige er, at intet af det er helt universelt.
 
 Android 17 blev udgivet den 16. juni 2026 og blev først gjort tilgængelig på de fleste understøttede Pixel-enheder, mens andre mærker følger deres egne tidsplaner. Det betyder noget, fordi diagnosemenuer, visning af batteritilstand og stier i Indstillinger kan variere efter Android-version, producentens brugerflade, operatørsoftware og region. Betragt hver kode i denne guide som en genvej, ikke et løfte.

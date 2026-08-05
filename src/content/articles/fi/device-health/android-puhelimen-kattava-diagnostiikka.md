@@ -1,14 +1,15 @@
 ---
 title: "Android-puhelimen kattava diagnostiikka"
-description: "Androidissa ei ole yhtä \"suorita diagnostiikka\" -painiketta, joka tarkistaisi kaiken kerralla. Työkalut ovat olemassa, mutta ne ovat hajallaan Asetuksissa, piilotetuissa valintakoodeissa, valmistajien sovelluksissa ja järjestelmäkomennoissa, joita useimmat eivät koskaan näe. Tämä opas kokoaa ne yhdeksi tarkistuskierrokseksi ja kertoo samalla, missä valmistaja-, operaattori- ja Android-versiokohtaiset erot tulevat vastaan."
-listSummary: "Androidissa ei ole yhtä \"suorita diagnostiikka\" -painiketta, joka tarkistaisi kaiken kerralla."
+description: 'Androidissa ei ole yhtä "suorita diagnostiikka" -painiketta, joka tarkistaisi kaiken kerralla. Työkalut ovat olemassa, mutta ne ovat hajallaan Asetuksissa, piilotetuissa valintakoodeissa, valmistajien sovelluksissa ja järjestelmäkomennoissa, joita useimmat eivät koskaan näe. Tämä opas kokoaa ne yhdeksi tarkistuskierrokseksi ja kertoo samalla, missä valmistaja-, operaattori- ja Android-versiokohtaiset erot tulevat vastaan.'
+listSummary: 'Androidissa ei ole yhtä "suorita diagnostiikka" -painiketta, joka tarkistaisi kaiken kerralla.'
 hub: "device-health"
 sourceNumber: 7
 order: 3
-tags: ["android","päivitykset","tietoturva","ohjelmisto","opas"]
+tags: ["android", "päivitykset", "tietoturva", "ohjelmisto", "opas"]
 locale: "fi"
 draft: false
 ---
+
 ## Nopein tapa: valmistajan omat diagnostiikkatyökalut
 
 Monet suuret Android-valmistajat toimittavat oman diagnostiikkatyökalun joko valmiiksi asennettuna tai valintakoodin takana. Aloita siitä ennen muiden sovellusten asentamista.

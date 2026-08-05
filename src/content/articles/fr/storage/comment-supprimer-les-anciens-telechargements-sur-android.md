@@ -5,10 +5,11 @@ listSummary: "Les anciens téléchargements occupent discrètement de l'espace s
 hub: "storage"
 sourceNumber: 88
 order: 10
-tags: ["stockage","android","nettoyage","optimisation","guide"]
+tags: ["stockage", "android", "nettoyage", "optimisation", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Vous ouvrez un PDF une fois, téléchargez un APK pour faire un essai, enregistrez un fichier ZIP depuis un navigateur, puis oubliez tout cela. Six mois plus tard, le dossier Téléchargements est rempli de fichiers que vous ne reconnaissez plus.
 
 C'est normal. Android y place beaucoup de fichiers à usage unique et la plupart des gens ne considèrent pas ce dossier comme un espace à entretenir. Pourtant, il en a besoin.

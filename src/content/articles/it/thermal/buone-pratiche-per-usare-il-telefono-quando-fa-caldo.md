@@ -5,10 +5,12 @@ listSummary: "Il caldo mette sotto stress la batteria e il processore del telefo
 hub: "thermal"
 sourceNumber: 63
 order: 11
-tags: ["temperatura","termico","android","risoluzione-dei-problemi","hardware"]
+tags:
+  ["temperatura", "termico", "android", "risoluzione-dei-problemi", "hardware"]
 locale: "it"
 draft: false
 ---
+
 Sei in spiaggia, a un festival o durante una lunga passeggiata e il telefono diventa improvvisamente troppo caldo da tenere in mano. Poi lo schermo si oscura. Qualche minuto dopo, la ricarica rallenta o la fotocamera si rifiuta di registrare. Non succede per caso. Il telefono sta proteggendo i suoi componenti.
 
 Molti telefoni sono progettati per un normale utilizzo a temperature ambiente di 0 °C-35 °C (32 °F-95 °F). Non significa che smettano di funzionare appena l'aria raggiunge 36 °C, ma a quel punto il margine è quasi esaurito. Aggiungi sole diretto, navigazione, dati mobili, registrazione video o ricarica e la temperatura della batteria può salire rapidamente.

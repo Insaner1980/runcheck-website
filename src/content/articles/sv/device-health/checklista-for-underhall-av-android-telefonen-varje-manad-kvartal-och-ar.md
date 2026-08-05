@@ -5,10 +5,11 @@ listSummary: "De flesta Android-telefoner behöver inte ständig omvårdnad."
 hub: "device-health"
 sourceNumber: 8
 order: 4
-tags: ["lagring","android","rensning","optimering","guide"]
+tags: ["lagring", "android", "rensning", "optimering", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Checklistan kan anpassas efter hur telefonen faktiskt används. Allt behöver inte göras varje månad, och vissa uppgifter är bara relevanta en eller två gånger om året.
 
 ## Varje månad

@@ -5,10 +5,11 @@ listSummary: "La plupart des conseils sur les mises à jour sont trop catégoriq
 hub: "software"
 sourceNumber: 120
 order: 2
-tags: ["android","mises-a-jour","securite","logiciel","guide"]
+tags: ["android", "mises-a-jour", "securite", "logiciel", "guide"]
 locale: "fr"
 draft: false
 ---
+
 La réponse pratique est simple : installez rapidement les correctifs de sécurité. Pour une nouvelle version majeure d’Android, faites d’abord quelques vérifications, surtout juste après sa sortie.
 
 Android 17 a commencé à être déployé en juin 2026 sur les Pixel compatibles. Les versions de Samsung, Xiaomi, OnePlus, OPPO, Motorola et d’autres fabricants suivent ensuite leur propre calendrier. Lorsque Android 17 apparaît aujourd’hui sur votre appareil, la décision est donc un peu différente de celle qui concerne un correctif mensuel ordinaire.

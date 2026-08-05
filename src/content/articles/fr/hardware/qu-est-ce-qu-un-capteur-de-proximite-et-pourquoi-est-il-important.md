@@ -5,10 +5,11 @@ listSummary: "diagnostic, capteurs et android"
 hub: "hardware"
 sourceNumber: 117
 order: 14
-tags: ["diagnostic","capteurs","android","materiel","guide"]
+tags: ["diagnostic", "capteurs", "android", "materiel", "guide"]
 locale: "fr"
 draft: false
 ---
+
 En plein appel, l’écran se rallume contre votre visage et votre joue ouvre le clavier. Le plus souvent, ce minuscule capteur ne remplit plus la seule tâche que personne ne remarque tant qu’elle fonctionne.
 
 Le capteur indique au téléphone qu’un objet se trouve près de la vitre avant. Pendant un appel, cet « objet » est généralement votre visage. Android éteint alors l’écran et ignore les commandes tactiles, pour éviter que votre oreille ne devienne un accessoire pour écran tactile.

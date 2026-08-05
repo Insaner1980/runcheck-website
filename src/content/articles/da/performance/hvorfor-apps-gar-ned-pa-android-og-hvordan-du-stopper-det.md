@@ -5,10 +5,11 @@ listSummary: "Android-apps går ned af konkrete årsager."
 hub: "performance"
 sourceNumber: 77
 order: 14
-tags: ["ydeevne","hastighed","android","optimering","fejlfinding"]
+tags: ["ydeevne", "hastighed", "android", "optimering", "fejlfinding"]
 locale: "da"
 draft: false
 ---
+
 ---
 
 De fleste appnedbrud er ikke tilfældige. De føles tilfældige, fordi du ikke kan se den fejl, der udløste dem.

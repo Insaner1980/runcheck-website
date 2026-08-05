@@ -5,10 +5,11 @@ listSummary: "Kuinka kuuma on liian kuuma?"
 hub: "thermal"
 sourceNumber: 59
 order: 7
-tags: ["lämpötila","kuumeneminen","android","vianetsintä","laitteisto"]
+tags: ["lämpötila", "kuumeneminen", "android", "vianetsintä", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 Puhelinta ympäröivän ilman lämpötila on yksi luku. Puhelimen ulkopinnan lämpötila on toinen. Akun anturi näyttää kolmannen lukeman, ja akun vanhenemisen kannalta se on tärkein. Puhelin voi tuntua kädessä vain hieman lämpimältä, vaikka akku tai SoC olisi jo niin kuuma, että Android alkaa hidastaa toimintaa.
 
 Monet älypuhelimet, myös Google Pixel -laitteet, on suunniteltu toimimaan parhaiten ympäristön lämpötilassa 0-35 °C. Kyse on huoneen tai ulkoilman lämpötilasta, ei akun sisäisestä lämpötilasta. Käytössä olevan puhelimen sisäosat ovat ympäröivää ilmaa lämpimämpiä.
@@ -91,4 +92,4 @@ Jos puhelin nousee tavallisessa käytössä 45 °C:seen tai korkeammalle tai saa
 
 ---
 
-*Metakuvaus: Puhelimen lämpötilaan vaikuttavat ympäristön lämpö, akun lämpötila, lataaminen ja kuormitus. Alle 35 °C on yleensä normaali, yli 40 °C vaatii huomiota eikä 45 °C:n tai korkeamman lämpötilan pitäisi olla tavallista.*
+_Metakuvaus: Puhelimen lämpötilaan vaikuttavat ympäristön lämpö, akun lämpötila, lataaminen ja kuormitus. Alle 35 °C on yleensä normaali, yli 40 °C vaatii huomiota eikä 45 °C:n tai korkeamman lämpötilan pitäisi olla tavallista._

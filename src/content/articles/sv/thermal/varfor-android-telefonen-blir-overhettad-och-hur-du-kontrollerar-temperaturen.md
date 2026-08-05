@@ -5,10 +5,11 @@ listSummary: "En Android-telefon kan kännas het av banala skäl, allvarliga sk�
 hub: "thermal"
 sourceNumber: 53
 order: 1
-tags: ["temperatur","värme","android","felsökning","hårdvara"]
+tags: ["temperatur", "värme", "android", "felsökning", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 ## Kontrollera temperaturen först
 
 Börja med de inbyggda verktygen. De ser mindre avancerade ut än sensorappar, men är också mindre benägna att låtsas vara mer exakta än de data telefonen faktiskt lämnar ut.
@@ -103,4 +104,4 @@ Laddning skapar värme inne i batteriet. Snabbladdning skapar mer. Om telefonen 
 
 Använd tillverkarens verktyg först och därefter en diagnostikapp om du behöver historik. Se uppringningskoder som en bonus, inte en garanti. Och när telefonen uppenbart är het ska du inte fortsätta pressa den. Ta bort värmekällan, låt den svalna och leta sedan efter mönstret.
 
-*Metabeskrivning: Lär dig kontrollera temperaturen i en Android-telefon, tolka säkra batteritemperaturer och förstå hur Android 17, Pixel-diagnostik, Samsung Members, laddning, appar och signalstyrka påverkar överhettning.*
+_Metabeskrivning: Lär dig kontrollera temperaturen i en Android-telefon, tolka säkra batteritemperaturer och förstå hur Android 17, Pixel-diagnostik, Samsung Members, laddning, appar och signalstyrka påverkar överhettning._

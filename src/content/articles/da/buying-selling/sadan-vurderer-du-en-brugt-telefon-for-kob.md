@@ -5,10 +5,11 @@ listSummary: "sammenligning, apps og android"
 hub: "buying-selling"
 sourceNumber: 141
 order: 5
-tags: ["sammenligning","apps","android","købsguide","anmeldelse"]
+tags: ["sammenligning", "apps", "android", "købsguide", "anmeldelse"]
 locale: "da"
 draft: false
 ---
+
 Du står med en brugt telefon, der ser pæn ud. Skærmen er klar, sælgeren virker helt normal, og prisen er lige lav nok til at føles som et godt køb. Det er præcis her, mange holder op med at kontrollere telefonen og begynder at overbevise sig selv.
 
 Lad være.

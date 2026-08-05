@@ -5,9 +5,10 @@ listSummary: "Samsung Device Care basics"
 hub: "brands"
 sourceNumber: 157
 order: 5
-tags: ["storage","android","cleanup","optimization","guide"]
+tags: ["storage", "android", "cleanup", "optimization", "guide"]
 draft: false
 ---
+
 Device care is useful, but it's a dashboard first and an optimizer second. It helps you find battery drain, storage pressure, background apps, memory use, and security checks from one place. The best parts are the specific tools, not the one-tap cleanup.
 
 Samsung's menus also change names between One UI versions. Some phones show Settings > Device care. Others show Settings > Battery and device care. Android 17 is now out first on most supported Pixel phones, while Galaxy phones will get Samsung's Android 17-based One UI update later, so expect another round of small wording and layout changes.

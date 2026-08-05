@@ -5,10 +5,11 @@ listSummary: "Metabeskrivning: Ingen Android-app kan reparera ett slitet batteri
 hub: "myths"
 sourceNumber: 151
 order: 7
-tags: ["myter","fakta","android","batteri","mytgranskning"]
+tags: ["myter", "fakta", "android", "batteri", "mytgranskning"]
 locale: "sv"
 draft: false
 ---
+
 Kan en batterireparationsapp verkligen återställa förlorad kapacitet? Nej. Inte en reparationsapp, inte en booster, inte ett kalibreringsverktyg och inte en optimerare med en snygg animering.
 
 Batteriet är en fysisk komponent. När kemin i cellen väl har åldrats kan programvara inte lägga tillbaka den kapacitet som gått förlorad.

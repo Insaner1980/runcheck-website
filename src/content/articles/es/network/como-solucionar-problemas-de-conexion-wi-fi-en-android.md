@@ -5,10 +5,18 @@ listSummary: "rendimiento, velocidad y android"
 hub: "network"
 sourceNumber: 96
 order: 7
-tags: ["rendimiento","velocidad","android","optimizacion","solucion-de-problemas"]
+tags:
+  [
+    "rendimiento",
+    "velocidad",
+    "android",
+    "optimizacion",
+    "solucion-de-problemas",
+  ]
 locale: "es"
 draft: false
 ---
+
 ¿Qué deberías probar primero cuando falla el Wi-Fi en Android? No empieces con un restablecimiento de fábrica ni pierdas media hora cambiando ajustes del router antes de probar lo más sencillo. La mayoría de los problemas de Wi-Fi encajan en uno de estos tres casos: el móvil no se conecta, se conecta pero pierde la conexión o sigue conectado aunque Internet parece no funcionar.
 
 Prueba estas soluciones en este orden. Ahorrarás tiempo.

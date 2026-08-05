@@ -5,10 +5,11 @@ listSummary: "laden, akku und android"
 hub: "hardware"
 sourceNumber: 108
 order: 5
-tags: ["laden","akku","android","ratgeber","hardware"]
+tags: ["laden", "akku", "android", "ratgeber", "hardware"]
 locale: "de"
 draft: false
 ---
+
 ---
 
 Du hältst das Kabel in einem seltsamen Winkel, das Ladesymbol flackert und das Smartphone lädt nur, wenn es vollkommen still liegt. Das fühlt sich schnell nach einem defekten Ladeanschluss an. Beginne trotzdem nicht dort.

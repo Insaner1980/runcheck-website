@@ -5,10 +5,11 @@ listSummary: "Syötät #0# Samsungin Puhelin-sovellukseen, ja tavallinen numeron
 hub: "brands"
 sourceNumber: 160
 order: 8
-tags: ["valmistaja","android","diagnostiikka","merkkikohtainen","opas"]
+tags: ["valmistaja", "android", "diagnostiikka", "merkkikohtainen", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Kun valikko toimii, käyttö tuntuu melkein liian helpolta. Kun se ei toimi, tilanne voi olla yllättävän turhauttava, koska Samsung ei esittele valikkoa tavallisena kuluttajaominaisuutena. Käsittele sitä matalan tason huoltovalikkona, joka toimii monissa Galaxy-puhelimissa, ei varmana ominaisuutena jokaisessa mallissa, operaattoriversiossa tai maassa.
 
 ## Ennen koodin kokeilemista
@@ -85,4 +86,4 @@ Jos `*#0*#` on estetty, älä käytä tuntia numeronvalitsimen kanssa taistelemi
 
 ---
 
-*Metakuvaus: Samsungin `*#0*#`-koodi voi avata Galaxy-puhelimen piilotetun diagnostiikkavalikon näytön, kosketuksen, antureiden, kameroiden, kaiuttimien ja värinän testaamiseen. Oppaassa kerrotaan, mitä valikko tarkistaa ja mitä käyttää, jos koodi on estetty.*
+_Metakuvaus: Samsungin `*#0*#`-koodi voi avata Galaxy-puhelimen piilotetun diagnostiikkavalikon näytön, kosketuksen, antureiden, kameroiden, kaiuttimien ja värinän testaamiseen. Oppaassa kerrotaan, mitä valikko tarkistaa ja mitä käyttää, jos koodi on estetty._

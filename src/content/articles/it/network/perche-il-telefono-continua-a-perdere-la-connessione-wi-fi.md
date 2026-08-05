@@ -1,14 +1,15 @@
 ---
 title: "Perché il telefono continua a perdere la connessione Wi-Fi?"
-description: "La versione più irritante è questa: il Wi-Fi funziona in cucina, cade in camera da letto, si ricollega per dieci secondi e poi sparisce di nuovo. Nulla sembra chiaramente guasto. Il router è acceso, la password è corretta e le app continuano a segnalare \"nessuna connessione Internet\"."
+description: 'La versione più irritante è questa: il Wi-Fi funziona in cucina, cade in camera da letto, si ricollega per dieci secondi e poi sparisce di nuovo. Nulla sembra chiaramente guasto. Il router è acceso, la password è corretta e le app continuano a segnalare "nessuna connessione Internet".'
 listSummary: "La versione più irritante è questa: il Wi-Fi funziona in cucina."
 hub: "network"
 sourceNumber: 95
 order: 6
-tags: ["rete","connettivita","android","risoluzione-dei-problemi","guida"]
+tags: ["rete", "connettivita", "android", "risoluzione-dei-problemi", "guida"]
 locale: "it"
 draft: false
 ---
+
 Parti da una domanda: anche gli altri dispositivi sulla stessa rete Wi-Fi si disconnettono? Se sì, occupati prima del router o della connessione Internet. Se cade solo il telefono, la causa riguarda probabilmente il telefono, il profilo di rete salvato o il modo in cui passa da una banda all'altra.
 
 ## Se si disconnettono più dispositivi, controlla prima il router

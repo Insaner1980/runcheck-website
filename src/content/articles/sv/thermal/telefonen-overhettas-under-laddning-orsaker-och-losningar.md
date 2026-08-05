@@ -5,10 +5,11 @@ listSummary: "Det är normalt att en telefon blir lite varm under laddning."
 hub: "thermal"
 sourceNumber: 58
 order: 6
-tags: ["laddning","batteri","android","guide","hårdvara"]
+tags: ["laddning", "batteri", "android", "guide", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 När ett litiumjonbatteri laddas omvandlas en del av energin till värme. Du märker det tydligare med en laddare på 25 W, 45 W eller 65 W än med en gammal 5 W-laddare. Bara det betyder inte att något är trasigt. Den verkliga frågan är om telefonen svalnar när den mest intensiva delen av laddningen är över, eller om den fortsätter bli varmare varje gång du ansluter den.
 
 Som praktisk vägledning är en batteritemperatur under 35 °C lugn under laddning. Mellan 35 och 40 °C är telefonen varm men fortfarande inom ett normalt arbetsområde för snabbladdning. Vid 40 °C och högre bör telefonen börja skydda sig genom att sänka laddningshastigheten. Om temperaturen fortsätter stiga, eller om värmen är koncentrerad runt laddningsporten, ska du inte längre behandla det som vanlig värme.
@@ -111,4 +112,4 @@ Det kan hjälpa lite eftersom processorn och bakgrundsapparna inte längre tillf
 
 ---
 
-*Metabeskrivning: Om telefonen blir het under laddning kan orsaken vara snabbladdning, tung användning, en dålig kabel, trådlös laddning, ett tjockt skal, programvaruarbete eller batterislitage. Så här felsöker du säkert.*
+_Metabeskrivning: Om telefonen blir het under laddning kan orsaken vara snabbladdning, tung användning, en dålig kabel, trådlös laddning, ett tjockt skal, programvaruarbete eller batterislitage. Så här felsöker du säkert._

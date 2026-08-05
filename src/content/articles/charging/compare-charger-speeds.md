@@ -5,9 +5,10 @@ listSummary: "Charger speed comparison"
 hub: "charging"
 sourceNumber: 45
 order: 9
-tags: ["charging","battery","android","guide","hardware"]
+tags: ["charging", "battery", "android", "guide", "hardware"]
 draft: false
 ---
+
 You plug in the bedside charger and your phone says Fast charging. You plug in the desk charger and it says the same thing. One gets you to 80% before coffee is done, the other doesn't.
 
 The label isn't enough. You need to compare what the phone actually accepts.

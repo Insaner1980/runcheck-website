@@ -5,10 +5,11 @@ listSummary: "De flesta gamla Android-telefoner blir inte långsamma för att pr
 hub: "performance"
 sourceNumber: 65
 order: 2
-tags: ["prestanda","hastighet","android","optimering","felsökning"]
+tags: ["prestanda", "hastighet", "android", "optimering", "felsökning"]
 locale: "sv"
 draft: false
 ---
+
 Lösningen är därför praktisk. Minska belastningen innan du utgår från att hårdvaran är förbrukad.
 
 ## Frigör lagringsutrymme först

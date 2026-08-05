@@ -5,10 +5,11 @@ listSummary: "Metadescripción: El calor somete a más estrés la batería y el 
 hub: "thermal"
 sourceNumber: 63
 order: 11
-tags: ["temperatura","termico","android","solucion-de-problemas","hardware"]
+tags: ["temperatura", "termico", "android", "solucion-de-problemas", "hardware"]
 locale: "es"
 draft: false
 ---
+
 Estás en la playa, en un festival o dando un paseo largo, y de repente el móvil está demasiado caliente para sujetarlo con comodidad. Después baja el brillo de la pantalla. Unos minutos más tarde, la carga se ralentiza o la cámara se niega a grabar. No ocurre al azar. El móvil se está protegiendo.
 
 Muchos móviles están diseñados para un uso normal entre 0 °C y 35 °C (entre 32 °F y 95 °F). Eso no significa que fallen en cuanto el aire alcanza los 36 °C, pero el margen desaparece. Añade sol directo, navegación, datos móviles, grabación de vídeo o carga, y la temperatura de la batería puede subir rápidamente.

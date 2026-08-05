@@ -5,9 +5,10 @@ listSummary: "Large file cleanup"
 hub: "storage"
 sourceNumber: 82
 order: 4
-tags: ["storage","android","cleanup","optimization","guide"]
+tags: ["storage", "android", "cleanup", "optimization", "guide"]
 draft: false
 ---
+
 ---
 
 A single 4K video from a weekend trip can be larger than hundreds of photos. So can one downloaded Netflix episode, one forgotten game data folder, or one ZIP file you opened months ago.

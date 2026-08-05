@@ -5,10 +5,11 @@ listSummary: "Utiliser votre téléphone pendant la charge ne présente pas de r
 hub: "charging"
 sourceNumber: 41
 order: 5
-tags: ["recharge","batterie","android","guide","materiel"]
+tags: ["recharge", "batterie", "android", "guide", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 Vous jouez, la batterie est à 12 % et le chargeur est juste à côté. Vous branchez donc le téléphone sans interrompre la partie. Il commence à chauffer, le nombre d'images par seconde baisse, et vous vous demandez si vous venez d'abîmer la batterie.
 
 Probablement pas. Mais vous avez réuni exactement les sources de chaleur que les batteries apprécient le moins.

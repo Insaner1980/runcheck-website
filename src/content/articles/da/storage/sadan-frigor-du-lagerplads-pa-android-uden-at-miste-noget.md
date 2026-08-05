@@ -5,10 +5,11 @@ listSummary: "Praktiske måder at frigøre lagerplads på Android uden at slette
 hub: "storage"
 sourceNumber: 79
 order: 1
-tags: ["lagerplads","android","oprydning","optimering","guide"]
+tags: ["lagerplads", "android", "oprydning", "optimering", "guide"]
 locale: "da"
 draft: false
 ---
+
 ---
 
 Du prøver at tage et billede, installere en opdatering eller hente en fil, og Android fortæller, at der ikke er plads nok. Panikløsningen er at slette billeder. Begynd ikke der.

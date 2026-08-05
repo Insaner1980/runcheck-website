@@ -5,10 +5,11 @@ listSummary: "Hur mycket RAM räcker i en Android-telefon 2026?"
 hub: "performance"
 sourceNumber: 66
 order: 3
-tags: ["prestanda","hastighet","android","optimering","felsökning"]
+tags: ["prestanda", "hastighet", "android", "optimering", "felsökning"]
 locale: "sv"
 draft: false
 ---
+
 Det betyder inte att varje telefon med 6 GB är skräp eller att varje modell med 16 GB är värd pengarna. Råd om RAM blir snabbt röriga, eftersom Android-version, tillverkarens gränssnitt, appvanor, lagringshastighet, batteriets skick och begränsningar för bakgrundsappar spelar in.
 
 Det finns ändå ett praktiskt köpråd: 8 GB för vanliga användare, 12 GB för den som vill att telefonen ska hålla sig bekväm längre.

@@ -5,10 +5,11 @@ listSummary: "valmistaja, android ja diagnostiikka"
 hub: "brands"
 sourceNumber: 158
 order: 6
-tags: ["valmistaja","android","diagnostiikka","merkkikohtainen","opas"]
+tags: ["valmistaja", "android", "diagnostiikka", "merkkikohtainen", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Pixelin vianmääritystyökalut on jaettu Asetuksiin, uudempaan laitteen kuntosivuun, My Pixel -sovellukseen ja erilliseen korjausdiagnostiikkaan. Kokonaisuus kuulostaa sekavammalta kuin sen pitäisi. Kun tiedät, mistä osat löytyvät, voit kuitenkin tarkistaa akunkulutusta, latausongelmia, lämpötilavaroituksia, kosketusnäytön häiriöitä ja huoltoon liittyviä laitteistovikoja asentamatta satunnaista diagnostiikkasovellusta.
 
 Vuonna 2026 ajankohdalla on merkitystä: Android 17 on nyt saatavilla useimmille tuetuille Pixel-laitteille. Jos Pixel alkoi käyttäytyä oudosti heti päivityksen jälkeen, älä päättele suoraan laitteiston rikkoutuneen. Suorita ensin puhelimen omat tarkistukset ja arvioi vasta sitten tuen tarve.
@@ -81,4 +82,4 @@ Käytä molempia tarpeen mukaan. Pixelin omat työkalut ovat arvailua turvallise
 
 ---
 
-*Metakuvaus: Pixel Troubleshooting -sovellus ja muut Pixelin diagnostiikkatyökalut voivat tarkistaa akun, latauksen, lämpötilan, kosketuksen ja korjaukseen liittyviä ongelmia. Katso, mistä kukin työkalu löytyy ja mitkä Pixel-mallit tukevat sitä.*
+_Metakuvaus: Pixel Troubleshooting -sovellus ja muut Pixelin diagnostiikkatyökalut voivat tarkistaa akun, latauksen, lämpötilan, kosketuksen ja korjaukseen liittyviä ongelmia. Katso, mistä kukin työkalu löytyy ja mitkä Pixel-mallit tukevat sitä._

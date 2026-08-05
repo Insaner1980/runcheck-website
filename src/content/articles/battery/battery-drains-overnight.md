@@ -6,9 +6,10 @@ hub: "battery"
 sourceNumber: 23
 order: 13
 subgroup: "Drain"
-tags: ["battery","drain","troubleshooting","android","performance"]
+tags: ["battery", "drain", "troubleshooting", "android", "performance"]
 draft: false
 ---
+
 For a healthy Android phone, 2 to 5% overnight loss is a boring result. It still keeps a cellular connection alive, listens for notifications, syncs some account data, and runs small maintenance jobs. Once the loss is above 10% night after night, stop treating it as normal background noise.
 
 ## Check the battery screen first

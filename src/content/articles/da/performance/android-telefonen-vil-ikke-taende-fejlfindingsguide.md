@@ -5,10 +5,11 @@ listSummary: "Vil din Android-telefon ikke tænde, eller sidder den fast på en 
 hub: "performance"
 sourceNumber: 75
 order: 12
-tags: ["runcheck","seo","android","artikel","guide"]
+tags: ["runcheck", "seo", "android", "artikel", "guide"]
 locale: "da"
 draft: false
 ---
+
 ---
 
 Nogen sætter en telefon til opladning, ser ingenting, trykker fem gange på tænd-sluk-knappen og antager, at den er død. Nogle gange er den det. Oftere er batteriet helt afladet, softwaren er frosset med skærmen slukket, eller skærmen er gået i stykker, mens selve telefonen stadig kører.

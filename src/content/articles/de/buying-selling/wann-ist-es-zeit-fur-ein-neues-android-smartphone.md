@@ -5,10 +5,11 @@ listSummary: "Du brauchst wahrscheinlich nicht allein deshalb ein neues Android-
 hub: "buying-selling"
 sourceNumber: 143
 order: 7
-tags: ["kaufratgeber","android","vergleich","wert","ratgeber"]
+tags: ["kaufratgeber", "android", "vergleich", "wert", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Diese Verzögerung macht dein Smartphone nicht veraltet. Die eigentliche Frage ist einfacher: Ist es noch sicher, im Alltag brauchbar und eine Reparatur wert?
 
 ## Sicherheitsupdates sind die eigentliche Frist

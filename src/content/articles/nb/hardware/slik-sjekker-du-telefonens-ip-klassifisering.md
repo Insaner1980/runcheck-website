@@ -5,10 +5,11 @@ listSummary: "diagnostikk, sensorer og android"
 hub: "hardware"
 sourceNumber: 116
 order: 13
-tags: ["diagnostikk","sensorer","android","maskinvare","guide"]
+tags: ["diagnostikk", "sensorer", "android", "maskinvare", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Vannbestandig er ikke det samme som vanntett, uansett hvor selvsikkert det står formulert i spesifikasjonene.
 
 Telefonen har enten en IP-klassifisering, eller så har den det ikke. Det finnes ingen app, tastekode eller skjult Android-innstilling som kan teste dette i ettertid.

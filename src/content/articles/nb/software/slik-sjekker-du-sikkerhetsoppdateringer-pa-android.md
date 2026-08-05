@@ -5,10 +5,11 @@ listSummary: "Du skal kjøpe en brukt telefon, eller din egen har ikke vist et o
 hub: "software"
 sourceNumber: 122
 order: 4
-tags: ["android","oppdateringer","sikkerhet","programvare","guide"]
+tags: ["android", "oppdateringer", "sikkerhet", "programvare", "guide"]
 locale: "nb"
 draft: false
 ---
+
 På de fleste Android-telefoner åpner du siden Om telefonen i Innstillinger og ser etter sikkerhetsoppdateringen for Android eller nivået for Android-sikkerhetsoppdatering. Datoen kan for eksempel være 2026-06-05.
 
 ## Hvor finner du oppdateringsdatoen?

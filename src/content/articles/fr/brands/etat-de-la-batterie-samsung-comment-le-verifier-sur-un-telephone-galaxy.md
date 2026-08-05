@@ -5,10 +5,11 @@ listSummary: "Samsung complique encore davantage l'état de la batterie que néc
 hub: "brands"
 sourceNumber: 153
 order: 1
-tags: ["batterie","etat","diagnostic","android","guide"]
+tags: ["batterie", "etat", "diagnostic", "android", "guide"]
 locale: "fr"
 draft: false
 ---
+
 C'est justement cette incertitude qui pose problème. Un Galaxy S25 équipé d'une version récente de One UI peut afficher un pourcentage d'état et un nombre de cycles. Un Galaxy S23 qui semble utiliser une mise à jour comparable peut ne rien montrer de tout cela. Android 17 est maintenant disponible sur la plupart des Pixel compatibles, et Samsung a lancé la bêta de One UI 9, basée sur Android 17, pour la série Galaxy S26. Le déploiement plus large suivra toutefois le calendrier propre à Samsung, qui continuera aussi à décider quelles données de batterie sont visibles sur chaque modèle.
 
 Voici les vérifications qui valent la peine, et celles qui paraissent utiles sans vraiment vous renseigner.

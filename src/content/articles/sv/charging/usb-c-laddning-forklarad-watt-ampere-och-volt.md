@@ -5,10 +5,11 @@ listSummary: "laddning, batteri och android"
 hub: "charging"
 sourceNumber: 46
 order: 10
-tags: ["laddning","batteri","android","guide","hårdvara"]
+tags: ["laddning", "batteri", "android", "guide", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 Watt är siffran du främst behöver bry dig om. Volt och ampere förklarar hur laddaren kommer dit, men effekten i watt visar hur mycket strömförsörjning som finns tillgänglig.
 
 En laddare som ger 9 V vid 2 A levererar 18 W. En laddare som ger 20 V vid 3 A levererar 60 W. Matematiken är enkel: volt multiplicerat med ampere är lika med watt.

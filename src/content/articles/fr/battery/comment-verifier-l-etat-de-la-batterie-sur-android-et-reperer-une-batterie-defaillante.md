@@ -6,12 +6,12 @@ hub: "battery"
 sourceNumber: 11
 order: 1
 subgroup: "Health"
-tags: ["batterie","etat","diagnostic","android","guide"]
+tags: ["batterie", "etat", "diagnostic", "android", "guide"]
 locale: "fr"
 draft: false
 ---
-Contrairement aux iPhone compatibles, qui affichent un pourcentage d'état de la batterie depuis iOS 11.3, Android a longtemps rendu cette information plus difficile à trouver. Il n'existe pas d'écran universel consacré à l'état de la batterie. Il faut souvent recouper les outils du fabricant, les menus cachés, les habitudes de consommation et les applications de diagnostic.
 
+Contrairement aux iPhone compatibles, qui affichent un pourcentage d'état de la batterie depuis iOS 11.3, Android a longtemps rendu cette information plus difficile à trouver. Il n'existe pas d'écran universel consacré à l'état de la batterie. Il faut souvent recouper les outils du fabricant, les menus cachés, les habitudes de consommation et les applications de diagnostic.
 
 ## Réponse rapide : comment vérifier l'état de la batterie
 
@@ -24,7 +24,6 @@ Voici trois méthodes, de la plus rapide à la plus détaillée.
 **Application de diagnostic.** Les applications tierces estiment l'état de la batterie en suivant les cycles de charge et de décharge pendant plusieurs jours. C'est souvent l'option la plus détaillée lorsque le téléphone ne propose aucun indicateur intégré.
 
 Une capacité estimée inférieure à 80 % de la capacité nominale, ou un indicateur qui ne signale plus un état bon ou normal, justifie d'envisager un remplacement.
-
 
 ## Pourquoi les batteries s'usent
 
@@ -39,7 +38,6 @@ Tous les téléphones Android utilisent une batterie lithium-ion ou lithium-poly
 **Les habitudes de recharge comptent, mais moins qu'on ne le prétend souvent.** Recharger systématiquement jusqu'à 100 % et descendre jusqu'à 0 % sollicite davantage la batterie que de rester, lorsque c'est pratique, dans une plage de 20-80 %. La recharge rapide produit aussi plus de chaleur qu'une recharge standard. Sur une année, l'écart entre une recharge rapide systématique à 100 % et une recharge plus douce limitée à 80 % est toutefois souvent moins spectaculaire que ne le laissent entendre certains conseils en ligne. La chaleur et le temps pèsent davantage. Les chargeurs non certifiés présentent un risque plus concret, car une alimentation mal régulée peut endommager durablement les cellules.
 
 Au final, une batterie de 5 000 mAh devient lentement une batterie de 4 000 mAh, puis de 3 500 mAh, jusqu'à ne plus tenir une journée normale.
-
 
 ## Étapes de diagnostic manuel
 
@@ -61,7 +59,6 @@ Même sans pourcentage d'état dédié, les réglages d'Android fournissent des 
 
 **Utilisez les diagnostics du fabricant.** En plus des indicateurs mentionnés dans la réponse rapide, certains téléphones proposent des outils dédiés. Sur Pixel, cherchez Diagnostics de la batterie dans Paramètres > Batterie. Samsung Members comprend une rubrique Diagnostics du téléphone avec un test de l'état de la batterie. Sur d'autres marques, les informations disponibles varient selon le modèle et la version logicielle.
 
-
 ## Diagnostic avancé : tension, température et courbe de décharge
 
 Plusieurs mesures donnent une meilleure idée de ce qui se passe dans la cellule.
@@ -79,7 +76,6 @@ Les applications de diagnostic ajoutent des chiffres à ces observations. Elles 
 runcheck réunit le diagnostic de la batterie, du réseau, de la température et du stockage dans une même évaluation. C'est utile, car un problème de batterie n'est pas toujours isolé. Un composant qui chauffe anormalement peut se manifester comme une décharge rapide, tandis qu'un stockage saturé oblige le CPU à travailler davantage.
 
 Évitez les applications qui promettent de « booster », « étalonner » ou « restaurer » l'état de la batterie. Aucune application ne peut inverser une dégradation chimique. Les outils utiles affichent la tension et la température réelles, suivent les données dans le temps et fonctionnent sur l'appareil sans exiger de compte ni d'envoi vers le cloud.
-
 
 ## Questions fréquentes
 
@@ -114,7 +110,6 @@ La capacité réelle de la batterie ne correspond plus à ce que le logiciel att
 **À quelle fréquence faut-il vérifier l'état de la batterie ?**
 
 Tous les quelques mois. La dégradation est progressive, et la vérifier constamment ne change rien. Faites un contrôle plus tôt si l'autonomie chute soudainement, si le téléphone s'éteint sans raison ou s'il chauffe davantage que d'habitude.
-
 
 ## Que faire des résultats
 

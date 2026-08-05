@@ -5,10 +5,11 @@ listSummary: "La memoria di un telefono Android può usurarsi."
 hub: "storage"
 sourceNumber: 80
 order: 2
-tags: ["memoria","android","pulizia","ottimizzazione","guida"]
+tags: ["memoria", "android", "pulizia", "ottimizzazione", "guida"]
 locale: "it"
 draft: false
 ---
+
 ---
 
 Come fai a sapere se la memoria del tuo telefono Android è in buone condizioni e non soltanto libera? Purtroppo, la maggior parte dei dispositivi continua a non renderlo semplice.

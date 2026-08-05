@@ -5,10 +5,11 @@ listSummary: "carga, bateria y android"
 hub: "charging"
 sourceNumber: 49
 order: 13
-tags: ["carga","bateria","android","guia","hardware"]
+tags: ["carga", "bateria", "android", "guia", "hardware"]
 locale: "es"
 draft: false
 ---
+
 El cargador más seguro para tu móvil Android no tiene por qué llevar el mismo logotipo que el teléfono. Esa es la parte que mucha gente entiende mal.
 
 Un buen cargador USB-C de terceros, fabricado por una marca conocida, puede ser tan seguro y tan rápido como el del fabricante del móvil. El verdadero problema es el cargador sin marca, con sellos falsos, especificaciones imprecisas y un precio sospechoso. Importan menos el logotipo y más los estándares, la calidad de fabricación y el cable.

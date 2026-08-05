@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 33
 order: 23
 subgroup: "Drain"
-tags: ["android","uppdateringar","säkerhet","programvara","guide"]
+tags: ["android", "uppdateringar", "säkerhet", "programvara", "guide"]
 locale: "sv"
 draft: false
 ---
+
 En stor del av Android-mobilens batteriförbrukning sker när du inte gör något särskilt. Skärmen är avstängd, mobilen ligger på bordet och batterinivån sjunker ändå eftersom appar, radiofunktioner, sensorer och kontosynkronisering fortsätter att väcka enheten.
 
 Android 17 började rullas ut till de flesta Pixel-enheter som stöds den 16 juni 2026. Menynamnen befinner sig därför i en lite rörig övergångsfas. Pixel får den nya Android-versionen först, medan Samsung, Xiaomi, OnePlus, Motorola och andra OEM-tillverkare släpper sina Android 17-versioner enligt egna tidsplaner. Råden nedan gäller fortfarande, men den exakta sökvägen kan ligga en nivå högre eller lägre beroende på mobil.

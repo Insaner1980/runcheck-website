@@ -5,9 +5,10 @@ listSummary: "Wi-Fi calling use cases"
 hub: "network"
 sourceNumber: 100
 order: 11
-tags: ["network","connectivity","android","troubleshooting","guide"]
+tags: ["network", "connectivity", "android", "troubleshooting", "guide"]
 draft: false
 ---
+
 Wi-Fi calling is regular phone calling over Wi-Fi. You use the normal dialer, your normal phone number, and your carrier account. The person you call doesn't need WhatsApp, Signal, Telegram, or any other app.
 
 That is the main appeal. You can be in a basement with one flickering cellular bar, connect to good Wi-Fi, and still make a normal phone call.

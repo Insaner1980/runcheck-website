@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 26
 order: 16
 subgroup: "Drain"
-tags: ["batterie","consommation","depannage","android","performances"]
+tags: ["batterie", "consommation", "depannage", "android", "performances"]
 locale: "fr"
 draft: false
 ---
+
 C'est normal. Une décharge excessive au repos ne l'est pas.
 
 ## À quoi ressemble une décharge normale au repos

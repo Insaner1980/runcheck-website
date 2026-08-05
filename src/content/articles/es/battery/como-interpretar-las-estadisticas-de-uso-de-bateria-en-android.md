@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 14
 order: 4
 subgroup: "Health"
-tags: ["bateria","consumo","solucion-de-problemas","android","rendimiento"]
+tags: ["bateria", "consumo", "solucion-de-problemas", "android", "rendimiento"]
 locale: "es"
 draft: false
 ---
+
 Abres Uso de batería y ves una aplicación con un 42 %. Parece grave. A veces lo es. Otras veces no significa casi nada.
 
 Las estadísticas de Android sirven para acotar un problema, pero no son un recibo exacto de dónde ha ido cada miliamperio-hora. La clave está en interpretar los porcentajes dentro de su contexto.

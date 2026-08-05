@@ -5,10 +5,11 @@ listSummary: "comparacion, aplicaciones y android"
 hub: "buying-selling"
 sourceNumber: 141
 order: 5
-tags: ["comparacion","aplicaciones","android","guia-de-compra","analisis"]
+tags: ["comparacion", "aplicaciones", "android", "guia-de-compra", "analisis"]
 locale: "es"
 draft: false
 ---
+
 Tienes en la mano un móvil usado que parece estar bien cuidado. La pantalla se ve luminosa, el vendedor parece de fiar y el precio es lo bastante bajo como para pensar que has encontrado una buena oportunidad. Este es justo el momento en que mucha gente deja de comprobar cosas y empieza a justificar la compra.
 
 No lo hagas.

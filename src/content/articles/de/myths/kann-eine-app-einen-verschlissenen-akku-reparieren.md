@@ -5,10 +5,11 @@ listSummary: "Keine Android-App kann einen verschlissenen Akku reparieren."
 hub: "myths"
 sourceNumber: 151
 order: 7
-tags: ["mythen","fakten","android","akku","mythencheck"]
+tags: ["mythen", "fakten", "android", "akku", "mythencheck"]
 locale: "de"
 draft: false
 ---
+
 Kann eine Akku-Reparatur-App verlorene Kapazität wirklich zurückbringen? Nein. Weder eine Reparatur-App noch ein Booster, ein Kalibrierungstool oder ein Optimierer mit hübscher Animation kann das.
 
 Der Akku ist ein physisches Bauteil. Wenn die Chemie in der Zelle gealtert ist, kann Software die verlorene Kapazität nicht wiederherstellen.

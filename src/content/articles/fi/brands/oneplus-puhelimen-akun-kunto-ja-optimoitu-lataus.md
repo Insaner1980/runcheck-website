@@ -5,10 +5,11 @@ listSummary: "akku, kunto ja diagnostiikka"
 hub: "brands"
 sourceNumber: 156
 order: 4
-tags: ["akku","kunto","diagnostiikka","android","opas"]
+tags: ["akku", "kunto", "diagnostiikka", "android", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Pikalataus ei ole automaattisesti pahasta. Todellinen vihollinen on kuumuus. Jos OnePlus latautuu 80 W:n tai 100 W:n teholla samalla kun pelaat, käytät navigointia tai suoratoistat sisältöä, akku voi rasittua paljon, ellei ohjelmisto hallitse tilannetta hyvin.
 
 Ajankohdasta vielä yksi huomio: Android 17 julkaistiin ensin useimmille tuetuille Pixel-puhelimille. OnePlus-laitteet saavat Android 17:ään perustuvia OxygenOS-päivityksiä myöhemmin, ja akkutoiminnot voivat silti vaihdella mallin, alueen ja OTA-version mukaan. Älä oleta asetuksen olevan olemassa ennen kuin näet sen omassa puhelimessasi.

@@ -5,10 +5,11 @@ listSummary: "Du skriver #0# i Samsung Telefon-appen, og det vanlige talltastatu
 hub: "brands"
 sourceNumber: 160
 order: 8
-tags: ["produsent","android","diagnostikk","merkespesifikt","guide"]
+tags: ["produsent", "android", "diagnostikk", "merkespesifikt", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Når det virker, føles det nesten for enkelt. Når det ikke virker, kan det være overraskende frustrerende, fordi Samsung ikke presenterer denne menyen som en vanlig forbrukerfunksjon. Behandle den som en servicemeny på lavt nivå som ofte virker på Galaxy-telefoner, ikke som en garantert funksjon på alle modeller, operatørversjoner eller i alle regioner.
 
 ## Før du prøver koden
@@ -85,4 +86,4 @@ Hvis `*#0*#` er blokkert, bør du ikke bruke en time på å slåss med talltasta
 
 ---
 
-*Metabeskrivelse: Samsungs kode `*#0*#` kan åpne en skjult diagnosemeny på Galaxy-telefoner for testing av skjerm, berøring, sensorer, kamera, høyttaler og vibrasjon. Her ser du hva den kontrollerer, og hva du kan bruke når koden er blokkert.*
+_Metabeskrivelse: Samsungs kode `*#0*#` kan åpne en skjult diagnosemeny på Galaxy-telefoner for testing av skjerm, berøring, sensorer, kamera, høyttaler og vibrasjon. Her ser du hva den kontrollerer, og hva du kan bruke når koden er blokkert._

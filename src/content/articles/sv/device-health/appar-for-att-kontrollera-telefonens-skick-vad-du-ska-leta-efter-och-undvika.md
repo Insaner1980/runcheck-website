@@ -1,14 +1,15 @@
 ---
 title: "Appar för att kontrollera telefonens skick: vad du ska leta efter och undvika"
-description: "En bra app för att kontrollera telefonens skick ska berätta vad telefonen rapporterar, var uppgifterna är osäkra och vad du faktiskt kan göra härnäst. En dålig app visar en enorm \"Optimera\"-knapp, kör en animation och hoppas att du trycker på en annons."
+description: 'En bra app för att kontrollera telefonens skick ska berätta vad telefonen rapporterar, var uppgifterna är osäkra och vad du faktiskt kan göra härnäst. En dålig app visar en enorm "Optimera"-knapp, kör en animation och hoppas att du trycker på en annons.'
 listSummary: "jämförelse, appar och android"
 hub: "device-health"
 sourceNumber: 140
 order: 9
-tags: ["jämförelse","appar","android","köpguide","recension"]
+tags: ["jämförelse", "appar", "android", "köpguide", "recension"]
 locale: "sv"
 draft: false
 ---
+
 Där går gränsen. Den är inte särskilt svår att se när du väl vet vad du ska leta efter.
 
 Android 17 ändrar inte grundregeln. Versionen finns nu på de flesta Pixel-telefoner som stöds, medan andra märken följer sina egna tidsplaner. Även med Android 17 varierar hälsoinformationen fortfarande mellan tillverkare. Pixel-telefoner, Samsung Galaxy-modeller, Xiaomi- och HyperOS-enheter samt billigare Android-telefoner kan lämna ut helt olika uppgifter.
@@ -85,4 +86,4 @@ För en enstaka kontroll räcker gratisnivån vanligtvis. För långsiktig batte
 
 Det bästa testet är enkelt: skulle appen fortfarande vara användbar om "Optimera"-knappen försvann? Om svaret är ja kan det vara ett riktigt diagnostikverktyg. Om svaret är nej, avinstallera den.
 
-*Metabeskrivning: Så väljer du appar för att kontrollera en Android-telefons skick 2026, med varningssignaler, inbyggda verktyg att prova först och funktioner som skiljer riktig diagnostik från optimeringsappar.*
+_Metabeskrivning: Så väljer du appar för att kontrollera en Android-telefons skick 2026, med varningssignaler, inbyggda verktyg att prova först och funktioner som skiljer riktig diagnostik från optimeringsappar._

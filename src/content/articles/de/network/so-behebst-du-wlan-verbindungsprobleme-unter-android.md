@@ -5,10 +5,12 @@ listSummary: "leistung, geschwindigkeit und android"
 hub: "network"
 sourceNumber: 96
 order: 7
-tags: ["leistung","geschwindigkeit","android","optimierung","fehlerbehebung"]
+tags:
+  ["leistung", "geschwindigkeit", "android", "optimierung", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+
 Was solltest du zuerst versuchen, wenn das WLAN unter Android nicht mehr funktioniert? Beginne nicht gleich mit dem Zurücksetzen auf Werkseinstellungen. Und ändere nicht eine halbe Stunde lang Router-Einstellungen, bevor du die einfachen Dinge geprüft hast. Die meisten WLAN-Probleme gehören zu einer von drei Gruppen: Das Smartphone verbindet sich gar nicht, die Verbindung bricht ständig ab oder das Gerät bleibt verbunden, aber das Internet reagiert kaum.
 
 Arbeite die Schritte in dieser Reihenfolge durch. Das spart Zeit.

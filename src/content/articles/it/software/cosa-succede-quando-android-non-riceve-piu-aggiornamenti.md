@@ -5,10 +5,11 @@ listSummary: "Arriva l'ultimo aggiornamento, lo installi e poi non accade nulla 
 hub: "software"
 sourceNumber: 121
 order: 3
-tags: ["android","aggiornamenti","sicurezza","software","guida"]
+tags: ["android", "aggiornamenti", "sicurezza", "software", "guida"]
 locale: "it"
 draft: false
 ---
+
 È questo che rende insidiosi gli smartphone non più supportati. Non smettono di funzionare all'improvviso. Diventano semplicemente un po' più esposti ogni mese.
 
 ## Il rischio per la sicurezza aumenta nel tempo

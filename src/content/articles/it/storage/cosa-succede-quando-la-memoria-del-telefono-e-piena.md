@@ -5,10 +5,18 @@ listSummary: "Quando la memoria di un telefono Android è piena."
 hub: "storage"
 sourceNumber: 81
 order: 3
-tags: ["prestazioni","velocita","android","ottimizzazione","risoluzione-dei-problemi"]
+tags:
+  [
+    "prestazioni",
+    "velocita",
+    "android",
+    "ottimizzazione",
+    "risoluzione-dei-problemi",
+  ]
 locale: "it"
 draft: false
 ---
+
 ---
 
 Quando lo spazio di archiviazione di Android è pieno, il telefono non smette di funzionare in modo ordinato. Prima comincia a comportarsi in modo strano.

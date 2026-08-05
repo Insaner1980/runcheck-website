@@ -5,10 +5,18 @@ listSummary: "Prova la modalità provvisoria prima del ripristino dei dati di fa
 hub: "software"
 sourceNumber: 130
 order: 12
-tags: ["prestazioni","velocita","android","ottimizzazione","risoluzione-dei-problemi"]
+tags:
+  [
+    "prestazioni",
+    "velocita",
+    "android",
+    "ottimizzazione",
+    "risoluzione-dei-problemi",
+  ]
 locale: "it"
 draft: false
 ---
+
 Il consiglio sembra troppo semplice, ma è la risposta giusta per la maggior parte dei problemi Android. La modalità provvisoria è rapida, reversibile e non cancella nulla. Il ripristino dei dati di fabbrica elimina i contenuti del telefono e può trasformare un problema da cinque minuti in una serata passata a reinstallare app, recuperare account e ritrovare impostazioni che avevi dimenticato di aver cambiato.
 
 Prima la modalità provvisoria. Il ripristino per ultimo.

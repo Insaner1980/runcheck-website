@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 25
 order: 15
 subgroup: "Virrankulutus"
-tags: ["akku","virrankulutus","vianetsintä","android","suorituskyky"]
+tags: ["akku", "virrankulutus", "vianetsintä", "android", "suorituskyky"]
 locale: "fi"
 draft: false
 ---
+
 Piilevän akunkulutuksen selvittämisessä etsitään ennen kaikkea sitä, mikä pitää puhelimen hereillä näytön ollessa pois päältä.
 
 ## Aloita tylsästä näkymästä

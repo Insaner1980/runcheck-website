@@ -5,10 +5,11 @@ listSummary: "nätverk, anslutningar och android"
 hub: "network"
 sourceNumber: 102
 order: 13
-tags: ["nätverk","anslutningar","android","felsökning","guide"]
+tags: ["nätverk", "anslutningar", "android", "felsökning", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Telefonen visar `No Signal`, `No Service` eller `Emergency Calls Only`, och plötsligt är den dyra lilla datorn i handen bara en kamera med Wi-Fi. Irriterande, men inte alltid allvarligt.
 
 Tricket är att skilja mellan tre möjliga felkällor: telefonen, SIM-kortet eller eSIM-profilen och operatörens nät. Att gissa tar tid. Om du testar dem i rätt ordning brukar det bli tydligt var felet ligger.

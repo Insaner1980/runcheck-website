@@ -5,10 +5,11 @@ listSummary: "nettverk, tilkobling og android"
 hub: "network"
 sourceNumber: 100
 order: 11
-tags: ["nettverk","tilkobling","android","feilsøking","guide"]
+tags: ["nettverk", "tilkobling", "android", "feilsøking", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Wi-Fi-anrop er vanlige telefonsamtaler over Wi-Fi. Du bruker den vanlige Telefon-appen, det vanlige telefonnummeret ditt og mobilabonnementet ditt. Personen du ringer, trenger ikke WhatsApp, Signal, Telegram eller noen annen app.
 
 Det er hovedfordelen. Du kan sitte i en kjeller med én ustabil signalstrek, koble telefonen til et godt Wi-Fi-nettverk og fortsatt ringe på vanlig måte.

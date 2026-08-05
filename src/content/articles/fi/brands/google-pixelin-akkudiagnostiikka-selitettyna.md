@@ -5,10 +5,11 @@ listSummary: "akku, kunto ja diagnostiikka"
 hub: "brands"
 sourceNumber: 154
 order: 2
-tags: ["akku","kunto","diagnostiikka","android","opas"]
+tags: ["akku", "kunto", "diagnostiikka", "android", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Myös ajankohdalla on merkitystä. Android 17 on jo saatavilla useimmissa tuetuissa Pixel-laitteissa, ja muut Android-valmistajat tuovat omat Android 17 -pohjaiset päivityksensä myöhemmin. Tämä ei tarkoita, että jokainen Pixel saisi yhtäkkiä saman akkunäytön. Googlen akkudiagnostiikka riippuu edelleen mallista.
 
 ## Akun kunto ja kapasiteetti

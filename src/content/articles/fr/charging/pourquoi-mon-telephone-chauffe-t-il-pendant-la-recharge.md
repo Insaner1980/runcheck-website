@@ -5,10 +5,11 @@ listSummary: "recharge, batterie et android"
 hub: "charging"
 sourceNumber: 52
 order: 16
-tags: ["recharge","batterie","android","guide","materiel"]
+tags: ["recharge", "batterie", "android", "guide", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 Vous branchez votre téléphone, revenez 20 minutes plus tard et trouvez sa face arrière plus chaude que votre main. Une légère chaleur est normale. Un téléphone trop chaud pour être tenu confortablement ne l'est pas.
 
 La recharge produit toujours un peu de chaleur, car une partie de l'énergie reçue se transforme en chaleur perdue dans le chargeur, le câble et le téléphone. La recharge rapide en produit davantage. La recharge sans fil en génère souvent encore plus. La question n'est donc pas de savoir si le téléphone chauffe, mais s'il reste dans une plage normale ou commence à se protéger.
@@ -81,6 +82,6 @@ Un refroidisseur pour smartphone peut être utile si vous jouez longtemps avec l
 
 ## Peut-on vérifier la température ?
 
-Certains téléphones Android affichent la température de la batterie dans les réglages de batterie ou dans leurs outils de diagnostic. D'autres la masquent. Le code de numérotation *#*#4636#*#* ouvre un menu de test sur certains appareils, mais il ne fonctionne pas partout.
+Certains téléphones Android affichent la température de la batterie dans les réglages de batterie ou dans leurs outils de diagnostic. D'autres la masquent. Le code de numérotation _#_#4636#_#_ ouvre un menu de test sur certains appareils, mais il ne fonctionne pas partout.
 
 runcheck affiche en temps réel la température de la batterie et l'état thermique pendant la recharge. C'est utile, car la sensation de chaleur reste subjective. Les chiffres permettent de distinguer un téléphone simplement tiède d'un appareil qui atteint réellement ses limites thermiques.

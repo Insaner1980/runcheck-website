@@ -5,10 +5,11 @@ listSummary: "ydeevne, hastighed og android"
 hub: "network"
 sourceNumber: 96
 order: 7
-tags: ["ydeevne","hastighed","android","optimering","fejlfinding"]
+tags: ["ydeevne", "hastighed", "android", "optimering", "fejlfinding"]
 locale: "da"
 draft: false
 ---
+
 Hvad bør du prøve først, når Wi-Fi holder op med at virke på Android? Begynd ikke med en nulstilling til fabriksindstillinger, og brug ikke en halv time på at ændre routerindstillinger, før du har prøvet de enkle ting. De fleste Wi-Fi-problemer falder i tre grupper: Telefonen kan ikke oprette forbindelse, forbindelsen falder hele tiden ud, eller telefonen forbliver forbundet, men internettet føles dødt.
 
 Gå løsningerne igennem i denne rækkefølge. Det sparer tid.

@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 33
 order: 23
 subgroup: "Drain"
-tags: ["android","updates","sicherheit","software","ratgeber"]
+tags: ["android", "updates", "sicherheit", "software", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Ein großer Teil des Android-Akkuverbrauchs entsteht, während du gar nichts Besonderes mit dem Smartphone machst. Das Display ist aus, das Gerät liegt auf dem Tisch und trotzdem sinkt der Akkustand, weil Apps, Funkmodule, Sensoren und Kontosynchronisierungen es immer wieder aufwecken.
 
 Seit Android 17 im Juni 2026 zuerst für die meisten unterstützten Pixel-Geräte veröffentlicht wurde, befinden sich manche Menünamen in einer etwas unübersichtlichen Übergangsphase. Pixel-Smartphones erhalten die neue Android-Version zuerst, während Samsung, Xiaomi, OnePlus, Motorola und andere OEMs ihre Android-17-Versionen nach eigenen Zeitplänen verteilen. Die folgenden Grundsätze gelten weiterhin, doch der genaue Pfad kann je nach Smartphone um eine Menüebene abweichen.

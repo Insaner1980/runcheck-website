@@ -5,10 +5,11 @@ listSummary: "Les barres de réseau sont pratiques pour un coup d'œil, mais ce 
 hub: "network"
 sourceNumber: 93
 order: 4
-tags: ["reseau","connectivite","android","depannage","guide"]
+tags: ["reseau", "connectivite", "android", "depannage", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Le terme paraît plus technique qu'il ne l'est. Le dBm représente simplement le niveau de puissance que le téléphone reçoit du réseau mobile. Plus le nombre est proche de zéro, plus le signal est fort. Une valeur de -75 dBm est donc meilleure que -95 dBm. Rien de plus compliqué.
 
 ## Lire rapidement une valeur en dBm
@@ -19,13 +20,13 @@ L'échelle est logarithmique. Un écart de 3 dBm correspond approximativement à
 
 Pour la LTE et la plupart des connexions 5G sous 6 GHz, les valeurs suivantes constituent un repère pratique :
 
-| Valeur | Signification habituelle |
-|---|---|
-| -50 à -70 dBm | Excellent. Les appels et les données devraient être stables, sauf si l'antenne est saturée. |
-| -70 à -85 dBm | Bon. C'est une valeur normale à l'extérieur ou près d'une fenêtre avec une couverture correcte. |
-| -85 à -100 dBm | Utilisable, mais médiocre. La navigation fonctionne, le streaming peut mettre en mémoire tampon et le débit montant baisse souvent en premier. |
-| -100 à -110 dBm | Faible. Les appels peuvent couper, les messages peuvent arriver en retard et le modem consomme davantage pour maintenir la liaison. |
-| Inférieur à -110 dBm | Limite. Attendez-vous à des expirations, à de brèves pertes de service ou à un retour forcé vers une autre couche réseau. |
+| Valeur               | Signification habituelle                                                                                                                       |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| -50 à -70 dBm        | Excellent. Les appels et les données devraient être stables, sauf si l'antenne est saturée.                                                    |
+| -70 à -85 dBm        | Bon. C'est une valeur normale à l'extérieur ou près d'une fenêtre avec une couverture correcte.                                                |
+| -85 à -100 dBm       | Utilisable, mais médiocre. La navigation fonctionne, le streaming peut mettre en mémoire tampon et le débit montant baisse souvent en premier. |
+| -100 à -110 dBm      | Faible. Les appels peuvent couper, les messages peuvent arriver en retard et le modem consomme davantage pour maintenir la liaison.            |
+| Inférieur à -110 dBm | Limite. Attendez-vous à des expirations, à de brèves pertes de service ou à un retour forcé vers une autre couche réseau.                      |
 
 Ces seuils ne sont pas des limites universelles de réussite ou d'échec. Un téléphone à -95 dBm peut fonctionner correctement si le signal est propre et que l'antenne dispose encore de capacité. Un autre peut être lent à -75 dBm si la cellule est saturée ou très perturbée.
 

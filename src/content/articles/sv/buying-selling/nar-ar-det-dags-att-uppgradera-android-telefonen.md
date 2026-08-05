@@ -5,10 +5,11 @@ listSummary: "Du behöver förmodligen inte en ny Android-telefon bara för att 
 hub: "buying-selling"
 sourceNumber: 143
 order: 7
-tags: ["köpguide","android","jämförelse","värde","guide"]
+tags: ["köpguide", "android", "jämförelse", "värde", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Fördröjningen gör inte telefonen föråldrad. Den verkliga frågan är enklare: är den fortfarande säker, användbar och värd att reparera?
 
 ## Säkerhetsuppdateringarna är den verkliga tidsgränsen

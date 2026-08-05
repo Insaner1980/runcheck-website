@@ -6,9 +6,10 @@ hub: "battery"
 sourceNumber: 16
 order: 6
 subgroup: "Health"
-tags: ["battery","health","diagnostics","android","guide"]
+tags: ["battery", "health", "diagnostics", "android", "guide"]
 draft: false
 ---
+
 You notice the back panel lifting. Or the screen has a tiny gap at the edge. Or the phone suddenly rocks on a table even though it used to sit flat.
 
 Treat that as a stop sign. Phone battery swelling is not a performance issue. It is a damaged battery that needs careful handling.

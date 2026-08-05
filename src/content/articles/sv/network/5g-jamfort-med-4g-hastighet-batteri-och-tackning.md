@@ -5,10 +5,11 @@ listSummary: "5G är inte automatiskt det bästa valet varje minut på dygnet."
 hub: "network"
 sourceNumber: 94
 order: 5
-tags: ["prestanda","hastighet","android","optimering","felsökning"]
+tags: ["prestanda", "hastighet", "android", "optimering", "felsökning"]
 locale: "sv"
 draft: false
 ---
+
 Det är den del som telefonreklamen brukar hoppa över.
 
 ## Hastigheten beror på vilken sorts 5G du använder

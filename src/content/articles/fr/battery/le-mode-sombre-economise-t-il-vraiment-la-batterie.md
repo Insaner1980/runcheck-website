@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 29
 order: 19
 subgroup: "Drain"
-tags: ["batterie","mythes","android","test","faits"]
+tags: ["batterie", "mythes", "android", "test", "faits"]
 locale: "fr"
 draft: false
 ---
+
 Le mode sombre économise-t-il la batterie, ou s'agit-il simplement de l'un de ces conseils Android répétés depuis des années ? La réponse dépend de l'écran.
 
 Sur les téléphones OLED, y compris AMOLED, le mode sombre peut économiser de la batterie. Sur les écrans LCD, son effet est presque négligeable. Toute la différence est là. Android 17, One UI, Pixel UI, ColorOS, HyperOS et les autres interfaces Android peuvent déplacer le réglage, mais ils ne changent pas le fonctionnement du matériel d'affichage.

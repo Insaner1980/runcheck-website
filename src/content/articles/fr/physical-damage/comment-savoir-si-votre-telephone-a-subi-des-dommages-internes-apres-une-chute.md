@@ -5,10 +5,11 @@ listSummary: "Un téléphone peut tomber, paraître parfaitement normal et pourt
 hub: "physical-damage"
 sourceNumber: 132
 order: 2
-tags: ["temperature","thermique","android","depannage","materiel"]
+tags: ["temperature", "thermique", "android", "depannage", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 La plupart des chutes ne provoquent rien de grave. Mais si le téléphone commence à se comporter différemment juste après, ne vous persuadez pas que ce n'est qu'une coïncidence.
 
 ## Vérifiez d'abord la batterie

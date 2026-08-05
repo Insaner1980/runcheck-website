@@ -5,9 +5,10 @@ listSummary: "Hot weather phone habits"
 hub: "thermal"
 sourceNumber: 63
 order: 11
-tags: ["temperature","thermal","android","troubleshooting","hardware"]
+tags: ["temperature", "thermal", "android", "troubleshooting", "hardware"]
 draft: false
 ---
+
 You're outside at a beach, a festival, or a long walk, and the phone suddenly feels too warm to hold. Then the screen dims. A few minutes later, charging slows down or the camera refuses to record. That isn't random. The phone is protecting itself.
 
 Many phones are designed for normal use around 0°C to 35°C (32°F to 95°F). That doesn't mean the phone fails the second the air hits 36°C, but the margin is gone. Add direct sun, navigation, mobile data, video recording, or charging, and the battery temperature can climb fast.

@@ -5,10 +5,11 @@ listSummary: "diagnose, sensoren und android"
 hub: "hardware"
 sourceNumber: 116
 order: 13
-tags: ["diagnose","sensoren","android","hardware","ratgeber"]
+tags: ["diagnose", "sensoren", "android", "hardware", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Wasserbeständig ist nicht dasselbe wie wasserdicht, ganz gleich, wie überzeugend das Datenblatt klingt.
 
 Dein Smartphone hat entweder eine IP-Schutzart oder nicht. Es gibt keine App, keinen Wählcode und keine versteckte Android-Einstellung, mit der sich das nachträglich testen lässt.

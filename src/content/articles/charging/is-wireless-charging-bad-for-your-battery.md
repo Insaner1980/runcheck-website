@@ -5,9 +5,10 @@ listSummary: "Wireless charging heat tradeoffs"
 hub: "charging"
 sourceNumber: 40
 order: 4
-tags: ["charging","battery","android","guide","hardware"]
+tags: ["charging", "battery", "android", "guide", "hardware"]
 draft: false
 ---
+
 Is wireless charging bad for your battery, or is it just another thing the internet worries about too much? The fair answer is: wireless charging is fine, but it is easier to do badly than wired charging.
 
 The problem is not the wireless power itself. The problem is heat. Wireless charging wastes more energy during transfer than a cable does, and that wasted energy becomes warmth in the phone, pad, or both.

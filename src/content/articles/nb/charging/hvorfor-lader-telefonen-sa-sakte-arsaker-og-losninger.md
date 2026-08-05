@@ -5,10 +5,11 @@ listSummary: "lading, batteri og android"
 hub: "charging"
 sourceNumber: 47
 order: 11
-tags: ["lading","batteri","android","guide","maskinvare"]
+tags: ["lading", "batteri", "android", "guide", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 Telefonen sier at den trenger tre timer for å bli fulladet. I går trengte den én. Laderen ser lik ut, kabelen ser lik ut, og ingenting åpenbart har endret seg.
 
 Sakte lading er irriterende fordi årsaken ofte er kjedelig: en svak adapter, en skadet kabel, lommerusk, varme eller en app som bruker strøm mens laderen prøver å fylle batteriet. Begynn med dette før du går ut fra at batteriet er i ferd med å dø.

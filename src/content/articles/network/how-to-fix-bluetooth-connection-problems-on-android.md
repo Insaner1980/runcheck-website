@@ -5,9 +5,10 @@ listSummary: "Bluetooth connection fixes"
 hub: "network"
 sourceNumber: 98
 order: 9
-tags: ["network","connectivity","android","troubleshooting","guide"]
+tags: ["network", "connectivity", "android", "troubleshooting", "guide"]
 draft: false
 ---
+
 You're trying to pair earbuds, a watch, a speaker, or your car, and Android either doesn't see it or says it's connected while nothing works. Bluetooth is like that. It works quietly for months, then one saved pairing gets weird and the whole thing feels broken.
 
 Start with the simple checks before digging into settings. Most Bluetooth failures are not deep Android problems. They're stale pairings, low accessory batteries, distance, interference, or an accessory that isn't really in pairing mode.

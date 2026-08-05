@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 33
 order: 23
 subgroup: "Drain"
-tags: ["android","mises-a-jour","securite","logiciel","guide"]
+tags: ["android", "mises-a-jour", "securite", "logiciel", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Une grande partie de la décharge d'un téléphone Android se produit alors que vous ne faites rien de particulier. L'écran est éteint, l'appareil est posé sur une table, mais la batterie continue de baisser parce que des applications, des radios, des capteurs et les synchronisations de comptes le réveillent régulièrement.
 
 Android 17 a été publié le 16 juin 2026 et rendu disponible sur la plupart des Pixel compatibles. Les téléphones Samsung, Xiaomi, OnePlus, Motorola et ceux des autres fabricants reçoivent leurs propres versions d'Android 17 selon des calendriers distincts. Les principes ci-dessous restent valables, mais le chemin exact peut changer d'un niveau selon le téléphone et la version du logiciel.

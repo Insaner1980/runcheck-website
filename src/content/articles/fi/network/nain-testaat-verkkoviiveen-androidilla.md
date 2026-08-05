@@ -5,10 +5,11 @@ listSummary: "Olet videopuhelussa."
 hub: "network"
 sourceNumber: 103
 order: 14
-tags: ["verkko","yhteydet","android","vianetsintä","opas"]
+tags: ["verkko", "yhteydet", "android", "vianetsintä", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Viive mitataan millisekunteina (ms), ja pienempi arvo on parempi. Kolme tärkeintä lukua ovat ping, viivevaihtelu eli jitter ja pakettihävikki. Ping on edestakainen aika puhelimesta palvelimelle ja takaisin. Jitter kertoo, kuinka paljon tämä aika vaihtelee pyyntöjen välillä. Pakettihävikki on niiden datapakettien osuus, jotka eivät koskaan saavu perille.
 
 Yhteys, jonka latausnopeus on 100 Mbps ja ping 150 ms, voi tuntua huonommalta kuin 20 Mbps:n yhteys, jonka ping on 15 ms. Ajatus kuulostaa nurinkuriselta, kunnes kokeilet verkkopeliä, videopuhelua tai etätyöpöytää. Nopeus siirtää dataa. Viive määrää reagointiajan.

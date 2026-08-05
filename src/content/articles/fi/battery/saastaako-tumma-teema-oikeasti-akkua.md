@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 29
 order: 19
 subgroup: "Virrankulutus"
-tags: ["akku","myytit","android","testaus","faktat"]
+tags: ["akku", "myytit", "android", "testaus", "faktat"]
 locale: "fi"
 draft: false
 ---
+
 Säästääkö tumma teema akkua vai onko se vain yksi niistä Android-vinkeistä, joita toistetaan vuodesta toiseen? Rehellinen vastaus on, että se riippuu näytöstä.
 
 OLED-puhelimissa, AMOLED mukaan lukien, tumma teema voi säästää akkua. LCD-puhelimissa vaikutus on lähes olematon. Siinä koko jako. Android 17, One UI, Pixel UI, ColorOS, HyperOS ja muut Android-käyttöliittymät voivat muuttaa asetuksen paikkaa, mutta ne eivät muuta näytön laitteiston toimintaa.

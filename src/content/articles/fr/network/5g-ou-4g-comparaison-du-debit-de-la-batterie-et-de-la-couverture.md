@@ -5,10 +5,11 @@ listSummary: "La 5G n'est pas automatiquement le meilleur choix à chaque instan
 hub: "network"
 sourceNumber: 94
 order: 5
-tags: ["performances","vitesse","android","optimisation","depannage"]
+tags: ["performances", "vitesse", "android", "optimisation", "depannage"]
 locale: "fr"
 draft: false
 ---
+
 C'est la partie que le marketing des téléphones mentionne rarement.
 
 ## Le débit dépend du type de 5G utilisé

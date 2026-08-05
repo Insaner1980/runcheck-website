@@ -5,10 +5,11 @@ listSummary: "recharge, batterie et android"
 hub: "thermal"
 sourceNumber: 58
 order: 6
-tags: ["recharge","batterie","android","guide","materiel"]
+tags: ["recharge", "batterie", "android", "guide", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 Il est normal qu'un téléphone devienne légèrement chaud pendant la recharge. S'il devient désagréable à tenir, ce n'est plus normal.
 
 La recharge envoie de l'énergie dans une batterie lithium-ion, et une partie de cette énergie se transforme en chaleur. Vous le remarquerez davantage avec un chargeur de 25 W, 45 W ou 65 W qu'avec un ancien chargeur de 5 W. Cela ne signifie pas à lui seul que quelque chose est en panne. La vraie question est de savoir si le téléphone refroidit une fois la phase de recharge la plus intense terminée, ou s'il chauffe toujours davantage chaque fois que vous le branchez.

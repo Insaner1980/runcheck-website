@@ -5,10 +5,11 @@ listSummary: "Det kan være nyttigt at rydde cachelagrede filer, men kun når de
 hub: "storage"
 sourceNumber: 83
 order: 5
-tags: ["ydeevne","hastighed","android","optimering","fejlfinding"]
+tags: ["ydeevne", "hastighed", "android", "optimering", "fejlfinding"]
 locale: "da"
 draft: false
 ---
+
 Det er ikke automatisk affald. Det meste er der for at få apps til at føles hurtigere.
 
 Problemerne begynder, når cachelagrede filer bliver for store, bliver beskadiget eller overlever en større app- eller Android-opdatering, som ændrer den måde, appen fungerer på. Android 17 ændrer ikke grundreglen. Versionen blev udgivet til understøttede Pixel-enheder 16. juni 2026, mens andre producenter følger deres egne tidsplaner, men i standardversionen af Android håndteres cache stadig app for app.

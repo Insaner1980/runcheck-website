@@ -5,10 +5,11 @@ listSummary: "Varför visar en telefon din gångriktning exakt i Maps medan en a
 hub: "hardware"
 sourceNumber: 118
 order: 15
-tags: ["diagnostik","sensorer","android","hårdvara","guide"]
+tags: ["diagnostik", "sensorer", "android", "hårdvara", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Ett flaggskepp från 2026 kan ha gyroskop, barometer, fingeravtryckssensor under skärmen, flera sensorer som kan väcka systemet och en hel samling programvarubaserade rörelsesensorer. En billig telefon från några år tillbaka kanske bara har grunderna. Skillnaden märks när skärmrotation, automatisk ljusstyrka, kompassriktning, AR-appar eller funktionen för att väcka telefonen genom att lyfta den inte fungerar som väntat.
 
 ## Börja med en sensorapp

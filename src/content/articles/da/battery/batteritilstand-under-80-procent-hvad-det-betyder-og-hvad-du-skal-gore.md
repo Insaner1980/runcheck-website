@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 18
 order: 8
 subgroup: "Health"
-tags: ["batteri","tilstand","diagnostik","android","guide"]
+tags: ["batteri", "tilstand", "diagnostik", "android", "guide"]
 locale: "da"
 draft: false
 ---
+
 Batteritilstand er et estimat af, hvor meget opladning cellen kan holde sammenlignet med, da den var ny. Et batteri på 5.000 mAh med en tilstand på 80 % opfører sig mere som et batteri på 4.000 mAh. Telefonen virker stadig. Problemet er, at batteriet ikke længere har den samme reserve til kulde, intensiv kamerabrug, spil, navigation eller områder med svagt signal.
 
 Det er her, den mærkelige opførsel begynder.
@@ -46,7 +47,7 @@ På andre Android-telefoner bør du først tjekke batteriafsnittet i Indstilling
 
 Apps som AccuBattery kan stadig være nyttige, men betragt den første dags data som støj. De estimerer kapaciteten ved at følge opladning og afladning over tid. Giv dem flere opladninger, før du stoler på tallet.
 
-Opkaldskoden *#*#4636#*#* åbner nogle gange en testmenu med batterioplysninger. Nogle gange sker der ingenting. Den uensartethed er normal på producenternes Android-versioner.
+Opkaldskoden _#_#4636#_#_ åbner nogle gange en testmenu med batterioplysninger. Nogle gange sker der ingenting. Den uensartethed er normal på producenternes Android-versioner.
 
 ## Udskift, tilpas eller opgrader
 

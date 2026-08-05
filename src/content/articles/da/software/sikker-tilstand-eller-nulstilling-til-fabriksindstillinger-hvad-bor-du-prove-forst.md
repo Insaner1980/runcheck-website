@@ -5,10 +5,11 @@ listSummary: "Prøv sikker tilstand før en nulstilling til fabriksindstillinger
 hub: "software"
 sourceNumber: 130
 order: 12
-tags: ["ydeevne","hastighed","android","optimering","fejlfinding"]
+tags: ["ydeevne", "hastighed", "android", "optimering", "fejlfinding"]
 locale: "da"
 draft: false
 ---
+
 Det råd lyder næsten for enkelt, men det er det rigtige svar ved de fleste Android-problemer. Sikker tilstand er hurtig, kan fortrydes og sletter ikke noget. En nulstilling til fabriksindstillinger rydder telefonen og kan gøre et problem på fem minutter til en hel aften med geninstallation af apps, gendannelse af konti og jagt på indstillinger, du havde glemt, at du ændrede.
 
 Sikker tilstand først. Nulstilling sidst.

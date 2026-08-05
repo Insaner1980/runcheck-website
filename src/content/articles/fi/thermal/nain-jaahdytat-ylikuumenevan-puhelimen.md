@@ -5,10 +5,11 @@ listSummary: "lataaminen, akku ja android"
 hub: "thermal"
 sourceNumber: 54
 order: 2
-tags: ["lataaminen","akku","android","opas","laitteisto"]
+tags: ["lataaminen", "akku", "android", "opas", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 Pidät puhelinta kädessä, näyttö on himmentynyt, lataus on hidastunut tai pysähtynyt ja takaosa tuntuu liian kuumalta. Älä yritä keksiä mitään ovelaa. Jäähdytä laite tavallisella tavalla.
 
 ## Tee tämä ensin

@@ -5,10 +5,11 @@ listSummary: "laddning, batteri och android"
 hub: "charging"
 sourceNumber: 42
 order: 6
-tags: ["laddning","batteri","android","guide","hårdvara"]
+tags: ["laddning", "batteri", "android", "guide", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 Du kopplar in telefonen klockan 23.00, vaknar klockan 07.00 och ser att den har legat på 100 % i flera timmar. Det känns fel, mest för att gamla batteriråd vägrar försvinna.
 
 Förr handlade oron om överladdning. Det är inte det verkliga problemet längre. I dag handlar det om hur länge batteriet ligger fulladdat.

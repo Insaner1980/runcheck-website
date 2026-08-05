@@ -5,10 +5,11 @@ listSummary: "lading, batteri og android"
 hub: "charging"
 sourceNumber: 49
 order: 13
-tags: ["lading","batteri","android","guide","maskinvare"]
+tags: ["lading", "batteri", "android", "guide", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 Den tryggeste laderen til Android-telefonen trenger ikke å ha samme logo som telefonen. Det er her mange tar feil.
 
 En god USB-C-lader fra en kjent tredjepartsprodusent kan være like trygg og like rask som produsentens egen lader. Det virkelige problemet er en navnløs lader med falske merker, uklare spesifikasjoner og en mistenkelig pris. Logoen betyr mindre enn standardene, byggekvaliteten og kabelen.

@@ -5,10 +5,11 @@ listSummary: "prestanda, hastighet och android"
 hub: "performance"
 sourceNumber: 78
 order: 15
-tags: ["prestanda","hastighet","android","optimering","felsökning"]
+tags: ["prestanda", "hastighet", "android", "optimering", "felsökning"]
 locale: "sv"
 draft: false
 ---
+
 ---
 
 Bloatware får skulden för nästan alla långsamma Android-telefoner, men verkligheten är mindre dramatisk. En förinstallerad app gör inte telefonen långsammare bara för att ikonen finns där. Problemen börjar när appen körs i bakgrunden, väcker telefonen, skickar aviseringar, uppdaterar sig själv eller håller tjänster aktiva trots att du aldrig har bett om det.

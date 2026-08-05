@@ -5,10 +5,11 @@ listSummary: "maskinvare, skader og reparasjon"
 hub: "physical-damage"
 sourceNumber: 135
 order: 5
-tags: ["maskinvare","skader","reparasjon","android","feilsøking"]
+tags: ["maskinvare", "skader", "reparasjon", "android", "feilsøking"]
 locale: "nb"
 draft: false
 ---
+
 ---
 
 Det første tegnet er vanligvis ikke dramatisk. Et deksel ligger ikke lenger jevnt. Skjermbeskytteren løsner stadig i ett hjørne. Telefonen vipper på bordet selv om baksiden ser fin ut.

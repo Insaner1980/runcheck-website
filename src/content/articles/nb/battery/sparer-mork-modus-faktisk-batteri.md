@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 29
 order: 19
 subgroup: "Drain"
-tags: ["batteri","myter","android","testing","fakta"]
+tags: ["batteri", "myter", "android", "testing", "fakta"]
 locale: "nb"
 draft: false
 ---
+
 Sparer mørk modus batteri, eller er det bare et av disse Android-rådene som gjentas i det uendelige? Det ærlige svaret er: Det avhenger av skjermen.
 
 På telefoner med OLED, inkludert AMOLED, kan mørk modus spare batteri. På LCD-telefoner har den knapt noen betydning. Det er hele skillet. Android 17, One UI, Pixel UI, ColorOS, HyperOS og andre Android-grensesnitt kan endre hvor innstillingen ligger, men de endrer ikke hvordan skjermteknologien fungerer.

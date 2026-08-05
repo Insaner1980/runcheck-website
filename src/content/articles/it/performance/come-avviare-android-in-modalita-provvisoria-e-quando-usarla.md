@@ -5,10 +5,12 @@ listSummary: "Come avviare Android in modalità provvisoria, cosa viene disattiv
 hub: "performance"
 sourceNumber: 70
 order: 7
-tags: ["batteria","consumo","risoluzione-dei-problemi","android","prestazioni"]
+tags:
+  ["batteria", "consumo", "risoluzione-dei-problemi", "android", "prestazioni"]
 locale: "it"
 draft: false
 ---
+
 Come puoi capire se lo smartphone è lento perché Android sta avendo una brutta giornata oppure perché un'app sta creando problemi in background? La modalità provvisoria è il test più pulito.
 
 Avvia Android usando solo il software di sistema e le app preinstallate. Le app installate in seguito restano disattivate finché non riavvii normalmente. Non viene eliminato nulla. Lo scopo è isolare la causa: se il problema scompare in modalità provvisoria, probabilmente è coinvolta un'app di terze parti. Se rimane, controlla Android, la memoria interna, la batteria o l'hardware.

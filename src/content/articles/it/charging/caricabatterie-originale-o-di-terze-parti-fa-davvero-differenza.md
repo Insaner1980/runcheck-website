@@ -5,10 +5,11 @@ listSummary: "Quando serve il caricabatterie originale di uno smartphone Android
 hub: "charging"
 sourceNumber: 49
 order: 13
-tags: ["ricarica","batteria","android","guida","hardware"]
+tags: ["ricarica", "batteria", "android", "guida", "hardware"]
 locale: "it"
 draft: false
 ---
+
 Il caricabatterie più sicuro per uno smartphone Android non deve per forza avere lo stesso logo del telefono. È qui che molte persone si sbagliano.
 
 Un buon caricabatterie USB-C di un marchio conosciuto può essere sicuro e veloce quanto quello del produttore. Il vero problema è l'alimentatore senza marca, con simboli dubbi, specifiche vaghe e un prezzo sospetto. Il logo conta meno degli standard supportati, della qualità costruttiva e del cavo.

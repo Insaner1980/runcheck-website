@@ -5,10 +5,11 @@ listSummary: "Le tacche del segnale sono utili per un'occhiata veloce, ma non so
 hub: "network"
 sourceNumber: 93
 order: 4
-tags: ["rete","connettivita","android","risoluzione-dei-problemi","guida"]
+tags: ["rete", "connettivita", "android", "risoluzione-dei-problemi", "guida"]
 locale: "it"
 draft: false
 ---
+
 Sembra più complicato di quanto sia. I dBm indicano semplicemente il livello di potenza che il telefono riceve dalla rete mobile. Più il numero è vicino a zero, più il segnale è forte. Un valore di -75 dBm è migliore di -95 dBm. Tutto qui.
 
 ## Come leggere rapidamente i dBm
@@ -19,13 +20,13 @@ La scala è logaritmica. Ogni 3 dBm corrispondono approssimativamente a un raddo
 
 Per LTE e per la maggior parte delle connessioni 5G sub-6 GHz, queste fasce sono una buona regola pratica:
 
-| Valore | Che cosa significa in genere |
-|---|---|
-| Da -50 a -70 dBm | Eccellente. Chiamate e dati dovrebbero essere stabili, se la cella non è sovraccarica. |
-| Da -70 a -85 dBm | Buono. È un valore normale all'aperto o vicino a una finestra. |
-| Da -85 a -100 dBm | Utilizzabile, ma non ideale. La navigazione funziona, lo streaming può interrompersi e l'upload spesso peggiora per primo. |
+| Valore             | Che cosa significa in genere                                                                                                       |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Da -50 a -70 dBm   | Eccellente. Chiamate e dati dovrebbero essere stabili, se la cella non è sovraccarica.                                             |
+| Da -70 a -85 dBm   | Buono. È un valore normale all'aperto o vicino a una finestra.                                                                     |
+| Da -85 a -100 dBm  | Utilizzabile, ma non ideale. La navigazione funziona, lo streaming può interrompersi e l'upload spesso peggiora per primo.         |
 | Da -100 a -110 dBm | Debole. Le chiamate possono cadere, i messaggi arrivare in ritardo e il modem consumare più energia per mantenere il collegamento. |
-| Sotto -110 dBm | Marginale. Sono probabili timeout, momenti senza servizio o il passaggio forzato a un'altra tecnologia di rete. |
+| Sotto -110 dBm     | Marginale. Sono probabili timeout, momenti senza servizio o il passaggio forzato a un'altra tecnologia di rete.                    |
 
 Non sono soglie universali di promozione o bocciatura. Un telefono a -95 dBm può funzionare bene se il segnale è pulito e la cella ha capacità disponibile. Un altro a -75 dBm può essere lentissimo se la rete è congestionata o ci sono molte interferenze.
 

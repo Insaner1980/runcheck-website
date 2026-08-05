@@ -5,10 +5,11 @@ listSummary: "Du ser på knappen for tilbakestilling til fabrikkinnstillinger fo
 hub: "performance"
 sourceNumber: 67
 order: 4
-tags: ["ytelse","hastighet","android","optimalisering","feilsøking"]
+tags: ["ytelse", "hastighet", "android", "optimalisering", "feilsøking"]
 locale: "nb"
 draft: false
 ---
+
 Noen ganger er det riktig. Ofte er det bare et lettvint råd.
 
 En tilbakestilling kan hjelpe når tregheten skyldes programvare: oppblåste appdata, ødelagte innstillinger, korrupte buffere, for mange apper i bakgrunnen eller en rotete gjenoppretting etter flere år med oppgraderinger. Den reparerer ikke slitt flashlagring, et svakt batteri, dårlig varmehåndtering, for lite RAM eller en billig brikke som var treg allerede da telefonen var ny.

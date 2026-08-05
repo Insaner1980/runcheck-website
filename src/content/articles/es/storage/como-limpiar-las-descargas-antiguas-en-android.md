@@ -5,10 +5,11 @@ listSummary: "Las descargas antiguas ocupan espacio silenciosamente en los móvi
 hub: "storage"
 sourceNumber: 88
 order: 10
-tags: ["almacenamiento","android","limpieza","optimizacion","guia"]
+tags: ["almacenamiento", "android", "limpieza", "optimizacion", "guia"]
 locale: "es"
 draft: false
 ---
+
 Abres un PDF una vez, descargas un APK para hacer una prueba, guardas un archivo ZIP desde el navegador y luego te olvidas de todo. Seis meses después, la carpeta Descargas está llena de archivos que no reconoces.
 
 Es normal. Android envía allí muchos archivos de un solo uso y casi nadie trata ese espacio como algo que necesite mantenimiento. Lo necesita.

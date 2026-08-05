@@ -5,10 +5,11 @@ listSummary: "temperatura, termico y android"
 hub: "thermal"
 sourceNumber: 60
 order: 8
-tags: ["temperatura","termico","android","solucion-de-problemas","hardware"]
+tags: ["temperatura", "termico", "android", "solucion-de-problemas", "hardware"]
 locale: "es"
 draft: false
 ---
+
 Probablemente la funda no sea la razón por la que el móvil se calienta. Aun así, puede empeorar el problema.
 
 El calor se genera dentro del dispositivo: en el SoC, la GPU, el módem, la pantalla, la batería y el hardware de carga. Una funda no crea ese calor. Lo que hace es ralentizar la capacidad del móvil para expulsarlo. La mayoría de los días apenas importa. En el momento equivocado, con carga rápida, GPS, sol directo y una funda gruesa, importa mucho.

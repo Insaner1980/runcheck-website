@@ -5,10 +5,11 @@ listSummary: "Une grande partie des conseils en ligne sur la batterie appartient
 hub: "myths"
 sourceNumber: 145
 order: 1
-tags: ["mythes","faits","android","batterie","demystification"]
+tags: ["mythes", "faits", "android", "batterie", "demystification"]
 locale: "fr"
 draft: false
 ---
+
 Cela ne signifie pas que l'entretien de la batterie est inutile. Cela signifie que les vieux rituels ne méritent pas votre attention.
 
 ## Mythe : il faut vider le téléphone à 0 % avant de le recharger

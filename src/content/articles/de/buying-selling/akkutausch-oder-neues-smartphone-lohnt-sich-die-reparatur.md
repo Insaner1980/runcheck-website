@@ -5,10 +5,11 @@ listSummary: "Letzten Monat hielt dein Smartphone noch bis zum Schlafengehen dur
 hub: "buying-selling"
 sourceNumber: 142
 order: 6
-tags: ["kaufratgeber","android","vergleich","wert","ratgeber"]
+tags: ["kaufratgeber", "android", "vergleich", "wert", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Dieser Unterschied kann viel Geld sparen.
 
 Ein Akkutausch gehört zu den Reparaturen mit dem besten Preis-Leistungs-Verhältnis. Das gilt aber nur, wenn das Smartphone noch Software-Support erhält, schnell genug ist und nicht gleichzeitig mehrere andere Hardwareprobleme hat. Sonst setzt du lediglich einen frischen Akku in ein Gerät ein, das ohnehin bald ausgedient hat.
@@ -105,4 +106,4 @@ Wechsle das Smartphone, wenn der Support beendet ist, die Leistung schon heute s
 
 Die langweilige Antwort ist meistens die richtige: Kaufe kein neues Smartphone, um ein einzelnes Verschleißteil zu ersetzen. Repariere aber auch kein Gerät, das bereits drei andere Prüfungen nicht bestanden hat. Ein Akkutausch ist Wartung. Ein Upgrade ist Ersatz. Du solltest wissen, welches Problem du tatsächlich lösen willst.
 
-*Meta-Beschreibung: Praktischer Vergleich zwischen Akkutausch und neuem Android-Smartphone, mit Reparaturpreisen, Akkuprüfung bei Pixel und Samsung, Software-Support und Entscheidungsregeln.*
+_Meta-Beschreibung: Praktischer Vergleich zwischen Akkutausch und neuem Android-Smartphone, mit Reparaturpreisen, Akkuprüfung bei Pixel und Samsung, Software-Support und Entscheidungsregeln._

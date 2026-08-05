@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 29
 order: 19
 subgroup: "Drain"
-tags: ["batteri","myter","android","testning","fakta"]
+tags: ["batteri", "myter", "android", "testning", "fakta"]
 locale: "sv"
 draft: false
 ---
+
 Sparar mörkt läge batteri, eller är det bara ett av de där Android-råden som upprepas i all evighet? Det ärliga svaret är att det beror på skärmen.
 
 På telefoner med OLED, inklusive AMOLED, kan mörkt läge spara batteri. På LCD-telefoner spelar det knappt någon roll. Det är hela skiljelinjen. Android 17, One UI, Pixel UI, ColorOS, HyperOS och andra Android-gränssnitt kan ändra var inställningen finns, men de ändrar inte hur skärmhårdvaran fungerar.

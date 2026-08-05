@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 28
 order: 18
 subgroup: "Drain"
-tags: ["batteri","strømforbrug","fejlfinding","android","ydeevne"]
+tags: ["batteri", "strømforbrug", "fejlfinding", "android", "ydeevne"]
 locale: "da"
 draft: false
 ---
+
 Ja, 5G kan bruge mere batteri end 4G LTE. Det er bare ikke den katastrofe, det var på den første bølge af 5G-telefoner.
 
 En analyse fra Ooklas Speedtest Intelligence viste et 6-11 % højere batteriforbrug på 5G end på LTE, afhængigt af telefonens SoC. Det er en reel forskel. Men på en nyere telefon med et ordentligt signal er det som regel ikke forskellen mellem at komme gennem dagen og stå med en død telefon. På en ældre 5G-telefon eller et sted, hvor den hele tiden skifter mellem LTE og 5G, kan påvirkningen stadig være tydelig.

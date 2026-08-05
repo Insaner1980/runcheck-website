@@ -5,10 +5,11 @@ listSummary: "lataaminen, akku ja android"
 hub: "charging"
 sourceNumber: 44
 order: 8
-tags: ["lataaminen","akku","android","opas","laitteisto"]
+tags: ["lataaminen", "akku", "android", "opas", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 Laturi voi sopia liittimeen mutta epäonnistua itse latauksessa. USB-C kertoo vain, että pistoke sopii. Se ei kerro, onnistuivatko virtalähde, kaapeli ja puhelin sopimaan pikalatauksesta.
 
 Android 17 ei muuta tätä perusongelmaa. Androidissa ei edelleenkään ole yhtä yleistä näkymää, joka ilmoittaisi: "Tämä laturi syöttää juuri nyt 23,4 W." Teho on pääteltävä muista tiedoista tai mitattava kunnolla.

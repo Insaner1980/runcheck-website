@@ -5,10 +5,11 @@ listSummary: "Vérifiez la date de la mise à jour de sécurité et la disponibi
 hub: "software"
 sourceNumber: 122
 order: 4
-tags: ["android","mises-a-jour","securite","logiciel","guide"]
+tags: ["android", "mises-a-jour", "securite", "logiciel", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Sur la plupart des téléphones Android, ouvrez la page À propos du téléphone dans Paramètres et cherchez Mise à jour de sécurité Android ou Niveau du correctif de sécurité Android. La date ressemble à 2026-06-05.
 
 ## Où trouver la date du correctif

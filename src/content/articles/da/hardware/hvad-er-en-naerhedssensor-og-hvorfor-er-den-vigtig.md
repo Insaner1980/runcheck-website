@@ -5,10 +5,11 @@ listSummary: "diagnostik, sensorer og android"
 hub: "hardware"
 sourceNumber: 117
 order: 14
-tags: ["diagnostik","sensorer","android","hardware","guide"]
+tags: ["diagnostik", "sensorer", "android", "hardware", "guide"]
 locale: "da"
 draft: false
 ---
+
 Midt i et opkald vågner skærmen mod dit ansigt, og din kind åbner tastaturet. Det skyldes som regel, at denne lille sensor svigter i den ene opgave, som ingen lægger mærke til, før den holder op med at virke.
 
 Sensoren fortæller telefonen, når noget er tæt på frontglasset. Under et opkald er det "noget" normalt dit ansigt. Android slukker derefter skærmen og ignorerer berøringer, så dit øre ikke bliver et tilbehør til touchskærmen.

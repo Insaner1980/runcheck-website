@@ -5,10 +5,11 @@ listSummary: "Metodi pratici per controllare la qualità della fotocamera di uno
 hub: "hardware"
 sourceNumber: 110
 order: 7
-tags: ["hardware","test","diagnostica","android","guida"]
+tags: ["hardware", "test", "diagnostica", "android", "guida"]
 locale: "it"
 draft: false
 ---
+
 ---
 
 Testare una fotocamera diventa più semplice quando smetti di concentrarti sui megapixel. Un sensore da 50 MP può comunque produrre foto scadenti se il vetro è sporco, l'autofocus è guasto o il modulo della fotocamera si è spostato leggermente dopo un urto.

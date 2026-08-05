@@ -5,10 +5,11 @@ listSummary: "ydeevne, hastighed og android"
 hub: "performance"
 sourceNumber: 71
 order: 8
-tags: ["ydeevne","hastighed","android","optimering","fejlfinding"]
+tags: ["ydeevne", "hastighed", "android", "optimering", "fejlfinding"]
 locale: "da"
 draft: false
 ---
+
 Du sidder og stirrer på Android Recovery, bruger lydstyrkeknapperne, som om det stadig var 2012, og leder efter **Wipe cache partition**. På nogle telefoner er valget der. På andre er det væk. Og på enkelte har det aldrig været tilgængeligt.
 
 Det er grunden til, at emnet er mere rodet, end de fleste vejledninger giver indtryk af. Det kan stadig være nyttigt at rydde cachepartitionen på visse Samsung-telefoner og ældre Android-enheder, men det er ikke længere en universel Android-funktion.

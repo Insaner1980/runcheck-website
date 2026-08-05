@@ -5,10 +5,11 @@ listSummary: "Die meisten Android-Nutzer brauchen keine separate Antiviren-App."
 hub: "software"
 sourceNumber: 126
 order: 8
-tags: ["sicherheit","schadsoftware","android","datenschutz","ratgeber"]
+tags: ["sicherheit", "schadsoftware", "android", "datenschutz", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Wenn du Apps nur aus Google Play installierst, Android aktuell hältst und nicht auf beliebige APK-Links tippst, reicht der integrierte Schutz von Android in der Regel aus. Wenn du dagegen häufig Apps per Sideloading installierst, ein nicht mehr unterstütztes Smartphone verwendest oder mit dem Gerät sensible Arbeitsdaten bearbeitest, kann eine zusätzliche Sicherheits-App sinnvoll sein.
 
 Entscheidend ist dein Verhalten, nicht ein diffuses Sicherheitsgefühl.

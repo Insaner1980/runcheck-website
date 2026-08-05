@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 28
 order: 18
 subgroup: "Drain"
-tags: ["bateria","consumo","solucion-de-problemas","android","rendimiento"]
+tags: ["bateria", "consumo", "solucion-de-problemas", "android", "rendimiento"]
 locale: "es"
 draft: false
 ---
+
 Sí, el 5G puede gastar más batería que el 4G LTE. Simplemente, la diferencia ya no es el desastre que se veía en la primera generación de móviles 5G.
 
 Un análisis de Speedtest Intelligence de Ookla observó que el 5G utilizaba aproximadamente entre un 6 % y un 11 % más de batería que LTE, según el SoC del móvil. La diferencia existe. Pero en un móvil reciente y con buena cobertura, normalmente no decide por sí sola si llegas al final del día o terminas con el teléfono apagado. En un móvil 5G antiguo, o en una zona donde cambia constantemente entre LTE y 5G, el efecto todavía puede ser evidente.

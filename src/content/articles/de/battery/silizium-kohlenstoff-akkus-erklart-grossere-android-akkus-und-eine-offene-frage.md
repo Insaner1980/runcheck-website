@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 20
 order: 10
 subgroup: "Health"
-tags: ["akkutechnik","wissenschaft","ratgeber","hardware"]
+tags: ["akkutechnik", "wissenschaft", "ratgeber", "hardware"]
 locale: "de"
 draft: false
 ---
+
 Der Grund ist Silizium-Kohlenstoff. Es handelt sich weiterhin um Lithium-Ionen-Technik, aber die Anode hat sich verändert.
 
 ## Was sich an der Anode geändert hat

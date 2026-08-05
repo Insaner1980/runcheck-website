@@ -5,10 +5,11 @@ listSummary: "Android har ingen enkelt knapp som sjekker alt på én gang."
 hub: "device-health"
 sourceNumber: 7
 order: 3
-tags: ["android","oppdateringer","sikkerhet","programvare","guide"]
+tags: ["android", "oppdateringer", "sikkerhet", "programvare", "guide"]
 locale: "nb"
 draft: false
 ---
+
 ## Den raskeste veien: produsentens diagnoseverktøy
 
 Mange store Android-produsenter leverer sitt eget diagnoseverktøy, enten ferdig installert eller tilgjengelig via en skjult kode. Begynn her før du installerer noe.

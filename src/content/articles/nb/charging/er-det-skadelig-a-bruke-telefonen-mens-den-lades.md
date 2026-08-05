@@ -5,10 +5,11 @@ listSummary: "Det er trygt å bruke telefonen mens den lades med en sertifisert 
 hub: "charging"
 sourceNumber: 41
 order: 5
-tags: ["lading","batteri","android","guide","maskinvare"]
+tags: ["lading", "batteri", "android", "guide", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 Du spiller, batteriet er på 12 %, og laderen ligger rett ved siden av deg. Du kobler den til og fortsetter. Telefonen blir varm, bildefrekvensen faller, og nå lurer du på om du nettopp har gjort noe fryktelig mot batteriet.
 
 Sannsynligvis ikke. Men du har skapt akkurat den kombinasjonen av varmekilder som batterier misliker.

@@ -5,10 +5,11 @@ listSummary: "Votre batterie est à 18 %, l'icône est rouge et l'écran des app
 hub: "myths"
 sourceNumber: 146
 order: 2
-tags: ["mythes","faits","android","batterie","demystification"]
+tags: ["mythes", "faits", "android", "batterie", "demystification"]
 locale: "fr"
 draft: false
 ---
+
 En réalité, cela n'économise pas vraiment la batterie.
 
 ## La réponse reste la même : non

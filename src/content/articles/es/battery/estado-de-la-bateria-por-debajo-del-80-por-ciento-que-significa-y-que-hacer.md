@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 18
 order: 8
 subgroup: "Health"
-tags: ["bateria","estado","diagnostico","android","guia"]
+tags: ["bateria", "estado", "diagnostico", "android", "guia"]
 locale: "es"
 draft: false
 ---
+
 El estado de la batería estima cuánta carga puede almacenar la celda en comparación con cuando era nueva. Una batería de 5000 mAh al 80 % se comporta más como una de 4000 mAh. El móvil sigue funcionando. El problema es que ya no dispone de la misma reserva para el frío, el uso intensivo de la cámara, los juegos, la navegación o las zonas con poca cobertura.
 
 Ahí es cuando empiezan los comportamientos extraños.
@@ -46,7 +47,7 @@ En otros móviles Android, revisa primero la sección de batería de Ajustes. Al
 
 Aplicaciones como AccuBattery pueden seguir siendo útiles, pero considera el primer día de datos como ruido. Estiman la capacidad observando el comportamiento de carga y descarga a lo largo del tiempo. Déjalas recopilar varias sesiones antes de confiar en la cifra.
 
-El código de marcación *#*#4636#*#* abre en algunos móviles un menú de pruebas con información de la batería. En otros no hace nada. Esa irregularidad es normal en las versiones de Android modificadas por los fabricantes.
+El código de marcación _#_#4636#_#_ abre en algunos móviles un menú de pruebas con información de la batería. En otros no hace nada. Esa irregularidad es normal en las versiones de Android modificadas por los fabricantes.
 
 ## Cambiarla, adaptarte o renovar el móvil
 

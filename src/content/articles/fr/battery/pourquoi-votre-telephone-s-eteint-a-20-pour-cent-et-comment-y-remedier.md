@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 22
 order: 12
 subgroup: "Drain"
-tags: ["batterie","calibrage","depannage","android","guide"]
+tags: ["batterie", "calibrage", "depannage", "android", "guide"]
 locale: "fr"
 draft: false
 ---
+
 D'une certaine manière, c'est le cas. Le nombre affiché est une estimation, et une batterie vieillissante est plus difficile à évaluer correctement.
 
 ## La première chose à vérifier

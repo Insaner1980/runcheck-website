@@ -5,10 +5,11 @@ listSummary: "comparacion, aplicaciones y android"
 hub: "device-health"
 sourceNumber: 140
 order: 9
-tags: ["comparacion","aplicaciones","android","guia-de-compra","analisis"]
+tags: ["comparacion", "aplicaciones", "android", "guia-de-compra", "analisis"]
 locale: "es"
 draft: false
 ---
+
 Una buena aplicación para comprobar el estado del móvil debería decirte qué datos proporciona el dispositivo, cuáles son poco fiables y qué puedes hacer después. Una mala muestra un enorme botón de «Optimizar», reproduce una animación y espera que pulses un anuncio.
 
 Esa es la diferencia. Deja de ser sutil en cuanto sabes qué buscar.

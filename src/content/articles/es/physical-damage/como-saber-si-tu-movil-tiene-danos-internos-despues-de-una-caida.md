@@ -5,10 +5,11 @@ listSummary: "Un móvil puede golpear el suelo, parecer completamente normal y t
 hub: "physical-damage"
 sourceNumber: 132
 order: 2
-tags: ["temperatura","termico","android","solucion-de-problemas","hardware"]
+tags: ["temperatura", "termico", "android", "solucion-de-problemas", "hardware"]
 locale: "es"
 draft: false
 ---
+
 La mayoría de las caídas no causan nada grave. Pero si el móvil empieza a comportarse de otra manera después, no te convenzas de que no merece la pena revisarlo.
 
 ## Comprueba primero la batería

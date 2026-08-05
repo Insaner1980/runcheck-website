@@ -5,10 +5,18 @@ listSummary: "El almacenamiento de los móviles utiliza memoria flash NAND."
 hub: "storage"
 sourceNumber: 89
 order: 11
-tags: ["rendimiento","velocidad","android","optimizacion","solucion-de-problemas"]
+tags:
+  [
+    "rendimiento",
+    "velocidad",
+    "android",
+    "optimizacion",
+    "solucion-de-problemas",
+  ]
 locale: "es"
 draft: false
 ---
+
 Un móvil puede tener un SoC rápido, mucha RAM y aun así volverse torpe cuando el almacenamiento está casi lleno. Las aplicaciones tardan en abrirse. La cámara necesita un instante adicional para guardar una foto. Las actualizaciones se alargan más de lo razonable.
 
 No siempre es culpa del procesador. A veces el cuello de botella es el almacenamiento.

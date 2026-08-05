@@ -5,9 +5,10 @@ listSummary: "Samsung diagnostic menu guide"
 hub: "brands"
 sourceNumber: 160
 order: 8
-tags: ["manufacturer","android","diagnostics","brand-specific","guide"]
+tags: ["manufacturer", "android", "diagnostics", "brand-specific", "guide"]
 draft: false
 ---
+
 You type `*#0*#` into the Samsung Phone app, and the normal dialer disappears. In its place you get a plain grid of test buttons for the screen, touch panel, speakers, sensors, cameras, vibration motor, and buttons.
 
 When it works, it feels almost too easy. When it doesn't, it can be surprisingly frustrating because Samsung doesn't present this menu like a normal consumer feature. Treat it as a low-level service menu that often works on Galaxy phones, not as a guaranteed feature on every model, carrier build, or region.

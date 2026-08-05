@@ -5,12 +5,12 @@ listSummary: "Vuoden tai kaksi käytetty puhelin voi näyttää täysin ehjält�
 hub: "buying-selling"
 sourceNumber: 2
 order: 1
-tags: ["osto-opas","android","vertailu","arvo","opas"]
+tags: ["osto-opas", "android", "vertailu", "arvo", "opas"]
 locale: "fi"
 draft: false
 ---
-Todellisen kunnon arviointi vie noin 15 minuuttia, eikä sitä varten tarvitse asentaa mitään.
 
+Todellisen kunnon arviointi vie noin 15 minuuttia, eikä sitä varten tarvitse asentaa mitään.
 
 ## Aloita asioista, joita et näe
 
@@ -24,7 +24,6 @@ Yli 90 prosentin akun kunto on hyvä. 80-90 prosenttia kertoo selvästä käytö
 
 Tallennustilan kuntoa on vaikeampi mitata, mutta se kannattaa silti tarkistaa. Avaa asetusten tallennustilanäkymä ja katso, kuinka täynnä puhelin on. Pelkkää lukua olennaisempaa on laitteen käytös. Epäröikö puhelin sovelluksia avatessa? Kestääkö kuvan tallentuminen kamerasta hetken? NAND-flashmuisti hidastuu täyttyessään ja solujen kuluessa toistuvista kirjoituksista. Oireet näkyvät yleisenä tahmeutena, jota erehdytään helposti pitämään hitaan suorittimen vikana.
 
-
 ## Fyysinen kunto
 
 Pidä puhelinta kirkkaassa valossa ja katso näyttöä useasta kulmasta. Edestä näkymättömät pienet naarmut erottuvat sivulta. Tarkista erityisesti reunat, joista pudotuksessa syntyvät halkeamat usein alkavat. Aseta puhelin tasaiselle pöydälle. Jos se keinuu, runko voi olla vääntynyt tai akku on alkanut turvota. Turvonnut akku on turvallisuusriski, ei vain suorituskykyongelma.
@@ -33,13 +32,11 @@ Latausporttiin kertyy kuukausien aikana taskunöyhtää. Katso portin sisään t
 
 Painikkeiden pitäisi napsahtaa selkeästi. Pehmeäksi muuttunut virtapainike tai äänenvoimakkuuspainike, jota joutuu painamaan kahdesti, on kulumaa, joka ei korjaannu itsestään.
 
-
 ## Näyttö ja kosketus
 
 Kuolleet pikselit näkyvät pieninä tummina pisteinä valkoisella taustalla. Avaa selaimessa valkoinen koko näytön testikuva ja katso näyttö tarkasti. Tee sama puhtaalla punaisella, vihreällä, sinisellä ja mustalla, jotta löydät myös yksittäisten osapikselien viat. OLED-näyttöön voi jäädä haamukuva kuukausia samassa kohdassa näkyneistä elementeistä, kuten navigointipalkista, tilapalkista tai usein käytetyn sovelluksen käyttöliittymästä. Keskiharmaa koko näytön kuva paljastaa kiinnipalamisen yleensä parhaiten.
 
 Kosketuksen kuolleita alueita on vaikeampi huomata. Ota kehittäjäasetukset käyttöön napauttamalla puhelintietojen Build number -kohtaa seitsemän kertaa ja ota sitten käyttöön Show pointer location. Vedä sormea hitaasti koko näytön poikki. Koordinaattijäljen pitäisi seurata liikettä katkeamatta, erityisesti kulmissa ja reunoilla, joissa näyttökaapelin liitokset ovat alttiimpia iskuvaurioille.
-
 
 ## Anturit, kaiuttimet ja kamerat
 
@@ -49,11 +46,9 @@ Samsung-puhelimissa `*#0*#` voi avata erillisen laitteistotestivalikon, jossa on
 
 Toista musiikkia kaiuttimesta eri äänenvoimakkuuksilla. Rätinä tai särö jo kohtuullisella voimakkuudella viittaa kaiutinvaurioon. Tallenna mikrofonilla lyhyt äänileike ja kuuntele se. Avaa etu- ja takakamera ja ota muutama kuva hyvässä valossa. Tarkista tarkennusongelmat, sumeat alueet ja kamera, joka hakee tarkennusta edestakaisin saamatta sitä lukittua.
 
-
 ## Vesivahinko
 
 Monissa Android-puhelimissa on SIM-korttikelkan aukosta näkyvä kosteudenilmaisin eli LCI. Irrota kelkka ja katso aukkoon valolla. Valkoinen tai hopeanvärinen ilmaisin tarkoittaa yleensä, ettei se ole reagoinut nesteeseen. Vaaleanpunainen tai punainen kertoo, että puhelimen sisään on jossain vaiheessa päässyt nestettä. Vaaleanpunainen ilmaisin ei tarkoita, että puhelin olisi juuri nyt rikki, mutta sisäinen korroosio voi pahentua ajan myötä. Tieto kannattaa ottaa huomioon, vaikka se ei yksinään estäisi kauppaa.
-
 
 ## Ohjelmiston tila
 

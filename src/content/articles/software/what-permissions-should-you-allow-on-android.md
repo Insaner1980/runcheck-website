@@ -5,9 +5,10 @@ listSummary: "Android permission choices"
 hub: "software"
 sourceNumber: 127
 order: 9
-tags: ["android","permissions","privacy","security","guide"]
+tags: ["android", "permissions", "privacy", "security", "guide"]
 draft: false
 ---
+
 A camera app asking for camera access makes sense. A flashlight asking for contacts doesn't. Most permission decisions are not more complicated than that.
 
 The problem is timing. Apps ask when you're trying to get something done, so Allow becomes the fast button. That's how bad permissions pile up.

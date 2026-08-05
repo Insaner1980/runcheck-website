@@ -5,10 +5,11 @@ listSummary: "Le cause più comuni di una ricarica lenta su Android e come diagn
 hub: "charging"
 sourceNumber: 47
 order: 11
-tags: ["ricarica","batteria","android","guida","hardware"]
+tags: ["ricarica", "batteria", "android", "guida", "hardware"]
 locale: "it"
 draft: false
 ---
+
 Lo smartphone indica tre ore per arrivare al 100 %. Ieri ne bastava una. Il caricabatterie sembra lo stesso, il cavo sembra lo stesso e non è cambiato nulla di evidente.
 
 La ricarica lenta irrita proprio perché spesso dipende da qualcosa di banale: un alimentatore debole, un cavo danneggiato, lanugine nella porta, calore oppure un'app che consuma energia mentre il caricabatterie cerca di riempire la batteria. Parti da questi elementi prima di concludere che la batteria sia arrivata alla fine.

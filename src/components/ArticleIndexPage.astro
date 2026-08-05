@@ -1,11 +1,14 @@
 ---
-import type { CollectionEntry } from 'astro:content';
-import { articlePath } from '../data/articlePaths.mjs';
-import { buildBreadcrumbJsonLd } from '../data/seo.mjs';
-import BaseLayout from '../layouts/BaseLayout.astro';
-import ArticleCTA from './ArticleCTA.astro';
-import ArticleSearch from './ArticleSearch.astro';
-import { ARTICLE_LOCALES, ROUTED_ARTICLE_LOCALE_CODES } from '../data/articleLocales.mjs';
+import type { CollectionEntry } from "astro:content";
+import { articlePath } from "../data/articlePaths.mjs";
+import { buildBreadcrumbJsonLd } from "../data/seo.mjs";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ArticleCTA from "./ArticleCTA.astro";
+import ArticleSearch from "./ArticleSearch.astro";
+import {
+  ARTICLE_LOCALES,
+  ROUTED_ARTICLE_LOCALE_CODES,
+} from "../data/articleLocales.mjs";
 
 type ArticleLocale = keyof typeof ARTICLE_LOCALES;
 
@@ -18,16 +21,19 @@ interface ArticleHub {
 
 interface Props {
   locale: ArticleLocale;
-  articles: CollectionEntry<'articles'>[];
+  articles: CollectionEntry<"articles">[];
   hubs: ArticleHub[];
 }
 
 const { locale, articles, hubs } = Astro.props;
-const copy = { ...ARTICLE_LOCALES[locale].index, canonicalPath: ARTICLE_LOCALES[locale].root };
-const site = Astro.site ?? new URL('https://runcheckapp.com');
+const copy = {
+  ...ARTICLE_LOCALES[locale].index,
+  canonicalPath: ARTICLE_LOCALES[locale].root,
+};
+const site = Astro.site ?? new URL("https://runcheckapp.com");
 const breadcrumbJsonLd = buildBreadcrumbJsonLd(
   [
-    { name: 'runcheck', path: '/' },
+    { name: "runcheck", path: "/" },
     { name: copy.breadcrumb, path: copy.canonicalPath },
   ],
   site,
@@ -40,10 +46,15 @@ const breadcrumbJsonLd = buildBreadcrumbJsonLd(
   canonicalPath={copy.canonicalPath}
   lang={locale}
   alternateLocales={[
-    ...ROUTED_ARTICLE_LOCALE_CODES.map((code) => ({ lang: code, path: ARTICLE_LOCALES[code].root })),
-    { lang: 'x-default', path: '/articles/' },
+    ...ROUTED_ARTICLE_LOCALE_CODES.map((code) => ({
+      lang: code,
+      path: ARTICLE_LOCALES[code].root,
+    })),
+    { lang: "x-default", path: "/articles/" },
   ]}
-  metaRobots={ARTICLE_LOCALES[locale].productionPublished ? undefined : 'noindex, nofollow'}
+  metaRobots={ARTICLE_LOCALES[locale].productionPublished
+    ? undefined
+    : "noindex, nofollow"}
   jsonLd={breadcrumbJsonLd}
 >
   <section class="article-index-hero border-b border-run-border">
@@ -55,50 +66,73 @@ const breadcrumbJsonLd = buildBreadcrumbJsonLd(
         <ArticleSearch variant="page" locale={locale} />
       </div>
       <nav class="article-category-nav" aria-label={copy.categoriesLabel}>
-        {hubs.map((hub) => (
-          <a class="article-category-link" href={`#${hub.slug}`}>{hub.title}</a>
-        ))}
+        {
+          hubs.map((hub) => (
+            <a class="article-category-link" href={`#${hub.slug}`}>
+              {hub.title}
+            </a>
+          ))
+        }
       </nav>
     </div>
   </section>
 
   <div class="article-index-sections">
-    {hubs.map((hub) => {
-      const hubArticles = articles.filter((article) => article.data.hub === hub.slug);
-      const featuredArticles = hubArticles.slice(0, 3);
-      const remainingCount = hubArticles.length - featuredArticles.length;
+    {
+      hubs.map((hub) => {
+        const hubArticles = articles.filter(
+          (article) => article.data.hub === hub.slug,
+        );
+        const featuredArticles = hubArticles.slice(0, 3);
+        const remainingCount = hubArticles.length - featuredArticles.length;
 
-      return (
-        <section class="article-index-section border-b border-run-border" id={hub.slug}>
-          <div class="article-page-shell article-page-shell-wide article-index-section-shell">
-            <header class="article-index-section-header">
-              <div>
-                <h2 class="article-index-section-title">{hub.title}</h2>
-                <p class="article-index-section-description">{hub.description}</p>
-              </div>
-              {remainingCount > 0 && (
-                <a class="article-index-more-link" href={hub.href}>
-                  {copy.viewMore(remainingCount)} <span aria-hidden="true">→</span>
-                </a>
-              )}
-            </header>
-            <ul class="article-link-list" role="list">
-              {featuredArticles.map((article) => (
-                <li>
-                  <a class="article-list-link" href={articlePath(article.data.hub, article.id, locale)}>
-                    <span class="article-list-title">{article.data.title}</span>
-                    <span class="article-list-description">{article.data.listSummary ?? article.data.description}</span>
+        return (
+          <section
+            class="article-index-section border-b border-run-border"
+            id={hub.slug}
+          >
+            <div class="article-page-shell article-page-shell-wide article-index-section-shell">
+              <header class="article-index-section-header">
+                <div>
+                  <h2 class="article-index-section-title">{hub.title}</h2>
+                  <p class="article-index-section-description">
+                    {hub.description}
+                  </p>
+                </div>
+                {remainingCount > 0 && (
+                  <a class="article-index-more-link" href={hub.href}>
+                    {copy.viewMore(remainingCount)}{" "}
+                    <span aria-hidden="true">→</span>
                   </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </section>
-      );
-    })}
+                )}
+              </header>
+              <ul class="article-link-list" role="list">
+                {featuredArticles.map((article) => (
+                  <li>
+                    <a
+                      class="article-list-link"
+                      href={articlePath(article.data.hub, article.id, locale)}
+                    >
+                      <span class="article-list-title">
+                        {article.data.title}
+                      </span>
+                      <span class="article-list-description">
+                        {article.data.listSummary ?? article.data.description}
+                      </span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </section>
+        );
+      })
+    }
   </div>
 
-  <div class="article-page-shell article-page-shell-wide article-index-cta-shell">
+  <div
+    class="article-page-shell article-page-shell-wide article-index-cta-shell"
+  >
     <ArticleCTA includeGuidesLink={false} locale={locale} />
   </div>
 </BaseLayout>

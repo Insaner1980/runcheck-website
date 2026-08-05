@@ -5,10 +5,11 @@ listSummary: "Useimmat vanhat Android-puhelimet eivät hidastu siksi, että suor
 hub: "performance"
 sourceNumber: 65
 order: 2
-tags: ["suorituskyky","nopeus","android","optimointi","vianetsintä"]
+tags: ["suorituskyky", "nopeus", "android", "optimointi", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+
 Ratkaisu on siis käytännöllinen. Kevennä puhelimen kuormaa ennen kuin päätät, että laitteisto on tullut tiensä päähän.
 
 ## Vapauta ensin tallennustilaa

@@ -5,9 +5,10 @@ listSummary: "Android cache cleanup timing"
 hub: "storage"
 sourceNumber: 83
 order: 5
-tags: ["performance","speed","android","optimization","troubleshooting"]
+tags: ["performance", "speed", "android", "optimization", "troubleshooting"]
 draft: false
 ---
+
 That isn't junk by default. Most of it exists to make apps feel faster.
 
 The problem starts when cached files grow too large, get corrupted, or survive a major app or Android update that changes how the app behaves. Android 17 doesn't change the basic rule here. The update is rolling out first to supported Pixel phones, with other Android phones following later through their manufacturers, but cache is still handled app by app on stock Android.

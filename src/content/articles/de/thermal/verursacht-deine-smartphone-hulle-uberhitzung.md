@@ -5,10 +5,11 @@ listSummary: "temperatur, warme und android"
 hub: "thermal"
 sourceNumber: 60
 order: 8
-tags: ["temperatur","warme","android","fehlerbehebung","hardware"]
+tags: ["temperatur", "warme", "android", "fehlerbehebung", "hardware"]
 locale: "de"
 draft: false
 ---
+
 Deine Hülle ist wahrscheinlich nicht der Grund, warum dein Smartphone heiß wird. Sie kann das Problem trotzdem verschärfen.
 
 Die Wärme entsteht im Inneren des Smartphones: im SoC, in der GPU, im Modem, Display, Akku und in der Ladeelektronik. Eine Hülle erzeugt diese Wärme nicht. Sie bremst lediglich, wie schnell das Gerät sie abgeben kann. An den meisten Tagen spielt das kaum eine Rolle. Beim Schnellladen mit aktivem GPS, direkter Sonne und einer dicken Hülle kann es dagegen sehr wohl entscheidend sein.

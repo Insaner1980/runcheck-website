@@ -5,10 +5,11 @@ listSummary: "Laisser le Wi-Fi activé consomme généralement peu de batterie s
 hub: "myths"
 sourceNumber: 149
 order: 5
-tags: ["reseau","connectivite","android","depannage","guide"]
+tags: ["reseau", "connectivite", "android", "depannage", "guide"]
 locale: "fr"
 draft: false
 ---
+
 La plupart des personnes se trompent de problème avec le Wi-Fi. Un téléphone connecté à un réseau Wi-Fi puissant n'est pas dans la même situation qu'un téléphone qui passe la journée hors connexion à rechercher des réseaux disponibles.
 
 Cette différence compte. Une connexion Wi-Fi stable consomme généralement peu. La recherche constante de réseaux peut davantage peser sur la batterie.

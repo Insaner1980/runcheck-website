@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 33
 order: 23
 subgroup: "Consumo della batteria"
-tags: ["android","aggiornamenti","sicurezza","software","guida"]
+tags: ["android", "aggiornamenti", "sicurezza", "software", "guida"]
 locale: "it"
 draft: false
 ---
+
 Una buona parte del consumo della batteria su Android avviene quando non stai facendo nulla di particolare. Lo schermo è spento, il telefono è sul tavolo, eppure la carica continua a scendere perché app, radio, sensori e sincronizzazioni degli account riattivano il dispositivo.
 
 Android 17 è stato distribuito per primo sulla maggior parte dei Pixel supportati nel giugno 2026, quindi i nomi dei menu attraversano una fase un po' confusa. I Pixel ricevono per primi la nuova versione di Android, mentre Samsung, Xiaomi, OnePlus, Motorola e gli altri produttori pubblicano le proprie versioni di Android 17 secondo calendari diversi. I principi spiegati qui restano validi, ma il percorso esatto può spostarsi di un livello a seconda del telefono.

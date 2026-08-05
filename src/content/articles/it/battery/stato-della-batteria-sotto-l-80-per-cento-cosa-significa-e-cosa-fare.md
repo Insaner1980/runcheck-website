@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 18
 order: 8
 subgroup: "Stato della batteria"
-tags: ["batteria","stato","diagnostica","android","guida"]
+tags: ["batteria", "stato", "diagnostica", "android", "guida"]
 locale: "it"
 draft: false
 ---
+
 Lo stato della batteria stima quanta carica può ancora contenere la cella rispetto a quando era nuova. Una batteria da 5.000 mAh all'80 % si comporta più come una batteria da 4.000 mAh. Il telefono continua a funzionare. Il problema è che non ha più la stessa riserva per il freddo, l'uso intenso della fotocamera, i giochi, la navigazione o le zone con segnale debole.
 
 È qui che iniziano i comportamenti strani.
@@ -46,7 +47,7 @@ Sugli altri telefoni Android controlla prima la sezione Batteria delle Impostazi
 
 App come AccuBattery possono essere utili, ma considera rumore i dati del primo giorno. Stimano la capacità osservando nel tempo il comportamento durante ricarica e scarica. Aspetta diverse sessioni prima di fidarti del numero.
 
-Il codice telefonico *#*#4636#*#* a volte apre un menu di test con informazioni sulla batteria. A volte non succede nulla. Questa incoerenza è normale nelle versioni Android personalizzate dai produttori.
+Il codice telefonico _#_#4636#_#_ a volte apre un menu di test con informazioni sulla batteria. A volte non succede nulla. Questa incoerenza è normale nelle versioni Android personalizzate dai produttori.
 
 ## Sostituire, adattarsi o cambiare telefono
 

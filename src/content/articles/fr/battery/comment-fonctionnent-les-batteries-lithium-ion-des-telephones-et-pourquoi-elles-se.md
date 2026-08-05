@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 19
 order: 9
 subgroup: "Health"
-tags: ["technologie-des-batteries","science","guide","materiel"]
+tags: ["technologie-des-batteries", "science", "guide", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 Comprendre les bases rend les recommandations habituelles moins mystérieuses. La règle des 20 % à 80 %, les avertissements sur la chaleur et les extinctions précoces des anciens téléphones viennent tous du même phénomène : des ions lithium se déplacent dans une cellule dont les matériaux changent lentement à chaque utilisation.
 
 ## La cellule de base

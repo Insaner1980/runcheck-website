@@ -5,10 +5,12 @@ listSummary: "leistung, geschwindigkeit und android"
 hub: "performance"
 sourceNumber: 65
 order: 2
-tags: ["leistung","geschwindigkeit","android","optimierung","fehlerbehebung"]
+tags:
+  ["leistung", "geschwindigkeit", "android", "optimierung", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+
 Die Lösung ist deshalb praktisch. Entlaste das Gerät, bevor du davon ausgehst, dass die Hardware am Ende ist.
 
 ## Schaffe zuerst Speicherplatz

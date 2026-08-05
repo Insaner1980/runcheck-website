@@ -5,9 +5,10 @@ listSummary: "Case-related overheating"
 hub: "thermal"
 sourceNumber: 60
 order: 8
-tags: ["temperature","thermal","android","troubleshooting","hardware"]
+tags: ["temperature", "thermal", "android", "troubleshooting", "hardware"]
 draft: false
 ---
+
 Your phone case is probably not the reason your phone gets hot. It can still make the problem worse.
 
 The heat comes from inside the phone: the SoC, GPU, modem, display, battery, and charging hardware. A case does not create that heat. What it does is slow the phone's ability to get rid of it. Most days that barely matters. On the wrong day, with fast charging, GPS, direct sun, and a thick case, it matters a lot.

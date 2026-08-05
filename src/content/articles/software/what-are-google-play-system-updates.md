@@ -5,9 +5,10 @@ listSummary: "Google Play system updates"
 hub: "software"
 sourceNumber: 124
 order: 6
-tags: ["android","updates","security","software","guide"]
+tags: ["android", "updates", "security", "software", "guide"]
 draft: false
 ---
+
 That looks like a mistake. Usually it isn't.
 
 They are two different update channels. The security patch level comes through the phone manufacturer, such as Google, Samsung, Xiaomi, OnePlus, or Motorola. The other date comes through Google's modular Android update system on devices that support it.

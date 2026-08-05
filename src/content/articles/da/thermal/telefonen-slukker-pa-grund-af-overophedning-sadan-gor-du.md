@@ -5,10 +5,11 @@ listSummary: "En telefon, der slukker på grund af overophedning, beskytter sig 
 hub: "thermal"
 sourceNumber: 61
 order: 9
-tags: ["temperatur","varme","android","fejlfinding","hardware"]
+tags: ["temperatur", "varme", "android", "fejlfinding", "hardware"]
 locale: "da"
 draft: false
 ---
+
 Telefonen går i sort, vil ikke tænde igen og viser til sidst en varmeadvarsel. Irriterende, ja. Men som regel er det et godt tegn.
 
 En termisk nedlukning betyder, at telefonen har beskyttet sig selv. Android har forskellige termiske tilstande, som gør det muligt for systemet at reducere belastningen, begrænse ydeevnen, sænke opladningshastigheden og i yderste fald slukke enheden. De præcise grænser for batteri- og overfladetemperatur fastsættes af producenten, så stol ikke på ét bestemt tal som en regel for alle telefoner.

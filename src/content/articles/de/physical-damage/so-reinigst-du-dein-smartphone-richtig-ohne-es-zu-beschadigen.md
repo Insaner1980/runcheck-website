@@ -5,10 +5,11 @@ listSummary: "hardware, testen und diagnose"
 hub: "physical-damage"
 sourceNumber: 137
 order: 7
-tags: ["hardware","testen","diagnose","android","ratgeber"]
+tags: ["hardware", "testen", "diagnose", "android", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 ---
 
 Was solltest du zum Reinigen eines Smartphones wirklich verwenden: Wasser, Alkoholtücher, Displayspray oder einfach das, was gerade in der Küche steht?

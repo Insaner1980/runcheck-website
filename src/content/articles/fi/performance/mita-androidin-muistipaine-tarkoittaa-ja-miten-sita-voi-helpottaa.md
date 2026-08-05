@@ -5,10 +5,11 @@ listSummary: "Muistipaine syntyy, kun Androidilta loppuu RAM ja järjestelmä al
 hub: "performance"
 sourceNumber: 76
 order: 13
-tags: ["suorituskyky","nopeus","android","optimointi","vianetsintä"]
+tags: ["suorituskyky", "nopeus", "android", "optimointi", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+
 ---
 
 Muistipaine tarkoittaa sitä, että Android joutuu päättämään, mistä se luopuu. Kun RAM ei riitä kaikkeen, järjestelmä alkaa sulkea vähemmän tärkeitä prosesseja, jotta puhelin pysyy toiminnassa.

@@ -1,14 +1,15 @@
 ---
 title: "So bekommst du den besten Preis für dein altes Android-Smartphone"
-description: "Du löschst dein altes Galaxy, legst es \"für eine Woche\" in eine Schublade und sechs Monate später ist es deutlich weniger wert. So gehen viele Smartphone-Verkäufe schief. Das Gerät geht nicht kaputt. Der Zeitpunkt ist das Problem."
+description: 'Du löschst dein altes Galaxy, legst es "für eine Woche" in eine Schublade und sechs Monate später ist es deutlich weniger wert. So gehen viele Smartphone-Verkäufe schief. Das Gerät geht nicht kaputt. Der Zeitpunkt ist das Problem.'
 listSummary: "kaufratgeber, android und vergleich"
 hub: "buying-selling"
 sourceNumber: 144
 order: 8
-tags: ["kaufratgeber","android","vergleich","wert","ratgeber"]
+tags: ["kaufratgeber", "android", "vergleich", "wert", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Für US-amerikanische Mobilfunk-Rücknahmeprogramme meldete Assurant für 2025 Auszahlungen von 6,4 Milliarden US-Dollar an Verbraucher, 42 % mehr als 2024. Android-Geräte waren bei der Abgabe im Durchschnitt 3,96 Jahre alt. Das ist auch außerhalb der USA ein nützlicher Hinweis: Eine längere Nutzungsdauer gibt dir mehr Zeit mit dem Smartphone, lässt beim späteren Verkauf aber weniger Spielraum für schlechtes Timing.
 
 ## Verkaufe, bevor dein Smartphone von gestern ist

@@ -5,9 +5,10 @@ listSummary: "Cracked screen performance impact"
 hub: "physical-damage"
 sourceNumber: 136
 order: 6
-tags: ["battery","drain","troubleshooting","android","performance"]
+tags: ["battery", "drain", "troubleshooting", "android", "performance"]
 draft: false
 ---
+
 ---
 
 A cracked screen won't make the CPU slower. Your apps don't suddenly need more processing power because the glass broke.

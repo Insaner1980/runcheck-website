@@ -5,10 +5,11 @@ listSummary: "Un téléphone qui s’éteint à cause d’une surchauffe se prot
 hub: "thermal"
 sourceNumber: 61
 order: 9
-tags: ["temperature","thermique","android","depannage","materiel"]
+tags: ["temperature", "thermique", "android", "depannage", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 Votre téléphone devient noir, refuse de se rallumer, puis finit par afficher un avertissement lié à la chaleur. C’est agaçant, oui. Mais c’est généralement bon signe.
 
 Un arrêt de protection thermique signifie que le téléphone s’est protégé. Android utilise plusieurs états thermiques qui permettent au système de réduire la charge de travail, de brider les performances, de ralentir la recharge et, dans le cas le plus extrême, d’éteindre l’appareil. Les limites exactes de température de la batterie et de la surface sont définies par le fabricant. Ne considérez donc pas une valeur unique comme une règle valable pour tous les téléphones.

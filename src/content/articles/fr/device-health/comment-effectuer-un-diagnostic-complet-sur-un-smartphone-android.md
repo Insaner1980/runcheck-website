@@ -5,10 +5,11 @@ listSummary: "Android ne propose pas un bouton unique capable de tout vérifier 
 hub: "device-health"
 sourceNumber: 7
 order: 3
-tags: ["android","mises-a-jour","securite","logiciel","guide"]
+tags: ["android", "mises-a-jour", "securite", "logiciel", "guide"]
 locale: "fr"
 draft: false
 ---
+
 ## Le chemin le plus rapide : les outils de diagnostic du fabricant
 
 De nombreux fabricants Android fournissent leur propre utilitaire de diagnostic, préinstallé ou accessible avec un code. Commencez par là avant d’installer une autre application.

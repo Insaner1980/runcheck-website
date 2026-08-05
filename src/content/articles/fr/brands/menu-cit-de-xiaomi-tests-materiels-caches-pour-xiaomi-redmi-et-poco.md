@@ -5,10 +5,11 @@ listSummary: "Le menu CIT de Xiaomi permet de lancer les tests matériels intég
 hub: "brands"
 sourceNumber: 159
 order: 7
-tags: ["materiel","test","diagnostic","android","guide"]
+tags: ["materiel", "test", "diagnostic", "android", "guide"]
 locale: "fr"
 draft: false
 ---
+
 CIT est le contrôle matériel intégré le plus rapide sur la plupart des téléphones Xiaomi, y compris les modèles Redmi et POCO sous une version officielle de MIUI ou d'HyperOS. Le menu n'est pas très élégant. Il donne peu d'explications. Mais lorsque vous devez savoir si l'écran tactile, le haut-parleur, le microphone, un capteur ou un appareil photo répond réellement, il vous mène au résultat plus vite que la plupart des applications de diagnostic du Play Store.
 
 Dans ses pages d'assistance, Xiaomi parle généralement de détection du matériel ou de mode CIT. Vous le rencontrerez surtout lors du dépannage d'un problème précis, comme un écran tactile qui réagit tout seul ou un téléphone qui redémarre sans cesse. Ce menu sert à tester l'appareil à un instant donné, pas à suivre son état dans le temps.

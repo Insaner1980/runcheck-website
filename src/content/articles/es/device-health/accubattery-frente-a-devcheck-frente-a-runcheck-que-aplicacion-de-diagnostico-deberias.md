@@ -5,10 +5,11 @@ listSummary: "comparacion, aplicaciones y android"
 hub: "device-health"
 sourceNumber: 139
 order: 8
-tags: ["comparacion","aplicaciones","android","guia-de-compra","analisis"]
+tags: ["comparacion", "aplicaciones", "android", "guia-de-compra", "analisis"]
 locale: "es"
 draft: false
 ---
+
 ¿Qué aplicación conviene instalar si tu móvil Android se calienta, pierde batería demasiado rápido o simplemente parece que «algo va mal»? La respuesta molesta es que AccuBattery, DevCheck y runcheck no hacen realmente el mismo trabajo.
 
 AccuBattery sirve para seguir la capacidad de la batería a largo plazo. DevCheck muestra el hardware y los datos del sistema en directo. runcheck ofrece una visión más amplia del estado de la batería, la temperatura, la red y el almacenamiento.

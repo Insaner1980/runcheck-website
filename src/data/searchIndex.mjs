@@ -1,6 +1,9 @@
-import { articlePath } from './articlePaths.mjs';
+import { articlePath } from "./articlePaths.mjs";
 
-export function buildSearchIndex(entries, { locale = 'en', hubTitles = new Map() } = {}) {
+export function buildSearchIndex(
+  entries,
+  { locale = "en", hubTitles = new Map() } = {},
+) {
   return entries
     .filter((entry) => !entry.data.draft)
     .map((entry) => ({
@@ -13,7 +16,8 @@ export function buildSearchIndex(entries, { locale = 'en', hubTitles = new Map()
 }
 
 const articleScore = (item, query) => {
-  const startsWord = (haystack) => haystack.startsWith(query) || haystack.includes(` ${query}`);
+  const startsWord = (haystack) =>
+    haystack.startsWith(query) || haystack.includes(` ${query}`);
   const title = item.title.toLowerCase();
   const description = item.description.toLowerCase();
   const tags = item.tags.map((tag) => tag.toLowerCase());
@@ -28,7 +32,7 @@ const articleScore = (item, query) => {
 
 export function searchArticles(index, query, { limit = 8 } = {}) {
   const q = query.trim().toLowerCase();
-  if (q === '') {
+  if (q === "") {
     return [];
   }
 
@@ -42,7 +46,9 @@ export function searchArticles(index, query, { limit = 8 } = {}) {
     }
   }
 
-  scored.sort((a, b) => b.score - a.score || a.item.title.localeCompare(b.item.title));
+  scored.sort(
+    (a, b) => b.score - a.score || a.item.title.localeCompare(b.item.title),
+  );
 
   return scored.slice(0, limit).map((entry) => entry.item);
 }

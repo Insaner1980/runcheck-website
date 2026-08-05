@@ -5,10 +5,11 @@ listSummary: "Come funzionano le chiamate Wi-Fi su Android, quando attivarle."
 hub: "network"
 sourceNumber: 100
 order: 11
-tags: ["rete","connettivita","android","risoluzione-dei-problemi","guida"]
+tags: ["rete", "connettivita", "android", "risoluzione-dei-problemi", "guida"]
 locale: "it"
 draft: false
 ---
+
 Le chiamate Wi-Fi sono normali telefonate instradate attraverso una rete Wi-Fi. Usi il tastierino abituale, il tuo numero di telefono e l'offerta del tuo operatore. La persona che chiami non deve avere WhatsApp, Signal, Telegram o un'altra app.
 
 È questo il vantaggio principale. Puoi trovarti in un seminterrato con una sola tacca instabile, collegarti a un buon Wi-Fi e fare comunque una normale telefonata.

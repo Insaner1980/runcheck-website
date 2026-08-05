@@ -5,10 +5,11 @@ listSummary: "Du trycker på Kör, ser mätaren hoppa till och får en siffra so
 hub: "network"
 sourceNumber: 92
 order: 3
-tags: ["nätverk","anslutningar","android","felsökning","guide"]
+tags: ["nätverk", "anslutningar", "android", "felsökning", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Testet visar vad som hände just då, mot just den servern och under de nätverksförhållanden som rådde. Det är en ögonblicksbild, inte en diagnos i sig. Ändå är det den bästa första siffran att ta fram när telefonen känns långsam.
 
 ## Vad testet mäter

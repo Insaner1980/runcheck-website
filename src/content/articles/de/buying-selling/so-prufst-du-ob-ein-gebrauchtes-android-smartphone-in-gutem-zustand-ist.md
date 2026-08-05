@@ -5,12 +5,12 @@ listSummary: "Prüfe Akku, Display, Sensoren und Software, bevor du ein gebrauch
 hub: "buying-selling"
 sourceNumber: 2
 order: 1
-tags: ["kaufratgeber","android","vergleich","wert","ratgeber"]
+tags: ["kaufratgeber", "android", "vergleich", "wert", "ratgeber"]
 locale: "de"
 draft: false
 ---
-Den tatsächlichen Zustand zu prüfen dauert etwa fünfzehn Minuten und erfordert keine zusätzliche App.
 
+Den tatsächlichen Zustand zu prüfen dauert etwa fünfzehn Minuten und erfordert keine zusätzliche App.
 
 ## Beginne mit den Dingen, die du nicht sehen kannst
 
@@ -24,7 +24,6 @@ Ein Akkuzustand über 90 % ist gut. Zwischen 80 und 90 % wurde der Akku bereits 
 
 Der Speicherzustand lässt sich schwerer in eine Zahl fassen, sollte aber ebenfalls geprüft werden. Öffne Einstellungen > Speicher und sieh nach, wie voll das Gerät ist. Noch aussagekräftiger als die Prozentzahl ist das Verhalten: Zögert das Smartphone beim Öffnen von Apps? Braucht die Kamera auffällig lange, um Fotos zu speichern? NAND-Flash wird langsamer, wenn er sich füllt und seine Zellen durch viele Schreibvorgänge altern. Das äußert sich als allgemeine Trägheit, die leicht für einen langsamen Prozessor gehalten wird.
 
-
 ## Der äußere Zustand
 
 Halte das Smartphone unter helles Licht und betrachte das Display aus mehreren Winkeln. Kleine Kratzer, die von vorn unsichtbar sind, fallen seitlich oft deutlich auf. Prüfe besonders die Kanten, an denen Risse nach einem Sturz häufig beginnen. Lege das Gerät flach auf einen Tisch. Wenn es kippelt, ist möglicherweise der Rahmen verbogen oder der Akku beginnt sich aufzublähen. Ein aufgeblähter Akku ist ein Sicherheitsproblem und nicht bloß ein Leistungsmangel.
@@ -33,13 +32,11 @@ In der Ladebuchse sammelt sich über Monate Taschenfussel. Leuchte mit einer Tas
 
 Tasten sollten sauber und eindeutig klicken. Ein weicher Einschaltknopf oder eine Lautstärkewippe, die erst beim zweiten Drücken reagiert, ist Verschleiß, der nicht von selbst besser wird.
 
-
 ## Display und Touchscreen
 
 Tote Pixel erscheinen auf weißem Hintergrund als winzige dunkle Punkte. Öffne einen Browser, suche nach „white screen test“, schalte auf Vollbild und sieh genau hin. Wiederhole den Test mit reinem Rot, Grün, Blau und Schwarz, um Probleme einzelner Subpixel zu finden. OLED-Displays können außerdem Einbrenneffekte entwickeln, wenn Elemente monatelang an derselben Stelle angezeigt wurden, etwa Navigationsleiste, Statusleiste oder die Oberfläche einer häufig verwendeten App. Ein mittelgraues Vollbild macht solche Spuren besonders gut sichtbar.
 
 Tote Touchbereiche sind schwieriger zu erkennen. Aktiviere die Entwickleroptionen, indem du in den Geräteinformationen siebenmal auf die Build-Nummer tippst. Schalte anschließend in den Entwickleroptionen die Anzeige der Zeigerposition ein. Fahre langsam mit dem Finger über die gesamte Displayfläche. Die Koordinatenspur sollte ohne Lücken folgen, besonders in den Ecken und an den Rändern, wo Flachbandverbindungen nach Stößen anfälliger sind.
-
 
 ## Sensoren, Lautsprecher und Kameras
 
@@ -49,11 +46,9 @@ Samsung-Geräte besitzen ein eigenes Hardware-Testmenü, das sich mit `*#0*#` ö
 
 Spiele Musik in verschiedenen Lautstärken ab. Knacken oder Verzerrungen bei mittlerer Lautstärke sprechen für einen beschädigten Lautsprecher. Nimm eine kurze Sprachnachricht auf und spiele sie ab, um das Mikrofon zu testen. Öffne Front- und Rückkamera und fotografiere bei brauchbarem Licht. Achte auf Fokusprobleme, unscharfe Bereiche oder eine Kamera, die ständig vor- und zurückfokussiert, ohne scharfzustellen.
 
-
 ## Wasserschäden
 
 Viele Android-Smartphones haben im Bereich des SIM-Kartenschachts einen Flüssigkeitsindikator, auch Liquid Contact Indicator (LCI) genannt. Entferne den Einschub und leuchte hinein. Weiß oder silbern bedeutet normalerweise, dass kein Flüssigkeitskontakt erkannt wurde. Rosa oder rot weist darauf hin, dass irgendwann Flüssigkeit eingedrungen ist. Ein verfärbter Indikator bedeutet nicht automatisch, dass das Smartphone jetzt defekt ist. Wasserschäden verschlimmern sich aber häufig, wenn sich Korrosion im Inneren ausbreitet. Das solltest du wissen, auch wenn es nicht in jedem Fall ein Ausschlussgrund ist.
-
 
 ## Softwarezustand
 

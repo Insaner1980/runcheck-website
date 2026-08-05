@@ -7,12 +7,12 @@ hub: "battery"
 sourceNumber: 11
 order: 1
 subgroup: "Akun kunto"
-tags: ["akku","kunto","diagnostiikka","android","opas"]
+tags: ["akku", "kunto", "diagnostiikka", "android", "opas"]
 locale: "fi"
 draft: false
 ---
-Toisin kuin iPhonessa, jossa akun kuntoprosentti on näkynyt tuetuissa malleissa iOS 11.3:sta lähtien, Androidissa tiedon löytäminen on perinteisesti ollut hankalampaa. Kaikille Android-puhelimille yhteistä Akun kunto -näkymää ei ole. Kokonaiskuva muodostuu valmistajan työkaluista, piilotetuista valikoista, käyttötavoista ja diagnostiikkasovelluksista.
 
+Toisin kuin iPhonessa, jossa akun kuntoprosentti on näkynyt tuetuissa malleissa iOS 11.3:sta lähtien, Androidissa tiedon löytäminen on perinteisesti ollut hankalampaa. Kaikille Android-puhelimille yhteistä Akun kunto -näkymää ei ole. Kokonaiskuva muodostuu valmistajan työkaluista, piilotetuista valikoista, käyttötavoista ja diagnostiikkasovelluksista.
 
 ## Nopea vastaus: näin tarkistat akun kunnon
 
@@ -25,7 +25,6 @@ Tässä kolme menetelmää nopeimmasta perusteellisimpaan.
 **Diagnostiikkasovellus.** Kolmannen osapuolen sovellukset arvioivat akun kuntoa seuraamalla lataus- ja purkautumiskäyttäytymistä usean päivän ajan. Tämä on yksityiskohtaisin vaihtoehto silloin, kun puhelin ei näytä akun kuntoa omissa asetuksissaan.
 
 Jos akun kapasiteetiksi arvioidaan alle 80 % alkuperäisestä nimelliskapasiteetista tai valmistajan kuntotila on jotain muuta kuin Normaali tai Hyvä, akun vaihtamista kannattaa jo harkita.
-
 
 ## Miksi akut kuluvat
 
@@ -40,7 +39,6 @@ Jokaisessa Android-puhelimessa on litiumioni- tai litiumpolymeeriakku. Se on kev
 **Lataustavoilla on merkitystä, mutta vähemmän kuin usein väitetään.** Jatkuva lataaminen 100 prosenttiin ja purkaminen 0 prosenttiin rasittaa akkua enemmän kuin varaustason pitäminen 20-80 prosentin välillä. Pikalataus tuottaa myös enemmän lämpöä kuin hitaampi lataus. Ero jatkuvan 100 prosenttiin pikalataamisen ja varovaisemman 80 prosenttiin lataamisen välillä on vuoden aikana silti pienempi kuin monet verkko-ohjeet antavat ymmärtää. Kuumuus ja aika vaikuttavat enemmän. Todellinen riski ovat huonolaatuiset tai yhteensopimattomat laturit, joiden virransyöttö voi olla epävakaata ja vahingoittaa akkua pysyvästi.
 
 Lopputulos on yksinkertainen: 5 000 mAh:n akusta tulee vähitellen 4 000 mAh:n ja sitten 3 500 mAh:n akku, kunnes jäljellä oleva kapasiteetti ei enää riitä tavalliseen päivään.
-
 
 ## Manuaaliset diagnostiikkavaiheet
 
@@ -62,7 +60,6 @@ Androidin omat asetukset antavat hyödyllisiä vihjeitä, vaikka puhelin ei näy
 
 **Käytä valmistajan diagnostiikkaa.** Nopean vastauksen osiossa mainittujen kuntotietojen lisäksi joissakin puhelimissa on erillisiä testejä. Pixel 6:ssa ja uudemmissa malleissa voi olla akun diagnostiikka Akku-asetuksissa. Samsung Members sisältää Puhelimen vianmääritys -toiminnon, jolla akun tilan voi testata. Xiaomi-laitteissa akun suojausnäkymä näyttää mallista riippuen tavallista tarkempia akkutietoja.
 
-
 ## Tarkempi diagnostiikka: jännite, lämpötila ja purkautumiskäyrä
 
 Muutama mittari kertoo teknisestä näkökulmasta, mitä kennon sisällä tapahtuu.
@@ -80,7 +77,6 @@ Diagnostiikkasovellukset muuttavat nämä havainnot numeroiksi. Ne seuraavat lat
 runcheck yhdistää akun diagnostiikan verkon, lämpötilan ja tallennustilan analyysiin. Se on hyödyllistä, koska akkuongelmat eivät aina esiinny yksin. Viallisesti toimivan komponentin lämpöongelma voi näyttää akun tyhjenemiseltä, ja tallennustilan pullonkaula voi pitää CPU:n tarpeettoman kovassa työssä.
 
 Vältä sovelluksia, jotka lupaavat tehostaa, kalibroida tai palauttaa akun kunnon. Mikään sovellus ei voi kumota kemiallista kulumista. Hyödylliset sovellukset näyttävät todellisia jännite- ja lämpötilalukemia, seuraavat tietoja ajan mittaan ja toimivat laitteessa ilman pakollista käyttäjätiliä tai pilvilatauksia.
-
 
 ## Usein kysyttyä
 
@@ -115,7 +111,6 @@ Akun todellinen kapasiteetti ei enää vastaa ohjelmiston odotuksia. Kulumisen e
 **Kuinka usein akun kunto kannattaa tarkistaa?**
 
 Muutaman kuukauden välein. Kuluminen on hidasta, eikä jatkuva tarkistaminen muuta lopputulosta. Ylimääräinen tarkistus on aiheellinen, jos akunkesto muuttuu äkillisesti, puhelin sammuu odottamatta tai lämpenee tavallista enemmän.
-
 
 ## Mitä tuloksilla kannattaa tehdä
 

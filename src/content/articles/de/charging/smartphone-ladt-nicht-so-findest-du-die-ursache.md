@@ -5,10 +5,11 @@ listSummary: "Grenze den Ladefehler auf Netzteil, Kabel, USB-C-Anschluss, Akku o
 hub: "charging"
 sourceNumber: 48
 order: 12
-tags: ["laden","akku","android","ratgeber","hardware"]
+tags: ["laden", "akku", "android", "ratgeber", "hardware"]
 locale: "de"
 draft: false
 ---
+
 Du hast noch 2 %, schließt das Ladekabel an, und nichts passiert. Kein Ladesymbol. Keine Vibration. Nicht das kleinste Zeichen dafür, dass das Kabel etwas bewirkt hat.
 
 Wenn ein Smartphone nicht lädt, liegt es meist an einem Glied in der Kette. Der Strom muss von der Steckdose durch das Netzteil, das Kabel und den USB-C-Anschluss bis zur Ladeelektronik im Smartphone gelangen. Eine einzige Schwachstelle reicht, damit das ganze Gerät tot wirkt. Arbeite die Kette der Reihe nach durch. Meist findest du den Fehler in 10 bis 15 Minuten.

@@ -5,10 +5,11 @@ listSummary: "laddning, batteri och android"
 hub: "charging"
 sourceNumber: 47
 order: 11
-tags: ["laddning","batteri","android","guide","hårdvara"]
+tags: ["laddning", "batteri", "android", "guide", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 Telefonen säger att det tar tre timmar att ladda fullt. I går tog det en. Laddaren ser likadan ut, kabeln ser likadan ut och inget uppenbart har förändrats.
 
 Långsam laddning är irriterande eftersom orsaken ofta är ganska banal: en svag nätadapter, en skadad kabel, fickludd, värme eller en app som förbrukar ström samtidigt som laddaren försöker fylla batteriet. Börja där innan du antar att batteriet håller på att ge upp.

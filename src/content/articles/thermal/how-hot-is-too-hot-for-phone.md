@@ -5,9 +5,10 @@ listSummary: "Safe phone temperature ranges"
 hub: "thermal"
 sourceNumber: 59
 order: 7
-tags: ["temperature","thermal","android","troubleshooting","hardware"]
+tags: ["temperature", "thermal", "android", "troubleshooting", "hardware"]
 draft: false
 ---
+
 How hot is too hot? The annoying answer is that it depends on which temperature you are measuring.
 
 The air around the phone is one number. The phone's outside surface is another. The battery sensor is another again, and that is the one that matters most for battery aging. A phone can feel only mildly warm in your hand while the battery or SoC is already hot enough for Android to slow things down.

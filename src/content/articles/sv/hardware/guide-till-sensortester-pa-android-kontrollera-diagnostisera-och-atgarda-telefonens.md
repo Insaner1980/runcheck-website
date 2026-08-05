@@ -5,10 +5,11 @@ listSummary: "Hur vet du om automatisk rotering är trasig, kompassen är förvi
 hub: "hardware"
 sourceNumber: 105
 order: 2
-tags: ["hårdvara","testning","diagnostik","android","guide"]
+tags: ["hårdvara", "testning", "diagnostik", "android", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Android-telefoner använder en blandning av rörelse-, miljö-, positions- och närhetssensorer. Vissa är fysiska kretsar. Andra är "virtuella" sensorer som räknas fram från flera komponenter. När en av källorna börjar ge brusiga värden eller blir blockerad eller avstängd kan symptomen dyka upp på ett helt annat ställe.
 
 Börja enkelt. Du behöver varken root, ADB eller ett laboratorium för den första testomgången.

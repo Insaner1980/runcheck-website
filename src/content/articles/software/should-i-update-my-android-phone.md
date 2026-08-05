@@ -1,13 +1,14 @@
 ---
 title: "Should I update my Android phone? Pros and cons"
-description: "Most update advice is too absolute. \"Always update immediately\" sounds neat, but major Android releases can have first-week bugs. \"Never update because it might slow the phone down\" is worse, because it leaves known security holes open."
+description: 'Most update advice is too absolute. "Always update immediately" sounds neat, but major Android releases can have first-week bugs. "Never update because it might slow the phone down" is worse, because it leaves known security holes open.'
 listSummary: "Update decision tradeoffs"
 hub: "software"
 sourceNumber: 120
 order: 2
-tags: ["android","updates","security","software","guide"]
+tags: ["android", "updates", "security", "software", "guide"]
 draft: false
 ---
+
 The practical answer is simple: install security patches quickly. Install major Android version updates after a short sanity check, especially when the release is brand new.
 
 Android 17 has just started rolling out, first on supported Pixel phones and then later through Samsung, Xiaomi, OnePlus, OPPO, Motorola, and other manufacturers. When Android 17 appears on your device today, the decision is slightly different from a normal monthly patch.

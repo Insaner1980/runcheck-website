@@ -5,10 +5,11 @@ listSummary: "android, autorisations et confidentialite"
 hub: "software"
 sourceNumber: 127
 order: 9
-tags: ["android","autorisations","confidentialite","securite","guide"]
+tags: ["android", "autorisations", "confidentialite", "securite", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Il est logique qu'une application photo demande l'accès à l'appareil photo. Une lampe torche qui réclame vos contacts, beaucoup moins. La plupart des décisions ne sont pas plus compliquées que cela.
 
 Le problème, c'est le moment choisi. Une application vous interrompt alors que vous essayez de faire quelque chose, et le bouton Autoriser devient le choix le plus rapide. C'est ainsi que les autorisations inutiles s'accumulent.

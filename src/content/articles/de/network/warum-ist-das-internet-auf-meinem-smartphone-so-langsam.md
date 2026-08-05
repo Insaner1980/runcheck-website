@@ -5,10 +5,12 @@ listSummary: "Warum lädt ein Smartphone quälend langsam, während der Laptop d
 hub: "network"
 sourceNumber: 91
 order: 2
-tags: ["leistung","geschwindigkeit","android","optimierung","fehlerbehebung"]
+tags:
+  ["leistung", "geschwindigkeit", "android", "optimierung", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+
 Fang nicht mit dem Zurücksetzen auf Werkseinstellungen an. Fang mit Fakten an.
 
 ## Trenne zuerst das Smartphone vom Netzwerkproblem

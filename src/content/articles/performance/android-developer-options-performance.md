@@ -6,9 +6,10 @@ listSummary: "Developer Options performance tweaks"
 hub: "performance"
 sourceNumber: 69
 order: 6
-tags: ["performance","speed","android","optimization","troubleshooting"]
+tags: ["performance", "speed", "android", "optimization", "troubleshooting"]
 draft: false
 ---
+
 Developer Options is not a secret turbo mode. Most of the menu exists for app testing, debugging, and visual diagnostics. A few settings can make an Android phone feel faster. Several do nothing useful for normal use. A handful can make the phone worse.
 
 The useful part is small, which is good news. You do not need to touch twenty toggles. For most people, the best setup is animation scales at 0.5x, maybe cached app freezing if the phone exposes it, and everything else left alone.

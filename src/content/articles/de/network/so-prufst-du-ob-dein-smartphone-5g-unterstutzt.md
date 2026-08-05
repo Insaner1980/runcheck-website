@@ -5,10 +5,11 @@ listSummary: "netzwerk, verbindungen und android"
 hub: "network"
 sourceNumber: 101
 order: 12
-tags: ["netzwerk","verbindungen","android","fehlerbehebung","ratgeber"]
+tags: ["netzwerk", "verbindungen", "android", "fehlerbehebung", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Ein Smartphone hat 5G-Hardware oder eben nicht. Android 17, ein Update der Anbietereinstellungen oder eine neue SIM-Karte können aus einem reinen 4G-Modem kein 5G-Modem machen.
 
 Das klingt selbstverständlich, sorgt aber erstaunlich oft für Verwirrung. Viele aktuelle günstige Android-Smartphones unterstützen weiterhin nur 4G, während manche älteren Topmodelle bereits 5G beherrschen. Die genaue Modellnummer ist wichtiger als das Jahr auf dem Kaufbeleg.

@@ -5,10 +5,11 @@ listSummary: "Puhelin voi osua lattiaan, näyttää täysin normaalilta ja olla 
 hub: "physical-damage"
 sourceNumber: 132
 order: 2
-tags: ["lämpötila","kuumeneminen","android","vianetsintä","laitteisto"]
+tags: ["lämpötila", "kuumeneminen", "android", "vianetsintä", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 Useimmat pudotukset eivät aiheuta mitään vakavaa. Jos puhelin alkaa kuitenkin käyttäytyä niiden jälkeen eri tavalla, älä selitä oireita pois tarkistamatta niitä.
 
 ## Tarkista akku ensin

@@ -10,6 +10,7 @@ tags: []
 locale: "fi"
 draft: false
 ---
+
 Kuntotarkistus auttaa huomaamaan nämä muutokset ajoissa. Siitä on hyötyä yksittäisen ongelman selvittämisessä, puhelimen myyntiin valmistelussa tai silloin, kun haluat tietää, onko laite todella hidastunut vai tuntuuko se vain siltä.
 
 ---

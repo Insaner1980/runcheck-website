@@ -5,10 +5,11 @@ listSummary: "Tocchi Avvia, guardi l'indicatore salire e ottieni un numero che s
 hub: "network"
 sourceNumber: 92
 order: 3
-tags: ["rete","connettivita","android","risoluzione-dei-problemi","guida"]
+tags: ["rete", "connettivita", "android", "risoluzione-dei-problemi", "guida"]
 locale: "it"
 draft: false
 ---
+
 Il test mostra cosa è successo in quel momento, con quel server e in quelle condizioni di rete. È un'istantanea, non una diagnosi. Resta comunque il primo dato da raccogliere quando il telefono sembra lento.
 
 ## Che cosa misura il test

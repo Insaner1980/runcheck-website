@@ -6,9 +6,10 @@ hub: "battery"
 sourceNumber: 33
 order: 23
 subgroup: "Drain"
-tags: ["android","updates","security","software","guide"]
+tags: ["android", "updates", "security", "software", "guide"]
 draft: false
 ---
+
 A lot of Android battery drain happens when you aren't doing anything interesting. The screen is off, the phone is on the table, and still the battery drops because apps, radios, sensors, and account syncs keep waking the device.
 
 Since Android 17 started rolling out first to most supported Pixel devices in June 2026, menu names are in a slightly messy phase. Pixel phones get the new Android version first, while Samsung, Xiaomi, OnePlus, Motorola, and other OEMs ship their Android 17 builds on their own schedules. The ideas below still apply, but the exact path may move by one level depending on the phone.

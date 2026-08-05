@@ -5,10 +5,18 @@ listSummary: "rendimiento, velocidad y android"
 hub: "myths"
 sourceNumber: 150
 order: 6
-tags: ["rendimiento","velocidad","android","optimizacion","solucion-de-problemas"]
+tags:
+  [
+    "rendimiento",
+    "velocidad",
+    "android",
+    "optimizacion",
+    "solucion-de-problemas",
+  ]
 locale: "es"
 draft: false
 ---
+
 Tu móvil puede volverse claramente más lento con el tiempo. La parte incómoda es que dos cosas pueden ser ciertas a la vez: los fabricantes han tomado decisiones que perjudican a dispositivos antiguos, y la mayoría de las ralentizaciones siguen teniendo causas técnicas bastante corrientes.
 
 Así que sí, la obsolescencia programada es real en parte. No, cada móvil que va a tirones no demuestra que exista un interruptor secreto para inutilizarlo.

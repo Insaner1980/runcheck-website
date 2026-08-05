@@ -103,6 +103,7 @@ Kaksi paikkaa, **yksi jaettu komponentti**:
 ## Testit
 
 Projektissa on `scripts/*.test.mjs` -tyyliset testit. Lisätään:
+
 - `scripts/article-search-index.test.mjs`: indeksin rakentuminen — kentät
   olemassa, url-muoto oikein, draftit pois, 160 ei-draft-artikkelia.
 - (Valinnainen) suodatuslogiikan yksikkötesti jos logiikka eriytetään

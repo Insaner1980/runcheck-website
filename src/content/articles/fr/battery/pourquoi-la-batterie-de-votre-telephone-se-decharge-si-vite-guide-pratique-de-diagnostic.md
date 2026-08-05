@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 21
 order: 11
 subgroup: "Drain"
-tags: ["batterie","consommation","depannage","android","performances"]
+tags: ["batterie", "consommation", "depannage", "android", "performances"]
 locale: "fr"
 draft: false
 ---
+
 La meilleure façon de perdre du temps consiste à modifier dix réglages à la fois en espérant que l'un d'eux résoudra le problème. Commencez par établir un diagnostic. Corrigez ensuite ce qui consomme réellement l'énergie.
 
 ## Commencez par les vérifications évidentes

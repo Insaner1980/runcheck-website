@@ -5,9 +5,10 @@ listSummary: "End-of-support consequences"
 hub: "software"
 sourceNumber: 121
 order: 3
-tags: ["android","updates","security","software","guide"]
+tags: ["android", "updates", "security", "software", "guide"]
 draft: false
 ---
+
 That is what makes unsupported phones tricky. They don't suddenly fail. They just get a little more exposed every month.
 
 ## Security risk builds up over time

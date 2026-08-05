@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 14
 order: 4
 subgroup: "Health"
-tags: ["batteri","batteriförbrukning","felsökning","android","prestanda"]
+tags: ["batteri", "batteriförbrukning", "felsökning", "android", "prestanda"]
 locale: "sv"
 draft: false
 ---
+
 Androids batteristatistik är bra för att ringa in ett problem, men den är inget exakt kvitto på vart varje milliamperetimme tog vägen. Tricket är att läsa procentsiffrorna i sitt sammanhang.
 
 **Metabeskrivning:** Androids statistik över batteriförbrukning visar vilka appar och systemtjänster som drar ström. Läs var du hittar den, vad procentsiffrorna betyder och hur du upptäcker verkliga batteriproblem.

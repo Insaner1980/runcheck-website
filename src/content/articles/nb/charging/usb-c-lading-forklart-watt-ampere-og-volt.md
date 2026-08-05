@@ -5,10 +5,11 @@ listSummary: "lading, batteri og android"
 hub: "charging"
 sourceNumber: 46
 order: 10
-tags: ["lading","batteri","android","guide","maskinvare"]
+tags: ["lading", "batteri", "android", "guide", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 Watt er tallet du bør bry deg om. Volt og ampere forklarer hvordan laderen kommer dit, men wattallet forteller hvor mye effekt som er tilgjengelig.
 
 En lader som leverer 9 V ved 2 A, gir 18 W. En lader som leverer 20 V ved 3 A, gir 60 W. Regnestykket er enkelt: volt ganger ampere er lik watt.

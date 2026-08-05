@@ -5,10 +5,11 @@ listSummary: "Los hábitos de carga influyen en cuánto tiempo conserva la bater
 hub: "charging"
 sourceNumber: 38
 order: 2
-tags: ["carga","bateria","android","guia","hardware"]
+tags: ["carga", "bateria", "android", "guia", "hardware"]
 locale: "es"
 draft: false
 ---
+
 El mejor hábito de carga es bastante sencillo: mantén el móvil fresco, evita que pase horas al 100 % y no agotes la batería todos los días. Eso es lo esencial. Lo demás son matices.
 
 No hace falta vigilar el porcentaje constantemente ni desconectar el móvil en cuanto llegue al 80 %. Un móvil es una herramienta, no una muestra de laboratorio. Pero las baterías de iones de litio envejecen más rápido en unas condiciones bastante previsibles, y tu rutina de carga puede aumentar ese desgaste o mantenerlo bajo control.

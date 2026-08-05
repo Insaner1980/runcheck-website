@@ -5,12 +5,12 @@ listSummary: "Prüfe Sperren, Kontobindung, Akku und Software-Support vor dem Ka
 hub: "buying-selling"
 sourceNumber: 6
 order: 4
-tags: ["kaufratgeber","android","vergleich","wert","ratgeber"]
+tags: ["kaufratgeber", "android", "vergleich", "wert", "ratgeber"]
 locale: "de"
 draft: false
 ---
-Die folgenden Prüfungen sind nach ihrer Bedeutung geordnet. Die ersten drei sind Ausschlusskriterien. Alles danach entscheidet darüber, was das Smartphone tatsächlich wert ist.
 
+Die folgenden Prüfungen sind nach ihrer Bedeutung geordnet. Die ersten drei sind Ausschlusskriterien. Alles danach entscheidet darüber, was das Smartphone tatsächlich wert ist.
 
 ## Ausschlusskriterien: Kauf nicht, wenn diese Prüfungen scheitern
 
@@ -24,17 +24,16 @@ Factory Reset Protection (FRP) ist Androids Diebstahlschutz nach dem Zurücksetz
 
 Eine Netzbetreibersperre beschränkt, welche Mobilfunknetze das Smartphone nutzen kann. Lege eine SIM-Karte eines anderen Anbieters ein als die, über die das Gerät ursprünglich verkauft wurde. Bei einem reinen eSIM-Gerät kannst du, sofern angeboten, den IMEI- oder Kompatibilitätscheck deines Anbieters verwenden. Registriert sich das Gerät im Netz und kann es telefonieren oder mobile Daten nutzen, ist das ein gutes Zeichen. Meldungen wie "SIM nicht unterstützt" oder "Netzwerk gesperrt" sowie eine fehlgeschlagene Registrierung sprechen meist für eine Sperre. Manche Geräte lassen sich entsperren, doch das hängt von den Bedingungen des ursprünglichen Anbieters, dem Zahlungsstatus und der Mithilfe des Kontoinhabers ab. Bezahle für ein gesperrtes Smartphone nicht den Preis eines frei nutzbaren Geräts.
 
-
 ## Akku: Der größte Unsicherheitsfaktor beim Preis
 
 Der Akkuzustand beeinflusst den Alltag stärker als fast alles andere. Er wirkt sich auf die Displaylaufzeit, die Wärmeentwicklung, das Ladeverhalten und unter Last teilweise auch auf die Leistung aus. Beim Gebrauchtkauf ist er zugleich eines der besten Argumente für eine Preisverhandlung.
 
-| Zustandsbereich | Bedeutung | Auswirkung auf den Preis |
-|---|---|---|
-| 90-100 % | Ausgezeichnet, kaum Verschleiß | Der volle Angebotspreis kann gerechtfertigt sein |
-| 85-89 % | Normale Nutzung, noch viel Lebensdauer übrig | Angemessener Preis, keine größere Korrektur nötig |
-| 80-84 % | Spürbarer Verschleiß, während deiner Nutzungszeit kann ein Austausch nötig werden | Realistische örtliche Kosten für den Akkutausch abziehen |
-| Unter 80 % | Austausch wahrscheinlich bald nötig | Austauschkosten abziehen oder den Kauf überdenken |
+| Zustandsbereich | Bedeutung                                                                         | Auswirkung auf den Preis                                 |
+| --------------- | --------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| 90-100 %        | Ausgezeichnet, kaum Verschleiß                                                    | Der volle Angebotspreis kann gerechtfertigt sein         |
+| 85-89 %         | Normale Nutzung, noch viel Lebensdauer übrig                                      | Angemessener Preis, keine größere Korrektur nötig        |
+| 80-84 %         | Spürbarer Verschleiß, während deiner Nutzungszeit kann ein Austausch nötig werden | Realistische örtliche Kosten für den Akkutausch abziehen |
+| Unter 80 %      | Austausch wahrscheinlich bald nötig                                               | Austauschkosten abziehen oder den Kauf überdenken        |
 
 Die tatsächlichen Austauschkosten schwanken stärker, als viele Verkäufer zugeben. Bei einem älteren Android-Smartphone kann ein einfacher Akkutausch vergleichsweise günstig sein. Ein aktuelles verklebtes Flaggschiff, eine Reparatur beim autorisierten Service oder ein Foldable kann deutlich mehr kosten. Verlasse dich deshalb nicht auf einen pauschalen Eurobetrag. Prüfe vor dem Kauf den konkreten Preis für genau dieses Modell bei einem autorisierten Service und mindestens einer seriösen Reparaturwerkstatt. Dieser Kostenvoranschlag ist für die Verhandlung wesentlich nützlicher als eine allgemeine Preisspanne.
 
@@ -54,25 +53,23 @@ Ein Smartphone mit 82 % Akkuzustand und einem Angebotspreis von 400 € ist nich
 
 Möchten Käufer und Verkäufer beim Treffen einen gemeinsamen Anhaltspunkt für den Gesamtzustand aus Akku-, Temperatur-, Netzwerk- und Speicherwerten, kann eine Diagnose-App wie **runcheck** einen Zustandswert erstellen. Das ist weniger mehrdeutig als "funktioniert einwandfrei" oder "der Akku ist, glaube ich, noch gut".
 
-
 ## Verbleibender Software-Support
 
 Sicherheitsupdates und Betriebssystem-Support bestimmen, wie lange ein Smartphone sicher und mit aktuellen Apps kompatibel bleibt. Die Dauer hängt stark von Hersteller, Modell, Region und Erscheinungsjahr ab.
 
-| Hersteller | Support aktueller Flaggschiffe | Support aktueller Mittelklassemodelle |
-|---|---|---|
-| Google | Pixel 8 und neuer: 7 Jahre Betriebssystem- und Sicherheitsupdates | Pixel 8a und neuer: 7 Jahre |
-| Samsung | Galaxy S24-Serie und neuere Flaggschiffe: 7 Android-Generationen und 7 Jahre Sicherheitsupdates | Galaxy A56, A36 und A26: 6 Android-Generationen und 6 Jahre Sicherheitsupdates |
-| OnePlus | OnePlus 13 und 13R: 4 große Android-Updates und 6 Jahre Sicherheitsupdates | Je nach Modell unterschiedlich |
-| Motorola | Je nach Modell unterschiedlich, prüfe das genaue Gerät auf der Supportseite von Motorola | Häufig kürzer als bei Google oder Samsung, neuere Modelle unterscheiden sich jedoch deutlich |
-| Andere Marken | Unterschiedlich | Bei älteren oder günstigen Modellen häufig 2-3 Jahre; für neuere EU-Modelle gelten zusätzlich die seit 2025 wirksamen EU-Vorgaben |
+| Hersteller    | Support aktueller Flaggschiffe                                                                  | Support aktueller Mittelklassemodelle                                                                                             |
+| ------------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Google        | Pixel 8 und neuer: 7 Jahre Betriebssystem- und Sicherheitsupdates                               | Pixel 8a und neuer: 7 Jahre                                                                                                       |
+| Samsung       | Galaxy S24-Serie und neuere Flaggschiffe: 7 Android-Generationen und 7 Jahre Sicherheitsupdates | Galaxy A56, A36 und A26: 6 Android-Generationen und 6 Jahre Sicherheitsupdates                                                    |
+| OnePlus       | OnePlus 13 und 13R: 4 große Android-Updates und 6 Jahre Sicherheitsupdates                      | Je nach Modell unterschiedlich                                                                                                    |
+| Motorola      | Je nach Modell unterschiedlich, prüfe das genaue Gerät auf der Supportseite von Motorola        | Häufig kürzer als bei Google oder Samsung, neuere Modelle unterscheiden sich jedoch deutlich                                      |
+| Andere Marken | Unterschiedlich                                                                                 | Bei älteren oder günstigen Modellen häufig 2-3 Jahre; für neuere EU-Modelle gelten zusätzlich die seit 2025 wirksamen EU-Vorgaben |
 
 Für Smartphones, die seit dem 20. Juni 2025 auf dem EU-Markt in Verkehr gebracht werden, setzen die EU-Ökodesignregeln eine höhere Untergrenze. Betriebssystemupdates müssen ab dem Ende des Inverkehrbringens des jeweiligen Modells mindestens fünf Jahre lang verfügbar sein. Bestimmte wichtige Ersatzteile müssen sieben Jahre lang erhältlich bleiben, nachdem das Modell nicht mehr auf dem EU-Markt angeboten wird. Das hilft künftigen Gebrauchtkäufern, verlängert aber nicht automatisch den Support älterer Geräte, die bereits keine Updates mehr erhalten.
 
 Zwei oder mehr verbleibende Jahre sind eine solide Grundlage für den Kauf. Bei weniger als einem Jahr nähert sich das Smartphone aus Sicherheitssicht seinem Supportende. Manche Banking-, Wallet- und Arbeits-Apps verweigern auf gerooteten, manipulierten oder stark veralteten Geräten den Dienst. Selbst wenn sie noch laufen, ist ein Smartphone ohne Sicherheitsupdates kein guter Ort für sensible Konten.
 
 Prüfe die aktuelle Android-Version und das Datum des Sicherheitsupdates im Bereich **Einstellungen > Über das Telefon**. Ist das Gerät bei den Updates im Rückstand, kann es sich lediglich um eine verzögerte Verteilung handeln. Kann es die neueste für dieses Modell verfügbare Version überhaupt nicht installieren, können Firmware, Regionalversion, Netzbetreiberkonfiguration oder Updatekanal die Ursache sein.
-
 
 ## Äußerliche Prüfung
 
@@ -84,13 +81,11 @@ Wasserschaden: Viele Smartphones haben in der Nähe des SIM-Schachts oder darin 
 
 Lautsprecher, Mikrofon und Kameras: Spiele Ton mit hoher Lautstärke ab, nimm eine kurze Sprachaufnahme auf, fotografiere mit Front- und Rückkamera, prüfe den Autofokus und zeichne ein kurzes Video auf. Diese Tests dauern zwei Minuten und entdecken Fehler, die nach dem Kauf teuer werden können.
 
-
 ## Das EU-Reparierbarkeitslabel
 
 Seit dem 20. Juni 2025 müssen Smartphones und Slate-Tablets, die auf dem EU-Markt in Verkehr gebracht werden, ein neues Energielabel tragen. Es enthält die Energieeffizienz, die Akkulaufzeit pro Zyklus, die Akkulebensdauer in Zyklen, die Zuverlässigkeitsklasse bei Stürzen, den Schutz gegen das Eindringen von Staub und Wasser sowie eine Reparierbarkeitsklasse von A bis E. A steht für die beste, E für die schlechteste Reparierbarkeit.
 
 Bei einem gebrauchten Smartphone fehlt wahrscheinlich die Originalverpackung, und ältere Modelle haben dieses Label möglicherweise gar nicht. Bei neueren EU-Geräten lohnt es sich jedoch, die Reparierbarkeitsklasse in der Modellangabe oder, sofern vorhanden, in der EPREL-Datenbank nachzusehen. Ein Gerät mit besserer Reparierbarkeitsklasse sollte sich leichter und günstiger am Leben halten lassen, besonders wenn später Akku oder Ladeanschluss repariert werden müssen.
-
 
 ## Häufig gestellte Fragen
 
@@ -113,7 +108,6 @@ Nur wenn der Preisnachlass größer ist als die realistischen Reparaturkosten un
 ### Ist ein altes Flaggschiff besser als ein neueres Mittelklassemodell?
 
 Manchmal. Ein älteres Flaggschiff kann die bessere Kamera, das bessere Display, stärkere Lautsprecher und den schnelleren Prozessor haben. Ein neueres Mittelklassegerät kann dafür einen frischeren Akku, längeren Software-Support und günstigere Ersatzteile bieten. Beim Gebrauchtkauf sind verbleibender Support und Akkuzustand häufig wichtiger als der ursprüngliche Einführungspreis.
-
 
 ## Fazit
 

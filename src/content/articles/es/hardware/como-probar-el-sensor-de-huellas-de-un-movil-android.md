@@ -5,10 +5,11 @@ listSummary: "diagnostico, sensores y android"
 hub: "hardware"
 sourceNumber: 114
 order: 11
-tags: ["diagnostico","sensores","android","hardware","guia"]
+tags: ["diagnostico", "sensores", "android", "hardware", "guia"]
 locale: "es"
 draft: false
 ---
+
 ¿Está roto el sensor de huellas o simplemente le molesta el protector de pantalla? Parece una broma, pero es la primera pregunta que conviene hacerse.
 
 Los fallos de huella suelen tener causas bastante corrientes. La piel seca, la humedad, un protector barato de cristal templado, un registro defectuoso o una actualización de software a medio terminar pueden hacer que un sensor en buen estado parezca averiado. El hardware también puede fallar, sobre todo después de una caída o una reparación de pantalla, pero no empieces por esa explicación.

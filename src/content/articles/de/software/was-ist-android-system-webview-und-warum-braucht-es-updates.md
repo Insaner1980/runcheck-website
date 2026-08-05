@@ -5,10 +5,11 @@ listSummary: "Warum braucht eine Systemkomponente, die du nie direkt öffnest, s
 hub: "software"
 sourceNumber: 129
 order: 11
-tags: ["android","updates","sicherheit","software","ratgeber"]
+tags: ["android", "updates", "sicherheit", "software", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Vielleicht hast du noch nie auf ein WebView-Symbol getippt. Die meisten Menschen tun das nicht. Wenn aber eine E-Mail-App eine Anmeldeseite öffnet, eine soziale App einen Artikel anzeigt, ohne die App zu verlassen, oder eine Banking-App eine webbasierte Authentifizierung lädt, übernimmt WebView häufig im Hintergrund die Darstellung.
 
 ## Was WebView tatsächlich macht

@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 31
 order: 21
 subgroup: "Drain"
-tags: ["batterie","etat","diagnostic","android","guide"]
+tags: ["batterie", "etat", "diagnostic", "android", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Vous êtes dehors par un froid glacial. Le téléphone indique 38 %, puis il s'éteint comme si la batterie était tombée à zéro. Quelques minutes après votre retour à l'intérieur, il redémarre et affiche de nouveau une charge restante.
 
 Agaçant ? Oui. Mystérieux ? Pas vraiment.

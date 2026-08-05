@@ -5,10 +5,11 @@ listSummary: "nettverk, tilkobling og android"
 hub: "network"
 sourceNumber: 101
 order: 12
-tags: ["nettverk","tilkobling","android","feilsøking","guide"]
+tags: ["nettverk", "tilkobling", "android", "feilsøking", "guide"]
 locale: "nb"
 draft: false
 ---
+
 En telefon har enten 5G-maskinvare eller ikke. Android 17, en oppdatering av operatørinnstillingene eller et nytt SIM-kort kan ikke gjøre et 4G-modem om til et 5G-modem.
 
 Det høres opplagt ut, men skaper mye forvirring. Mange nyere, rimelige Android-telefoner støtter fortsatt bare 4G, mens en del eldre toppmodeller allerede har 5G. Modellnummeret betyr mer enn året som står på kvitteringen.

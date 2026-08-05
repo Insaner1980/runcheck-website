@@ -5,10 +5,11 @@ listSummary: "Xiaomis oplysninger om batteritilstand er stadig inkonsekvente."
 hub: "brands"
 sourceNumber: 155
 order: 3
-tags: ["batteri","tilstand","diagnostik","android","guide"]
+tags: ["batteri", "tilstand", "diagnostik", "android", "guide"]
 locale: "da"
 draft: false
 ---
+
 Android 17 rydder ikke op i dette af sig selv. Google udgav først Android 17 til de fleste understøttede Pixel-telefoner, mens Xiaomi-, Redmi- og POCO-enheder senere får Android 17-baserede HyperOS-versioner. Selv derefter bestemmer Xiaomi, hvad der vises under Settings på den enkelte model og i den enkelte region.
 
 Læs derfor ikke dette som én universel Xiaomi-sti. Brug det som en tjekliste.

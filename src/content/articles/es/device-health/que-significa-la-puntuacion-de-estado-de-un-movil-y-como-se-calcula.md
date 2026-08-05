@@ -5,10 +5,11 @@ listSummary: "temperatura, termico y android"
 hub: "device-health"
 sourceNumber: 10
 order: 6
-tags: ["temperatura","termico","android","solucion-de-problemas","hardware"]
+tags: ["temperatura", "termico", "android", "solucion-de-problemas", "hardware"]
 locale: "es"
 draft: false
 ---
+
 Android no define una puntuación universal para el estado del teléfono. No existe una pantalla común de Ajustes en la que "82/100" signifique lo mismo en todas las marcas. Mantenimiento del dispositivo de Samsung sí utiliza una escala de 100 puntos, mientras que **Device health and support** de Pixel muestra el estado general y el de distintas funciones, pero son herramientas propias de cada fabricante, no un estándar compartido por Android. Las aplicaciones de diagnóstico aplican sus propios modelos. Importa más saber qué entra en la puntuación y cuáles son sus límites que fijarse solo en el número.
 
 ## Qué mide una puntuación de estado

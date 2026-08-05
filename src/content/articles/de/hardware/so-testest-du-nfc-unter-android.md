@@ -5,10 +5,11 @@ listSummary: "diagnose, sensoren und android"
 hub: "hardware"
 sourceNumber: 115
 order: 12
-tags: ["diagnose","sensoren","android","hardware","ratgeber"]
+tags: ["diagnose", "sensoren", "android", "hardware", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Du hältst dein Smartphone an ein Zahlungsterminal, und nichts passiert. Jetzt hast du zwei Probleme: Die Zahlung ist fehlgeschlagen, und du weißt nicht, ob NFC, Google Wallet, die Karte, die Hülle oder das Terminal schuld ist.
 
 Beginne kleiner. NFC lässt sich leicht testen, wenn du das reine Lesen der Hardware von Zahlungen trennst.

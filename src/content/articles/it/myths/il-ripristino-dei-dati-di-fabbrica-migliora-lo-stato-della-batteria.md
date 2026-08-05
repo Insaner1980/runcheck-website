@@ -5,10 +5,11 @@ listSummary: "Un ripristino dei dati di fabbrica può migliorare l'autonomia di 
 hub: "myths"
 sourceNumber: 152
 order: 8
-tags: ["batteria","stato","diagnostica","android","guida"]
+tags: ["batteria", "stato", "diagnostica", "android", "guida"]
 locale: "it"
 draft: false
 ---
+
 Quando uno smartphone di tre anni non arriva a sera, il ripristino dei dati di fabbrica sembra una soluzione allettante. Dà l'idea di ricominciare da zero, e a volte funziona davvero. Non sulla batteria, però.
 
 Un ripristino può migliorare l'autonomia. Non può migliorare lo stato della batteria.

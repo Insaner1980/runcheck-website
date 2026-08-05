@@ -5,10 +5,11 @@ listSummary: "lagring, android och rensning"
 hub: "storage"
 sourceNumber: 79
 order: 1
-tags: ["lagring","android","rensning","optimering","guide"]
+tags: ["lagring", "android", "rensning", "optimering", "guide"]
 locale: "sv"
 draft: false
 ---
+
 ---
 
 Du försöker ta ett foto, installera en uppdatering eller ladda ned en fil, och Android säger att det inte finns tillräckligt med utrymme. Paniklösningen är att börja radera bilder. Gör inte det först.

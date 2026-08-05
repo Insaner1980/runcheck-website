@@ -5,10 +5,11 @@ listSummary: "hardware, testen und diagnose"
 hub: "hardware"
 sourceNumber: 105
 order: 2
-tags: ["hardware","testen","diagnose","android","ratgeber"]
+tags: ["hardware", "testen", "diagnose", "android", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Android-Smartphones verwenden eine Mischung aus Bewegungs-, Umwelt-, Positions- und Näherungssensoren. Manche sind physische Chips. Andere sind „virtuelle“ Sensoren, deren Werte aus mehreren Hardwarequellen berechnet werden. Wenn eine Quelle ungenau, blockiert oder deaktiviert ist, kann das sichtbare Problem an einer ganz anderen Stelle auftauchen.
 
 Fange einfach an. Für die erste Testrunde brauchst du weder Root noch ADB oder eine Laborwerkbank.

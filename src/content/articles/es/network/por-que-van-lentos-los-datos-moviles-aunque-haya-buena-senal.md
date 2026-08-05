@@ -5,10 +5,18 @@ listSummary: "Tener todas las barras de cobertura no garantiza unos datos móvil
 hub: "network"
 sourceNumber: 97
 order: 8
-tags: ["rendimiento","velocidad","android","optimizacion","solucion-de-problemas"]
+tags:
+  [
+    "rendimiento",
+    "velocidad",
+    "android",
+    "optimizacion",
+    "solucion-de-problemas",
+  ]
 locale: "es"
 draft: false
 ---
+
 Ves todas las barras de cobertura, pero la página sigue sin cargar. El móvil indica 5G o LTE. La señal parece buena. Aun así, los datos móviles avanzan como si estuvieran atascados.
 
 La explicación es que una buena señal solo demuestra una cosa: el móvil recibe suficientemente bien la antena de telefonía. Dice mucho menos sobre la carga de esa antena, la prioridad de tu tarifa, las interferencias, el enrutamiento del operador, la sobrecarga de una VPN o si el teléfono está conectado a la capa de red adecuada.

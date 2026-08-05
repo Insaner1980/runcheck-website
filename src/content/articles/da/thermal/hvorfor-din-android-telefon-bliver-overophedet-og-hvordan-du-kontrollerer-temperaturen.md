@@ -5,10 +5,11 @@ listSummary: "En Android-telefon kan føles varm af helt kedelige grunde, af alv
 hub: "thermal"
 sourceNumber: 53
 order: 1
-tags: ["temperatur","varme","android","fejlfinding","hardware"]
+tags: ["temperatur", "varme", "android", "fejlfinding", "hardware"]
 locale: "da"
 draft: false
 ---
+
 ## Kontrollér temperaturen først
 
 Begynd med de indbyggede værktøjer. De ser måske mindre imponerende ud end sensorapps, men de er også mindre tilbøjelige til at foregive en præcision, som telefonen ikke reelt stiller til rådighed.
@@ -103,4 +104,4 @@ Opladning skaber varme inde i batteriet. Hurtigopladning skaber mere. Hvis du br
 
 Brug producentens værktøjer først og derefter en diagnoseapp, hvis du har brug for historik. Betragt opkaldskoder som en bonus, ikke en garanti. Og hvis telefonen tydeligt er varm, skal du ikke presse den videre. Fjern varmekilden, lad den køle af, og se derefter efter mønstret.
 
-*Metabeskrivelse: Se, hvordan du kontrollerer temperaturen på en Android-telefon, hvad sikre batteritemperaturer betyder, og hvordan Android 17, Pixel-diagnostik, Samsung Members, opladning, apps og signalstyrke påvirker overophedning.*
+_Metabeskrivelse: Se, hvordan du kontrollerer temperaturen på en Android-telefon, hvad sikre batteritemperaturer betyder, og hvordan Android 17, Pixel-diagnostik, Samsung Members, opladning, apps og signalstyrke påvirker overophedning._

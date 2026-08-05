@@ -5,10 +5,11 @@ listSummary: "I vecchi download occupano spazio in silenzio sugli smartphone And
 hub: "storage"
 sourceNumber: 88
 order: 10
-tags: ["memoria","android","pulizia","ottimizzazione","guida"]
+tags: ["memoria", "android", "pulizia", "ottimizzazione", "guida"]
 locale: "it"
 draft: false
 ---
+
 Apri un PDF una sola volta, scarichi un APK per fare una prova, salvi un file ZIP dal browser e poi dimentichi tutto. Sei mesi dopo, la cartella Download è piena di file che non riconosci.
 
 È normale. Android mette lì molti file usati una volta sola e quasi nessuno tratta quello spazio come qualcosa da mantenere in ordine. Invece andrebbe fatto.

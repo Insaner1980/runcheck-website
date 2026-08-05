@@ -5,10 +5,11 @@ listSummary: "lagring, android och rensning"
 hub: "storage"
 sourceNumber: 82
 order: 4
-tags: ["lagring","android","rensning","optimering","guide"]
+tags: ["lagring", "android", "rensning", "optimering", "guide"]
 locale: "sv"
 draft: false
 ---
+
 ---
 
 En enda 4K-video från en helgresa kan vara större än hundratals foton. Samma sak gäller ett hämtat Netflix-avsnitt, en bortglömd mapp med speldata eller en ZIP-fil som du öppnade för flera månader sedan.

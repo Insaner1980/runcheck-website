@@ -5,10 +5,11 @@ listSummary: "Soluzioni pratiche per i problemi Bluetooth su Android."
 hub: "network"
 sourceNumber: 98
 order: 9
-tags: ["rete","connettivita","android","risoluzione-dei-problemi","guida"]
+tags: ["rete", "connettivita", "android", "risoluzione-dei-problemi", "guida"]
 locale: "it"
 draft: false
 ---
+
 Stai cercando di associare auricolari, uno smartwatch, un altoparlante o l'auto, ma Android non vede il dispositivo oppure lo mostra come connesso mentre non funziona nulla. Il Bluetooth fa così. Può funzionare senza problemi per mesi, poi una vecchia associazione si blocca e sembra che si sia rotto tutto.
 
 Parti dai controlli semplici prima di addentrarti nelle impostazioni. La maggior parte dei problemi Bluetooth non dipende da un guasto profondo di Android. Di solito la causa è un'associazione obsoleta, la batteria scarica dell'accessorio, la distanza, un'interferenza o un dispositivo che non è davvero in modalità di associazione.

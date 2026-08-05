@@ -7,9 +7,10 @@ hub: "battery"
 sourceNumber: 21
 order: 11
 subgroup: "Drain"
-tags: ["battery","drain","troubleshooting","android","performance"]
+tags: ["battery", "drain", "troubleshooting", "android", "performance"]
 draft: false
 ---
+
 The fastest way to waste time is changing ten settings at once and hoping one of them helps. Diagnose first. Then fix the thing that is actually draining power.
 
 <figure class="not-prose my-10">

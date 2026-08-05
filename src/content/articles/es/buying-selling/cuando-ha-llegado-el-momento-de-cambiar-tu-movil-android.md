@@ -5,10 +5,11 @@ listSummary: "Probablemente no necesitas un móvil Android nuevo solo porque hay
 hub: "buying-selling"
 sourceNumber: 143
 order: 7
-tags: ["guia-de-compra","android","comparacion","valor","guia"]
+tags: ["guia-de-compra", "android", "comparacion", "valor", "guia"]
 locale: "es"
 draft: false
 ---
+
 Ese retraso no convierte tu móvil en obsoleto. La pregunta real es más sencilla: ¿sigue siendo seguro, útil y razonable de reparar?
 
 ## Las actualizaciones de seguridad marcan el plazo real

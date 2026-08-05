@@ -5,10 +5,12 @@ listSummary: "Den Cache zu leeren kann sinnvoll sein, aber nur, wenn es dafür e
 hub: "storage"
 sourceNumber: 83
 order: 5
-tags: ["leistung","geschwindigkeit","android","optimierung","fehlerbehebung"]
+tags:
+  ["leistung", "geschwindigkeit", "android", "optimierung", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+
 Das ist nicht automatisch Datenmüll. Meistens sorgt der Cache dafür, dass Apps schneller reagieren.
 
 Probleme entstehen, wenn zwischengespeicherte Dateien zu groß werden, beschädigt sind oder nach einem größeren App- oder Android-Update liegen bleiben, obwohl sich das Verhalten der App geändert hat. Android 17 ist seit dem 16. Juni 2026 für die meisten unterstützten Pixel-Geräte verfügbar, andere Hersteller folgen nach ihrem eigenen Zeitplan. Am Grundprinzip hat sich nichts geändert: Auf Android ohne Herstelleranpassungen wird der Cache weiterhin für jede App einzeln verwaltet.

@@ -5,12 +5,12 @@ listSummary: "En telefon, der kostede omkring 8.500 kr."
 hub: "buying-selling"
 sourceNumber: 6
 order: 4
-tags: ["købsguide","android","sammenligning","værdi","guide"]
+tags: ["købsguide", "android", "sammenligning", "værdi", "guide"]
 locale: "da"
 draft: false
 ---
-Kontrollerne nedenfor er ordnet efter alvor. De første tre er afgørende. Alt derefter bestemmer, hvad telefonen faktisk er værd.
 
+Kontrollerne nedenfor er ordnet efter alvor. De første tre er afgørende. Alt derefter bestemmer, hvad telefonen faktisk er værd.
 
 ## Afgørende fejl: Gå din vej, hvis disse kontroller mislykkes
 
@@ -24,17 +24,16 @@ Factory Reset Protection (FRP) er Androids tyverisikring. Hvis den tidligere eje
 
 En operatørlås begrænser, hvilke mobilnet telefonen kan bruge. Sæt et SIM-kort i fra en anden operatør end den, telefonen oprindeligt blev solgt af, eller brug din operatørs IMEI-kontrol, hvis telefonen kun understøtter eSIM. Hvis den registrerer sig på netværket og kan foretage et opkald eller bruge mobildata, er det et godt tegn. Beskeder som "SIM-kort understøttes ikke", "netværk låst" eller manglende netværksregistrering betyder som regel, at telefonen er låst. En operatørlåst telefon kan nogle gange låses op, men det afhænger af den oprindelige operatørs regler, betalingsstatus og kontohaverens medvirken. Betal ikke samme pris som for en ulåst telefon.
 
-
 ## Batteriet: Den største prisvariabel
 
 Batteritilstanden påvirker den daglige brug mere end næsten noget andet. Den har betydning for skærmtid, varme, opladningsvaner og i nogle tilfælde ydeevnen under belastning. Det er også et af de bedste argumenter i en prisforhandling.
 
-| Tilstand | Hvad det betyder | Betydning for prisen |
-|---|---|---|
-| 90-100 % | Fremragende, meget lidt slitage | Den fulde pris kan være rimelig |
-| 85-89 % | Normal brug, masser af levetid tilbage | Rimelig pris, normalt ingen større justering |
-| 80-84 % | Mærkbar slitage, batteriet kan skulle udskiftes i din ejertid | Træk den realistiske lokale pris for batteriskift fra |
-| Under 80 % | Udskiftning bliver sandsynligvis snart nødvendig | Træk reparationsprisen fra, eller genovervej købet |
+| Tilstand   | Hvad det betyder                                              | Betydning for prisen                                  |
+| ---------- | ------------------------------------------------------------- | ----------------------------------------------------- |
+| 90-100 %   | Fremragende, meget lidt slitage                               | Den fulde pris kan være rimelig                       |
+| 85-89 %    | Normal brug, masser af levetid tilbage                        | Rimelig pris, normalt ingen større justering          |
+| 80-84 %    | Mærkbar slitage, batteriet kan skulle udskiftes i din ejertid | Træk den realistiske lokale pris for batteriskift fra |
+| Under 80 % | Udskiftning bliver sandsynligvis snart nødvendig              | Træk reparationsprisen fra, eller genovervej købet    |
 
 Den reelle pris på et batteriskift varierer mere, end sælgere ofte giver indtryk af. På visse almindelige Galaxy-modeller kan et uafhængigt værksted tage omkring 550 kr., mens nyere forseglede topmodeller, autoriseret service og foldbare telefoner kan koste væsentligt mere. Få helst et konkret dansk tilbud på netop modellen før købet, og brug det beløb i stedet for et generelt skøn.
 
@@ -54,25 +53,23 @@ En telefon med 82 % batteritilstand og en pris på 3.000 kr. er ikke reelt et k�
 
 Hvis både køber og sælger vil have ét fælles referencepunkt for telefonens samlede tilstand på tværs af batteri, temperatur, netværk og lagerplads, kan en diagnoseapp som **runcheck** beregne en tilstandsscore under mødet. Det er mindre tvetydigt end "den virker fint" eller "jeg tror stadig, batteriet er godt".
 
-
 ## Resterende softwaresupport
 
 Sikkerhedsopdateringer og OS-support afgør, hvor længe telefonen forbliver sikker og kompatibel med apps. Det varierer meget efter producent, model, region og udgivelsesår.
 
-| Producent | Nyere topmodeller | Nyere mellemklassemodeller |
-|---|---|---|
-| Google | Pixel 8 og nyere: 7 års OS- og sikkerhedsopdateringer | Pixel 8a og nyere: 7 år |
-| Samsung | Galaxy S24-serien og nyere topmodeller: 7 generationer af OS-opgraderinger og 7 års sikkerhedsopdateringer | Galaxy A56, A36 og A26: 6 generationer af OS-opgraderinger og 6 års sikkerhedsopdateringer |
-| OnePlus | OnePlus 13 og 13R: 4 større Android-opdateringer og 6 års sikkerhedsopdateringer | Varierer efter model |
-| Motorola | Varierer efter model, kontrollér det præcise produkt på Motorolas supportside | Ofte kortere end hos Google eller Samsung, men nyere modeller varierer |
-| Andre mærker | Varierer | Ofte 2-3 år på ældre eller billige modeller, mens nyere telefoner på EU-markedet er omfattet af EU-reglerne fra 2025 |
+| Producent    | Nyere topmodeller                                                                                          | Nyere mellemklassemodeller                                                                                           |
+| ------------ | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Google       | Pixel 8 og nyere: 7 års OS- og sikkerhedsopdateringer                                                      | Pixel 8a og nyere: 7 år                                                                                              |
+| Samsung      | Galaxy S24-serien og nyere topmodeller: 7 generationer af OS-opgraderinger og 7 års sikkerhedsopdateringer | Galaxy A56, A36 og A26: 6 generationer af OS-opgraderinger og 6 års sikkerhedsopdateringer                           |
+| OnePlus      | OnePlus 13 og 13R: 4 større Android-opdateringer og 6 års sikkerhedsopdateringer                           | Varierer efter model                                                                                                 |
+| Motorola     | Varierer efter model, kontrollér det præcise produkt på Motorolas supportside                              | Ofte kortere end hos Google eller Samsung, men nyere modeller varierer                                               |
+| Andre mærker | Varierer                                                                                                   | Ofte 2-3 år på ældre eller billige modeller, mens nyere telefoner på EU-markedet er omfattet af EU-reglerne fra 2025 |
 
 For telefoner, der er bragt på EU-markedet fra 20. juni 2025, sætter EU's ecodesignregler et højere minimum. Producenten skal blandt andet stille operativsystemopgraderinger til rådighed i mindst fem år fra den dato, hvor den sidste enhed af modellen blev bragt på markedet, og centrale reservedele skal være tilgængelige i syv år efter, at modellen er taget af EU-markedet. Det hjælper fremtidige købere af brugte telefoner, men forlænger ikke automatisk levetiden på ældre modeller, der allerede er ude af support.
 
 To år eller mere tilbage er et trygt køb. Under ét år betyder, at telefonen nærmer sig slutningen af sin sikre levetid. Nogle bank-, betalings- og arbejdsapps kan afvise rootede, kompromitterede eller forældede enheder. Selv når de stadig virker, er en telefon uden sikkerhedsopdateringer et dårligt sted at opbevare følsomme konti.
 
 Kontrollér Android-versionen og datoen for sikkerhedsopdateringen under **Indstillinger > Om telefonen**. Hvis telefonen er bagud med opdateringer, kan det blot være en forsinket udrulning. Hvis den ikke kan installere den seneste version, som findes til modellen, kan der være noget galt med firmware, regionsvariant, operatørsoftware eller opdateringskanal.
-
 
 ## Fysisk gennemgang
 
@@ -84,13 +81,11 @@ Vandskade: Mange telefoner har en væskeindikator ved eller inde i SIM-kortåbni
 
 Højttalere, mikrofoner og kameraer: Afspil lyd ved høj styrke, optag en stemmebesked, tag billeder med både front- og bagkamera, afprøv fokus, og optag en kort video. Det tager to minutter og afslører problemer, som ellers kan være dyre at opdage efter købet.
 
-
 ## EU's reparationsklasse
 
 Siden 20. juni 2025 skal smartphones og slate-tablets, der bringes på EU-markedet, have et nyt energimærke. Mærket viser energieffektivitet, batteritid pr. cyklus, batteriets forventede antal cyklusser, klasse for faldmodstandsdygtighed, indtrængningsbeskyttelse og en reparationsklasse fra A til E. A er lettest at reparere. E er sværest.
 
 En brugt telefon følger sandsynligvis ikke med sin oprindelige æske, og ældre modeller har måske slet ikke mærket. På nyere EU-modeller er reparationsklassen dog værd at slå op online i modeloplysningerne eller i EPREL, når den findes der. En telefon med en bedre reparationsklasse bør være lettere og billigere at holde i live end en model med en dårlig klasse, især når batteriet eller opladningsporten senere skal repareres.
-
 
 ## Ofte stillede spørgsmål
 
@@ -113,7 +108,6 @@ Kun hvis prisnedslaget er større end reparationsprisen, og telefonen stadig har
 ### Er en gammel topmodel bedre end en nyere mellemklassemodel?
 
 Nogle gange. En gammel topmodel kan have bedre kamera, skærm, højttalere og processor. En nyere mellemklassemodel kan have et sundere batteri, længere softwaresupport og billigere reservedele. Ved køb af brugt telefon betyder den resterende support og batteriets tilstand ofte mere end den oprindelige lanceringspris.
-
 
 ## Konklusion
 

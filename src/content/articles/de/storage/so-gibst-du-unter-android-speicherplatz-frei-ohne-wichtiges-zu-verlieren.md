@@ -5,10 +5,11 @@ listSummary: "speicher, android und bereinigung"
 hub: "storage"
 sourceNumber: 79
 order: 1
-tags: ["speicher","android","bereinigung","optimierung","ratgeber"]
+tags: ["speicher", "android", "bereinigung", "optimierung", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 ---
 
 Du willst ein Foto aufnehmen, ein Update installieren oder eine Datei herunterladen, und Android meldet, dass nicht genug Speicherplatz vorhanden ist. Der erste Impuls ist, Fotos zu löschen. Fang nicht damit an.

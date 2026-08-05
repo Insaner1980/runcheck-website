@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 22
 order: 12
 subgroup: "Drain"
-tags: ["bateria","calibracion","solucion-de-problemas","android","guia"]
+tags: ["bateria", "calibracion", "solucion-de-problemas", "android", "guia"]
 locale: "es"
 draft: false
 ---
+
 En cierto modo, lo hace. La cifra de la pantalla es una estimación, y resulta más difícil calcularla cuando la batería ha envejecido.
 
 ## Lo primero que debes comprobar

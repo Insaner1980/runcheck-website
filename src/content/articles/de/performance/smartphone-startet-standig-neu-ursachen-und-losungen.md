@@ -5,10 +5,12 @@ listSummary: "Dein Android-Smartphone startet immer wieder von selbst neu?"
 hub: "performance"
 sourceNumber: 74
 order: 11
-tags: ["leistung","geschwindigkeit","android","optimierung","fehlerbehebung"]
+tags:
+  ["leistung", "geschwindigkeit", "android", "optimierung", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+
 ---
 
 Startet das Smartphone zwischendurch neu oder hängt es in einer Schleife beim Hochfahren? Dieser Unterschied ist wichtig.

@@ -6,9 +6,10 @@ hub: "battery"
 sourceNumber: 14
 order: 4
 subgroup: "Health"
-tags: ["battery","drain","troubleshooting","android","performance"]
+tags: ["battery", "drain", "troubleshooting", "android", "performance"]
 draft: false
 ---
+
 You open Battery usage and see one app at 42%. That looks bad. Sometimes it is. Sometimes it means almost nothing.
 
 Android battery stats are good for narrowing down a problem, but they are not a receipt for exactly where every milliamp-hour went. The trick is reading the percentages in context.

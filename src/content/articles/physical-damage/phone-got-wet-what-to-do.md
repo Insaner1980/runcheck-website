@@ -5,9 +5,10 @@ listSummary: "Water damage first response"
 hub: "physical-damage"
 sourceNumber: 133
 order: 3
-tags: ["hardware","damage","repair","android","troubleshooting"]
+tags: ["hardware", "damage", "repair", "android", "troubleshooting"]
 draft: false
 ---
+
 ---
 
 You fish the phone out of the sink, the screen is still on, and your first instinct is to press every button to see if it survived. Don't. The best move in that moment is boring: stop electricity, get liquid away from openings, and give the phone time.

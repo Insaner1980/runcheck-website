@@ -5,10 +5,11 @@ listSummary: "Eingeschaltetes WLAN verbraucht unter Android normalerweise nur we
 hub: "myths"
 sourceNumber: 149
 order: 5
-tags: ["netzwerk","verbindungen","android","fehlerbehebung","ratgeber"]
+tags: ["netzwerk", "verbindungen", "android", "fehlerbehebung", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Die meisten machen sich wegen des falschen WLAN-Problems Sorgen. Ein Smartphone, das stabil mit einem starken WLAN verbunden ist, verhält sich anders als ein Gerät, das den ganzen Tag ohne Verbindung unterwegs ist und nach Netzwerken sucht.
 
 Dieser Unterschied zählt. Eine stabile WLAN-Verbindung verbraucht meist wenig Energie. Ständiges Suchen kann den Akku dagegen spürbar belasten.

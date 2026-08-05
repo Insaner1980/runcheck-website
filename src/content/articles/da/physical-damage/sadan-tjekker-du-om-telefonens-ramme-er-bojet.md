@@ -5,10 +5,11 @@ listSummary: "hardware, skader og reparation"
 hub: "physical-damage"
 sourceNumber: 135
 order: 5
-tags: ["hardware","skader","reparation","android","fejlfinding"]
+tags: ["hardware", "skader", "reparation", "android", "fejlfinding"]
 locale: "da"
 draft: false
 ---
+
 ---
 
 Det første tegn er som regel ikke dramatisk. Et cover sidder ikke længere tæt. En skærmbeskytter bliver ved med at løfte sig i det ene hjørne. Telefonen vipper på bordet, selv om bagsiden ser normal ud.

@@ -5,10 +5,11 @@ listSummary: "netzwerk, verbindungen und android"
 hub: "network"
 sourceNumber: 99
 order: 10
-tags: ["netzwerk","verbindungen","android","fehlerbehebung","ratgeber"]
+tags: ["netzwerk", "verbindungen", "android", "fehlerbehebung", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Ein VPN verändert den Weg, den der Internetverkehr deines Smartphones nimmt. Statt dass Apps direkt über das WLAN oder das Mobilfunknetz ins Internet gehen, sendet das Gerät die Daten zuerst durch einen verschlüsselten Tunnel an einen VPN-Server. Websites und Apps sehen dadurch die IP-Adresse dieses Servers und nicht die übliche öffentliche IP-Adresse deiner Verbindung.
 
 Das klingt geheimnisvoller, als es ist. Ein VPN kann nützlich sein, ist aber kein undurchdringlicher Schutzschild für deine Privatsphäre.

@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 28
 order: 18
 subgroup: "Drain"
-tags: ["batterie","consommation","depannage","android","performances"]
+tags: ["batterie", "consommation", "depannage", "android", "performances"]
 locale: "fr"
 draft: false
 ---
+
 Oui, la 5G peut décharger la batterie plus vite que la 4G LTE. Mais l'écart n'est plus aussi catastrophique qu'avec la première génération de téléphones 5G.
 
 Une analyse de Speedtest Intelligence d'Ookla a mesuré une consommation supérieure d'environ 6 à 11 % en 5G par rapport à la LTE, selon le SoC du téléphone. La différence est réelle. Sur un appareil récent avec un signal correct, elle ne sépare toutefois pas, en général, une journée complète d'un téléphone à plat. Sur un ancien modèle 5G, ou dans une zone où l'appareil alterne constamment entre LTE et 5G, l'effet peut encore être évident.

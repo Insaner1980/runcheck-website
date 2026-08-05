@@ -5,10 +5,11 @@ listSummary: "fabricante, android y diagnostico"
 hub: "brands"
 sourceNumber: 160
 order: 8
-tags: ["fabricante","android","diagnostico","especifico-de-la-marca","guia"]
+tags: ["fabricante", "android", "diagnostico", "especifico-de-la-marca", "guia"]
 locale: "es"
 draft: false
 ---
+
 Escribes `*#0*#` en la aplicación Teléfono de Samsung y el marcador normal desaparece. En su lugar aparece una cuadrícula sencilla de botones para probar la pantalla, el panel táctil, los altavoces, los sensores, las cámaras, el motor de vibración y los botones físicos.
 
 Cuando funciona, parece casi demasiado fácil. Cuando no lo hace, puede resultar bastante frustrante porque Samsung no presenta este menú como una función normal para el consumidor. Trátalo como un menú de servicio de bajo nivel que suele funcionar en móviles Galaxy, no como una función garantizada en todos los modelos, compilaciones de operadora o regiones.

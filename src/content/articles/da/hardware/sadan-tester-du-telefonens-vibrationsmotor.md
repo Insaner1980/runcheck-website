@@ -5,10 +5,11 @@ listSummary: "hardware, test og diagnostik"
 hub: "hardware"
 sourceNumber: 109
 order: 6
-tags: ["hardware","test","diagnostik","android","guide"]
+tags: ["hardware", "test", "diagnostik", "android", "guide"]
 locale: "da"
 draft: false
 ---
+
 ---
 
 En lydløs telefon betyder ikke automatisk, at vibrationsmotoren er død. De fleste vibrationsproblemer skyldes først indstillinger, derefter software og til sidst hardware.

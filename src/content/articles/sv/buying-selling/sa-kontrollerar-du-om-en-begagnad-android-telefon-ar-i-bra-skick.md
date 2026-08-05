@@ -5,12 +5,12 @@ listSummary: "En telefon som använts i ett eller två år kan se felfri ut och 
 hub: "buying-selling"
 sourceNumber: 2
 order: 1
-tags: ["köpguide","android","jämförelse","värde","guide"]
+tags: ["köpguide", "android", "jämförelse", "värde", "guide"]
 locale: "sv"
 draft: false
 ---
-Det tar ungefär femton minuter att bedöma det faktiska skicket, och du behöver inte installera något.
 
+Det tar ungefär femton minuter att bedöma det faktiska skicket, och du behöver inte installera något.
 
 ## Börja med det som inte syns
 
@@ -24,7 +24,6 @@ Om telefonen inte visar någon hälsomätning kan du skriva `*#*#4636#*#*` i tel
 
 Lagringens skick är svårare att mäta, men det är värt att kontrollera. Öppna Inställningar > Lagringsutrymme och se hur fullt det är. Det som händer i praktiken säger ännu mer än siffran: tvekar telefonen när appar öppnas? Tar det någon sekund innan kameran sparar bilder? NAND-flash blir långsammare när lagringen fylls och cellerna slits av upprepade skrivningar. Symptomen märks som allmän tröghet och misstas ofta för en långsam processor.
 
-
 ## Det fysiska skicket
 
 Håll telefonen i starkt ljus och titta på skärmen från flera vinklar. Små repor som inte syns rakt framifrån blir tydliga från sidan. Kontrollera kanterna, där sprickor efter fall ofta börjar. Lägg telefonen plant på ett bord. Om den gungar kan ramen vara böjd eller batteriet ha börjat svälla. Ett svullet batteri är ett säkerhetsproblem, inte bara ett prestandafel.
@@ -33,13 +32,11 @@ Laddningsporten samlar fickludd efter månader av användning. Lys in med en fic
 
 Knapparna ska ge ett tydligt klick. En mjuk strömknapp eller en volymknapp som måste tryckas två gånger är slitage som inte försvinner av sig självt.
 
-
 ## Skärm och beröring
 
 Döda pixlar syns som små mörka punkter mot en vit bakgrund. Öppna en webbläsare, sök efter "white screen test", visa bilden i helskärm och titta noga. Upprepa med helt rött, grönt, blått och svart för att hitta fel i enskilda subpixlar. OLED-skärmar kan också få inbränning från element som visats på samma plats i månader, till exempel navigeringsfältet, statusfältet eller gränssnittet i en app som används ofta. En mellangrå helskärmsbild gör inbränning lättare att se.
 
 Döda områden i pekskärmen är svårare att upptäcka. Aktivera utvecklaralternativ genom att trycka sju gånger på versionsnumret under informationen om telefonen. Aktivera sedan funktionen som visar pekarens position. Dra långsamt ett finger över hela skärmen. Koordinatspåret ska följa utan avbrott, särskilt i hörnen och längs kanterna där skärmens anslutningar är mest känsliga för stötskador.
-
 
 ## Sensorer, högtalare och kameror
 
@@ -49,11 +46,9 @@ Samsung-telefoner har på många modeller ett särskilt hårdvarutest som öppna
 
 Spela musik genom högtalaren på olika volymer. Sprak eller distorsion redan på måttlig nivå kan tyda på skada. Spela in ett kort röstklipp och lyssna på det för att testa mikrofonen. Öppna både den främre och bakre kameran och ta några bilder i bra ljus. Leta efter fokusproblem, suddiga partier eller en kamera som söker fram och tillbaka utan att låsa fokus.
 
-
 ## Fuktskador
 
 Många Android-telefoner har en vätskekontaktindikator, LCI, som kan ses vid SIM-kortsfacket. Ta ut hållaren och lys in. Vitt eller silver brukar betyda att indikatorn inte har utsatts för vätska. Rosa eller rött betyder att vätska någon gång har kommit in. En rosa indikator innebär inte automatiskt att telefonen är trasig just nu, men fuktskador kan förvärras när korrosionen sprider sig invändigt. Det är viktig information, men inte alltid ett omedelbart skäl att avstå från köpet.
-
 
 ## Programvarans skick
 

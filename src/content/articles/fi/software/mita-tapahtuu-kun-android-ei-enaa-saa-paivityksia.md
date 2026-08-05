@@ -5,10 +5,11 @@ listSummary: "Viimeinen päivitys saapuu, asennat sen, eikä mitään dramaattis
 hub: "software"
 sourceNumber: 121
 order: 3
-tags: ["android","päivitykset","tietoturva","ohjelmisto","opas"]
+tags: ["android", "päivitykset", "tietoturva", "ohjelmisto", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Siksi tuen ulkopuolelle jääneet puhelimet ovat hankalia. Ne eivät lakkaa yhtäkkiä toimimasta. Ne vain altistuvat riskeille hieman enemmän joka kuukausi.
 
 ## Tietoturvariski kasvaa ajan myötä

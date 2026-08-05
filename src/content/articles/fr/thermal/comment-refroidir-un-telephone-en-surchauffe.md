@@ -5,10 +5,11 @@ listSummary: "recharge, batterie et android"
 hub: "thermal"
 sourceNumber: 54
 order: 2
-tags: ["recharge","batterie","android","guide","materiel"]
+tags: ["recharge", "batterie", "android", "guide", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 ## Commencez par ceci
 
 Débranchez le chargeur. La recharge ajoute de la chaleur, et le téléphone ne peut pas refroidir efficacement si vous continuez à lui fournir de l'énergie. Même si Android a déjà interrompu la recharge, le débrancher aide toujours, car cela retire le chargeur, le câble ou le socle de l'équation.
@@ -85,4 +86,4 @@ Pour de longues sessions de jeu, un refroidisseur à clip peut aider, car il év
 
 Refroidir un téléphone demande surtout de ne pas insister. Débranchez-le, retirez la coque, arrêtez la tâche exigeante, éloignez-le de la chaleur et ne forcez pas un refroidissement rapide. Si le même problème revient pendant une utilisation légère, la cause est généralement une application, un signal faible, le matériel de recharge ou l'usure de la batterie.
 
-*Meta description : Mesures sûres pour refroidir un téléphone Android en surchauffe, erreurs à éviter, chaleur normale après Android 17 ou une autre mise à jour, et signes indiquant qu'une batterie chaude doit être réparée.*
+_Meta description : Mesures sûres pour refroidir un téléphone Android en surchauffe, erreurs à éviter, chaleur normale après Android 17 ou une autre mise à jour, et signes indiquant qu'une batterie chaude doit être réparée._

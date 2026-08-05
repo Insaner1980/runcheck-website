@@ -5,10 +5,11 @@ listSummary: "nettverk, tilkobling og android"
 hub: "network"
 sourceNumber: 95
 order: 6
-tags: ["nettverk","tilkobling","android","feilsøking","guide"]
+tags: ["nettverk", "tilkobling", "android", "feilsøking", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Start med ett spørsmål: kobles andre enheter på samme wifi-nettverk også fra? Hvis svaret er ja, bør du arbeide med ruteren eller internettforbindelsen først. Hvis bare telefonen faller ut, ligger problemet sannsynligvis i telefonen, den lagrede nettverksprofilen eller måten den beveger seg mellom frekvensbånd på.
 
 ## Hvis flere enheter kobles fra, mistenk ruteren først

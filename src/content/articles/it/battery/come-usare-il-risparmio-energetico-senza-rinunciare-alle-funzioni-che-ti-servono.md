@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 36
 order: 26
 subgroup: "Consumo della batteria"
-tags: ["batteria","ottimizzazione","android","consigli","prestazioni"]
+tags: ["batteria", "ottimizzazione", "android", "consigli", "prestazioni"]
 locale: "it"
 draft: false
 ---
+
 Il Risparmio energetico è più utile prima che il telefono sia agli sgoccioli. Attivarlo all'8 % aiuta, ma a quel punto gran parte della carica è già finita.
 
 Conviene usarlo in base alla situazione. Attivalo quando sai che sarà difficile ricaricare: durante un volo, una riunione lunga, un tragitto con segnale debole, una giornata all'aperto o ogni volta che ti serve più autonomia, anche a costo di rinunciare a un po' di fluidità.

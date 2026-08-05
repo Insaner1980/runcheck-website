@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 21
 order: 11
 subgroup: "Drain"
-tags: ["batteri","strømforbruk","feilsøking","android","ytelse"]
+tags: ["batteri", "strømforbruk", "feilsøking", "android", "ytelse"]
 locale: "nb"
 draft: false
 ---
+
 Den raskeste måten å kaste bort tid på er å endre ti innstillinger samtidig og håpe at én av dem hjelper. Finn årsaken først. Rett deretter opp det som faktisk bruker strømmen.
 
 ## Begynn med de åpenbare kontrollene

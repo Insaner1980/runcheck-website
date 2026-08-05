@@ -5,10 +5,11 @@ listSummary: "La batteria è al 18 %, l'icona è rossa e la schermata delle app 
 hub: "myths"
 sourceNumber: 146
 order: 2
-tags: ["miti","dati","android","batteria","verifica-dei-miti"]
+tags: ["miti", "dati", "android", "batteria", "verifica-dei-miti"]
 locale: "it"
 draft: false
 ---
+
 In realtà non serve a risparmiare batteria.
 
 ## La risposta resta no

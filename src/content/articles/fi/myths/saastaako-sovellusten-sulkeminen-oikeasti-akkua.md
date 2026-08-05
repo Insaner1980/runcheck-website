@@ -5,10 +5,11 @@ listSummary: "Akkua on jäljellä 18 %, kuvake on punainen ja viimeksi käytetty
 hub: "myths"
 sourceNumber: 146
 order: 2
-tags: ["myytit","faktat","android","akku","myytinmurtaminen"]
+tags: ["myytit", "faktat", "android", "akku", "myytinmurtaminen"]
 locale: "fi"
 draft: false
 ---
+
 Se ei oikeastaan säästä akkua.
 
 ## Vastaus on edelleen ei

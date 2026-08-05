@@ -5,10 +5,11 @@ listSummary: "ydeevne, hastighed og android"
 hub: "device-health"
 sourceNumber: 9
 order: 5
-tags: ["ydeevne","hastighed","android","optimering","fejlfinding"]
+tags: ["ydeevne", "hastighed", "android", "optimering", "fejlfinding"]
 locale: "da"
 draft: false
 ---
+
 En god sikkerhedskopi behøver ikke være avanceret. Du skal bare vide, hvad Android allerede gemmer, hvad systemet springer over, og hvilke apps der kræver deres egen sikkerhedskopi, før du gør noget destruktivt.
 
 ## Det sikkerhedskopierer Google automatisk

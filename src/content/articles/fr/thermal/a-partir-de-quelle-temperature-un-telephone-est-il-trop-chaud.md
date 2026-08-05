@@ -5,10 +5,11 @@ listSummary: "temperature, thermique et android"
 hub: "thermal"
 sourceNumber: 59
 order: 7
-tags: ["temperature","thermique","android","depannage","materiel"]
+tags: ["temperature", "thermique", "android", "depannage", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 À partir de quelle température est-ce trop chaud ? La réponse agaçante est que cela dépend de la température que vous mesurez.
 
 L'air autour du téléphone donne une première valeur. La surface extérieure de l'appareil en donne une autre. Le capteur de la batterie en fournit encore une autre, et c'est cette dernière qui compte le plus pour le vieillissement de la batterie. Un téléphone peut sembler seulement tiède dans votre main alors que sa batterie ou son SoC est déjà assez chaud pour qu'Android réduise les performances.

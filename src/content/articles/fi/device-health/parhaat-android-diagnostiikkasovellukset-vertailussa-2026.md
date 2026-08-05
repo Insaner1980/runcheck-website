@@ -5,10 +5,11 @@ listSummary: "Vertaa diagnostiikkasovelluksia mittausten ja käyttötavan mukaan
 hub: "device-health"
 sourceNumber: 138
 order: 7
-tags: ["vertailu","sovellukset","android","osto-opas","arvostelu"]
+tags: ["vertailu", "sovellukset", "android", "osto-opas", "arvostelu"]
 locale: "fi"
 draft: false
 ---
+
 Useimmat Androidin diagnostiikkasovellukset eivät oikeastaan ole diagnostiikkasovelluksia. Ne ovat akkuwidgettejä, teknisten tietojen luetteloita, mainosväyliä tai vanhoja puhdistussovelluksia, joiden päälle on liimattu kuntopisteet.
 
 Paremmat vaihtoehdot kertovat rehellisemmin, mitä ne tekevät. AccuBattery seuraa akun käyttäytymistä ajan mittaan. DevCheck ja AIDA64 näyttävät laitteistotietoja. Phone Doctor Plus testaa komponentteja käyttäjän avustuksella. runcheck tarkastelee laitteen kuntoa akun, lämpötilan, verkon ja tallennustilan kautta sen sijaan, että yksi numero esittäisi koko totuutta.

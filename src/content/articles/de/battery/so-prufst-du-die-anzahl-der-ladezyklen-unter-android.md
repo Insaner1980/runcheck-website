@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 12
 order: 2
 subgroup: "Health"
-tags: ["akku","zustand","diagnose","android","ratgeber"]
+tags: ["akku", "zustand", "diagnose", "android", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Diese Zahl ist wichtig, weil Lithium-Ionen-Akkus eine begrenzte, in Ladezyklen messbare Lebensdauer haben. Die meisten modernen Smartphone-Akkus behalten je nach Zellchemie und Hersteller nach 800 bis 1.000 Zyklen noch ungefähr 80 % ihrer ursprünglichen Kapazität. Danach wird die kürzere Laufzeit im Alltag deutlich spürbar.
 
 Android unterstützt die Meldung der Ladezyklen seit Android 14 über `BatteryManager.EXTRA_CYCLE_COUNT`. Ob die Zahl tatsächlich angezeigt oder an Apps weitergegeben wird, entscheidet jedoch der Hersteller. Einige aktuelle Smartphones zeigen sie in den Einstellungen, die meisten älteren Modelle nicht. Die folgenden Methoden sind danach sortiert, auf wie vielen Geräten sie funktionieren. Zuerst kommen Ansätze, die auch viele ältere Modelle abdecken.

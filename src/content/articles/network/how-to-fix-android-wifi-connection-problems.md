@@ -5,9 +5,10 @@ listSummary: "Wi-Fi connection troubleshooting"
 hub: "network"
 sourceNumber: 96
 order: 7
-tags: ["performance","speed","android","optimization","troubleshooting"]
+tags: ["performance", "speed", "android", "optimization", "troubleshooting"]
 draft: false
 ---
+
 What should you try first when Android Wi-Fi breaks? Don't start with a factory reset, and don't waste half an hour changing router settings before testing the simple stuff. Most Wi-Fi problems fall into one of three buckets: the phone won't connect, it connects but keeps dropping, or it stays connected but the internet feels dead.
 
 Work through the fixes in this order. It saves time.

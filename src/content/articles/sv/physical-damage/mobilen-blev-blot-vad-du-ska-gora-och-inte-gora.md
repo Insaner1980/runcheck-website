@@ -5,10 +5,11 @@ listSummary: "hårdvara, skador och reparation"
 hub: "physical-damage"
 sourceNumber: 133
 order: 3
-tags: ["hårdvara","skador","reparation","android","felsökning"]
+tags: ["hårdvara", "skador", "reparation", "android", "felsökning"]
 locale: "sv"
 draft: false
 ---
+
 ---
 
 Du fiskar upp mobilen ur diskhon, skärmen är fortfarande tänd och den första impulsen är att trycka på alla knappar för att se om den överlevde. Gör inte det. Det bästa du kan göra just då är ganska odramatiskt: bryt strömmen, få bort vätska från öppningarna och ge mobilen tid.

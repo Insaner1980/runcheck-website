@@ -5,9 +5,10 @@ listSummary: "Camera quality checks"
 hub: "hardware"
 sourceNumber: 110
 order: 7
-tags: ["hardware","testing","diagnostics","android","guide"]
+tags: ["hardware", "testing", "diagnostics", "android", "guide"]
 draft: false
 ---
+
 ---
 
 Camera testing gets easier when you stop thinking about megapixels. A 50MP sensor can still take bad photos if the lens is dirty, the autofocus is broken, or the camera module was knocked slightly out of place.

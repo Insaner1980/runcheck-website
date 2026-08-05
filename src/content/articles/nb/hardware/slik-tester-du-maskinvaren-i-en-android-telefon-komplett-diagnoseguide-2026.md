@@ -5,10 +5,11 @@ listSummary: "En Android-telefon kan se helt fin ut selv om én del er i ferd me
 hub: "hardware"
 sourceNumber: 104
 order: 1
-tags: ["batteri","strømforbruk","feilsøking","android","ytelse"]
+tags: ["batteri", "strømforbruk", "feilsøking", "android", "ytelse"]
 locale: "nb"
 draft: false
 ---
+
 Den gode nyheten er at du kan teste det meste før du betaler for reparasjon. Android har innstillingssider, produsentverktøy, tastekoder og manuelle kontroller som dekker de viktigste delene. Det rotete er at ingenting av dette fungerer likt på alle telefoner.
 
 Android 17 ble lansert for de fleste støttede Pixel-telefoner i juni 2026, mens andre merker følger sine egne tidsplaner. Det er relevant fordi diagnosemenyer, visning av batterihelse og menybaner kan variere med Android-versjon, produsentens grensesnitt, operatørversjon og region. Se på hver kode i denne guiden som en snarvei, ikke et løfte.

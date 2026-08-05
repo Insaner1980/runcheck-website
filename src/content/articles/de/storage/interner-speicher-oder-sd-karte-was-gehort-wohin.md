@@ -5,10 +5,11 @@ listSummary: "speicher, android und bereinigung"
 hub: "storage"
 sourceNumber: 86
 order: 8
-tags: ["speicher","android","bereinigung","optimierung","ratgeber"]
+tags: ["speicher", "android", "bereinigung", "optimierung", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Das ist 2026 besonders relevant, weil in Android-Smartphones sehr unterschiedliche Speichertechnik steckt. Viele Flaggschiffe und Mittelklassegeräte haben überhaupt keinen microSD-Steckplatz. Pixel-Smartphones bieten keinen, Samsung hat ihn bei der Galaxy-S-Reihe schon vor Jahren gestrichen, und auch mehrere aktuelle Galaxy-A-Modelle verzichten darauf. Gleichzeitig unterstützen viele ältere Galaxy-A- und Galaxy-M-Smartphones, Motorola-Moto-G-Modelle und Sony-Xperia-Geräte weiterhin microSD.
 
 Prüfe dein genaues Modell. Der Name der Produktfamilie reicht nicht aus.

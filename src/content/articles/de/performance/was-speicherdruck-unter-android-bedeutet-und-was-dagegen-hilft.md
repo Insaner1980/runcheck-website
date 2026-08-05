@@ -5,10 +5,12 @@ listSummary: "Speicherdruck entsteht, wenn Android zu wenig RAM hat und das Syst
 hub: "performance"
 sourceNumber: 76
 order: 13
-tags: ["leistung","geschwindigkeit","android","optimierung","fehlerbehebung"]
+tags:
+  ["leistung", "geschwindigkeit", "android", "optimierung", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+
 ---
 
 Bei Speicherdruck entscheidet Android, worauf es verzichten kann. Reicht der RAM nicht für alles aus, beendet das System weniger wichtige Prozesse, damit das Smartphone weiter funktioniert.

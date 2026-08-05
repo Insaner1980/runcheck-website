@@ -5,10 +5,11 @@ listSummary: "laddning, batteri och android"
 hub: "charging"
 sourceNumber: 41
 order: 5
-tags: ["laddning","batteri","android","guide","hårdvara"]
+tags: ["laddning", "batteri", "android", "guide", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 Du spelar, batteriet är nere på 12 % och laddaren ligger precis bredvid. Du kopplar in den och fortsätter. Telefonen blir varm, bildfrekvensen sjunker och plötsligt undrar du om du just har gjort något riktigt dåligt för batteriet.
 
 Förmodligen inte. Men du skapade exakt den kombination av värmekällor som batterier ogillar.

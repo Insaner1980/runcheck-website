@@ -5,12 +5,12 @@ listSummary: "lagring, android og opprydding"
 hub: "device-health"
 sourceNumber: 3
 order: 2
-tags: ["lagring","android","opprydding","optimalisering","guide"]
+tags: ["lagring", "android", "opprydding", "optimalisering", "guide"]
 locale: "nb"
 draft: false
 ---
-Nesten alt dette kan forebygges, eller i det minste utsettes.
 
+Nesten alt dette kan forebygges, eller i det minste utsettes.
 
 ## Den første uken: innstillinger som gir gevinst i flere år
 
@@ -22,7 +22,6 @@ Sett opp automatisk sikkerhetskopiering av bilder til Google Photos, OneDrive el
 
 Bruk deksel og skjermbeskytter. Det er opplagt, men ett fall uten beskyttelse kan føre til en skjermreparasjon på fra rundt 1 100 NOK til flere tusen kroner, avhengig av modell og skjermtype. Et vanlig deksel og herdet glass koster som regel bare noen hundre kroner.
 
-
 ## Daglige vaner som betyr noe
 
 Den mest skadelige daglige vanen er lading i varme forhold. Tung bruk mens telefonen er koblet til, særlig med hurtiglading, kan presse batteritemperaturen over 35 °C, der nedbrytningen går raskere. Lading om natten på et nattbord med normal hastighet er mildere enn en rask opplading mens du spiller i direkte sollys. Én enkelt økt har liten betydning, men litiumionkjemi er kumulativ. Tre hundre litt for varme ladinger over to år gir målbar ekstra slitasje.
@@ -30,7 +29,6 @@ Den mest skadelige daglige vanen er lading i varme forhold. Tung bruk mens telef
 Trådløs lading bidrar til varme fordi den vanligvis er mindre effektiv enn kabel. Energitapet blir til varme i telefonen, ladeplaten eller dekselet. Ved høy trådløs effekt er varm bakside og langsommere lading normalt. Det hjelper å ta av et tykt deksel og bruke en ladeplate med lavere effekt. Kabel til vanlig nattlading og trådløs lading når bekvemmeligheten er viktigst, er et rimelig kompromiss.
 
 For lagringen er jevnlig opprydding den viktigste vanen. Åpne Innstillinger > Lagring > Apper med noen måneders mellomrom og sorter etter størrelse. Sosiale medier, nettlesere og strømmeapper bygger store hurtigbuffere og kan lagre flere gigabyte med midlertidige data. Når du tømmer hurtigbufferen til en app, slettes ikke personlige data eller innstillinger. Bare filer som appen kan opprette på nytt, fjernes. Hold samlet lagringsbruk under 80-85 % for å unngå ytelsestapet som oppstår når NAND-minnet mangler ledige blokker for skriving.
-
 
 ## Månedlig og sesongbasert vedlikehold
 
@@ -42,7 +40,6 @@ Rengjør ladeporten. Lo fra lommer presses sammen over flere måneder og kan til
 
 Kontroller batterihelsen noen ganger i året med produsentens verktøy, som Samsung Members, Pixel-batteriinnstillingene eller Xiaomi Battery Protection, eller bruk en diagnoseapp. Utviklingen er viktigere enn én enkelt måling. Et batteri som faller fra 95 % til 88 % på seks måneder, svekkes raskere enn forventet. Endrede ladevaner kan da bremse utviklingen før det blir et reelt problem.
 
-
 ## Programvarestøtte og tidslinjen
 
 Oppdateringssituasjonen for Android har blitt mye bedre. Google Pixel 8-serien og nyere samt Samsung Galaxy S24-serien og nyere får sju år med OS- og sikkerhetsoppdateringer. Samsung har også forlenget støtten i mellomklassen: Galaxy A56, A36 og A26 får opptil seks generasjoner OS-oppgraderinger og seks år med sikkerhetsoppdateringer. OnePlus lover fire OS-oppgraderinger og seks år med sikkerhetsoppdateringer for OnePlus 13.
@@ -51,7 +48,6 @@ Rimelige telefoner og eldre toppmodeller får fortsatt ofte bare to til tre år 
 
 Nye krav til økodesign og energimerking setter nå et høyere minstenivå for smarttelefoner i Norge. Energimerkekravene ble gjennomført i norsk rett fra 20. juni 2025, og økodesignkravene trådte i kraft 1. januar 2026. Reglene krever blant annet batterier som tåler minst 800 lade- og utladningssykluser og fortsatt beholder minst 80 % kapasitet, tilgang til viktige reservedeler i sju år etter at salget av modellen er avsluttet, og oppgraderinger av operativsystemet i minst fem år fra den siste enheten av modellen ble brakt i omsetning. Dette gjelder produkter som omfattes av regelverket, ikke alle eldre telefoner som allerede var på markedet.
 
-
 ## Når reparasjon er riktig valg
 
 Telefonen trenger ikke være perfekt for å være verdt å bruke videre. Et batteribytte koster ofte rundt 600-1 600 NOK ved norske verksteder og kan gi en ellers velfungerende telefon to til tre ekstra år. Skjermreparasjon kan også være fornuftig når telefonen har flere år med programvarestøtte igjen, selv om prisen varierer kraftig mellom skjermtyper og modeller.
@@ -59,7 +55,6 @@ Telefonen trenger ikke være perfekt for å være verdt å bruke videre. Et batt
 Reglene om reparasjon kommer fra flere steder. De norske økodesignkravene som trådte i kraft 1. januar 2026, dekker blant annet batteriholdbarhet, tilgang til reservedeler, reparasjonsinformasjon og programvare eller fastvare som er nødvendig for utskifting. EU-direktivet om retten til reparasjon skal gjennomføres av EU-landene fra 31. juli 2026, men Norge er ikke medlem av EU. I juli 2026 er direktivet fortsatt til vurdering i EØS-systemet og er derfor ikke automatisk grunnlag for norske rettigheter. Norske forbrukere har samtidig egne rettigheter etter forbrukerkjøpsloven. Mobiltelefoner kjøpt fra en profesjonell selger har normalt fem års reklamasjonsfrist for mangler, men vanlig slitasje er ikke automatisk dekket.
 
 Reparasjon slutter omtrent å være fornuftig når kostnaden overstiger 30-40 % av prisen på en tilsvarende erstatning, eller når flere deler må repareres samtidig.
-
 
 ## Vanlige spørsmål
 

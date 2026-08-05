@@ -5,10 +5,11 @@ listSummary: "Jumiutuuko Android-puhelin tai lakkaako se reagoimasta?"
 hub: "performance"
 sourceNumber: 73
 order: 10
-tags: ["suorituskyky","nopeus","android","optimointi","vianetsintä"]
+tags: ["suorituskyky", "nopeus", "android", "optimointi", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+
 ---
 
 Napautat näyttöä, mutta mikään ei liiku. Sovellus on edelleen näkyvissä, kello saattaa olla pysähtynyt eikä paluuele reagoi. Puhelin on jumissa.

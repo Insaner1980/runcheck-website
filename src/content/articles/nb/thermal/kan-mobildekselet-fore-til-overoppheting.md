@@ -5,10 +5,11 @@ listSummary: "temperatur, varme og android"
 hub: "thermal"
 sourceNumber: 60
 order: 8
-tags: ["temperatur","varme","android","feilsøking","maskinvare"]
+tags: ["temperatur", "varme", "android", "feilsøking", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 Mobildekselet er sannsynligvis ikke grunnen til at telefonen blir varm. Det kan likevel gjøre problemet verre.
 
 Varmen kommer fra innsiden av telefonen: SoC, GPU, modem, skjerm, batteri og ladekomponenter. Et deksel skaper ikke denne varmen. Det bremser bare telefonens evne til å bli kvitt den. De fleste dager betyr det nesten ingenting. På feil dag, med hurtiglading, GPS, direkte sol og et tykt deksel, betyr det mye.

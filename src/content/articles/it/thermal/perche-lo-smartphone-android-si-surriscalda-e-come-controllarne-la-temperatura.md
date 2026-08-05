@@ -5,10 +5,12 @@ listSummary: "Uno smartphone Android può sembrare caldo per motivi banali, per 
 hub: "thermal"
 sourceNumber: 53
 order: 1
-tags: ["temperatura","termico","android","risoluzione-dei-problemi","hardware"]
+tags:
+  ["temperatura", "termico", "android", "risoluzione-dei-problemi", "hardware"]
 locale: "it"
 draft: false
 ---
+
 ## Controlla prima la temperatura
 
 Parti dagli strumenti integrati. Sono meno appariscenti delle app che mostrano i sensori, ma hanno anche meno probabilità di inventare una precisione che lo smartphone in realtà non espone.
@@ -103,4 +105,4 @@ La ricarica genera calore all'interno della batteria. La ricarica rapida ne prod
 
 Usa prima gli strumenti del produttore, poi un'app di diagnostica se ti serve una cronologia. Considera i codici da tastierino un'aggiunta, non una garanzia. E quando il telefono è chiaramente caldo, non continuare a spingerlo. Elimina la fonte di calore, lascialo raffreddare e poi cerca lo schema che si ripete.
 
-*Meta descrizione: Scopri come controllare la temperatura di uno smartphone Android, cosa indicano gli intervalli pratici della batteria e come Android 17, la diagnostica Pixel, Samsung Members, la ricarica, le app e la potenza del segnale influiscono sul surriscaldamento.*
+_Meta descrizione: Scopri come controllare la temperatura di uno smartphone Android, cosa indicano gli intervalli pratici della batteria e come Android 17, la diagnostica Pixel, Samsung Members, la ricarica, le app e la potenza del segnale influiscono sul surriscaldamento._

@@ -5,10 +5,11 @@ listSummary: "laitteisto, vauriot ja korjaaminen"
 hub: "physical-damage"
 sourceNumber: 134
 order: 4
-tags: ["laitteisto","vauriot","korjaaminen","android","vianetsintä"]
+tags: ["laitteisto", "vauriot", "korjaaminen", "android", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+
 ---
 
 Todellinen näytön kiinnipalaminen on pysyvää. Jos pikselit ovat vanhentuneet epätasaisesti, mikään sovellus, video tai värejä kierrättävä temppu ei tee kuluneista pikseleistä uusia.

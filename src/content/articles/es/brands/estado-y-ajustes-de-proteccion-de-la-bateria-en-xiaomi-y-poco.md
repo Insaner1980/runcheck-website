@@ -5,10 +5,11 @@ listSummary: "El estado de la batería en Xiaomi sigue siendo irregular."
 hub: "brands"
 sourceNumber: 155
 order: 3
-tags: ["bateria","estado","diagnostico","android","guia"]
+tags: ["bateria", "estado", "diagnostico", "android", "guia"]
 locale: "es"
 draft: false
 ---
+
 Android 17 no soluciona esta incoherencia por sí solo. Google lanzó primero Android 17 para la mayoría de los Pixel compatibles, mientras que los dispositivos Xiaomi, Redmi y POCO recibirán más adelante versiones de HyperOS basadas en Android 17. Incluso entonces, Xiaomi decide qué aparece en Ajustes según el modelo y la región.
 
 Por tanto, no leas esto como una ruta universal para todos los Xiaomi. Es una lista de comprobaciones.

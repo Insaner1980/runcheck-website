@@ -5,10 +5,11 @@ listSummary: "laden, akku und android"
 hub: "charging"
 sourceNumber: 52
 order: 16
-tags: ["laden","akku","android","ratgeber","hardware"]
+tags: ["laden", "akku", "android", "ratgeber", "hardware"]
 locale: "de"
 draft: false
 ---
+
 Du schließt dein Smartphone an, kommst 20 Minuten später zurück und die Rückseite fühlt sich wärmer an als deine Hand. Etwas Wärme ist normal. Ein Smartphone, das so heiß wird, dass du es nicht mehr angenehm halten kannst, ist es nicht.
 
 Beim Laden entsteht immer Wärme, weil ein Teil der zugeführten Energie im Ladegerät, Kabel und Smartphone als Abwärme endet. Schnellladen erzeugt mehr davon. Kabelloses Laden meist noch mehr. Entscheidend ist nicht, ob das Smartphone warm wird. Entscheidend ist, ob es in einem normalen Bereich bleibt oder sich selbst schützen muss.
@@ -81,6 +82,6 @@ Gaming-Kühler können sinnvoll sein, wenn du lange spielst, während das Smartp
 
 ## Kannst du die Temperatur prüfen?
 
-Einige Android-Smartphones zeigen die Akkutemperatur in den Einstellungen unter Akku oder in der Gerätediagnose an. Andere verbergen sie. Der Wählcode *#*#4636#*#* öffnet auf manchen Geräten ein Testmenü, funktioniert aber nicht überall.
+Einige Android-Smartphones zeigen die Akkutemperatur in den Einstellungen unter Akku oder in der Gerätediagnose an. Andere verbergen sie. Der Wählcode _#_#4636#_#_ öffnet auf manchen Geräten ein Testmenü, funktioniert aber nicht überall.
 
 runcheck zeigt während des Ladens die Akkutemperatur und den thermischen Status in Echtzeit. Das ist nützlich, weil "fühlt sich heiß an" subjektiv ist. Zahlen zeigen dir, ob das Smartphone nur warm ist oder tatsächlich an seine thermischen Grenzen stößt.

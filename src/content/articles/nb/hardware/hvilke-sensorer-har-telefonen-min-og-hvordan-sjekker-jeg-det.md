@@ -5,10 +5,11 @@ listSummary: "Hvorfor viser én telefon gangretningen din presist i Maps, mens e
 hub: "hardware"
 sourceNumber: 118
 order: 15
-tags: ["diagnostikk","sensorer","android","maskinvare","guide"]
+tags: ["diagnostikk", "sensorer", "android", "maskinvare", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Et flaggskip fra 2026 kan ha gyroskop, barometer, fingeravtrykksensor under skjermen, flere sensorer som kan vekke enheten og en hel rekke programvareberegnede bevegelsessensorer. En rimelig telefon fra noen år tilbake har kanskje bare det grunnleggende. Forskjellen merkes når skjermrotasjon, automatisk lysstyrke, kompassretning, AR-apper eller løft-for-å-vekke ikke oppfører seg som forventet.
 
 ## Start med en sensorapp

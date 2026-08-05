@@ -5,10 +5,11 @@ listSummary: "Android har ikke én enkelt knap, der kontrollerer hele telefonen 
 hub: "device-health"
 sourceNumber: 7
 order: 3
-tags: ["android","opdateringer","sikkerhed","software","guide"]
+tags: ["android", "opdateringer", "sikkerhed", "software", "guide"]
 locale: "da"
 draft: false
 ---
+
 ## Den hurtigste vej: Producentens diagnoseværktøjer
 
 Mange store Android-producenter leverer deres eget diagnoseværktøj. Det kan være installeret på forhånd eller tilgængeligt via en skjult kode. Begynd her, før du installerer noget.

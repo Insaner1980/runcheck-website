@@ -5,10 +5,11 @@ listSummary: "Isolez la panne entre chargeur, câble, port USB-C, batterie et t�
 hub: "charging"
 sourceNumber: 48
 order: 12
-tags: ["recharge","batterie","android","guide","materiel"]
+tags: ["recharge", "batterie", "android", "guide", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 Il vous reste 2 %, vous branchez le téléphone et rien ne se passe. Pas d'icône de recharge. Pas de vibration. Aucun petit signe indiquant que le câble a produit le moindre effet.
 
 Un téléphone qui refuse de se recharger souffre généralement d'un problème quelque part dans la chaîne. Le courant doit passer de la prise murale à l'adaptateur, puis au câble, au port USB-C et enfin au circuit de recharge à l'intérieur du téléphone. Un seul maillon défaillant suffit à donner l'impression que tout est mort. Vérifiez la chaîne dans l'ordre et vous trouverez souvent le responsable en 10-15 minutes.

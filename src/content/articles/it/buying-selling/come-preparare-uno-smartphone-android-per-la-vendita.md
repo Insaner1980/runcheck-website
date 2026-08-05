@@ -5,10 +5,11 @@ listSummary: "L'ordine delle operazioni conta."
 hub: "buying-selling"
 sourceNumber: 5
 order: 3
-tags: ["guida-all-acquisto","android","confronto","valore","guida"]
+tags: ["guida-all-acquisto", "android", "confronto", "valore", "guida"]
 locale: "it"
 draft: false
 ---
+
 ## Fai il backup prima di tutto
 
 Google può salvare automaticamente contatti, calendari, dati delle app e impostazioni del dispositivo, se il backup è attivo. Controlla in Impostazioni > Google > Tutti i servizi > Backup, oppure nel percorso equivalente del produttore, e avvia manualmente un nuovo backup prima di proseguire.
@@ -18,7 +19,6 @@ Foto e video richiedono un controllo separato. Se usi Google Foto o un altro ser
 Le app di autenticazione sono l'elemento che più spesso viene dimenticato. Google Authenticator, Microsoft Authenticator e Authy contengono codici per l'autenticazione a due fattori da cui dipendono molti account online. Trasferisci gli account sul nuovo dispositivo o esportali prima di cancellare il vecchio. Perdere i codici 2FA può bloccare l'accesso a servizi bancari, email e account di lavoro, e il recupero può richiedere giorni e verifiche separate per ogni servizio.
 
 WhatsApp, Signal e Telegram gestiscono chat e backup in modo diverso da Google. Controlla le opzioni di trasferimento o backup direttamente in ogni app.
-
 
 ## Rimuovi tutti gli account
 
@@ -30,7 +30,6 @@ Disattiva Find Hub di Google, chiamato Trova il mio dispositivo nelle versioni m
 
 Se il telefono usa una eSIM, elimina il profilo. Il ripristino dei dati di fabbrica non cancella sempre automaticamente le eSIM e un profilo rimasto sul dispositivo può creare problemi durante l'attivazione con l'operatore dell'acquirente.
 
-
 ## Ripristina lo smartphone
 
 Su Android standard, il percorso è in genere Impostazioni > Sistema > Opzioni di reimpostazione > Cancella tutti i dati (ripristino dati di fabbrica). Samsung lo colloca in Impostazioni > Gestione generale > Ripristina > Ripristina dati di fabbrica.
@@ -38,7 +37,6 @@ Su Android standard, il percorso è in genere Impostazioni > Sistema > Opzioni d
 Dopo il riavvio, lascia il telefono sulla schermata iniziale di configurazione. Non proseguire oltre la scelta della lingua o il saluto iniziale. In questo modo dimostri all'acquirente che non ci sono account collegati e che la FRP non è attiva. Se la configurazione chiede un Account Google appartenuto a un precedente proprietario, la rimozione non è riuscita. Accedi, rimuovi correttamente l'account e ripeti il ripristino.
 
 Gli smartphone Android moderni usano la crittografia per impostazione predefinita. Android 7.0 e versioni successive supportano la crittografia basata su file, mentre i dispositivi lanciati con Android 10 o versioni successive devono cifrare i dati dell'utente. Su uno smartphone moderno correttamente crittografato, il ripristino elimina le chiavi e i dati dell'account necessari per leggere i vecchi file. Per una normale vendita dell'usato, è sufficiente.
-
 
 ## Pulisci e documenta le condizioni
 
@@ -48,18 +46,15 @@ Scatta foto nitide dei quattro lati, dello schermo acceso sulla pagina iniziale 
 
 Uno stato della batteria superiore all'85 % è un buon argomento di vendita. Indicalo nell'annuncio.
 
-
 ## Aggiorna il software prima del ripristino (facoltativo ma consigliato)
 
 Se hai tempo, installa tutti gli aggiornamenti disponibili prima del ripristino. Gli acquirenti preferiscono dispositivi già aggiornati e non devono aspettare un lungo download durante la configurazione. Dimostra anche che lo smartphone riceve ancora gli aggiornamenti e non è bloccato su una vecchia versione.
-
 
 ## Stabilisci il prezzo
 
 Controlla a quanto è stato realmente venduto lo stesso modello in condizioni simili, non soltanto i prezzi richiesti negli annunci ancora online. Su eBay.it, la ricerca avanzata permette di mostrare gli Oggetti venduti e le Inserzioni scadute. Puoi confrontare anche gli annunci attivi su Subito o Facebook Marketplace, ricordando però che il prezzo richiesto non è sempre quello finale. Gli smartphone che ricevono ancora aggiornamenti software valgono più di modelli identici arrivati alla fine del supporto. Uno stato della batteria documentato sopra l'85 % aumenta la credibilità dell'annuncio.
 
 Imposta un prezzo leggermente superiore al tuo obiettivo, così resta un piccolo margine per la trattativa.
-
 
 ## Dove vendere
 

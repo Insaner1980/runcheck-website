@@ -5,10 +5,11 @@ listSummary: "recharge, batterie et android"
 hub: "charging"
 sourceNumber: 46
 order: 10
-tags: ["recharge","batterie","android","guide","materiel"]
+tags: ["recharge", "batterie", "android", "guide", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 Les watts sont le chiffre à regarder en priorité. Les volts et les ampères expliquent comment le chargeur y parvient, mais la puissance en watts indique la puissance disponible.
 
 Un chargeur qui fournit 9 V à 2 A délivre 18 W. Avec 20 V à 3 A, il délivre 60 W. Le calcul est simple : volts multipliés par ampères égale watts.

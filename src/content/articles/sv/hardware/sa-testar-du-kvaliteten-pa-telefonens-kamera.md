@@ -5,10 +5,11 @@ listSummary: "hårdvara, testning och diagnostik"
 hub: "hardware"
 sourceNumber: 110
 order: 7
-tags: ["hårdvara","testning","diagnostik","android","guide"]
+tags: ["hårdvara", "testning", "diagnostik", "android", "guide"]
 locale: "sv"
 draft: false
 ---
+
 ---
 
 Det blir lättare att testa en kamera när du slutar tänka på megapixlar. En sensor på 50 MP kan fortfarande ta dåliga bilder om linsen är smutsig, autofokusen är trasig eller kameramodulen har flyttats en aning efter ett fall.

@@ -5,9 +5,10 @@ listSummary: "IP rating lookup"
 hub: "hardware"
 sourceNumber: 116
 order: 13
-tags: ["diagnostics","sensors","android","hardware","guide"]
+tags: ["diagnostics", "sensors", "android", "hardware", "guide"]
 draft: false
 ---
+
 Water resistant is not the same as waterproof, no matter how confident the spec sheet sounds.
 
 Your phone either has an IP rating or it doesn't. There isn't an app, dialer code, or hidden Android setting that can test it after the fact.

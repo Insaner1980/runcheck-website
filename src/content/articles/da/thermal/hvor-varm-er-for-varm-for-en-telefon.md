@@ -5,10 +5,11 @@ listSummary: "Hvor varm er for varm?"
 hub: "thermal"
 sourceNumber: 59
 order: 7
-tags: ["temperatur","varme","android","fejlfinding","hardware"]
+tags: ["temperatur", "varme", "android", "fejlfinding", "hardware"]
 locale: "da"
 draft: false
 ---
+
 Luften omkring telefonen har én temperatur. Telefonens yderside har en anden. Batterisensoren viser en tredje, og den er vigtigst for batteriets aldring. Telefonen kan kun føles lidt lun i hånden, selvom batteriet eller SoC'en allerede er så varm, at Android begynder at sænke ydeevnen.
 
 Mange smartphones, herunder Google Pixel-enheder, er udviklet til at fungere bedst ved omgivelsestemperaturer fra 0 °C til 35 °C. Det er temperaturen i rummet eller udenfor, ikke batteriets indvendige temperatur. En telefon i brug er varmere indvendigt end luften omkring den.
@@ -91,4 +92,4 @@ Hvis telefonen rammer 45 °C eller mere under almindelig brug eller nogensinde n
 
 ---
 
-*Metabeskrivelse: Telefonens temperatur afhænger af omgivelsesvarme, batteritemperatur, opladning og belastning. Under 35 °C er som regel normalt, over 40 °C kræver opmærksomhed, og 45 °C eller mere bør ikke være en del af hverdagen.*
+_Metabeskrivelse: Telefonens temperatur afhænger af omgivelsesvarme, batteritemperatur, opladning og belastning. Under 35 °C er som regel normalt, over 40 °C kræver opmærksomhed, og 45 °C eller mere bør ikke være en del af hverdagen._

@@ -5,10 +5,11 @@ listSummary: "Tu móvil ya muestra qué versión de Android usa."
 hub: "software"
 sourceNumber: 119
 order: 1
-tags: ["android","actualizaciones","seguridad","software","guia"]
+tags: ["android", "actualizaciones", "seguridad", "software", "guia"]
 locale: "es"
 draft: false
 ---
+
 En la mayoría de los dispositivos, abre Ajustes, después Información del teléfono y, por último, Versión de Android. En Samsung, la ruta es Ajustes > Acerca del teléfono > Información de software. Esa pantalla muestra algo más que el gran número del sistema operativo: también incluye la fecha de la actualización de seguridad, la fecha de la actualización del sistema de Google Play, el número de compilación y, a veces, la versión del software del fabricante.
 
 Esa es la parte que mucha gente pasa por alto. Android 17 suena más nuevo que Android 16, y lo es, pero un parche de seguridad reciente importa tanto como la versión principal cuando valoras si un móvil sigue siendo seguro.

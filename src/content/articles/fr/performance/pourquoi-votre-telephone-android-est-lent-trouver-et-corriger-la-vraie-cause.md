@@ -5,10 +5,11 @@ listSummary: "Votre téléphone Android est plus lent qu’avant, et vous ne l�
 hub: "performance"
 sourceNumber: 64
 order: 1
-tags: ["performances","vitesse","android","optimisation","depannage"]
+tags: ["performances", "vitesse", "android", "optimisation", "depannage"]
 locale: "fr"
 draft: false
 ---
+
 Cela ne signifie pas automatiquement que le téléphone est en fin de vie. La plupart des ralentissements viennent de quelques causes que vous pouvez vérifier : stockage presque plein, applications lourdes en arrière-plan, pression sur la RAM, chaleur, usure de la batterie ou application défectueuse après une mise à jour.
 
 ## La vérification rapide

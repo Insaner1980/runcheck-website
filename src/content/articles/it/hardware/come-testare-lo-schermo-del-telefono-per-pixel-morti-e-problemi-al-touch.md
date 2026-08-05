@@ -5,10 +5,11 @@ listSummary: "Stai controllando uno smartphone usato."
 hub: "hardware"
 sourceNumber: 106
 order: 3
-tags: ["hardware","test","diagnostica","android","guida"]
+tags: ["hardware", "test", "diagnostica", "android", "guida"]
 locale: "it"
 draft: false
 ---
+
 I problemi dello schermo si nascondono bene durante l'uso normale. Sfondi, icone, modalità scura e immagini in movimento coprono molti difetti. Bastano alcune schermate a tinta unita e qualche test del touch per individuarli molto più facilmente.
 
 ## Pixel morti e pixel bloccati

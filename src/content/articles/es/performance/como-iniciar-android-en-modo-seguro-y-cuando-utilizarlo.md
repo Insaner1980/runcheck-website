@@ -5,10 +5,11 @@ listSummary: "bateria, consumo y solucion-de-problemas"
 hub: "performance"
 sourceNumber: 70
 order: 7
-tags: ["bateria","consumo","solucion-de-problemas","android","rendimiento"]
+tags: ["bateria", "consumo", "solucion-de-problemas", "android", "rendimiento"]
 locale: "es"
 draft: false
 ---
+
 ¿Cómo puedes saber si el móvil va lento porque Android está teniendo un mal día o porque una aplicación está causando problemas en segundo plano? El modo seguro es la prueba más limpia.
 
 El modo seguro inicia Android únicamente con el software del sistema y las aplicaciones preinstaladas. Las aplicaciones que instalaste después quedan desactivadas hasta que reinicias con normalidad. No se borra nada. El objetivo es aislar la causa: si el problema desaparece en modo seguro, probablemente intervenga una aplicación de terceros. Si continúa, revisa el propio Android, el almacenamiento, la batería o el hardware.

@@ -5,12 +5,12 @@ listSummary: "stockage, android et nettoyage"
 hub: "device-health"
 sourceNumber: 3
 order: 2
-tags: ["stockage","android","nettoyage","optimisation","guide"]
+tags: ["stockage", "android", "nettoyage", "optimisation", "guide"]
 locale: "fr"
 draft: false
 ---
-Presque tout cela peut être évité, ou au moins retardé.
 
+Presque tout cela peut être évité, ou au moins retardé.
 
 ## La première semaine : des réglages utiles pendant des années
 
@@ -22,7 +22,6 @@ Configurez la sauvegarde automatique des photos dans Google Photos, OneDrive ou 
 
 Installez une coque et une protection d'écran. Le conseil paraît évident, mais une seule chute sans protection peut entraîner une réparation coûteuse. À titre indicatif, Orange publie une fourchette de 69 à 449 € pour le remplacement d'un écran selon le modèle. Une coque correcte et une protection en verre trempé coûtent bien moins cher qu'une telle intervention.
 
-
 ## Les habitudes quotidiennes qui comptent
 
 La mauvaise habitude la plus dommageable consiste à recharger le téléphone lorsqu'il est chaud. Une utilisation intensive pendant la recharge, surtout avec une charge rapide, peut porter la batterie au-delà de 35 °C, zone où sa dégradation s'accélère. Une recharge nocturne à vitesse standard sur une table de chevet est plus douce qu'un appoint rapide pendant une partie en plein soleil. Une seule session change peu de choses, mais la chimie lithium-ion est cumulative : trois cents recharges légèrement trop chaudes sur deux ans finissent par produire une différence mesurable dans l'état de la batterie.
@@ -30,7 +29,6 @@ La mauvaise habitude la plus dommageable consiste à recharger le téléphone lo
 La recharge sans fil ajoute de la chaleur, car elle est généralement moins efficace qu'un câble. L'énergie perdue se transforme en chaleur dans le téléphone, le socle ou la coque. À forte puissance, un dos tiède et une recharge plus lente sont normaux. Retirer une coque épaisse et utiliser un socle moins puissant peut aider. Employer un câble pour la recharge nocturne habituelle et réserver le sans-fil aux moments où sa commodité est utile constitue un compromis raisonnable.
 
 Pour le stockage, l'habitude utile est un nettoyage périodique. Tous les quelques mois, ouvrez Paramètres > Stockage > Applications et triez les éléments par taille. Les réseaux sociaux, navigateurs et services de streaming accumulent agressivement les données en cache, parfois plusieurs gigaoctets de fichiers temporaires. Vider le cache d'une application ne supprime ni vos données personnelles ni ses réglages. Seuls des fichiers que l'application recréera si nécessaire sont retirés. Essayez de maintenir l'utilisation totale sous 80-85 % afin d'éviter la baisse de performances qui apparaît lorsque la mémoire flash NAND manque de blocs libres pour les écritures.
-
 
 ## Entretien mensuel et saisonnier
 
@@ -42,7 +40,6 @@ Nettoyez le port de charge. Les fibres de poche s'y tassent pendant des mois jus
 
 Vérifiez l'état de la batterie plusieurs fois par an avec les outils du fabricant, comme Samsung Members, les paramètres de batterie des Pixel ou les fonctions de protection de Xiaomi, ou avec une application de diagnostic. La tendance compte davantage qu'une mesure isolée. Une batterie qui passe de 95 % à 88 % en six mois se dégrade plus vite que prévu. Modifier vos habitudes de recharge à ce stade peut ralentir la baisse avant qu'elle ne devienne vraiment gênante.
 
-
 ## Suivi logiciel et calendrier
 
 La situation des mises à jour Android s'est nettement améliorée. Les Google Pixel 8 et modèles ultérieurs ainsi que la gamme Samsung Galaxy S24 et les modèles plus récents concernés bénéficient de sept ans de mises à jour du système et de sécurité. Samsung a aussi étendu la durée de suivi à son milieu de gamme : les Galaxy A56, A36 et A26 reçoivent jusqu'à six générations de mises à jour du système et six ans de correctifs de sécurité. Le OnePlus 13 reçoit quatre mises à niveau majeures d'Android et six ans de correctifs de sécurité.
@@ -50,7 +47,6 @@ La situation des mises à jour Android s'est nettement améliorée. Les Google P
 De nombreux téléphones d'entrée de gamme et anciens modèles haut de gamme restent limités à deux ou trois ans de suivi. Connaître la date de fin des mises à jour d'un modèle précis aide à anticiper. Un téléphone qui approche de cette échéance ne devient pas soudainement inutilisable, mais sa sécurité se fragilise et la compatibilité avec les applications diminue au cours de l'année ou des deux années suivantes.
 
 Les règles européennes d'écoconception et d'étiquetage énergétique fixent désormais un socle plus solide pour les téléphones mis sur le marché de l'Union européenne depuis le 20 juin 2025. Elles imposent notamment des batteries capables de supporter au moins 800 cycles de charge et de décharge tout en conservant au moins 80 % de leur capacité, la disponibilité de pièces détachées essentielles pendant sept ans après la fin de la commercialisation du modèle et des mises à niveau du système d'exploitation pendant au moins cinq ans à compter de la mise sur le marché de la dernière unité du modèle. Ces règles profitent directement aux acheteurs européens, et des engagements longs peuvent aussi influencer la planification mondiale des fabricants.
-
 
 ## Quand la réparation est le bon choix
 
@@ -61,7 +57,6 @@ Les règles européennes relatives à la réparation suivent deux voies distinct
 En France, une réparation hors garantie éligible réalisée par un réparateur labellisé QualiRépar peut bénéficier d'un Bonus Réparation de 25 €, directement déduit de la facture.
 
 La réparation cesse généralement d'être intéressante lorsque son coût dépasse environ 30-40 % du prix d'un téléphone de remplacement comparable, ou lorsque plusieurs composants doivent être réparés en même temps.
-
 
 ## Questions fréquentes
 

@@ -5,9 +5,10 @@ listSummary: "Closing apps myth"
 hub: "myths"
 sourceNumber: 146
 order: 2
-tags: ["myths","facts","android","battery","debunking"]
+tags: ["myths", "facts", "android", "battery", "debunking"]
 draft: false
 ---
+
 It doesn't really save battery.
 
 ## The answer is still no

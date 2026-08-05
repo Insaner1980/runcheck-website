@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 34
 order: 24
 subgroup: "Drain"
-tags: ["batterie","optimisation","android","conseils","performances"]
+tags: ["batterie", "optimisation", "android", "conseils", "performances"]
 locale: "fr"
 draft: false
 ---
+
 Pourquoi dix notifications arrivent-elles au moment précis où vous reprenez votre téléphone ? Très souvent, la réponse est Doze.
 
 Doze est le système de veille intégré à Android. Vous ne l'activez pas et la plupart des gens ne voient jamais d'écran Doze dans les Paramètres. Il agit discrètement lorsque le téléphone n'est pas branché, que l'écran est éteint et qu'Android estime qu'il est temps d'empêcher chaque application de s'exécuter quand bon lui semble.

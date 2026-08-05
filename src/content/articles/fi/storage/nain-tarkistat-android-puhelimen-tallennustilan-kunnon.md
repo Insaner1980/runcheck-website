@@ -5,10 +5,11 @@ listSummary: "Arvioi tallennustilan kuntoa tyypin, nopeuden ja oireiden avulla."
 hub: "storage"
 sourceNumber: 80
 order: 2
-tags: ["tallennustila","android","siivous","optimointi","opas"]
+tags: ["tallennustila", "android", "siivous", "optimointi", "opas"]
 locale: "fi"
 draft: false
 ---
+
 ---
 
 Mistä tietää, onko Android-puhelimen tallennustila kunnossa eikä vain vähissä? Ärsyttävästi useimmat puhelimet eivät vieläkään tee tarkistamisesta helppoa.

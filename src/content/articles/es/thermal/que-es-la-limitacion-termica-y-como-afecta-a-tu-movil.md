@@ -5,10 +5,11 @@ listSummary: "La limitación térmica integrada en Android protege el móvil del
 hub: "thermal"
 sourceNumber: 56
 order: 4
-tags: ["temperatura","termico","android","solucion-de-problemas","hardware"]
+tags: ["temperatura", "termico", "android", "solucion-de-problemas", "hardware"]
 locale: "es"
 draft: false
 ---
+
 ¿Por qué un móvil rápido empieza a ir lento de repente a mitad de una partida, una videollamada o una sesión con la cámara? La mayoría de las veces se debe a la limitación térmica. El dispositivo está caliente, así que Android y el fabricante reducen el rendimiento antes de que el calor se convierta en un problema de seguridad.
 
 ## Qué significa la limitación térmica

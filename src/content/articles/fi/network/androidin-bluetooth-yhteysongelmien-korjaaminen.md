@@ -5,10 +5,11 @@ listSummary: "verkko, yhteydet ja android"
 hub: "network"
 sourceNumber: 98
 order: 9
-tags: ["verkko","yhteydet","android","vianetsintä","opas"]
+tags: ["verkko", "yhteydet", "android", "vianetsintä", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Yrität yhdistää nappikuulokkeet, kellon, kaiuttimen tai auton, mutta Android ei löydä laitetta. Tai puhelin väittää yhteyden olevan muodostettu, vaikka mikään ei toimi. Bluetooth on sellainen. Se voi toimia kuukausia huomaamattomasti, kunnes yksi tallennettu paritus menee sekaisin ja koko järjestelmä vaikuttaa rikkinäiseltä.
 
 Aloita helpoista tarkistuksista ennen asetuksiin kaivautumista. Useimmat Bluetooth-viat eivät ole syviä Android-ongelmia. Tavallisemmin kyse on vanhentuneesta parituksesta, lisälaitteen vähäisestä akusta, etäisyydestä, häiriöistä tai laitteesta, joka ei oikeasti ole paritustilassa.

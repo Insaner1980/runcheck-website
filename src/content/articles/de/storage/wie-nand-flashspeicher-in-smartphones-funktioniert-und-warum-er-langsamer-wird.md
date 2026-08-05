@@ -5,10 +5,12 @@ listSummary: "Meta-Beschreibung: Smartphone-Speicher basiert auf NAND-Flash."
 hub: "storage"
 sourceNumber: 89
 order: 11
-tags: ["leistung","geschwindigkeit","android","optimierung","fehlerbehebung"]
+tags:
+  ["leistung", "geschwindigkeit", "android", "optimierung", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+
 Dein Smartphone kann einen schnellen SoC und viel RAM haben und sich trotzdem zäh anfühlen, wenn der Speicher fast voll ist. Apps brauchen länger zum Öffnen. Die Kamera benötigt einen Moment mehr, um ein Foto zu speichern. Updates dauern länger als erwartet.
 
 Daran ist nicht immer der Prozessor schuld. Manchmal ist der Speicher der Flaschenhals.

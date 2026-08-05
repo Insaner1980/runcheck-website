@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 18
 order: 8
 subgroup: "Health"
-tags: ["batteri","helse","diagnostikk","android","guide"]
+tags: ["batteri", "helse", "diagnostikk", "android", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Batterihelse er et anslag på hvor mye strøm cellen kan lagre sammenlignet med da den var ny. Et batteri på 5 000 mAh med 80 % helse oppfører seg mer som et batteri på 4 000 mAh. Telefonen virker fortsatt. Problemet er at batteriet ikke lenger har den samme reserven for kulde, tung kamerabruk, spill, navigasjon eller områder med svakt signal.
 
 Det er da den merkelige oppførselen gjerne begynner.
@@ -46,7 +47,7 @@ På andre Android-telefoner bør du først sjekke batteridelen i Innstillinger. 
 
 Apper som AccuBattery kan være nyttige, men den første dagen med data er mest støy. Appene anslår kapasitet ved å følge lading og utlading over tid. Gi dem flere ladeøkter før du stoler på tallet.
 
-Tastaturkoden *#*#4636#*#* åpner noen ganger en testmeny med batteriinformasjon. Andre ganger skjer ingenting. Den variasjonen er normal på produsentenes Android-versjoner.
+Tastaturkoden _#_#4636#_#_ åpner noen ganger en testmeny med batteriinformasjon. Andre ganger skjer ingenting. Den variasjonen er normal på produsentenes Android-versjoner.
 
 ## Bytte, tilpasse eller oppgradere
 

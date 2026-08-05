@@ -5,10 +5,12 @@ listSummary: "Probiere den abgesicherten Modus, bevor du das Smartphone auf Werk
 hub: "software"
 sourceNumber: 130
 order: 12
-tags: ["leistung","geschwindigkeit","android","optimierung","fehlerbehebung"]
+tags:
+  ["leistung", "geschwindigkeit", "android", "optimierung", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+
 Der Rat klingt zu einfach, ist aber bei den meisten Android-Problemen richtig. Der abgesicherte Modus ist schnell, umkehrbar und löscht nichts. Ein Zurücksetzen auf Werkseinstellungen entfernt dagegen alle Daten und kann aus einem Fünf-Minuten-Problem einen ganzen Abend mit App-Installationen, Kontoanmeldungen und der Suche nach vergessenen Einstellungen machen.
 
 Zuerst der abgesicherte Modus. Der vollständige Reset kommt zuletzt.

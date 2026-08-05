@@ -5,10 +5,11 @@ listSummary: "laddning, batteri och android"
 hub: "charging"
 sourceNumber: 50
 order: 14
-tags: ["laddning","batteri","android","guide","hårdvara"]
+tags: ["laddning", "batteri", "android", "guide", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 Den bästa laddningsvanan för Android 2026 är ganska tråkig: håll telefonen sval, använd den inbyggda laddningsgränsen och låt inte batteriet ligga på 100 % hela dagen när du inte behöver det.
 
 Det är det mesta. Batterivård framställs ofta som en ritual, men moderna Android-telefoner gör redan mycket av arbetet själva. Android 17 släpptes den 16 juni 2026 och gjordes då tillgängligt för de flesta Pixel-enheter som stöds. Andra märken följer senare med sina egna Android 17-versioner. Råden nedan beror ändå mer på tillverkaren än på Android-versionens nummer.

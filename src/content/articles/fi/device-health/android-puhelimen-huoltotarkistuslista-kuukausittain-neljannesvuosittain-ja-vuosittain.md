@@ -6,10 +6,11 @@ listSummary: "Useimmat Android-puhelimet eivät tarvitse jatkuvaa huomiota."
 hub: "device-health"
 sourceNumber: 8
 order: 4
-tags: ["tallennustila","android","siivous","optimointi","opas"]
+tags: ["tallennustila", "android", "siivous", "optimointi", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Tarkistuslista mukautuu siihen, miten puhelinta käytät. Kaikkea ei tarvitse tehdä joka kuukausi, ja osa tehtävistä on tarpeen vain kerran tai kaksi vuodessa.
 
 ## Joka kuukausi

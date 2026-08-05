@@ -5,10 +5,11 @@ listSummary: "hardware, danos y reparacion"
 hub: "physical-damage"
 sourceNumber: 133
 order: 3
-tags: ["hardware","danos","reparacion","android","solucion-de-problemas"]
+tags: ["hardware", "danos", "reparacion", "android", "solucion-de-problemas"]
 locale: "es"
 draft: false
 ---
+
 ---
 
 Sacas el móvil del fregadero, la pantalla sigue encendida y tu primer impulso es pulsar todos los botones para comprobar si ha sobrevivido. No lo hagas. La mejor decisión en ese momento es aburrida: corta la corriente, aleja el líquido de las aberturas y dale tiempo al móvil.

@@ -5,10 +5,11 @@ listSummary: "batteri, tilstand og diagnostik"
 hub: "charging"
 sourceNumber: 51
 order: 15
-tags: ["batteri","tilstand","diagnostik","android","guide"]
+tags: ["batteri", "tilstand", "diagnostik", "android", "guide"]
 locale: "da"
 draft: false
 ---
+
 Hvorfor stopper din telefon nogle gange ved 80 %, bliver stående der i flere timer og fortsætter så pludselig opladningen, lige før du vågner?
 
 Det er intelligent opladning. Det er ikke én Android-funktion med én universel kontakt. Det er en række værktøjer fra producenterne, som alle forsøger at løse det samme batteriproblem: for lang tid med et højt opladningsniveau, især når telefonen samtidig er varm.

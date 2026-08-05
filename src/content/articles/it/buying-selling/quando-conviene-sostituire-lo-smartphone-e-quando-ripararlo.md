@@ -5,10 +5,11 @@ listSummary: "Se la riparazione costa meno di un terzo di uno smartphone sostitu
 hub: "buying-selling"
 sourceNumber: 4
 order: 2
-tags: ["android","aggiornamenti","sicurezza","software","guida"]
+tags: ["android", "aggiornamenti", "sicurezza", "software", "guida"]
 locale: "it"
 draft: false
 ---
+
 ## Le riparazioni che quasi sempre convengono
 
 La sostituzione della batteria è il caso più semplice dal punto di vista economico. In Italia, un laboratorio indipendente chiede spesso circa 60-150 € per molti smartphone Android comuni, mentre l'assistenza ufficiale, i modelli premium sigillati e i pieghevoli possono costare di più. In ogni caso, la spesa è di solito una frazione del prezzo di un telefono nuovo. Una batteria nuova ripristina l'autonomia con lo schermo acceso ed elimina le limitazioni della CPU che Android può applicare per proteggere una cella degradata. Un intervento relativamente piccolo può aggiungere due o tre anni di utilizzo.
@@ -17,7 +18,6 @@ La riparazione della porta di ricarica rientra spesso nella stessa categoria. Pe
 
 Entrambi gli interventi hanno senso indipendentemente dall'età, purché il telefono riceva ancora aggiornamenti di sicurezza.
 
-
 ## Riparare lo schermo: qui i conti diventano più stretti
 
 Il prezzo di uno schermo nuovo varia enormemente. Un modello economico con LCD piatto può costare circa 80-200 € da riparare in un laboratorio indipendente. Un Samsung Galaxy S con OLED curvo può arrivare a 200-450 €. I pieghevoli sono un'altra categoria, con la sostituzione del display interno che può superare 450 € e, su alcuni modelli, avvicinarsi al valore del telefono usato.
@@ -25,7 +25,6 @@ Il prezzo di uno schermo nuovo varia enormemente. Un modello economico con LCD p
 La domanda da fare è semplice: quanto vale lo smartphone dopo la riparazione? Spendere 220 € per lo schermo di un telefono che vale ancora 400 € e ha tre anni di aggiornamenti davanti può avere senso. Fare lo stesso su un modello che vale 180 € e riceverà aggiornamenti ancora per un solo anno no. In quel caso, è meglio usare il denaro per un usato più recente o uno smartphone ricondizionato.
 
 Un aspetto spesso trascurato: uno smartphone con lo schermo rotto ma ancora funzionante perde valore di rivendita più rapidamente di uno con la batteria usurata. A volte venderlo nello stato in cui si trova e aggiungere la somma al budget per il sostituto è più conveniente che pagare la riparazione.
-
 
 ## Quando conviene sostituire
 
@@ -39,32 +38,29 @@ Alcune situazioni rendono la riparazione un cattivo investimento anche quando il
 
 **Limite della RAM.** Uno smartphone con 4 GB di RAM può ancora andare bene per un uso leggero, ma oggi è stretto per Android moderno, app attuali e multitasking pesante. App che si ricaricano di continuo, passaggi lenti tra attività e processi che vengono chiusi in background. Nessuna riparazione o ripristino dei dati di fabbrica può aumentare quel limite.
 
-
 ## Confrontare i costi nella pratica
 
 Costi indicativi in Italia nel 2026 per riparazioni fuori garanzia presso laboratori indipendenti. Il prezzo reale dipende dal modello, dalla qualità del ricambio, dalla città e dal servizio scelto:
 
-| Riparazione | Fascia di prezzo | Tempo indicativo |
-|--------|-----------|------|
-| Sostituzione della batteria | 60-150 € | 1-2 ore |
-| Porta di ricarica | 70-160 € | 1-3 ore |
-| Schermo LCD piatto | 80-200 € | 1-2 ore |
-| Schermo OLED curvo, flagship | 200-450 € | 2-4 ore |
-| Schermo interno di un pieghevole | 450-800 € o più | variabile |
-| Danni da liquidi, lievi | 80-250 € | 1-3 giorni |
-| Danni da liquidi, gravi | 300-600 € o più | variabile |
+| Riparazione                      | Fascia di prezzo | Tempo indicativo |
+| -------------------------------- | ---------------- | ---------------- |
+| Sostituzione della batteria      | 60-150 €         | 1-2 ore          |
+| Porta di ricarica                | 70-160 €         | 1-3 ore          |
+| Schermo LCD piatto               | 80-200 €         | 1-2 ore          |
+| Schermo OLED curvo, flagship     | 200-450 €        | 2-4 ore          |
+| Schermo interno di un pieghevole | 450-800 € o più  | variabile        |
+| Danni da liquidi, lievi          | 80-250 €         | 1-3 giorni       |
+| Danni da liquidi, gravi          | 300-600 € o più  | variabile        |
 
 L'assistenza autorizzata può costare di più, ma usa ricambi originali e in genere include una garanzia sull'intervento. I laboratori indipendenti sono spesso più economici e rapidi, ma la qualità dei componenti può variare. Per i Galaxy, Samsung Italia offre un preventivo indicativo online in base al modello e al difetto, oltre al servizio Smart Repair per i dispositivi supportati.
 
 Un criterio utile: se il costo totale resta sotto il 30 % del prezzo di uno smartphone sostitutivo paragonabile, nuovo o ricondizionato, riparare è quasi sempre la scelta giusta. È una regola pratica, non una legge.
-
 
 ## L'aspetto ambientale
 
 Produrre un nuovo smartphone genera spesso circa 50-80 kg di CO2e, a seconda del modello e delle ipotesi dello studio, e richiede l'estrazione di materiali come cobalto, litio, rame, oro e terre rare. Riparare un telefono esistente ha un'impronta molto inferiore. Nell'UE, le norme specifiche sull'ecodesign e sull'etichettatura energetica si applicano agli smartphone immessi sul mercato dal 20 giugno 2025. Richiedono, tra le altre cose, batterie progettate per almeno 800 cicli mantenendo l'80 % della capacità, ricambi essenziali disponibili per sette anni dopo la fine della vendita del modello, informazioni sulla riparabilità nell'etichetta energetica e accesso per i riparatori professionali al software o firmware necessario per sostituire i componenti. La direttiva separata sul diritto alla riparazione dovrà essere applicata dagli Stati membri dal 31 luglio 2026 e rafforzerà i diritti di riparazione per le categorie di prodotti interessate.
 
 Per chi considera anche l'impatto ambientale nelle proprie scelte, riparare dovrebbe essere l'opzione predefinita, a meno che i conti favoriscano chiaramente la sostituzione.
-
 
 ## Domande frequenti
 

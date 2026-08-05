@@ -5,10 +5,11 @@ listSummary: "Trådlös laddning är vanligtvis säker för telefonens batteri, 
 hub: "charging"
 sourceNumber: 40
 order: 4
-tags: ["laddning","batteri","android","guide","hårdvara"]
+tags: ["laddning", "batteri", "android", "guide", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 Är trådlös laddning dåligt för batteriet, eller är det bara ännu en sak som internet oroar sig för i onödan? Det rättvisa svaret är att trådlös laddning fungerar bra, men det är lättare att få den att fungera dåligt än laddning med kabel.
 
 Problemet är inte den trådlösa energin i sig. Problemet är värme. Mer energi går förlorad under trådlös överföring än genom en kabel, och den förlorade energin blir värme i telefonen, laddningsplattan eller båda.

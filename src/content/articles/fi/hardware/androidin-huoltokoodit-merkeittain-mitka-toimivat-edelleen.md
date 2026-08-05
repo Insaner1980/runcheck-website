@@ -5,10 +5,11 @@ listSummary: "diagnostiikka, anturit ja android"
 hub: "hardware"
 sourceNumber: 113
 order: 10
-tags: ["diagnostiikka","anturit","android","laitteisto","opas"]
+tags: ["diagnostiikka", "anturit", "android", "laitteisto", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Androidin huoltokoodit ovat hyödyllisiä, mutta sekavia. Osa kuuluu Androidiin, osa on valmistajan lisäämiä ja osa katoaa laiteohjelmistopäivityksen jälkeen ilman varoitusta.
 
 Tällä on tavallista enemmän merkitystä nyt, kun Android 17:n jakelu on käynnissä. Google julkaisi Android 17:n ensin tuetuille Pixel-laitteille, kun taas Samsung, Xiaomi, OnePlus, Motorola ja muut valmistajat toimittavat omat Android 17 -versionsa omien aikataulujensa mukaan. Pixelissä tällä hetkellä toimiva koodi ei siis kerro, toimiiko sama koodi Galaxy- tai Redmi-puhelimessa, jonka valmistajakohtainen Android 17 -ohjelmisto on erilainen tai ei ole vielä saatavilla.

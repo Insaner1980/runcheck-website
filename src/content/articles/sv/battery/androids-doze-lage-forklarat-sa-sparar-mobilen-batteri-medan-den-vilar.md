@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 34
 order: 24
 subgroup: "Drain"
-tags: ["batteri","optimering","android","tips","prestanda"]
+tags: ["batteri", "optimering", "android", "tips", "prestanda"]
 locale: "sv"
 draft: false
 ---
+
 Varför kom tio aviseringar precis när du tog upp mobilen? Ofta är svaret Doze.
 
 Doze är Androids inbyggda system för vila. Du aktiverar det inte själv, och de flesta ser aldrig någon särskild Doze-sida i Inställningar. Funktionen arbetar tyst när mobilen inte laddas, skärmen är avstängd och Android bedömer att apparna inte längre ska få köra när de vill.

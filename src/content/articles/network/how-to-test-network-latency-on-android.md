@@ -5,9 +5,10 @@ listSummary: "Network latency testing"
 hub: "network"
 sourceNumber: 103
 order: 14
-tags: ["network","connectivity","android","troubleshooting","guide"]
+tags: ["network", "connectivity", "android", "troubleshooting", "guide"]
 draft: false
 ---
+
 Latency is measured in milliseconds (ms). Lower is better. Three numbers matter most: ping, jitter, and packet loss. Ping is the round-trip time from your phone to a server and back. Jitter is how much that time jumps around between requests. Packet loss is the share of data that never arrives.
 
 A connection with 100 Mbps download and 150 ms ping can feel worse than a 20 Mbps connection with 15 ms ping. That sounds backwards until you try gaming, video calling, or remote desktop. Speed moves data. Latency controls reaction time.

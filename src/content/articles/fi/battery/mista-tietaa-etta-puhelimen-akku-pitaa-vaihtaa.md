@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 17
 order: 7
 subgroup: "Akun kunto"
-tags: ["akku","kunto","diagnostiikka","android","opas"]
+tags: ["akku", "kunto", "diagnostiikka", "android", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Mistä voi päätellä, että itse akku on todella kulunut, eikä ongelma johdu huonosti toimivasta sovelluksesta tai heikosta matkapuhelinsignaalista?
 
 Erolla on väliä. Uusi akku ei korjaa häiriöitä aiheuttavaa sovellusta. Sovellusten poistaminen taas ei korjaa kennoa, joka ei enää pysty tuottamaan tarvittavaa virtaa.

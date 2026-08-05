@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 13
 order: 3
 subgroup: "Health"
-tags: ["akku","zustand","diagnose","android","ratgeber"]
+tags: ["akku", "zustand", "diagnose", "android", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Wenn dein Smartphone einen Akkuzustand von 87 % meldet, kann die Zelle noch ungefähr 87 % der Ladung speichern, die sie im Neuzustand aufnehmen konnte. Sie funktioniert weiterhin. Der Tank ist nur kleiner geworden.
 
 **Meta-Beschreibung:** Der Akkuzustand zeigt die aktuelle Maximalkapazität im Vergleich zum Neuzustand. Erfahre, was der Wert bedeutet, warum 80 % wichtig sind und wie Android-Smartphones ihn anzeigen.

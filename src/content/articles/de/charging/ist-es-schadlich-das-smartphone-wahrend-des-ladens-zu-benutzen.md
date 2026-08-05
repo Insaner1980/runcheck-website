@@ -5,10 +5,11 @@ listSummary: "laden, akku und android"
 hub: "charging"
 sourceNumber: 41
 order: 5
-tags: ["laden","akku","android","ratgeber","hardware"]
+tags: ["laden", "akku", "android", "ratgeber", "hardware"]
 locale: "de"
 draft: false
 ---
+
 Du spielst gerade, der Akku steht bei 12 %, und das Ladegerät liegt direkt daneben. Also steckst du das Smartphone an und machst weiter. Das Gerät wird warm, die Bildrate sinkt, und plötzlich fragst du dich, ob du dem Akku gerade ernsthaft geschadet hast.
 
 Wahrscheinlich nicht. Du hast aber genau die Kombination aus Wärmequellen geschaffen, die Akkus nicht mögen.

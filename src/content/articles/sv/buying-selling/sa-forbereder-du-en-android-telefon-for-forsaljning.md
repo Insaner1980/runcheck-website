@@ -5,10 +5,11 @@ listSummary: "Ordningen spelar roll."
 hub: "buying-selling"
 sourceNumber: 5
 order: 3
-tags: ["köpguide","android","jämförelse","värde","guide"]
+tags: ["köpguide", "android", "jämförelse", "värde", "guide"]
 locale: "sv"
 draft: false
 ---
+
 ## Säkerhetskopiera innan du gör något annat
 
 Google säkerhetskopierar kontakter, kalendrar, appdata och enhetsinställningar automatiskt om funktionen är aktiverad. Kontrollera under Inställningar > Google > Alla tjänster > Säkerhetskopiering och tryck på Säkerhetskopiera nu för att starta en manuell synkronisering. Sökvägen kan skilja sig något mellan tillverkare.
@@ -18,7 +19,6 @@ Foton och videor kräver en separat kontroll. Om Google Foto eller en annan moln
 Autentiseringsappar är det många glömmer. Google Authenticator, Microsoft Authenticator och Authy innehåller tvåfaktorskoder som många nätkonton är beroende av. Överför eller exportera dem innan telefonen raderas. Förlorade 2FA-koder kan låsa dig ute från bank, e-post och arbetskonton, och återställningen kan ta flera dagar med identitetskontroller hos varje tjänst.
 
 WhatsApp, Signal och Telegram har egna system för säkerhetskopiering som är skilda från Googles. Säkerhetskopiera eller överför konversationerna i varje app för sig.
-
 
 ## Ta bort alla konton
 
@@ -30,7 +30,6 @@ När Google-kontot tas bort inaktiveras Androids enhetsskydd. Kontrollera gärna
 
 Om telefonen använder eSIM ska abonnemanget först överföras till den nya telefonen eller eSIM-profilen tas bort enligt operatörens instruktioner. En återställning raderar inte alltid eSIM på samma sätt på alla modeller, och en kvarvarande profil kan försvåra köparens aktivering.
 
-
 ## Återställ telefonen
 
 På Pixel och många andra Android-telefoner finns återställningen under Inställningar > System > Återställningsalternativ > Rensa alla data (återställ standardinställningar). Samsung placerar motsvarande funktion under Inställningar > Allmän hantering > Återställ > Återställning till fabriksdata. Menynamnen kan variera mellan modeller och programvaruversioner.
@@ -38,7 +37,6 @@ På Pixel och många andra Android-telefoner finns återställningen under Inst�
 Telefonen startar om till den första konfigurationsskärmen. Gå inte vidare. Lämna den på välkomst- eller språkvalsskärmen. Det visar köparen att inga konton är kopplade och att FRP inte är aktivt. Om konfigurationen ber om ett Google-konto från en tidigare ägare togs kontot inte bort korrekt. Logga in, ta bort kontot och återställ telefonen igen.
 
 Moderna Android-telefoner använder kryptering som standard. Android 7.0 och senare stöder filbaserad kryptering, och enheter som lanserades med Android 10 eller senare måste använda den. På en korrekt krypterad modern telefon tar en fabriksåterställning bort nycklarna och kontouppgifterna som behövs för att läsa gamla användarfiler. För normal vidareförsäljning gör det tidigare data praktiskt taget oåtkomliga. För de flesta säljare räcker det.
-
 
 ## Rengör och dokumentera
 
@@ -48,18 +46,15 @@ Ta tydliga foton av alla fyra sidor, skärmen när välkomstbilden visas och eve
 
 Batterihälsa över 85 % är ett försäljningsargument. Nämn det i annonsen om värdet är dokumenterat.
 
-
 ## Uppdatera programvaran före återställningen (valfritt men rekommenderat)
 
 Om tiden räcker, installera alla tillgängliga uppdateringar innan återställningen. Köpare föredrar en telefon som kör den senaste version som finns för modellen, och de slipper en lång nedladdning under konfigurationen. Det visar också att telefonen fortfarande kan ta emot uppdateringar och inte har fastnat på en gammal version.
-
 
 ## Sätt priset
 
 Jämför vad samma modell i liknande skick faktiskt har sålts för, inte bara vad säljare hoppas få. Avslutade försäljningar på Tradera är mer användbara än enbart utgångspriser, medan aktuella annonser på Blocket visar konkurrensen just nu. Telefoner som fortfarande får programvaruuppdateringar säljs vanligtvis för mer än identiska modeller vars support har upphört. Dokumenterad batterihälsa över 85 % är mer värd än en annons utan batteridata.
 
 Lägg priset något över din målnivå så att det finns utrymme för förhandling.
-
 
 ## Var kan telefonen säljas?
 

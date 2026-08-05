@@ -7,10 +7,11 @@ hub: "battery"
 sourceNumber: 21
 order: 11
 subgroup: "Drain"
-tags: ["bateria","consumo","solucion-de-problemas","android","rendimiento"]
+tags: ["bateria", "consumo", "solucion-de-problemas", "android", "rendimiento"]
 locale: "es"
 draft: false
 ---
+
 La forma más rápida de perder el tiempo es cambiar diez ajustes a la vez y esperar que alguno funcione. Primero diagnostica. Después corrige lo que realmente está consumiendo energía.
 
 ## Empieza por las comprobaciones más evidentes

@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 36
 order: 26
 subgroup: "Drain"
-tags: ["batteri","optimering","android","tips","ydeevne"]
+tags: ["batteri", "optimering", "android", "tips", "ydeevne"]
 locale: "da"
 draft: false
 ---
+
 Batterisparefunktion hjælper mest, før telefonen er helt presset. Det gør en forskel at aktivere den ved 8 %, men på det tidspunkt er det meste af batteriet allerede brugt.
 
 En bedre løsning er at bruge den efter situationen. Slå den til, når du ved, at det bliver svært at oplade: på en flyrejse, under et langt møde, på en pendlertur med svagt signal, en dag udendørs eller når det er vigtigere, at telefonen holder sig tændt, end at alt kører helt flydende.

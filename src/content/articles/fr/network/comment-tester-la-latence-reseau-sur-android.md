@@ -5,10 +5,11 @@ listSummary: "Vous participez à un appel vidéo."
 hub: "network"
 sourceNumber: 103
 order: 14
-tags: ["reseau","connectivite","android","depannage","guide"]
+tags: ["reseau", "connectivite", "android", "depannage", "guide"]
 locale: "fr"
 draft: false
 ---
+
 La latence se mesure en millisecondes (ms). Plus elle est faible, mieux c'est. Trois valeurs comptent surtout : le ping, la gigue et la perte de paquets. Le ping correspond au temps nécessaire pour qu'une requête parte du téléphone, atteigne un serveur et revienne. La gigue mesure les variations de ce délai entre plusieurs requêtes. La perte de paquets indique la part des données qui n'arrive jamais à destination.
 
 Une connexion à 100 Mbit/s avec 150 ms de ping peut sembler moins bonne qu'une connexion à 20 Mbit/s avec 15 ms de ping. Cela paraît illogique jusqu'au moment où vous jouez en ligne, passez un appel vidéo ou utilisez un bureau à distance. Le débit transporte les données. La latence commande le temps de réaction.

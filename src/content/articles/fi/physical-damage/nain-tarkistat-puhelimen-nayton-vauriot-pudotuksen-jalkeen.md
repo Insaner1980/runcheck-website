@@ -5,10 +5,11 @@ listSummary: "Nostat puhelimen lattialta, lasi näyttää ehjältä ja hetken aj
 hub: "physical-damage"
 sourceNumber: 131
 order: 1
-tags: ["laitteisto","testaus","diagnostiikka","android","opas"]
+tags: ["laitteisto", "testaus", "diagnostiikka", "android", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Tarkoitus ei ole testata paniikissa jokaista pikseliä kuin olisit ostamassa käytettyä puhelinta tuntemattomalta. Tarkoitus on löytää asiat, joilla on merkitystä: halkeamat, kuolleet pikselit, kosketuksen katvealueet, värimuutokset, välkyntä ja paneelin irtoaminen.
 
 ## Aloita lasista ja rungosta

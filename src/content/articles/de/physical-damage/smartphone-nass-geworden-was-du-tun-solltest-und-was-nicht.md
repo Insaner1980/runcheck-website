@@ -5,10 +5,11 @@ listSummary: "hardware, schaden und reparatur"
 hub: "physical-damage"
 sourceNumber: 133
 order: 3
-tags: ["hardware","schaden","reparatur","android","fehlerbehebung"]
+tags: ["hardware", "schaden", "reparatur", "android", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+
 ---
 
 Du holst das Smartphone aus dem Waschbecken, das Display ist noch an, und dein erster Impuls ist, jede Taste zu drücken und zu prüfen, ob es den Unfall überstanden hat. Lass es. In diesem Moment ist die langweilige Lösung die beste: Unterbrich die Stromversorgung, entferne Flüssigkeit von den Öffnungen und gib dem Gerät Zeit.

@@ -5,9 +5,10 @@ listSummary: "USB-C charging basics"
 hub: "charging"
 sourceNumber: 46
 order: 10
-tags: ["charging","battery","android","guide","hardware"]
+tags: ["charging", "battery", "android", "guide", "hardware"]
 draft: false
 ---
+
 Watts are the number to care about. Volts and amps explain how the charger gets there, but wattage tells you how much power is available.
 
 A charger that outputs 9V at 2A delivers 18W. A charger that outputs 20V at 3A delivers 60W. The math is simple: volts times amps equals watts.

@@ -5,10 +5,11 @@ listSummary: "akku, zustand und diagnose"
 hub: "brands"
 sourceNumber: 154
 order: 2
-tags: ["akku","zustand","diagnose","android","ratgeber"]
+tags: ["akku", "zustand", "diagnose", "android", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Auch der Zeitpunkt spielt eine Rolle. Android 17 ist bereits für die meisten unterstützten Pixel-Geräte verfügbar, während andere Android-Hersteller ihre eigenen darauf basierenden Updates nach und nach bereitstellen. Das bedeutet nicht, dass plötzlich jedes Pixel dieselbe Akkuanzeige erhält. Googles Diagnosefunktionen unterscheiden sich weiterhin je nach Modell.
 
 ## Akkuzustand und Kapazität

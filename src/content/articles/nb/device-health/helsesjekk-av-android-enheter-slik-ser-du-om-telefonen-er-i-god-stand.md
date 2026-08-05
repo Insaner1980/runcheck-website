@@ -9,6 +9,7 @@ tags: []
 locale: "nb"
 draft: false
 ---
+
 En helsesjekk av enheten kan fange opp slike endringer tidlig. Det er nyttig når du feilsøker et bestemt problem, gjør telefonen klar for salg eller prøver å finne ut om den faktisk har blitt tregere.
 
 ---

@@ -5,10 +5,18 @@ listSummary: "Estás mirando el botón de restablecimiento de fábrica porque el
 hub: "performance"
 sourceNumber: 67
 order: 4
-tags: ["rendimiento","velocidad","android","optimizacion","solucion-de-problemas"]
+tags:
+  [
+    "rendimiento",
+    "velocidad",
+    "android",
+    "optimizacion",
+    "solucion-de-problemas",
+  ]
 locale: "es"
 draft: false
 ---
+
 A veces ese consejo es correcto. A menudo es una solución perezosa.
 
 Un restablecimiento de fábrica puede arreglar un móvil lento cuando la causa está en el software: datos de aplicaciones acumulados, ajustes dañados, cachés corruptas, demasiadas aplicaciones en segundo plano o una restauración desordenada tras años de actualizaciones. No reparará un almacenamiento flash desgastado, una batería debilitada, una mala gestión térmica, una cantidad insuficiente de RAM ni un procesador económico que ya era lento desde el primer día.

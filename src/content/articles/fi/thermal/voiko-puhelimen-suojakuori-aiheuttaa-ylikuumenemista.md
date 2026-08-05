@@ -5,10 +5,11 @@ listSummary: "lämpötila, kuumeneminen ja android"
 hub: "thermal"
 sourceNumber: 60
 order: 8
-tags: ["lämpötila","kuumeneminen","android","vianetsintä","laitteisto"]
+tags: ["lämpötila", "kuumeneminen", "android", "vianetsintä", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 Suojakuori ei todennäköisesti ole varsinainen syy puhelimen kuumenemiseen. Se voi silti pahentaa ongelmaa.
 
 Lämpö syntyy puhelimen sisällä: SoC:ssa, GPU:ssa, modeemissa, näytössä, akussa ja latauselektroniikassa. Suojakuori ei tuota lämpöä. Se hidastaa lämmön siirtymistä puhelimesta ympäröivään ilmaan. Useimpina päivinä tällä ei juuri ole merkitystä. Vääränä päivänä, kun mukana ovat pikalataus, GPS, suora auringonpaiste ja paksu kuori, vaikutus voi olla suuri.

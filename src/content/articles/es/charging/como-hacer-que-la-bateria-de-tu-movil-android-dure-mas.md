@@ -5,10 +5,11 @@ listSummary: "carga, bateria y android"
 hub: "charging"
 sourceNumber: 37
 order: 1
-tags: ["carga","bateria","android","guia","hardware"]
+tags: ["carga", "bateria", "android", "guia", "hardware"]
 locale: "es"
 draft: false
 ---
+
 La mayoría de los consejos sobre batería para Android son demasiado obvios o demasiado extremos. Sí, bajar el brillo de la pantalla ayuda. No, no necesitas convertir el móvil en un ladrillo silencioso para llegar al final del día.
 
 Lo útil es corregir primero los grandes consumos: pantalla, señal móvil, aplicaciones en segundo plano, ubicación y hábitos de carga. Android 17 ya está disponible para la mayoría de los Pixel compatibles, mientras que los demás fabricantes llevarán después sus propias versiones a sus dispositivos. Los nombres de los menús cambian, pero los principios básicos de la batería siguen siendo los mismos.

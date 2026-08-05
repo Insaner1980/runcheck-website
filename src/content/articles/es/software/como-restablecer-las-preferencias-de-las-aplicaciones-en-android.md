@@ -5,10 +5,11 @@ listSummary: "Restablecer las preferencias de las aplicaciones suena a que va a 
 hub: "software"
 sourceNumber: 128
 order: 10
-tags: ["seguridad","software-malicioso","android","privacidad","guia"]
+tags: ["seguridad", "software-malicioso", "android", "privacidad", "guia"]
 locale: "es"
 draft: false
 ---
+
 El problema es que el nombre es bastante malo. No restablece las aplicaciones. Restablece las decisiones del móvil relacionadas con permisos, valores predeterminados, notificaciones, actividad en segundo plano y aplicaciones desactivadas. Tus fotos, mensajes, archivos, cuentas guardadas y datos de las aplicaciones permanecen donde estaban.
 
 ## Qué restablece

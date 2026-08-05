@@ -5,10 +5,11 @@ listSummary: "How to start Android in Safe Mode, what it disables, and how to us
 hub: "performance"
 sourceNumber: 70
 order: 7
-tags: ["akku","akkuverbrauch","fehlerbehebung","android","leistung"]
+tags: ["akku", "akkuverbrauch", "fehlerbehebung", "android", "leistung"]
 locale: "de"
 draft: false
 ---
+
 Wie findest du heraus, ob dein Smartphone langsam ist, weil Android gerade einen schlechten Tag hat, oder weil eine App im Hintergrund alles durcheinanderbringt? Der abgesicherte Modus ist der sauberste Test.
 
 Im abgesicherten Modus startet Android nur mit der Systemsoftware und den vorinstallierten Apps. Alle später installierten Apps bleiben bis zum nächsten normalen Neustart deaktiviert. Nichts wird gelöscht. Es geht um Eingrenzung: Verschwindet das Problem im abgesicherten Modus, ist wahrscheinlich eine Drittanbieter-App beteiligt. Bleibt es bestehen, solltest du Android selbst, den Speicher, den Akku oder die Hardware prüfen.

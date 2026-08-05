@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 33
 order: 23
 subgroup: "Drain"
-tags: ["android","oppdateringer","sikkerhet","programvare","guide"]
+tags: ["android", "oppdateringer", "sikkerhet", "programvare", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Mye batteritømming på Android skjer mens du ikke gjør noe særlig. Skjermen er av, telefonen ligger på bordet, og likevel synker batterinivået fordi apper, radioer, sensorer og kontosynkronisering stadig vekker enheten.
 
 Android 17 ble først tilgjengelig på de fleste støttede Pixel-enheter i juni 2026, så menynavnene er i en litt rotete overgangsfase. Pixel får den nye Android-versjonen først, mens Samsung, Xiaomi, OnePlus, Motorola og andre OEM-er lanserer sine Android 17-versjoner etter egne tidsplaner. Rådene nedenfor gjelder fortsatt, men den nøyaktige banen kan ligge ett nivå høyere eller lavere avhengig av telefonen.

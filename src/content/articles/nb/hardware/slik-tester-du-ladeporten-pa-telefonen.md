@@ -5,10 +5,11 @@ listSummary: "lading, batteri og android"
 hub: "hardware"
 sourceNumber: 108
 order: 5
-tags: ["lading","batteri","android","guide","maskinvare"]
+tags: ["lading", "batteri", "android", "guide", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 ---
 
 Du holder kabelen i en merkelig vinkel, ladeikonet blinker av og på, og telefonen lader bare når den ligger helt stille. Det føles gjerne som en ødelagt ladeport, men ikke begynn der.

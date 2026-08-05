@@ -5,10 +5,11 @@ listSummary: "materiel, test et diagnostic"
 hub: "hardware"
 sourceNumber: 107
 order: 4
-tags: ["materiel","test","diagnostic","android","guide"]
+tags: ["materiel", "test", "diagnostic", "android", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Cela ne rend pas le problème moins pénible. Si vos interlocuteurs ne vous entendent pas ou si le haut-parleur grésille à mi-volume, vous devez tout de même identifier la pièce en cause.
 
 ## Savoir quel composant audio vous testez

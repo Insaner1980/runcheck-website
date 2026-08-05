@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 21
 order: 11
 subgroup: "Drain"
-tags: ["batteri","batteriförbrukning","felsökning","android","prestanda"]
+tags: ["batteri", "batteriförbrukning", "felsökning", "android", "prestanda"]
 locale: "sv"
 draft: false
 ---
+
 Det snabbaste sättet att slösa tid är att ändra tio inställningar samtidigt och hoppas att någon av dem hjälper. Ta reda på orsaken först. Åtgärda sedan det som faktiskt drar ström.
 
 ## Börja med de uppenbara kontrollerna

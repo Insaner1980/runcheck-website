@@ -5,10 +5,11 @@ listSummary: "guide-d-achat, android et comparaison"
 hub: "buying-selling"
 sourceNumber: 144
 order: 8
-tags: ["guide-d-achat","android","comparaison","valeur","guide"]
+tags: ["guide-d-achat", "android", "comparaison", "valeur", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Aux États-Unis, Assurant a indiqué que les programmes de reprise mobile avaient reversé 6,4 milliards de dollars aux consommateurs en 2025, soit 42 % de plus qu'en 2024. Les appareils Android étaient aussi conservés plus longtemps avant leur reprise, avec une moyenne de 3,96 ans. Ces chiffres concernent le marché américain, mais le mécanisme est le même ailleurs : garder son téléphone plus longtemps permet de mieux l'amortir, tout en laissant moins de marge pour une vente mal préparée au moment de s'en séparer.
 
 ## Vendez avant que votre téléphone ne devienne l'ancienne génération

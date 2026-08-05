@@ -1,61 +1,61 @@
 ---
-import { Image } from 'astro:assets';
-import batteryImage from '../assets/features/android-battery-health-diagnostics.webp';
-import insightsImage from '../assets/features/runcheck-device-health-insights.webp';
-import networkImage from '../assets/features/android-network-signal-diagnostics.webp';
-import privacyImage from '../assets/features/private-on-device-phone-diagnostics.webp';
-import storageImage from '../assets/features/android-storage-health-diagnostics.webp';
-import thermalImage from '../assets/features/android-phone-thermal-diagnostics.webp';
+import { Image } from "astro:assets";
+import batteryImage from "../assets/features/android-battery-health-diagnostics.webp";
+import insightsImage from "../assets/features/runcheck-device-health-insights.webp";
+import networkImage from "../assets/features/android-network-signal-diagnostics.webp";
+import privacyImage from "../assets/features/private-on-device-phone-diagnostics.webp";
+import storageImage from "../assets/features/android-storage-health-diagnostics.webp";
+import thermalImage from "../assets/features/android-phone-thermal-diagnostics.webp";
 
 const features = [
   {
-    key: 'battery',
+    key: "battery",
     image: batteryImage,
-    alt: 'Battery diagnostic object with cyan battery cells.',
-    colorClass: 'text-feat-battery',
-    title: 'BATTERY',
+    alt: "Battery diagnostic object with cyan battery cells.",
+    colorClass: "text-feat-battery",
+    title: "BATTERY",
     text: "See what's really draining your power, and know when the battery's worn out.",
   },
   {
-    key: 'network',
+    key: "network",
     image: networkImage,
-    alt: 'Network diagnostic object with rising blue signal bars.',
-    colorClass: 'text-feat-network',
-    title: 'NETWORK',
+    alt: "Network diagnostic object with rising blue signal bars.",
+    colorClass: "text-feat-network",
+    title: "NETWORK",
     text: "Real speed, signal, and stability tests, so you know if it's your phone or your connection.",
   },
   {
-    key: 'thermal',
+    key: "thermal",
     image: thermalImage,
-    alt: 'Thermal diagnostic object with an orange thermometer.',
-    colorClass: 'text-feat-thermal',
-    title: 'THERMAL',
-    text: 'Catch overheating before it slows your phone down or shortens its life.',
+    alt: "Thermal diagnostic object with an orange thermometer.",
+    colorClass: "text-feat-thermal",
+    title: "THERMAL",
+    text: "Catch overheating before it slows your phone down or shortens its life.",
   },
   {
-    key: 'insights',
+    key: "insights",
     image: insightsImage,
-    alt: 'Insights diagnostic object with a chart and magnifier.',
-    colorClass: 'text-run-blue-highlight',
-    kicker: 'Connected diagnostics',
-    title: 'INSIGHTS',
-    text: 'Battery, heat, signal, and storage are connected. A slow charge, a hot back, and a dropped signal can become one clear story instead of three separate problems.',
+    alt: "Insights diagnostic object with a chart and magnifier.",
+    colorClass: "text-run-blue-highlight",
+    kicker: "Connected diagnostics",
+    title: "INSIGHTS",
+    text: "Battery, heat, signal, and storage are connected. A slow charge, a hot back, and a dropped signal can become one clear story instead of three separate problems.",
   },
   {
-    key: 'storage',
+    key: "storage",
     image: storageImage,
-    alt: 'Storage diagnostic object with green memory chips.',
-    colorClass: 'text-feat-storage',
-    title: 'STORAGE',
+    alt: "Storage diagnostic object with green memory chips.",
+    colorClass: "text-feat-storage",
+    title: "STORAGE",
     text: "See exactly what's filling your phone, and clear it out safely.",
   },
   {
-    key: 'private',
+    key: "private",
     image: privacyImage,
-    alt: 'Privacy diagnostic object with a purple shield and lock.',
-    colorClass: 'text-feat-private',
-    title: 'PRIVATE',
-    text: 'No account, no ads. Everything stays on your phone.',
+    alt: "Privacy diagnostic object with a purple shield and lock.",
+    colorClass: "text-feat-private",
+    title: "PRIVATE",
+    text: "No account, no ads. Everything stays on your phone.",
   },
 ];
 ---
@@ -65,10 +65,16 @@ const features = [
     <div class="section-intro-split">
       <div class="section-intro-heading">
         <p class="section-eyebrow">Features</p>
-        <h2 class="section-display-heading">Diagnostics that <span class="section-heading-accent">explain</span> what your phone is doing</h2>
+        <h2 class="section-display-heading">
+          Diagnostics that <span class="section-heading-accent">explain</span> what
+          your phone is doing
+        </h2>
       </div>
       <p class="section-intro-copy">
-        runcheck turns battery, temperature, network, and storage signals into one clear picture of your phone's condition. It tracks recent history, scores each subsystem, and connects patterns that single-purpose tools miss.
+        runcheck turns battery, temperature, network, and storage signals into
+        one clear picture of your phone's condition. It tracks recent history,
+        scores each subsystem, and connects patterns that single-purpose tools
+        miss.
       </p>
     </div>
 
@@ -76,7 +82,7 @@ const features = [
       {
         features.map((feature, index) => (
           <article
-            class={`feature-item feature-item-${feature.key}${feature.kicker ? ' feature-item-featured' : ''}`}
+            class={`feature-item feature-item-${feature.key}${feature.kicker ? " feature-item-featured" : ""}`}
           >
             <div class="feature-visual">
               <Image
@@ -89,8 +95,14 @@ const features = [
             </div>
 
             <div class="feature-copy">
-              <p class="feature-num" aria-hidden="true">{String(index + 1).padStart(2, '0')}</p>
-              {feature.kicker && <p class={`feature-kicker ${feature.colorClass}`}>{feature.kicker}</p>}
+              <p class="feature-num" aria-hidden="true">
+                {String(index + 1).padStart(2, "0")}
+              </p>
+              {feature.kicker && (
+                <p class={`feature-kicker ${feature.colorClass}`}>
+                  {feature.kicker}
+                </p>
+              )}
               <h3 class="feature-title text-run-white">{feature.title}</h3>
               <p class="feature-sub">{feature.text}</p>
             </div>

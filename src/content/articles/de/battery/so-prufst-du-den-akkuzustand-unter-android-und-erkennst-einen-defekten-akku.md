@@ -6,12 +6,12 @@ hub: "battery"
 sourceNumber: 11
 order: 1
 subgroup: "Health"
-tags: ["akku","zustand","diagnose","android","ratgeber"]
+tags: ["akku", "zustand", "diagnose", "android", "ratgeber"]
 locale: "de"
 draft: false
 ---
-Anders als iPhones, die auf unterstützten Modellen seit iOS 11.3 einen Prozentwert für den Akkuzustand anzeigen, hat Android diese Information lange schwer auffindbar gemacht. Es gibt keine universelle Seite für den Akkuzustand. Das Gesamtbild ergibt sich aus Herstellerwerkzeugen, versteckten Menüs, Nutzungsmustern und Diagnose-Apps.
 
+Anders als iPhones, die auf unterstützten Modellen seit iOS 11.3 einen Prozentwert für den Akkuzustand anzeigen, hat Android diese Information lange schwer auffindbar gemacht. Es gibt keine universelle Seite für den Akkuzustand. Das Gesamtbild ergibt sich aus Herstellerwerkzeugen, versteckten Menüs, Nutzungsmustern und Diagnose-Apps.
 
 ## Kurzantwort: So prüfst du den Akkuzustand
 
@@ -24,7 +24,6 @@ Drei Methoden, von der schnellsten bis zur ausführlichsten.
 **Diagnose-App.** Apps von Drittanbietern schätzen den Akkuzustand, indem sie Lade- und Entlademuster über mehrere Tage verfolgen. Wenn das Smartphone keine integrierte Zustandsanzeige hat, ist dies meist die ausführlichste Möglichkeit.
 
 Ein Messwert unter 80 % der ursprünglichen Nennkapazität oder ein anderer Status als **Good** oder **Normal** ist ein guter Grund, über einen Akkutausch nachzudenken.
-
 
 ## Warum Akkus verschleißen
 
@@ -39,7 +38,6 @@ Jedes Android-Smartphone verwendet einen Lithium-Ionen- oder Lithium-Polymer-Akk
 **Ladegewohnheiten spielen eine Rolle, aber weniger als viele glauben.** Ständiges Laden auf 100 % und Entladen bis 0 % belastet den Akku stärker als ein Bereich von 20 bis 80 %. Schnellladen erzeugt zudem mehr Wärme als normales Laden. Der Unterschied zwischen täglichem Schnellladen auf 100 % und schonendem Laden auf 80 % ist über ein Jahr jedoch kleiner, als viele Ratgeber im Internet vermuten lassen. Hitze und Zeit wirken sich stärker aus. Das eigentliche Risiko sind nicht zertifizierte Ladegeräte, denn eine ungleichmäßige Stromversorgung kann Zellen dauerhaft beschädigen.
 
 Das Ergebnis ist immer ähnlich: Aus einem 5.000-mAh-Akku werden langsam 4.000 mAh, dann 3.500 mAh, bis die verbleibende Kapazität nicht mehr für einen normalen Tag reicht.
-
 
 ## Manuelle Diagnoseschritte
 
@@ -61,7 +59,6 @@ Auch ohne genauen Prozentwert liefert Androids Akkuanzeige nützliche Hinweise. 
 
 **Herstellerdiagnose verwenden.** Neben den Zustandsanzeigen aus der Kurzantwort bieten einige Geräte weitere Tests. Auf Pixel-Geräten findest du möglicherweise eine Akkudiagnose im Akkubereich der Einstellungen. Die Samsung Members App enthält eine vollständige Telefondiagnose mit Akkutest. Xiaomi-Geräte zeigen je nach Modell ausführliche Akkuinformationen unter **Settings > Battery > Battery Protection** an.
 
-
 ## Erweiterte Diagnose: Spannung, Temperatur und Entlademuster
 
 Wer genauer wissen möchte, was in der Zelle passiert, kann mehrere Messwerte beobachten.
@@ -79,7 +76,6 @@ Diagnose-Apps versehen diese Beobachtungen mit Zahlen. Sie verfolgen Lade- und E
 runcheck verbindet Akkudiagnosen mit Netzwerk-, Temperatur- und Speicheranalysen in einer gemeinsamen Bewertung. Das ist wichtig, weil Akkuprobleme nicht immer isoliert auftreten. Ein Temperaturproblem durch eine fehlerhafte Komponente kann wie hoher Akkuverbrauch wirken, und ein langsamer Speicher hält die CPU länger als nötig beschäftigt.
 
 Meide Apps, die versprechen, den Akkuzustand zu „verbessern“, zu „kalibrieren“ oder „wiederherzustellen“. Keine App kann chemischen Verschleiß rückgängig machen. Nützlich sind Anwendungen, die reale Spannungs- und Temperaturwerte anzeigen, Daten über längere Zeit verfolgen und lokal auf dem Gerät arbeiten, ohne Konto oder Cloud-Upload zu verlangen.
-
 
 ## Häufig gestellte Fragen
 
@@ -114,7 +110,6 @@ Die tatsächliche Akkukapazität stimmt nicht mehr mit der Erwartung der Softwar
 **Wie oft sollte ich den Akkuzustand prüfen?**
 
 Alle paar Monate reicht aus. Der Verschleiß schreitet langsam voran, und ständiges Kontrollieren ändert nichts daran. Sinnvolle Gründe für eine zusätzliche Prüfung sind plötzlich kürzere Laufzeit, unerwartete Abschaltungen oder ein Smartphone, das heißer als üblich wird.
-
 
 ## Was du mit den Ergebnissen anfangen solltest
 

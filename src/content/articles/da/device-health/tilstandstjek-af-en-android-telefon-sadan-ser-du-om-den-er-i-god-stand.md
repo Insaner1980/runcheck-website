@@ -9,6 +9,7 @@ tags: []
 locale: "da"
 draft: false
 ---
+
 Et tilstandstjek fanger disse tendenser tidligt. Det er nyttigt, når du fejlsøger et bestemt problem, gør telefonen klar til salg eller bare vil finde ud af, om fornemmelsen af, at den er blevet langsommere, er reel eller indbildt.
 
 ---

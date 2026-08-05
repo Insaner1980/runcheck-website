@@ -5,10 +5,11 @@ listSummary: "temperatur, värme och android"
 hub: "thermal"
 sourceNumber: 56
 order: 4
-tags: ["temperatur","värme","android","felsökning","hårdvara"]
+tags: ["temperatur", "värme", "android", "felsökning", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 ## Vad termisk strypning innebär
 
 Det är en kontrollerad nedbromsning. Telefonen kan sänka hastigheten för CPU och GPU, minska skärmens ljusstyrka, dra ned laddningseffekten, begränsa radiofunktionernas aktivitet eller ändra annat som förbrukar mycket ström för att få ned temperaturen.
@@ -103,4 +104,4 @@ Batterihälsa under 80 % är en vanlig gräns för att överväga batteribyte p�
 
 Telefonens termiska säkerhetssystem är inte fienden. Du kan minska strypningen genom att sänka belastningen, förbättra kylningen, undvika varma miljöer och inte kombinera snabbladdning med tung användning. Men om strypningen uppstår vid lätt användning bör du inte ignorera den. Då kan problemet vara en app, svag signal, laddaren eller ett slitet batteri.
 
-*Metabeskrivning: Androids inbyggda termiska nedbromsning skyddar telefonen mot värme. Lär dig Androids temperaturnivåer, thermal headroom, vanliga orsaker och hur du minskar strypningen på ett säkert sätt.*
+_Metabeskrivning: Androids inbyggda termiska nedbromsning skyddar telefonen mot värme. Lär dig Androids temperaturnivåer, thermal headroom, vanliga orsaker och hur du minskar strypningen på ett säkert sätt._

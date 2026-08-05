@@ -5,10 +5,11 @@ listSummary: "Metabeskrivning: Minnestryck uppstår när Android får ont om RAM
 hub: "performance"
 sourceNumber: 76
 order: 13
-tags: ["prestanda","hastighet","android","optimering","felsökning"]
+tags: ["prestanda", "hastighet", "android", "optimering", "felsökning"]
 locale: "sv"
 draft: false
 ---
+
 ---
 
 Minnestryck innebär att Android väljer vad som får offras. När RAM inte räcker till allt börjar systemet stänga mindre viktiga processer för att telefonen ska kunna fortsätta fungera.

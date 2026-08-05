@@ -5,10 +5,11 @@ listSummary: "Una guida chiara a ciò che fa una VPN su Android."
 hub: "network"
 sourceNumber: 99
 order: 10
-tags: ["rete","connettivita","android","risoluzione-dei-problemi","guida"]
+tags: ["rete", "connettivita", "android", "risoluzione-dei-problemi", "guida"]
 locale: "it"
 draft: false
 ---
+
 Una VPN cambia il percorso seguito dal traffico Internet del telefono. Invece di collegarsi direttamente tramite la rete Wi-Fi o l'operatore mobile, le app inviano prima il traffico attraverso un tunnel cifrato verso un server VPN. I siti e le app vedono l'indirizzo IP del server VPN, non il normale indirizzo IP pubblico del telefono.
 
 Sembra più misterioso di quanto sia. Una VPN è utile, ma non è uno scudo assoluto per la privacy.

@@ -5,10 +5,11 @@ listSummary: "De fleste Android-telefoner kræver ikke konstant opmærksomhed."
 hub: "device-health"
 sourceNumber: 8
 order: 4
-tags: ["lagerplads","android","oprydning","optimering","guide"]
+tags: ["lagerplads", "android", "oprydning", "optimering", "guide"]
 locale: "da"
 draft: false
 ---
+
 Tjeklisten kan tilpasses den måde, du faktisk bruger telefonen på. Ikke alt skal gøres hver måned, og nogle opgaver er kun relevante en eller to gange om året.
 
 ## Hver måned

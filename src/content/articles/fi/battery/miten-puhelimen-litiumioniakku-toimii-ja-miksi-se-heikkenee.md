@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 19
 order: 9
 subgroup: "Akun kunto"
-tags: ["akkutekniikka","tiede","opas","laitteisto"]
+tags: ["akkutekniikka", "tiede", "opas", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 Perusteiden ymmärtäminen tekee tavallisista neuvoista vähemmän arvoituksellisia. 20-80 %:n sääntö, varoitukset kuumuudesta ja vanhojen puhelinten ennenaikaiset sammumiset johtuvat kaikki samasta asiasta: litiumionit liikkuvat kennossa, joka muuttuu hitaasti jokaisella käyttökerralla.
 
 ## Kennon perusrakenne

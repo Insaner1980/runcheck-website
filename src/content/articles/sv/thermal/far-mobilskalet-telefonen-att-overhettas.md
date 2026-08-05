@@ -5,10 +5,11 @@ listSummary: "Mobilskalet är förmodligen inte orsaken till att telefonen blir 
 hub: "thermal"
 sourceNumber: 60
 order: 8
-tags: ["temperatur","värme","android","felsökning","hårdvara"]
+tags: ["temperatur", "värme", "android", "felsökning", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 Värmen kommer från telefonens insida: SoC, GPU, modem, skärm, batteri och laddningskomponenter. Ett skal skapar inte värmen. Det bromsar telefonens förmåga att bli av med den. De flesta dagar spelar det knappt någon roll. En dag med snabbladdning, GPS, direkt sol och ett tjockt skal kan det spela stor roll.
 
 Den skillnaden är värd att behålla. Att skylla varje varm telefon på skalet är lat felsökning. Att helt ignorera skalet är lika illa.
@@ -73,4 +74,4 @@ Om telefonen överhettas utan skal, utan laddare, utan en tung app och vid norma
 
 ---
 
-*Metabeskrivning: Mobilskal skapar inte värme, men tjocka TPU-, silikon-, skydds- och plånboksskal kan hålla kvar den vid snabbladdning, trådlös laddning, spel, navigering eller varmt väder.*
+_Metabeskrivning: Mobilskal skapar inte värme, men tjocka TPU-, silikon-, skydds- och plånboksskal kan hålla kvar den vid snabbladdning, trådlös laddning, spel, navigering eller varmt väder._

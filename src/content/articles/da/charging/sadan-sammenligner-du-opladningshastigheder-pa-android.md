@@ -5,10 +5,11 @@ listSummary: "opladning, batteri og android"
 hub: "charging"
 sourceNumber: 45
 order: 9
-tags: ["opladning","batteri","android","guide","hardware"]
+tags: ["opladning", "batteri", "android", "guide", "hardware"]
 locale: "da"
 draft: false
 ---
+
 Du sætter opladeren ved sengen til, og telefonen siger, at den hurtigoplader. Du sætter opladeren på skrivebordet til, og den siger det samme. Den ene får telefonen op på 80 %, før kaffen er klar. Det gør den anden ikke.
 
 Teksten er ikke nok. Du skal sammenligne den effekt, telefonen faktisk tager imod.

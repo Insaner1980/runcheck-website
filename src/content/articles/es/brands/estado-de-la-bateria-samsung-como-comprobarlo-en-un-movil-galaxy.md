@@ -5,10 +5,11 @@ listSummary: "Samsung sigue complicando más de lo necesario la consulta del est
 hub: "brands"
 sourceNumber: 153
 order: 1
-tags: ["bateria","estado","diagnostico","android","guia"]
+tags: ["bateria", "estado", "diagnostico", "android", "guia"]
 locale: "es"
 draft: false
 ---
+
 Esa incertidumbre es precisamente el problema. Un Galaxy S25 con una versión reciente de One UI puede mostrar el porcentaje de estado de la batería y el número de ciclos en Ajustes. Un Galaxy S23 con una actualización aparentemente similar puede no mostrarlos. Android 17 ya está disponible en la mayoría de los Pixel compatibles, que lo recibieron primero, pero los Galaxy recibirán más adelante la actualización de One UI basada en Android 17, y Samsung seguirá decidiendo qué datos de la batería muestra en cada modelo.
 
 Estas son las comprobaciones que merece la pena utilizar y las que parecen útiles, pero en realidad dicen muy poco.

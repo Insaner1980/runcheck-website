@@ -6,9 +6,10 @@ hub: "battery"
 sourceNumber: 28
 order: 18
 subgroup: "Drain"
-tags: ["battery","drain","troubleshooting","android","performance"]
+tags: ["battery", "drain", "troubleshooting", "android", "performance"]
 draft: false
 ---
+
 Yes, 5G can drain your battery faster than 4G LTE. It just isn't the disaster it was on the first wave of 5G phones.
 
 Ookla's Speedtest Intelligence analysis found 5G using about 6% to 11% more battery compared with LTE, depending on the phone's SoC. That's real. But on a recent phone with a decent signal, it usually isn't the difference between getting through the day and carrying a dead phone. On an older 5G phone, or in a place where it keeps bouncing between LTE and 5G, the hit can still be obvious.

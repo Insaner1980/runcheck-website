@@ -5,10 +5,11 @@ listSummary: "bateria, consumo y solucion-de-problemas"
 hub: "physical-damage"
 sourceNumber: 136
 order: 6
-tags: ["bateria","consumo","solucion-de-problemas","android","rendimiento"]
+tags: ["bateria", "consumo", "solucion-de-problemas", "android", "rendimiento"]
 locale: "es"
 draft: false
 ---
+
 ---
 
 Una pantalla rota no hace que la CPU sea más lenta. Las aplicaciones no necesitan de repente más potencia de procesamiento porque se haya quebrado el cristal.

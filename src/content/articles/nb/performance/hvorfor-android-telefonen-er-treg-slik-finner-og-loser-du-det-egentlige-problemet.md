@@ -5,10 +5,11 @@ listSummary: "Android-telefonen er tregere enn før, og du innbiller deg sannsyn
 hub: "performance"
 sourceNumber: 64
 order: 1
-tags: ["ytelse","hastighet","android","optimalisering","feilsøking"]
+tags: ["ytelse", "hastighet", "android", "optimalisering", "feilsøking"]
 locale: "nb"
 draft: false
 ---
+
 Det betyr ikke automatisk at telefonen er ferdig. De fleste treghetsproblemer skyldes noen få ting du kan kontrollere: lite ledig lagringsplass, tunge bakgrunnsapper, minnepress, varme, batterislitasje eller én dårlig app etter en oppdatering.
 
 ## Den raske sjekklisten

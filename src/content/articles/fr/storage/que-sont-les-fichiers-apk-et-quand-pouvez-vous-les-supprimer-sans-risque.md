@@ -5,10 +5,11 @@ listSummary: "Vous avez trouvé dans Downloads un fichier dont le nom se termine
 hub: "storage"
 sourceNumber: 84
 order: 6
-tags: ["stockage","android","nettoyage","optimisation","guide"]
+tags: ["stockage", "android", "nettoyage", "optimisation", "guide"]
 locale: "fr"
 draft: false
 ---
+
 APK signifie Android Package Kit. C'est l'un des formats de paquet utilisés par Android pour installer des applications. Pour le nettoyage, l'essentiel est simple : le fichier APK visible dans Downloads n'est pas l'application qui s'exécute sur votre téléphone. C'est son installateur.
 
 Une fois l'application installée, supprimer l'APK restant ne désinstalle pas l'application et n'efface pas ses réglages.

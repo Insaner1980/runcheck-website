@@ -5,9 +5,10 @@ listSummary: "Storage cleanup without data loss"
 hub: "storage"
 sourceNumber: 79
 order: 1
-tags: ["storage","android","cleanup","optimization","guide"]
+tags: ["storage", "android", "cleanup", "optimization", "guide"]
 draft: false
 ---
+
 ---
 
 You're trying to take a photo, install an update, or download a file, and Android tells you there isn't enough space. The panic move is deleting photos. Don't start there.

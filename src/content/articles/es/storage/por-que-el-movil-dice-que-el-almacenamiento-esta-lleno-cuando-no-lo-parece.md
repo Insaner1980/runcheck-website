@@ -5,10 +5,11 @@ listSummary: "Descubre por qué Android muestra el almacenamiento lleno aunque p
 hub: "storage"
 sourceNumber: 87
 order: 9
-tags: ["almacenamiento","android","limpieza","optimizacion","guia"]
+tags: ["almacenamiento", "android", "limpieza", "optimizacion", "guia"]
 locale: "es"
 draft: false
 ---
+
 Es irritante, pero no raro. Los avisos de almacenamiento de Android pueden deberse a archivos visibles, datos ocultos de aplicaciones, papeleras, descargas fallidas, restos de actualizaciones del sistema o una base de datos de almacenamiento que todavía no se ha puesto al día. Después de una actualización importante, como el despliegue de Android 17 que comenzó en los Pixel compatibles antes de llegar más ampliamente a los fabricantes, esta confusión puede durar uno o dos días mientras el móvil termina sus tareas.
 
 Empieza reiniciándolo. Sí, de verdad. Es la solución aburrida, pero desbloquea procesos temporales atascados más veces de las que parece.

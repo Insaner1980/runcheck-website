@@ -5,10 +5,11 @@ listSummary: "diagnostic, capteurs et android"
 hub: "hardware"
 sourceNumber: 112
 order: 9
-tags: ["diagnostic","capteurs","android","materiel","guide"]
+tags: ["diagnostic", "capteurs", "android", "materiel", "guide"]
 locale: "fr"
 draft: false
 ---
+
 ---
 
 Vous saisissez `*#0*#` sur un Galaxy et un menu complet de tests matériels s'ouvre. Vous entrez le même code sur un autre Galaxy et il ne se passe rien.
@@ -29,12 +30,12 @@ La plupart des codes de test s'exécutent dès la saisie du dernier caractère. 
 
 Ce sont les codes qui se rapprochent le plus d'un socle commun sous Android, mais même eux ne sont pas garantis partout.
 
-| Code | Fonction | Remarques |
-|---|---|---|
-| `*#06#` | Affiche l'IMEI et parfois le MEID ou l'EID | C'est le code téléphonique le plus largement pris en charge. Il est utile pour la garantie, les vérifications de liste noire et l'assistance de l'opérateur. |
-| `#07#` | Affiche les informations réglementaires et les données de DAS | Fonctionne sur de nombreux téléphones Android. Certains demandent d'appuyer sur le bouton d'appel. |
-| `*#*#4636#*#*` | Ouvre le menu de test d'Android | Peut afficher des informations sur le téléphone, l'état du réseau, le signal, la batterie et le Wi-Fi. Sa disponibilité varie fortement. |
-| `*#*#426#*#*` | Ouvre les diagnostics Firebase Cloud Messaging | À essayer de préférence dans Téléphone par Google. Utile lorsque les notifications push n'arrivent pas. |
+| Code           | Fonction                                                      | Remarques                                                                                                                                                    |
+| -------------- | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `*#06#`        | Affiche l'IMEI et parfois le MEID ou l'EID                    | C'est le code téléphonique le plus largement pris en charge. Il est utile pour la garantie, les vérifications de liste noire et l'assistance de l'opérateur. |
+| `#07#`         | Affiche les informations réglementaires et les données de DAS | Fonctionne sur de nombreux téléphones Android. Certains demandent d'appuyer sur le bouton d'appel.                                                           |
+| `*#*#4636#*#*` | Ouvre le menu de test d'Android                               | Peut afficher des informations sur le téléphone, l'état du réseau, le signal, la batterie et le Wi-Fi. Sa disponibilité varie fortement.                     |
+| `*#*#426#*#*`  | Ouvre les diagnostics Firebase Cloud Messaging                | À essayer de préférence dans Téléphone par Google. Utile lorsque les notifications push n'arrivent pas.                                                      |
 
 Le menu `*#*#4636#*#*` est l'un des plus cités, mais ne soyez pas surpris s'il contient moins de données que sur d'anciennes captures d'écran. Les versions récentes d'Android et les interfaces des fabricants masquent davantage d'informations réseau et batterie qu'auparavant.
 
@@ -46,20 +47,20 @@ Ouvrez Samsung Members, appuyez sur l'onglet Assistance, puis sur Diagnostics du
 
 Les codes Samsung restent utiles, surtout sur les téléphones non verrouillés par un opérateur, mais les réglages de sécurité de One UI, Auto Blocker, les politiques d'entreprise et le micrologiciel opérateur peuvent les bloquer.
 
-| Code | Fonction | Remarques |
-|---|---|---|
-| `*#0*#` | Ouvre le principal menu de test matériel Samsung | Les tests peuvent couvrir les couleurs de l'écran, le tactile, l'écouteur, le haut-parleur, la vibration, les appareils photo, les capteurs, le S Pen et d'autres composants. |
-| `*#0228#` | Affiche l'écran d'état de la batterie | Présente la tension en temps réel et d'autres données sur de nombreux modèles. Certaines versions récentes le bloquent. |
-| `*#0011#` | Ouvre l'écran réseau ServiceMode | Utile pour le signal et les informations sur la cellule active. Ne modifiez aucun réglage. |
-| `*#0842#` | Lance un test de vibration | Fonctionne sur de nombreux modèles Samsung, mais pas tous. |
-| `*#0673#` ou `*#0289#` | Lance un test audio | Le comportement du haut-parleur et de l'écouteur varie selon le modèle. |
-| `*#2663#` | Affiche les informations du micrologiciel tactile | Souvent utilisé par les techniciens de maintenance. |
-| `*#7353#` | Ouvre un menu de test rapide | Plus courant sur les anciens modèles Galaxy. |
-| `*#1234#` | Affiche les détails de version du micrologiciel | Indique les versions AP, CP et CSC. |
-| `*#7412365#` | Affiche les informations du micrologiciel de l'appareil photo | La disponibilité varie. |
-| `*#0588#` | Lance un test du capteur de proximité | Utile lorsque l'écran ne s'éteint pas pendant les appels. |
-| `*#9900#` | Ouvre le mode SysDump | Principalement destiné aux journaux et au débogage. Ne modifiez pas des options au hasard. |
-| `*#9090#` | Ouvre la configuration de diagnostic | Ne changez rien, sauf si vous suivez des instructions officielles de maintenance. |
+| Code                   | Fonction                                                      | Remarques                                                                                                                                                                     |
+| ---------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `*#0*#`                | Ouvre le principal menu de test matériel Samsung              | Les tests peuvent couvrir les couleurs de l'écran, le tactile, l'écouteur, le haut-parleur, la vibration, les appareils photo, les capteurs, le S Pen et d'autres composants. |
+| `*#0228#`              | Affiche l'écran d'état de la batterie                         | Présente la tension en temps réel et d'autres données sur de nombreux modèles. Certaines versions récentes le bloquent.                                                       |
+| `*#0011#`              | Ouvre l'écran réseau ServiceMode                              | Utile pour le signal et les informations sur la cellule active. Ne modifiez aucun réglage.                                                                                    |
+| `*#0842#`              | Lance un test de vibration                                    | Fonctionne sur de nombreux modèles Samsung, mais pas tous.                                                                                                                    |
+| `*#0673#` ou `*#0289#` | Lance un test audio                                           | Le comportement du haut-parleur et de l'écouteur varie selon le modèle.                                                                                                       |
+| `*#2663#`              | Affiche les informations du micrologiciel tactile             | Souvent utilisé par les techniciens de maintenance.                                                                                                                           |
+| `*#7353#`              | Ouvre un menu de test rapide                                  | Plus courant sur les anciens modèles Galaxy.                                                                                                                                  |
+| `*#1234#`              | Affiche les détails de version du micrologiciel               | Indique les versions AP, CP et CSC.                                                                                                                                           |
+| `*#7412365#`           | Affiche les informations du micrologiciel de l'appareil photo | La disponibilité varie.                                                                                                                                                       |
+| `*#0588#`              | Lance un test du capteur de proximité                         | Utile lorsque l'écran ne s'éteint pas pendant les appels.                                                                                                                     |
+| `*#9900#`              | Ouvre le mode SysDump                                         | Principalement destiné aux journaux et au débogage. Ne modifiez pas des options au hasard.                                                                                    |
+| `*#9090#`              | Ouvre la configuration de diagnostic                          | Ne changez rien, sauf si vous suivez des instructions officielles de maintenance.                                                                                             |
 
 Si `*#0*#` ne fonctionne pas, n'en concluez pas que le téléphone est contrefait. Essayez d'abord l'application Téléphone de Samsung à la place de Téléphone par Google, puis les diagnostics de Samsung Members. Si ces derniers fonctionnent, une voie de test matériel reste disponible même lorsque le code caché est bloqué.
 
@@ -67,12 +68,12 @@ Si `*#0*#` ne fonctionne pas, n'en concluez pas que le téléphone est contrefai
 
 Les Pixel sont plus restrictifs que les téléphones Samsung. Il n'existe pas d'équivalent Pixel direct au menu Samsung `*#0*#`.
 
-| Code | Fonction | Remarques |
-|---|---|---|
+| Code           | Fonction                                                                | Remarques                                                                                                                                                                                        |
+| -------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | `*#*#7287#*#*` | Ouvre les diagnostics de réparation Pixel sur les appareils compatibles | Google documente ce code pour les procédures d'autoréparation des Pixel. Une connexion Internet est nécessaire et la disponibilité peut varier selon le modèle, la région et l'état du logiciel. |
-| `*#*#4636#*#*` | Ouvre le menu de test d'Android | Souvent utilisé pour consulter les informations téléphoniques et réseau, mais les champs varient selon la version d'Android. |
-| `*#*#426#*#*` | Ouvre les diagnostics FCM | Utile pour dépanner les notifications push. |
-| `#07#` | Affiche les informations réglementaires et le DAS | Fonctionne sur de nombreux modèles Pixel. |
+| `*#*#4636#*#*` | Ouvre le menu de test d'Android                                         | Souvent utilisé pour consulter les informations téléphoniques et réseau, mais les champs varient selon la version d'Android.                                                                     |
+| `*#*#426#*#*`  | Ouvre les diagnostics FCM                                               | Utile pour dépanner les notifications push.                                                                                                                                                      |
+| `#07#`         | Affiche les informations réglementaires et le DAS                       | Fonctionne sur de nombreux modèles Pixel.                                                                                                                                                        |
 
 Les Pixel 6 et modèles ultérieurs, y compris le Pixel Fold, disposent aussi de la rubrique Paramètres > État de l'appareil et assistance. C'est souvent un meilleur point de départ pour les questions de batterie, de charge, de performances et d'assistance. L'assistance conversationnelle ajoutée sur les Pixel 9 et modèles ultérieurs reste limitée à certaines langues.
 
@@ -82,11 +83,11 @@ Android 17 est disponible en OTA pour les appareils Pixel compatibles, du Pixel 
 
 Le menu CIT de Xiaomi fait partie des suites de tests OEM les plus complètes, mais son contenu varie selon MIUI, HyperOS, la région et la gamme de l'appareil.
 
-| Code | Fonction | Remarques |
-|---|---|---|
-| `*#*#6484#*#*` | Ouvre le menu de test matériel CIT | Peut inclure l'écran, le tactile, la vibration, les haut-parleurs, les microphones, les appareils photo, les capteurs, le GPS, le Wi-Fi, le Bluetooth, la SIM, les boutons, l'empreinte digitale, l'émetteur infrarouge et le NFC. |
-| `*#*#64663#*#*` | Code CIT alternatif | Fonctionne sur certains anciens modèles Xiaomi. |
-| `*#*#4636#*#*` | Ouvre le menu de test d'Android | La disponibilité varie, en particulier sur les versions récentes d'HyperOS. |
+| Code            | Fonction                           | Remarques                                                                                                                                                                                                                          |
+| --------------- | ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `*#*#6484#*#*`  | Ouvre le menu de test matériel CIT | Peut inclure l'écran, le tactile, la vibration, les haut-parleurs, les microphones, les appareils photo, les capteurs, le GPS, le Wi-Fi, le Bluetooth, la SIM, les boutons, l'empreinte digitale, l'émetteur infrarouge et le NFC. |
+| `*#*#64663#*#*` | Code CIT alternatif                | Fonctionne sur certains anciens modèles Xiaomi.                                                                                                                                                                                    |
+| `*#*#4636#*#*`  | Ouvre le menu de test d'Android    | La disponibilité varie, en particulier sur les versions récentes d'HyperOS.                                                                                                                                                        |
 
 Sur certains téléphones Xiaomi, le diagnostic est également accessible depuis la page consacrée à l'appareil dans les Paramètres. Ouvrez les informations détaillées ou les spécifications, puis touchez plusieurs fois la version du noyau. Si le code échoue, cette méthode mérite d'être essayée, mais les intitulés varient selon MIUI et HyperOS.
 
@@ -94,12 +95,12 @@ Sur certains téléphones Xiaomi, le diagnostic est également accessible depuis
 
 L'accès aux diagnostics OnePlus a changé au fil des années, à mesure qu'OxygenOS se rapprochait de ColorOS. Les anciens guides ne correspondent donc pas toujours aux téléphones actuels.
 
-| Code | Fonction | Remarques |
-|---|---|---|
-| `*#808#` | Ouvre Engineering Mode | Les tests matériels peuvent inclure l'écran, le tactile, les appareils photo, les capteurs, l'audio, la charge et les modules réseau. La disponibilité varie selon OxygenOS et la région. |
-| `*#*#4636#*#*` | Ouvre le menu de test d'Android | Fonctionne encore sur de nombreux modèles. |
-| `*#888#` | Affiche la version matérielle ou des informations de production | N'est pas présent sur tous les modèles. |
-| `*#1234#` | Affiche la version du micrologiciel | Fonctionne sur certaines versions OnePlus. |
+| Code           | Fonction                                                        | Remarques                                                                                                                                                                                 |
+| -------------- | --------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `*#808#`       | Ouvre Engineering Mode                                          | Les tests matériels peuvent inclure l'écran, le tactile, les appareils photo, les capteurs, l'audio, la charge et les modules réseau. La disponibilité varie selon OxygenOS et la région. |
+| `*#*#4636#*#*` | Ouvre le menu de test d'Android                                 | Fonctionne encore sur de nombreux modèles.                                                                                                                                                |
+| `*#888#`       | Affiche la version matérielle ou des informations de production | N'est pas présent sur tous les modèles.                                                                                                                                                   |
+| `*#1234#`      | Affiche la version du micrologiciel                             | Fonctionne sur certaines versions OnePlus.                                                                                                                                                |
 
 Soyez prudent dans Engineering Mode. Utilisez les écrans de test, mais ne modifiez pas les réglages du modem, de l'étalonnage ou de la maintenance.
 
@@ -107,11 +108,11 @@ Soyez prudent dans Engineering Mode. Utilisez les écrans de test, mais ne modif
 
 Motorola publie moins de codes que Samsung ou Xiaomi, mais de nombreux modèles intègrent une application de test.
 
-| Code | Fonction | Remarques |
-|---|---|---|
-| `*#*#2486#*#*` | Ouvre CQATest ou un menu de maintenance | Peut proposer des tests de l'écran, du tactile, du haut-parleur, de la vibration, de l'appareil photo et des capteurs. |
-| `*#*#4636#*#*` | Ouvre le menu de test d'Android | Fonctionne sur de nombreux modèles. |
-| `.12345+=` | Ouvre un mode d'ingénierie depuis l'application Calculatrice préinstallée | Ne fonctionne que sur certains appareils Motorola et uniquement dans leur calculatrice d'origine. |
+| Code           | Fonction                                                                  | Remarques                                                                                                              |
+| -------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| `*#*#2486#*#*` | Ouvre CQATest ou un menu de maintenance                                   | Peut proposer des tests de l'écran, du tactile, du haut-parleur, de la vibration, de l'appareil photo et des capteurs. |
+| `*#*#4636#*#*` | Ouvre le menu de test d'Android                                           | Fonctionne sur de nombreux modèles.                                                                                    |
+| `.12345+=`     | Ouvre un mode d'ingénierie depuis l'application Calculatrice préinstallée | Ne fonctionne que sur certains appareils Motorola et uniquement dans leur calculatrice d'origine.                      |
 
 Si CQATest apparaît dans la liste des applications après un test, ne vous inquiétez pas. Il s'agit d'un composant de test d'usine de Motorola.
 
@@ -119,12 +120,12 @@ Si CQATest apparaît dans la liste des applications après un test, ne vous inqu
 
 OPPO et Realme partagent une grande partie de l'architecture de ColorOS, leurs codes de maintenance se recoupent donc.
 
-| Code | Fonction | Remarques |
-|---|---|---|
-| `*#899#` | Ouvre un menu de test manuel ou d'ingénierie | Point d'entrée courant vers les tests matériels sur de nombreuses versions de ColorOS et Realme UI. |
-| `*#800#` | Ouvre un outil d'ingénierie et de journaux | Souvent utilisé pour les journaux et les diagnostics réseau. |
-| `*#6776#` | Affiche les informations sur le logiciel et l'appareil | Présente le modèle et le micrologiciel sur de nombreux appareils. |
-| `*#*#4636#*#*` | Ouvre le menu de test d'Android | La disponibilité varie. |
+| Code           | Fonction                                               | Remarques                                                                                           |
+| -------------- | ------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| `*#899#`       | Ouvre un menu de test manuel ou d'ingénierie           | Point d'entrée courant vers les tests matériels sur de nombreuses versions de ColorOS et Realme UI. |
+| `*#800#`       | Ouvre un outil d'ingénierie et de journaux             | Souvent utilisé pour les journaux et les diagnostics réseau.                                        |
+| `*#6776#`      | Affiche les informations sur le logiciel et l'appareil | Présente le modèle et le micrologiciel sur de nombreux appareils.                                   |
+| `*#*#4636#*#*` | Ouvre le menu de test d'Android                        | La disponibilité varie.                                                                             |
 
 La voie la plus sûre reste généralement l'application intégrée Phone Manager, My OPPO, My realme ou Support, lorsque le modèle en possède une.
 

@@ -5,10 +5,11 @@ listSummary: "Du har 18 % igjen, batteriikonet er rødt, og oversikten over nyli
 hub: "myths"
 sourceNumber: 146
 order: 2
-tags: ["myter","fakta","android","batteri","myteknusing"]
+tags: ["myter", "fakta", "android", "batteri", "myteknusing"]
 locale: "nb"
 draft: false
 ---
+
 Det sparer egentlig ikke batteri.
 
 ## Svaret er fortsatt nei

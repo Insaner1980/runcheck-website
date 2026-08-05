@@ -5,10 +5,11 @@ listSummary: "Praktiske måter å frigjøre lagringsplass på Android uten å sl
 hub: "storage"
 sourceNumber: 79
 order: 1
-tags: ["lagring","android","opprydding","optimalisering","guide"]
+tags: ["lagring", "android", "opprydding", "optimalisering", "guide"]
 locale: "nb"
 draft: false
 ---
+
 ---
 
 Du prøver å ta et bilde, installere en oppdatering eller laste ned en fil, og Android sier at det ikke er nok plass. Panikkreaksjonen er å slette bilder. Ikke begynn der.

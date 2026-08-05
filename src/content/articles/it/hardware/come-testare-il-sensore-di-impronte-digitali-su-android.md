@@ -5,10 +5,11 @@ listSummary: "Come verificare se il sensore di impronte digitali di uno smartpho
 hub: "hardware"
 sourceNumber: 114
 order: 11
-tags: ["diagnostica","sensori","android","hardware","guida"]
+tags: ["diagnostica", "sensori", "android", "hardware", "guida"]
 locale: "it"
 draft: false
 ---
+
 Il sensore di impronte digitali è guasto o è solo infastidito dalla pellicola protettiva? Sembra una battuta, ma è la prima cosa da verificare.
 
 Spesso i problemi con le impronte hanno cause banali. Pelle secca, umidità, una pellicola economica in vetro temperato, una registrazione fatta male o un aggiornamento software rimasto a metà possono far sembrare morto un sensore perfettamente funzionante. Anche i guasti hardware esistono, soprattutto dopo una caduta o la sostituzione dello schermo, ma non partire da quella conclusione.

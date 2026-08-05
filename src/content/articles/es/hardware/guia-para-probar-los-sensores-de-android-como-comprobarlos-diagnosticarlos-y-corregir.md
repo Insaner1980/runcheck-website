@@ -5,10 +5,11 @@ listSummary: "hardware, pruebas y diagnostico"
 hub: "hardware"
 sourceNumber: 105
 order: 2
-tags: ["hardware","pruebas","diagnostico","android","guia"]
+tags: ["hardware", "pruebas", "diagnostico", "android", "guia"]
 locale: "es"
 draft: false
 ---
+
 Los móviles Android utilizan una combinación de sensores de movimiento, ambientales, de posición y de proximidad. Algunos son chips físicos. Otros son sensores «virtuales», calculados a partir de varios chips. Cuando una de esas fuentes genera datos inestables, está bloqueada o se desactiva, el síntoma puede aparecer en una función completamente distinta.
 
 Empieza por lo sencillo. Para la primera ronda de pruebas no necesitas root, ADB ni un banco de laboratorio.

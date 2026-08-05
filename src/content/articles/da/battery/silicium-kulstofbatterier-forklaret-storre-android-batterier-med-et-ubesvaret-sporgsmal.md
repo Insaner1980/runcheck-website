@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 20
 order: 10
 subgroup: "Health"
-tags: ["batteriteknologi","videnskab","guide","hardware"]
+tags: ["batteriteknologi", "videnskab", "guide", "hardware"]
 locale: "da"
 draft: false
 ---
+
 Forklaringen er silicium-kulstof. Det er stadig litium-ion, men anoden er ændret.
 
 ## Hvad der er ændret i anoden

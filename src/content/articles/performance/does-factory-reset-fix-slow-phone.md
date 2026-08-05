@@ -5,9 +5,10 @@ listSummary: "Factory reset performance limits"
 hub: "performance"
 sourceNumber: 67
 order: 4
-tags: ["performance","speed","android","optimization","troubleshooting"]
+tags: ["performance", "speed", "android", "optimization", "troubleshooting"]
 draft: false
 ---
+
 Sometimes that advice is right. Often it's lazy.
 
 A factory reset can fix a slow phone when the cause is software: bloated app data, broken settings, corrupted caches, too many background apps, or a messy restore from years of upgrades. It won't fix worn flash storage, a weak battery, poor thermal behavior, too little RAM, or a budget chipset that was slow from day one.

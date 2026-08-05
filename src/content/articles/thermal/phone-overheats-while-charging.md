@@ -5,9 +5,10 @@ listSummary: "Charging heat fixes"
 hub: "thermal"
 sourceNumber: 58
 order: 6
-tags: ["charging","battery","android","guide","hardware"]
+tags: ["charging", "battery", "android", "guide", "hardware"]
 draft: false
 ---
+
 A phone that gets slightly warm while charging is normal. A phone that feels uncomfortable to hold is not.
 
 Charging pushes energy into a lithium-ion battery, and some of that energy turns into heat. You will notice it more with a 25W, 45W, or 65W charger than with an old 5W brick. That alone doesn't mean anything is broken. The real question is whether the phone cools down once the heavy part of charging is over, or whether it keeps getting hotter every time you plug it in.

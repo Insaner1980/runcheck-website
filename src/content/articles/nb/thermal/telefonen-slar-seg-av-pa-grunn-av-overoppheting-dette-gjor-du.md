@@ -5,10 +5,11 @@ listSummary: "En telefon som slår seg av på grunn av overoppheting, beskytter 
 hub: "thermal"
 sourceNumber: 61
 order: 9
-tags: ["temperatur","varme","android","feilsøking","maskinvare"]
+tags: ["temperatur", "varme", "android", "feilsøking", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 Telefonen blir svart, nekter å slå seg på igjen og viser etter hvert et varmevarsel. Irriterende, ja. Men som regel er det et godt tegn.
 
 En termisk avslåing betyr at telefonen beskyttet seg selv. Android har termiske tilstander som gjør at systemet kan redusere belastningen, strupe ytelsen, senke ladehastigheten og i ytterste konsekvens slå av enheten. De nøyaktige grensene for batteri- og overflatetemperatur bestemmes av produsenten, så ikke stol på ett enkelt tall som en regel for alle telefoner.

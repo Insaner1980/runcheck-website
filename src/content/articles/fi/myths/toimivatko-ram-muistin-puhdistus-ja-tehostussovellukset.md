@@ -5,10 +5,11 @@ listSummary: "Tekeekö RAM-tehostin Android-puhelimesta nopeamman vai saako se v
 hub: "myths"
 sourceNumber: 147
 order: 3
-tags: ["suorituskyky","nopeus","android","optimointi","vianetsintä"]
+tags: ["suorituskyky", "nopeus", "android", "optimointi", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+
 Nykyaikaisessa Android-puhelimessa RAM-muistin puhdistus- ja tehostussovellukset eivät paranna suorituskykyä pysyvästi. Tavallisesti ne teettävät puhelimella enemmän töitä, eivät vähemmän. Lisäksi ne pyytävät usein laajoja käyttöoikeuksia voidakseen seurata käyttöä, näyttää mainoksia ja pitää itsensä käynnissä taustalla.
 
 ## Vapaa RAM-muisti ei ole tavoite

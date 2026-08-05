@@ -5,10 +5,11 @@ listSummary: "red, conectividad y android"
 hub: "network"
 sourceNumber: 100
 order: 11
-tags: ["red","conectividad","android","solucion-de-problemas","guia"]
+tags: ["red", "conectividad", "android", "solucion-de-problemas", "guia"]
 locale: "es"
 draft: false
 ---
+
 Las llamadas Wi-Fi son llamadas telefónicas normales cursadas a través de una red Wi-Fi. Usas la aplicación Teléfono habitual, tu número de siempre y tu cuenta con el operador. La persona a la que llamas no necesita WhatsApp, Signal, Telegram ni ninguna otra aplicación.
 
 Ese es su principal atractivo. Puedes estar en un sótano con una sola barra de cobertura móvil, conectarte a un buen Wi-Fi y seguir haciendo una llamada normal.

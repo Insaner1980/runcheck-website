@@ -5,10 +5,11 @@ listSummary: "Pulsas Iniciar, ves cómo sube el indicador y recibes una cifra qu
 hub: "network"
 sourceNumber: 92
 order: 3
-tags: ["red","conectividad","android","solucion-de-problemas","guia"]
+tags: ["red", "conectividad", "android", "solucion-de-problemas", "guia"]
 locale: "es"
 draft: false
 ---
+
 La prueba muestra qué ocurrió en ese momento, con ese servidor y bajo esas condiciones de red. Es una instantánea, no un diagnóstico completo. Aun así, es el mejor primer dato que puedes obtener cuando el móvil parece lento.
 
 ## Qué mide la prueba

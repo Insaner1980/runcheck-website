@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 17
 order: 7
 subgroup: "Health"
-tags: ["batteri","helse","diagnostikk","android","guide"]
+tags: ["batteri", "helse", "diagnostikk", "android", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Forskjellen er viktig. Et nytt batteri løser ikke problemet med en løpsk app. Å slette apper reparerer heller ikke en celle som ikke lenger klarer å levere nok strøm.
 
 **Metabeskrivelse:** Rask utlading betyr ikke alltid at mobilbatteriet må byttes. Lær deg tegnene på reell batterislitasje, hva du bør utelukke først, og hvordan du sjekker batterihelse på Android.

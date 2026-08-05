@@ -5,10 +5,11 @@ listSummary: "comparaison, applications et android"
 hub: "buying-selling"
 sourceNumber: 141
 order: 5
-tags: ["comparaison","applications","android","guide-d-achat","test"]
+tags: ["comparaison", "applications", "android", "guide-d-achat", "test"]
 locale: "fr"
 draft: false
 ---
+
 Vous avez en main un smartphone d'occasion qui paraît impeccable. L'écran est lumineux, le vendeur semble sérieux et le prix est juste assez bas pour ressembler à une bonne affaire. C'est précisément à ce moment-là que beaucoup de personnes arrêtent de vérifier et commencent à se convaincre.
 
 Ne faites pas ça.

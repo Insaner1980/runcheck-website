@@ -5,10 +5,11 @@ listSummary: "Öppna uppdateringssidan på en Android-telefon så ser du förmod
 hub: "software"
 sourceNumber: 124
 order: 6
-tags: ["android","uppdateringar","säkerhet","programvara","guide"]
+tags: ["android", "uppdateringar", "säkerhet", "programvara", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Det kan se ut som ett fel. Vanligtvis är det inte det.
 
 Det handlar om två olika uppdateringskanaler. Säkerhetskorrigeringen kommer via telefontillverkaren, till exempel Google, Samsung, Xiaomi, OnePlus eller Motorola. Det andra datumet kommer via Googles modulära uppdateringssystem för Android på enheter som stöder det.

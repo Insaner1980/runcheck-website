@@ -5,10 +5,11 @@ listSummary: "lataaminen, akku ja android"
 hub: "charging"
 sourceNumber: 40
 order: 4
-tags: ["lataaminen","akku","android","opas","laitteisto"]
+tags: ["lataaminen", "akku", "android", "opas", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 Onko langaton lataus haitallista akulle, vai onko se vain yksi niistä asioista, joista internetissä huolestutaan liikaa? Reilu vastaus kuuluu näin: langaton lataus on aivan käyttökelpoinen tapa ladata puhelinta, mutta siinä on helpompi tehdä asiat huonosti kuin langallisessa latauksessa.
 
 Ongelma ei ole langaton energiansiirto itsessään. Ongelma on lämpö. Langattomassa latauksessa osa energiasta hukkuu siirron aikana enemmän kuin kaapelia käytettäessä, ja hukkalämpö päätyy puhelimeen, latausalustaan tai molempiin.

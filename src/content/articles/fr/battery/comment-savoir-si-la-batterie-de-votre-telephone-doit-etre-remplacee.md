@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 17
 order: 7
 subgroup: "Health"
-tags: ["batterie","etat","diagnostic","android","guide"]
+tags: ["batterie", "etat", "diagnostic", "android", "guide"]
 locale: "fr"
 draft: false
 ---
+
 La différence compte. Une batterie neuve ne corrigera pas une application incontrôlable. Supprimer des applications ne réparera pas une cellule qui n’arrive plus à fournir la puissance demandée.
 
 **Méta-description :** Une décharge rapide ne signifie pas toujours que la batterie de votre téléphone doit être remplacée. Découvrez les signes d’une usure réelle, les autres causes à éliminer et les moyens de vérifier l’état de la batterie sur Android.

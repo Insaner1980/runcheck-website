@@ -5,10 +5,11 @@ listSummary: "Lär dig läsa wifi-signalens styrka på Android i dBm, inte bara 
 hub: "network"
 sourceNumber: 90
 order: 1
-tags: ["nätverk","anslutningar","android","felsökning","guide"]
+tags: ["nätverk", "anslutningar", "android", "felsökning", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Wifi-staplarna i statusfältet är en grov ledtråd, inte ett mätvärde. Lägg två telefoner bredvid varandra så kan de ändå visa olika resultat, eftersom tillverkarnas Android-gränssnitt inte översätter signalstyrka till staplar på exakt samma sätt.
 
 När du ska felsöka på riktigt bör du titta efter dBm. Det värdet visar styrkan på signalen som telefonen tar emot från routern.

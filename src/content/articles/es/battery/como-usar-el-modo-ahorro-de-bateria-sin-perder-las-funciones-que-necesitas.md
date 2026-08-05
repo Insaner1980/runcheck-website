@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 36
 order: 26
 subgroup: "Drain"
-tags: ["bateria","optimizacion","android","consejos","rendimiento"]
+tags: ["bateria", "optimizacion", "android", "consejos", "rendimiento"]
 locale: "es"
 draft: false
 ---
+
 El Ahorro de batería resulta más útil antes de que el móvil esté al límite. Activarlo cuando queda un 8 % ayuda, pero para entonces ya se ha consumido casi toda la carga.
 
 Lo más práctico es usarlo según la situación. Actívalo cuando sepas que será difícil cargar el móvil: durante un vuelo, una reunión larga, un trayecto con mala cobertura, un día al aire libre o siempre que te importe más mantenerlo encendido que disfrutar de la máxima fluidez.

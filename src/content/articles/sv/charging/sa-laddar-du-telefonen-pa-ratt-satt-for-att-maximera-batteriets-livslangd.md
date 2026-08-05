@@ -5,10 +5,11 @@ listSummary: "Dina laddningsvanor påverkar hur snabbt telefonens batteri åldra
 hub: "charging"
 sourceNumber: 38
 order: 2
-tags: ["laddning","batteri","android","guide","hårdvara"]
+tags: ["laddning", "batteri", "android", "guide", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 Den bästa laddningsvanan är ganska tråkig: håll telefonen sval, undvik att låta den ligga på 100 % i flera timmar och kör inte batteriet helt tomt varje dag. Det är egentligen hela saken. Resten är detaljer.
 
 Det betyder inte att du måste vakta batteriprocenten eller dra ur kabeln i samma sekund som den når 80 %. Telefonen är ett verktyg, inte ett laboratorieprov. Men litiumjonbatterier åldras snabbare under några förutsägbara förhållanden, och dina laddningsvanor kan antingen öka belastningen eller hålla den under kontroll.

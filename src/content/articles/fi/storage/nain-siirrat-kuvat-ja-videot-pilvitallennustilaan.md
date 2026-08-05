@@ -5,10 +5,11 @@ listSummary: "Yrität kuvata vielä yhden videon, ja Android ilmoittaa, ettei ti
 hub: "storage"
 sourceNumber: 85
 order: 7
-tags: ["tallennustila","android","siivous","optimointi","opas"]
+tags: ["tallennustila", "android", "siivous", "optimointi", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Kuvien kanssa pärjää yleensä hyvin. Video on varsinainen ongelma. Muutama minuutti 4K-videota voi viedä enemmän tilaa kuin kuukausien kuvakaappaukset, eikä pilvivarmuuskopio auta vapauttamaan tilaa ennen kuin poistat paikalliset kopiot puhelimesta.
 
 ## Aloita Google Kuvista

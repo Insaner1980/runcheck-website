@@ -5,10 +5,11 @@ listSummary: "maskinvare, testing og diagnostikk"
 hub: "hardware"
 sourceNumber: 111
 order: 8
-tags: ["maskinvare","testing","diagnostikk","android","guide"]
+tags: ["maskinvare", "testing", "diagnostikk", "android", "guide"]
 locale: "nb"
 draft: false
 ---
+
 ---
 
 Hvor mye kan et lite klistremerke egentlig fortelle om vannskade? Mindre enn mange tror.

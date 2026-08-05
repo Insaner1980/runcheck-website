@@ -5,10 +5,11 @@ listSummary: "batteri, tilstand og diagnostik"
 hub: "myths"
 sourceNumber: 152
 order: 8
-tags: ["batteri","tilstand","diagnostik","android","guide"]
+tags: ["batteri", "tilstand", "diagnostik", "android", "guide"]
 locale: "da"
 draft: false
 ---
+
 Når en tre år gammel telefon ikke holder til aftensmad, kan knappen til nulstilling til fabriksindstillinger virke fristende. Det føles som en frisk start, og nogle gange er det også netop det. Bare ikke for selve batteriet.
 
 En nulstilling til fabriksindstillinger kan forbedre batteritiden. Den kan ikke forbedre batteritilstanden.

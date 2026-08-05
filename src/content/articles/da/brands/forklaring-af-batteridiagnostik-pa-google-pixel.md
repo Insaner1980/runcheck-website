@@ -5,10 +5,11 @@ listSummary: "batteri, tilstand og diagnostik"
 hub: "brands"
 sourceNumber: 154
 order: 2
-tags: ["batteri","tilstand","diagnostik","android","guide"]
+tags: ["batteri", "tilstand", "diagnostik", "android", "guide"]
 locale: "da"
 draft: false
 ---
+
 Tidspunktet betyder også noget. Android 17 er allerede tilgængelig på de fleste understøttede Pixel-enheder, mens andre Android-mærker får deres egne Android 17-baserede opdateringer senere. Det betyder ikke, at alle Pixel-telefoner pludselig har fået den samme batteriside. Googles batteridiagnostik er stadig opdelt efter model.
 
 ## Batteritilstand og kapacitet

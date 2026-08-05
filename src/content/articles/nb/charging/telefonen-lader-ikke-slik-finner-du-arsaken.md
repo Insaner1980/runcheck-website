@@ -5,10 +5,11 @@ listSummary: "Finn ut om ladefeilen ligger i laderen, kabelen, USB-C-porten, bat
 hub: "charging"
 sourceNumber: 48
 order: 12
-tags: ["lading","batteri","android","guide","maskinvare"]
+tags: ["lading", "batteri", "android", "guide", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 Du har 2 % igjen, kobler telefonen til laderen, og ingenting skjer. Ikke noe ladeikon. Ingen vibrasjon. Ikke det minste tegn på at kabelen gjorde noen forskjell.
 
 Når en telefon ikke vil lade, er problemet vanligvis et sted i kjeden. Strømmen må gå fra stikkontakten, gjennom adapteren, kabelen og USB-C-porten og videre til ladekretsene inne i telefonen. Ett svakt ledd er nok til at hele telefonen virker død. Gå gjennom kjeden i riktig rekkefølge, så finner du som regel feilen på 10-15 minutter.

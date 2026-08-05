@@ -5,10 +5,11 @@ listSummary: "Pikalataus voi lisätä akun kulumista, mutta laturin wattimäär�
 hub: "charging"
 sourceNumber: 39
 order: 3
-tags: ["lataaminen","akku","android","opas","laitteisto"]
+tags: ["lataaminen", "akku", "android", "opas", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 Useimmat pikalatausta koskevat ohjeet ovat liian dramaattisia. Pikalataus ei ole akun kuolemantuomio, eikä hidas lataus ole taikakeino. Olennaista on, pysyykö puhelin viileänä latauksen aikana.
 
 Sen jälkeen vastaus muuttuu mutkikkaammaksi. Viileällä pöydällä käytettävä 65 W:n laturi voi rasittaa akkua vähemmän kuin tyynyn alla käytettävä 15 W:n laturi. Teholla on merkitystä, mutta lämpötilalla on enemmän.

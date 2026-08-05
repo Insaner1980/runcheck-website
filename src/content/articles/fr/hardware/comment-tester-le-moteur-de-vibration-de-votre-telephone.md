@@ -5,10 +5,11 @@ listSummary: "materiel, test et diagnostic"
 hub: "hardware"
 sourceNumber: 109
 order: 6
-tags: ["materiel","test","diagnostic","android","guide"]
+tags: ["materiel", "test", "diagnostic", "android", "guide"]
 locale: "fr"
 draft: false
 ---
+
 ---
 
 Un téléphone silencieux ne signifie pas automatiquement que son moteur de vibration est mort. Les problèmes viennent le plus souvent des réglages, puis du logiciel, et seulement ensuite du matériel.

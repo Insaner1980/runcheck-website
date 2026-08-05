@@ -5,10 +5,11 @@ listSummary: "Du indtaster #0# i Samsung Telefon-appen, og det normale opkaldsta
 hub: "brands"
 sourceNumber: 160
 order: 8
-tags: ["producent","android","diagnostik","mærkespecifikt","guide"]
+tags: ["producent", "android", "diagnostik", "mærkespecifikt", "guide"]
 locale: "da"
 draft: false
 ---
+
 Når det virker, føles det næsten for nemt. Når det ikke virker, kan det være overraskende frustrerende, fordi Samsung ikke præsenterer menuen som en normal forbrugerfunktion. Se den som en servicemenu på lavt niveau, der ofte virker på Galaxy-telefoner, ikke som en garanteret funktion på alle modeller, operatørversioner eller i alle områder.
 
 ## Før du prøver koden
@@ -85,4 +86,4 @@ Hvis `*#0*#` er blokeret, skal du ikke bruge en time på at kæmpe med opkaldsap
 
 ---
 
-*Metabeskrivelse: Samsungs kode `*#0*#` kan åbne en skjult Galaxy-diagnosemenu med tests af skærm, touch, sensorer, kamera, højttaler og vibration. Her kan du se, hvad menuen kontrollerer, og hvad du kan bruge, hvis koden er blokeret.*
+_Metabeskrivelse: Samsungs kode `*#0*#` kan åbne en skjult Galaxy-diagnosemenu med tests af skærm, touch, sensorer, kamera, højttaler og vibration. Her kan du se, hvad menuen kontrollerer, og hvad du kan bruge, hvis koden er blokeret._

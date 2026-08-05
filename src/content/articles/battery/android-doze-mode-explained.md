@@ -7,9 +7,10 @@ hub: "battery"
 sourceNumber: 34
 order: 24
 subgroup: "Drain"
-tags: ["battery","optimization","android","tips","performance"]
+tags: ["battery", "optimization", "android", "tips", "performance"]
 draft: false
 ---
+
 Why did ten notifications arrive the moment you picked up your phone? A lot of the time, the answer is Doze.
 
 Doze is Android's built-in idle system. You don't turn it on, and most people never see a Doze screen in Settings. It works quietly when the phone is unplugged, the screen is off, and Android decides the device should stop letting every app run whenever it wants.

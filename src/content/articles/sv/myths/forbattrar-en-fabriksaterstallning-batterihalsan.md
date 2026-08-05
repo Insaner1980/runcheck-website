@@ -5,10 +5,11 @@ listSummary: "batteri, hälsa och diagnostik"
 hub: "myths"
 sourceNumber: 152
 order: 8
-tags: ["batteri","hälsa","diagnostik","android","guide"]
+tags: ["batteri", "hälsa", "diagnostik", "android", "guide"]
 locale: "sv"
 draft: false
 ---
+
 När en tre år gammal telefon dör före middagen börjar knappen för fabriksåterställning se lockande ut. Det känns som en nystart, och ibland är det precis vad telefonen behöver. Men inte batteriet i sig.
 
 En fabriksåterställning kan förbättra batteritiden. Den kan inte förbättra batterihälsan.

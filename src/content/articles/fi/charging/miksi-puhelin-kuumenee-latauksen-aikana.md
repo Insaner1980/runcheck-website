@@ -5,10 +5,11 @@ listSummary: "lataaminen, akku ja android"
 hub: "charging"
 sourceNumber: 52
 order: 16
-tags: ["lataaminen","akku","android","opas","laitteisto"]
+tags: ["lataaminen", "akku", "android", "opas", "laitteisto"]
 locale: "fi"
 draft: false
 ---
+
 Kytket puhelimen laturiin, palaat 20 minuutin kuluttua ja takaosa tuntuu kättä lämpimämmältä. Pieni lämpeneminen on normaalia. Puhelin, jota on epämukava pitää kädessä kuumuuden vuoksi, ei ole.
 
 Lataaminen tuottaa aina jonkin verran lämpöä, koska osa tulevasta energiasta muuttuu hukkalämmöksi laturissa, kaapelissa ja puhelimessa. Pikalataus tuottaa enemmän. Langaton lataus yleensä vielä enemmän. Kysymys ei ole siitä, lämpeneekö puhelin, vaan siitä, pysyykö lämpö normaalilla alueella vai alkaako laite suojata itseään.

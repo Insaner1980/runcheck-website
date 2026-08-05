@@ -5,10 +5,11 @@ listSummary: "Aprende a interpretar la intensidad Wi-Fi en Android mediante dBm,
 hub: "network"
 sourceNumber: 90
 order: 1
-tags: ["red","conectividad","android","solucion-de-problemas","guia"]
+tags: ["red", "conectividad", "android", "solucion-de-problemas", "guia"]
 locale: "es"
 draft: false
 ---
+
 Las barras de Wi-Fi de la barra de estado son una pista aproximada, no una medición. Dos móviles colocados uno al lado del otro pueden mostrar resultados distintos porque las capas de Android y los fabricantes no traducen la intensidad de la señal a barras de la misma forma.
 
 Para diagnosticar de verdad, busca el valor en dBm. Esa cifra indica la intensidad de la señal que el móvil recibe del router.

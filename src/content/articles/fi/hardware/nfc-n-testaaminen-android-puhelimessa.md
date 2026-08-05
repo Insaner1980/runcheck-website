@@ -5,10 +5,11 @@ listSummary: "Helppoja tapoja tarkistaa, toimiiko Android-puhelimen NFC."
 hub: "hardware"
 sourceNumber: 115
 order: 12
-tags: ["diagnostiikka","anturit","android","laitteisto","opas"]
+tags: ["diagnostiikka", "anturit", "android", "laitteisto", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Napautat puhelimella maksupäätettä, eikä mitään tapahdu. Nyt ongelmia on kaksi: maksu epäonnistui, etkä tiedä, johtuuko se NFC:stä, Google Walletista, kortista, suojakuoresta vai maksupäätteestä.
 
 Aloita pienemmästä. NFC on helppo testata, kun erotat laitteiston lukutoiminnon maksamisesta.

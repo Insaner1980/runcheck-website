@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 20
 order: 10
 subgroup: "Health"
-tags: ["technologie-des-batteries","science","guide","materiel"]
+tags: ["technologie-des-batteries", "science", "guide", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 L’explication tient au silicium-carbone. La batterie reste lithium-ion, mais son anode a changé.
 
 ## Ce qui a changé dans l’anode

@@ -5,10 +5,11 @@ listSummary: "red, conectividad y android"
 hub: "network"
 sourceNumber: 103
 order: 14
-tags: ["red","conectividad","android","solucion-de-problemas","guia"]
+tags: ["red", "conectividad", "android", "solucion-de-problemas", "guia"]
 locale: "es"
 draft: false
 ---
+
 La latencia se mide en milisegundos (ms). Cuanto más baja, mejor. Hay tres cifras que importan especialmente: ping, jitter y pérdida de paquetes. El ping es el tiempo de ida y vuelta entre el móvil y un servidor. El jitter indica cuánto varía ese tiempo entre una solicitud y la siguiente. La pérdida de paquetes es el porcentaje de datos que nunca llega a su destino.
 
 Una conexión con 100 Mbps de descarga y 150 ms de ping puede sentirse peor que otra de 20 Mbps y 15 ms. Parece contradictorio hasta que pruebas un juego, una videollamada o un escritorio remoto. La velocidad mueve los datos. La latencia controla el tiempo de reacción.

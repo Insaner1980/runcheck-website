@@ -5,10 +5,11 @@ listSummary: "carga, bateria y android"
 hub: "charging"
 sourceNumber: 50
 order: 14
-tags: ["carga","bateria","android","guia","hardware"]
+tags: ["carga", "bateria", "android", "guia", "hardware"]
 locale: "es"
 draft: false
 ---
+
 El mejor hábito de carga para Android en 2026 es bastante aburrido: mantén el móvil fresco, utiliza el límite de carga integrado y no dejes la batería al 100 % durante todo el día cuando no lo necesitas.
 
 Eso es casi todo. Se habla del cuidado de la batería como si fuera un ritual, pero los móviles Android modernos ya hacen buena parte del trabajo. Android 17 llegó primero a los Pixel compatibles, mientras que las demás marcas siguen sus propios calendarios para incorporarlo a sus dispositivos. Aun así, los consejos de carga dependen más del fabricante que del número de versión de Android.

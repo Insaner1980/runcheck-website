@@ -5,10 +5,12 @@ listSummary: "leistung, geschwindigkeit und android"
 hub: "performance"
 sourceNumber: 78
 order: 15
-tags: ["leistung","geschwindigkeit","android","optimierung","fehlerbehebung"]
+tags:
+  ["leistung", "geschwindigkeit", "android", "optimierung", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+
 ---
 
 Bloatware wird für fast jedes langsame Android-Smartphone verantwortlich gemacht, doch die Wirklichkeit ist weniger dramatisch. Eine vorinstallierte App bremst nichts allein dadurch, dass ihr Symbol vorhanden ist. Ärger beginnt, wenn sie im Hintergrund läuft, das Smartphone aufweckt, Benachrichtigungen sendet, sich aktualisiert oder Dienste aktiv hält, obwohl du sie nie haben wolltest.

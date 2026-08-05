@@ -5,10 +5,11 @@ listSummary: "lading, batteri og android"
 hub: "myths"
 sourceNumber: 148
 order: 4
-tags: ["lading","batteri","android","guide","maskinvare"]
+tags: ["lading", "batteri", "android", "guide", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 Du kobler til telefonen på 12 %, ser på klokken og begynner å lete etter triks. Flymodus er et av få råd som faktisk kan ha en reell effekt, men det er ingen magisk løsning.
 
 Det hjelper fordi telefonen bruker mindre strøm mens den lades. Når mindre strøm går til mobilnett, Wi-Fi, Bluetooth, varsler og bakgrunnssynkronisering, kan litt mer av laderens effekt gå til batteriet. Gevinsten er vanligvis liten. Med en moderne hurtiglader merker du kanskje knapt forskjell. Med en gammel 5 W-adapter, en USB-port på en bærbar PC eller en nødlader kan den bety mer.

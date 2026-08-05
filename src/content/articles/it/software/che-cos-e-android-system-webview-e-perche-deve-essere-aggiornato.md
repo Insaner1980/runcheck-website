@@ -5,10 +5,11 @@ listSummary: "Perché un componente di sistema che non apri mai deve essere aggi
 hub: "software"
 sourceNumber: 129
 order: 11
-tags: ["android","aggiornamenti","sicurezza","software","guida"]
+tags: ["android", "aggiornamenti", "sicurezza", "software", "guida"]
 locale: "it"
 draft: false
 ---
+
 Potresti non toccare mai un'icona di WebView. È normale. Ma quando un'app email apre una pagina di accesso, un social network mostra un articolo senza uscire dall'app o un'app bancaria carica una schermata di autenticazione basata sul web, spesso è WebView a visualizzarla in background.
 
 ## Cosa fa davvero WebView

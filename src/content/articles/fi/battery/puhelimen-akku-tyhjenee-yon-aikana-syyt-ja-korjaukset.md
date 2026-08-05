@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 23
 order: 13
 subgroup: "Virrankulutus"
-tags: ["akku","virrankulutus","vianetsintä","android","suorituskyky"]
+tags: ["akku", "virrankulutus", "vianetsintä", "android", "suorituskyky"]
 locale: "fi"
 draft: false
 ---
+
 Hyväkuntoisessa Android-puhelimessa 2-5 %:n kulutus yön aikana on tylsän normaali tulos. Puhelin pitää mobiiliyhteyttä yllä, kuuntelee ilmoituksia, synkronoi joitakin tilitietoja ja suorittaa pieniä ylläpitotehtäviä. Kun varausta katoaa yli 10 % yö toisensa jälkeen, sitä ei enää kannata pitää tavallisena taustakulutuksena.
 
 ## Tarkista ensin akun käyttönäkymä

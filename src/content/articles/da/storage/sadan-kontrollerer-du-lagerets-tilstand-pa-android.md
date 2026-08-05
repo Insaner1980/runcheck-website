@@ -5,10 +5,11 @@ listSummary: "Android-lager kan blive slidt, men de fleste telefoner viser ikke 
 hub: "storage"
 sourceNumber: 80
 order: 2
-tags: ["lagerplads","android","oprydning","optimering","guide"]
+tags: ["lagerplads", "android", "oprydning", "optimering", "guide"]
 locale: "da"
 draft: false
 ---
+
 ---
 
 Hvordan finder du ud af, om lageret i din Android-telefon er sundt og ikke bare har for lidt ledig plads? Irriterende nok gør de fleste telefoner det stadig ikke nemt.

@@ -5,10 +5,11 @@ listSummary: "batterie, etat et diagnostic"
 hub: "myths"
 sourceNumber: 152
 order: 8
-tags: ["batterie","etat","diagnostic","android","guide"]
+tags: ["batterie", "etat", "diagnostic", "android", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Lorsqu'un téléphone de trois ans ne tient plus jusqu'au dîner, le bouton de réinitialisation d'usine devient tentant. Il donne l'impression de repartir de zéro, et c'est parfois le cas. Mais pas pour la batterie elle-même.
 
 Une réinitialisation d'usine peut améliorer l'autonomie. Elle ne peut pas améliorer l'état de la batterie.

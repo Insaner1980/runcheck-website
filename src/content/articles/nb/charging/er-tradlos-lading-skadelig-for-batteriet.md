@@ -5,10 +5,11 @@ listSummary: "Trådløs lading er vanligvis trygg for telefonbatteriet, men skap
 hub: "charging"
 sourceNumber: 40
 order: 4
-tags: ["lading","batteri","android","guide","maskinvare"]
+tags: ["lading", "batteri", "android", "guide", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 Er trådløs lading skadelig for batteriet, eller er dette bare enda en ting internett bekymrer seg for mye om? Det rimelige svaret er at trådløs lading er helt greit, men lettere å gjøre dårlig enn kablet lading.
 
 Problemet er ikke den trådløse energioverføringen i seg selv. Problemet er varme. Trådløs lading mister mer energi under overføringen enn en kabel, og den tapte energien blir til varme i telefonen, ladeplaten eller begge deler.

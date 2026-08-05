@@ -5,10 +5,11 @@ listSummary: "opladning, batteri og android"
 hub: "thermal"
 sourceNumber: 54
 order: 2
-tags: ["opladning","batteri","android","guide","hardware"]
+tags: ["opladning", "batteri", "android", "guide", "hardware"]
 locale: "da"
 draft: false
 ---
+
 ## Gør dette først
 
 Tag opladeren ud. Opladning tilfører varme, og telefonen kan ikke køle effektivt, så længe du bliver ved med at give den strøm. Selv hvis Android allerede har sat opladningen på pause, hjælper det stadig at afbryde den, fordi oplader, kabel og ladeplade fjernes fra regnestykket.
@@ -85,4 +86,4 @@ Til lange gaming-sessioner kan en køler, der sættes fast på telefonen, hjælp
 
 At køle en telefon ned handler mest om at holde igen. Tag opladeren ud, fjern coveret, stop belastningen, flyt telefonen væk fra varmen, og forsøg ikke at tvinge en hurtig nedkøling igennem. Hvis det samme problem vender tilbage under let brug, skyldes det som regel en app, et svagt signal, opladningsudstyret eller et slidt batteri.
 
-*Metabeskrivelse: Sikre trin til at køle en overophedet Android-telefon ned, hvad du ikke bør gøre, hvornår varme er normal efter Android 17 eller andre opdateringer, og hvornår batterivarme kræver reparation.*
+_Metabeskrivelse: Sikre trin til at køle en overophedet Android-telefon ned, hvad du ikke bør gøre, hvornår varme er normal efter Android 17 eller andre opdateringer, og hvornår batterivarme kræver reparation._

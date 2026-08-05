@@ -5,9 +5,10 @@ listSummary: "Idle overheating causes"
 hub: "thermal"
 sourceNumber: 57
 order: 5
-tags: ["battery","health","diagnostics","android","guide"]
+tags: ["battery", "health", "diagnostics", "android", "guide"]
 draft: false
 ---
+
 A phone sitting face-up on a desk while locked should not feel like it has been gaming in your pocket. A little warmth is normal. Real heat while idle usually means something is still working.
 
 ## Start with the simple checks

@@ -5,10 +5,11 @@ listSummary: "diagnostikk, sensorer og android"
 hub: "hardware"
 sourceNumber: 114
 order: 11
-tags: ["diagnostikk","sensorer","android","maskinvare","guide"]
+tags: ["diagnostikk", "sensorer", "android", "maskinvare", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Er fingeravtrykkssensoren ødelagt, eller er den bare irritert på skjermbeskytteren? Det høres ut som en spøk, men det er det første spørsmålet som er verdt å stille.
 
 Feil med fingeravtrykk er ofte ganske hverdagslige. Tørr hud, fuktighet, en billig skjermbeskytter av herdet glass, dårlig registrering eller en halvferdig programvareoppdatering kan få en frisk sensor til å virke død. Maskinvarefeil finnes også, særlig etter et fall eller et skjermbytte, men ikke begynn der.

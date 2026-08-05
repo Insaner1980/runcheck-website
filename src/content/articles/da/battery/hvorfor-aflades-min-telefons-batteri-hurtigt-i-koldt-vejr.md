@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 31
 order: 21
 subgroup: "Drain"
-tags: ["batteri","tilstand","diagnostik","android","guide"]
+tags: ["batteri", "tilstand", "diagnostik", "android", "guide"]
 locale: "da"
 draft: false
 ---
+
 Du er ude i frostvejr, telefonen viser 38 %, og så slukker den, som om batteriet var nået ned på nul. Et par minutter senere, når du er kommet indenfor, tænder den igen og viser pludselig, at der stadig er strøm tilbage.
 
 Irriterende? Ja. Mystisk? Ikke rigtigt.

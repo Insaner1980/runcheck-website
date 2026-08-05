@@ -5,10 +5,11 @@ listSummary: "Metabeskrivelse: Lær at aflæse Wi-Fi-styrken på Android i dBm, 
 hub: "network"
 sourceNumber: 90
 order: 1
-tags: ["netværk","forbindelser","android","fejlfinding","guide"]
+tags: ["netværk", "forbindelser", "android", "fejlfinding", "guide"]
 locale: "da"
 draft: false
 ---
+
 Wi-Fi-bjælkerne i statuslinjen er et groft fingerpeg, ikke en måling. Læg to telefoner ved siden af hinanden, og de kan stadig være uenige, fordi Android-brugerflader og producenter ikke omsætter signalstyrke til bjælker på samme måde.
 
 Til reel fejlfinding skal du se efter dBm. Tallet viser styrken af det signal, telefonen modtager fra routeren.

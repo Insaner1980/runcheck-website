@@ -5,10 +5,11 @@ listSummary: "Compara el coste de reparación, el soporte restante y el valor de
 hub: "buying-selling"
 sourceNumber: 4
 order: 2
-tags: ["android","actualizaciones","seguridad","software","guia"]
+tags: ["android", "actualizaciones", "seguridad", "software", "guia"]
 locale: "es"
 draft: false
 ---
+
 ## Reparaciones que casi siempre compensan
 
 Cambiar la batería es la decisión más clara desde el punto de vista económico. En España, la sustitución suele costar desde unas decenas de euros en un taller independiente hasta algo más de 100 €, según el modelo, el diseño del móvil y el servicio elegido. Los dispositivos prémium sellados y algunos servicios oficiales pueden resultar más caros. Aun así, normalmente cuesta una fracción de lo que vale un móvil nuevo. Una batería nueva recupera autonomía de pantalla y puede eliminar la limitación de la CPU que Android aplica en algunos casos para proteger una celda degradada. Una reparación relativamente pequeña puede dar al teléfono dos o tres años más de uso.
@@ -17,7 +18,6 @@ La reparación del puerto de carga entra en la misma categoría. El precio depen
 
 Ambas reparaciones pueden compensar con independencia de la edad del dispositivo, siempre que todavía reciba actualizaciones de seguridad.
 
-
 ## Reparar la pantalla: aquí las cuentas se complican
 
 El coste de sustituir una pantalla cambia enormemente. Reparar un móvil económico con LCD plano puede quedarse por debajo de 200 €. En un Samsung Galaxy S con OLED, el precio puede subir a varios cientos de euros. Los plegables están en otra categoría, y el cambio de la pantalla interior puede acercarse o superar los 600 € en determinados modelos y servicios oficiales.
@@ -25,7 +25,6 @@ El coste de sustituir una pantalla cambia enormemente. Reparar un móvil económ
 La pregunta es sencilla: ¿cuánto valdrá el móvil después de repararlo? Pagar 220 € por una pantalla en un dispositivo que todavía vale unos 400 € y conserva tres años de actualizaciones puede tener sentido. La misma reparación en un móvil cuyo valor ronda los 180 € y al que solo le queda un año de soporte no compensa. Ese dinero está mejor destinado a un móvil de segunda mano o reacondicionado más reciente.
 
 Hay otro detalle que suele pasarse por alto: un móvil con la pantalla rota, aunque todavía funcione, pierde valor de reventa más rápido que uno con una batería desgastada. A veces sale mejor venderlo tal como está y dedicar ese dinero a sustituirlo que pagar primero la reparación.
-
 
 ## Cuándo gana la sustitución
 
@@ -39,32 +38,29 @@ Hay situaciones en las que reparar es una mala apuesta aunque el presupuesto par
 
 **Límite de RAM.** Un móvil con 4 GB de RAM todavía puede servir para un uso ligero, pero se queda justo para Android actual, aplicaciones modernas y multitarea intensa. Aplicaciones que se recargan constantemente, tirones al cambiar entre ellas y procesos que mueren en segundo plano. Ninguna reparación ni restablecimiento de fábrica aumenta ese límite.
 
-
 ## Comparación práctica de costes
 
 Precios orientativos de reparación en España en 2026. Las tarifas cambian según el modelo, la ciudad, el repuesto y si se utiliza un taller independiente o un servicio oficial:
 
-| Reparación | Intervalo orientativo | Tiempo |
-|--------|-----------|------|
-| Sustitución de la batería | 35-120 € | 30 minutos-2 horas |
-| Puerto de carga | 40-120 € | 1-3 horas |
-| Pantalla (LCD plano) | 60-180 € | 1-3 horas |
-| Pantalla (OLED curvo, gama alta) | 180-400 € | 2-4 horas |
-| Pantalla interior de un plegable | 290-620 € o más | variable |
-| Daños por líquidos (leves) | presupuesto tras el diagnóstico | 1-3 días |
-| Daños por líquidos (graves) | presupuesto tras el diagnóstico | variable |
+| Reparación                       | Intervalo orientativo           | Tiempo             |
+| -------------------------------- | ------------------------------- | ------------------ |
+| Sustitución de la batería        | 35-120 €                        | 30 minutos-2 horas |
+| Puerto de carga                  | 40-120 €                        | 1-3 horas          |
+| Pantalla (LCD plano)             | 60-180 €                        | 1-3 horas          |
+| Pantalla (OLED curvo, gama alta) | 180-400 €                       | 2-4 horas          |
+| Pantalla interior de un plegable | 290-620 € o más                 | variable           |
+| Daños por líquidos (leves)       | presupuesto tras el diagnóstico | 1-3 días           |
+| Daños por líquidos (graves)      | presupuesto tras el diagnóstico | variable           |
 
 Un servicio autorizado puede costar más, pero utiliza piezas originales u homologadas y suele incluir garantía sobre el trabajo realizado. Los talleres independientes pueden ser más baratos y rápidos, aunque la calidad de las piezas y las condiciones de garantía varían.
 
 Una referencia útil: si el coste total de la reparación se mantiene por debajo del 30 % de lo que cuesta un sustituto comparable, nuevo o reacondicionado, reparar casi siempre es la mejor opción. Es una regla práctica, no una ley.
-
 
 ## El factor medioambiental
 
 Fabricar un smartphone nuevo suele generar aproximadamente entre 50 y 80 kg de CO2e, según el modelo y los supuestos del estudio, además de requerir materiales como cobalto, litio, cobre, oro y tierras raras. Reparar un móvil existente tiene una huella mucho menor. En la UE, las normas específicas de ecodiseño y etiquetado energético se aplican a los teléfonos introducidos en el mercado desde el 20 de junio de 2025. Exigen, entre otras cosas, baterías preparadas para al menos 800 ciclos conservando el 80 % de la capacidad, repuestos esenciales durante siete años después de que el modelo deje de venderse, información de reparabilidad en la etiqueta energética y acceso para los reparadores profesionales al software o firmware necesario para sustituir componentes. La Directiva sobre el derecho a reparar debe aplicarse en los Estados miembros a partir del 31 de julio de 2026 y refuerza las opciones de reparación para las categorías de productos cubiertas.
 
 Si el impacto ambiental pesa en la decisión de compra, reparar debería ser la opción inicial salvo que las cuentas favorezcan claramente la sustitución.
-
 
 ## Preguntas frecuentes
 

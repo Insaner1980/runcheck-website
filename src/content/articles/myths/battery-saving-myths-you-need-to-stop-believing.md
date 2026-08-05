@@ -5,9 +5,10 @@ listSummary: "Battery myth cleanup"
 hub: "myths"
 sourceNumber: 145
 order: 1
-tags: ["myths","facts","android","battery","debunking"]
+tags: ["myths", "facts", "android", "battery", "debunking"]
 draft: false
 ---
+
 That doesn't mean battery care is fake. It means the old rituals are the wrong place to spend your attention.
 
 ## Myth: drain the phone to zero before charging

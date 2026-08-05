@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 14
 order: 4
 subgroup: "Health"
-tags: ["batterie","consommation","depannage","android","performances"]
+tags: ["batterie", "consommation", "depannage", "android", "performances"]
 locale: "fr"
 draft: false
 ---
+
 Vous ouvrez Utilisation de la batterie et une application affiche 42 %. Cela semble inquiétant. Parfois, ça l'est. Parfois, ce chiffre ne veut presque rien dire.
 
 Les statistiques de batterie d'Android sont utiles pour réduire le champ des recherches, mais elles ne constituent pas un relevé exact de chaque milliampère-heure consommé. Il faut lire les pourcentages dans leur contexte.

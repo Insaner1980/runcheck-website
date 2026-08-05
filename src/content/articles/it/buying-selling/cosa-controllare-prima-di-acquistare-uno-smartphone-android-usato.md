@@ -5,12 +5,12 @@ listSummary: "Uno smartphone di fascia alta dell'anno scorso si può spesso trov
 hub: "buying-selling"
 sourceNumber: 6
 order: 4
-tags: ["guida-all-acquisto","android","confronto","valore","guida"]
+tags: ["guida-all-acquisto", "android", "confronto", "valore", "guida"]
 locale: "it"
 draft: false
 ---
-I controlli qui sotto sono ordinati per gravità. I primi tre sono motivi sufficienti per rinunciare all'acquisto. Tutto ciò che viene dopo serve a capire quanto vale davvero il telefono.
 
+I controlli qui sotto sono ordinati per gravità. I primi tre sono motivi sufficienti per rinunciare all'acquisto. Tutto ciò che viene dopo serve a capire quanto vale davvero il telefono.
 
 ## Problemi decisivi: rinuncia all'acquisto se uno di questi controlli fallisce
 
@@ -24,17 +24,16 @@ Factory Reset Protection (FRP) è il blocco antifurto di Android. Se il propriet
 
 Il blocco operatore limita le reti mobili utilizzabili. Inserisci una SIM di un operatore diverso da quello con cui il telefono è stato venduto in origine, oppure usa lo strumento di verifica IMEI del tuo operatore se il dispositivo funziona solo con eSIM. Se si registra sulla rete e riesce a chiamare o a usare i dati mobili, è un buon segno. Messaggi come "SIM non supportata" o "rete bloccata", oppure l'impossibilità di registrarsi, indicano in genere che il telefono è ancora vincolato. In alcuni casi il blocco può essere rimosso, ma dipende dalle regole dell'operatore originario, dallo stato dei pagamenti e dalla collaborazione dell'intestatario. Non pagare il prezzo di un telefono sbloccato per un dispositivo ancora vincolato.
 
-
 ## Batteria: la variabile che incide di più sul prezzo
 
 Lo stato della batteria influenza l'uso quotidiano più di quasi qualsiasi altro fattore. Incide sull'autonomia a schermo acceso, sul calore, sulle abitudini di ricarica e, in alcuni casi, sulle prestazioni sotto carico. È anche uno degli argomenti più solidi per negoziare il prezzo di uno smartphone usato.
 
-| Stato | Cosa significa | Effetto sul prezzo |
-|---|---|---|
-| 90-100 % | Eccellente, usura minima | Il prezzo richiesto pieno può essere giustificato |
-| 85-89 % | Usura normale, molta vita utile residua | Prezzo corretto, senza grandi riduzioni |
-| 80-84 % | Usura evidente, la sostituzione può diventare necessaria durante il periodo d'uso | Sottrai il costo realistico della sostituzione in Italia |
-| Sotto l'80 % | Probabile sostituzione a breve | Sottrai il costo della sostituzione oppure valuta un altro telefono |
+| Stato        | Cosa significa                                                                    | Effetto sul prezzo                                                  |
+| ------------ | --------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| 90-100 %     | Eccellente, usura minima                                                          | Il prezzo richiesto pieno può essere giustificato                   |
+| 85-89 %      | Usura normale, molta vita utile residua                                           | Prezzo corretto, senza grandi riduzioni                             |
+| 80-84 %      | Usura evidente, la sostituzione può diventare necessaria durante il periodo d'uso | Sottrai il costo realistico della sostituzione in Italia            |
+| Sotto l'80 % | Probabile sostituzione a breve                                                    | Sottrai il costo della sostituzione oppure valuta un altro telefono |
 
 Il costo reale varia più di quanto molti venditori lascino intendere. Cambia in base al modello, alla qualità del ricambio e al fatto che il lavoro venga svolto da un centro autorizzato o da un laboratorio indipendente. I pieghevoli e i modelli recenti sigillati possono costare molto più dei telefoni più vecchi e semplici da aprire. In Italia conviene usare il preventivo online del produttore, quando disponibile, oppure chiedere una stima scritta a un centro di assistenza prima dell'acquisto. Quel numero è più utile di qualsiasi fascia di prezzo generica.
 
@@ -54,25 +53,23 @@ Un telefono con l'82 % di stato della batteria non vale davvero il prezzo pieno,
 
 Se acquirente e venditore vogliono un unico riferimento per le condizioni complessive del telefono, un'app di diagnostica come **runcheck** può generare durante l'incontro un punteggio di stato basato su batteria, temperatura, rete e memoria. È meno ambiguo di frasi come "funziona bene" o "credo che la batteria sia ancora buona".
 
-
 ## Supporto software residuo
 
 Gli aggiornamenti di sicurezza e il supporto del sistema operativo determinano per quanto tempo il telefono rimarrà sicuro e compatibile con le app. La durata cambia molto in base al produttore, al modello, alla regione e all'anno di uscita.
 
-| Produttore | Supporto dei flagship recenti | Supporto dei modelli di fascia media recenti |
-|---|---|---|
-| Google | Pixel 8 e successivi: 7 anni di aggiornamenti del sistema operativo e di sicurezza | Pixel 8a e successivi: 7 anni |
-| Samsung | Serie Galaxy S24 e flagship successivi: 7 generazioni di aggiornamenti del sistema operativo e 7 anni di aggiornamenti di sicurezza | Galaxy A56, A36 e A26: 6 generazioni di aggiornamenti del sistema operativo e 6 anni di aggiornamenti di sicurezza |
-| OnePlus | OnePlus 13 e 13R: 4 aggiornamenti Android principali e 6 anni di aggiornamenti di sicurezza | Varia in base al modello |
-| Motorola | Varia in base al modello, controlla il prodotto esatto nella pagina di supporto Motorola | Spesso più breve rispetto a Google o Samsung, anche se i modelli più recenti variano |
-| Altri marchi | Varia | Sui modelli economici o meno recenti è spesso di 2-3 anni, mentre per i nuovi telefoni destinati al mercato UE valgono anche i requisiti europei entrati in applicazione nel 2025 |
+| Produttore   | Supporto dei flagship recenti                                                                                                       | Supporto dei modelli di fascia media recenti                                                                                                                                      |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Google       | Pixel 8 e successivi: 7 anni di aggiornamenti del sistema operativo e di sicurezza                                                  | Pixel 8a e successivi: 7 anni                                                                                                                                                     |
+| Samsung      | Serie Galaxy S24 e flagship successivi: 7 generazioni di aggiornamenti del sistema operativo e 7 anni di aggiornamenti di sicurezza | Galaxy A56, A36 e A26: 6 generazioni di aggiornamenti del sistema operativo e 6 anni di aggiornamenti di sicurezza                                                                |
+| OnePlus      | OnePlus 13 e 13R: 4 aggiornamenti Android principali e 6 anni di aggiornamenti di sicurezza                                         | Varia in base al modello                                                                                                                                                          |
+| Motorola     | Varia in base al modello, controlla il prodotto esatto nella pagina di supporto Motorola                                            | Spesso più breve rispetto a Google o Samsung, anche se i modelli più recenti variano                                                                                              |
+| Altri marchi | Varia                                                                                                                               | Sui modelli economici o meno recenti è spesso di 2-3 anni, mentre per i nuovi telefoni destinati al mercato UE valgono anche i requisiti europei entrati in applicazione nel 2025 |
 
 Per gli smartphone immessi sul mercato dell'Unione europea dal 20 giugno 2025, le regole UE di progettazione ecocompatibile stabiliscono un livello minimo più alto. Gli aggiornamenti del sistema operativo devono essere resi disponibili gratuitamente per almeno cinque anni dalla fine dell'immissione sul mercato del modello, mentre i ricambi critici devono restare disponibili per almeno sette anni dopo la fine delle vendite nell'UE. Questo aiuterà chi acquisterà telefoni usati in futuro, ma non prolunga automaticamente la vita dei modelli più vecchi già fuori supporto.
 
 Avere almeno due anni di aggiornamenti residui è una scelta prudente. Meno di un anno significa che il telefono si avvicina alla fine della vita utile dal punto di vista della sicurezza. Alcune app bancarie, di pagamento o aziendali possono rifiutare dispositivi con root, compromessi o troppo vecchi. Anche quando continuano a funzionare, un telefono che non riceve più patch di sicurezza non è il posto migliore per conservare account sensibili.
 
 Controlla la versione di Android e la data delle patch di sicurezza nella sezione **Informazioni sul telefono** delle Impostazioni. Se il telefono è indietro con le patch, potrebbe trattarsi soltanto di un aggiornamento ritardato. Se non riesce a installare l'ultima versione disponibile per quel modello, può esserci un problema con firmware, variante regionale, personalizzazione dell'operatore o canale di aggiornamento.
-
 
 ## Controllo fisico
 
@@ -84,13 +81,11 @@ Danni da liquidi: molti telefoni hanno un indicatore di contatto con liquidi vic
 
 Altoparlanti, microfoni e fotocamere: riproduci audio ad alto volume, registra una nota vocale, scatta foto con la fotocamera anteriore e posteriore, prova la messa a fuoco e registra un breve video. Bastano due minuti e puoi scoprire problemi costosi prima di concludere l'acquisto.
 
-
 ## L'etichetta UE di riparabilità
 
 Dal 20 giugno 2025, gli smartphone e i tablet slate immessi sul mercato dell'Unione europea devono esporre una nuova etichetta energetica. L'etichetta indica classe di efficienza energetica, autonomia per ciclo, durata della batteria in cicli, classe di resistenza alle cadute, protezione contro polvere e acqua e classe di riparabilità da A a E. A è la classe più riparabile, E la meno riparabile.
 
 Un telefono usato probabilmente non avrà più la confezione originale, e i modelli precedenti potrebbero non avere affatto l'etichetta. Per i dispositivi più recenti destinati al mercato UE, però, vale la pena controllare online la classe di riparabilità nella scheda del modello o nel registro EPREL. In genere, un telefono con una classe migliore dovrebbe essere più semplice ed economico da mantenere nel tempo, soprattutto quando servirà sostituire la batteria o la porta di ricarica.
-
 
 ## Domande frequenti
 
@@ -113,7 +108,6 @@ Solo se lo sconto supera il costo della riparazione e il telefono ha ancora abba
 ### Un vecchio flagship è meglio di un modello di fascia media più recente?
 
 A volte. Un vecchio flagship può avere fotocamere, schermo, altoparlanti e processore migliori. Un modello di fascia media più recente può offrire una batteria meno usurata, più anni di supporto software e ricambi meno costosi. Nell'acquisto dell'usato, supporto residuo e condizioni della batteria contano spesso più del prezzo di lancio originario.
-
 
 ## Conclusione
 

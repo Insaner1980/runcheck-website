@@ -5,10 +5,11 @@ listSummary: "hardware, skader og reparation"
 hub: "physical-damage"
 sourceNumber: 134
 order: 4
-tags: ["hardware","skader","reparation","android","fejlfinding"]
+tags: ["hardware", "skader", "reparation", "android", "fejlfinding"]
 locale: "da"
 draft: false
 ---
+
 ---
 
 Ægte burn-in på skærmen er permanent. Hvis pixels er blevet slidt ujævnt, kan en app, en video eller et farveskiftende trick ikke gøre de slidte pixels nye igen.

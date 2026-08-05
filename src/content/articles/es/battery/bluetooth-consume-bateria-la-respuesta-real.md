@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 32
 order: 22
 subgroup: "Drain"
-tags: ["bateria","mitos","android","pruebas","datos"]
+tags: ["bateria", "mitos", "android", "pruebas", "datos"]
 locale: "es"
 draft: false
 ---
+
 Hay quien desactiva Bluetooth cada vez que deja de usar los auriculares porque cree que así ganará media jornada de batería. Entiendo la lógica. Hace años era un consejo razonable.
 
 En un móvil Android moderno, normalmente no merece la pena.

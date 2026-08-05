@@ -5,10 +5,11 @@ listSummary: "Det bruger som regel ikke ret meget batteri at lade Wi-Fi være sl
 hub: "myths"
 sourceNumber: 149
 order: 5
-tags: ["netværk","forbindelser","android","fejlfinding","guide"]
+tags: ["netværk", "forbindelser", "android", "fejlfinding", "guide"]
 locale: "da"
 draft: false
 ---
+
 De fleste bekymrer sig om det forkerte Wi-Fi-problem. En telefon med forbindelse til et stærkt Wi-Fi-netværk er ikke det samme som en telefon, der bevæger sig rundt hele dagen uden forbindelse og leder efter netværk, den måske kan tilslutte sig.
 
 Den forskel betyder noget. En stabil Wi-Fi-forbindelse koster som regel meget lidt strøm. Det er ved konstant scanning, at batteriforbruget begynder at kunne mærkes.

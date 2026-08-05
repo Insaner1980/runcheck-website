@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 35
 order: 25
 subgroup: "Drain"
-tags: ["bateria","consumo","solucion-de-problemas","android","rendimiento"]
+tags: ["bateria", "consumo", "solucion-de-problemas", "android", "rendimiento"]
 locale: "es"
 draft: false
 ---
+
 Estás durmiendo. La pantalla del móvil está apagada. No se reproduce nada, no hay ninguna descarga en curso y, aun así, la batería baja un 18 % durante la noche.
 
 Ese es el tipo de consumo que pueden causar los wake locks. Una solicitud de wake lock mantiene activa una parte del dispositivo cuando Android normalmente dejaría que entrara en reposo. El problema más común para la batería es el wake lock parcial, que mantiene el procesador en funcionamiento mientras la pantalla permanece apagada.

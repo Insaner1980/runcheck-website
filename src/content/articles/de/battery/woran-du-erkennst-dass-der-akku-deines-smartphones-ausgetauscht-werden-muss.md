@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 17
 order: 7
 subgroup: "Health"
-tags: ["akku","zustand","diagnose","android","ratgeber"]
+tags: ["akku", "zustand", "diagnose", "android", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Dieser Unterschied zählt. Ein neuer Akku repariert keine fehlerhafte App. Das Löschen von Apps repariert keine Zelle, die nicht mehr genug Leistung liefern kann.
 
 **Meta-Beschreibung:** Schnelle Entladung bedeutet nicht automatisch, dass der Smartphone-Akku ausgetauscht werden muss. Erfahre, woran du echten Akkuverschleiß erkennst, was du zuerst ausschließen solltest und wie du den Akkuzustand unter Android prüfst.

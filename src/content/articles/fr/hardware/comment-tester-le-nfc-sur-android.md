@@ -5,10 +5,11 @@ listSummary: "diagnostic, capteurs et android"
 hub: "hardware"
 sourceNumber: 115
 order: 12
-tags: ["diagnostic","capteurs","android","materiel","guide"]
+tags: ["diagnostic", "capteurs", "android", "materiel", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Vous approchez le téléphone d'un terminal de paiement et rien ne se passe. Vous avez maintenant deux problèmes : le paiement a échoué et vous ne savez pas si le NFC, Google Wallet, la carte, la coque ou le terminal est responsable.
 
 Commencez plus simplement. Le NFC se teste facilement lorsque vous séparez la lecture matérielle du paiement.

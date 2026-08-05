@@ -5,10 +5,11 @@ listSummary: "laden, akku und android"
 hub: "charging"
 sourceNumber: 46
 order: 10
-tags: ["laden","akku","android","ratgeber","hardware"]
+tags: ["laden", "akku", "android", "ratgeber", "hardware"]
 locale: "de"
 draft: false
 ---
+
 Auf die Wattzahl kommt es an. Volt und Ampere erklären, wie das Ladegerät diese Leistung erreicht, aber die Wattzahl zeigt dir, wie viel Leistung verfügbar ist.
 
 Ein Ladegerät mit 9 V bei 2 A liefert 18 W. Eines mit 20 V bei 3 A liefert 60 W. Die Rechnung ist einfach: Volt mal Ampere ergibt Watt.

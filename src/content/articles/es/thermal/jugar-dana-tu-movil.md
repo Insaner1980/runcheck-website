@@ -5,10 +5,11 @@ listSummary: "comparacion, aplicaciones y android"
 hub: "thermal"
 sourceNumber: 55
 order: 3
-tags: ["comparacion","aplicaciones","android","guia-de-compra","analisis"]
+tags: ["comparacion", "aplicaciones", "android", "guia-de-compra", "analisis"]
 locale: "es"
 draft: false
 ---
+
 La mayoría de las advertencias sobre los juegos para móviles apuntan a la parte equivocada del dispositivo. Jugar no suele dañar la CPU ni la GPU. El problema es el calor, y la batería es quien acaba pagándolo.
 
 ## El hardware puede con los juegos

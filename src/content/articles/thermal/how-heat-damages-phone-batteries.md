@@ -5,9 +5,10 @@ listSummary: "Heat damage over time"
 hub: "thermal"
 sourceNumber: 62
 order: 10
-tags: ["temperature","thermal","android","troubleshooting","hardware"]
+tags: ["temperature", "thermal", "android", "troubleshooting", "hardware"]
 draft: false
 ---
+
 Heat is one of the fastest ways to age a phone battery. Not instantly. Quietly.
 
 That is what makes it annoying. A hot charging session today usually won't make the phone fail tomorrow. The cost shows up months later as shorter battery life, slower charging, earlier shutdowns in cold weather, or a battery health number that drops sooner than expected.

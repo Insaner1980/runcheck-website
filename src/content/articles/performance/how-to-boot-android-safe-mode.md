@@ -5,9 +5,10 @@ listSummary: "Safe Mode troubleshooting"
 hub: "performance"
 sourceNumber: 70
 order: 7
-tags: ["battery","drain","troubleshooting","android","performance"]
+tags: ["battery", "drain", "troubleshooting", "android", "performance"]
 draft: false
 ---
+
 How do you know whether your phone is slow because Android is having a bad day or because one app is wrecking everything in the background? Safe Mode is the cleanest test.
 
 Safe Mode starts Android with the system software and built-in apps only. Apps you installed later are disabled until you restart normally. Nothing is deleted. The point is isolation: if the problem disappears in Safe Mode, a third-party app is probably involved. If the problem stays, look at Android itself, storage, the battery, or hardware.

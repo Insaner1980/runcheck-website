@@ -5,10 +5,11 @@ listSummary: "netzwerk, verbindungen und android"
 hub: "network"
 sourceNumber: 102
 order: 13
-tags: ["netzwerk","verbindungen","android","fehlerbehebung","ratgeber"]
+tags: ["netzwerk", "verbindungen", "android", "fehlerbehebung", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Dein Smartphone zeigt `Kein Signal`, `Kein Dienst` oder `Nur Notrufe` an, und plötzlich ist der teure kleine Computer in deiner Hand nur noch eine Kamera mit WLAN. Ärgerlich, aber nicht immer ein ernstes Problem.
 
 Der entscheidende Punkt ist, drei mögliche Ursachen voneinander zu trennen: das Smartphone, die SIM oder eSIM und das Netz des Mobilfunkanbieters. Raten kostet Zeit. Wenn du sie in einer sinnvollen Reihenfolge testest, lässt sich der Fehler meist recht schnell eingrenzen.

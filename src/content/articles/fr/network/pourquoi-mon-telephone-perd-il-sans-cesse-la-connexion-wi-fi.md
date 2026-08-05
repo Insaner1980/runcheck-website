@@ -5,10 +5,11 @@ listSummary: "reseau, connectivite et android"
 hub: "network"
 sourceNumber: 95
 order: 6
-tags: ["reseau","connectivite","android","depannage","guide"]
+tags: ["reseau", "connectivite", "android", "depannage", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Commencez par une question : les autres appareils connectés au même Wi-Fi se déconnectent-ils aussi ? Si oui, examinez d'abord le routeur ou la connexion Internet. Si seul votre téléphone coupe, le problème vient probablement du téléphone, du profil réseau enregistré ou de la façon dont il passe d'une bande à l'autre.
 
 ## Si plusieurs appareils se déconnectent, commencez par le routeur

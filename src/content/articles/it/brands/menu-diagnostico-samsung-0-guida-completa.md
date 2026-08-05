@@ -5,10 +5,11 @@ listSummary: "Il codice Samsung #0# può aprire un menu diagnostico nascosto sui
 hub: "brands"
 sourceNumber: 160
 order: 8
-tags: ["produttore","android","diagnostica","specifico-per-marca","guida"]
+tags: ["produttore", "android", "diagnostica", "specifico-per-marca", "guida"]
 locale: "it"
 draft: false
 ---
+
 Inserisci `*#0*#` nell'app Telefono di Samsung e il normale tastierino scompare. Al suo posto compare una semplice griglia di pulsanti per provare schermo, pannello touch, altoparlanti, sensori, fotocamere, motore della vibrazione e tasti.
 
 Quando funziona, sembra quasi troppo facile. Quando non funziona, può essere sorprendentemente frustrante, perché Samsung non presenta questo menu come una normale funzione per il pubblico. Consideralo un menu di servizio a basso livello che spesso è disponibile sui Galaxy, non una funzione garantita su ogni modello, build dell'operatore o area geografica.

@@ -6,10 +6,12 @@ hub: "battery"
 sourceNumber: 14
 order: 4
 subgroup: "Stato della batteria"
-tags: ["batteria","consumo","risoluzione-dei-problemi","android","prestazioni"]
+tags:
+  ["batteria", "consumo", "risoluzione-dei-problemi", "android", "prestazioni"]
 locale: "it"
 draft: false
 ---
+
 Apri Utilizzo batteria e vedi un'app al 42 %. Sembra un problema. A volte lo è. Altre volte quel numero significa quasi nulla.
 
 Le statistiche di Android sono utili per restringere il campo, ma non sono una ricevuta precisa di ogni milliampereora consumato. Il punto è leggere le percentuali nel loro contesto.

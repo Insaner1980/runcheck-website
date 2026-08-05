@@ -5,10 +5,12 @@ listSummary: "leistung, geschwindigkeit und android"
 hub: "performance"
 sourceNumber: 68
 order: 5
-tags: ["leistung","geschwindigkeit","android","optimierung","fehlerbehebung"]
+tags:
+  ["leistung", "geschwindigkeit", "android", "optimierung", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+
 Direkt nach einem Android-Update kann sich dein Smartphone schlechter anfühlen. Das bedeutet nicht automatisch, dass das Update etwas beschädigt hat. In den ersten ein oder zwei Tagen nach einem großen Versionswechsel arbeitet Android im Hintergrund viele Aufgaben ab, während du das Gerät normal weiterverwendest.
 
 Das ist lästig, aber normal.

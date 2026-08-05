@@ -5,10 +5,11 @@ listSummary: "Ein gesprungenes Smartphone-Display macht den Prozessor nicht lang
 hub: "physical-damage"
 sourceNumber: 136
 order: 6
-tags: ["akku","akkuverbrauch","fehlerbehebung","android","leistung"]
+tags: ["akku", "akkuverbrauch", "fehlerbehebung", "android", "leistung"]
 locale: "de"
 draft: false
 ---
+
 ---
 
 Ein gesprungenes Display macht die CPU nicht langsamer. Deine Apps brauchen nicht plötzlich mehr Rechenleistung, nur weil das Glas gebrochen ist.

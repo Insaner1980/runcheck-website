@@ -5,10 +5,11 @@ listSummary: "temperature, thermique et android"
 hub: "device-health"
 sourceNumber: 10
 order: 6
-tags: ["temperature","thermique","android","depannage","materiel"]
+tags: ["temperature", "thermique", "android", "depannage", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 Android ne définit aucun score d’état universel. Il n’existe pas d’écran commun à toutes les marques où « 82/100 » aurait exactement le même sens. La fonction Batterie et maintenance de l’appareil de Samsung affiche un score d’optimisation sur 100, tandis que la rubrique État de l’appareil et assistance des Pixel présente un état général et celui de certaines fonctions. Ce sont des outils propres aux fabricants, pas une norme Android. Les applications de diagnostic utilisent donc leurs propres modèles de calcul. La composition du score et ses limites comptent davantage que le chiffre seul.
 
 ## Ce qu’un score d’état mesure

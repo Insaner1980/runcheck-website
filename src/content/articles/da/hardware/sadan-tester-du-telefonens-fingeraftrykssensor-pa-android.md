@@ -5,10 +5,11 @@ listSummary: "diagnostik, sensorer og android"
 hub: "hardware"
 sourceNumber: 114
 order: 11
-tags: ["diagnostik","sensorer","android","hardware","guide"]
+tags: ["diagnostik", "sensorer", "android", "hardware", "guide"]
 locale: "da"
 draft: false
 ---
+
 Er fingeraftrykssensoren gået i stykker, eller er den bare irriteret over din skærmbeskytter? Det lyder som en vittighed, men det er det første spørgsmål, der er værd at stille.
 
 Problemer med fingeraftryk har ofte en kedelig forklaring. Tør hud, fugt, en billig skærmbeskytter af hærdet glas, en dårlig registrering eller en softwareopdatering, der ikke blev helt færdig, kan få en velfungerende sensor til at se defekt ud. Hardwarefejl forekommer også, især efter et fald eller en skærmreparation, men begynd ikke der.

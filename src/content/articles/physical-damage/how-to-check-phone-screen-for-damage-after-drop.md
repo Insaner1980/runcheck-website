@@ -5,9 +5,10 @@ listSummary: "Screen damage after drops"
 hub: "physical-damage"
 sourceNumber: 131
 order: 1
-tags: ["hardware","testing","diagnostics","android","guide"]
+tags: ["hardware", "testing", "diagnostics", "android", "guide"]
 draft: false
 ---
+
 The goal is not to panic-test every pixel like you're buying a used phone from a stranger. The goal is to catch the things that matter: cracks, dead pixels, touch dead zones, color shifts, flicker, and panel separation.
 
 ## Start with the glass and frame

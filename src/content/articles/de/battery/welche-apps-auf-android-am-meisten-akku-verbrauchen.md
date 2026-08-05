@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 24
 order: 14
 subgroup: "Drain"
-tags: ["akku","akkuverbrauch","fehlerbehebung","android","leistung"]
+tags: ["akku", "akkuverbrauch", "fehlerbehebung", "android", "leistung"]
 locale: "de"
 draft: false
 ---
+
 Trotzdem sorgen dieselben App-Kategorien immer wieder für Probleme.
 
 ## App-Arten, die häufig weit oben stehen

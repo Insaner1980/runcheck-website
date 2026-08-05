@@ -5,10 +5,11 @@ listSummary: "laddning, batteri och android"
 hub: "hardware"
 sourceNumber: 108
 order: 5
-tags: ["laddning","batteri","android","guide","hårdvara"]
+tags: ["laddning", "batteri", "android", "guide", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 ---
 
 Du håller kabeln i en märklig vinkel, laddningsikonen blinkar och telefonen laddas bara när den ligger helt stilla. Det känns ofta som en trasig laddport, men börja inte där.

@@ -5,10 +5,11 @@ listSummary: "Tjek datoen for sikkerhedsopdateringen, og se, om en nyere opdater
 hub: "software"
 sourceNumber: 122
 order: 4
-tags: ["android","opdateringer","sikkerhed","software","guide"]
+tags: ["android", "opdateringer", "sikkerhed", "software", "guide"]
 locale: "da"
 draft: false
 ---
+
 På de fleste Android-telefoner skal du åbne Om telefonen i Indstillinger og finde Sikkerhedsopdatering til Android. Datoen ser for eksempel sådan ud: 2026-06-05.
 
 ## Hvor finder du datoen?

@@ -5,10 +5,11 @@ listSummary: "laddning, batteri och android"
 hub: "charging"
 sourceNumber: 49
 order: 13
-tags: ["laddning","batteri","android","guide","hårdvara"]
+tags: ["laddning", "batteri", "android", "guide", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+
 Den säkraste laddaren till en Android-telefon behöver inte ha samma logotyp som telefonen. Det är där många tänker fel.
 
 En bra USB-C-laddare från en välkänd tredjepartstillverkare kan vara lika säker och lika snabb som telefonmärkets egen laddare. Det verkliga problemet är en namnlös laddare med falska märkningar, otydliga specifikationer och ett misstänkt lågt pris. Logotypen betyder mindre än standarderna, byggkvaliteten och kabeln.

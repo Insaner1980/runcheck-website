@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 24
 order: 14
 subgroup: "Drain"
-tags: ["bateria","consumo","solucion-de-problemas","android","rendimiento"]
+tags: ["bateria", "consumo", "solucion-de-problemas", "android", "rendimiento"]
 locale: "es"
 draft: false
 ---
+
 Aun así, las mismas categorías causan problemas una y otra vez.
 
 ## Los tipos de aplicaciones que suelen aparecer arriba

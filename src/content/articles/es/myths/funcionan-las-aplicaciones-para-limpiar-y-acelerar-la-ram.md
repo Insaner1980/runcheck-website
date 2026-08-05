@@ -5,10 +5,18 @@ listSummary: "¿Un optimizador de RAM hace que tu móvil Android vaya más rápi
 hub: "myths"
 sourceNumber: 147
 order: 3
-tags: ["rendimiento","velocidad","android","optimizacion","solucion-de-problemas"]
+tags:
+  [
+    "rendimiento",
+    "velocidad",
+    "android",
+    "optimizacion",
+    "solucion-de-problemas",
+  ]
 locale: "es"
 draft: false
 ---
+
 En un móvil Android moderno, las aplicaciones que limpian o aceleran la RAM no mejoran el rendimiento de forma duradera. Suelen obligar al teléfono a trabajar más, no menos. Y muchas piden permisos amplios para vigilar el uso, mostrar anuncios y mantenerse activas en segundo plano.
 
 ## El objetivo no es tener RAM libre

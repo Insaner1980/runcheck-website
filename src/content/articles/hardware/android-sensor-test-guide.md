@@ -6,9 +6,10 @@ listSummary: "Sensor testing and fixes"
 hub: "hardware"
 sourceNumber: 105
 order: 2
-tags: ["hardware","testing","diagnostics","android","guide"]
+tags: ["hardware", "testing", "diagnostics", "android", "guide"]
 draft: false
 ---
+
 Android phones use a mix of motion, environmental, position, and proximity sensors. Some are physical chips. Some are "virtual" sensors calculated from several chips at once. When one source gets noisy, blocked, or disabled, the symptom can show up somewhere completely different.
 
 Start simple. You don't need root, ADB, or a lab bench for the first round of tests.

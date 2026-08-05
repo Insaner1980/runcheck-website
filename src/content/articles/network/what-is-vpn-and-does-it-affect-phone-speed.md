@@ -5,9 +5,10 @@ listSummary: "VPN speed impact"
 hub: "network"
 sourceNumber: 99
 order: 10
-tags: ["network","connectivity","android","troubleshooting","guide"]
+tags: ["network", "connectivity", "android", "troubleshooting", "guide"]
 draft: false
 ---
+
 A VPN changes the route your phone's internet traffic takes. Instead of your apps connecting straight out through the Wi-Fi network or mobile carrier, the phone sends traffic through an encrypted tunnel to a VPN server first. Websites and apps see the VPN server's IP address, not the phone's usual public IP address.
 
 That sounds more mysterious than it is. A VPN is useful, but it isn't a privacy force field.

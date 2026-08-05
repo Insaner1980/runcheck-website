@@ -5,10 +5,11 @@ listSummary: "Echtes Einbrennen bei OLED- und AMOLED-Displays ist meist dauerhaf
 hub: "physical-damage"
 sourceNumber: 134
 order: 4
-tags: ["hardware","schaden","reparatur","android","fehlerbehebung"]
+tags: ["hardware", "schaden", "reparatur", "android", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+
 ---
 
 Echtes Einbrennen ist dauerhaft. Sind Pixel ungleichmäßig gealtert, kann keine App, kein Video und kein Farbwechseltrick die stärker abgenutzten Pixel wieder jung machen.

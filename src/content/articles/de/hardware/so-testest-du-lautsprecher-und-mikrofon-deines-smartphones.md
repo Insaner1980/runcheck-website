@@ -5,10 +5,11 @@ listSummary: "hardware, testen und diagnose"
 hub: "hardware"
 sourceNumber: 107
 order: 4
-tags: ["hardware","testen","diagnose","android","ratgeber"]
+tags: ["hardware", "testen", "diagnose", "android", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Weniger lästig wird das Problem dadurch nicht. Wenn Gesprächspartner dich nicht hören oder der Lautsprecher schon bei halber Lautstärke knistert, musst du trotzdem herausfinden, welches Bauteil betroffen ist.
 
 ## Welches Audioteil du gerade testest

@@ -5,10 +5,11 @@ listSummary: "Telefonen kan se helt normal ut trots att dess säkra uppdaterings
 hub: "software"
 sourceNumber: 123
 order: 5
-tags: ["android","uppdateringar","säkerhet","programvara","guide"]
+tags: ["android", "uppdateringar", "säkerhet", "programvara", "guide"]
 locale: "sv"
 draft: false
 ---
+
 Det är den delen många missar. Avslutad support gör inte telefonen obrukbar. Risken fortsätter bara att öka medan telefonen känns precis som vanligt.
 
 Kontrollen tar ungefär två minuter.

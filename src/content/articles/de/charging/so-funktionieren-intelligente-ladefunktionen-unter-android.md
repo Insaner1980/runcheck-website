@@ -5,10 +5,11 @@ listSummary: "akku, zustand und diagnose"
 hub: "charging"
 sourceNumber: 51
 order: 15
-tags: ["akku","zustand","diagnose","android","ratgeber"]
+tags: ["akku", "zustand", "diagnose", "android", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Warum stoppt dein Smartphone manchmal bei 80 %, bleibt dort stundenlang und lädt erst kurz vor dem Aufwachen plötzlich weiter?
 
 Das ist intelligentes Laden. Es handelt sich nicht um eine einzelne Android-Funktion mit einem universellen Schalter. Vielmehr gibt es verschiedene Werkzeuge der Hersteller, die dasselbe Akkuproblem lösen sollen: zu viel Zeit bei hohem Ladestand, besonders wenn das Smartphone warm ist.

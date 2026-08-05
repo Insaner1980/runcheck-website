@@ -5,9 +5,10 @@ listSummary: "Safe phone cleaning"
 hub: "physical-damage"
 sourceNumber: 137
 order: 7
-tags: ["hardware","testing","diagnostics","android","guide"]
+tags: ["hardware", "testing", "diagnostics", "android", "guide"]
 draft: false
 ---
+
 ---
 
 What should you actually use to clean a phone: water, alcohol wipes, screen spray, or whatever is already on the kitchen counter?

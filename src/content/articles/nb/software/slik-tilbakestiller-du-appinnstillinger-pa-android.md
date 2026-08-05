@@ -5,10 +5,11 @@ listSummary: "Å tilbakestille appinnstillinger høres ut som noe som burde slet
 hub: "software"
 sourceNumber: 128
 order: 10
-tags: ["sikkerhet","skadevare","android","personvern","guide"]
+tags: ["sikkerhet", "skadevare", "android", "personvern", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Problemet er at navnet er dårlig. Funksjonen tilbakestiller ikke appene dine. Den tilbakestiller telefonens valg for blant annet tillatelser, standardapper, varsler, bakgrunnsatferd og deaktiverte apper. Bilder, meldinger, filer, lagrede kontoer og appdata blir værende.
 
 ## Dette tilbakestilles

@@ -5,9 +5,10 @@ listSummary: "App crash troubleshooting"
 hub: "performance"
 sourceNumber: 77
 order: 14
-tags: ["performance","speed","android","optimization","troubleshooting"]
+tags: ["performance", "speed", "android", "optimization", "troubleshooting"]
 draft: false
 ---
+
 ---
 
 Most app crashes aren't random. They feel random because you don't see the error that caused them.

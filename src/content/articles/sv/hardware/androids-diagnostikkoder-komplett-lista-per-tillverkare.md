@@ -5,10 +5,11 @@ listSummary: "diagnostik, sensorer och android"
 hub: "hardware"
 sourceNumber: 112
 order: 9
-tags: ["diagnostik","sensorer","android","hårdvara","guide"]
+tags: ["diagnostik", "sensorer", "android", "hårdvara", "guide"]
 locale: "sv"
 draft: false
 ---
+
 ---
 
 Du skriver `*#0*#` på en Galaxy-telefon och får upp en fullständig meny för hårdvarutester. Du skriver samma kod på en annan Galaxy och ingenting händer.
@@ -29,12 +30,12 @@ De flesta testkoder körs så snart du skriver det sista tecknet. På vissa tele
 
 Det här är det närmaste Android kommer gemensamma diagnostikkoder, men inte ens dessa fungerar överallt.
 
-| Kod | Vad den gör | Kommentar |
-|---|---|---|
-| `*#06#` | Visar IMEI och ibland MEID eller EID | Den telefonkod som har bredast stöd. Användbar för garantiärenden, kontroll av spärrlistor och kontakt med operatören. |
-| `#07#` | Visar myndighetsinformation och SAR-uppgifter | Fungerar på många Android-telefoner. På vissa måste du trycka på samtalsknappen. |
-| `*#*#4636#*#*` | Öppnar Androids testmeny | Kan visa telefoninformation, nätverksstatus, signaldata, batteristatistik och wifi-uppgifter. Tillgängligheten varierar kraftigt. |
-| `*#*#426#*#*` | Öppnar diagnostik för Firebase Cloud Messaging | Prova helst i Phone by Google. Användbar när pushnotiser inte kommer fram. |
+| Kod            | Vad den gör                                    | Kommentar                                                                                                                         |
+| -------------- | ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| `*#06#`        | Visar IMEI och ibland MEID eller EID           | Den telefonkod som har bredast stöd. Användbar för garantiärenden, kontroll av spärrlistor och kontakt med operatören.            |
+| `#07#`         | Visar myndighetsinformation och SAR-uppgifter  | Fungerar på många Android-telefoner. På vissa måste du trycka på samtalsknappen.                                                  |
+| `*#*#4636#*#*` | Öppnar Androids testmeny                       | Kan visa telefoninformation, nätverksstatus, signaldata, batteristatistik och wifi-uppgifter. Tillgängligheten varierar kraftigt. |
+| `*#*#426#*#*`  | Öppnar diagnostik för Firebase Cloud Messaging | Prova helst i Phone by Google. Användbar när pushnotiser inte kommer fram.                                                        |
 
 `*#*#4636#*#*` är en av de mest citerade Android-koderna, men bli inte förvånad om menyn innehåller färre fält än på gamla skärmbilder. Nyare Android-versioner och tillverkarnas gränssnitt döljer fler nätverks- och batteriuppgifter än tidigare.
 
@@ -46,20 +47,20 @@ Samsung erbjuder två vägar till diagnostik: Samsung Members och dolda koder i 
 
 Samsungs koder är fortfarande användbara, särskilt på olåsta telefoner, men säkerhetsinställningar i One UI, Auto Blocker, företagspolicyer och operatörens firmware kan blockera dem.
 
-| Kod | Vad den gör | Kommentar |
-|---|---|---|
-| `*#0*#` | Öppnar Samsungs huvudsakliga meny för hårdvarutester | Testerna kan omfatta skärmfärger, pekskärm, samtalshögtalare, yttre högtalare, vibration, kameror, sensorer, S Pen och annat. |
-| `*#0228#` | Visar batteristatus | Visar aktuell batterispänning och relaterade värden på många modeller. Vissa nyare versioner blockerar koden. |
-| `*#0011#` | Öppnar nätverksskärmen ServiceMode | Användbar för signaldata och information om den betjänande cellen. Ändra inga inställningar här. |
-| `*#0842#` | Testar vibration | Fungerar på många Samsung-modeller, men inte alla. |
-| `*#0673#` eller `*#0289#` | Testar ljud | Hur högtalaren och samtalshögtalaren testas varierar mellan modeller. |
-| `*#2663#` | Visar firmwareinformation för pekskärmen | Används ofta av servicetekniker. |
-| `*#7353#` | Öppnar en snabbtestmeny | Vanligare på äldre Galaxy-modeller. |
-| `*#1234#` | Visar firmwareversioner | Visar information om AP-, CP- och CSC-versioner. |
-| `*#7412365#` | Visar firmwareinformation för kameran | Tillgängligheten varierar. |
-| `*#0588#` | Testar närhetssensorn | Användbar om skärmen inte släcks under samtal. |
-| `*#9900#` | Öppnar SysDump-läget | Främst avsett för loggar och felsökning. Ändra inte slumpmässiga alternativ. |
-| `*#9090#` | Öppnar diagnostikkonfiguration | Undvik att ändra något om du inte följer officiella serviceanvisningar. |
+| Kod                       | Vad den gör                                          | Kommentar                                                                                                                     |
+| ------------------------- | ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| `*#0*#`                   | Öppnar Samsungs huvudsakliga meny för hårdvarutester | Testerna kan omfatta skärmfärger, pekskärm, samtalshögtalare, yttre högtalare, vibration, kameror, sensorer, S Pen och annat. |
+| `*#0228#`                 | Visar batteristatus                                  | Visar aktuell batterispänning och relaterade värden på många modeller. Vissa nyare versioner blockerar koden.                 |
+| `*#0011#`                 | Öppnar nätverksskärmen ServiceMode                   | Användbar för signaldata och information om den betjänande cellen. Ändra inga inställningar här.                              |
+| `*#0842#`                 | Testar vibration                                     | Fungerar på många Samsung-modeller, men inte alla.                                                                            |
+| `*#0673#` eller `*#0289#` | Testar ljud                                          | Hur högtalaren och samtalshögtalaren testas varierar mellan modeller.                                                         |
+| `*#2663#`                 | Visar firmwareinformation för pekskärmen             | Används ofta av servicetekniker.                                                                                              |
+| `*#7353#`                 | Öppnar en snabbtestmeny                              | Vanligare på äldre Galaxy-modeller.                                                                                           |
+| `*#1234#`                 | Visar firmwareversioner                              | Visar information om AP-, CP- och CSC-versioner.                                                                              |
+| `*#7412365#`              | Visar firmwareinformation för kameran                | Tillgängligheten varierar.                                                                                                    |
+| `*#0588#`                 | Testar närhetssensorn                                | Användbar om skärmen inte släcks under samtal.                                                                                |
+| `*#9900#`                 | Öppnar SysDump-läget                                 | Främst avsett för loggar och felsökning. Ändra inte slumpmässiga alternativ.                                                  |
+| `*#9090#`                 | Öppnar diagnostikkonfiguration                       | Undvik att ändra något om du inte följer officiella serviceanvisningar.                                                       |
 
 Om `*#0*#` inte fungerar ska du inte direkt anta att telefonen är falsk. Prova först Samsung Phone i stället för Google Phone. Kontrollera sedan diagnostiken i Samsung Members. Om den fungerar finns det fortfarande en väg till hårdvarutesterna även om den dolda koden är blockerad.
 
@@ -67,12 +68,12 @@ Om `*#0*#` inte fungerar ska du inte direkt anta att telefonen är falsk. Prova 
 
 Pixel-telefoner är mer restriktiva än Samsung-modeller. Det finns ingen Pixel-motsvarighet till Samsungs meny bakom `*#0*#`.
 
-| Kod | Vad den gör | Kommentar |
-|---|---|---|
+| Kod            | Vad den gör                                          | Kommentar                                                                                                                                           |
+| -------------- | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `*#*#7287#*#*` | Öppnar Pixel Repair Diagnostics på enheter som stöds | Google dokumenterar koden för egna reparationsflöden. Den kräver internetanslutning och kan variera beroende på modell, region och programvaruläge. |
-| `*#*#4636#*#*` | Öppnar Androids testmeny | Används ofta för telefon- och nätverksinformation, men fälten varierar mellan Android-versioner. |
-| `*#*#426#*#*` | Öppnar FCM-diagnostik | Användbar vid problem med pushnotiser. |
-| `#07#` | Visar myndighetsinformation och SAR-värden | Fungerar på många Pixel-modeller. |
+| `*#*#4636#*#*` | Öppnar Androids testmeny                             | Används ofta för telefon- och nätverksinformation, men fälten varierar mellan Android-versioner.                                                    |
+| `*#*#426#*#*`  | Öppnar FCM-diagnostik                                | Användbar vid problem med pushnotiser.                                                                                                              |
+| `#07#`         | Visar myndighetsinformation och SAR-värden           | Fungerar på många Pixel-modeller.                                                                                                                   |
 
 Pixel 6 och senare, inklusive Fold-modeller, har också området Device health and support i Inställningar. Där finns en översikt över enhetens skick och vägledd hjälp för bland annat batteri, laddning, temperatur och pekskärm. Det är inte samma sak som koden för reparationsdiagnostik, men är ofta en bättre utgångspunkt för vanliga problem.
 
@@ -82,11 +83,11 @@ Android 17 kan installeras trådlöst på Pixel-enheter som stöds, från Pixel 
 
 Xiaomis CIT-meny är en av de bättre testsviterna från en tillverkare, men innehållet varierar mellan MIUI, HyperOS, regionala versioner och olika modellserier.
 
-| Kod | Vad den gör | Kommentar |
-|---|---|---|
-| `*#*#6484#*#*` | Öppnar CIT-menyn för hårdvarutester | Innehåller ofta tester av skärm, pekskärm, vibration, högtalare, mikrofoner, kameror, sensorer, GPS, wifi, Bluetooth, SIM-kort, knappar, fingeravtryck, IR-sändare och NFC. |
-| `*#*#64663#*#*` | Alternativ kod för CIT | Fungerar på vissa äldre Xiaomi-modeller. |
-| `*#*#4636#*#*` | Öppnar Androids testmeny | Tillgängligheten varierar, särskilt i nyare HyperOS-versioner. |
+| Kod             | Vad den gör                         | Kommentar                                                                                                                                                                   |
+| --------------- | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `*#*#6484#*#*`  | Öppnar CIT-menyn för hårdvarutester | Innehåller ofta tester av skärm, pekskärm, vibration, högtalare, mikrofoner, kameror, sensorer, GPS, wifi, Bluetooth, SIM-kort, knappar, fingeravtryck, IR-sändare och NFC. |
+| `*#*#64663#*#*` | Alternativ kod för CIT              | Fungerar på vissa äldre Xiaomi-modeller.                                                                                                                                    |
+| `*#*#4636#*#*`  | Öppnar Androids testmeny            | Tillgängligheten varierar, särskilt i nyare HyperOS-versioner.                                                                                                              |
 
 På vissa Xiaomi-telefoner kan du också öppna diagnostiken från Inställningar genom att gå till telefoninformationen och trycka flera gånger på kernelversionen. Prova den vägen om koden i telefonappen inte fungerar. Menynamnen varierar mellan MIUI och HyperOS.
 
@@ -94,12 +95,12 @@ På vissa Xiaomi-telefoner kan du också öppna diagnostiken från Inställninga
 
 Tillgången till diagnostik på OnePlus har förändrats genom åren i takt med att OxygenOS har närmat sig ColorOS. Äldre guider stämmer därför inte alltid med en modern telefon.
 
-| Kod | Vad den gör | Kommentar |
-|---|---|---|
-| `*#808#` | Öppnar Engineering Mode | Hårdvarutester kan omfatta skärm, pekskärm, kameror, sensorer, ljud, laddning och nätverksmoduler. Tillgängligheten varierar med OxygenOS och region. |
-| `*#*#4636#*#*` | Öppnar Androids testmeny | Fungerar fortfarande på många modeller. |
-| `*#888#` | Visar hårdvaruversion eller produktionsinformation | Finns inte på alla modeller. |
-| `*#1234#` | Visar firmwareversion | Fungerar i vissa OnePlus-versioner. |
+| Kod            | Vad den gör                                        | Kommentar                                                                                                                                             |
+| -------------- | -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `*#808#`       | Öppnar Engineering Mode                            | Hårdvarutester kan omfatta skärm, pekskärm, kameror, sensorer, ljud, laddning och nätverksmoduler. Tillgängligheten varierar med OxygenOS och region. |
+| `*#*#4636#*#*` | Öppnar Androids testmeny                           | Fungerar fortfarande på många modeller.                                                                                                               |
+| `*#888#`       | Visar hårdvaruversion eller produktionsinformation | Finns inte på alla modeller.                                                                                                                          |
+| `*#1234#`      | Visar firmwareversion                              | Fungerar i vissa OnePlus-versioner.                                                                                                                   |
 
 Var försiktig i Engineering Mode. Använd testskärmarna, men ändra inte modem-, kalibrerings- eller serviceinställningar.
 
@@ -107,11 +108,11 @@ Var försiktig i Engineering Mode. Använd testskärmarna, men ändra inte modem
 
 Motorola har färre offentliga koder än Samsung och Xiaomi, men många modeller innehåller en app för servicetester.
 
-| Kod | Vad den gör | Kommentar |
-|---|---|---|
-| `*#*#2486#*#*` | Öppnar CQATest eller en servicetestmeny | Kan innehålla tester av skärm, pekskärm, högtalare, vibration, kamera och sensorer. |
-| `*#*#4636#*#*` | Öppnar Androids testmeny | Fungerar på många modeller. |
-| `.12345+=` | Öppnar ett teknikerläge från den förinstallerade kalkylatorn | Fungerar bara på vissa Motorola-enheter och endast i den förinstallerade kalkylatorn. |
+| Kod            | Vad den gör                                                  | Kommentar                                                                             |
+| -------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
+| `*#*#2486#*#*` | Öppnar CQATest eller en servicetestmeny                      | Kan innehålla tester av skärm, pekskärm, högtalare, vibration, kamera och sensorer.   |
+| `*#*#4636#*#*` | Öppnar Androids testmeny                                     | Fungerar på många modeller.                                                           |
+| `.12345+=`     | Öppnar ett teknikerläge från den förinstallerade kalkylatorn | Fungerar bara på vissa Motorola-enheter och endast i den förinstallerade kalkylatorn. |
 
 Om CQATest syns i applistan efter ett test behöver du inte få panik. Det är Motorolas komponent för fabrikstester.
 
@@ -119,12 +120,12 @@ Om CQATest syns i applistan efter ett test behöver du inte få panik. Det är M
 
 OPPO och Realme delar mycket av grunden i ColorOS, så deras servicekoder överlappar.
 
-| Kod | Vad den gör | Kommentar |
-|---|---|---|
-| `*#899#` | Öppnar en meny för manuella tester eller tekniker | Vanlig ingång till hårdvarutester på många versioner av ColorOS och Realme UI. |
-| `*#800#` | Öppnar ett verktyg för tekniker och loggar | Används ofta för loggar och nätverksdiagnostik. |
-| `*#6776#` | Visar programvaru- och enhetsinformation | Visar modell- och firmwareuppgifter på många modeller. |
-| `*#*#4636#*#*` | Öppnar Androids testmeny | Tillgängligheten varierar. |
+| Kod            | Vad den gör                                       | Kommentar                                                                      |
+| -------------- | ------------------------------------------------- | ------------------------------------------------------------------------------ |
+| `*#899#`       | Öppnar en meny för manuella tester eller tekniker | Vanlig ingång till hårdvarutester på många versioner av ColorOS och Realme UI. |
+| `*#800#`       | Öppnar ett verktyg för tekniker och loggar        | Används ofta för loggar och nätverksdiagnostik.                                |
+| `*#6776#`      | Visar programvaru- och enhetsinformation          | Visar modell- och firmwareuppgifter på många modeller.                         |
+| `*#*#4636#*#*` | Öppnar Androids testmeny                          | Tillgängligheten varierar.                                                     |
 
 Den säkrare vägen är vanligtvis den inbyggda appen Phone Manager, My OPPO, My realme eller Support, om den finns på din modell.
 

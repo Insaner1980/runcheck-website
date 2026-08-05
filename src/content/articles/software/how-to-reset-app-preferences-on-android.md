@@ -5,9 +5,10 @@ listSummary: "App preference reset"
 hub: "software"
 sourceNumber: 128
 order: 10
-tags: ["security","malware","android","privacy","guide"]
+tags: ["security", "malware", "android", "privacy", "guide"]
 draft: false
 ---
+
 The catch is that the name is terrible. It doesn't reset your apps. It resets the phone's app-related choices around permissions, defaults, notifications, background behavior, and disabled apps. Your photos, messages, files, saved accounts, and app data stay where they are.
 
 ## What it resets

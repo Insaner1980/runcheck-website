@@ -5,10 +5,11 @@ listSummary: "diagnose, sensoren und android"
 hub: "hardware"
 sourceNumber: 114
 order: 11
-tags: ["diagnose","sensoren","android","hardware","ratgeber"]
+tags: ["diagnose", "sensoren", "android", "hardware", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Ist der Fingerabdrucksensor kaputt, oder kommt er nur mit deiner Displayschutzfolie nicht klar? Das klingt wie ein Scherz, ist aber die erste Frage, die du stellen solltest.
 
 Fehler bei der Fingerabdruckerkennung haben oft banale Ursachen. Trockene Haut, Feuchtigkeit, eine billige Schutzfolie aus gehärtetem Glas, eine schlechte Registrierung oder ein nicht vollständig abgeschlossenes Softwareupdate können einen funktionierenden Sensor wie defekte Hardware aussehen lassen. Ein echter Hardwarefehler ist ebenfalls möglich, besonders nach einem Sturz oder einer Displayreparatur. Beginne aber nicht mit dieser Annahme.

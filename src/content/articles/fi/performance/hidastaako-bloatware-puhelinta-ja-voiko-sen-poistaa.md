@@ -5,10 +5,11 @@ listSummary: "Esiasennetut Android-sovellukset voivat viedä tilaa, lähettää 
 hub: "performance"
 sourceNumber: 78
 order: 15
-tags: ["suorituskyky","nopeus","android","optimointi","vianetsintä"]
+tags: ["suorituskyky", "nopeus", "android", "optimointi", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+
 ---
 
 Bloatware saa syyt niskoilleen lähes jokaisesta hitaasta Android-puhelimesta, mutta todellisuus on vähemmän dramaattinen. Esiasennettu sovellus ei hidasta mitään vain siksi, että sen kuvake on olemassa. Ongelma alkaa, kun sovellus toimii taustalla, herättää puhelimen, lähettää ilmoituksia, päivittää itseään tai pitää palveluja käynnissä, vaikka et ole koskaan pyytänyt sitä.

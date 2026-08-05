@@ -5,10 +5,11 @@ listSummary: "red, conectividad y android"
 hub: "network"
 sourceNumber: 95
 order: 6
-tags: ["red","conectividad","android","solucion-de-problemas","guia"]
+tags: ["red", "conectividad", "android", "solucion-de-problemas", "guia"]
 locale: "es"
 draft: false
 ---
+
 Empieza con una pregunta: ¿también se desconectan otros dispositivos de la misma red Wi-Fi? Si la respuesta es sí, revisa primero el router o la conexión a Internet. Si solo se desconecta el móvil, el problema probablemente está en el teléfono, en el perfil de red guardado o en la forma en la que cambia de banda.
 
 ## Si se desconectan varios dispositivos, sospecha primero del router

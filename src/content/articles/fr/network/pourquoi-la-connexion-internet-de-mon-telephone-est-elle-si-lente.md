@@ -5,10 +5,11 @@ listSummary: "Distinguez un problème de réseau, de signal ou de téléphone av
 hub: "network"
 sourceNumber: 91
 order: 2
-tags: ["performances","vitesse","android","optimisation","depannage"]
+tags: ["performances", "vitesse", "android", "optimisation", "depannage"]
 locale: "fr"
 draft: false
 ---
+
 Ne commencez pas par une réinitialisation d'usine. Commencez par recueillir des indices.
 
 ## Commencez par distinguer le téléphone du réseau

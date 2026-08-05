@@ -5,10 +5,11 @@ listSummary: "temperature, thermique et android"
 hub: "thermal"
 sourceNumber: 62
 order: 10
-tags: ["temperature","thermique","android","depannage","materiel"]
+tags: ["temperature", "thermique", "android", "depannage", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 La chaleur est l’un des moyens les plus rapides de faire vieillir la batterie d’un téléphone. Pas instantanément. Discrètement.
 
 C’est ce qui rend le problème agaçant. Une recharge très chaude aujourd’hui ne fera généralement pas tomber le téléphone en panne demain. Le coût apparaît plusieurs mois plus tard : autonomie réduite, recharge plus lente, arrêts plus précoces par temps froid ou état de la batterie qui baisse plus vite que prévu.

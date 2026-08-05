@@ -5,9 +5,10 @@ listSummary: "Degraded battery app limits"
 hub: "myths"
 sourceNumber: 151
 order: 7
-tags: ["myths","facts","android","battery","debunking"]
+tags: ["myths", "facts", "android", "battery", "debunking"]
 draft: false
 ---
+
 Could a battery repair app actually bring back lost capacity? No. Not a repair app, not a booster, not a calibration tool, and not an optimizer with a nice animation.
 
 The battery is a physical part. Once the chemistry inside the cell has aged, software can't put the lost capacity back.

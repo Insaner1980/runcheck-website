@@ -5,10 +5,11 @@ listSummary: "diagnostik, sensorer og android"
 hub: "hardware"
 sourceNumber: 113
 order: 10
-tags: ["diagnostik","sensorer","android","hardware","guide"]
+tags: ["diagnostik", "sensorer", "android", "hardware", "guide"]
 locale: "da"
 draft: false
 ---
+
 Android-servicekoder er nyttige, men de er rodede. Nogle er en del af Android, andre tilføjes af producenten, og nogle forsvinder uden varsel efter en firmwareopdatering.
 
 Det betyder endnu mere nu, hvor Android 17 bliver rullet ud. Google udgav først Android 17 til de fleste understøttede Pixel-enheder, mens Samsung, Xiaomi, OnePlus, Motorola og andre mærker følger deres egne planer for Android 17. En kode, der virker på en Pixel med Android 17 i dag, siger derfor ikke nødvendigvis noget om en Galaxy- eller Redmi-telefon, som endnu ikke har fået producentens Android 17-software.

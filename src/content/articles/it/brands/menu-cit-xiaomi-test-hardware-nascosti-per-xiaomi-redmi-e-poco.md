@@ -5,10 +5,11 @@ listSummary: "Il menu CIT di Xiaomi permette di avviare test hardware integrati 
 hub: "brands"
 sourceNumber: 159
 order: 7
-tags: ["hardware","test","diagnostica","android","guida"]
+tags: ["hardware", "test", "diagnostica", "android", "guida"]
 locale: "it"
 draft: false
 ---
+
 CIT è il controllo hardware integrato più rapido sulla maggior parte dei telefoni Xiaomi, compresi i modelli Redmi e POCO con firmware ufficiale MIUI o HyperOS. Non è bello da vedere. Spiega poco. Ma quando devi capire se touch screen, altoparlante, microfono, sensore o fotocamera rispondono davvero, ti porta al test più velocemente di molte app di diagnostica del Play Store.
 
 Nelle pagine di supporto, Xiaomi lo chiama di solito rilevamento hardware o modalità CIT. Compare soprattutto nelle procedure per problemi specifici, come un touch che registra tocchi fantasma o un telefono che continua a riavviarsi. Il menu serve a controllare il dispositivo in quel momento, non a seguirne lo stato nel tempo.

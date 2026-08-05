@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 34
 order: 24
 subgroup: "Consumo della batteria"
-tags: ["batteria","ottimizzazione","android","consigli","prestazioni"]
+tags: ["batteria", "ottimizzazione", "android", "consigli", "prestazioni"]
 locale: "it"
 draft: false
 ---
+
 Perché dieci notifiche arrivano tutte insieme appena prendi in mano il telefono? Spesso la risposta è Doze.
 
 Doze è il sistema di inattività integrato in Android. Non devi attivarlo e la maggior parte delle persone non vedrà mai una schermata Doze nelle Impostazioni. Funziona in silenzio quando il telefono non è collegato alla corrente, lo schermo è spento e Android decide che il dispositivo non deve più lasciare ogni app libera di avviarsi quando vuole.

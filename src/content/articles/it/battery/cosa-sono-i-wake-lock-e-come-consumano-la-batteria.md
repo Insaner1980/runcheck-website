@@ -6,10 +6,12 @@ hub: "battery"
 sourceNumber: 35
 order: 25
 subgroup: "Consumo della batteria"
-tags: ["batteria","consumo","risoluzione-dei-problemi","android","prestazioni"]
+tags:
+  ["batteria", "consumo", "risoluzione-dei-problemi", "android", "prestazioni"]
 locale: "it"
 draft: false
 ---
+
 Stai dormendo. Lo schermo del telefono è spento. Non c'è musica in riproduzione, non stai scaricando nulla, eppure durante la notte la batteria perde il 18 %.
 
 È il tipo di consumo che può essere causato dai wake lock. Una richiesta di wake lock mantiene attiva una parte del dispositivo quando Android normalmente la lascerebbe entrare in sospensione. Il problema più comune per la batteria è il partial wake lock, che mantiene in funzione il processore mentre lo schermo resta spento.

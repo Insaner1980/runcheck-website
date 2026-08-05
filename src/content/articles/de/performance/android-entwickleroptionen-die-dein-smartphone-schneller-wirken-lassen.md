@@ -5,10 +5,12 @@ listSummary: "Which Android Developer Options can make a phone feel faster, whic
 hub: "performance"
 sourceNumber: 69
 order: 6
-tags: ["leistung","geschwindigkeit","android","optimierung","fehlerbehebung"]
+tags:
+  ["leistung", "geschwindigkeit", "android", "optimierung", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+
 Die Entwickleroptionen sind kein geheimer Turbomodus. Der größte Teil dieses Menüs ist für App-Tests, Fehlersuche und visuelle Diagnose gedacht. Einige Einstellungen können ein Android-Smartphone schneller wirken lassen. Mehrere bringen im Alltag keinen Nutzen. Manche machen das Gerät sogar schlechter.
 
 Der wirklich hilfreiche Teil ist klein, und das ist eine gute Nachricht. Du musst nicht zwanzig Schalter verändern. Für die meisten Menschen ist die beste Konfiguration einfach: Animationsskalierung auf 0,5x, eventuell das Einfrieren zwischengespeicherter Apps, falls das Smartphone diese Funktion anbietet, und alles andere unverändert lassen.

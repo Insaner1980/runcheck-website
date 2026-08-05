@@ -5,10 +5,11 @@ listSummary: "Bruk Xiaomis CIT-meny til å teste telefonens viktigste maskinvare
 hub: "brands"
 sourceNumber: 159
 order: 7
-tags: ["maskinvare","testing","diagnostikk","android","guide"]
+tags: ["maskinvare", "testing", "diagnostikk", "android", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Xiaomi kaller den vanligvis maskinvaregjenkjenning eller CIT-modus på støttesidene sine. Du møter den oftest når du feilsøker et bestemt problem, som en berøringsskjerm som registrerer feil eller en telefon som stadig starter på nytt. Menyen er laget for testing der og da, ikke for å følge tilstanden over tid.
 
 Det er hele poenget.
@@ -89,4 +90,4 @@ Vanligvis ja, når enheten kjører offisiell Xiaomi-programvare. Hvilke tester s
 
 ---
 
-*Metabeskrivelse: Xiaomis CIT-meny lar deg kjøre innebygde maskinvaretester på Xiaomi-telefoner. Se tastekodene, veien gjennom Innstillinger, de nyttigste testene og hva CIT ikke kan diagnostisere.*
+_Metabeskrivelse: Xiaomis CIT-meny lar deg kjøre innebygde maskinvaretester på Xiaomi-telefoner. Se tastekodene, veien gjennom Innstillinger, de nyttigste testene og hva CIT ikke kan diagnostisere._

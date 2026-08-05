@@ -5,10 +5,11 @@ listSummary: "sammenligning, apper og android"
 hub: "device-health"
 sourceNumber: 140
 order: 9
-tags: ["sammenligning","apper","android","kjøpsguide","anmeldelse"]
+tags: ["sammenligning", "apper", "android", "kjøpsguide", "anmeldelse"]
 locale: "nb"
 draft: false
 ---
+
 En god app for helsesjekk bør fortelle hva telefonen faktisk rapporterer, hvor dataene er usikre og hva du kan gjøre videre. En dårlig app viser en enorm "Optimaliser"-knapp, spiller av en animasjon og håper at du trykker på en annonse.
 
 Det er skillet. Det blir ganske tydelig når du vet hva du skal se etter.

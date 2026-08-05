@@ -5,10 +5,11 @@ listSummary: "reseau, connectivite et android"
 hub: "network"
 sourceNumber: 102
 order: 13
-tags: ["reseau","connectivite","android","depannage","guide"]
+tags: ["reseau", "connectivite", "android", "depannage", "guide"]
 locale: "fr"
 draft: false
 ---
+
 Votre téléphone affiche `Aucun signal`, `Aucun service` ou `Appels d'urgence uniquement`, et le petit ordinateur coûteux que vous avez dans la main se retrouve soudain réduit à un appareil photo avec Wi-Fi. C'est pénible, mais pas toujours grave.
 
 L'essentiel consiste à distinguer trois éléments : le téléphone, la SIM ou l'eSIM, et le réseau de l'opérateur. Procéder au hasard fait perdre du temps. Les tester dans l'ordre permet généralement de trouver l'origine de la panne.

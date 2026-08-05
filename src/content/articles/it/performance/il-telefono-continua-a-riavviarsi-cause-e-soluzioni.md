@@ -5,10 +5,18 @@ listSummary: "Se il telefono Android continua a riavviarsi da solo."
 hub: "performance"
 sourceNumber: 74
 order: 11
-tags: ["prestazioni","velocita","android","ottimizzazione","risoluzione-dei-problemi"]
+tags:
+  [
+    "prestazioni",
+    "velocita",
+    "android",
+    "ottimizzazione",
+    "risoluzione-dei-problemi",
+  ]
 locale: "it"
 draft: false
 ---
+
 ---
 
 Il telefono si riavvia, oppure è bloccato in un ciclo durante l'avvio? La differenza conta.

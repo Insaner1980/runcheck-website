@@ -5,10 +5,11 @@ listSummary: "Du står med en brukt telefon i hånden som ser velholdt ut."
 hub: "buying-selling"
 sourceNumber: 141
 order: 5
-tags: ["sammenligning","apper","android","kjøpsguide","anmeldelse"]
+tags: ["sammenligning", "apper", "android", "kjøpsguide", "anmeldelse"]
 locale: "nb"
 draft: false
 ---
+
 Ikke gjør det.
 
 En brukt Android-telefon kan skjule et utslitt batteri, en sperret IMEI, en utskiftet skjerm med dårlig berøringsrespons, væskeskade, en ladeport som er i ferd med å svikte, eller programvare som snart ikke støttes lenger. Ingenting av dette trenger å synes på bildene i annonsen.
@@ -107,4 +108,4 @@ Sett av 20-30 minutter til kontrollen. En god selger er kanskje ikke begeistret 
 
 Det finnes alltid flere brukte telefoner.
 
-*Metabeskrivelse: Trinnvis veiledning til hvordan du vurderer en brukt Android-telefon før kjøp, med IMEI-kontroll, batterihelse, skjermtest, maskinvarekontroll, programvarestøtte og prisforhandling.*
+_Metabeskrivelse: Trinnvis veiledning til hvordan du vurderer en brukt Android-telefon før kjøp, med IMEI-kontroll, batterihelse, skjermtest, maskinvarekontroll, programvarestøtte og prisforhandling._

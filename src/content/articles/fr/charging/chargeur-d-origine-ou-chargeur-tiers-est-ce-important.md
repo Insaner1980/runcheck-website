@@ -5,10 +5,11 @@ listSummary: "recharge, batterie et android"
 hub: "charging"
 sourceNumber: 49
 order: 13
-tags: ["recharge","batterie","android","guide","materiel"]
+tags: ["recharge", "batterie", "android", "guide", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 Le chargeur le plus sûr pour votre téléphone Android ne doit pas forcément porter le même logo que lui. C'est là que beaucoup de personnes se trompent.
 
 Un bon chargeur USB-C tiers d'une marque connue peut être aussi sûr et aussi rapide que celui du fabricant. Le vrai problème est le chargeur sans marque, avec de faux marquages, des caractéristiques vagues et un prix suspect. Le logo compte moins que les normes, la qualité de fabrication et le câble.

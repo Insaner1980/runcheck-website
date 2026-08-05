@@ -5,10 +5,11 @@ listSummary: "hardware, pruebas y diagnostico"
 hub: "hardware"
 sourceNumber: 110
 order: 7
-tags: ["hardware","pruebas","diagnostico","android","guia"]
+tags: ["hardware", "pruebas", "diagnostico", "android", "guia"]
 locale: "es"
 draft: false
 ---
+
 ---
 
 Probar una cámara resulta más fácil cuando dejas de pensar en megapíxeles. Un sensor de 50 MP puede hacer fotos malas si el objetivo está sucio, el enfoque automático está averiado o el módulo de cámara se ha desplazado ligeramente tras un golpe.

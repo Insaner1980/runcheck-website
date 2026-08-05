@@ -5,9 +5,10 @@ listSummary: "No-signal troubleshooting"
 hub: "network"
 sourceNumber: 102
 order: 13
-tags: ["network","connectivity","android","troubleshooting","guide"]
+tags: ["network", "connectivity", "android", "troubleshooting", "guide"]
 draft: false
 ---
+
 Your phone says `No Signal`, `No Service`, or `Emergency Calls Only`, and suddenly the expensive little computer in your hand is just a camera with Wi-Fi. Annoying, but not always serious.
 
 The trick is to separate three things: the phone, the SIM or eSIM, and the carrier network. Guessing wastes time. Testing them in order usually tells you where the fault is.

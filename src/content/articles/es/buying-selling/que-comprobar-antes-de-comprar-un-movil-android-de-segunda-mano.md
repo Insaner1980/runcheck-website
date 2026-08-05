@@ -5,12 +5,12 @@ listSummary: "Un móvil que costaba unos 900 € nuevo el año pasado puede enco
 hub: "buying-selling"
 sourceNumber: 6
 order: 4
-tags: ["guia-de-compra","android","comparacion","valor","guia"]
+tags: ["guia-de-compra", "android", "comparacion", "valor", "guia"]
 locale: "es"
 draft: false
 ---
-Las comprobaciones siguientes están ordenadas por gravedad. Las tres primeras son motivos para descartar la compra. Todo lo demás sirve para determinar cuánto vale realmente el móvil.
 
+Las comprobaciones siguientes están ordenadas por gravedad. Las tres primeras son motivos para descartar la compra. Todo lo demás sirve para determinar cuánto vale realmente el móvil.
 
 ## Motivos para descartar la compra
 
@@ -24,17 +24,16 @@ Factory Reset Protection (FRP) es el bloqueo antirrobo de Android. Si el propiet
 
 El bloqueo del operador limita las redes que puede utilizar el teléfono. En España es menos habitual en móviles recientes, pero todavía puede aparecer en modelos antiguos o importados. Inserta una SIM de una operadora distinta de aquella con la que se vendió originalmente o, si solo admite eSIM, consulta la compatibilidad mediante el IMEI con tu operadora. Si se registra en la red y permite llamar o usar datos móviles, es una buena señal. Mensajes como "SIM no compatible", "red bloqueada" o la imposibilidad de registrarse suelen indicar que el móvil está bloqueado. A veces puede liberarse, pero depende de las condiciones del operador original, del estado de los pagos y de la colaboración del titular de la línea. No pagues el precio de un móvil libre por uno bloqueado.
 
-
 ## La batería: la mayor variable del precio
 
 El estado de la batería influye en el uso diario más que casi cualquier otro componente. Afecta al tiempo de pantalla, al calor, a los hábitos de carga y, en algunos casos, al rendimiento bajo carga. También es el mejor argumento para negociar el precio de un móvil de segunda mano.
 
-| Estado | Qué significa | Efecto en el precio |
-|---|---|---|
-| 90-100 % | Excelente, desgaste mínimo | Puede justificarse el precio completo solicitado |
-| 85-89 % | Uso normal, todavía con bastante vida útil | Precio razonable, sin necesidad de un ajuste importante |
-| 80-84 % | Desgaste apreciable, quizá haya que sustituirla durante el periodo de uso | Resta el coste real de un cambio de batería en tu zona |
-| Menos del 80 % | Probablemente habrá que cambiarla pronto | Resta el coste de sustitución o reconsidera la compra |
+| Estado         | Qué significa                                                             | Efecto en el precio                                     |
+| -------------- | ------------------------------------------------------------------------- | ------------------------------------------------------- |
+| 90-100 %       | Excelente, desgaste mínimo                                                | Puede justificarse el precio completo solicitado        |
+| 85-89 %        | Uso normal, todavía con bastante vida útil                                | Precio razonable, sin necesidad de un ajuste importante |
+| 80-84 %        | Desgaste apreciable, quizá haya que sustituirla durante el periodo de uso | Resta el coste real de un cambio de batería en tu zona  |
+| Menos del 80 % | Probablemente habrá que cambiarla pronto                                  | Resta el coste de sustitución o reconsidera la compra   |
 
 El coste real de sustituirla varía más de lo que suelen admitir los vendedores. Cambiar la batería de un Android antiguo y sencillo puede ser relativamente barato. En un buque insignia sellado, un plegable o una reparación oficial, el precio puede subir mucho. Como referencia española, Samsung publica precios de unos 80-100 € en la categoría de batería y carga para muchos modelos Galaxy, aunque el importe depende del dispositivo y del servicio. En otras marcas, talleres o reparaciones más complejas puede ser mayor. Si puedes pedir un presupuesto local antes de comprar, usa esa cifra en vez de una estimación genérica.
 
@@ -54,25 +53,23 @@ Un móvil con un 82 % de estado de batería y un precio de 400 € no es realmen
 
 Si comprador y vendedor quieren una referencia única sobre el estado general del teléfono, una aplicación de diagnóstico como **runcheck** puede generar durante la cita una puntuación de estado basada en la batería, el estado térmico, la red y el almacenamiento. Es menos ambiguo que "funciona bien" o "creo que la batería todavía está bien".
 
-
 ## Soporte de software restante
 
 Las actualizaciones de seguridad y el soporte del sistema operativo determinan durante cuánto tiempo seguirá siendo seguro y compatible con las aplicaciones. El periodo cambia mucho según el fabricante, el modelo, la región y el año de lanzamiento.
 
-| Fabricante | Soporte reciente en gama alta | Soporte reciente en gama media |
-|---|---|---|
-| Google | Pixel 8 y posteriores: 7 años de actualizaciones del sistema operativo y de seguridad | Pixel 8a y posteriores: 7 años |
-| Samsung | Serie Galaxy S24 y buques insignia posteriores: 7 generaciones de actualizaciones del sistema operativo y 7 años de actualizaciones de seguridad | Galaxy A56, A36 y A26: 6 generaciones de actualizaciones del sistema operativo y 6 años de actualizaciones de seguridad |
-| OnePlus | OnePlus 13 y 13R: 4 actualizaciones principales de Android y 6 años de actualizaciones de seguridad | Depende del modelo |
-| Motorola | Depende del modelo, comprueba el producto exacto en la página de soporte de Motorola | A menudo es más corto que en Google o Samsung, aunque los modelos nuevos varían |
-| Otras marcas | Depende del modelo | A menudo 2-3 años en modelos antiguos o económicos, mientras que los móviles nuevos vendidos en la UE están sujetos a las normas europeas aplicables desde 2025 |
+| Fabricante   | Soporte reciente en gama alta                                                                                                                    | Soporte reciente en gama media                                                                                                                                  |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Google       | Pixel 8 y posteriores: 7 años de actualizaciones del sistema operativo y de seguridad                                                            | Pixel 8a y posteriores: 7 años                                                                                                                                  |
+| Samsung      | Serie Galaxy S24 y buques insignia posteriores: 7 generaciones de actualizaciones del sistema operativo y 7 años de actualizaciones de seguridad | Galaxy A56, A36 y A26: 6 generaciones de actualizaciones del sistema operativo y 6 años de actualizaciones de seguridad                                         |
+| OnePlus      | OnePlus 13 y 13R: 4 actualizaciones principales de Android y 6 años de actualizaciones de seguridad                                              | Depende del modelo                                                                                                                                              |
+| Motorola     | Depende del modelo, comprueba el producto exacto en la página de soporte de Motorola                                                             | A menudo es más corto que en Google o Samsung, aunque los modelos nuevos varían                                                                                 |
+| Otras marcas | Depende del modelo                                                                                                                               | A menudo 2-3 años en modelos antiguos o económicos, mientras que los móviles nuevos vendidos en la UE están sujetos a las normas europeas aplicables desde 2025 |
 
 Para los teléfonos introducidos en el mercado de la UE desde el 20 de junio de 2025, las normas de diseño ecológico elevan el mínimo: las actualizaciones del sistema operativo deben estar disponibles durante al menos cinco años desde que se comercializa la última unidad del modelo, y determinadas piezas de repuesto deben estar disponibles durante siete años después de que el modelo deje de venderse en la UE. Esto ayudará a quienes compren móviles usados en el futuro, pero no amplía automáticamente la vida de los modelos antiguos que ya han quedado fuera de soporte.
 
 Dos años o más de soporte restante suelen hacer que la compra sea razonable. Menos de un año significa que el móvil se acerca al final de su vida útil desde el punto de vista de la seguridad. Algunas aplicaciones bancarias, de pago o de trabajo pueden rechazar dispositivos rooteados, comprometidos o demasiado desactualizados. Aunque sigan funcionando, un teléfono sin parches de seguridad no es un buen lugar para guardar cuentas sensibles.
 
 Comprueba la versión de Android y la fecha del parche de seguridad en el apartado **Información del teléfono** de Ajustes. Si el parche está atrasado, quizá solo falte instalar una actualización. Si el dispositivo no puede instalar la última versión disponible para ese modelo, puede haber un problema con el firmware, la variante regional, el bloqueo del operador o el canal de actualizaciones.
-
 
 ## Inspección física
 
@@ -84,13 +81,11 @@ Daños por líquidos: muchos teléfonos incluyen un indicador de contacto con l�
 
 Altavoces, micrófono y cámaras: reproduce audio a un volumen alto, graba una nota de voz, haz fotos con las cámaras delantera y trasera, prueba el enfoque y graba un vídeo corto. Estas comprobaciones tardan dos minutos y detectan fallos caros de descubrir después de la compra.
 
-
 ## La etiqueta europea de reparabilidad
 
 Desde el 20 de junio de 2025, los smartphones y las tabletas pizarra introducidos en el mercado de la UE deben mostrar una nueva etiqueta energética. Incluye la eficiencia energética, la autonomía por ciclo, la duración de la batería en ciclos, la resistencia a caídas, la protección frente al polvo y el agua, y una clase de reparabilidad de A a E. A corresponde a los dispositivos más fáciles de reparar y E a los menos reparables.
 
 Es probable que un móvil de segunda mano no conserve la caja original, y los modelos antiguos pueden no tener etiqueta. En los dispositivos recientes vendidos en la UE, merece la pena consultar la clase de reparabilidad en la ficha del modelo o en EPREL cuando esté disponible. Un móvil con una mejor clase debería ser más fácil y barato de mantener durante años que otro con una puntuación baja, sobre todo cuando llegue el momento de cambiar la batería o reparar el puerto de carga.
-
 
 ## Preguntas frecuentes
 
@@ -113,7 +108,6 @@ Solo si el descuento supera el coste de la reparación y todavía queda suficien
 ### ¿Es mejor un antiguo buque insignia que un gama media más reciente?
 
 A veces. Un buque insignia antiguo puede tener mejores cámaras, pantalla, altavoces y procesador. Un gama media reciente puede ofrecer una batería menos desgastada, más años de soporte y piezas más baratas. Al comprar de segunda mano, el soporte restante y el estado de la batería suelen importar más que el precio de lanzamiento original.
-
 
 ## Conclusión
 

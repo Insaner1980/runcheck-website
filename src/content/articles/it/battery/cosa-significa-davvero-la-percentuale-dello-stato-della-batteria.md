@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 13
 order: 3
 subgroup: "Stato della batteria"
-tags: ["batteria","stato","diagnostica","android","guida"]
+tags: ["batteria", "stato", "diagnostica", "android", "guida"]
 locale: "it"
 draft: false
 ---
+
 La percentuale dello stato della batteria indica quanto si è usurata. Non è la stessa percentuale che vedi nella barra di stato.
 
 Se il telefono segnala uno stato dell'87 %, significa che la cella può trattenere circa l'87 % dell'energia che immagazzinava da nuova. Funziona ancora. Il serbatoio, semplicemente, è diventato più piccolo.

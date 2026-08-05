@@ -5,10 +5,11 @@ listSummary: "nettverk, tilkobling og android"
 hub: "network"
 sourceNumber: 99
 order: 10
-tags: ["nettverk","tilkobling","android","feilsøking","guide"]
+tags: ["nettverk", "tilkobling", "android", "feilsøking", "guide"]
 locale: "nb"
 draft: false
 ---
+
 En VPN endrer ruten internettrafikken fra telefonen tar. I stedet for at appene kobler seg direkte ut gjennom Wi-Fi-nettverket eller mobiloperatøren, sender telefonen først trafikken gjennom en kryptert tunnel til en VPN-server. Nettsteder og apper ser VPN-serverens IP-adresse, ikke telefonens vanlige offentlige IP-adresse.
 
 Det høres mer mystisk ut enn det er. En VPN er nyttig, men den er ikke et ugjennomtrengelig personvernskjold.

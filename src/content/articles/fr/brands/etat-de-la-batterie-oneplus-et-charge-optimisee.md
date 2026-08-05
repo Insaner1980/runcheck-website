@@ -5,10 +5,11 @@ listSummary: "batterie, etat et diagnostic"
 hub: "brands"
 sourceNumber: 156
 order: 4
-tags: ["batterie","etat","diagnostic","android","guide"]
+tags: ["batterie", "etat", "diagnostic", "android", "guide"]
 locale: "fr"
 draft: false
 ---
+
 La charge rapide n'est pas automatiquement mauvaise. Le véritable ennemi, c'est la chaleur. Un OnePlus qui se recharge à 80 W ou 100 W pendant que vous jouez, utilisez la navigation ou regardez une vidéo en streaming peut subir beaucoup de stress au niveau de la batterie si le logiciel ne gère pas correctement la situation.
 
 Une précision liée au calendrier des mises à jour : Android 17 est désormais disponible en premier sur la plupart des Pixel compatibles. Les appareils OnePlus recevront plus tard leurs mises à jour OxygenOS basées sur Android 17, et les fonctions liées à la batterie peuvent encore varier selon le modèle, la région et la version OTA. Ne partez pas du principe qu'un réglage existe tant que vous ne le voyez pas sur votre propre téléphone.

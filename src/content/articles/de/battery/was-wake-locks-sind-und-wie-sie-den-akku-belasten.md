@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 35
 order: 25
 subgroup: "Drain"
-tags: ["akku","akkuverbrauch","fehlerbehebung","android","leistung"]
+tags: ["akku", "akkuverbrauch", "fehlerbehebung", "android", "leistung"]
 locale: "de"
 draft: false
 ---
+
 Du schläfst. Das Display deines Smartphones ist aus. Nichts wird abgespielt, nichts heruntergeladen, und trotzdem sinkt der Akkustand über Nacht um 18 %.
 
 Genau diese Art von Verbrauch können Wake Locks verursachen. Eine Wake-Lock-Anforderung hält einen Teil des Geräts wach, obwohl Android ihn normalerweise schlafen legen würde. Das häufigste Akku-Problem ist ein partieller Wake Lock. Er hält den Prozessor aktiv, während das Display ausgeschaltet bleibt.

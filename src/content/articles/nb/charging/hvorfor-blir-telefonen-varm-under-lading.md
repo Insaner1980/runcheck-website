@@ -5,10 +5,11 @@ listSummary: "lading, batteri og android"
 hub: "charging"
 sourceNumber: 52
 order: 16
-tags: ["lading","batteri","android","guide","maskinvare"]
+tags: ["lading", "batteri", "android", "guide", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 Du kobler telefonen til laderen, kommer tilbake 20 minutter senere og merker at baksiden er varmere enn hånden din. Litt varme er normalt. En telefon som blir så varm at den er ubehagelig å holde, er ikke det.
 
 Lading skaper alltid noe varme fordi en del av energien som kommer inn, blir til spillvarme i laderen, kabelen og telefonen. Hurtiglading skaper mer. Trådløs lading skaper vanligvis enda mer. Spørsmålet er ikke om telefonen blir varm, men om temperaturen holder seg innenfor et normalt område eller om telefonen begynner å beskytte seg selv.
@@ -81,6 +82,6 @@ Spillkjølere kan være nyttige hvis du spiller lenge med laderen tilkoblet. Til
 
 ## Kan du sjekke temperaturen?
 
-Noen Android-telefoner viser batteritemperaturen under Batteri eller i enhetsdiagnostikken. Andre skjuler den. Oppringingskoden *#*#4636#*#* åpner en testmeny på enkelte telefoner, men fungerer ikke overalt.
+Noen Android-telefoner viser batteritemperaturen under Batteri eller i enhetsdiagnostikken. Andre skjuler den. Oppringingskoden _#_#4636#_#_ åpner en testmeny på enkelte telefoner, men fungerer ikke overalt.
 
 runcheck viser batteritemperatur og termisk status i sanntid under lading. Det er nyttig fordi «føles varm» er subjektivt. Tallene viser om telefonen bare er lunken eller faktisk nærmer seg termiske grenser.

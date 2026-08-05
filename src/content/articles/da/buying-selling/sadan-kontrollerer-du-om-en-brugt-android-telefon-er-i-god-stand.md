@@ -5,12 +5,12 @@ listSummary: "En telefon, der har været brugt i et år eller to, kan se fejlfri
 hub: "buying-selling"
 sourceNumber: 2
 order: 1
-tags: ["købsguide","android","sammenligning","værdi","guide"]
+tags: ["købsguide", "android", "sammenligning", "værdi", "guide"]
 locale: "da"
 draft: false
 ---
-Det tager cirka 15 minutter at vurdere den faktiske stand, og du behøver ikke installere noget.
 
+Det tager cirka 15 minutter at vurdere den faktiske stand, og du behøver ikke installere noget.
 
 ## Begynd med det, du ikke kan se
 
@@ -24,7 +24,6 @@ Alt over 90 % er en solid batteritilstand. Mellem 80 % og 90 % betyder, at batte
 
 Lagerets tilstand er sværere at sætte tal på, men den bør stadig kontrolleres. Åbn lagerpladsafsnittet i Indstillinger, og se, hvor fyldt telefonen er. Adfærden siger mere end det rå tal: Tøver telefonen, når apps åbnes? Går der et sekund, før kameraet gemmer billeder? NAND-flash bliver langsommere, når lageret fyldes, og når cellerne slides af gentagne skrivninger. Symptomerne ligner ofte en langsom processor, selv om problemet ligger et andet sted.
 
-
 ## Den fysiske stand
 
 Hold telefonen under kraftigt lys, og se på skærmen fra flere vinkler. Små ridser, der er usynlige forfra, bliver tydelige fra siden. Kontrollér kanterne, hvor revner efter fald ofte begynder. Læg telefonen fladt på et bord. Hvis den vipper, kan rammen være bøjet, eller batteriet kan være begyndt at svulme. Et opsvulmet batteri er et sikkerhedsproblem, ikke bare et ydelsesproblem.
@@ -33,13 +32,11 @@ Opladningsporten samler lommefnug gennem mange måneders brug. Lys ind i den med
 
 Knapperne skal klikke rent. En blød tænd/sluk-knap eller en lydstyrkeknap, der skal trykkes to gange, er slid, som ikke bliver bedre af sig selv.
 
-
 ## Skærm og berøring
 
 Døde pixels ses som små mørke punkter på en hvid baggrund. Åbn en browser, søg efter "white screen test", gå i fuld skærm, og se grundigt efter. Gentag med ren rød, grøn, blå og sort for at opdage problemer med enkelte subpixels. OLED-skærme kan også få fastbrænding fra elementer, der har stået samme sted i månedsvis, for eksempel navigationslinjen, statuslinjen eller brugerfladen i en app, der bruges meget. Et mellemgråt billede i fuld skærm gør fastbrænding synlig, hvis den er der.
 
 Områder uden berøringsrespons er sværere at finde. Aktivér udviklerindstillinger ved at trykke syv gange på buildnummeret under Om telefonen, og slå derefter visning af markørens placering til. Før langsomt en finger over hele skærmen. Koordinatsporet skal følge uden huller, især i hjørnerne og langs kanterne, hvor fladkabler er mest sårbare over for stødskader.
-
 
 ## Sensorer, højttalere og kameraer
 
@@ -49,11 +46,9 @@ Samsung-telefoner har en særlig hardwaretest, som kan åbnes med `*#0*#`. Den i
 
 Afspil musik gennem højttaleren ved forskellige lydstyrker. Knasen eller forvrængning ved moderat lydstyrke kan tyde på en beskadiget højttaler. Optag et kort lydklip, og afspil det for at kontrollere mikrofonen. Åbn både front- og bagkamera, og tag nogle billeder i ordentligt lys. Se efter fokusproblemer, slørede områder eller et kamera, der bliver ved med at søge frem og tilbage uden at låse fokus.
 
-
 ## Vandskade
 
 Mange Android-telefoner har en væskeindikator, LCI, som kan ses inde i åbningen til SIM-kortbakken. Tag bakken ud, og lys ind i åbningen. Hvid eller sølvfarvet betyder, at indikatoren ikke har registreret vand. Pink eller rød betyder, at der på et tidspunkt er kommet væske ind i telefonen. En pink indikator betyder ikke, at telefonen er defekt lige nu, men vandskader bliver ofte værre, når korrosionen breder sig. Det er værd at kende til, men ikke nødvendigvis en automatisk grund til at afvise telefonen.
-
 
 ## Softwaretilstand
 

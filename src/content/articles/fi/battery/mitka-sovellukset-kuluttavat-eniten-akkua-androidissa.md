@@ -1,15 +1,16 @@
 ---
 title: "Mitkä sovellukset kuluttavat eniten akkua Androidissa"
-description: "Useimmat listat \"eniten akkua kuluttavista sovelluksista\" ovat aivan liian varmoja. Puhelintasi ei kiinnosta, mikä sovellus nousi kärkeen jonkun toisen testipenkissä. Sitä kiinnostaa, mitä olet asentanut, mitä oikeuksia olet myöntänyt, kuinka usein avaat sovelluksen ja jatkaako se toimintaansa näytön sammuttua."
-listSummary: "Useimmat listat \"eniten akkua kuluttavista sovelluksista\" ovat aivan liian varmoja."
+description: 'Useimmat listat "eniten akkua kuluttavista sovelluksista" ovat aivan liian varmoja. Puhelintasi ei kiinnosta, mikä sovellus nousi kärkeen jonkun toisen testipenkissä. Sitä kiinnostaa, mitä olet asentanut, mitä oikeuksia olet myöntänyt, kuinka usein avaat sovelluksen ja jatkaako se toimintaansa näytön sammuttua.'
+listSummary: 'Useimmat listat "eniten akkua kuluttavista sovelluksista" ovat aivan liian varmoja.'
 hub: "battery"
 sourceNumber: 24
 order: 14
 subgroup: "Virrankulutus"
-tags: ["akku","virrankulutus","vianetsintä","android","suorituskyky"]
+tags: ["akku", "virrankulutus", "vianetsintä", "android", "suorituskyky"]
 locale: "fi"
 draft: false
 ---
+
 Samat sovellustyypit aiheuttavat silti ongelmia kerta toisensa jälkeen.
 
 ## Sovellustyypit, jotka ovat tavallisesti listan kärjessä

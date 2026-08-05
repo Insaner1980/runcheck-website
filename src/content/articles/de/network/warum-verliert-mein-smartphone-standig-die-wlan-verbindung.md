@@ -5,10 +5,11 @@ listSummary: "netzwerk, verbindungen und android"
 hub: "network"
 sourceNumber: 95
 order: 6
-tags: ["netzwerk","verbindungen","android","fehlerbehebung","ratgeber"]
+tags: ["netzwerk", "verbindungen", "android", "fehlerbehebung", "ratgeber"]
 locale: "de"
 draft: false
 ---
+
 Beginne mit einer Frage: Verlieren andere Geräte im selben WLAN ebenfalls die Verbindung? Wenn ja, kümmere dich zuerst um Router oder Internetanschluss. Bricht nur dein Smartphone ab, liegt das Problem wahrscheinlich am Gerät, am gespeicherten Netzwerkprofil oder am Wechsel zwischen Frequenzbändern.
 
 ## Wenn mehrere Geräte die Verbindung verlieren, prüfe zuerst den Router

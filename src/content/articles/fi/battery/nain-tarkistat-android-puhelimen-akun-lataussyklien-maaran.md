@@ -6,10 +6,11 @@ hub: "battery"
 sourceNumber: 12
 order: 2
 subgroup: "Akun kunto"
-tags: ["akku","kunto","diagnostiikka","android","opas"]
+tags: ["akku", "kunto", "diagnostiikka", "android", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Luvulla on merkitystä, koska litiumioniakun käyttöikä on rajallinen ja sitä arvioidaan muun muassa syklien perusteella. Monet nykyiset puhelinakut säilyttävät noin 80 % alkuperäisestä kapasiteetistaan 800-1 000 syklin ajan, mutta tarkka tulos riippuu akkukemiasta ja valmistajasta. Sen jälkeen päivittäinen akunkesto alkaa usein lyhentyä selvästi.
 
 Android on tukenut syklimäärän ilmoittamista Android 14:stä lähtien BatteryManager-rajapinnan kautta, mutta valmistaja päättää, näkyykö tieto käyttäjälle. Muutamat uudet puhelimet näyttävät luvun suoraan asetuksissa. Useimmat eivät. Alla olevat menetelmät ovat siinä järjestyksessä, kuinka laajalla laitekannalla niitä voi käyttää. Ensimmäiset vaihtoehdot kattavat myös vanhempia malleja.

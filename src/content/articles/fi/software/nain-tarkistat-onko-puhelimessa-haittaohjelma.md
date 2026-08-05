@@ -5,10 +5,11 @@ listSummary: "android, haittaohjelmat ja tietoturva"
 hub: "software"
 sourceNumber: 125
 order: 7
-tags: ["android","haittaohjelmat","tietoturva","vianetsintä","opas"]
+tags: ["android", "haittaohjelmat", "tietoturva", "vianetsintä", "opas"]
 locale: "fi"
 draft: false
 ---
+
 Se ei vielä todista, että puhelimessa on haittaohjelma. Puhelin voi käyttäytyä oudosti myös silloin, kun tallennustila on täynnä, jokin sovellus toimii väärin tai päivitys epäonnistuu. Oireet kannattaa silti tarkistaa.
 
 Aloita tavallisista selityksistä. Etsi haittaohjelmaa vasta sen jälkeen.

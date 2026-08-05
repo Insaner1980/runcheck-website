@@ -5,10 +5,11 @@ listSummary: "Lading til 80 % kan forlenge batteriets levetid, men tilpasset lad
 hub: "charging"
 sourceNumber: 43
 order: 7
-tags: ["lading","batteri","android","guide","maskinvare"]
+tags: ["lading", "batteri", "android", "guide", "maskinvare"]
 locale: "nb"
 draft: false
 ---
+
 80 %-regelen er nyttig, men mange behandler den som et bud. Det er den ikke. Lading til 80 % kan redusere batterislitasjen, men betyr samtidig at du starter dagen uten en femtedel av batteriet. Det kompromisset passer godt for noen og er irriterende for andre.
 
 Hvis du bare vil ha det praktiske svaret: Bruk tilpasset lading hvis telefonen har det. Bruk en fast grense på 80 % bare når du vanligvis har batteri til overs. Hvis telefonen allerede sliter med å holde hele dagen, bør du ikke gjøre hverdagen dårligere bare for å beskytte batteriet på papiret.

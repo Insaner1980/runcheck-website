@@ -5,10 +5,11 @@ listSummary: "recharge, batterie et android"
 hub: "charging"
 sourceNumber: 43
 order: 7
-tags: ["recharge","batterie","android","guide","materiel"]
+tags: ["recharge", "batterie", "android", "guide", "materiel"]
 locale: "fr"
 draft: false
 ---
+
 La règle des 80 % est utile, mais elle est parfois traitée comme un commandement. Ce n'en est pas un. S'arrêter à 80 % peut ralentir l'usure de la batterie, mais cela signifie aussi commencer la journée avec un cinquième d'autonomie en moins. Ce compromis convient très bien à certaines personnes et agace profondément les autres.
 
 Pour une réponse pratique : utilisez la recharge adaptative si votre téléphone la propose. Activez une limite stricte à 80 % seulement si vous avez habituellement de l'autonomie en réserve. Si votre téléphone peine déjà à tenir toute la journée, ne rendez pas votre quotidien plus compliqué uniquement pour protéger la batterie en théorie.

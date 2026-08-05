@@ -5,10 +5,11 @@ listSummary: "opladning, batteri og android"
 hub: "charging"
 sourceNumber: 42
 order: 6
-tags: ["opladning","batteri","android","guide","hardware"]
+tags: ["opladning", "batteri", "android", "guide", "hardware"]
 locale: "da"
 draft: false
 ---
+
 Du sætter telefonen til kl. 23.00, vågner kl. 7.00, og den har stået på 100 % i flere timer. Det føles forkert, især fordi gamle batteriråd aldrig helt er forsvundet.
 
 Den gamle frygt handlede om overopladning. Det er ikke længere det egentlige problem. I dag handler det om, hvor længe batteriet står fuldt opladet.

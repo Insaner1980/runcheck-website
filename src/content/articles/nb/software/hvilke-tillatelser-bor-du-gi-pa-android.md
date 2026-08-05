@@ -5,10 +5,11 @@ listSummary: "android, tillatelser og personvern"
 hub: "software"
 sourceNumber: 127
 order: 9
-tags: ["android","tillatelser","personvern","sikkerhet","guide"]
+tags: ["android", "tillatelser", "personvern", "sikkerhet", "guide"]
 locale: "nb"
 draft: false
 ---
+
 Det er logisk at en kameraapp ber om kameratilgang. Det er ikke logisk at en lommelyktapp ber om tilgang til kontaktene dine. De fleste tillatelsesvalg er ikke mer kompliserte enn dette.
 
 Problemet er tidspunktet. Apper spør mens du prøver å få gjort noe, så `Allow` blir den raske knappen. Slik hoper dårlige tillatelser seg opp.
