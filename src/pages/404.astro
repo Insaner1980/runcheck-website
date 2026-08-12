@@ -1,0 +1,30 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Page not found | runcheck"
+  description="The requested runcheck page could not be found."
+  canonicalPath="/404"
+  metaRobots="noindex,follow"
+>
+  <section class="border-b border-run-border px-6 py-24 sm:py-32">
+    <div class="mx-auto max-w-2xl text-center">
+      <p class="font-mono text-sm font-semibold tracking-[0.2em] text-run-accent">
+        404
+      </p>
+      <h1 class="mt-4 text-4xl font-semibold tracking-tight text-run-white sm:text-5xl">
+        Page not found
+      </h1>
+      <p class="mt-6 text-base leading-7 text-run-muted">
+        The page you requested does not exist or may have moved.
+      </p>
+      <a
+        class="mt-8 inline-flex rounded-full border border-run-border px-5 py-3 text-sm font-semibold text-run-white transition-colors hover:border-run-accent hover:text-run-accent"
+        href="/"
+      >
+        Back to runcheck
+      </a>
+    </div>
+  </section>
+</BaseLayout>
