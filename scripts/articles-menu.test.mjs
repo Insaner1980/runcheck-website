@@ -23,7 +23,7 @@ test("articles menu", () => {
   );
   assert.match(
     header,
-    /<a class="hero-nav-action" href=\{link\.href\}/,
+    /<a\s+class="hero-nav-action"\s+href=\{link\.href\}/s,
     "Features and Articles should share the direct nav link treatment.",
   );
   assert.match(

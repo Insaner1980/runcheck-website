@@ -1,5 +1,5 @@
 ---
-import "@fontsource-variable/manrope";
+import "@fontsource-variable/manrope/index.css";
 import "@fontsource/jetbrains-mono/400.css";
 import "@fontsource/jetbrains-mono/600.css";
 import "../styles/global.css";
@@ -118,7 +118,9 @@ const structuredData = [
         .map((alternate) => (
           <meta
             property="og:locale:alternate"
-            content={ARTICLE_LOCALES[alternate.lang]?.og ?? "en_US"}
+            content={
+              ARTICLE_LOCALES[alternate.lang as ArticleLocale]?.og ?? "en_US"
+            }
           />
         ))
     }
@@ -128,8 +130,11 @@ const structuredData = [
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:image" content={seoImageUrl} />
     <meta property="og:image:type" content={DEFAULT_SEO_IMAGE_TYPE} />
-    <meta property="og:image:width" content={DEFAULT_SEO_IMAGE_WIDTH} />
-    <meta property="og:image:height" content={DEFAULT_SEO_IMAGE_HEIGHT} />
+    <meta property="og:image:width" content={String(DEFAULT_SEO_IMAGE_WIDTH)} />
+    <meta
+      property="og:image:height"
+      content={String(DEFAULT_SEO_IMAGE_HEIGHT)}
+    />
     <meta property="og:image:alt" content={imageAlt} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
@@ -137,8 +142,8 @@ const structuredData = [
     <meta name="twitter:image" content={seoImageUrl} />
     <meta name="twitter:image:alt" content={imageAlt} />
     <title>{title}</title>
-    <script async src={googleTagScriptUrl}></script>
-    <script define:vars={{ ga4MeasurementId: GA4_MEASUREMENT_ID }}>
+    <script is:inline async src={googleTagScriptUrl}></script>
+    <script is:inline define:vars={{ ga4MeasurementId: GA4_MEASUREMENT_ID }}>
       window.dataLayer = window.dataLayer || [];
       window.gtag =
         window.gtag ||
@@ -150,10 +155,15 @@ const structuredData = [
     </script>
     {
       structuredData.map((item) => (
-        <script type="application/ld+json" set:html={serializeJsonLd(item)} />
+        <script
+          is:inline
+          type="application/ld+json"
+          set:html={serializeJsonLd(item)}
+        />
       ))
     }
     <script
+      is:inline
       defer
       src={CLOUDFLARE_WEB_ANALYTICS_SCRIPT_URL}
       data-cf-beacon={cloudflareWebAnalyticsBeacon}></script>
@@ -165,6 +175,7 @@ const structuredData = [
     </main>
     <Footer locale={lang} />
     <script
+      is:inline
       define:vars={{
         countryToPricingTier: COUNTRY_TO_PRICING_TIER,
         fallbackPricingTier: FALLBACK_PRICING_TIER,
@@ -246,7 +257,7 @@ const structuredData = [
       const shell = document.querySelector(".article-page-shell");
 
       if (shell) {
-        const head = shell.querySelectorAll(
+        const head = shell.querySelectorAll<HTMLElement>(
           ":scope > a, :scope > h1, :scope > p, :scope > .mt-8",
         );
 
@@ -262,11 +273,15 @@ const structuredData = [
           ...document.querySelectorAll(".article-link-list > li, .article-cta"),
         ];
 
-        document.querySelectorAll(".article-link-list").forEach((list) => {
-          [...list.children].forEach((li, i) => {
-            li.style.setProperty("--reveal-delay", `${(i % 4) * 70}ms`);
+        document
+          .querySelectorAll<HTMLElement>(".article-link-list")
+          .forEach((list) => {
+            list
+              .querySelectorAll<HTMLElement>(":scope > li")
+              .forEach((li, i) => {
+                li.style.setProperty("--reveal-delay", `${(i % 4) * 70}ms`);
+              });
           });
-        });
 
         items.forEach((el) => el.setAttribute("data-reveal", ""));
 

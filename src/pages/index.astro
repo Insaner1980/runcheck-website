@@ -31,15 +31,19 @@ const appJsonLd = buildRuncheckSoftwareApplicationJsonLd({ site });
     ),
   ];
 
-  document.querySelectorAll("#pricing .pricing-plan").forEach((el, i) => {
-    el.style.setProperty("--reveal-delay", `${i * 130}ms`);
-    items.push(el);
-  });
+  document
+    .querySelectorAll<HTMLElement>("#pricing .pricing-plan")
+    .forEach((el, i) => {
+      el.style.setProperty("--reveal-delay", `${i * 130}ms`);
+      items.push(el);
+    });
 
-  document.querySelectorAll("#download .cta-inner > *").forEach((el, i) => {
-    el.style.setProperty("--reveal-delay", `${i * 90}ms`);
-    items.push(el);
-  });
+  document
+    .querySelectorAll<HTMLElement>("#download .cta-inner > *")
+    .forEach((el, i) => {
+      el.style.setProperty("--reveal-delay", `${i * 90}ms`);
+      items.push(el);
+    });
 
   items.forEach((el) => el.setAttribute("data-reveal", ""));
 

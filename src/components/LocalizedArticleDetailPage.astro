@@ -1,5 +1,5 @@
 ---
-import { render } from "astro:content";
+import { render, type CollectionEntry } from "astro:content";
 import ArticleCTA from "./ArticleCTA.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { ARTICLE_LOCALES } from "../data/articleLocales.mjs";
@@ -8,6 +8,15 @@ import {
   buildBreadcrumbJsonLd,
   normalizeMetaDescription,
 } from "../data/seo.mjs";
+
+type ArticleLocale = keyof typeof ARTICLE_LOCALES;
+
+interface Props {
+  locale: ArticleLocale;
+  article: CollectionEntry<"articles">;
+  hub: { title: string; href: string };
+  alternateLocales: Array<{ lang: string; path: string }>;
+}
 
 const { locale, article, hub, alternateLocales } = Astro.props;
 const { Content } = await render(article);

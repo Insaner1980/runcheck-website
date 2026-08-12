@@ -1,4 +1,5 @@
 ---
+import type { CollectionEntry } from "astro:content";
 import ArticleCTA from "./ArticleCTA.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { ARTICLE_LOCALES } from "../data/articleLocales.mjs";
@@ -7,6 +8,25 @@ import {
   buildBreadcrumbJsonLd,
   normalizeMetaDescription,
 } from "../data/seo.mjs";
+
+type ArticleLocale = keyof typeof ARTICLE_LOCALES;
+
+interface ArticleHub {
+  slug: string;
+  title: string;
+  href: string;
+  description: string;
+  metaDescription?: string;
+  sourceNumbers: number[];
+  sections?: Array<{ title?: string; sourceNumbers: number[] }>;
+}
+
+interface Props {
+  locale: ArticleLocale;
+  hub: ArticleHub;
+  articles: CollectionEntry<"articles">[];
+  alternateLocales: Array<{ lang: string; path: string }>;
+}
 
 const { locale, hub, articles, alternateLocales } = Astro.props;
 const copy = ARTICLE_LOCALES[locale];

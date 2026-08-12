@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { readFileSync, readdirSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
 import test from "node:test";
 
@@ -35,7 +35,12 @@ const canonicalFilenameStem = (file) => {
   return stem;
 };
 
-test("Italian lähdeaineisto on eheä ja vastaa ID-kohtaisia englanninkielisiä lähteitä", () => {
+test("Italian lähdeaineisto on eheä ja vastaa ID-kohtaisia englanninkielisiä lähteitä", (t) => {
+  if (!existsSync(roots.it) || !existsSync(roots.en)) {
+    t.skip("Obsidian article sources are not available on this machine.");
+    return;
+  }
+
   const italianFiles = markdownFiles(roots.it);
   const italianById = bySourceNumber(roots.it);
   const englishById = bySourceNumber(roots.en);

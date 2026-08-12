@@ -110,12 +110,12 @@ test("article search component", () => {
   assert.match(source, /data-search-input/, "input hook required");
   assert.match(
     source,
-    /isHeader\s*\?\s*'[^']*text-sm[^']*font-medium[^']*leading-5[^']*text-run-white[^']*placeholder:text-run-white/,
+    /isHeader\s*\?\s*(["'])[^"']*text-sm[^"']*font-medium[^"']*leading-5[^"']*text-run-white[^"']*placeholder:text-run-white[^"']*\1/,
     "header search input should match the primary nav link typography",
   );
   assert.match(
     source,
-    /:\s*'[^']*text-base[^']*text-run-text[^']*placeholder:text-run-muted/,
+    /:\s*(["'])[^"']*text-base[^"']*text-run-text[^"']*placeholder:text-run-muted[^"']*\1/,
     "page search input should keep the larger page-field typography",
   );
   assert.match(
@@ -130,13 +130,13 @@ test("article search component", () => {
   );
   assert.match(
     source,
-    /link\.className = 'hero-nav-panel-link'/,
+    /link\.className = ["']hero-nav-panel-link["']/,
     "search result rows should use the same hover treatment as article menu rows.",
   );
   assert.match(source, /role="listbox"/, "results must be a listbox");
   assert.match(
     source,
-    /\{!isHeader && \([\s\S]*data-search-underline/,
+    /\{\s*!isHeader && \([\s\S]*data-search-underline/,
     "underline should be limited to the page search variant, not the hero header search.",
   );
 

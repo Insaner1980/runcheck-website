@@ -184,6 +184,20 @@ test("seo metadata", () => {
     );
   }
 
+  function assertOptimizedRenderedImageUrl(imageUrl, context) {
+    if (!imageUrl || imageUrl.startsWith("data:")) {
+      return;
+    }
+
+    const parsed = imageUrl.startsWith("http")
+      ? new URL(imageUrl)
+      : new URL(imageUrl, site);
+    assert.ok(
+      [".webp", ".svg"].includes(path.extname(parsed.pathname)),
+      `${context} should use a WebP or SVG image.`,
+    );
+  }
+
   for (const file of htmlFiles) {
     const html = readFileSync(file, "utf8");
     const head = html.match(/<head[^>]*>([\s\S]*?)<\/head>/i)?.[1] ?? "";
@@ -404,13 +418,13 @@ test("seo metadata", () => {
     );
     assertWebpImageUrl(metaByProp("og:image"), `${url} Open Graph image`);
     for (const imageTag of imageTags) {
-      assertWebpImageUrl(
+      assertOptimizedRenderedImageUrl(
         imageTag.attrs.src,
         `${url} rendered image ${imageTag.attrs.src}`,
       );
       for (const srcsetItem of (imageTag.attrs.srcset ?? "").split(",")) {
         const candidate = srcsetItem.trim().split(/\s+/)[0];
-        assertWebpImageUrl(
+        assertOptimizedRenderedImageUrl(
           candidate,
           `${url} rendered image srcset candidate ${candidate}`,
         );

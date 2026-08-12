@@ -28,7 +28,9 @@ export async function getStaticPaths() {
 }
 
 const { hub, articles } = Astro.props;
-const sections = hub.sections ?? [{ sourceNumbers: hub.sourceNumbers }];
+const sections = hub.sections ?? [
+  { title: undefined, sourceNumbers: hub.sourceNumbers },
+];
 const site = Astro.site ?? new URL("https://runcheckapp.com");
 const breadcrumbJsonLd = buildBreadcrumbJsonLd(
   [

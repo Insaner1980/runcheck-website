@@ -7,12 +7,12 @@ test("footer layout", () => {
 
   assert.match(
     footer,
-    /class="footer-copyright md:justify-self-end">&copy; \{year\} runcheck<\/p>/,
+    /class="footer-meta [^"]*md:justify-self-end[^"]*"[\s\S]*class="footer-copyright">&copy; \{year\} runcheck<\/p>/,
     "Footer should render the copyright in its dedicated layout slot.",
   );
   assert.match(
     footer,
-    /<Image src=\{logo\}/,
+    /<Image\s+[^>]*src=\{logo\}/s,
     "Footer should use the shared image asset for the brand mark.",
   );
   assert.match(

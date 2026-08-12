@@ -5,6 +5,7 @@ import test from "node:test";
 test("faq content", () => {
   const source = readFileSync("src/components/FAQ.astro", "utf8");
   const styles = readFileSync("src/styles/global.css", "utf8");
+  const visibleSource = source.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
 
   const expectedQuestions = [
     "What does runcheck actually check?",
@@ -27,8 +28,8 @@ test("faq content", () => {
     );
   }
 
-  const questions = [...source.matchAll(/question:\s*'/g)];
-  const answers = [...source.matchAll(/answer:\s*'/g)];
+  const questions = [...source.matchAll(/question:\s*["']/g)];
+  const answers = [...source.matchAll(/answer:\s*["']/g)];
 
   assert.equal(questions.length, 10, "FAQ should define exactly 10 questions.");
   assert.equal(answers.length, 10, "FAQ should define exactly 10 answers.");
@@ -48,7 +49,7 @@ test("faq content", () => {
     "FAQ heading should stay unchanged.",
   );
   assert.match(
-    source,
+    visibleSource,
     /Built for everyday phone owners, with enough technical detail to explain what runcheck measures, when it runs, what Pro unlocks, and where the privacy boundaries are\./,
     "FAQ intro copy should stay unchanged.",
   );

@@ -66,12 +66,12 @@ test("pricing content", () => {
   );
   assert.match(
     source,
-    /import RegionalPrice from '\.\/RegionalPrice\.astro';/,
+    /import RegionalPrice from ["']\.\/RegionalPrice\.astro["'];/,
     "Pricing should use the shared regional price component.",
   );
   assert.match(
     source,
-    /import RegionalPricingNote from '\.\/RegionalPricingNote\.astro';/,
+    /import RegionalPricingNote from ["']\.\/RegionalPricingNote\.astro["'];/,
     "Pricing should use the shared regional pricing note component.",
   );
   assert.match(
@@ -106,7 +106,7 @@ test("pricing content", () => {
   );
   assert.match(
     source,
-    /<p class="pricing-plan-section-label">ESSENTIAL CHECKS FOR YOUR PHONE'S CURRENT CONDITION\.<\/p>/,
+    /<p class="pricing-plan-section-label">\s*ESSENTIAL CHECKS FOR YOUR PHONE'S CURRENT CONDITION\.\s*<\/p>/s,
     "Free summary should be an uppercase section label.",
   );
   assert.match(
@@ -116,7 +116,7 @@ test("pricing content", () => {
   );
   assert.match(
     source,
-    /<p class="pricing-price-metal" aria-live="polite"><RegionalPrice plan="free" \/><\/p>/,
+    /<p class="pricing-price-metal" aria-live="polite">\s*<RegionalPrice plan="free" \/>\s*<\/p>/s,
     "Free should render through the regional price component.",
   );
   assert.match(
@@ -156,12 +156,12 @@ test("pricing content", () => {
   );
   assert.match(
     source,
-    /<p class="pricing-plan-trial">7-day free trial\. <span class="pricing-plan-purchase">One-time purchase\.<\/span><\/p>/,
+    /<p class="pricing-plan-trial">\s*7-day free trial\.\s*<span class="pricing-plan-purchase"\s*>\s*One-time purchase\.\s*<\/span\s*>\s*<\/p>/s,
     "One-time purchase should sit after the trial line on the same line.",
   );
   assert.match(
     source,
-    /<\/div>\s*<div class="pricing-trial-divider" aria-hidden="true"><\/div>\s*<p class="pricing-plan-trial">7-day free trial\. <span class="pricing-plan-purchase">One-time purchase\.<\/span><\/p>/,
+    /<\/div>\s*<div class="pricing-trial-divider" aria-hidden="true"><\/div>\s*<p class="pricing-plan-trial">\s*7-day free trial\.\s*<span class="pricing-plan-purchase"\s*>\s*One-time purchase\.\s*<\/span\s*>\s*<\/p>/s,
     "Pro should place a horizontal divider between the feature columns and trial note.",
   );
   assert.match(
@@ -280,7 +280,7 @@ test("pricing content", () => {
   );
   assert.match(
     baseLayout,
-    /fetch\('\/cdn-cgi\/trace'/,
+    /fetch\(["']\/cdn-cgi\/trace["']/,
     "Pricing country detection should use Cloudflare trace.",
   );
   assert.match(
@@ -290,7 +290,7 @@ test("pricing content", () => {
   );
   assert.match(
     baseLayout,
-    /document\.querySelectorAll\('\[data-regional-price\]'\)/,
+    /document\s*\.\s*querySelectorAll\(["']\[data-regional-price\]["']\)/,
     "BaseLayout should update every regional price element.",
   );
   assert.match(
@@ -431,7 +431,7 @@ test("pricing content", () => {
   );
   assert.match(
     styles,
-    /--run-headline-blue-fill:\s*linear-gradient\(180deg,\s*var\(--color-run-blue-highlight\),\s*var\(--color-run-blue\)\)/,
+    /--run-headline-blue-fill:\s*linear-gradient\(\s*180deg,\s*var\(--color-run-blue-highlight\),\s*var\(--color-run-blue\)\s*\)/,
     "Hero blue text gradient should be a shared global token.",
   );
   assert.match(

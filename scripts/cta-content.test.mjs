@@ -5,6 +5,7 @@ import test from "node:test";
 test("cta content", () => {
   const source = readFileSync("src/components/CTA.astro", "utf8");
   const styles = readFileSync("src/styles/global.css", "utf8");
+  const visibleSource = source.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
 
   const expectedCopy = [
     "Stop guessing. Start checking.",
@@ -17,7 +18,7 @@ test("cta content", () => {
 
   for (const copy of expectedCopy) {
     assert.match(
-      source,
+      visibleSource,
       new RegExp(copy.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")),
       `Missing CTA copy: ${copy}`,
     );

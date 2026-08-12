@@ -3,6 +3,12 @@ import { Image } from "astro:assets";
 import logo from "../assets/runcheck-logo.svg";
 import { ARTICLE_LOCALES } from "../data/articleLocales.mjs";
 
+type ArticleLocale = keyof typeof ARTICLE_LOCALES;
+
+interface Props {
+  locale?: ArticleLocale;
+}
+
 const year = new Date().getFullYear();
 const { locale = "en" } = Astro.props;
 const copy = ARTICLE_LOCALES[locale];

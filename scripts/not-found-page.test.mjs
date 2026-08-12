@@ -26,6 +26,9 @@ test("the 404 document is excluded from indexing", () => {
 });
 
 test("the sitemap excludes the 404 document", () => {
-  const sitemap = readFileSync(path.join(root, "dist", "sitemap-0.xml"), "utf8");
+  const sitemap = readFileSync(
+    path.join(root, "dist", "sitemap-0.xml"),
+    "utf8",
+  );
   assert.doesNotMatch(sitemap, /https:\/\/runcheckapp\.com\/404(?:[\/.<])/);
 });

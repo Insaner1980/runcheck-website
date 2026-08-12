@@ -8,13 +8,18 @@ import {
 } from "../src/data/articleTaxonomy.mjs";
 import test from "node:test";
 
-test("articles content", () => {
+test("articles content", (t) => {
   const sourceRoot =
     "C:/Users/emmah/Documents/ObsidianVault/Projects/Active/runcheck/artikkelit/Valmiit";
   const finnishSourceRoot =
     "C:/Users/emmah/Documents/ObsidianVault/Projects/Active/runcheck/artikkelit/fi-FI";
   const generatedRoot = "src/content/articles";
   const finnishGeneratedRoot = path.join(generatedRoot, "fi");
+
+  if (!existsSync(sourceRoot) || !existsSync(finnishSourceRoot)) {
+    t.skip("Obsidian article sources are not available on this machine.");
+    return;
+  }
 
   const getMarkdownFiles = (root) =>
     readdirSync(root, { withFileTypes: true }).flatMap((entry) => {

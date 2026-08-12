@@ -28,9 +28,16 @@ test("CSV-jäsennin säilyttää lainatut pilkut ja rivinvaihdot", () => {
 test("GSC-localeanalyysi tuottaa neljä raporttia vain synteettisestä testidatasta", () => {
   const outputDir = mkdtempSync(path.join(tmpdir(), "runcheck-gsc-"));
   try {
+    const termMapFile = path.join(outputDir, "term-map.synthetic.csv");
+    writeFileSync(
+      termMapFile,
+      "locale,topic_cluster,recommended_primary_term,accepted_alternatives,notes\n",
+      "utf8",
+    );
     const analysis = runAnalysis({
       input: fixture,
       outputDir,
+      termMapFile,
       minImpressions: 50,
       maxCtr: 0.02,
       minPosition: 4,

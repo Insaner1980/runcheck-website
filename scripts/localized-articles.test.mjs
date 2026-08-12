@@ -47,7 +47,9 @@ test("localized article content and routes", () => {
         listSummary,
         `${locale} article cards should have their own summary.`,
       );
-      const parsedSummary = JSON.parse(listSummary);
+      const parsedSummary = listSummary.startsWith("'")
+        ? listSummary.slice(1, -1).replaceAll("''", "'")
+        : JSON.parse(listSummary);
       assert.ok(
         parsedSummary.length <= 110,
         `${locale} card summary should stay compact.`,

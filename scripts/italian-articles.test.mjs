@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { readFileSync, readdirSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
 import test from "node:test";
 
@@ -34,21 +34,33 @@ const parseFrontmatter = (source) => {
         }
       }),
   );
+  const tags = match[1]
+    .match(/^tags:[\t ]*\r?\n([\s\S]*?)(?=^[A-Za-z])/m)?.[1]
+    .trim()
+    .replace(/,\s*]$/, "]");
+  if (tags) data.tags = JSON.parse(tags);
   return { data, body: source.slice(match[0].length) };
 };
-const sourceTitles = new Map(
-  readdirSync(sourceRoot)
-    .filter((name) => name.endsWith(".md"))
-    .map((name) => {
-      const source = readFileSync(path.join(sourceRoot, name), "utf8");
-      return [
-        Number(name.match(/^(\d+)-/)?.[1]),
-        source.match(/^#\s+(.+)$/m)?.[1].replace(/`([^`]+)`/g, "$1"),
-      ];
-    }),
-);
+const sourceTitles = existsSync(sourceRoot)
+  ? new Map(
+      readdirSync(sourceRoot)
+        .filter((name) => name.endsWith(".md"))
+        .map((name) => {
+          const source = readFileSync(path.join(sourceRoot, name), "utf8");
+          return [
+            Number(name.match(/^(\d+)-/)?.[1]),
+            source.match(/^#\s+(.+)$/m)?.[1].replace(/`([^`]+)`/g, "$1"),
+          ];
+        }),
+    )
+  : null;
 
-test("Italian 160 preview-artikkelia täyttävät metadata-, slug- ja kieliportin", () => {
+test("Italian 160 preview-artikkelia täyttävät metadata-, slug- ja kieliportin", (t) => {
+  if (!sourceTitles) {
+    t.diagnostic(
+      "Obsidian title sources are unavailable; generated content checks continue.",
+    );
+  }
   const files = markdownFiles(generatedRoot);
   const ids = new Set();
   const routeSlugs = new Set();
@@ -82,11 +94,13 @@ test("Italian 160 preview-artikkelia täyttävät metadata-, slug- ja kieliporti
       !ids.has(data.sourceNumber),
       `sourceNumber ${data.sourceNumber} esiintyy kahdesti.`,
     );
-    assert.equal(
-      data.title,
-      sourceTitles.get(data.sourceNumber),
-      `ID ${data.sourceNumber}: title ei vastaa Italian lähde-H1:tä.`,
-    );
+    if (sourceTitles) {
+      assert.equal(
+        data.title,
+        sourceTitles.get(data.sourceNumber),
+        `ID ${data.sourceNumber}: title ei vastaa Italian lähde-H1:tä.`,
+      );
+    }
     assert.ok(
       typeof data.description === "string" && data.description.length > 0,
     );

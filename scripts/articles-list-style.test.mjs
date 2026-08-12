@@ -23,7 +23,7 @@ test("articles list style", () => {
     );
     assert.match(
       source,
-      /<a class="[^"]*\barticle-list-link\b[^"]*"/,
+      /<a\s+[^>]*class="[^"]*\barticle-list-link\b[^"]*"/s,
       `${name} should render article titles with the shared lightweight card link class.`,
     );
   }
@@ -50,7 +50,7 @@ test("articles list style", () => {
 
   assert.match(
     hubSource,
-    /<a class="article-list-link"[^>]*>\s*<span class="article-list-title">/s,
+    /<a\s+[^>]*class="article-list-link"[^>]*>\s*<span class="article-list-title">/s,
     "Hub article links should wrap the title in the shared article tile title treatment.",
   );
   assert.doesNotMatch(
@@ -65,22 +65,22 @@ test("articles list style", () => {
   );
   assert.match(
     hubSource,
-    /\{section\.title &&\s*<h2\b/,
+    /\{section\.title &&\s*\(\s*<h2\b/s,
     "Article hub section headings should only render when an explicit section title exists.",
   );
   assert.match(
     hubSource,
-    /<div class="article-page-shell article-page-shell-medium">/,
+    /<div\s+class="article-page-shell article-page-shell-medium"\s*>/s,
     "Article hub hero should use the shared article page shell for top alignment.",
   );
   assert.match(
     readFileSync("src/components/ArticleIndexPage.astro", "utf8"),
-    /<div class="article-page-shell article-page-shell-wide">/,
+    /<div\s+class="article-page-shell article-page-shell-wide"\s*>/s,
     "Articles index hero should use the shared article page shell for top alignment.",
   );
   assert.match(
     articleDetailSource,
-    /<div class="article-page-shell article-page-shell-narrow article-detail-shell">/,
+    /<div\s+class="article-page-shell article-page-shell-narrow article-detail-shell"\s*>/s,
     "Article detail hero should use the shared shell with a title offset for top alignment.",
   );
   assert.match(

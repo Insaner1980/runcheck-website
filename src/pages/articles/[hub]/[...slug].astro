@@ -20,12 +20,16 @@ export async function getStaticPaths() {
   );
   return articles.map((article) => {
     const [hub, ...slugParts] = article.id.split("/");
+    const articleHub = articleHubBySlug.get(article.data.hub);
+    if (!articleHub) {
+      throw new Error(`Article hub is missing: ${article.data.hub}`);
+    }
 
     return {
       params: { hub, slug: slugParts.join("/") },
       props: {
         article,
-        hub: articleHubBySlug.get(article.data.hub),
+        hub: articleHub,
         alternateLocales: allArticleAlternates(
           allArticles,
           article.data.sourceNumber,

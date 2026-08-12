@@ -160,27 +160,35 @@ const labels = { search, close, results, noResults, unavailable };
 <script>
   import { searchArticles } from "../data/searchIndex.mjs";
 
-  const indexPromises = new Map();
+  interface SearchItem {
+    title: string;
+    description: string;
+    hub: string;
+    tags: string[];
+    url: string;
+  }
 
-  const loadIndex = (indexUrl) => {
-    if (!indexPromises.has(indexUrl)) {
-      indexPromises.set(
-        indexUrl,
-        fetch(indexUrl)
-          .then((response) => {
-            if (!response.ok) {
-              throw new Error(`Search index failed: ${response.status}`);
-            }
-            return response.json();
-          })
-          .catch((error) => {
-            indexPromises.delete(indexUrl);
-            throw error;
-          }),
-      );
+  const indexPromises = new Map<string, Promise<SearchItem[]>>();
+
+  const loadIndex = (indexUrl: string) => {
+    const existing = indexPromises.get(indexUrl);
+    if (existing) {
+      return existing;
     }
 
-    return indexPromises.get(indexUrl);
+    const request = fetch(indexUrl)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`Search index failed: ${response.status}`);
+        }
+        return response.json() as Promise<SearchItem[]>;
+      })
+      .catch((error) => {
+        indexPromises.delete(indexUrl);
+        throw error;
+      });
+    indexPromises.set(indexUrl, request);
+    return request;
   };
 
   const widgets = document.querySelectorAll("[data-article-search]");
@@ -210,13 +218,13 @@ const labels = { search, close, results, noResults, unavailable };
     }
 
     const isHeader = widget.getAttribute("data-variant") === "header";
-    let index = [];
-    let current = [];
+    let index: SearchItem[] = [];
+    let current: SearchItem[] = [];
     let activeIndex = -1;
 
-    const optionId = (i) => `${results.id}-option-${i}`;
+    const optionId = (i: number) => `${results.id}-option-${i}`;
 
-    const setFieldOpen = (open) => {
+    const setFieldOpen = (open: boolean) => {
       field.dataset.open = String(open);
       shell.dataset.open = String(open);
       input.dataset.open = String(open);
@@ -229,7 +237,7 @@ const labels = { search, close, results, noResults, unavailable };
       }
     };
 
-    const setResultsOpen = (open) => {
+    const setResultsOpen = (open: boolean) => {
       results.dataset.open = String(open);
       input.setAttribute("aria-expanded", String(open));
       if (!open) {
@@ -238,13 +246,13 @@ const labels = { search, close, results, noResults, unavailable };
       }
     };
 
-    const setUnderlineActive = (active) => {
+    const setUnderlineActive = (active: boolean) => {
       if (underline instanceof HTMLElement) {
         underline.dataset.active = String(active);
       }
     };
 
-    const appendStatus = (message) => {
+    const appendStatus = (message: string) => {
       const item = document.createElement("li");
       item.className = "px-3 py-2.5 text-sm text-run-white/55";
       item.setAttribute("role", "option");
@@ -254,7 +262,7 @@ const labels = { search, close, results, noResults, unavailable };
       setResultsOpen(true);
     };
 
-    const appendResult = (item, i) => {
+    const appendResult = (item: SearchItem, i: number) => {
       const option = document.createElement("li");
       option.id = optionId(i);
       option.setAttribute("role", "option");
@@ -319,7 +327,7 @@ const labels = { search, close, results, noResults, unavailable };
       }
     };
 
-    const move = (delta) => {
+    const move = (delta: number) => {
       if (current.length === 0) {
         return;
       }

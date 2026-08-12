@@ -16,6 +16,9 @@ export async function getStaticPaths() {
       .filter((item) => item.data.locale === locale)
       .map((article) => {
         const hub = hubs.get(article.data.hub);
+        if (!hub) {
+          throw new Error(`Article hub is missing: ${article.data.hub}`);
+        }
         return {
           params: {
             locale,

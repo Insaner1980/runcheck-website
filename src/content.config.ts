@@ -1,5 +1,6 @@
-import { defineCollection, z } from "astro:content";
+import { defineCollection } from "astro:content";
 import { glob } from "astro/loaders";
+import { z } from "astro/zod";
 import { ARTICLE_SOURCE_LOCALE_CODES } from "./data/articleLocaleConfig.mjs";
 
 const articleLocaleValues = [...ARTICLE_SOURCE_LOCALE_CODES] as [
