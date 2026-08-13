@@ -112,6 +112,20 @@ const OUTPUT_FILES = Object.freeze({
 const headerKey = (value) => value.toLowerCase().replaceAll(/[^a-z0-9]+/g, "");
 const hasPendingCsvRow = (field, row) => field.length > 0 || row.length > 0;
 
+const parseQuotedCharacter = (source, index) => {
+  const character = source[index];
+  if (character !== '"') {
+    return { text: character, quoted: true, advance: 0 };
+  }
+
+  const escaped = source[index + 1] === '"';
+  return {
+    text: escaped ? '"' : "",
+    quoted: escaped,
+    advance: Number(escaped),
+  };
+};
+
 export function parseCsv(source) {
   const rows = [];
   let row = [];
@@ -121,14 +135,10 @@ export function parseCsv(source) {
   for (let index = 0; index < source.length; index += 1) {
     const character = source[index];
     if (quoted) {
-      if (character === '"' && source[index + 1] === '"') {
-        field += '"';
-        index += 1;
-      } else if (character === '"') {
-        quoted = false;
-      } else {
-        field += character;
-      }
+      const parsed = parseQuotedCharacter(source, index);
+      field += parsed.text;
+      quoted = parsed.quoted;
+      index += parsed.advance;
     } else if (character === '"') {
       quoted = true;
     } else if (character === ",") {

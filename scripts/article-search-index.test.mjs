@@ -36,10 +36,9 @@ test("article search index", () => {
   assert.deepEqual(index[1].tags, []);
 
   for (const item of index) {
-    assert.ok(
-      item.title && item.description && item.hub,
-      "core fields present",
-    );
+    assert.ok(item.title, "title present");
+    assert.ok(item.description, "description present");
+    assert.ok(item.hub, "hub present");
     assert.match(
       item.url,
       /^\/articles\/[a-z0-9-]+\/[a-z0-9-]+\/$/,

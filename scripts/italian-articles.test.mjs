@@ -85,11 +85,9 @@ test("Italian 160 preview-artikkelia täyttävät metadata-, slug- ja kieliporti
 
     assert.equal(data.locale, "it");
     assert.equal(data.draft, false);
-    assert.ok(
-      Number.isInteger(data.sourceNumber) &&
-        data.sourceNumber >= 1 &&
-        data.sourceNumber <= 160,
-    );
+    assert.ok(Number.isInteger(data.sourceNumber));
+    assert.ok(data.sourceNumber >= 1);
+    assert.ok(data.sourceNumber <= 160);
     assert.ok(
       !ids.has(data.sourceNumber),
       `sourceNumber ${data.sourceNumber} esiintyy kahdesti.`,
@@ -111,7 +109,8 @@ test("Italian 160 preview-artikkelia täyttävät metadata-, slug- ja kieliporti
     );
     assert.ok(Array.isArray(data.tags));
     assert.ok(typeof data.hub === "string" && data.hub.length > 0);
-    assert.ok(Number.isInteger(data.order) && data.order > 0);
+    assert.ok(Number.isInteger(data.order));
+    assert.ok(data.order > 0);
     assert.equal(slug, localizedSeoSlug(data.title, "it", data.sourceNumber));
     assert.ok(slug.length <= 90);
     assert.match(slug, /^[a-z0-9]+(?:-[a-z0-9]+)*$/);

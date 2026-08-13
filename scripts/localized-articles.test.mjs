@@ -60,7 +60,8 @@ test("localized article content and routes", () => {
         `${locale} card summary should not use dot separators or em dashes.`,
       );
       const number = Number(source.match(/^sourceNumber: (\d+)$/m)?.[1]);
-      assert.ok(number >= 1 && number <= 160);
+      assert.ok(number >= 1);
+      assert.ok(number <= 160);
       assert.ok(
         !sourceNumbers.has(number),
         `${locale} sourceNumber ${number} should be unique.`,

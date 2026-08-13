@@ -183,7 +183,9 @@ const magickPath = [
 ].find((candidate) => existsSync(candidate));
 
 if (!magickPath || !existsSync(magickPath)) {
-  throw new Error("ImageMagick was not found under C:\\Program Files.");
+  throw new Error(
+    String.raw`ImageMagick was not found under C:\Program Files.`,
+  );
 }
 
 const convert = spawnSync(

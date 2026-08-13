@@ -12,6 +12,9 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 output/
+lcov.info
+.scannerwork/
+reports/
 .playwright-cli/
 .playwright-mcp/
 .sonar/

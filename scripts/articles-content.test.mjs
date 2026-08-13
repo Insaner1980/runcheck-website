@@ -336,7 +336,11 @@ test("articles content", (t) => {
       `${relativePath} should define a concise Finnish card summary.`,
     );
     assert.ok(
-      data.listSummary.length > 0 && data.listSummary.length <= 110,
+      data.listSummary.length > 0,
+      `${relativePath} Finnish card summary should not be empty.`,
+    );
+    assert.ok(
+      data.listSummary.length <= 110,
       `${relativePath} Finnish card summary should stay concise.`,
     );
     assert.match(

@@ -100,6 +100,26 @@ const parseFrontmatterString = (frontmatter, key) => {
   return match[1].trim().replace(/^['"]|['"]$/g, "");
 };
 
+const stripMarkdownLinks = (value) => {
+  let result = "";
+  let cursor = 0;
+
+  while (cursor < value.length) {
+    const labelStart = value.indexOf("[", cursor);
+    const labelEnd = value.indexOf("](", labelStart + 1);
+    const urlEnd = value.indexOf(")", labelEnd + 2);
+    if (labelStart < 0 || labelEnd < 0 || urlEnd < 0) {
+      return result + value.slice(cursor);
+    }
+
+    result +=
+      value.slice(cursor, labelStart) + value.slice(labelStart + 1, labelEnd);
+    cursor = urlEnd + 1;
+  }
+
+  return result;
+};
+
 const stripMarkdown = (value) => {
   const inlineCode = [];
   const protectedValue = value.replace(/`([^`]+)`/g, (_, code) => {
@@ -107,10 +127,9 @@ const stripMarkdown = (value) => {
     return `RUNCHECKINLINECODE${inlineCode.length - 1}END`;
   });
 
-  return protectedValue
+  return stripMarkdownLinks(protectedValue)
     .replace(/\*\*(.*?)\*\*/g, "$1")
     .replace(/\*(.*?)\*/g, "$1")
-    .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")
     .replace(/\s+/g, " ")
     .replace(
       /RUNCHECKINLINECODE(\d+)END/g,
@@ -149,17 +168,26 @@ const extractMetaDescription = (body) => {
   };
 };
 
+const isH1Line = (line) => line.startsWith("# ") || line.startsWith("#\t");
+
 const extractTitle = (body, fileName) => {
-  const match = body.match(/^#\s+([^\r\n]+)$/m);
-  if (!match) {
+  const heading = body.split(/\r?\n/).find(isH1Line)?.slice(1).trim();
+  if (!heading) {
     throw new Error(`${fileName} is missing an H1 title.`);
   }
 
-  return stripMarkdown(match[1]);
+  return stripMarkdown(heading);
 };
 
-const removeFirstH1 = (body) =>
-  body.replace(/(^|\r?\n)#\s+[^\r\n]+\r?\n+/, "$1").trimStart();
+const removeFirstH1 = (body) => {
+  const lines = body.split(/\r?\n/);
+  const headingIndex = lines.findIndex(isH1Line);
+  if (headingIndex >= 0) {
+    lines.splice(headingIndex, 1);
+    while (lines[headingIndex] === "") lines.splice(headingIndex, 1);
+  }
+  return lines.join("\n").trimStart();
+};
 
 const firstParagraph = (body) => {
   const cleaned = body
@@ -189,6 +217,12 @@ const firstLongParagraph = (body, excludedText = "") =>
 const normalizedText = (value) =>
   stripMarkdown(value).replace(/\s+/g, " ").trim();
 
+const trimTrailingPunctuation = (value) => {
+  let end = value.length;
+  while (end > 0 && ",:;.!?".includes(value[end - 1])) end -= 1;
+  return value.slice(0, end).trim();
+};
+
 const buildLocalizedListSummary = (description, title) => {
   const clean = normalizedText(description);
   const sentences = clean.split(/(?<=[.!?])\s+/);
@@ -200,16 +234,16 @@ const buildLocalizedListSummary = (description, title) => {
     return candidate.trim();
   }
 
-  const clause = candidate
-    .slice(0, 111)
-    .match(/^(.{45,110}?)[,;:](?:\s|$)/)?.[1];
+  const clause = /^(.{45,110}?)[,;:](?:\s|$)/.exec(
+    candidate.slice(0, 111),
+  )?.[1];
   if (clause) return `${clause.trim()}.`;
 
   const candidatePrefix = candidate.slice(0, 107);
   const wordBoundary = candidatePrefix.lastIndexOf(" ");
   const completeWords =
     wordBoundary < 0 ? candidatePrefix : candidatePrefix.slice(0, wordBoundary);
-  const shortened = completeWords.replace(/[,:;.!?]+$/, "").trim();
+  const shortened = trimTrailingPunctuation(completeWords);
   return `${shortened}…`;
 };
 
@@ -264,7 +298,7 @@ const formatFrontmatter = (data) =>
   ].join("\n");
 
 const sourceNumberFromPath = (file) => {
-  const match = path.basename(file).match(/^(\d+)-/);
+  const match = /^(\d+)-/.exec(path.basename(file));
   if (!match) {
     throw new Error(`${file} is missing a numeric prefix.`);
   }
@@ -365,7 +399,7 @@ async function generateArticle(
   generatedSlugs,
 ) {
   const sourceName = path.basename(sourceFile);
-  const sourceNumber = Number(sourceName.match(/^(\d+)-/)?.[1]);
+  const sourceNumber = Number(/^(\d+)-/.exec(sourceName)?.[1]);
   const hub = articleNumberToHub.get(sourceNumber);
   if (!hub) {
     throw new Error(`Article ${sourceNumber} is not assigned to a hub.`);
