@@ -23,8 +23,18 @@ test("hero content", () => {
   );
   assert.match(
     hero,
-    /runcheck-phone-condition-hero\.webp/,
-    "Hero should render the current phone preview.",
+    /runcheck-phone-condition-hero-plate\.webp/,
+    "Hero should render the plate image, whose screen mark was removed.",
+  );
+  assert.match(
+    hero,
+    /runcheck-logo\.svg\?raw/,
+    "Hero should inline the logo so its parts can be animated.",
+  );
+  assert.match(
+    styles,
+    /\.hero-logo\s*\{/,
+    "The inlined mark should be placed by its centralized global style.",
   );
   assert.doesNotMatch(
     hero,

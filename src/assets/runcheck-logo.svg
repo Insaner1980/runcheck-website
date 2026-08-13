@@ -17,9 +17,12 @@
     }
   </style>
   <defs>
-    <!-- Logon muoto: koukku (U-kaari + nuolenhannan lovi) seka nuoli. -->
-    <clipPath id="rcClip">
+    <!-- Logon muoto kahtena osana, jotta koukku ja nuoli voidaan animoida
+         erikseen. Yhdessa ne muodostavat saman merkin kuin ennen. -->
+    <clipPath id="rcClipHook">
       <path d="M 244.19,428.39 A 221.5,221.5 0 0 1 465.69,206.89 L 805.5,206.89 A 221.5,221.5 0 0 1 1027,428.39 L 1027,1300 L 940.02,1300 L 940.02,433.92 A 143.6,143.6 0 0 0 796.42,290.32 L 543.98,290.32 A 147,147 0 0 0 396.98,437.32 L 396.98,634.45 A 1,1 0 0 1 395.23,635.12 L 325.68,557.51 A 5.5,5.5 0 0 0 317.5,557.51 L 245.93,637.12 A 1,1 0 0 1 244.19,636.46 Z"/>
+    </clipPath>
+    <clipPath id="rcClipArrow">
       <path d="M 317.24,603.28 L 139.77,804.01 A 5.5,5.5 0 0 0 144.69,813.1 L 236.42,799.65 A 4,4 0 0 1 241,803.6 L 241,1300 L 402.57,1300 L 402.57,803.5 A 4,4 0 0 1 407.17,799.55 L 498.66,813.25 A 5.5,5.5 0 0 0 503.6,804.17 L 325.93,603.27 A 5.8,5.8 0 0 0 317.24,603.28 Z"/>
     </clipPath>
     <!-- Vari kulkee polkua pitkin, ei suorassa linjassa: siksi kolme osaa. -->
@@ -50,7 +53,9 @@
       <stop offset="1" stop-color="#4a9ede" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <g clip-path="url(#rcClip)">
+  <!-- Maalikerros maaritellaan kerran ja piirretaan kummankin osan lapi. -->
+  <defs>
+    <g id="rcPaint">
     <rect x="-10" y="-10" width="815.5" height="1274" fill="url(#rcA)"/>
     <path d="M 805.5,426.62 L 797.12,26.71 L 866,31.22 Z" fill="url(#rcW0)"/>
     <path d="M 805.5,426.62 L 849.39,29.03 L 917.09,42.5 Z" fill="url(#rcW1)"/>
@@ -68,5 +73,8 @@
     <g transform="skewX(-20)">
       <rect class="rc-shine" x="0" y="0" width="420" height="1254" fill="url(#rcShine)"/>
     </g>
-  </g>
+    </g>
+  </defs>
+  <g class="rc-hook" clip-path="url(#rcClipHook)"><use href="#rcPaint"/></g>
+  <g class="rc-arrow" clip-path="url(#rcClipArrow)"><use href="#rcPaint"/></g>
 </svg>

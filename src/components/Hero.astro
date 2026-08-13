@@ -1,3 +1,15 @@
+---
+// Merkki inlinetaan, jotta koukku ja nuoli voidaan animoida erikseen.
+// <img> ei salli sisaosien tyylittelya. Sama tiedosto kuin Headerissa ja
+// Footerissa, joten logolla on yksi lahde.
+import logoMark from "../assets/runcheck-logo.svg?raw";
+
+// Puhelimen ruudulle poltettu merkki on poistettu levykuvasta, jotta elava
+// SVG voidaan asettaa tasmalleen sen paikalle.
+// Uudelleenluonti: node scripts/make-hero-plate.mjs
+const phonePlate = "/assets/runcheck-phone-condition-hero-plate.webp";
+---
+
 <section
   id="hero"
   class="hero-section relative isolate overflow-hidden bg-run-bg"
@@ -30,7 +42,7 @@
       <div class="hero-visual" aria-label="runcheck app preview">
         <div class="hero-phone-stage">
           <img
-            src="/assets/runcheck-phone-condition-hero.webp"
+            src={phonePlate}
             alt="runcheck phone condition check app shown on a smartphone"
             class="hero-phone-image"
             width="568"
@@ -39,9 +51,10 @@
             decoding="async"
             fetchpriority="high"
           />
+          <div class="hero-logo" aria-hidden="true" set:html={logoMark} />
           <div class="hero-phone-mirror" aria-hidden="true">
             <img
-              src="/assets/runcheck-phone-condition-hero.webp"
+              src={phonePlate}
               alt=""
               width="568"
               height="1176"

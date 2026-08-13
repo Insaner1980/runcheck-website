@@ -872,6 +872,29 @@ a {
   user-select: none;
 }
 
+/* Elava merkki puhelimen ruudulla, poltetun merkin paikalla. Sijoitus on
+   scripts/make-hero-plate.mjs:n sovituksen tulos - aja skripti uudelleen
+   sen sijaan etta saataisit naita kasin. */
+.hero-logo {
+  position: absolute;
+  top: 29.775%;
+  left: 22.712%;
+  width: 53.171%;
+  aspect-ratio: 1 / 1;
+  pointer-events: none;
+}
+
+.hero-logo svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  /* Palauttaa hehkun, joka ruudulle poltetulla merkilla oli */
+  filter: drop-shadow(
+    0 0 0.85rem
+      color-mix(in srgb, var(--color-run-blue-highlight) 45%, transparent)
+  );
+}
+
 /* Lattiaheijastus pohjaviivan alle */
 .hero-phone-mirror {
   position: absolute;
@@ -1071,6 +1094,50 @@ a {
   }
 }
 
+/* Merkin sisaantulo: koukku asettuu ensin radaksi, nuoli nousee sen lapi.
+   Pituudet ovat SVG:n kayttoyksikoita (viewBox 0 0 1254 1254). */
+@keyframes hero-logo-hook-in {
+  from {
+    opacity: 0;
+    transform: translateY(-58px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes hero-logo-arrow-rise {
+  from {
+    opacity: 0;
+    transform: translateY(620px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Yksi pehmea sykays kun nuoli asettuu paikalleen */
+@keyframes hero-logo-settle {
+  0%,
+  100% {
+    filter: drop-shadow(
+      0 0 0.85rem
+        color-mix(in srgb, var(--color-run-blue-highlight) 45%, transparent)
+    );
+  }
+
+  45% {
+    filter: drop-shadow(
+      0 0 1.9rem
+        color-mix(in srgb, var(--color-run-blue-highlight) 85%, transparent)
+    );
+  }
+}
+
 /* Vaimea valojuova kulkee pohjaviivaa pitkin */
 @keyframes hero-baseline-scan {
   0% {
@@ -1114,6 +1181,20 @@ a {
 
   .hero-baseline::before {
     animation: hero-baseline-scan 9s ease-in-out 2s infinite;
+  }
+
+  /* Ajoitus jatkaa hero-phone-in -eleesta, jotta puhelin ja merkki
+     saapuvat yhtena liikkeena. */
+  .hero-logo .rc-hook {
+    animation: hero-logo-hook-in 0.85s cubic-bezier(0.16, 1, 0.3, 1) 0.55s both;
+  }
+
+  .hero-logo .rc-arrow {
+    animation: hero-logo-arrow-rise 1s cubic-bezier(0.16, 1, 0.3, 1) 0.75s both;
+  }
+
+  .hero-logo svg {
+    animation: hero-logo-settle 1.5s ease-in-out 1.5s 1;
   }
 }
 
