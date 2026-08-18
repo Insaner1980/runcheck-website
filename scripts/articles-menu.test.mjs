@@ -38,8 +38,13 @@ test("articles menu", () => {
   );
   assert.match(
     header,
-    /<ArticleSearch variant="header" locale=\{locale\}/,
-    "Header search should follow the current route language.",
+    /const showArticleSearch = Astro\.url\.pathname\.startsWith\(copy\.root\);/,
+    "Header search should be limited to the current language's article routes.",
+  );
+  assert.match(
+    header,
+    /\{showArticleSearch && <ArticleSearch variant="header" locale=\{locale\} \/>\}/,
+    "Header search should render only on article routes and follow the current route language.",
   );
   assert.doesNotMatch(
     globalStyles,

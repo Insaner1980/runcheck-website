@@ -12,6 +12,7 @@ interface Props {
 
 const { locale = "en" } = Astro.props;
 const copy = ARTICLE_LOCALES[locale];
+const showArticleSearch = Astro.url.pathname.startsWith(copy.root);
 const menuLabels = { open: copy.menu[0], close: copy.menu[1] };
 const navLinks = [
   { href: "/#features", label: copy.nav[0] },
@@ -109,7 +110,7 @@ const navLinks = [
         ))
       }
 
-      <ArticleSearch variant="header" locale={locale} />
+      {showArticleSearch && <ArticleSearch variant="header" locale={locale} />}
     </nav>
   </div>
 </header>
