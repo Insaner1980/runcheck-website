@@ -1,6 +1,6 @@
 ---
 title: "Så kontrollerar du om telefonen stöder 5G"
-description: "Metabeskrivning: Så tar du reda på om en Android-telefon stöder 5G, varför 5G-symbolen ändå kan saknas och hur frekvensband, abonnemang och operatörsstöd påverkar anslutningen."
+description: "Så tar du reda på om en Android-telefon stöder 5G, varför 5G-symbolen ändå kan saknas och hur frekvensband, abonnemang och operatörsstöd påverkar anslutningen."
 listSummary: "nätverk, anslutningar och android"
 hub: "network"
 sourceNumber: 101

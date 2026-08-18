@@ -1,7 +1,7 @@
 ---
 title: "Slik fungerer NAND-flashlagring i telefoner, og derfor blir den tregere"
-description: "Metabeskrivelse: Telefonlagring bruker NAND-flashminne. Her ser du hvorfor full lagring svekker ytelsen, hva TRIM og garbage collection gjør, og hvordan du holder storage I/O i god form."
-listSummary: "Metabeskrivelse: Telefonlagring bruker NAND-flashminne."
+description: "Telefonlagring bruker NAND-flashminne. Her ser du hvorfor full lagring svekker ytelsen, hva TRIM og garbage collection gjør, og hvordan du opprettholder god lagringsytelse."
+listSummary: "Telefonlagring bruker NAND-flashminne."
 hub: "storage"
 sourceNumber: 89
 order: 11
@@ -82,6 +82,6 @@ Behold ledig plass. Det er det kjedelige svaret, og fortsatt det beste.
 
 Unngå renseapper for lagring som lover en magisk fartsøkning. Mange av dem sletter bare hurtigbuffer som Android bygger opp igjen senere. Enda verre er det når de fortsetter å kjøre i bakgrunnen og skaper mer støy enn de fjerner.
 
-Slett gamle nedlastinger, fjern apper du ikke bruker, flytt store videoer ut av telefonen og la enheten ligge i ro på laderen etter en stor opprydding. Hvis telefonen støtter SD-kort, bruker du det til medier, ikke til apper som trenger rask storage I/O.
+Slett gamle nedlastinger, fjern apper du ikke bruker, flytt store videoer ut av telefonen og la enheten ligge i ro på laderen etter en stor opprydding. Hvis telefonen støtter SD-kort, bruker du det til medier, ikke til apper som trenger rask lagringstilgang.
 
 Apper som runcheck kan hjelpe ved å vise lagringspress over tid i stedet for å behandle lagring som et engangstall. Utviklingen er viktig, fordi en telefon som sakte går fra 70 % til 94 % brukt lagring, forteller deg ganske tydelig hvorfor den begynner å føles tregere.

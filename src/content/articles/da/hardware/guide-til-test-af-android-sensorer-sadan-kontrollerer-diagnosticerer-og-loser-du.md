@@ -1,5 +1,6 @@
 ---
 title: "Guide til test af Android-sensorer: Sådan kontrollerer, diagnosticerer og løser du sensorproblemer"
+metaTitle: "Guide til test af Android-sensorer"
 description: "Hvordan ved du, om automatisk rotation er gået i stykker, kompasset er forvirret, eller en app bare opfører sig dårligt? Det er det irriterende ved sensorproblemer. De virker små, indtil du har brug for navigation, opkald, kamerastabilisering, skridttælling eller automatisk lysstyrke."
 listSummary: "hardware, test og diagnostik"
 hub: "hardware"

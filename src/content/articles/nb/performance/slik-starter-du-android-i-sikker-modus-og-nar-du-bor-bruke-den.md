@@ -1,7 +1,7 @@
 ---
 title: "Slik starter du Android i sikker modus, og når du bør bruke den"
-description: "How to start Android in Safe Mode, what it disables, and how to use it to find problem apps."
-listSummary: "How to start Android in Safe Mode, what it disables, and how to use it to find problem apps."
+description: "Slik starter du Android i sikker modus, hva modusen deaktiverer, og hvordan du bruker den til å finne problematiske apper."
+listSummary: "Feilsøking med sikker modus"
 hub: "performance"
 sourceNumber: 70
 order: 7

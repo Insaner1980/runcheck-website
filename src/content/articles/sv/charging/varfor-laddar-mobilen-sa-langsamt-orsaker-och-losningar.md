@@ -1,6 +1,6 @@
 ---
 title: "Varför laddar mobilen så långsamt? Orsaker och lösningar"
-description: "Metabeskrivning: Vanliga orsaker till att en Android-telefon laddar långsamt och hur du undersöker dem, från dåliga kablar och smutsiga portar till programvaruproblem och ett åldrat batteri."
+description: "Vanliga orsaker till att en Android-telefon laddar långsamt och hur du undersöker dem, från dåliga kablar och smutsiga portar till programvaruproblem och ett åldrat batteri."
 listSummary: "laddning, batteri och android"
 hub: "charging"
 sourceNumber: 47

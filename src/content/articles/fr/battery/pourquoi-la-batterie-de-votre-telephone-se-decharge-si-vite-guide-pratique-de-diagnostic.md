@@ -1,5 +1,6 @@
 ---
 title: "Pourquoi la batterie de votre téléphone se décharge si vite : guide pratique de diagnostic Android"
+metaTitle: "Pourquoi la batterie de votre téléphone se décharge vite"
 description: "Une décharge rapide a toujours une cause. Elle peut être très banale, comme une luminosité élevée ou un signal médiocre, mais elle n'est pas aléatoire."
 listSummary: "Une décharge rapide a toujours une cause."
 hub: "battery"

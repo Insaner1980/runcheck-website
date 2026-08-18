@@ -1,5 +1,6 @@
 ---
 title: "Warum sich der Akku deines Smartphones so schnell entlädt: eine praktische Android-Diagnose"
+metaTitle: "Warum sich dein Smartphone-Akku schnell entlädt"
 description: "Ein schnell leerer Akku hat eine Ursache. Manchmal ist sie ziemlich banal, etwa eine hohe Displayhelligkeit oder schlechter Empfang. Zufällig passiert es aber nicht."
 listSummary: "Ein schnell leerer Akku hat eine Ursache."
 hub: "battery"

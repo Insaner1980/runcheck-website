@@ -1,6 +1,6 @@
 ---
 title: "Lader telefonen raskere i flymodus?"
-description: "Metabeskrivelse: Flymodus kan få en Android-telefon til å lade litt raskere, særlig ved svakt signal eller med en langsom lader. Laderen, kabelen, varmen og skjermbruken betyr mer."
+description: "Flymodus kan få en Android-telefon til å lade litt raskere, særlig ved svakt signal eller med en langsom lader. Laderen, kabelen, varmen og skjermbruken betyr mer."
 listSummary: "lading, batteri og android"
 hub: "myths"
 sourceNumber: 148

@@ -1,5 +1,6 @@
 ---
 title: "Får min telefon stadig support? Sådan tjekker du Androids opdaterings- og sikkerhedsperiode"
+metaTitle: "Får min telefon stadig support?"
 description: "Din telefon kan se helt normal ud og alligevel være forbi sin sikre opdateringsperiode. Opkald virker. Apps åbner. Kameraet tager stadig billeder. Men hvis producenten er holdt op med at udsende sikkerhedsrettelser, bliver nyopdagede Android-fejl ikke rettet på enheden."
 listSummary: "Din telefon kan se helt normal ud og alligevel være forbi sin sikre opdateringsperiode."
 hub: "software"

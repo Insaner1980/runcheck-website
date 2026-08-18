@@ -1,7 +1,7 @@
 ---
 title: "Androids diagnostikkoder: komplett lista per tillverkare"
-description: "Metabeskrivning: Diagnostikkoder för Android per tillverkare, inklusive Samsung, Pixel, Xiaomi, OnePlus, Motorola, OPPO och Realme, med aktuella kommentarer om Android 17."
-listSummary: "diagnostik, sensorer och android"
+description: "Diagnostikkoder för Android per tillverkare, inklusive Samsung, Pixel, Xiaomi, OnePlus, Motorola, OPPO och Realme, med aktuella kommentarer om Android 17."
+listSummary: "Diagnostikkoder per tillverkare"
 hub: "hardware"
 sourceNumber: 112
 order: 9

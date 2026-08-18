@@ -1,7 +1,7 @@
 ---
-title: "Diagnostikkoder for Android: komplett liste etter produsent"
-description: "Android-servicekoder som virker, sortert etter merke, med oppdaterte merknader om Android 17, Pixel-enheter, Samsung, Xiaomi, OnePlus, Motorola, Huawei, Realme og Oppo."
-listSummary: "diagnostikk, sensorer og android"
+title: "Android-servicekoder etter merke: hvilke fungerer fortsatt?"
+description: "Service- og testkoder for Android etter merke, med oppdaterte opplysninger om hvilke som fortsatt fungerer og hvilke begrensninger som gjelder for Pixel, Samsung, Xiaomi, OnePlus, Motorola, Huawei, Realme og Oppo."
+listSummary: "Service- og testkoder som fortsatt fungerer"
 hub: "hardware"
 sourceNumber: 113
 order: 10

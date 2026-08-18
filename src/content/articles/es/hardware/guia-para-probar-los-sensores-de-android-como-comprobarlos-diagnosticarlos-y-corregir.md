@@ -1,5 +1,6 @@
 ---
 title: "Guía para probar los sensores de Android: cómo comprobarlos, diagnosticarlos y corregir fallos"
+metaTitle: "Guía para probar los sensores de Android"
 description: "¿Cómo sabes si el giro automático está averiado, la brújula se ha desorientado o una aplicación se comporta mal? Esa es la parte molesta de los problemas con sensores. Parecen pequeños hasta que necesitas que funcionen la navegación, las llamadas, la estabilización de la cámara, el recuento de pasos o el brillo automático."
 listSummary: "hardware, pruebas y diagnostico"
 hub: "hardware"

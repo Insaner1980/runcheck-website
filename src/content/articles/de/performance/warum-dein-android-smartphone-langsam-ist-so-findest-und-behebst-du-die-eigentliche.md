@@ -1,5 +1,6 @@
 ---
 title: "Warum dein Android-Smartphone langsam ist: So findest und behebst du die eigentliche Ursache"
+metaTitle: "Warum dein Android-Smartphone langsam ist"
 description: "Dein Android-Smartphone ist langsamer als früher, und wahrscheinlich bildest du dir das nicht ein. Die Tastatur hinkt deinen Eingaben hinterher, Apps laden beim Zurückwechseln neu, und die Kamera braucht genau im falschen Moment eine zusätzliche Sekunde zum Öffnen."
 listSummary: "Dein Android-Smartphone ist langsamer als früher, und wahrscheinlich bildest du dir das nicht ein."
 hub: "performance"

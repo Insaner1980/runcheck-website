@@ -1,7 +1,7 @@
 ---
 title: "Diagnostikkoder for Android: komplett liste etter produsent"
 description: "Diagnostikkoder som skrives inn i ringeappen på Android, sortert etter produsent, blant annet Samsung, Pixel, Xiaomi, OnePlus, Motorola, OPPO og Realme, med oppdaterte merknader om Android 17."
-listSummary: "diagnostikk, sensorer og android"
+listSummary: "Diagnostikkoder etter produsent"
 hub: "hardware"
 sourceNumber: 112
 order: 9

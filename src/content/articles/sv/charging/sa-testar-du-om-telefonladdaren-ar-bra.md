@@ -1,6 +1,6 @@
 ---
 title: "Så testar du om telefonladdaren är bra"
-description: "Metabeskrivning: Lär dig testa om laddaren till din Android-telefon ger rätt effekt med appar, kabelbyten, fysisk kontroll och USB-effektmätare."
+description: "Lär dig testa om laddaren till din Android-telefon ger rätt effekt med appar, kabelbyten, fysisk kontroll och USB-effektmätare."
 listSummary: "laddning, batteri och android"
 hub: "charging"
 sourceNumber: 44

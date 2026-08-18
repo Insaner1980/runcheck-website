@@ -1,6 +1,6 @@
 ---
 title: "Originale ladere eller tredjepartsladere: spiller det noen rolle?"
-description: "Metabeskrivelse: Når den originale Android-laderen har noe å si, når en seriøs tredjepartslader med USB-C er like god, og hvordan du unngår utrygt ladeutstyr."
+description: "Når den originale Android-laderen har noe å si, når en seriøs tredjepartslader med USB-C er like god, og hvordan du unngår utrygt ladeutstyr."
 listSummary: "lading, batteri og android"
 hub: "charging"
 sourceNumber: 49

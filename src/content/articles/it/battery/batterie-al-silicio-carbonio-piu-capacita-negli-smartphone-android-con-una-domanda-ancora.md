@@ -1,5 +1,6 @@
 ---
 title: "Batterie al silicio-carbonio: più capacità negli smartphone Android, con una domanda ancora aperta"
+metaTitle: "Batterie al silicio-carbonio: come funzionano"
 description: "Prendi un top di gamma Android del 2026 di OnePlus, Xiaomi, Honor o Motorola e il dato sulla batteria può sembrare insolito. Un valore così alto un tempo significava uno smartphone spesso. Ora si trovano capacità superiori a 7.000 mAh in scocche che non sembrano power bank."
 listSummary: "Prendi un top di gamma Android del 2026 di OnePlus."
 hub: "battery"

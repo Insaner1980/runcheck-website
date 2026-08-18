@@ -1,6 +1,6 @@
 ---
 title: "Slik løser du Bluetooth-problemer på Android"
-description: "Metabeskrivelse: Praktiske løsninger på Bluetooth-problemer på Android, blant annet feil ved sammenkobling, lyd som faller ut, problemer med bilstereo og feil etter Android-oppdateringer."
+description: "Praktiske løsninger på Bluetooth-problemer på Android, blant annet feil ved sammenkobling, lyd som faller ut, problemer med bilstereo og feil etter Android-oppdateringer."
 listSummary: "nettverk, tilkobling og android"
 hub: "network"
 sourceNumber: 98

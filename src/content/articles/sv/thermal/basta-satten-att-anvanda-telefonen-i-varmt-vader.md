@@ -1,7 +1,7 @@
 ---
-title: "Bästa sätten att använda telefonen i varmt väder"
-description: "Metabeskrivning: Varmt väder belastar telefonens batteri och processor extra mycket. De här praktiska vanorna hjälper till att förebygga överhettning, termiska avstängningar och långsiktigt batterislitage under sommaren."
-listSummary: "Metabeskrivning: Varmt väder belastar telefonens batteri och processor extra mycket."
+title: "De bästa sätten att använda telefonen i varmt väder"
+description: "Varmt väder belastar telefonens batteri och processor extra mycket. De här praktiska vanorna hjälper till att förebygga överhettning, termiska avstängningar och långsiktigt batterislitage under sommaren."
+listSummary: "Varmt väder belastar telefonens batteri och processor extra mycket."
 hub: "thermal"
 sourceNumber: 63
 order: 11

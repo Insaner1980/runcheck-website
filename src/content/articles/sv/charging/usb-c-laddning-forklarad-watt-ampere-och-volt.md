@@ -1,6 +1,6 @@
 ---
 title: "USB-C-laddning förklarad: watt, ampere och volt"
-description: "Metabeskrivning: Vad watt, ampere och volt betyder vid laddning av Android-telefoner, hur USB Power Delivery fungerar och varför alla USB-C-laddare inte ger samma hastighet."
+description: "Vad watt, ampere och volt betyder vid laddning av Android-telefoner, hur USB Power Delivery fungerar och varför alla USB-C-laddare inte ger samma hastighet."
 listSummary: "laddning, batteri och android"
 hub: "charging"
 sourceNumber: 46

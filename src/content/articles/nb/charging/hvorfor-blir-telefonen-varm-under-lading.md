@@ -1,6 +1,6 @@
 ---
 title: "Hvorfor blir telefonen varm under lading?"
-description: "Metabeskrivelse: Forklarer hvorfor Android-telefoner blir varme under lading, når varme er normalt, hva som forårsaker overoppheting, og hva du bør gjøre når ladingen stoppes på grunn av temperatur."
+description: "Forklarer hvorfor Android-telefoner blir varme under lading, når varme er normalt, hva som forårsaker overoppheting, og hva du bør gjøre når ladingen stoppes på grunn av temperatur."
 listSummary: "lading, batteri og android"
 hub: "charging"
 sourceNumber: 52

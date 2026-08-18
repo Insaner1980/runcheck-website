@@ -1,6 +1,6 @@
 ---
 title: "Är det dåligt att använda telefonen medan den laddas?"
-description: "Metabeskrivning: Det är säkert att använda telefonen medan den laddas om laddaren och kabeln är certifierade och oskadade. Lätt användning är inget problem, men spel, videosamtal, navigering och inspelning kan skapa extra värme som sliter snabbare på batteriet."
+description: "Det är säkert att använda telefonen medan den laddas om laddaren och kabeln är certifierade och oskadade. Lätt användning är inget problem, men spel, videosamtal, navigering och inspelning kan skapa extra värme som sliter snabbare på batteriet."
 listSummary: "laddning, batteri och android"
 hub: "charging"
 sourceNumber: 41

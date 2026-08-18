@@ -30,4 +30,30 @@ test("footer layout", () => {
     /flex-col items-center gap-4 sm:flex-row sm:gap-9/,
     "Footer links should stack on mobile and sit inline on desktop.",
   );
+  assert.match(
+    footer,
+    /PUBLISHED_ARTICLE_LOCALE_CODES\.map\(\(code\) => \(\{[\s\S]*href: ARTICLE_LOCALES\[code\]\.root/,
+    "Footer article-language links should come from the published locale contract.",
+  );
+  assert.match(
+    footer,
+    /<a href=\{link\.href\} lang=\{link\.lang\}>\s*\{link\.label\}\s*<\/a>/,
+    "Footer article-language links should render as ordinary localized anchors.",
+  );
+  for (const language of [
+    "English",
+    "Suomi",
+    "Svenska",
+    "Norsk bokmål",
+    "Deutsch",
+    "Dansk",
+    "Français",
+    "Español",
+    "Italiano",
+  ]) {
+    assert.ok(
+      footer.includes(`"${language}"`),
+      `Footer should expose the human-readable language name ${language}.`,
+    );
+  }
 });

@@ -1,6 +1,6 @@
 ---
 title: "Så jämför du laddningshastigheter på Android"
-description: "Metabeskrivning: Praktiska metoder för att jämföra laddningshastigheter på Android med appar, USB-effektmätare, telefonens inbyggda ledtrådar och kontrollerade tester."
+description: "Praktiska metoder för att jämföra laddningshastigheter på Android med appar, USB-effektmätare, telefonens inbyggda ledtrådar och kontrollerade tester."
 listSummary: "laddning, batteri och android"
 hub: "charging"
 sourceNumber: 45

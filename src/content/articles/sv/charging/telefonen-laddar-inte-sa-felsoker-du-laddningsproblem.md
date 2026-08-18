@@ -1,6 +1,6 @@
 ---
 title: "Telefonen laddar inte: så felsöker du laddningsproblem"
-description: "Metabeskrivning: En praktisk checklista för Android-laddning som går igenom vägguttag, laddare, kabel, USB-C-port, fuktvarningar, helt urladdade batterier, frusen programvara och tecken på reparationsbehov."
+description: "En praktisk checklista för Android-laddning som går igenom vägguttag, laddare, kabel, USB-C-port, fuktvarningar, helt urladdade batterier, frusen programvara och tecken på reparationsbehov."
 listSummary: "Felsök laddaren, kabeln, USB-C-porten och batteriet när telefonen inte laddar."
 hub: "charging"
 sourceNumber: 48

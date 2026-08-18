@@ -1,6 +1,6 @@
 ---
 title: "Slik løser du problemer med Wi-Fi-tilkoblingen på Android"
-description: "Metabeskrivelse: Trinnvise løsninger på Wi-Fi-problemer på Android, blant annet brudd i tilkoblingen, tregt nett, problemer med lagrede nettverk, DNS-innstillinger, kontroll av ruteren og merknader om Android 17."
+description: "Trinnvise løsninger på Wi-Fi-problemer på Android, blant annet brudd i tilkoblingen, tregt nett, problemer med lagrede nettverk, DNS-innstillinger, kontroll av ruteren og merknader om Android 17."
 listSummary: "ytelse, hastighet og android"
 hub: "network"
 sourceNumber: 96

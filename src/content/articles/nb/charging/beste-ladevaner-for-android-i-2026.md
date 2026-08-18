@@ -1,6 +1,6 @@
 ---
 title: "Beste ladevaner for Android i 2026"
-description: "Metabeskrivelse: Oppdaterte råd om Android-lading i 2026, blant annet 20-80 %, varme, hurtiglading, lading om natten, trådløs lading og innstillinger på Pixel, Samsung, OnePlus og Xiaomi."
+description: "Oppdaterte råd om Android-lading i 2026, blant annet 20-80 %, varme, hurtiglading, lading om natten, trådløs lading og innstillinger på Pixel, Samsung, OnePlus og Xiaomi."
 listSummary: "lading, batteri og android"
 hub: "charging"
 sourceNumber: 50

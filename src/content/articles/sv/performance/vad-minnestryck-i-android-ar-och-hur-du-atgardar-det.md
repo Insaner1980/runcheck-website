@@ -1,7 +1,7 @@
 ---
 title: "Vad minnestryck i Android är och hur du åtgärdar det"
-description: "Metabeskrivning: Minnestryck uppstår när Android får ont om RAM och börjar stänga appar. Lär dig känna igen problemet, förstå orsakerna och se vad som faktiskt hjälper."
-listSummary: "Metabeskrivning: Minnestryck uppstår när Android får ont om RAM och börjar stänga appar."
+description: "Minnestryck uppstår när Android får ont om RAM och börjar stänga appar. Lär dig känna igen problemet, förstå orsakerna och se vad som faktiskt hjälper."
+listSummary: "Minnestryck uppstår när Android får ont om RAM och börjar stänga appar."
 hub: "performance"
 sourceNumber: 76
 order: 13

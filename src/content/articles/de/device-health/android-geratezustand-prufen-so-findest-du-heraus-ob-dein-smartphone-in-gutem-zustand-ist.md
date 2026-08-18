@@ -1,5 +1,6 @@
 ---
 title: "Android-Gerätezustand prüfen: So findest du heraus, ob dein Smartphone in gutem Zustand ist"
+metaTitle: "Android-Gerätezustand prüfen"
 description: "Smartphones gehen nicht über Nacht kaputt. Der Akku verliert langsam an Kapazität. Der Speicher füllt sich im Hintergrund. Bei denselben Aufgaben steigen die Temperaturen nach und nach. Wenn die Symptome schließlich deutlich werden, etwa zufällige Abschaltungen, träge Apps oder Überhitzung bei einfachen Aufgaben, hat sich die eigentliche Ursache meist schon über Monate entwickelt."
 listSummary: "Smartphones gehen nicht über Nacht kaputt."
 hub: "device-health"

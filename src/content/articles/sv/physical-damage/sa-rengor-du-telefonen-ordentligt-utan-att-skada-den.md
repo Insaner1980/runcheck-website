@@ -1,6 +1,6 @@
 ---
 title: "Så rengör du telefonen ordentligt utan att skada den"
-description: "Metabeskrivning: Så rengör du säkert skärmen, höljet, portarna, högtalarna och skalet på en Android-telefon utan att skada den oleofobiska beläggningen eller pressa in fukt i enheten."
+description: "Så rengör du säkert skärmen, höljet, portarna, högtalarna och skalet på en Android-telefon utan att skada den oleofobiska beläggningen eller pressa in fukt i enheten."
 listSummary: "hårdvara, testning och diagnostik"
 hub: "physical-damage"
 sourceNumber: 137

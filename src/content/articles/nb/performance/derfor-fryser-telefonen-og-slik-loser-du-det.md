@@ -1,7 +1,7 @@
 ---
 title: "Derfor fryser telefonen, og slik løser du det"
-description: "Metabeskrivelse: Fryser Android-telefonen eller slutter den å reagere? Se hva som forårsaker det, hvordan du starter den trygt på nytt, og hvordan du hindrer at problemet kommer tilbake."
-listSummary: "Metabeskrivelse: Fryser Android-telefonen eller slutter den å reagere?"
+description: "Fryser Android-telefonen eller slutter den å reagere? Se hva som forårsaker det, hvordan du starter den trygt på nytt, og hvordan du hindrer at problemet kommer tilbake."
+listSummary: "Fryser Android-telefonen eller slutter den å reagere?"
 hub: "performance"
 sourceNumber: 73
 order: 10

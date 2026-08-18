@@ -1,6 +1,6 @@
 ---
 title: "Hvorfor lader telefonen så sakte? Årsaker og løsninger"
-description: "Metabeskrivelse: Vanlige grunner til at en Android-telefon lader sakte, og hvordan du undersøker hver av dem, fra dårlige kabler og skitne porter til programvareproblemer og et slitt batteri."
+description: "Vanlige grunner til at en Android-telefon lader sakte, og hvordan du undersøker hver av dem, fra dårlige kabler og skitne porter til programvareproblemer og et slitt batteri."
 listSummary: "lading, batteri og android"
 hub: "charging"
 sourceNumber: 47

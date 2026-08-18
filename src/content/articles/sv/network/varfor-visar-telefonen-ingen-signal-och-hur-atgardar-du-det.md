@@ -1,6 +1,6 @@
 ---
 title: "Varför visar telefonen ingen signal, och hur åtgärdar du det?"
-description: "Metabeskrivning: Praktiska steg för att åtgärda meddelanden som Ingen signal, Ingen tjänst och Endast nödsamtal på Android-telefoner, inklusive kontroller av SIM, eSIM, operatör, APN, uppdateringar och hårdvara."
+description: "Praktiska steg för att åtgärda meddelanden som Ingen signal, Ingen tjänst och Endast nödsamtal på Android-telefoner, inklusive kontroller av SIM, eSIM, operatör, APN, uppdateringar och hårdvara."
 listSummary: "nätverk, anslutningar och android"
 hub: "network"
 sourceNumber: 102

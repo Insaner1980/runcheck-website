@@ -1,6 +1,6 @@
 ---
 title: "Så testar du telefonens fingeravtryckssensor på Android"
-description: "Metabeskrivning: Så kontrollerar du om fingeravtryckssensorn på en Android-telefon fungerar, med inbyggd diagnostik, koder i telefonappen, Pixel-verktyg, Samsung Members, Xiaomi CIT och enkla praktiska tester."
+description: "Så kontrollerar du om fingeravtryckssensorn på en Android-telefon fungerar, med inbyggd diagnostik, koder i telefonappen, Pixel-verktyg, Samsung Members, Xiaomi CIT och enkla praktiska tester."
 listSummary: "diagnostik, sensorer och android"
 hub: "hardware"
 sourceNumber: 114

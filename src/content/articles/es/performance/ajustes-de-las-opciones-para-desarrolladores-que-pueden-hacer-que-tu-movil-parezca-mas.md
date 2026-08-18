@@ -1,5 +1,6 @@
 ---
 title: "Ajustes de las Opciones para desarrolladores que pueden hacer que tu móvil parezca más rápido"
+metaTitle: "Opciones para desarrolladores de Android y rendimiento"
 description: "Qué Opciones para desarrolladores de Android pueden hacer que un móvil parezca más rápido, cuáles son arriesgadas y cuáles conviene dejar en paz."
 listSummary: "rendimiento, velocidad y android"
 hub: "performance"

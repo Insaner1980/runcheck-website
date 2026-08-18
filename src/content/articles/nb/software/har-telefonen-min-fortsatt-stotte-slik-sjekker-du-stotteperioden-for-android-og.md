@@ -1,5 +1,6 @@
 ---
 title: "Har telefonen min fortsatt støtte? Slik sjekker du støtteperioden for Android- og sikkerhetsoppdateringer"
+metaTitle: "Har telefonen min fortsatt støtte?"
 description: "Telefonen kan se helt normal ut selv om den har passert den trygge oppdateringsperioden. Samtaler virker. Apper åpner. Kameraet tar fortsatt bilder. Men hvis produsenten har sluttet å sende sikkerhetsoppdateringer, blir ikke nye Android-feil rettet på den enheten."
 listSummary: "Telefonen kan se helt normal ut selv om den har passert den trygge oppdateringsperioden."
 hub: "software"

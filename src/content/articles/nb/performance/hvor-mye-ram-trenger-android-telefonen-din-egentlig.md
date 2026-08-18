@@ -1,6 +1,6 @@
 ---
 title: "Hvor mye RAM trenger Android-telefonen din egentlig?"
-description: "Hvor mye RAM er nok i en Android-telefon i 2026? For de fleste er 8 GB den nedre grensen jeg faktisk ville kjøpt. Vil du ha bedre fleroppgavekjøring, AI-funksjoner som kjører på selve telefonen, eller en telefon du skal beholde i flere år, er 12 GB et tryggere valg."
+description: "Hvor mye RAM er nok i en Android-telefon i 2026? For de fleste er 8 GB den nedre grensen for hva jeg faktisk ville kjøpt. Vil du ha bedre fleroppgavekjøring, AI-funksjoner som kjører på selve telefonen, eller en telefon du skal beholde i flere år, er 12 GB et tryggere valg."
 listSummary: "Hvor mye RAM er nok i en Android-telefon i 2026?"
 hub: "performance"
 sourceNumber: 66

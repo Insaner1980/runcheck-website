@@ -1,5 +1,6 @@
 ---
 title: "Le mode Doze d'Android expliqué : comment le téléphone économise la batterie pendant son sommeil"
+metaTitle: "Le mode Doze d'Android expliqué"
 description: "Le mode Doze d'Android réduit la décharge en veille en retardant certaines tâches en arrière-plan lorsque le téléphone est inactif. Voici ce qu'il limite, pourquoi des notifications peuvent arriver en retard et quand exempter une application."
 listSummary: "batterie, optimisation et android"
 hub: "battery"

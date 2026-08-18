@@ -196,7 +196,7 @@ test("hyväksytyt H1- ja metadata-arvot näkyvät tuotantobuildin HTML:ssä", ()
   }
 });
 
-test("listSummary-pilotti muuttaa täsmälleen 53 prioriteettisummaa ja jättää 533 tagiluetteloa myöhemmäksi", () => {
+test("listSummary-pilotti muuttaa täsmälleen 53 prioriteettisummaa ja jättää 529 tagiluetteloa myöhemmäksi", () => {
   const pilotKeys = Object.entries(pilotIds).flatMap(([locale, ids]) =>
     ids.map((sourceNumber) => `${locale}:${sourceNumber}`),
   );
@@ -230,7 +230,7 @@ test("listSummary-pilotti muuttaa täsmälleen 53 prioriteettisummaa ja jättä�
   const remainingTagLists = articles.filter((article) =>
     tagListPattern.test(value(article.source, "listSummary")),
   );
-  assert.equal(remainingTagLists.length, 533);
+  assert.equal(remainingTagLists.length, 529);
   assert.deepEqual(
     Object.fromEntries(
       publishedLocalizedLocales.map((locale) => [
@@ -238,7 +238,7 @@ test("listSummary-pilotti muuttaa täsmälleen 53 prioriteettisummaa ja jättä�
         remainingTagLists.filter((article) => article.locale === locale).length,
       ]),
     ),
-    { fi: 70, sv: 69, nb: 65, da: 73, de: 79, fr: 93, es: 84 },
+    { fi: 70, sv: 67, nb: 63, da: 73, de: 79, fr: 93, es: 84 },
   );
 });
 

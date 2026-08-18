@@ -1,6 +1,6 @@
 ---
 title: "Er det sant at telefoner blir gjort tregere med vilje?"
-description: "Metabeskrivelse: Telefoner kan bli tregere på grunn av batterialdring, tyngre programvare, lite ledig lagring, varme og dårlige oppdateringer. Bevisst struping har skjedd, men det forklarer ikke alt."
+description: "Telefoner kan bli tregere på grunn av batterialdring, tyngre programvare, lite ledig lagring, varme og dårlige oppdateringer. Bevisst struping har skjedd, men det forklarer ikke alt."
 listSummary: "ytelse, hastighet og android"
 hub: "myths"
 sourceNumber: 150

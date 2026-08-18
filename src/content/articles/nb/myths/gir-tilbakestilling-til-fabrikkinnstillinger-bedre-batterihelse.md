@@ -1,6 +1,6 @@
 ---
 title: "Gir tilbakestilling til fabrikkinnstillinger bedre batterihelse?"
-description: "Metabeskrivelse: En tilbakestilling til fabrikkinnstillinger kan gi bedre batteritid på Android hvis programvaren trekker strøm, men den kan ikke gjenopprette batterihelsen eller reversere fysisk slitasje."
+description: "En tilbakestilling til fabrikkinnstillinger kan gi bedre batteritid på Android hvis programvaren trekker strøm, men den kan ikke gjenopprette batterihelsen eller reversere fysisk slitasje."
 listSummary: "batteri, helse og diagnostikk"
 hub: "myths"
 sourceNumber: 152

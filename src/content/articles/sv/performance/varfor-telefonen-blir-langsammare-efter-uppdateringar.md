@@ -1,6 +1,6 @@
 ---
 title: "Varför telefonen blir långsammare efter uppdateringar"
-description: "Why Android phones can feel slow after updates, when it is normal, and what to do if performance does not recover."
+description: "Varför Android-telefoner kan kännas långsamma efter uppdateringar, när det är normalt och vad du kan göra om prestandan inte återhämtar sig."
 listSummary: "prestanda, hastighet och android"
 hub: "performance"
 sourceNumber: 68

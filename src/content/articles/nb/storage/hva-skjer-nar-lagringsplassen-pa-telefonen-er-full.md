@@ -1,6 +1,6 @@
 ---
 title: "Hva skjer når lagringsplassen på telefonen er full"
-description: "Metabeskrivelse: En full Android-telefon kan svikte på helt vanlige måter: kamerafeil, appkrasj, oppdateringer som stopper opp og treg fillagring. Her er det som bryter sammen først, og hvor mye ledig plass du bør beholde."
+description: "En full Android-telefon kan svikte på helt vanlige måter: kamerafeil, appkrasj, oppdateringer som stopper opp og treg fillagring. Her er det som bryter sammen først, og hvor mye ledig plass du bør beholde."
 listSummary: "ytelse, hastighet og android"
 hub: "storage"
 sourceNumber: 81

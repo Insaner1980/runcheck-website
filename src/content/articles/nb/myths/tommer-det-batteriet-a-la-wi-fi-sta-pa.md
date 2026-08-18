@@ -1,7 +1,7 @@
 ---
 title: "Tømmer det batteriet å la Wi-Fi stå på?"
-description: "Metabeskrivelse: Det bruker vanligvis lite batteri å la Wi-Fi stå på i Android. De virkelige problemene er skanning, svakt signal, dårlige apper og svak mobildekning."
-listSummary: "Metabeskrivelse: Det bruker vanligvis lite batteri å la Wi-Fi stå på i Android."
+description: "Det bruker vanligvis lite batteri å la Wi-Fi stå på i Android. De virkelige problemene er skanning, svakt signal, dårlige apper og svak mobildekning."
+listSummary: "Det bruker vanligvis lite batteri å la Wi-Fi stå på i Android."
 hub: "myths"
 sourceNumber: 149
 order: 5

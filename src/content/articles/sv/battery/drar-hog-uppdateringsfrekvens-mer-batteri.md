@@ -1,6 +1,6 @@
 ---
 title: "Drar hög uppdateringsfrekvens mer batteri?"
-description: "Metabeskrivning: En skärm på 120 Hz kan använda mer batteri än en på 60 Hz, särskilt om uppdateringsfrekvensen är fast. Telefoner med adaptiv skärm minskar kostnaden genom att sänka frekvensen när snabb rörelse inte behövs."
+description: "En skärm på 120 Hz kan använda mer batteri än en på 60 Hz, särskilt om uppdateringsfrekvensen är fast. Telefoner med adaptiv skärm minskar kostnaden genom att sänka frekvensen när snabb rörelse inte behövs."
 listSummary: "batteri, myter och android"
 hub: "battery"
 sourceNumber: 30

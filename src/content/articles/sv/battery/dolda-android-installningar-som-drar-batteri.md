@@ -1,6 +1,6 @@
 ---
 title: "Dolda Android-inställningar som drar batteri"
-description: "Metabeskrivning: Android kan fortsätta använda wifi-sökning, Bluetooth-sökning, bakgrundssynkronisering, platskontroller och always-on display (AOD) även när mobilen inte används. De här inställningarna är värda att kontrollera om förbrukningen i viloläge är för hög."
+description: "Android kan fortsätta använda wifi-sökning, Bluetooth-sökning, bakgrundssynkronisering, platskontroller och always-on display (AOD) även när mobilen inte används. De här inställningarna är värda att kontrollera om förbrukningen i viloläge är för hög."
 listSummary: "android, uppdateringar och säkerhet"
 hub: "battery"
 sourceNumber: 33

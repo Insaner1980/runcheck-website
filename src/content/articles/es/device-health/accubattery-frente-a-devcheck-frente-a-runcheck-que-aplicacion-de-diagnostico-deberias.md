@@ -1,5 +1,6 @@
 ---
 title: "AccuBattery frente a DevCheck frente a runcheck: ¿qué aplicación de diagnóstico deberías usar?"
+metaTitle: "AccuBattery vs DevCheck vs runcheck"
 description: "Comparativa de AccuBattery, DevCheck y runcheck según el seguimiento de la batería, el nivel de detalle del hardware, la compatibilidad con versiones de Android y su utilidad práctica para diagnosticar un móvil."
 listSummary: "comparacion, aplicaciones y android"
 hub: "device-health"

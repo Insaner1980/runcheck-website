@@ -1,5 +1,6 @@
 ---
 title: "Diagnostic de l'état d'un appareil Android : comment vérifier si votre téléphone est en bon état"
+metaTitle: "Diagnostic de l'état d'un appareil Android"
 description: "Un téléphone ne tombe pas en panne du jour au lendemain. La batterie perd lentement de sa capacité. Le stockage se remplit en arrière-plan. La température augmente peu à peu sous une charge identique. Lorsque les symptômes deviennent évidents, comme des arrêts aléatoires, des applications poussives ou une surchauffe pendant des tâches simples, le problème sous-jacent évolue généralement depuis des mois."
 listSummary: "Un téléphone ne tombe pas en panne du jour au lendemain."
 hub: "device-health"

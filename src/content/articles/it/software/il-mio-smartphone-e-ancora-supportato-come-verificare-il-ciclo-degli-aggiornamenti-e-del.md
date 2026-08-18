@@ -1,5 +1,6 @@
 ---
 title: "Il mio smartphone è ancora supportato? Come verificare il ciclo degli aggiornamenti e del supporto di sicurezza Android"
+metaTitle: "Il mio smartphone è ancora supportato?"
 description: "Il telefono può sembrare del tutto normale anche dopo avere superato il periodo in cui riceve aggiornamenti di sicurezza. Le chiamate funzionano. Le app si aprono. La fotocamera scatta ancora foto. Ma se il produttore ha smesso di distribuire patch di sicurezza, i nuovi bug scoperti in Android non vengono più corretti su quel dispositivo."
 listSummary: "Il telefono può sembrare del tutto normale anche dopo avere superato il periodo in cui riceve…"
 hub: "software"

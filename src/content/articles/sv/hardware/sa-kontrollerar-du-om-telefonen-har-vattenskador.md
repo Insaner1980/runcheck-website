@@ -1,6 +1,6 @@
 ---
 title: "Så kontrollerar du om telefonen har vattenskador"
-description: "Metabeskrivning: Kontrollera en Android-telefon efter vattenskador genom att granska vätskeindikatorn, USB-porten, kameraområdet, skärmens beteende och laddningsvarningar."
+description: "Kontrollera en Android-telefon efter vattenskador genom att granska vätskeindikatorn, USB-porten, kameraområdet, skärmens beteende och laddningsvarningar."
 listSummary: "hårdvara, testning och diagnostik"
 hub: "hardware"
 sourceNumber: 111

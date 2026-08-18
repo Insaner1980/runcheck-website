@@ -1,5 +1,6 @@
 ---
 title: "Perché la batteria del telefono si scarica così in fretta: guida pratica alla diagnosi su Android"
+metaTitle: "Perché la batteria del telefono si scarica in fretta"
 description: "Il consumo rapido della batteria ha sempre una causa. Può essere banale, come una luminosità elevata o un segnale debole, ma non è casuale."
 listSummary: "Il consumo rapido della batteria ha sempre una causa."
 hub: "battery"

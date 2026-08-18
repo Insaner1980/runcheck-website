@@ -1,5 +1,6 @@
 ---
 title: "Comment tester l'écran de votre téléphone pour détecter les pixels morts et les problèmes tactiles"
+metaTitle: "Tester l'écran du téléphone : pixels morts et problèmes tactiles"
 description: "Vous examinez un smartphone d'occasion. Le vendeur affirme que l'écran est impeccable et, au premier regard, c'est bien l'impression qu'il donne. Puis vous affichez un fond blanc et remarquez un point noir près d'un coin. Pire encore, vous commencez à écrire et toute une bande du clavier ne réagit pas à votre doigt."
 listSummary: "Vous examinez un smartphone d'occasion."
 hub: "hardware"

@@ -1,7 +1,7 @@
 ---
 title: "Slik sjekker du WiFi-signalstyrken på Android"
-description: "Metabeskrivelse: Lær å lese WiFi-styrke på Android i dBm, ikke bare som streker. Guiden dekker innebygde innstillinger, analyseapper og hva tallene betyr."
-listSummary: "Metabeskrivelse: Lær å lese WiFi-styrke på Android i dBm, ikke bare som streker."
+description: "Lær å lese WiFi-styrke på Android i dBm, ikke bare som streker. Guiden dekker innebygde innstillinger, analyseapper og hva tallene betyr."
+listSummary: "Lær å lese WiFi-styrke på Android i dBm, ikke bare som streker."
 hub: "network"
 sourceNumber: 90
 order: 1

@@ -77,7 +77,7 @@ Om cellen sitter inne i en förseglad telefon transporterar du hela enheten. En 
 
 Värme är den stora påskyndaren. En telefon som lämnas i en varm bil, används för navigering i direkt solljus eller laddas under en kudde utsätts för dåliga batteriförhållanden. Långvarig värme påskyndar nedbrytningen av elektrolyten och batteriets åldrande.
 
-Åldern spelar också roll. Efter hundratals cykler stiger den interna resistansen och batteriet tål belastning sämre. De flesta svullna mobilbatterier jag har sett har suttit i äldre telefoner som legat i en låda eller använts hårt i flera år. Även nya defekta batterier kan svälla, men risken ökar med åldern.
+Åldern spelar också roll. Efter hundratals cykler stiger den interna resistansen och batteriet tål belastning sämre. Även nya defekta batterier kan svälla, men risken ökar med åldern.
 
 Dålig laddningsutrustning kan också bidra. Använd en USB-C-laddare och kabel från en seriös tillverkare. En certifierad laddare från Google, Samsung, Anker, Belkin, Ugreen eller ett annat etablerat märke är tråkig på bästa möjliga sätt.
 

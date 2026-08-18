@@ -1,6 +1,6 @@
 ---
 title: "Så fungerar smarta laddningsfunktioner i Android"
-description: "Metabeskrivning: Förklarar Smart laddning, Batteriskydd, Laddningsoptimering, Battery Health Engine och laddningsgränser på moderna Android-telefoner, inklusive hur Pixel- och Samsung-modeller beter sig under Android 17."
+description: "Förklarar Smart laddning, Batteriskydd, Laddningsoptimering, Battery Health Engine och laddningsgränser på moderna Android-telefoner, inklusive hur Pixel- och Samsung-modeller beter sig under Android 17."
 listSummary: "batteri, hälsa och diagnostik"
 hub: "charging"
 sourceNumber: 51

@@ -1,6 +1,7 @@
 ---
 title: "Sikker tilstand eller nulstilling til fabriksindstillinger: Hvad bør du prøve først?"
 description: "Prøv sikker tilstand før en nulstilling til fabriksindstillinger."
+metaDescription: "Prøv sikker tilstand i Android før en fabriksnulstilling for at skelne appfejl fra system- eller hardwareproblemer uden at slette telefonen."
 listSummary: "Prøv sikker tilstand før en nulstilling til fabriksindstillinger."
 hub: "software"
 sourceNumber: 130

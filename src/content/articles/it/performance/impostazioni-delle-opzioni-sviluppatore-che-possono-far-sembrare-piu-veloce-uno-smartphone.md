@@ -1,5 +1,6 @@
 ---
 title: "Impostazioni delle Opzioni sviluppatore che possono far sembrare più veloce uno smartphone Android"
+metaTitle: "Opzioni sviluppatore Android per le prestazioni"
 description: "Quali impostazioni delle Opzioni sviluppatore possono far sembrare più veloce uno smartphone Android, quali sono rischiose e quali conviene lasciare invariate."
 listSummary: "Quali impostazioni delle Opzioni sviluppatore possono far sembrare più veloce uno smartphone Android."
 hub: "performance"

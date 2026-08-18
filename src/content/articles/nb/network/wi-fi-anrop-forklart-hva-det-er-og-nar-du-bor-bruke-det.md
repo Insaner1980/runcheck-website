@@ -1,6 +1,6 @@
 ---
 title: "Wi-Fi-anrop forklart: hva det er og når du bør bruke det"
-description: "Metabeskrivelse: Slik fungerer Wi-Fi-anrop på Android, når du bør slå det på, hva det koster, og hvordan det skiller seg fra WhatsApp, Signal og andre apper for internettsamtaler."
+description: "Slik fungerer Wi-Fi-anrop på Android, når du bør slå det på, hva det koster, og hvordan det skiller seg fra WhatsApp, Signal og andre apper for internettsamtaler."
 listSummary: "nettverk, tilkobling og android"
 hub: "network"
 sourceNumber: 100

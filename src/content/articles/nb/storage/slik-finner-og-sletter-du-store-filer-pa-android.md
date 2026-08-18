@@ -1,7 +1,7 @@
 ---
 title: "Slik finner og sletter du store filer på Android"
-description: "Metabeskrivelse: Den raskeste måten å frigjøre lagringsplass på Android er å finne de største filene først. Bruk Files by Google, telefonens filbehandler og appenes lagringsoversikter uten å slette feil ting."
-listSummary: "Metabeskrivelse: Den raskeste måten å frigjøre lagringsplass på Android er å finne de største filene først."
+description: "Den raskeste måten å frigjøre lagringsplass på Android er å finne de største filene først. Bruk Files by Google, telefonens filbehandler og appenes lagringsoversikter uten å slette feil ting."
+listSummary: "Den raskeste måten å frigjøre lagringsplass på Android er å finne de største filene først."
 hub: "storage"
 sourceNumber: 82
 order: 4

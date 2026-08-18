@@ -1,7 +1,7 @@
 ---
 title: "Vad wake locks är och hur de drar batteri"
-description: "Metabeskrivning: Wake locks låter Android-appar hålla processorn vaken efter att skärmen har stängts av. Om de används fel kan mobilen hindras från att nå strömsnåla vilolägen, vilket leder till hög batteriförbrukning i vila."
-listSummary: "Metabeskrivning: Wake locks låter Android-appar hålla processorn vaken efter att skärmen har stängts av."
+description: "Wake locks låter Android-appar hålla processorn vaken efter att skärmen har stängts av. Om de används fel kan mobilen hindras från att nå strömsnåla vilolägen, vilket leder till hög batteriförbrukning i vila."
+listSummary: "Wake locks låter Android-appar hålla processorn vaken efter att skärmen har stängts av."
 hub: "battery"
 sourceNumber: 35
 order: 25

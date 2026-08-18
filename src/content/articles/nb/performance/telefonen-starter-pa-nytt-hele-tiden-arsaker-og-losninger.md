@@ -1,6 +1,6 @@
 ---
 title: "Telefonen starter på nytt hele tiden: årsaker og løsninger"
-description: "Metabeskrivelse: Hvis Android-telefonen starter på nytt av seg selv, kan du finne ut om årsaken er en dårlig app, et problem etter en systemoppdatering, et svakt batteri eller en maskinvarefeil."
+description: "Hvis Android-telefonen starter på nytt av seg selv, kan du finne ut om årsaken er en dårlig app, et problem etter en systemoppdatering, et svakt batteri eller en maskinvarefeil."
 listSummary: "ytelse, hastighet og android"
 hub: "performance"
 sourceNumber: 74

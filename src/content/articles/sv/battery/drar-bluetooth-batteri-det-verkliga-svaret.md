@@ -1,7 +1,7 @@
 ---
 title: "Drar Bluetooth batteri? Det verkliga svaret"
-description: "Metabeskrivning: Bluetooth använder mycket lite batteri på moderna Android-mobiler. Det går vanligtvis bra att låta funktionen vara på, men Bluetooth-sökning, problematiska tillbehör och långa ljudsessioner kan ändå öka förbrukningen."
-listSummary: "Metabeskrivning: Bluetooth använder mycket lite batteri på moderna Android-mobiler."
+description: "Bluetooth använder mycket lite batteri på moderna Android-mobiler. Det går vanligtvis bra att låta funktionen vara på, men Bluetooth-sökning, problematiska tillbehör och långa ljudsessioner kan ändå öka förbrukningen."
+listSummary: "Bluetooth använder mycket lite batteri på moderna Android-mobiler."
 hub: "battery"
 sourceNumber: 32
 order: 22

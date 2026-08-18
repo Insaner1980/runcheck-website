@@ -1,5 +1,6 @@
 ---
 title: "Comment fonctionnent les batteries lithium-ion des téléphones et pourquoi elles se dégradent"
+metaTitle: "Fonctionnement et usure des batteries lithium-ion"
 description: "De nombreux conseils en ligne présentent le lithium-ion comme une technologie fragile, comme si une seule nuit de recharge suffisait à abîmer votre téléphone. Ce n’est pas vrai. Les batteries sont plus résistantes que cela, mais elles restent des composants chimiques, et les composants chimiques s’usent."
 listSummary: "technologie-des-batteries, science et guide"
 hub: "battery"

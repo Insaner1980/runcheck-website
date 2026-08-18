@@ -1,5 +1,6 @@
 ---
 title: "Controllo dello stato di un dispositivo Android: come verificare se lo smartphone è in buone condizioni"
+metaTitle: "Controllo dello stato di uno smartphone Android"
 description: "Gli smartphone non si rompono da un giorno all'altro. La batteria perde capacità poco alla volta. La memoria si riempie in background. La temperatura aumenta gradualmente durante le stesse attività. Quando i sintomi diventano evidenti, come spegnimenti casuali, app lente o surriscaldamento durante operazioni semplici, il problema di fondo di solito si sta sviluppando da mesi."
 listSummary: "Gli smartphone non si rompono da un giorno all'altro."
 hub: "device-health"

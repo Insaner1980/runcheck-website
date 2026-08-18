@@ -1,7 +1,7 @@
 ---
 title: "Kan en app reparere et degradert batteri?"
-description: "Metabeskrivelse: Ingen Android-app kan reparere et degradert batteri. Batteriapper kan vise statistikk eller endre innstillinger, men tapt batterikapasitet krever et nytt batteri, ikke programvare."
-listSummary: "Metabeskrivelse: Ingen Android-app kan reparere et degradert batteri."
+description: "Ingen Android-app kan reparere et degradert batteri. Batteriapper kan vise statistikk eller endre innstillinger, men tapt batterikapasitet krever et nytt batteri, ikke programvare."
+listSummary: "Ingen Android-app kan reparere et degradert batteri."
 hub: "myths"
 sourceNumber: 151
 order: 7

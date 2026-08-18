@@ -1,7 +1,7 @@
 ---
 title: "Slik rydder du opp i gamle nedlastinger på Android"
-description: "Metabeskrivelse: Gamle nedlastinger bruker plass på Android-telefoner uten at du merker det. Slik finner du dem, sorterer etter alder og størrelse og fjerner filene du ikke lenger trenger."
-listSummary: "Metabeskrivelse: Gamle nedlastinger bruker plass på Android-telefoner uten at du merker det."
+description: "Gamle nedlastinger bruker plass på Android-telefoner uten at du merker det. Slik finner du dem, sorterer etter alder og størrelse og fjerner filene du ikke lenger trenger."
+listSummary: "Gamle nedlastinger bruker plass på Android-telefoner uten at du merker det."
 hub: "storage"
 sourceNumber: 88
 order: 10

@@ -1,6 +1,6 @@
 ---
 title: "Hvorfor telefonen blir tregere etter oppdateringer"
-description: "Why Android phones can feel slow after updates, when it is normal, and what to do if performance does not recover."
+description: "Hvorfor Android-telefoner kan føles trege etter oppdateringer, når det er normalt, og hva du kan gjøre hvis ytelsen ikke tar seg opp igjen."
 listSummary: "ytelse, hastighet og android"
 hub: "performance"
 sourceNumber: 68

@@ -41,11 +41,14 @@ test("seo metadata", () => {
     return attrs;
   }
 
-  function decodeHtmlAttribute(value) {
+  function decodeHtmlEntities(value) {
     return value
       .replaceAll("&quot;", '"')
       .replaceAll("&#34;", '"')
       .replaceAll("&#x22;", '"')
+      .replaceAll("&#39;", "'")
+      .replaceAll("&#x27;", "'")
+      .replaceAll("&apos;", "'")
       .replaceAll("&amp;", "&");
   }
 
@@ -221,8 +224,10 @@ test("seo metadata", () => {
     const alternateTags = link.filter(
       (item) => item.attrs.rel === "alternate" && item.attrs.hreflang,
     );
-    const title = head.match(/<title>([\s\S]*?)<\/title>/i)?.[1]?.trim() ?? "";
-    const description = decodeHtmlAttribute(metaByName("description"));
+    const title = decodeHtmlEntities(
+      head.match(/<title>([\s\S]*?)<\/title>/i)?.[1]?.trim() ?? "",
+    );
+    const description = decodeHtmlEntities(metaByName("description"));
     const structuredData = jsonLdItems(head);
     const structuredTypes = new Set(
       structuredData.map((item) => item["@type"]),
@@ -353,7 +358,7 @@ test("seo metadata", () => {
       `${url} Cloudflare Web Analytics should not use an integrity attribute.`,
     );
     const cloudflareBeaconConfig = JSON.parse(
-      decodeHtmlAttribute(
+      decodeHtmlEntities(
         cloudflareBeaconScripts[0].attrs["data-cf-beacon"] ?? "",
       ),
     );

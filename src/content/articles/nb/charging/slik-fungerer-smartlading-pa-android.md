@@ -1,6 +1,6 @@
 ---
 title: "Slik fungerer smartlading på Android"
-description: "Metabeskrivelse: Forklarer Tilpasset lading, Batteribeskyttelse, Ladeoptimalisering, Battery Health Engine og ladegrenser på moderne Android-telefoner, inkludert hvordan dette fungerer på Pixel og Samsung i Android 17-perioden."
+description: "Forklarer Tilpasset lading, Batteribeskyttelse, Ladeoptimalisering, Battery Health Engine og ladegrenser på moderne Android-telefoner, inkludert hvordan dette fungerer på Pixel og Samsung i Android 17-perioden."
 listSummary: "batteri, helse og diagnostikk"
 hub: "charging"
 sourceNumber: 51

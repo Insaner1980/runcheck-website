@@ -1,6 +1,6 @@
 ---
 title: "Drar 5G mer batteri än 4G?"
-description: "Metabeskrivning: 5G kan använda mer batteri än 4G LTE, men skillnaden beror på signalstyrkan, nätverkstypen och telefonens modem. Här är lägena där 5G spelar roll och när LTE är det bättre valet för batteritiden."
+description: "5G kan använda mer batteri än 4G LTE, men skillnaden beror på signalstyrkan, nätverkstypen och telefonens modem. Här är lägena där 5G spelar roll och när LTE är det bättre valet för batteritiden."
 listSummary: "batteri, batteriförbrukning och felsökning"
 hub: "battery"
 sourceNumber: 28

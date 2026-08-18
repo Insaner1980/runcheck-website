@@ -1,6 +1,6 @@
 ---
 title: "Så testar du NFC på Android"
-description: "Metabeskrivning: Enkla sätt att kontrollera om NFC fungerar på en Android-telefon med hjälp av Inställningar, kontaktlösa kort, Google Wallet, Samsung-diagnostik, Xiaomi CIT och NFC-testappar."
+description: "Enkla sätt att kontrollera om NFC fungerar på en Android-telefon med hjälp av Inställningar, kontaktlösa kort, Google Wallet, Samsung-diagnostik, Xiaomi CIT och NFC-testappar."
 listSummary: "diagnostik, sensorer och android"
 hub: "hardware"
 sourceNumber: 115

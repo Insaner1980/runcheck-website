@@ -1,7 +1,7 @@
 ---
 title: "Sparar mörkt läge verkligen batteri?"
-description: "Metabeskrivning: Mörkt läge sparar batteri på OLED-skärmar eftersom svarta pixlar använder mindre ström. På telefoner med LCD är skillnaden liten. Ljusstyrkan och innehållet på skärmen spelar större roll än många tror."
-listSummary: "Metabeskrivning: Mörkt läge sparar batteri på OLED-skärmar eftersom svarta pixlar använder mindre ström."
+description: "Mörkt läge sparar batteri på OLED-skärmar eftersom svarta pixlar använder mindre ström. På telefoner med LCD är skillnaden liten. Ljusstyrkan och innehållet på skärmen spelar större roll än många tror."
+listSummary: "Mörkt läge sparar batteri på OLED-skärmar eftersom svarta pixlar använder mindre ström."
 hub: "battery"
 sourceNumber: 29
 order: 19

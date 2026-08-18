@@ -1,6 +1,6 @@
 ---
 title: "Så frigör du lagringsutrymme i Android utan att förlora något"
-description: "Metabeskrivning: Praktiska sätt att frigöra lagringsutrymme i Android utan att radera foton, appar eller filer du vill behålla. Börja med cacheminne, nedladdningar, säkerhetskopierade medier och offlineinnehåll."
+description: "Praktiska sätt att frigöra lagringsutrymme i Android utan att radera foton, appar eller filer du vill behålla. Börja med cacheminne, nedladdningar, säkerhetskopierade medier och offlineinnehåll."
 listSummary: "lagring, android och rensning"
 hub: "storage"
 sourceNumber: 79

@@ -1,5 +1,6 @@
 ---
 title: "Baterías de silicio-carbono: más capacidad en móviles Android y una pregunta todavía sin respuesta"
+metaTitle: "Baterías de silicio-carbono: cómo funcionan"
 description: "Coge un Android de gama alta de 2026 de OnePlus, Xiaomi, HONOR o Motorola y quizá te sorprenda la cifra de la batería. Hace unos años, una capacidad tan grande habría implicado un móvil grueso. Ahora hay modelos que superan los 7000 mAh sin parecer baterías externas."
 listSummary: "tecnologia-de-baterias, ciencia y guia"
 hub: "battery"

@@ -1,6 +1,7 @@
 ---
 title: "Modo seguro o restablecimiento de fábrica: cuál deberías probar primero"
 description: "Prueba el modo seguro antes de hacer un restablecimiento de fábrica."
+metaDescription: "Prueba el modo seguro de Android antes del restablecimiento de fábrica para distinguir una app problemática de un fallo del sistema o del hardware sin borrar tus datos."
 listSummary: "Prueba el modo seguro antes de hacer un restablecimiento de fábrica."
 hub: "software"
 sourceNumber: 130

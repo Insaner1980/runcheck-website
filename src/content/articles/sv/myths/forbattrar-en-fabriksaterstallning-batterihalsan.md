@@ -1,6 +1,6 @@
 ---
 title: "Förbättrar en fabriksåterställning batterihälsan?"
-description: "Metabeskrivning: En fabriksåterställning kan förbättra batteritiden i Android om programvara orsakar hög förbrukning, men den kan inte återställa batterihälsan eller vända fysiskt batterislitage."
+description: "En fabriksåterställning kan förbättra batteritiden i Android om programvara orsakar hög förbrukning, men den kan inte återställa batterihälsan eller vända fysiskt batterislitage."
 listSummary: "batteri, hälsa och diagnostik"
 hub: "myths"
 sourceNumber: 152

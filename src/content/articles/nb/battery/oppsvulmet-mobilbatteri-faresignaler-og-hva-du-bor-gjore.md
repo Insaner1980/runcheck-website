@@ -77,7 +77,7 @@ Hvis cellen sitter inne i en forseglet telefon, transporter hele enheten. Et ver
 
 Varme er den store pådriveren. En telefon som ligger i en varm bil, brukes til navigasjon i direkte sol eller lades under en pute, utsettes for dårlige batteriforhold. Vedvarende varme fremskynder nedbrytningen av elektrolytten og aldringen av cellen.
 
-Alder spiller også inn. Etter hundrevis av ladesykluser øker den interne motstanden, og batteriet tåler belastning dårligere. De fleste oppsvulmede mobilbatteriene jeg har sett, har sittet i eldre telefoner som har ligget i en skuff, eller i enheter som er brukt hardt i flere år. Også nye batterier med produksjonsfeil kan svelle, men risikoen øker med alderen.
+Alder spiller også inn. Etter hundrevis av ladesykluser øker den interne motstanden, og batteriet tåler belastning dårligere. Også nye batterier med produksjonsfeil kan svelle, men risikoen øker med alderen.
 
 Dårlig ladeutstyr kan bidra. Bruk en USB-C-lader og kabel fra en seriøs produsent. En sertifisert lader fra Google, Samsung, Anker, Belkin, Ugreen eller et annet etablert merke er kjedelig på den beste måten.
 

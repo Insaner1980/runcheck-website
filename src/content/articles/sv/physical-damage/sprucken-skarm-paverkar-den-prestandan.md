@@ -1,6 +1,6 @@
 ---
 title: "Sprucken skärm: påverkar den prestandan?"
-description: "Metabeskrivning: En sprucken mobilskärm gör inte processorn långsammare direkt, men den kan orsaka pekproblem, batteriförbrukning, fuktskador och sensorfel som känns som prestandaproblem."
+description: "En sprucken mobilskärm gör inte processorn långsammare direkt, men den kan orsaka pekproblem, batteriförbrukning, fuktskador och sensorfel som känns som prestandaproblem."
 listSummary: "batteri, batteriförbrukning och felsökning"
 hub: "physical-damage"
 sourceNumber: 136

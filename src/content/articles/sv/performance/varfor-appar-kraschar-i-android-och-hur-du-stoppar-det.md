@@ -1,7 +1,7 @@
 ---
 title: "Varför appar kraschar i Android och hur du stoppar det"
-description: "Metabeskrivning: Android-appar kraschar av konkreta orsaker. Lär dig avgöra om problemet gäller en app, WebView, lite RAM, full lagring eller en ny Android-uppdatering."
-listSummary: "Metabeskrivning: Android-appar kraschar av konkreta orsaker."
+description: "Android-appar kraschar av konkreta orsaker. Lär dig avgöra om problemet gäller en app, WebView, lite RAM, full lagring eller en ny Android-uppdatering."
+listSummary: "Android-appar kraschar av konkreta orsaker."
 hub: "performance"
 sourceNumber: 77
 order: 14

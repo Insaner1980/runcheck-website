@@ -1,5 +1,6 @@
 ---
 title: "Batteries silicium-carbone : plus de capacité dans les smartphones Android, avec une question encore ouverte"
+metaTitle: "Les batteries silicium-carbone expliquées"
 description: "Prenez un modèle Android haut de gamme de 2026 signé OnePlus, Xiaomi, Honor ou Motorola, selon le marché, et la capacité de sa batterie peut sembler étrange. Il y a peu, un tel chiffre aurait impliqué un téléphone épais. On trouve désormais plus de 7 000 mAh dans des appareils qui ne ressemblent pas à des batteries externes."
 listSummary: "technologie-des-batteries, science et guide"
 hub: "battery"

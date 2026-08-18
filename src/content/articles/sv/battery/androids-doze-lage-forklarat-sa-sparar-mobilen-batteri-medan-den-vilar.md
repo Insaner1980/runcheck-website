@@ -1,6 +1,6 @@
 ---
 title: "Androids Doze-läge förklarat: så sparar mobilen batteri medan den vilar"
-description: "Metabeskrivning: Androids Doze-läge minskar batteriförbrukningen i viloläge genom att skjuta upp bakgrundsarbete när mobilen inte används. Här ser du vad som begränsas, varför aviseringar kan komma sent och när en app bör undantas."
+description: "Androids Doze-läge minskar batteriförbrukningen i viloläge genom att skjuta upp bakgrundsarbete när mobilen inte används. Här ser du vad som begränsas, varför aviseringar kan komma sent och när en app bör undantas."
 listSummary: "batteri, optimering och android"
 hub: "battery"
 sourceNumber: 34

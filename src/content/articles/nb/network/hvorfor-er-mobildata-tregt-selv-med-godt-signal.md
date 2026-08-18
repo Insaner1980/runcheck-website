@@ -1,7 +1,7 @@
 ---
 title: "Hvorfor er mobildata tregt selv med godt signal?"
-description: "Metabeskrivelse: Fulle signalstreker garanterer ikke rask mobildata. Her ser du hvorfor en Android-telefon kan ha godt signal og likevel tregt internett, blant annet på grunn av kø i mobilnettet, hastighetsbegrensning, Datasparing, APN-innstillinger, VPN og problemer ved bytte mellom 5G og LTE."
-listSummary: "Metabeskrivelse: Fulle signalstreker garanterer ikke rask mobildata."
+description: "Fulle signalstreker garanterer ikke rask mobildata. Her ser du hvorfor en Android-telefon kan ha godt signal og likevel tregt internett, blant annet på grunn av kø i mobilnettet, hastighetsbegrensning, Datasparing, APN-innstillinger, VPN og problemer ved bytte mellom 5G og LTE."
+listSummary: "Fulle signalstreker garanterer ikke rask mobildata."
 hub: "network"
 sourceNumber: 97
 order: 8

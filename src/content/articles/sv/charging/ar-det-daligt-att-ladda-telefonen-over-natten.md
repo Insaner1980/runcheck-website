@@ -1,6 +1,6 @@
 ---
 title: "Är det dåligt att ladda telefonen över natten?"
-description: "Metabeskrivning: Nattladdning fungerar bra på moderna telefoner när smart laddning eller en gräns på 80 % är aktiverad. Utan sådana funktioner ger många timmar på 100 % ett långsamt extra batterislitage över tid."
+description: "Nattladdning fungerar bra på moderna telefoner när smart laddning eller en gräns på 80 % är aktiverad. Utan sådana funktioner ger många timmar på 100 % ett långsamt extra batterislitage över tid."
 listSummary: "laddning, batteri och android"
 hub: "charging"
 sourceNumber: 42

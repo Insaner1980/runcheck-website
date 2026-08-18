@@ -1,6 +1,6 @@
 ---
 title: "Originalladdare eller tredjepartsladdare: spelar det någon roll?"
-description: "Metabeskrivning: Förklarar när originalladdare till Android spelar roll, när en seriös USB-C-laddare från tredje part är lika bra och hur du undviker osäker laddningsutrustning."
+description: "Förklarar när originalladdare till Android spelar roll, när en seriös USB-C-laddare från tredje part är lika bra och hur du undviker osäker laddningsutrustning."
 listSummary: "laddning, batteri och android"
 hub: "charging"
 sourceNumber: 49

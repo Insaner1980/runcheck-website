@@ -90,6 +90,6 @@ Hvis batterialdring er hovedbekymringen, bør du installere AccuBattery og la ap
 
 Installer DevCheck når du trenger maskinvaredetaljer. For utviklere, reparasjonsinteresserte og folk som bryr seg om SoC-navn, er den verdt å beholde.
 
-Installer runcheck for en praktisk oversikt over telefonens tilstand. Kombiner den med DevCheck når komponentdetaljene også er viktige.
+Når runcheck blir tilgjengelig, kan appen gi en praktisk oversikt over telefonens tilstand. Den kan kombineres med DevCheck når komponentdetaljene også er viktige.
 
 For de fleste er runcheck sammen med DevCheck den sterkeste kombinasjonen til daglig bruk. AccuBattery fortjener fortsatt en plass når langsiktig måling av batterikapasitet er hele poenget.

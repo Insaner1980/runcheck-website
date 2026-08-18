@@ -1,5 +1,6 @@
 ---
 title: "Guide till sensortester på Android: kontrollera, diagnostisera och åtgärda telefonens sensorer"
+metaTitle: "Guide till sensortester på Android"
 description: "Hur vet du om automatisk rotering är trasig, kompassen är förvirrad eller en app bara beter sig illa? Det är det irriterande med sensorproblem. De verkar små tills navigering, samtal, kamerastabilisering, stegräkning eller automatisk ljusstyrka måste fungera."
 listSummary: "Hur vet du om automatisk rotering är trasig, kompassen är förvirrad eller en app bara beter sig illa?"
 hub: "hardware"

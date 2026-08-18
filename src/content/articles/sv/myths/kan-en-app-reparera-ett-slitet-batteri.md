@@ -1,7 +1,7 @@
 ---
 title: "Kan en app reparera ett slitet batteri?"
-description: "Metabeskrivning: Ingen Android-app kan reparera ett slitet batteri. Appar för batterireparation kan visa statistik eller ändra inställningar, men förlorad batterikapacitet kräver ett batteribyte, inte programvara."
-listSummary: "Metabeskrivning: Ingen Android-app kan reparera ett slitet batteri."
+description: "Ingen Android-app kan reparera ett slitet batteri. Appar för batterireparation kan visa statistik eller ändra inställningar, men förlorad batterikapacitet kräver ett batteribyte, inte programvara."
+listSummary: "Ingen Android-app kan reparera ett slitet batteri."
 hub: "myths"
 sourceNumber: 151
 order: 7

@@ -1,6 +1,7 @@
 ---
 title: "Säkert läge eller fabriksåterställning: vad bör du prova först"
 description: "Prova säkert läge före en fabriksåterställning."
+metaDescription: "Prova säkert läge i Android före en fabriksåterställning för att skilja appfel från system- eller maskinvaruproblem utan att radera telefonen."
 listSummary: "Prova säkert läge före en fabriksåterställning."
 hub: "software"
 sourceNumber: 130

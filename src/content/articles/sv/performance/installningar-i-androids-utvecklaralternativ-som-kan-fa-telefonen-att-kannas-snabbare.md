@@ -1,7 +1,7 @@
 ---
 title: "Inställningar i Androids Utvecklaralternativ som kan få telefonen att kännas snabbare"
-description: "Which Android Developer Options can make a phone feel faster, which ones are risky, and what to leave alone."
-listSummary: "Which Android Developer Options can make a phone feel faster, which ones are risky, and what to leave alone."
+description: "Vilka inställningar i Androids Utvecklaralternativ som kan få telefonen att kännas snabbare, vilka som är riskabla och vad du bör lämna orört."
+listSummary: "Prestandajusteringar i Utvecklaralternativ"
 hub: "performance"
 sourceNumber: 69
 order: 6

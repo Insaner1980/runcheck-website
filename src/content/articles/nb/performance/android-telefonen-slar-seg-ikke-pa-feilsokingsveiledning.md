@@ -1,7 +1,7 @@
 ---
 title: "Android-telefonen slår seg ikke på: feilsøkingsveiledning"
-description: "Metabeskrivelse: Slår ikke Android-telefonen seg på, eller sitter den fast på en svart skjerm? Gå gjennom de tryggeste kontrollene først, fra lading og tvungen omstart til Recovery Mode og reparasjonsalternativer."
-listSummary: "Metabeskrivelse: Slår ikke Android-telefonen seg på, eller sitter den fast på en svart skjerm?"
+description: "Slår ikke Android-telefonen seg på, eller sitter den fast på en svart skjerm? Gå gjennom de tryggeste kontrollene først, fra lading og tvungen omstart til Recovery Mode og reparasjonsalternativer."
+listSummary: "Slår ikke Android-telefonen seg på, eller sitter den fast på en svart skjerm?"
 hub: "performance"
 sourceNumber: 75
 order: 12

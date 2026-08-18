@@ -1,5 +1,6 @@
 ---
 title: "Har min telefon fortfarande support? Så kontrollerar du stödet för Android- och säkerhetsuppdateringar"
+metaTitle: "Har min telefon fortfarande support?"
 description: "Telefonen kan se helt normal ut trots att dess säkra uppdateringsperiod har löpt ut. Samtal fungerar. Appar öppnas. Kameran tar fortfarande bilder. Men om tillverkaren har slutat skicka säkerhetskorrigeringar åtgärdas inte nyupptäckta Android-fel på enheten."
 listSummary: "Telefonen kan se helt normal ut trots att dess säkra uppdateringsperiod har löpt ut."
 hub: "software"

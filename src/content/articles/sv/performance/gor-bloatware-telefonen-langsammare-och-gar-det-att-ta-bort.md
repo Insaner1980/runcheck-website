@@ -1,6 +1,6 @@
 ---
 title: "Gör bloatware telefonen långsammare, och går det att ta bort?"
-description: "Metabeskrivning: Förinstallerade Android-appar kan ta lagringsutrymme, skicka aviseringar och köra bakgrundstjänster. Här ser du vad bloatware faktiskt gör och vad som är säkert att ta bort."
+description: "Förinstallerade Android-appar kan ta lagringsutrymme, skicka aviseringar och köra bakgrundstjänster. Här ser du vad bloatware faktiskt gör och vad som är säkert att ta bort."
 listSummary: "prestanda, hastighet och android"
 hub: "performance"
 sourceNumber: 78

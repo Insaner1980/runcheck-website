@@ -1,7 +1,7 @@
 ---
 title: "Så startar du Android i säkert läge och när du bör använda det"
-description: "How to start Android in Safe Mode, what it disables, and how to use it to find problem apps."
-listSummary: "How to start Android in Safe Mode, what it disables, and how to use it to find problem apps."
+description: "Så startar du Android i säkert läge, vad läget inaktiverar och hur du använder det för att hitta problematiska appar."
+listSummary: "Felsökning med säkert läge"
 hub: "performance"
 sourceNumber: 70
 order: 7

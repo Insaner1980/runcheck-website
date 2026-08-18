@@ -1,6 +1,6 @@
 ---
-title: "Bästa laddningsvanorna för Android 2026"
-description: "Metabeskrivning: Aktuella råd om batteriladdning för Android 2026, inklusive laddning mellan 20 och 80 %, värme, snabbladdning, nattladdning, trådlös laddning och inställningar för Pixel, Samsung, OnePlus och Xiaomi."
+title: "De bästa laddningsvanorna för Android 2026"
+description: "Aktuella råd om batteriladdning för Android 2026, inklusive laddning mellan 20 och 80 %, värme, snabbladdning, nattladdning, trådlös laddning och inställningar för Pixel, Samsung, OnePlus och Xiaomi."
 listSummary: "laddning, batteri och android"
 hub: "charging"
 sourceNumber: 50

@@ -1,6 +1,7 @@
 ---
 title: "Sikker modus eller tilbakestilling til fabrikkinnstillinger: hva bør du prøve først"
 description: "Prøv sikker modus før du tilbakestiller til fabrikkinnstillingene."
+metaDescription: "Prøv sikker modus i Android før en tilbakestilling til fabrikkinnstillingene for å skille appfeil fra system- eller maskinvareproblemer uten å slette telefonen."
 listSummary: "Prøv sikker modus før du tilbakestiller til fabrikkinnstillingene."
 hub: "software"
 sourceNumber: 130

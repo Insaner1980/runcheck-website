@@ -1,6 +1,6 @@
 ---
 title: "Varför laddas mobilens batteri ur snabbt i kyla?"
-description: "Metabeskrivning: Kyla bromsar de kemiska processerna i litiumjonbatterier, minskar den användbara kapaciteten och kan göra batteriprocenten opålitlig. Effekten är vanligtvis tillfällig, men att ladda en iskall mobil kan orsaka verkliga batteriskador."
+description: "Kyla bromsar de kemiska processerna i litiumjonbatterier, minskar den användbara kapaciteten och kan göra batteriprocenten opålitlig. Effekten är vanligtvis tillfällig, men att ladda en iskall mobil kan orsaka verkliga batteriskador."
 listSummary: "batteri, hälsa och diagnostik"
 hub: "battery"
 sourceNumber: 31

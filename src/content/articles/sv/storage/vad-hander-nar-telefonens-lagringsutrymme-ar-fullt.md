@@ -1,6 +1,6 @@
 ---
 title: "Vad händer när telefonens lagringsutrymme är fullt"
-description: "Metabeskrivning: En full Android-telefon kan börja krångla i helt vanliga situationer: kamerafel, appkrascher, uppdateringar som stannar och långsam fillagring. Här ser du vad som brukar sluta fungera först och hur mycket ledigt utrymme du bör behålla."
+description: "En full Android-telefon kan börja krångla i helt vanliga situationer: kamerafel, appkrascher, uppdateringar som stannar och långsam fillagring. Här ser du vad som brukar sluta fungera först och hur mycket ledigt utrymme du bör behålla."
 listSummary: "prestanda, hastighet och android"
 hub: "storage"
 sourceNumber: 81

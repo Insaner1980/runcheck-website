@@ -1,6 +1,6 @@
 ---
 title: "Hva er en VPN, og påvirker den hastigheten på telefonen?"
-description: "Metabeskrivelse: En enkel forklaring på hva en VPN gjør på Android, hvordan den påvirker hastighet og batteritid, og når det gir mening å bruke en."
+description: "En enkel forklaring på hva en VPN gjør på Android, hvordan den påvirker hastighet og batteritid, og når det gir mening å bruke en."
 listSummary: "nettverk, tilkobling og android"
 hub: "network"
 sourceNumber: 99

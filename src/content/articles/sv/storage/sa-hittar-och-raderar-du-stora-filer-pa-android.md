@@ -1,6 +1,6 @@
 ---
 title: "Så hittar och raderar du stora filer på Android"
-description: "Metabeskrivning: Det snabbaste sättet att frigöra lagringsutrymme på Android är att börja med de största filerna. Använd Files by Google, telefonens filhanterare och apparnas lagringsvyer utan att radera fel saker."
+description: "Det snabbaste sättet att frigöra lagringsutrymme på Android är att börja med de största filerna. Använd Files by Google, telefonens filhanterare och apparnas lagringsvyer utan att radera fel saker."
 listSummary: "lagring, android och rensning"
 hub: "storage"
 sourceNumber: 82

@@ -1,7 +1,10 @@
 ---
 import { Image } from "astro:assets";
 import logo from "../assets/runcheck-logo.svg";
-import { ARTICLE_LOCALES } from "../data/articleLocales.mjs";
+import {
+  ARTICLE_LOCALES,
+  PUBLISHED_ARTICLE_LOCALE_CODES,
+} from "../data/articleLocales.mjs";
 
 type ArticleLocale = keyof typeof ARTICLE_LOCALES;
 
@@ -12,6 +15,22 @@ interface Props {
 const year = new Date().getFullYear();
 const { locale = "en" } = Astro.props;
 const copy = ARTICLE_LOCALES[locale];
+const articleLanguageNames: Record<ArticleLocale, string> = {
+  en: "English",
+  fi: "Suomi",
+  sv: "Svenska",
+  nb: "Norsk bokmål",
+  de: "Deutsch",
+  da: "Dansk",
+  fr: "Français",
+  es: "Español",
+  it: "Italiano",
+};
+const articleLanguageLinks = PUBLISHED_ARTICLE_LOCALE_CODES.map((code) => ({
+  href: ARTICLE_LOCALES[code].root,
+  label: articleLanguageNames[code],
+  lang: ARTICLE_LOCALES[code].lang,
+}));
 ---
 
 <footer class="site-footer bg-run-bg">
@@ -34,14 +53,29 @@ const copy = ARTICLE_LOCALES[locale];
       >
     </a>
 
-    <nav
-      class="footer-nav flex flex-col items-center gap-4 sm:flex-row sm:gap-9"
-      aria-label={copy.menu[3]}
-    >
-      <a href="/#features">{copy.nav[0]}</a>
-      <a href={copy.root}>{copy.nav[1]}</a>
-      <a href="mailto:contact@finnvek.com">{copy.nav[2]}</a>
-    </nav>
+    <div class="footer-navigation flex flex-col items-center gap-4">
+      <nav
+        class="footer-nav flex flex-col items-center gap-4 sm:flex-row sm:gap-9"
+        aria-label={copy.menu[3]}
+      >
+        <a href="/#features">{copy.nav[0]}</a>
+        <a href={copy.root}>{copy.nav[1]}</a>
+        <a href="mailto:contact@finnvek.com">{copy.nav[2]}</a>
+      </nav>
+
+      <nav
+        class="footer-language-nav flex max-w-2xl flex-wrap items-center justify-center gap-x-4 gap-y-2"
+        aria-label={copy.articles}
+      >
+        {
+          articleLanguageLinks.map((link) => (
+            <a href={link.href} lang={link.lang}>
+              {link.label}
+            </a>
+          ))
+        }
+      </nav>
+    </div>
 
     <div
       class="footer-meta flex flex-col items-center gap-1.5 md:justify-self-end md:items-end"
