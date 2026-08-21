@@ -14,7 +14,7 @@ Eine gute App zur Zustandsprüfung sagt dir, welche Daten dein Smartphone meldet
 
 Genau dort verläuft die Grenze. Sobald du weißt, worauf du achten musst, ist sie nicht besonders subtil.
 
-Android 17 ändert an dieser Grundregel nichts. Die Version befindet sich derzeit noch in Beta 4 und ist nicht regulär ausgerollt. Unterstützte Pixel-Geräte sowie ausgewählte Modelle anderer Hersteller können Beta-Versionen testen. Selbst mit Android 17 bleiben Zustandsdaten je nach Hersteller sehr unterschiedlich. Pixel-Smartphones, Samsung-Galaxy-Geräte, Xiaomi-Modelle mit HyperOS und günstige Android-Smartphones können völlig verschiedene Informationen offenlegen.
+Android 17 ändert an dieser Grundregel nichts. Die Version ist für unterstützte Pixel-Geräte verfügbar, während andere Hersteller nach eigenen Zeitplänen aktualisieren. Selbst mit Android 17 bleiben Zustandsdaten je nach Hersteller sehr unterschiedlich. Pixel-Smartphones, Samsung-Galaxy-Geräte, Xiaomi-Modelle mit HyperOS und günstige Android-Smartphones können völlig verschiedene Informationen offenlegen.
 
 ## Was Android-Apps wirklich auslesen können
 

@@ -14,6 +14,8 @@ La ricarica wireless fa male alla batteria oppure è solo un'altra preoccupazion
 
 Il problema non è l'energia trasmessa senza fili. È il calore. Durante il trasferimento, la ricarica wireless disperde più energia di un cavo, e quell'energia diventa calore nel telefono, nel pad o in entrambi.
 
+Per le affermazioni scientifiche sulla batteria di questo articolo, [la revisione di Edge e coautori](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) supporta perdita di capacità e potenza, aumento dell'impedenza ed effetti di temperatura, livello di carica, corrente o carico, crescita della SEI e placcatura del litio. Non stabilisce funzioni del produttore, soglie universali per i telefoni, scelta di accessori, consigli o prezzi di riparazione, durata esatta, tempi di ricarica o risultati garantiti.
+
 ## Da dove arriva il calore
 
 La ricarica wireless usa due bobine. Una si trova nel pad e una nel telefono. L'energia passa tra loro per induzione elettromagnetica. Il sistema funziona abbastanza bene, ma non è perfettamente efficiente.

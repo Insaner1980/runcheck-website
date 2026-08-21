@@ -14,7 +14,7 @@ De bättre alternativen är mer ärliga. AccuBattery följer batteriets beteende
 
 Android 17 rullas nu ut först till Pixel-telefoner som stöds, medan andra märken följer sina egna tidsplaner. Det spelar roll eftersom den inbyggda diagnostiken fortfarande varierar mycket mellan olika enheter. En Pixel 8a eller senare kan visa batterihälsa och information om laddningscykler i Inställningar, medan en telefon i mellanklassen från en annan OEM kanske nästan inte visar något utöver temperatur och laddningsnivå.
 
-## AccuBattery
+## [AccuBattery](https://accubatteryapp.com/)
 
 AccuBattery är batteriappen i den här gruppen. Den uppskattar återstående kapacitet i mAh genom att följa laddningssessioner och jämför sedan uppskattningen med batteriets designkapacitet. Ju längre appen får arbeta, desto mer användbar blir uppskattningen.
 
@@ -26,7 +26,7 @@ Pro-uppgraderingen är i de flesta regioner ett engångsköp i appen. Den tar bo
 
 AccuBatterys begränsning är enkel: den säger inte särskilt mycket om resten av telefonen. Temperaturbeteende utöver grundläggande batteritemperatur, lagringstryck, signalkvalitet och hårdvaruidentitet är inte dess uppgift.
 
-## DevCheck
+## [DevCheck](https://devcheck.app/user-guide/)
 
 DevCheck passar bäst när du vill veta vad telefonen gör just nu. Den visar information om CPU och SoC, frekvenser för varje kärna, GPU-data, RAM, lagring, skärmspecifikationer, kamerasensorer, sensorer, operativsystem, wifi, mobilnät, batterispänning, ström, temperatur och effektförbrukning.
 
@@ -36,7 +36,7 @@ Gratisversionen är användbar i sig. Pro-uppgraderingen lägger till tester, pr
 
 DevChecks svaghet är tolkningen. Den visar gärna -78 dBm, 39,8 °C och ett diagram över CPU-frekvensen i realtid. Den förklarar inte alltid om kombinationen spelar någon roll. DevCheck är utmärkt för den som är bekväm med råa mätvärden. För ett enkelt svar på frågan "är den här telefonen i gott skick?" är den inte det tydligaste valet.
 
-## AIDA64
+## [AIDA64](https://www.aida64.com/aida64-android?language_content_entity=en)
 
 AIDA64 är en systeminformationsdump i appform. Det låter hårt, men det är också anledningen till att människor använder den. Android-versionen tillhör samma familj som det sedan länge etablerade hårdvaruverktyget för Windows och listar mycket: CPU-identitet, klockfrekvenser, GPU- och OpenGL-information, minne, lagring, skärmdensitet, sensorer, kodekar, operativsystemsinformation och systemmappar.
 
@@ -44,13 +44,13 @@ Jag gillar AIDA64 för snabba kontroller. Om en säljare säger att en telefon h
 
 Använd den när du behöver specifikationer. Förvänta dig ingen vägledning.
 
-## CPU-Z
+## [CPU-Z](https://www.cpuid.com/softwares/cpu-z-android.html)
 
 CPU-Z är lättare än DevCheck och AIDA64. Den identifierar processorn, visar kärnfrekvenser, rapporterar RAM och innehåller grundläggande batteri- och sensorinformation. Android-appen följer samma idé som CPU-Z på datorn: öppna den, kontrollera hårdvaran och stäng den.
 
 Det gör den användbar som en snabb andra åsikt. Den är ingen trendmätare, batterihälsomätare, nätverksapp eller diagnostikapp för lagring. CPU-Z svarar på frågan "vad finns i den här telefonen?" och stannar ungefär där.
 
-## Device Info HW
+## [Device Info HW](https://play.google.com/store/apps/details?id=ru.andr7e.deviceinfohw)
 
 Device Info HW satsar på identifiering på komponentnivå. På telefoner som stöds kan den känna igen delar som LCD-panel, pekskärmskontroller, kamerasensorer, minne, NFC, laddningshårdvara, wifi och batterirelaterade komponenter. Det kan vara användbart för utvecklare, reparationsintresserade användare och den som vill verifiera en modell djupare än vad den vanliga appen Inställningar tillåter.
 
@@ -58,11 +58,11 @@ Haken är Androids åtkomstmodell. Nyare Android-versioner och enheter blockerar
 
 Den kan exportera rapporter i HTML- och PDF-format, vilket hjälper när du dokumenterar en enhet inför vidareförsäljning eller reparation. Räkna bara inte med att varje komponentfält visas på telefoner med Android 17.
 
-## Phone Doctor Plus och hårdvarutester av TestM-typ
+## [Phone Doctor Plus](https://play.google.com/store/apps/details?id=com.idea.PhoneDoctorPlus2)
 
 Specifikationsappar berättar vad telefonen uppger att den har. Guidade testappar visar om delarna faktiskt reagerar.
 
-Phone Doctor Plus kör fler än 40 hårdvaru- och systemtester, bland annat för skärm, högtalare, mikrofon, kamera, sensorer, minne, lagring, nätverk och batteri. TestM, där appen är tillgänglig, bygger på en liknande idé och leder dig genom hårdvarutester för att skapa en skickrapport inför köp eller försäljning.
+[Phone Doctor Plus](https://play.google.com/store/apps/details?id=com.idea.PhoneDoctorPlus2) säger att den aktuella Android-appen erbjuder fler än 40 hårdvaru- och systemdiagnoser, bland annat skärm, högtalare, mikrofon, kamera, sensorer, minne, lagring, nätverk och batteri. Tillgänglighet och testomfattning kan variera med enhet och region.
 
 De här apparna kräver att du deltar. Du trycker på olika skärmområden, talar i mikrofonen, täcker närhetssensorn, byter kamera och bekräftar om det kommer ljud ur högtalaren. Det tar längre tid än att öppna DevCheck, men fångar fel som en specifikationslista inte kan hitta.
 
@@ -72,11 +72,11 @@ Vid kontroll av en begagnad telefon är den här kategorin viktigare än många 
 
 runcheck bygger på en annan fråga: vilket skick är telefonen i just nu?
 
-Appen kombinerar batteri, temperatur, nätverk och lagring till en viktad hälsopoäng. Batteriet står för 40 % av poängen, temperatur och nätverk för 25 % vardera och lagring för 10 %. Den viktningen är rimlig. Ett döende batteri eller en telefon som ständigt överhettas påverkar den dagliga användningen mer än en lagringsvarning när 72 % av utrymmet är fyllt.
+Appen samlar kontroller av batteri, temperatur, nätverk och lagring i en hälsovy. Artikeln publicerar ingen fast viktningsformel, så helhetsresultatet bör läsas tillsammans med de enskilda kontrollerna.
 
 Det användbara är inte bara poängen. runcheck anger också mätningens tillförlitlighet. Batteriströmmen är ett bra exempel. Android gör momentan ström i mikroampere tillgänglig via BatteryManager, men verkliga enheter rapporterar inte värdet med samma kvalitet. Vissa värden är exakta. Andra är uppskattade. Ibland saknas de helt. runcheck visar den skillnaden i stället för att låtsas att alla siffror är lika pålitliga.
 
-Gratisversionen omfattar diagnostik för batteri, temperatur, nätverk och lagring. Pro är en engångsuppgradering utan abonnemang och lägger till jämförelse av laddare, appanvändning, utökad historik, loggar över termisk strypning, CSV-export, widgetar och andra mer avancerade verktyg. Bearbetningen sker på enheten och kräver inget konto.
+Gratisversionen omfattar diagnostik för batteri, värme, nätverk och lagring. Pro är en engångsuppgradering utan prenumeration och ger djupare verktyg. Den aktuella [runcheck-produktsidan](https://runcheckapp.com/) säger att diagnostik och historik stannar på enheten och att inget runcheck-konto krävs. Ett användarstartat nätverkstest är ett uttryckligt undantag: testtrafik skickas till [Measurement Labs NDT7-tjänst](https://www.measurementlab.net/tests/ndt/ndt7/). Ett köp är en annan uttrycklig nätverksgräns och hanteras genom [Google Play Billing](https://developer.android.com/google/play/billing). Länkarna stöder skilda påståenden; runcheck-hemsidan används inte som belägg för M-Lab eller Google Play.
 
 runcheck berättar inte vilken kamerasensor telefonen har. Det är inte poängen.
 
@@ -88,7 +88,7 @@ Använd DevCheck eller AIDA64 för exakt hårdvaruidentitet. DevCheck är lätta
 
 Använd en guidad testapp som Phone Doctor Plus för hårdvarukontroll av en begagnad telefon. En specifikationslista kan inte tala om ifall hörsnäckan sprakar, om pekskärmen inte reagerar nära kanten eller om autofokusen söker i all oändlighet.
 
-Använd runcheck för en helhetsbild av enhetens skick. Det är den enda appen i listan som är uppbyggd kring en hälsobedömning över flera kategorier i stället för ett enda isolerat mätvärde.
+För en helhetsbild av enhetens skick är runcheck uppbyggd kring en hälsobedömning över flera kategorier i stället för ett enda isolerat mätvärde.
 
 För de flesta räcker två appar: DevCheck för hårdvaruidentitet och en hälsofokuserad app för övervakning. Att installera fem diagnostikappar på en gång är ett bra sätt att skapa mer bakgrundsaktivitet samtidigt som man låtsas minska den.
 
@@ -109,5 +109,3 @@ De kan hjälpa, men de är inte magiska. AIDA64 och DevCheck kan avslöja tydlig
 ### Varför visar apparna olika siffror för batterihälsan?
 
 Därför att de inte mäter samma sak. AccuBattery uppskattar kapaciteten utifrån laddningsbeteendet. Pixels batterihälsa använder enhetens egna data från batterimätaren på modeller som stöds. Androids strömvärden varierar också mellan enheter. En skillnad på 5 % mellan verktyg är inte särskilt förvånande.
-
-_Metabeskrivning: Jämförelse av diagnostikappar för Android 2026, bland annat AccuBattery, DevCheck, AIDA64, CPU-Z, Device Info HW, Phone Doctor Plus, TestM och runcheck, med vad varje app mäter och när den passar._

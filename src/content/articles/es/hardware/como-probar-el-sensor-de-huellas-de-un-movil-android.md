@@ -32,11 +32,7 @@ Hay un detalle reciente de Samsung que es fácil pasar por alto: en algunos Gala
 
 ## Pruebas en Xiaomi, Redmi y POCO
 
-En un Xiaomi, Redmi o POCO, abre la aplicación Teléfono e introduce `*#*#6484#*#*`. Si no se abre el modo CIT, prueba `*#*#64663#*#*`.
-
-Dentro de CIT, busca Fingerprint sensor check, Fingerprint input test o una opción con un nombre parecido. Las páginas de soporte de Xiaomi recomiendan expresamente la detección de hardware CIT cuando desaparece la opción de huella, así que no se trata solo de un truco de foro.
-
-También puedes abrir la información del teléfono desde Ajustes y tocar varias veces Versión del kernel. Xiaomi cambia algunos nombres entre MIUI y HyperOS, pero este acceso suele seguir funcionando cuando el código de marcación está bloqueado.
+En un Xiaomi, Redmi o POCO, abre la aplicación Teléfono e introduce `*#*#6484#*#*`. En CIT, ejecuta `Fingerprint sensor check` y `Fingerprint input test`. [Xiaomi documenta este código exacto y estas dos pruebas](https://www.mi.com/global/support/faq/details/KA-42422/) cuando desaparece la opción de huella. Si la página o las pruebas no están disponibles en tu modelo, recurre al soporte de Xiaomi en lugar de sustituirlas por un código no documentado.
 
 ## Pruebas en Google Pixel
 
@@ -52,7 +48,7 @@ Android 17 merece una mención porque llegó primero a los Pixel compatibles. Si
 
 OnePlus, Motorola, Realme, Oppo y los móviles con una versión de Android cercana a la de Nokia varían demasiado como para ofrecer un único código universal de huella.
 
-Empieza por la aplicación de asistencia o diagnóstico del fabricante, si el móvil incluye una. Motorola, por ejemplo, preinstala Device Help con pruebas de hardware en muchos modelos. Los dispositivos de la familia OnePlus y Oppo pueden mostrar `*#899#` u otros menús de ingeniería antiguos, pero la compatibilidad es irregular.
+Empieza por la aplicación de asistencia o diagnóstico del fabricante, si el móvil incluye una. Las pruebas disponibles y las vías de acceso varían según el modelo y la versión de software.
 
 Una aplicación de terceros sí puede responder a una pregunta básica: ¿Android detecta algún sensor de huellas? Aplicaciones como Sensor Test, DevCheck y Phone Doctor Plus pueden mostrar si existe la capa de abstracción de hardware de huella. Normalmente no pueden ejecutar una coincidencia biométrica segura, porque Android protege deliberadamente esos datos, pero ayudan a diferenciar entre "hardware ausente" y "reconocimiento deficiente".
 

@@ -34,13 +34,11 @@ Les Pixel en sont l'exemple le plus simple. Vous pouvez toujours démarrer un Pi
 
 Samsung a conservé cette option plus longtemps que de nombreux autres fabricants. C'est pourquoi la plupart des personnes qui recherchent cette procédure parlent en réalité d'un téléphone Galaxy.
 
-## La situation chez Samsung en 2026
+## Portée actuelle : Android A/B et appareils Galaxy compatibles
 
-La page d'assistance britannique de Samsung décrit toujours la procédure **Clear the cache partition** depuis le mode Recovery : éteindre le téléphone, ouvrir le menu Recovery avec la combinaison de boutons adaptée, sélectionner **Wipe cache partition**, confirmer, puis redémarrer.
+[La documentation AOSP sur les mises à jour A/B](https://source.android.com/docs/core/ota/ab/ab_implement) indique que les appareils A/B n'ont pas besoin de partition recovery ou cache pour les paquets OTA. La commande classique **Wipe cache partition** n'est donc pas une fonction universelle de l'Android moderne.
 
-Dans le même temps, des signalements publiés après la mise à jour Samsung de février 2026 indiquent que plusieurs outils du mode Recovery, dont **Wipe cache partition**, ont disparu sur certains modèles Galaxy. Les premiers articles d'Android Authority et de GalaxyClub concernaient notamment des Galaxy S25 et des modèles pliables récents comme le Galaxy Z Fold 7. Sur les versions concernées, le menu réduit ne proposerait plus que **Reboot system now**, **Wipe data/factory reset** et **Power off**.
-
-Samsung n'a pas publié d'explication globale et claire couvrant tous les modèles et toutes les régions. Le conseil prudent est donc le suivant : en 2026, sur un Galaxy, considérez la présence de **Wipe cache partition** comme dépendante du modèle et du micrologiciel. Si l'option apparaît dans votre menu Recovery, vous pouvez l'utiliser. Si elle manque, cela ne signifie pas forcément que votre téléphone est défectueux.
+[Les instructions Samsung UK actuelles](https://www.samsung.com/uk/support/mobile-devices/how-do-i-clear-the-cache-on-my-device/) documentent encore la commande sur les Galaxy compatibles : ouvrir Recovery, choisir **Wipe cache partition**, confirmer et redémarrer. Considérez-la comme propre à Samsung et au micrologiciel. Si elle manque, ne la remplacez pas par **Wipe data/factory reset**.
 
 ## Avant d'essayer le mode Recovery
 

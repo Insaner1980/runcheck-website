@@ -8,6 +8,8 @@ order: 7
 tags: ["performance", "speed", "android", "optimization", "troubleshooting"]
 draft: false
 ---
+Menu names, supported behavior, and exact steps vary by manufacturer, model, Android version, region, carrier, and firmware. Any Pixel or other manufacturer-specific path below is an example for that device family, not universal Android behavior; use the instructions for your exact model.
+
 
 What should you try first when Android Wi-Fi breaks? Don't start with a factory reset, and don't waste half an hour changing router settings before testing the simple stuff. Most Wi-Fi problems fall into one of three buckets: the phone won't connect, it connects but keeps dropping, or it stays connected but the internet feels dead.
 

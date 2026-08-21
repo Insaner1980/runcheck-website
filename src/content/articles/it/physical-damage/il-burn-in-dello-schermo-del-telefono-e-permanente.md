@@ -10,6 +10,8 @@ tags:
 locale: "it"
 draft: false
 ---
+Nomi dei menu, comportamento supportato e passaggi esatti variano con produttore, modello, versione Android, area, operatore e firmware. Un percorso Pixel o specifico di un altro produttore riportato sotto è un esempio per quella famiglia, non un comportamento Android universale; segui le istruzioni per il tuo modello esatto.
+
 
 ---
 
@@ -47,7 +49,7 @@ Lasciare questi strumenti in funzione per ore alla massima luminosità può aggi
 
 Android supporta la navigazione completamente gestuale da Android 10, e il consiglio resta valido su Android 17: per l'usura di un OLED, i gesti sono preferibili a una barra luminosa con tre pulsanti che rimane ferma tutto il giorno.
 
-Le funzioni always-on display spostano anche orologi e icone, ne riducono la luminosità o limitano il tempo in cui restano visibili. Alcuni produttori applicano spostamenti dei pixel o altre tecniche di protezione del pannello, così gli stessi pixel non sopportano sempre tutto il carico. Samsung documenta la funzione Pixel Shift sui propri monitor e TV OLED; sugli smartphone le contromisure sono meno visibili e variano in base al produttore e al modello.
+Il comportamento dell'always-on display e le altre protezioni del pannello variano in base a telefono, produttore e modello. Consulta le indicazioni del display del dispositivo esatto invece di presumere una funzione documentata per un'altra categoria di prodotto.
 
 Anche la luminosità automatica aiuta. Il rischio di burn-in aumenta quando il display lavora a lungo ad alta intensità, quindi lasciare il telefono alla massima luminosità in casa significa sottoporlo a uno sforzo inutile.
 

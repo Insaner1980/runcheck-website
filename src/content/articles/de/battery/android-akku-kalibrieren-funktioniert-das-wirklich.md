@@ -15,6 +15,8 @@ Was sie manchmal korrigieren kann, ist eine falsche Ladestandsanzeige.
 
 **Meta-Beschreibung:** Eine Android-Akkukalibrierung stellt keine verlorene Kapazität wieder her, kann aber manchmal ungenaue Prozentanzeigen korrigieren. Erfahre, wann sie hilft und wann sie nur Zeit kostet.
 
+Für die batteriewissenschaftlichen Aussagen dieses Artikels stützt [die Übersicht von Edge und anderen](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) Kapazitäts- und Leistungsverlust, Impedanzanstieg sowie die Einflüsse von Temperatur, Ladestand, Strom oder Last, SEI-Wachstum und Lithium-Plating. Sie belegt keine Herstellerfunktionen, universellen Smartphone-Temperaturgrenzen, Zubehörentscheidungen, Reparaturhinweise oder Preise, genaue Lebensdauer, Ladezeitaussagen oder garantierten Ergebnisse.
+
 ## Was eine Kalibrierung beheben kann und was nicht
 
 Der Prozentwert in der Statusleiste ist eine Schätzung. Der Ladecontroller deines Smartphones beobachtet Stromstärke, Spannung, Temperatur und Ladeverhalten und berechnet daraus den aktuellen Ladezustand.

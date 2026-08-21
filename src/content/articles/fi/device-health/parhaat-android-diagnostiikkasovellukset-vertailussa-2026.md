@@ -1,6 +1,6 @@
 ---
 title: "Parhaat Android-diagnostiikkasovellukset vertailussa (2026)"
-description: "Androidin diagnostiikkasovellusten vertailu vuonna 2026: AccuBattery, DevCheck, AIDA64, CPU-Z, Device Info HW, Phone Doctor Plus, TestM ja runcheck sekä se, mitä kukin mittaa ja mihin tilanteeseen se sopii."
+description: "Androidin diagnostiikkasovellusten vertailu vuonna 2026: AccuBattery, DevCheck, AIDA64, CPU-Z, Device Info HW, Phone Doctor Plus ja runcheck sekä se, mitä kukin mittaa ja mihin tilanteeseen se sopii."
 listSummary: "Vertaa diagnostiikkasovelluksia mittausten ja käyttötavan mukaan."
 hub: "device-health"
 sourceNumber: 138
@@ -16,7 +16,7 @@ Paremmat vaihtoehdot kertovat rehellisemmin, mitä ne tekevät. AccuBattery seur
 
 Android 17:n jakelu on alkanut tuetuille Pixel-laitteille, ja muut valmistajat etenevät omien aikataulujensa mukaan. Tämä on olennaista, koska Androidin sisäänrakennetut diagnostiikkatiedot vaihtelevat edelleen paljon laitteittain. Pixel 8a ja uudemmat voivat näyttää akun kunnon ja lataussyklit Asetukset-sovelluksessa, kun taas toisen OEM-valmistajan keskihintainen puhelin saattaa näyttää vain lämpötilan ja varaustason.
 
-## AccuBattery
+## [AccuBattery](https://accubatteryapp.com/)
 
 AccuBattery on tämän vertailun akkusovellus. Se arvioi jäljellä olevan kapasiteetin mAh-arvona seuraamalla latauskertoja ja vertaa arviota akun nimelliskapasiteettiin. Mitä pidempään sovellus kerää tietoa, sitä hyödyllisemmäksi arvio muuttuu.
 
@@ -28,7 +28,7 @@ Pro-päivitys myydään useimmilla alueilla kertamaksullisena sovelluksen sisäi
 
 AccuBatteryn puute on yksinkertainen: se ei kerro paljon puhelimen muusta kunnosta. Akun peruslämpötilaa laajempi lämpökäyttäytyminen, tallennustilan kuormitus, signaalin laatu ja laitteiston tunnistaminen eivät ole sen tehtäviä.
 
-## DevCheck
+## [DevCheck](https://devcheck.app/user-guide/)
 
 DevCheck sopii parhaiten tilanteeseen, jossa haluat nähdä, mitä puhelin tekee juuri nyt. Se näyttää CPU- ja SoC-tiedot, ydinkohtaiset kellotaajuudet, GPU-tiedot, RAM-muistin, tallennustilan, näytön ominaisuudet, kameran anturitiedot, muut anturit, käyttöjärjestelmätiedot, Wi-Fi- ja mobiiliverkon sekä akun jännitteen, virran, lämpötilan ja tehonkulutuksen.
 
@@ -38,7 +38,7 @@ Ilmainen versio on jo itsessään hyödyllinen. Pro-päivitys lisää testejä, 
 
 DevCheckin heikkous on tulkinta. Se voi näyttää -78 dBm, 39,8 °C ja reaaliaikaisen CPU-taajuuskäyrän, mutta ei aina selitä, onko yhdistelmällä merkitystä. DevCheck on erinomainen ihmiselle, joka osaa lukea raakalukuja. Suoraan vastaukseen kysymykseen "onko tämä puhelin kunnossa?" se ei ole selkein vaihtoehto.
 
-## AIDA64
+## [AIDA64](https://www.aida64.com/aida64-android?language_content_entity=en)
 
 AIDA64 on käytännössä järjestelmätietojen tietovyöry sovelluksen muodossa. Kuulostaa tylyltä, mutta juuri siksi sitä käytetään. Android-versio kuuluu samaan tuoteperheeseen kuin pitkään käytössä ollut Windowsin laitteistotyökalu, ja se luettelee paljon: CPU-tunnisteet, kellotaajuudet, GPU- ja OpenGL-tiedot, muistin, tallennustilan, näytön pikselitiheyden, anturit, koodekit, käyttöjärjestelmätiedot ja järjestelmähakemistot.
 
@@ -46,13 +46,13 @@ AIDA64 sopii nopeaan tarkistukseen. Jos myyjä väittää puhelimessa olevan Sna
 
 Käytä sitä teknisten tietojen tarkistamiseen. Älä odota valmennusta.
 
-## CPU-Z
+## [CPU-Z](https://www.cpuid.com/softwares/cpu-z-android.html)
 
 CPU-Z on DevCheckiä ja AIDA64:ää kevyempi. Se tunnistaa suorittimen, näyttää ydinten kellotaajuudet ja RAM-muistin sekä antaa akun ja antureiden perustietoja. Android-sovellus noudattaa samaa ideaa kuin työpöytäkoneiden CPU-Z: avaa sovellus, tarkista laitteisto ja poistu.
 
 Siksi se toimii nopeana toisena mielipiteenä. Se ei seuraa trendejä tai akun kuntoa eikä toimi verkko- tai tallennustiladiagnostiikkana. CPU-Z vastaa lähinnä kysymykseen "mitä tämän puhelimen sisällä on?" ja lopettaa siihen.
 
-## Device Info HW
+## [Device Info HW](https://play.google.com/store/apps/details?id=ru.andr7e.deviceinfohw)
 
 Device Info HW keskittyy yksittäisten komponenttien tunnistamiseen. Tuetuissa puhelimissa se voi tunnistaa esimerkiksi LCD-paneelin, kosketusohjaimen, kamera-anturit, muistin, NFC-laitteiston, latauspiirin, Wi-Fi-laitteiston ja akkuihin liittyviä komponentteja. Tämä voi olla hyödyllistä kehittäjille, korjauksista kiinnostuneille ja ihmisille, jotka haluavat varmistaa mallin tavallista Asetukset-sovellusta tarkemmin.
 
@@ -60,11 +60,11 @@ Rajoituksena on Androidin käyttöoikeusmalli. Uudemmat Android-versiot ja laitt
 
 Se voi viedä raportit HTML- ja PDF-muotoon, mikä auttaa dokumentoimaan laitteen ennen myyntiä tai korjausta. Älä silti oleta, että jokainen komponenttikenttä näkyy Android 17 -puhelimissa.
 
-## Phone Doctor Plus ja TestM-tyyppiset laitteistotestit
+## [Phone Doctor Plus](https://play.google.com/store/apps/details?id=com.idea.PhoneDoctorPlus2)
 
 Teknisten tietojen sovellus kertoo, mitä puhelin väittää sisältävänsä. Ohjatut testisovellukset kertovat, reagoivatko osat oikeasti.
 
-Phone Doctor Plus sisältää yli 40 laitteisto- ja järjestelmätestiä, joihin kuuluu näytön, kaiuttimen, mikrofonin, kameran, antureiden, muistin, tallennustilan, verkon ja akun tarkistuksia. TestM on perustunut samanlaiseen ajatukseen ja opastanut käyttäjää laitteistotesteissä sekä kuntoraportin tekemisessä ostoa tai myyntiä varten, mutta sen nykyinen saatavuus vaihtelee eikä sitä välttämättä löydy virallisesta Google Playsta kaikilla alueilla.
+[Phone Doctor Plus](https://play.google.com/store/apps/details?id=com.idea.PhoneDoctorPlus2) kertoo nykyisen Android-sovelluksensa tarjoavan yli 40 laitteisto- ja järjestelmädiagnoosia, kuten näytön, kaiuttimen, mikrofonin, kameran, antureiden, muistin, tallennustilan, verkon ja akun tarkistuksia. Saatavuus ja testikattavuus voivat vaihdella laitteen ja alueen mukaan.
 
 Nämä sovellukset tarvitsevat osallistumistasi. Napautat näytön alueita, puhut mikrofoniin, peität läheisyysanturin, vaihdat kameroiden välillä ja vahvistat, kuuluuko kaiuttimesta ääntä. Se on hitaampaa kuin DevCheckin avaaminen, mutta löytää ongelmia, joita teknisten tietojen luettelo ei paljasta.
 
@@ -74,11 +74,11 @@ Käytettyä puhelinta tarkistettaessa tällä sovellusryhmällä on enemmän mer
 
 runcheck lähtee eri kysymyksestä: mikä on puhelimen kokonaiskunto juuri nyt?
 
-Se yhdistää akun, lämpötilan, verkon ja tallennustilan painotetuiksi kuntopisteiksi. Akun osuus on 40 %, lämpötilan ja verkon kummankin 25 % ja tallennustilan 10 %. Painotus on perusteltu. Heikkenevä akku tai jatkuvasti ylikuumeneva puhelin vaikuttaa päivittäiseen käyttöön enemmän kuin varoitus siitä, että tallennustila on 72-prosenttisesti täynnä.
+Se kokoaa akun, lämpötilan, verkon ja tallennustilan tarkistukset yhteen kuntonäkymään. Artikkeli ei julkaise kiinteää painotuskaavaa, joten kokonaistulos kannattaa lukea yhdessä yksittäisten tarkistusten kanssa.
 
 Hyödyllinen osa ei ole vain pistemäärä. runcheck kertoo myös mittauksen luotettavuustason. Akun virta on hyvä esimerkki. Android voi ilmoittaa hetkellisen virran mikroampeina BatteryManagerin kautta, mutta kaikki laitteet eivät raportoi arvoa yhtä laadukkaasti. Osa arvoista on tarkkoja, osa arvioita ja osa puuttuu kokonaan. runcheck näyttää tämän sen sijaan, että jokainen luku esitettäisiin yhtä luotettavana.
 
-Ilmainen versio kattaa akun, lämpötilan, verkon ja tallennustilan diagnostiikan. Pro on kertamaksullinen päivitys ilman tilausta, ja se lisää laturivertailun, sovelluskohtaisen käytön, pidemmän historian, thermal throttling -lokit eli lämmöstä johtuvan suorituskyvyn rajoittamisen lokit, CSV-viennin, widgetit ja muita syvempiä työkaluja. Käsittely tapahtuu laitteessa, eikä tiliä tarvita.
+Ilmaisversio kattaa akun, lämmön, verkon ja tallennustilan diagnostiikan. Pro on kertamaksullinen tilausvapaa päivitys, joka lisää syvempiä työkaluja. Nykyinen [runcheck-tuotesivu](https://runcheckapp.com/) kertoo, että diagnostiikka ja historia pysyvät laitteessa eikä runcheck-tiliä tarvita. Käyttäjän käynnistämä verkkotesti on nimenomainen poikkeus: se lähettää testiliikennettä [Measurement Labin NDT7-palveluun](https://www.measurementlab.net/tests/ndt/ndt7/). Osto on toinen nimenomainen verkkoraja, ja sen hoitaa [Google Play Billing](https://developer.android.com/google/play/billing). Linkit tukevat eri väitteitä; runcheck-etusivua ei käytetä näyttönä M-Labin tai Google Playn toiminnasta.
 
 runcheck ei kerro, mikä kamera-anturi puhelimessa on. Se ei ole sen tarkoitus.
 
@@ -90,7 +90,7 @@ Laitteiston tarkkaan tunnistamiseen sopivat DevCheck ja AIDA64. DevCheckiä on h
 
 Käytetyn puhelimen laitteistotarkistuksiin kannattaa käyttää ohjattua testisovellusta, kuten Phone Doctor Plusia. Teknisten tietojen luettelo ei kerro, rätiseekö kuuloke, toimiiko kosketus huonosti näytön reunassa tai hakeeko automaattitarkennus loputtomasti.
 
-Laitteen kokonaiskunnon tarkistamiseen sopii runcheck. Se on tämän luettelon ainoa sovellus, jonka perusta on usean osa-alueen kuntokuva yhden irrallisen mittauksen sijasta.
+Laitteen kokonaiskunnon tarkistamiseen runcheck perustuu usean osa-alueen kuntokuvaan yhden irrallisen mittauksen sijasta.
 
 Useimmille riittää kaksi sovellusta: DevCheck laitteiston tunnistamiseen ja yksi kuntoon keskittyvä sovellus seurantaan. Viiden diagnostiikkasovelluksen asentaminen kerralla on hyvä tapa lisätä taustakuormaa samalla, kun kuvittelee vähentävänsä sitä.
 

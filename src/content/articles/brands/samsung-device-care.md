@@ -11,7 +11,7 @@ draft: false
 
 Device care is useful, but it's a dashboard first and an optimizer second. It helps you find battery drain, storage pressure, background apps, memory use, and security checks from one place. The best parts are the specific tools, not the one-tap cleanup.
 
-Samsung's menus also change names between One UI versions. Some phones show Settings > Device care. Others show Settings > Battery and device care. Android 17 is now out first on most supported Pixel phones, while Galaxy phones will get Samsung's Android 17-based One UI update later, so expect another round of small wording and layout changes.
+[Samsung's live One UI 9 page](https://www.samsung.com/us/apps/one-ui/) says the official One UI 9 has been first rolled out to Galaxy Z Fold8 Ultra, Galaxy Z Fold8, and Galaxy Z Flip8 and is expected to roll out gradually to other Galaxy devices. Availability varies by model, country or region, carrier, firmware, and build.
 
 ## What Device care is
 

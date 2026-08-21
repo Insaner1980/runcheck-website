@@ -1,6 +1,7 @@
 ---
 import { render, type CollectionEntry } from "astro:content";
 import ArticleCTA from "./ArticleCTA.astro";
+import ArticleSources from "./ArticleSources.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { ARTICLE_LOCALES } from "../data/articleLocales.mjs";
 import { articlePath } from "../data/articlePaths.mjs";
@@ -46,7 +47,10 @@ const breadcrumbJsonLd = buildBreadcrumbJsonLd(
   jsonLd={breadcrumbJsonLd}
   metaRobots={copy.productionPublished ? undefined : "noindex, nofollow"}
 >
-  <article class="border-b border-run-border">
+  <article
+    class="border-b border-run-border"
+    data-source-number={article.data.sourceNumber}
+  >
     <div
       class="article-page-shell article-page-shell-narrow article-detail-shell"
     >
@@ -60,6 +64,10 @@ const breadcrumbJsonLd = buildBreadcrumbJsonLd(
       <p class="mt-5 text-lg text-run-muted">{article.data.description}</p>
       <div class="prose prose-invert mt-10 max-w-none prose-a:text-run-cyan">
         <Content />
+        <ArticleSources
+          sourceNumber={article.data.sourceNumber}
+          locale={locale}
+        />
       </div>
       <ArticleCTA locale={locale} />
     </div>

@@ -1,0 +1,36 @@
+---
+import {
+  getArticleSources,
+  getArticleSourcesHeading,
+} from "../data/articleSources.mjs";
+
+interface Props {
+  sourceNumber: number;
+  locale: string;
+}
+
+const { sourceNumber, locale } = Astro.props;
+const sources = getArticleSources(sourceNumber);
+const heading = getArticleSourcesHeading(locale);
+const headingId = `article-sources-${sourceNumber}`;
+---
+
+{
+  sources.length > 0 && (
+    <section
+      aria-labelledby={headingId}
+      class="article-sources mt-12 border-t border-run-border pt-8"
+    >
+      <h2 id={headingId}>{heading}</h2>
+      <ol>
+        {sources.map((item) => (
+          <li>
+            <a href={item.url}>
+              {item.publisher}: {item.title}
+            </a>
+          </li>
+        ))}
+      </ol>
+    </section>
+  )
+}

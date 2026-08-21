@@ -13,6 +13,8 @@ You're playing a game, the battery is at 12%, and the charger is right there. So
 
 You probably haven't. But you did create the exact heat stack that batteries dislike.
 
+For the battery-science statements in this article, [the Edge et al. review](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) supports capacity and power fade, impedance increase, and the effects of temperature, state of charge, current or load, SEI growth, and lithium plating. It does not establish manufacturer features, universal phone thresholds, accessory choices, repair advice or prices, exact lifetimes, charging-time claims, or guaranteed consumer outcomes.
+
 ## The short answer
 
 Using your phone while it charges is safe when you're using an undamaged, certified charger and cable in a dry place. Samsung says the same thing plainly for Galaxy phones: you can use the device while charging, and the battery will charge more slowly because the phone is using some of the incoming power.

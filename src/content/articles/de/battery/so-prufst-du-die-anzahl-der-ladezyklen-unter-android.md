@@ -11,7 +11,7 @@ locale: "de"
 draft: false
 ---
 
-Diese Zahl ist wichtig, weil Lithium-Ionen-Akkus eine begrenzte, in Ladezyklen messbare Lebensdauer haben. Die meisten modernen Smartphone-Akkus behalten je nach Zellchemie und Hersteller nach 800 bis 1.000 Zyklen noch ungefähr 80 % ihrer ursprünglichen Kapazität. Danach wird die kürzere Laufzeit im Alltag deutlich spürbar.
+Die Zyklenlebensdauer eines Akkus ist keine allgemeingültige Android-Zahl. Sie hängt von der Zellchemie und der Herstellerangabe ab. Google veröffentlicht zum Beispiel modellspezifische Ziele für Pixel, während für erfasste neue EU-Geräte eine eigene Mindestprüfung zur Haltbarkeit gilt.
 
 Android unterstützt die Meldung der Ladezyklen seit Android 14 über `BatteryManager.EXTRA_CYCLE_COUNT`. Ob die Zahl tatsächlich angezeigt oder an Apps weitergegeben wird, entscheidet jedoch der Hersteller. Einige aktuelle Smartphones zeigen sie in den Einstellungen, die meisten älteren Modelle nicht. Die folgenden Methoden sind danach sortiert, auf wie vielen Geräten sie funktionieren. Zuerst kommen Ansätze, die auch viele ältere Modelle abdecken.
 
@@ -19,7 +19,7 @@ Android unterstützt die Meldung der Ladezyklen seit Android 14 über `BatteryMa
 
 Für die meisten Smartphones, besonders für Modelle von vor 2024, ist eine Tracking-App der praktischste Ausgangspunkt.
 
-AccuBattery schätzt die Anzahl der Ladezyklen anhand der über längere Zeit erfassten Ladungsmenge. Installiere die App und lasse sie mindestens eine Woche lang mehrere Ladevorgänge beobachten. Sie berechnet einen Näherungswert, indem sie die insgesamt geladenen Milliamperestunden durch die Nennkapazität des Akkus teilt. Je länger die App Daten sammelt, desto besser wird die Schätzung. Wenn eine frisch installierte AccuBattery-Version bereits eine Zykluszahl anzeigt, beruht sie auf sehr wenigen Daten. Warte mindestens zwei Wochen, bevor du den Wert ernst nimmst. Die App läuft ab Android 5.0 und damit auf praktisch jedem noch verwendeten Smartphone.
+AccuBattery schätzt die Anzahl der Ladezyklen anhand der über längere Zeit erfassten Ladungsmenge. Installiere die App und lasse sie mindestens eine Woche lang mehrere Ladevorgänge beobachten. Sie berechnet einen Näherungswert, indem sie die insgesamt geladenen Milliamperestunden durch die Nennkapazität des Akkus teilt. Je länger die App Daten sammelt, desto besser wird die Schätzung. Wenn eine frisch installierte AccuBattery-Version bereits eine Zykluszahl anzeigt, beruht sie auf sehr wenigen Daten. Warte mindestens zwei Wochen, bevor du den Wert ernst nimmst. Die Android-Mindestversion kann sich mit App-Updates ändern. Prüfe deshalb den aktuellen Google-Play-Eintrag auf deinem eigenen Gerät, statt dich auf eine feste Versionsnummer zu verlassen.
 
 aBattery geht anders vor. Auf Geräten mit Android 14 oder neuer, deren Hersteller die erforderliche Schnittstelle für Akkuzustandsdaten vollständig umgesetzt hat, liest die App Zykluszahl und Zustandswert direkt aus dem System. Auf älteren Geräten oder bei unvollständiger Herstellerunterstützung fehlen die Werte oder sind unzuverlässig. Allein in der App lässt sich nicht immer erkennen, ob die angezeigten Daten tatsächlich von der Hardware stammen oder nur Platzhalter sind.
 

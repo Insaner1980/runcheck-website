@@ -9,8 +9,7 @@ tags: ["bateria", "estado", "diagnostico", "android", "guia"]
 locale: "es"
 draft: false
 ---
-
-Esa incertidumbre es precisamente el problema. Un Galaxy S25 con una versión reciente de One UI puede mostrar el porcentaje de estado de la batería y el número de ciclos en Ajustes. Un Galaxy S23 con una actualización aparentemente similar puede no mostrarlos. Android 17 ya está disponible en la mayoría de los Pixel compatibles, que lo recibieron primero, pero los Galaxy recibirán más adelante la actualización de One UI basada en Android 17, y Samsung seguirá decidiendo qué datos de la batería muestra en cada modelo.
+[La página actual de One UI 9 de Samsung](https://www.samsung.com/us/apps/one-ui/) dice que la versión oficial de One UI 9 se ha desplegado primero en Galaxy Z Fold8 Ultra, Galaxy Z Fold8 y Galaxy Z Flip8 y se espera que llegue gradualmente a otros dispositivos Galaxy. La disponibilidad varía por modelo, país o región, operador, firmware y compilación.
 
 Estas son las comprobaciones que merece la pena utilizar y las que parecen útiles, pero en realidad dicen muy poco.
 
@@ -92,7 +91,7 @@ Los modelos Galaxy S21 a S24 suelen proporcionar los campos básicos de batería
 
 Los Galaxy de la serie A y los modelos antiguos son menos predecibles. Samsung Members sigue siendo la mejor comprobación oficial. Las aplicaciones de terceros pueden seguir tendencias, pero es más probable que falten las lecturas de corriente y capacidad o que sean ruidosas.
 
-Los Galaxy que finalmente reciban Android 17 no se volverán transparentes de la noche a la mañana. Android 17 llegó primero a los Pixel compatibles, y el despliegue de Samsung llegará mediante su propio calendario de One UI. Incluso entonces, Samsung decidirá qué páginas de Ajustes y qué datos de batería activa en cada modelo.
+One UI 9 no vuelve transparentes a todos los Galaxy de la noche a la mañana. Samsung amplía el despliegue gradualmente y sigue decidiendo qué páginas de Ajustes y qué datos de batería activa según el modelo, la región y la compilación.
 
 ## Cuándo es probable que haya que sustituir la batería
 

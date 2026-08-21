@@ -65,13 +65,9 @@ OnePlus also uses Battery Health Engine on several models. OnePlus and OPPO have
 
 Some OnePlus phones also offer bypass charging or charge separation during gaming. The idea is to reduce battery stress by powering the device more directly while the phone is under heavy load. The exact behavior varies, but the goal is sensible: less battery heat during long plugged-in sessions.
 
-## Xiaomi: useful, but less consistent
+## POCO F6 example
 
-Xiaomi and HyperOS battery settings vary by model and region. Some phones offer optimized charging. Some offer an 80% or 90% style charge limit. Some bury the option under battery health management.
-
-Xiaomi HyperCharge also uses proprietary chargers and cables for its highest speeds. A standard USB-C PD charger is safe for normal charging, but it usually won't hit the headline wattage.
-
-This is where Android gets messy. Two Xiaomi phones from the same year can expose different charging options, and regional firmware can change the names again.
+[On the POCO F6, Xiaomi documents](https://www.mi.com/global/support/faq/details/KA-274093/) `Settings > Battery > Battery protection`, with Regular, Limited, Optimized, and Nighttime charging choices. It also documents `Security > Battery > Battery protection` as an alternate route. This is a POCO F6 example, not a universal menu or mode list for Xiaomi, Redmi, POCO, MIUI, or HyperOS devices. Other models and software versions may differ.
 
 ## Older phones and third-party apps
 

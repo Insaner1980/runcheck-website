@@ -9,6 +9,8 @@ tags: ["hardware", "schaden", "reparatur", "android", "fehlerbehebung"]
 locale: "de"
 draft: false
 ---
+Menünamen, unterstütztes Verhalten und genaue Schritte unterscheiden sich nach Hersteller, Modell, Android-Version, Region, Anbieter und Firmware. Ein Pixel- oder anderer herstellerspezifischer Pfad unten ist ein Beispiel für diese Gerätefamilie, kein universelles Android-Verhalten; nutze die Anleitung für dein genaues Modell.
+
 
 ---
 
@@ -46,7 +48,7 @@ Lässt du solche Werkzeuge stundenlang bei hoher Helligkeit laufen, kann das Dis
 
 Die vollständig gestenbasierte Navigation wird seit Android 10 unterstützt, und der Rat gilt auch unter Android 17: Gesten sind für die gleichmäßige OLED-Abnutzung günstiger als eine helle Navigationsleiste mit drei Tasten, die den ganzen Tag an derselben Stelle bleibt.
 
-Auch Always-on-Displays verschieben Uhr und Symbole, dimmen sie oder begrenzen ihre Anzeigedauer. Einige Hersteller nutzen Pixelverschiebung oder ähnliche Schutzmechanismen. Dabei bewegen sich Inhalte im Laufe der Zeit minimal, damit nicht ständig dieselben Pixel belastet werden. Samsung dokumentiert Pixel Shift für seine OLED-Monitore und Fernseher. Bei Smartphones werden vergleichbare Schutzmechanismen je nach Hersteller und Modell weniger sichtbar umgesetzt.
+Das Verhalten des Always-on-Displays und andere Schutzmechanismen variieren je nach Smartphone, Hersteller und Modell. Prüfe die Display-Hinweise des genauen Geräts, statt eine für eine andere Produktkategorie dokumentierte Funktion vorauszusetzen.
 
 Die automatische Helligkeitsregelung hilft ebenfalls. Das Burn-in-Risiko steigt, wenn das Display über längere Zeit stark betrieben wird. Ein Smartphone, das in Innenräumen dauerhaft auf maximaler Helligkeit steht, leistet unnötige Arbeit.
 

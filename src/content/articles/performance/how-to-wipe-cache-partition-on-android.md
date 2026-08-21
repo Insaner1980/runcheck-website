@@ -33,13 +33,11 @@ Pixels are the easiest example. You can still boot a Pixel into Recovery Mode, b
 
 Samsung has historically kept the option around longer than many others. That is why most people searching for this are really asking about Galaxy phones.
 
-## The Samsung situation in 2026
+## Current scope: A/B Android and supported Galaxy devices
 
-Samsung's own UK support page still describes **Clear the cache partition** through Recovery Mode: power off, open Recovery with the button combination, select **Wipe cache partition**, confirm, then reboot.
+[AOSP's A/B update documentation](https://source.android.com/docs/core/ota/ab/ab_implement) states that A/B devices do not need a recovery or cache partition for OTA packages. That is why a classic **Wipe cache partition** command is not a universal modern Android feature.
 
-At the same time, Samsung's February 2026 update appears to have removed several Recovery Mode tools, including **Wipe cache partition**, on some Galaxy models. Reports from Android Authority and GalaxyClub pointed first to Galaxy S25 models and newer foldables such as the Galaxy Z Fold 7. The new trimmed menu reportedly shows only **Reboot system now**, **Wipe data/factory reset**, and **Power off** on affected builds.
-
-Samsung has not published one clear global explanation that covers every model and region. So the safe advice is this: on Galaxy phones in 2026, treat **Wipe cache partition** as firmware-dependent. If your Recovery menu has it, you can use it. If it is missing, your phone is not necessarily broken.
+[Samsung's current UK instructions](https://www.samsung.com/uk/support/mobile-devices/how-do-i-clear-the-cache-on-my-device/) still document the command for supported Galaxy devices: enter Recovery, choose **Wipe cache partition**, confirm, and reboot. Treat that as Samsung-specific and firmware-dependent. If the option is absent, do not substitute **Wipe data/factory reset**.
 
 ## Before you try Recovery Mode
 

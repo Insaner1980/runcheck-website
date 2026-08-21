@@ -32,11 +32,7 @@ En aktuell Samsung-detalj är lätt att missa: på Galaxy-enheter med Android 16
 
 ## Tester på Xiaomi, Redmi och POCO
 
-På telefoner från Xiaomi, Redmi och POCO öppnar du telefonappen och skriver `*#*#6484#*#*`. Om CIT-läget inte öppnas kan du prova `*#*#64663#*#*`.
-
-Leta i CIT efter `Fingerprint sensor check`, `Fingerprint input test` eller ett alternativ med liknande namn. Xiaomis supportsidor rekommenderar uttryckligen CIT:s hårdvarutest när fingeravtrycksalternativet saknas, så det här är mer än ett gammalt forumknep.
-
-Du kan också öppna telefoninformationen i Inställningar, gå till den detaljerade specifikationsvyn och trycka flera gånger på kernelversionen. Xiaomi ändrar benämningarna mellan MIUI och HyperOS, men vägen via kernelversionen fungerar ofta även när koden i telefonappen är blockerad.
+På telefoner från Xiaomi, Redmi och POCO öppnar du telefonappen och skriver `*#*#6484#*#*`. Kör `Fingerprint sensor check` och `Fingerprint input test` i CIT. [Xiaomi dokumenterar just den här koden och dessa två tester](https://www.mi.com/global/support/faq/details/KA-42422/) när fingeravtrycksalternativet saknas. Om sidan eller testerna inte finns på din modell använder du Xiaomis support i stället för en odokumenterad reservkod.
 
 ## Tester på Google Pixel
 
@@ -52,7 +48,7 @@ Android 17 är värt att nämna eftersom versionen först blev tillgänglig för
 
 OnePlus, Motorola, Realme, Oppo och Android-telefoner av Nokia-typ varierar för mycket för att en enda fingeravtryckskod ska fungera på alla.
 
-Börja med tillverkarens support- eller diagnostikapp om telefonen har en sådan. Många Motorola-modeller har till exempel Device Help med hårdvarutester. Telefoner från OnePlus och Oppo-familjen kan ge åtkomst via `*#899#` eller äldre teknikerlägen, men stödet är ojämnt.
+Börja med tillverkarens support- eller diagnostikapp om telefonen har en sådan. Tillgängliga tester och öppningsvägar varierar med modell och programvaruversion.
 
 En app från tredje part kan ändå svara på en grundläggande fråga: ser Android över huvud taget någon fingeravtryckssensor? Appar som Sensor Test, DevCheck och Phone Doctor Plus kan visa om systemets stöd för fingeravtryckshårdvara finns. De kan vanligtvis inte utföra en säker matchning av fingeravtryck, eftersom Android avsiktligt skyddar biometriska data, men de kan hjälpa dig skilja mellan saknad hårdvara och dålig igenkänning.
 

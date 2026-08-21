@@ -8,6 +8,8 @@ order: 6
 tags: ["hardware", "testing", "diagnostics", "android", "guide"]
 draft: false
 ---
+Android exposes vibration through the [Vibrator actuator API](https://developer.android.com/reference/android/os/Vibrator); a vibration motor is not an Android sensor. For direct device checks, [Samsung documents `*#0*#`](https://www.samsung.com/ch/support/mobile-devices/wie-kann-ich-einzelne-hard-oder-software-funktionen-testen/), [Samsung Members provides supported phone diagnostics](https://www.samsung.com/us/support/answer/ANS10003443/), and [Xiaomi documents CIT access](https://www.mi.com/global/support/faq/details/KA-491482/) on applicable devices. Availability and test names vary by model, region, carrier, and firmware.
+
 
 ---
 
@@ -30,8 +32,6 @@ One more small thing: check the keyboard. Gboard, Samsung Keyboard, and SwiftKey
 Samsung Galaxy phones have the cleanest built-in option. Open Samsung Members, tap Diagnostics, then Phone diagnostics, and run the Vibration test. Samsung's current diagnostics list includes Vibration as a separate phone test, so this is the safer route than relying on hidden codes.
 
 The old Samsung dialer code `*#0*#` still opens a hardware test menu on many Galaxy models. Tap Vibration and the phone should vibrate until you exit the test. It needs Samsung's own Phone app. Carrier firmware, newer One UI security settings, or enterprise restrictions can block the menu.
-
-Some Android phones also react to `*#*#0842#*#*`, which has long been used as a vibration and backlight test code. Don't treat it as universal. Pixels usually don't support it, and many modern dialer apps ignore it.
 
 For Xiaomi, Redmi, and POCO phones, try the CIT menu with `*#*#6484#*#*`. The menu name and test list vary between MIUI and HyperOS builds, but vibration is commonly included.
 

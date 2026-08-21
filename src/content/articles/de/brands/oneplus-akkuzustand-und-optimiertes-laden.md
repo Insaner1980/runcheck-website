@@ -14,6 +14,8 @@ Schnelles Laden ist nicht automatisch schädlich. Der eigentliche Gegner ist Hit
 
 Noch ein Hinweis zum Zeitpunkt: Android 17 wurde am 16. Juni 2026 zunächst für die meisten unterstützten Pixel-Geräte veröffentlicht. OnePlus verteilt Android-17-basierte OxygenOS-Updates nach dem eigenen Zeitplan. Akkufunktionen können sich weiterhin je nach Modell, Region und OTA-Build unterscheiden. Verlass dich deshalb nicht darauf, dass eine Einstellung vorhanden ist, bevor du sie auf deinem eigenen Gerät siehst.
 
+Für die batteriewissenschaftlichen Aussagen dieses Artikels stützt [die Übersicht von Edge und anderen](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) Kapazitäts- und Leistungsverlust, Impedanzanstieg sowie die Einflüsse von Temperatur, Ladestand, Strom oder Last, SEI-Wachstum und Lithium-Plating. Sie belegt keine Herstellerfunktionen, universellen Smartphone-Temperaturgrenzen, Zubehörentscheidungen, Reparaturhinweise oder Preise, genaue Lebensdauer, Ladezeitaussagen oder garantierten Ergebnisse.
+
 ## Akkuzustand in den Einstellungen prüfen
 
 Beginne mit der Suche in den Einstellungen. Das ist der unkomplizierteste Weg, weil OnePlus die Akkuseiten zwischen verschiedenen OxygenOS-Versionen mehrfach verschoben hat.

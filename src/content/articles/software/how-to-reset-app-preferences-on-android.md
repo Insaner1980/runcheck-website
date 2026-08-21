@@ -8,6 +8,8 @@ order: 10
 tags: ["security", "malware", "android", "privacy", "guide"]
 draft: false
 ---
+The exact menu label varies by manufacturer and Android version. The [current AOSP Settings implementation](https://android.googlesource.com/platform/packages/apps/Settings/+/master/src/com/android/settings/applications/manageapplications/ResetAppsHelper.java) is the direct reference for stock Android behavior: it re-enables disabled apps, resets app-operation and notification restrictions, clears preferred activities, resets relevant network policies, and resets runtime permissions. Manufacturer builds may present or extend this differently; check the confirmation dialog on your phone before proceeding.
+
 
 The catch is that the name is terrible. It doesn't reset your apps. It resets the phone's app-related choices around permissions, defaults, notifications, background behavior, and disabled apps. Your photos, messages, files, saved accounts, and app data stay where they are.
 

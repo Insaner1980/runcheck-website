@@ -11,7 +11,7 @@ locale: "fr"
 draft: false
 ---
 
-Ce chiffre compte parce qu'une batterie lithium-ion a une durée de vie limitée, mesurée en cycles. La plupart des batteries de téléphones modernes conservent environ 80 % de leur capacité initiale après 800 à 1 000 cycles, selon leur chimie et le fabricant. Au-delà, l'autonomie quotidienne diminue nettement.
+La durée de vie en cycles d'une batterie n'est pas un chiffre Android universel. Elle dépend de la chimie de la cellule et de la valeur annoncée par le fabricant. Google publie par exemple des objectifs propres à chaque modèle Pixel, tandis que les nouveaux téléphones concernés par les règles de l'UE suivent un essai minimal distinct.
 
 Depuis Android 14, l'API BatteryManager peut exposer le nombre de cycles, mais l'affichage réel dépend entièrement du fabricant. Quelques téléphones récents le montrent dans les Paramètres. La plupart ne le font toujours pas. Les méthodes ci-dessous sont classées selon le nombre d'appareils qu'elles couvrent, en commençant par celles qui fonctionnent sur le plus grand nombre de modèles, y compris les plus anciens.
 
@@ -19,7 +19,7 @@ Depuis Android 14, l'API BatteryManager peut exposer le nombre de cycles, mais l
 
 Pour la majorité des téléphones, surtout ceux sortis avant 2024, une application de suivi reste le point de départ le plus pratique.
 
-AccuBattery estime le nombre de cycles en suivant l'énergie ajoutée pendant les recharges. Installez l'application, laissez-la fonctionner au moins une semaine pendant plusieurs sessions, puis elle calcule une valeur approximative à partir du total de milliampères-heures chargés, divisé par la capacité nominale de la batterie. Plus le suivi dure, plus l'estimation devient utile. Une installation récente qui affiche déjà un nombre de cycles extrapole à partir de très peu de données. Attendez au moins deux semaines avant de prendre ce chiffre au sérieux. AccuBattery fonctionne à partir d'Android 5.0, ce qui couvre presque tous les téléphones encore utilisés.
+AccuBattery estime le nombre de cycles en suivant l'énergie ajoutée pendant les recharges. Installez l'application, laissez-la fonctionner au moins une semaine pendant plusieurs sessions, puis elle calcule une valeur approximative à partir du total de milliampères-heures chargés, divisé par la capacité nominale de la batterie. Plus le suivi dure, plus l'estimation devient utile. Une installation récente qui affiche déjà un nombre de cycles extrapole à partir de très peu de données. Attendez au moins deux semaines avant de prendre ce chiffre au sérieux. La version minimale d'Android peut changer avec les mises à jour de l'application. Vérifiez donc la fiche Google Play actuelle sur votre propre appareil au lieu de retenir un numéro fixe.
 
 aBattery suit une autre méthode. Sur les appareils Android 14 ou plus récents dont le fabricant a correctement mis en œuvre le HAL d'état de la batterie, l'application peut lire directement le nombre de cycles et le pourcentage de capacité restante fournis par le système. Sur les appareils plus anciens ou dont l'implémentation du HAL est incomplète, les valeurs peuvent manquer ou être peu fiables. L'application seule ne permet pas toujours de savoir si la donnée vient réellement du matériel ou d'une valeur par défaut.
 

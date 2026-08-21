@@ -9,6 +9,8 @@ tags: ["sikkerhed", "malware", "android", "privatliv", "guide"]
 locale: "da"
 draft: false
 ---
+Den præcise menutekst varierer efter producent og Android-version. [Den aktuelle AOSP Settings-implementering](https://android.googlesource.com/platform/packages/apps/Settings/+/master/src/com/android/settings/applications/manageapplications/ResetAppsHelper.java) er den direkte reference for standard-Android: den genaktiverer deaktiverede apps, nulstiller apphandlings- og notifikationsbegrænsninger, rydder foretrukne aktiviteter og nulstiller relevante netværkspolitikker og runtime-tilladelser. Producent-builds kan vise eller udvide dette anderledes; læs telefonens bekræftelsesdialog, før du fortsætter.
+
 
 Problemet er navnet. Funktionen nulstiller ikke dine apps. Den nulstiller telefonens apprelaterede valg omkring tilladelser, standardapps, notifikationer, baggrundsadfærd og deaktiverede apps. Dine billeder, beskeder, filer, gemte konti og appdata bliver liggende.
 

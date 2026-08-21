@@ -13,6 +13,8 @@ The best charging habit is boring: keep the phone cool, avoid sitting at 100% fo
 
 That doesn't mean you need to babysit the battery percentage or unplug the phone the second it reaches 80%. A phone is a tool, not a lab sample. But lithium-ion batteries do age faster under a few predictable conditions, and your charging routine can either add to that stress or keep it under control.
 
+For the battery-science statements in this article, [the Edge et al. review](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) supports capacity and power fade, impedance increase, and the effects of temperature, state of charge, current or load, SEI growth, and lithium plating. It does not establish manufacturer features, universal phone thresholds, accessory choices, repair advice or prices, exact lifetimes, charging-time claims, or guaranteed consumer outcomes.
+
 ## The 20 to 80% habit
 
 Lithium-ion batteries don't love the extremes. A phone battery near 100% sits at a higher cell voltage. That high-voltage state speeds up side reactions inside the cell, including growth of the solid electrolyte interface and gradual loss of usable lithium. The result is simple: the battery holds less charge over time.

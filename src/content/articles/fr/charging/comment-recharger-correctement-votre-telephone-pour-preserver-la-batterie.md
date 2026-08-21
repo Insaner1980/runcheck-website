@@ -14,6 +14,8 @@ La meilleure habitude de recharge est assez banale : gardez le téléphone au fr
 
 Cela ne signifie pas que vous devez surveiller constamment le pourcentage ou débrancher le téléphone à la seconde où il atteint 80 %. Un téléphone est un outil, pas un échantillon de laboratoire. Les batteries lithium-ion vieillissent toutefois plus vite dans quelques situations prévisibles, et votre routine peut soit ajouter du stress, soit le limiter.
 
+Pour les affirmations scientifiques sur la batterie de cet article, [la synthèse d'Edge et ses coauteurs](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) étaye la perte de capacité et de puissance, l'augmentation d'impédance et les effets de la température, du niveau de charge, du courant ou de la charge, de la croissance de la SEI et du placage de lithium. Elle n'établit ni fonction de fabricant, ni seuil universel pour les téléphones, ni choix d'accessoire, conseil ou prix de réparation, durée de vie exacte, temps de charge ou résultat garanti.
+
 ## L'habitude des 20-80 %
 
 Les batteries lithium-ion n'aiment pas les extrêmes. Près de 100 %, la cellule reste à une tension plus élevée. Cet état accélère les réactions secondaires à l'intérieur, notamment la croissance de l'interface électrolyte solide et la perte progressive de lithium utilisable. Le résultat est simple : avec le temps, la batterie stocke moins d'énergie.

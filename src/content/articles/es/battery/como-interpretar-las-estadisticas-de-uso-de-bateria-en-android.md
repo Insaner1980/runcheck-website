@@ -10,6 +10,8 @@ tags: ["bateria", "consumo", "solucion-de-problemas", "android", "rendimiento"]
 locale: "es"
 draft: false
 ---
+Los nombres de menú, el comportamiento compatible y los pasos exactos cambian según fabricante, modelo, versión de Android, región, operador y firmware. Cualquier ruta de Pixel o específica de otro fabricante que aparezca abajo es un ejemplo para esa familia, no un comportamiento universal de Android; usa las instrucciones de tu modelo exacto.
+
 
 Abres Uso de batería y ves una aplicación con un 42 %. Parece grave. A veces lo es. Otras veces no significa casi nada.
 

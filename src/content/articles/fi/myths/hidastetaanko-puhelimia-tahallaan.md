@@ -20,7 +20,7 @@ Tahallisesta hidastamisesta puhutaan yhä ennen kaikkea Applen vuoden 2017 Batte
 
 Ongelma oli avoimuuden puute. Käyttäjät näkivät puhelintensa hidastuvan, mutta heille ei kerrottu selvästi, että akun vaihtaminen voisi palauttaa suuren osan menetetystä suorituskyvystä. Moni päätteli, että itse puhelin oli tullut tiensä päähän.
 
-Apple lisäsi myöhemmin selkeämmät tiedot akun kunnosta ja maksoi sovintokorvauksia. Vuonna 2018 Italian kilpailuviranomainen määräsi myös Applelle ja Samsungille sakot ohjelmistopäivityksistä, jotka aiheuttivat joissakin puhelimissa vakavia ongelmia tai heikensivät suorituskykyä. Tämän historian vuoksi ihmiset eivät vain kohauta olkapäitään, kun vanha laite huononee päivityksen jälkeen.
+Dokumentoitu tapaus on olemassa. Vuonna 2018 [Italian kilpailuviranomainen ilmoitti Applelle ja Samsungille määrätyistä sakoista](https://en.agcm.it/en/media/press-releases/2018/10/PS11009-PS11039), kun se katsoi tiettyjen laiteohjelmistopäivitysten aiheuttaneen vakavia toimintahäiriöitä ja heikentäneen suorituskykyä ilman riittäviä tietoja vaikutuksista tai alkuperäisen toiminnan palauttamisesta. Tämä on näyttöä nimetyistä tutkimuksista ja laitteista, ei todiste siitä, että jokainen myöhempi hidastuminen tai päivitys olisi tahallinen.
 
 Eikä heidän pidäkään.
 

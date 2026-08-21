@@ -9,6 +9,8 @@ tags: ["sicurezza", "malware", "android", "privacy", "guida"]
 locale: "it"
 draft: false
 ---
+La voce esatta cambia con produttore e versione Android. [L'implementazione attuale di AOSP Settings](https://android.googlesource.com/platform/packages/apps/Settings/+/master/src/com/android/settings/applications/manageapplications/ResetAppsHelper.java) è il riferimento diretto per Android standard: riabilita app disattivate, ripristina limitazioni di operazioni e notifiche, cancella attività preferite e ripristina criteri di rete pertinenti e autorizzazioni runtime. Le build del produttore possono presentare o estendere l'operazione diversamente; leggi la finestra di conferma del telefono prima di procedere.
+
 
 Il problema è il nome, che non è molto chiaro. Il comando non ripristina le app. Reimposta le scelte del telefono relative ad autorizzazioni, app predefinite, notifiche, attività in background e app disattivate. Foto, messaggi, file, account salvati e dati delle app restano al loro posto.
 

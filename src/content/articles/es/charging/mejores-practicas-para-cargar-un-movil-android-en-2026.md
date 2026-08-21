@@ -102,11 +102,9 @@ Busca en Ajustes > Batería opciones como carga optimizada, estado de la baterí
 
 Si tu OnePlus ofrece Carga Bypass mientras juegas o utilizas aplicaciones exigentes, merece la pena activarla durante sesiones largas con el móvil enchufado. La idea es alimentar el teléfono desde el cargador y reducir el calor que recibe la batería mientras trabaja con intensidad.
 
-### Xiaomi, OPPO y otras marcas
+### Ejemplo del POCO F6
 
-Los menús de Xiaomi y OPPO varían más según la región y la versión de software. Busca protección de la batería, carga optimizada, carga inteligente o un límite de carga dentro de Ajustes > Batería.
-
-Si el móvil tiene carga propietaria de alta potencia, utiliza el cargador y el cable recomendados cuando quieras la máxima velocidad. Para una carga nocturna normal, a menudo basta con un cargador USB-C PD más lento.
+[En el POCO F6, Xiaomi documenta](https://www.mi.com/global/support/faq/details/KA-274093/) la ruta `Settings > Battery > Battery protection` con las opciones Regular, Limited, Optimized y Nighttime charging. La página también indica `Security > Battery > Battery protection` como ruta alternativa. Es un ejemplo específico del POCO F6, no un menú ni una lista de modos universal para dispositivos Xiaomi, Redmi, POCO, MIUI o HyperOS. Otros modelos y versiones de software pueden ser diferentes.
 
 ## Hábitos por los que puedes dejar de preocuparte
 

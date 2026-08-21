@@ -9,8 +9,7 @@ tags: ["akku", "kunto", "diagnostiikka", "android", "opas"]
 locale: "fi"
 draft: false
 ---
-
-Juuri epävarmuus on olennaista. Uudella One UI -versiolla varustettu Galaxy S25 saattaa näyttää akun kuntoprosentin ja lataussyklien määrän asetuksissa. Näennäisesti samanlaisen päivityksen saanut Galaxy S23 ei välttämättä näytä niitä. Android 17 on jo saatavilla useimmissa tuetuissa Pixel-puhelimissa, ja Samsung käynnisti Android 17:ään perustuvan One UI 9:n betaohjelman Galaxy S26 -sarjalle toukokuussa 2026. Laajempi vakaa jakelu tulee myöhemmin, ja Samsung päättää edelleen, mitkä akkutiedot se näyttää kullakin laitteella.
+[Samsungin nykyinen One UI 9 -sivu](https://www.samsung.com/us/apps/one-ui/) sanoo, että virallinen One UI 9 on otettu ensin käyttöön Galaxy Z Fold8 Ultra-, Galaxy Z Fold8- ja Galaxy Z Flip8 -laitteissa ja sen odotetaan tulevan vähitellen muihin Galaxy-laitteisiin. Saatavuus vaihtelee mallin, maan tai alueen, operaattorin, laiteohjelmiston ja koontiversion mukaan.
 
 Seuraavat tarkistukset ovat oikeasti hyödyllisiä. Mukana ovat myös ne, jotka näyttävät hyödyllisiltä mutta kertovat vähän.
 
@@ -92,7 +91,7 @@ Galaxy S21-S24 -mallit näyttävät yleensä Androidin perustason akkutietoja, k
 
 Galaxy A -sarjan ja vanhempien mallien toiminta on vaikeammin ennakoitavaa. Samsung Members on edelleen paras virallinen tarkistus. Kolmannen osapuolen sovelluksilla voi seurata kehitystä, mutta virta- ja kapasiteettilukemat puuttuvat tai ovat epävakaita todennäköisemmin.
 
-Android 17:n saavat Galaxy-puhelimet eivät muutu automaattisesti avoimemmiksi yhdessä yössä. Android 17 tuli ensin tuettuihin Pixel-laitteisiin, ja Samsung aloitti Android 17 -pohjaisen One UI 9:n testauksen betaohjelmalla Galaxy S26 -sarjassa. Laajempi käyttöönotto etenee Samsungin oman aikataulun mukaan. Silloinkin Samsung päättää, mitkä asetussivut ja akkuarvot otetaan käyttöön kussakin mallissa.
+One UI 9 ei tee kaikista Galaxy-puhelimista automaattisesti avoimempia yhdessä yössä. Samsung laajentaa jakelua asteittain ja päättää edelleen, mitkä asetussivut ja akkuarvot otetaan käyttöön eri malleissa, alueilla ja ohjelmistokoontiversioissa.
 
 ## Milloin akku on todennäköisesti vaihdettava
 

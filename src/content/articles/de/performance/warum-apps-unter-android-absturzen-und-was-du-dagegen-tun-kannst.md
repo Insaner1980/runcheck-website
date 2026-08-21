@@ -51,7 +51,7 @@ Prüfe den Speicherbereich in den Einstellungen. Lösche große Videos, alte Dow
 
 ## Abstürze nach einem Android-Update
 
-Große Betriebssystemupdates verändern die Umgebung, in der jede App läuft. Android 17 befindet sich im Juli 2026 noch in der Beta und hat mit Beta 3 Plattformstabilität erreicht. Unterstützte Pixel-Geräte können die Testversion bereits ausführen, eine stabile allgemeine Verteilung hat aber noch nicht begonnen. War eine App vorher nur knapp kompatibel, kann ein großes Update oder schon eine Beta-Version das schnell sichtbar machen.
+Große Betriebssystemupdates verändern die Umgebung, in der jede App läuft. Android 17 ist für unterstützte Pixel-Geräte verfügbar, während andere Hersteller nach eigenen Zeitplänen aktualisieren. War eine App vorher nur knapp kompatibel, kann ein großes Update das schnell sichtbar machen.
 
 Aktualisiere nach einem Systemupdate zuerst deine Apps. Aktualisiere anschließend WebView, Chrome, Google Play services und die betroffene App. Starte das Smartphone einmal neu. Wurde das Update gerade erst installiert, gib dem Gerät einige Stunden Zeit, da Android im Hintergrund noch Apps optimieren und Caches neu aufbauen kann.
 

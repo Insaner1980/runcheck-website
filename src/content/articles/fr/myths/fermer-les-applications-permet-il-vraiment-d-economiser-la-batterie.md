@@ -9,41 +9,22 @@ tags: ["mythes", "faits", "android", "batterie", "demystification"]
 locale: "fr"
 draft: false
 ---
+Ne balayez pas systématiquement toutes les applications pour économiser la batterie. [L'aide Android de Google indique qu'il n'est généralement pas nécessaire de fermer les applications](https://support.google.com/android/answer/9079646?hl=en-GB) et recommande de fermer ou forcer l'arrêt uniquement lorsqu'une application ne répond pas.
 
-En réalité, cela n'économise pas vraiment la batterie.
+## Ce que signifie la liste des applications récentes
 
-## La réponse reste la même : non
+Android peut garder en mémoire cache les applications récentes afin de les rouvrir rapidement. Une application en cache n'est pas automatiquement active. [La présentation de la gestion de la mémoire Android](https://developer.android.com/topic/performance/memory-management-overview) explique que le système récupère les processus lorsque la mémoire est nécessaire.
 
-Fermer les applications depuis le sélecteur d'applications ne permet pas d'économiser une quantité significative de batterie sur Android. Dans de nombreux cas ordinaires, cela peut même consommer un peu plus d'énergie, car l'application devra redémarrer entièrement la prochaine fois que vous l'ouvrirez.
+Ce comportement ne prouve ni économie ni surcoût de batterie fixe lié à la fermeture. La conclusion défendable est plus étroite : vider systématiquement la liste est inutile et le diagnostic doit viser les applications qui dysfonctionnent réellement.
 
-Android est conçu pour conserver en mémoire les applications utilisées récemment lorsque c'est possible. Cela ne signifie pas qu'elles fonctionnent activement. Une application mise en cache peut rester silencieuse afin de se rouvrir plus vite. Avoir de la RAM vide n'est pas un objectif en soi.
+## Quand arrêter une application
 
-Lorsque vous balayez une application pour la fermer, Android peut supprimer cet état en cache. À la prochaine ouverture, le téléphone doit la recharger depuis le stockage, reconstruire l'interface, récupérer les données et se reconnecter aux services qu'elle utilise. Le faire une fois ne changera pas votre journée. Le répéter sans arrêt ne sert pas à grand-chose.
+Fermez ou forcez l'arrêt d'une application bloquée ou qui ne répond plus. Si elle utilise de façon inattendue la localisation, le son, le réseau ou une grande part de la batterie, vérifiez sa consommation et ses autorisations en arrière-plan. Les noms des menus varient selon le fabricant et la version d'Android.
 
-## Ce qu'Android fait déjà
-
-Android gère depuis longtemps la consommation des applications en arrière-plan. Doze et App Standby sont arrivés avec Android 6.0. Les versions suivantes ont ajouté des limites plus strictes, les App Standby Buckets, des contrôles de notifications, des règles d'exécution en arrière-plan et des réglages de batterie propres aux fabricants.
-
-Doze limite le réseau et les tâches lourdes pour le CPU lorsque le téléphone est inactif, débranché et que l'écran est éteint. App Standby et App Standby Buckets limitent les applications selon la fréquence et la date de leur dernière utilisation. Android 17 ajoute aussi, sur certains appareils, des limites de mémoire au niveau du système afin de contenir les applications qui utilisent beaucoup trop de RAM.
-
-C'est le point essentiel. Le téléphone possède déjà un système de gestion de l'énergie. L'écran des applications récentes n'est pas un panneau de contrôle de la batterie.
-
-## Quand forcer l'arrêt d'une application est utile
-
-Il existe des situations où arrêter une application est la bonne décision.
-
-Si une application reste bloquée sur le GPS, continue à lire du son, se synchronise sans arrêt ou fait chauffer le téléphone dans votre poche, arrêtez-la. Ouvrez **Paramètres > Batterie > Utilisation de la batterie** et cherchez une consommation qui ne correspond pas à votre usage réel. Une application de réseau social qui consomme 20 % de la batterie après dix minutes d'écran mérite d'être examinée.
-
-Vous pouvez aussi limiter une application précise. Sur de nombreux téléphones Android, ouvrez **Paramètres > Applications**, choisissez l'application, puis ses réglages de batterie et limitez son activité en arrière-plan. Les intitulés varient selon le fabricant, mais le principe reste le même : limiter l'application problématique, pas toutes les applications.
-
-C'est là que beaucoup de personnes inversent le raisonnement. Fermer une application qui dysfonctionne relève du dépannage. Tout fermer toute la journée relève de l'habitude.
+Arrêter une application défaillante relève du dépannage. Ce n'est pas la même chose que vider chaque jour toutes les applications récentes.
 
 ## Que faire à la place
 
-Laissez les applications récentes tranquilles, sauf si l'une d'elles se comporte mal.
+Utilisez l'écran de consommation pour repérer l'activité anormale, mettez à jour ou supprimez l'application défaillante et redémarrez le téléphone si un processus reste bloqué. Vérifiez aussi la chaleur et un faible signal mobile : vider la liste des applications ne règle ni l'un ni l'autre.
 
-Utilisez la Batterie adaptative si votre téléphone la propose. Consultez de temps en temps l'utilisation de la batterie. Réduisez les notifications en arrière-plan des applications qui se synchronisent trop souvent. Désinstallez celles que vous n'utilisez pas ou auxquelles vous ne faites pas confiance. Redémarrez le téléphone s'il se comporte bizarrement depuis plusieurs jours.
-
-Vérifiez aussi le signal et la chaleur. Dans une zone où le réseau mobile est mauvais, le téléphone peut consommer beaucoup d'énergie pour rester connecté. Lorsqu'il chauffe, il réduit ses performances, se recharge plus lentement et se décharge plus vite. Fermer les applications ne résout aucun de ces deux problèmes.
-
-Le pourcentage de batterie ne se soucie pas de l'ordre qui règne dans votre sélecteur d'applications.
+Aucun pourcentage universel d'autonomie ne peut être promis en fermant ou en conservant les applications récentes. Mesurez le problème réel sur votre appareil.

@@ -13,6 +13,8 @@ draft: false
 
 D'une certaine manière, c'est le cas. Le nombre affiché est une estimation, et une batterie vieillissante est plus difficile à évaluer correctement.
 
+Pour les affirmations scientifiques sur la batterie de cet article, [la synthèse d'Edge et ses coauteurs](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) étaye la perte de capacité et de puissance, l'augmentation d'impédance et les effets de la température, du niveau de charge, du courant ou de la charge, de la croissance de la SEI et du placage de lithium. Elle n'établit ni fonction de fabricant, ni seuil universel pour les téléphones, ni choix d'accessoire, conseil ou prix de réparation, durée de vie exacte, temps de charge ou résultat garanti.
+
 ## La première chose à vérifier
 
 Vérifiez l'état de la batterie avant de vous lancer dans des manipulations d'étalonnage.

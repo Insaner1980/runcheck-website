@@ -9,6 +9,8 @@ tags: ["sicherheit", "schadsoftware", "android", "datenschutz", "ratgeber"]
 locale: "de"
 draft: false
 ---
+Die genaue Menübezeichnung hängt von Hersteller und Android-Version ab. Die [aktuelle AOSP-Settings-Implementierung](https://android.googlesource.com/platform/packages/apps/Settings/+/master/src/com/android/settings/applications/manageapplications/ResetAppsHelper.java) ist die direkte Referenz für Standard-Android: Sie aktiviert deaktivierte Apps, setzt App-Vorgangs- und Benachrichtigungsbeschränkungen zurück, löscht bevorzugte Aktivitäten und setzt relevante Netzwerkrichtlinien sowie Laufzeitberechtigungen zurück. Hersteller-Builds können dies anders darstellen oder erweitern; lies vor dem Fortfahren den Bestätigungsdialog deines Telefons.
+
 
 Der Haken ist der schlechte Name. Die Funktion setzt nicht deine Apps zurück. Sie setzt die systemweiten Entscheidungen rund um Berechtigungen, Standard-Apps, Benachrichtigungen, Hintergrundverhalten und deaktivierte Apps zurück. Fotos, Nachrichten, Dateien, gespeicherte Konten und App-Daten bleiben erhalten.
 

@@ -102,11 +102,9 @@ Cerca in Impostazioni > Batteria voci come Ricarica ottimizzata, Battery Health 
 
 Se il tuo OnePlus offre la ricarica bypass durante il gioco o altre attività pesanti, vale la pena usarla nelle sessioni lunghe con il cavo collegato. L'obiettivo è ridurre il calore della batteria mentre il telefono lavora molto.
 
-### Xiaomi, OPPO e altri
+### Esempio del POCO F6
 
-I menu di Xiaomi e OPPO cambiano maggiormente secondo paese e versione software. Cerca protezione della batteria, ricarica ottimizzata, ricarica intelligente o un limite di carica in Impostazioni > Batteria.
-
-Se lo smartphone usa una ricarica proprietaria ad alta potenza, scegli il caricabatterie e il cavo raccomandati quando vuoi la velocità massima. Per una normale ricarica notturna, spesso basta un caricabatterie USB-C PD più lento.
+[Sul POCO F6, Xiaomi documenta](https://www.mi.com/global/support/faq/details/KA-274093/) il percorso `Settings > Battery > Battery protection` con le opzioni Regular, Limited, Optimized e Nighttime charging. La pagina indica anche `Security > Battery > Battery protection` come percorso alternativo. È un esempio specifico del POCO F6, non un menu né un elenco di modalità universale per dispositivi Xiaomi, Redmi, POCO, MIUI o HyperOS. Altri modelli e versioni software possono essere diversi.
 
 ## Abitudini di cui puoi smettere di preoccuparti
 

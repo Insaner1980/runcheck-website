@@ -14,6 +14,8 @@ Du schließt dein Smartphone an, kommst 20 Minuten später zurück und die Rück
 
 Beim Laden entsteht immer Wärme, weil ein Teil der zugeführten Energie im Ladegerät, Kabel und Smartphone als Abwärme endet. Schnellladen erzeugt mehr davon. Kabelloses Laden meist noch mehr. Entscheidend ist nicht, ob das Smartphone warm wird. Entscheidend ist, ob es in einem normalen Bereich bleibt oder sich selbst schützen muss.
 
+Für die batteriewissenschaftlichen Aussagen dieses Artikels stützt [die Übersicht von Edge und anderen](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) Kapazitäts- und Leistungsverlust, Impedanzanstieg sowie die Einflüsse von Temperatur, Ladestand, Strom oder Last, SEI-Wachstum und Lithium-Plating. Sie belegt keine Herstellerfunktionen, universellen Smartphone-Temperaturgrenzen, Zubehörentscheidungen, Reparaturhinweise oder Preise, genaue Lebensdauer, Ladezeitaussagen oder garantierten Ergebnisse.
+
 ## Woher die Wärme kommt
 
 Der Akku selbst erzeugt Wärme, während Strom in die Zelle fließt. Mehr Strom bedeutet mehr Wärme. Deshalb ist das Smartphone normalerweise in der ersten Phase des Schnellladens am wärmsten.

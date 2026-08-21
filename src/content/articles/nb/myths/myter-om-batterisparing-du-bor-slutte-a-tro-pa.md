@@ -88,7 +88,7 @@ En diagnoseapp som runcheck kan hjelpe deg med å følge batterihelse, temperatu
 
 Mørk modus sparer batteri på OLED- og AMOLED-skjermer, men hvor mye avhenger av lysstyrken og hvor mørk appen faktisk er. På LCD-skjermer gjør den vanligvis liten forskjell fordi bakbelysningen fortsatt er på.
 
-Flymodus kan gjøre ladingen litt raskere fordi telefonen arbeider mindre. Forskjellen er vanligvis liten, med mindre signalet er svært dårlig.
+Flymodus kan redusere radio- og bakgrunnsaktivitet, slik at telefonen kan bruke mindre strøm under lading. Laderens inngangseffekt er en egen sak, og ingen universell målt reduksjon i tiden til full lading er dokumentert.
 
 Det er trygt å bruke telefonen mens den lader når du har en moderne telefon og en god lader. Tung spilling under hurtiglading er noe annet, fordi det legger til varme. Lett surfing eller meldinger går fint.
 

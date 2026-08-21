@@ -11,7 +11,7 @@ locale: "sv"
 draft: false
 ---
 
-Siffran spelar roll eftersom litiumjonbatterier har en begränsad livslängd som mäts i cykler. De flesta moderna mobilbatterier behåller omkring 80 % av sin ursprungliga kapacitet efter 800-1 000 cykler, beroende på kemi och tillverkare. Därefter blir den dagliga batteritiden märkbart kortare.
+Batteriets cykellivslängd är inte ett enda allmänt Android-värde. Den beror på cellkemin och tillverkarens klassning. Google publicerar till exempel modellspecifika mål för Pixel, medan nya telefoner som omfattas av EU-regler har ett separat minimitest för hållbarhet.
 
 Sedan Android 14 kan systemet rapportera cykelantal via BatteryManager API, men om siffran faktiskt visas beror helt på tillverkaren. Ett fåtal nyare telefoner visar den i inställningarna. De flesta gör det inte. Metoderna nedan är ordnade efter hur många enheter de fungerar på, med de bredaste alternativen först, inklusive äldre modeller.
 
@@ -19,7 +19,7 @@ Sedan Android 14 kan systemet rapportera cykelantal via BatteryManager API, men 
 
 För de flesta telefoner, särskilt modeller från före 2024, är en spårningsapp den mest praktiska utgångspunkten.
 
-AccuBattery uppskattar antalet cykler genom att följa hur mycket laddning som matas in över tid. Installera appen och låt den samla data under minst en vecka och flera laddningstillfällen. Den räknar fram ett ungefärligt värde genom att jämföra den sammanlagda laddningen i milliamperetimmar med batteriets designkapacitet. Ju längre appen körs, desto bättre blir uppskattningen. Om en nyinstallerad AccuBattery redan visar ett cykelantal bygger siffran på mycket begränsade data. Vänta minst två veckor innan du tar den på allvar. Appen fungerar från Android 5.0, vilket omfattar praktiskt taget alla telefoner som fortfarande används.
+AccuBattery uppskattar antalet cykler genom att följa hur mycket laddning som matas in över tid. Installera appen och låt den samla data under minst en vecka och flera laddningstillfällen. Den räknar fram ett ungefärligt värde genom att jämföra den sammanlagda laddningen i milliamperetimmar med batteriets designkapacitet. Ju längre appen körs, desto bättre blir uppskattningen. Om en nyinstallerad AccuBattery redan visar ett cykelantal bygger siffran på mycket begränsade data. Vänta minst två veckor innan du tar den på allvar. Appens lägsta Android-version kan ändras med uppdateringar, så kontrollera den aktuella Google Play-listningen på din egen enhet i stället för att lita på ett fast versionsnummer.
 
 aBattery arbetar på ett annat sätt. På enheter med Android 14 eller senare, där tillverkaren har implementerat batterihälsa i HAL-lagret, läser appen cykelantal och hälsoprocent direkt från systemet. På äldre enheter eller telefoner med ofullständig HAL-implementering saknas värdena eller är opålitliga. Det går inte att avgöra enbart i appen om uppgiften kommer från hårdvaran eller är ett platshållarvärde.
 

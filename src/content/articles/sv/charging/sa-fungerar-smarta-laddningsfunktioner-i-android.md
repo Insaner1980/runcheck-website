@@ -66,13 +66,9 @@ OnePlus använder också Battery Health Engine i flera modeller. Både OnePlus o
 
 Vissa OnePlus-telefoner erbjuder också bypass-laddning eller laddningsseparering under spel. Tanken är att minska belastningen på batteriet genom att driva enheten mer direkt när telefonen arbetar hårt. Det exakta beteendet varierar, men målet är rimligt: mindre batterivärme under långa sessioner när telefonen är inkopplad.
 
-## Xiaomi: användbart, men mindre konsekvent
+## Exempel: POCO F6
 
-Xiaomis och HyperOS batteriinställningar varierar mellan modeller och regioner. Vissa telefoner har optimerad laddning. Andra erbjuder en laddningsgräns på exempelvis 80 % eller 90 %. Ibland ligger alternativet undangömt under hantering av batterihälsa.
-
-Xiaomi HyperCharge använder också egna laddare och kablar för att nå de högsta hastigheterna. En vanlig USB-C PD-laddare är säker för normal laddning, men når vanligtvis inte den marknadsförda toppeffekten.
-
-Här blir Android rörigt. Två Xiaomi-telefoner från samma år kan visa olika laddningsalternativ, och regional programvara kan ändra namnen ännu en gång.
+[På POCO F6 dokumenterar Xiaomi](https://www.mi.com/global/support/faq/details/KA-274093/) sökvägen `Settings > Battery > Battery protection` med valen Regular, Limited, Optimized och Nighttime charging. Sidan anger även `Security > Battery > Battery protection` som en alternativ väg. Det här är ett exempel för POCO F6, inte en universell meny eller lista över lägen för Xiaomi-, Redmi-, POCO-, MIUI- eller HyperOS-enheter. Andra modeller och programvaruversioner kan skilja sig.
 
 ## Äldre telefoner och appar från tredje part
 

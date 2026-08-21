@@ -9,8 +9,7 @@ tags: ["guia-de-compra", "android", "comparacion", "valor", "guia"]
 locale: "es"
 draft: false
 ---
-
-Assurant informó de que los programas de entrega y renovación devolvieron más de 6400 millones de dólares a consumidores de Estados Unidos durante 2025, un 42 % más que en 2024. La edad media de los dispositivos Android entregados también subió hasta 3,96 años. Es un dato del mercado estadounidense, no una estimación para España, pero ilustra bien el efecto de conservar los móviles durante más tiempo: los aprovechas más, aunque queda menos margen para retrasar la venta cuando por fin decides cambiarlos.
+[El informe anual de intercambio móvil de Assurant de 2025](https://www.assurant.com/news-insights/infographics/mobile-trade-in-and-upgrade-data-trends-annual) dice que los programas estadounidenses devolvieron 6.400 millones de dólares a los consumidores en 2025, un 42 % más que en 2024. Las cifras describen los datos estadounidenses de Assurant y no predicen el valor de un Android concreto.
 
 ## Vende antes de que tu móvil se convierta en el modelo del año pasado
 

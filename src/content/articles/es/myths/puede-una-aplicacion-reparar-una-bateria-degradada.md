@@ -14,6 +14,8 @@ draft: false
 
 La batería es un componente físico. Cuando la química del interior de la celda ha envejecido, el software no puede devolverle la capacidad perdida.
 
+Para las afirmaciones científicas sobre la batería de este artículo, [la revisión de Edge y sus coautores](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) respalda pérdida de capacidad y potencia, aumento de impedancia y efectos de temperatura, nivel de carga, corriente o uso, crecimiento de la SEI y recubrimiento de litio. No establece funciones del fabricante, umbrales universales para móviles, elección de accesorios, consejos o precios de reparación, vida útil exacta, tiempos de carga ni resultados garantizados.
+
 ## Qué significa realmente la degradación
 
 La degradación de la batería no es un ajuste que se haya desconfigurado. Es envejecimiento químico dentro de la celda.

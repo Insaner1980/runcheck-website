@@ -14,6 +14,8 @@ draft: false
 
 Comprendre les bases rend les recommandations habituelles moins mystérieuses. La règle des 20 % à 80 %, les avertissements sur la chaleur et les extinctions précoces des anciens téléphones viennent tous du même phénomène : des ions lithium se déplacent dans une cellule dont les matériaux changent lentement à chaque utilisation.
 
+Pour les affirmations scientifiques sur la batterie de cet article, [la synthèse d'Edge et ses coauteurs](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) étaye la perte de capacité et de puissance, l'augmentation d'impédance et les effets de la température, du niveau de charge, du courant ou de la charge, de la croissance de la SEI et du placage de lithium. Elle n'établit ni fonction de fabricant, ni seuil universel pour les téléphones, ni choix d'accessoire, conseil ou prix de réparation, durée de vie exacte, temps de charge ou résultat garanti.
+
 ## La cellule de base
 
 Une batterie lithium-ion de téléphone comprend quatre éléments principaux : une anode, une cathode, un électrolyte et un séparateur. Dans les cellules classiques, l’anode est généralement en graphite. La cathode est constituée d’un oxyde métallique contenant du lithium, dont la composition exacte dépend du fabricant. L’électrolyte laisse circuler les ions lithium, tandis que le séparateur empêche les deux électrodes d’entrer en contact.

@@ -13,6 +13,8 @@ draft: false
 
 Når du forstår det grunnleggende, blir de vanlige rådene mindre mystiske. 20-80-regelen, advarslene mot varme og grunnen til at gamle telefoner slår seg av for tidlig, kommer fra samme sted: litiumioner som beveger seg gjennom en celle som forandrer seg litt hver gang du bruker den.
 
+For batteriforskningen i denne artikkelen støtter [oversikten til Edge med flere](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) kapasitetstap, effekttap, økt impedans og virkninger av temperatur, ladenivå, strøm eller belastning, SEI-vekst og litiumplettering. Den fastsetter ikke produsentfunksjoner, universelle temperaturgrenser for telefoner, tilbehørsvalg, reparasjonsråd eller priser, nøyaktig levetid, ladetid eller garanterte forbrukerresultater.
+
 ## Den grunnleggende cellen
 
 Et litium-ion-batteri i en telefon har fire hoveddeler: en anode, en katode, en elektrolytt og en separator. I vanlige mobilceller er anoden som regel laget av grafitt. Katoden er et litium-metalloksid, og den nøyaktige kjemien varierer med produsenten. Elektrolytten lar litiumionene bevege seg, mens separatoren hindrer elektrodene i å komme i kontakt med hverandre.

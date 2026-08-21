@@ -34,13 +34,11 @@ Pixel-telefoner er det letteste eksempel. Du kan stadig starte en Pixel i Recove
 
 Samsung har historisk beholdt funktionen længere end mange andre producenter. Derfor handler de fleste søgninger om dette emne i praksis om Galaxy-telefoner.
 
-## Situationen på Samsung-telefoner i 2026
+## Aktuelt omfang: A/B-Android og understøttede Galaxy-enheder
 
-Samsungs britiske supportside beskriver stadig i juni 2026, hvordan du rydder cachepartitionen via Recovery Mode: Sluk enheden, åbn Recovery med den relevante tastekombination, vælg **Wipe cache partition**, bekræft og genstart.
+[AOSP's dokumentation om A/B-opdateringer](https://source.android.com/docs/core/ota/ab/ab_implement) siger, at A/B-enheder ikke behøver en recovery- eller cachepartition til OTA-pakker. Derfor er den klassiske kommando **Wipe cache partition** ikke en universel funktion i moderne Android.
 
-Samtidig ser Samsungs opdatering fra februar 2026 ud til at have fjernet flere værktøjer i Recovery Mode, herunder **Wipe cache partition**, på visse Galaxy-modeller. Android Authority og GalaxyClub pegede først på Galaxy S25-serien og nyere foldbare modeller som Galaxy Z Fold 7. På de berørte softwareversioner skulle den reducerede menu kun vise **Reboot system now**, **Wipe data/factory reset** og **Power off**.
-
-Samsung har ikke offentliggjort én samlet forklaring, der dækker alle modeller og regioner. Det sikre råd er derfor: På Galaxy-telefoner i 2026 afhænger **Wipe cache partition** af den installerede firmware. Hvis valget findes i din Recovery-menu, kan du bruge det. Hvis det mangler, betyder det ikke nødvendigvis, at der er noget galt med telefonen.
+[Samsungs aktuelle britiske vejledning](https://www.samsung.com/uk/support/mobile-devices/how-do-i-clear-the-cache-on-my-device/) dokumenterer stadig kommandoen til understøttede Galaxy-enheder: Åbn Recovery, vælg **Wipe cache partition**, bekræft og genstart. Behandl det som Samsung- og firmwareafhængigt. Hvis valget mangler, må du ikke erstatte det med **Wipe data/factory reset**.
 
 ## Før du prøver Recovery Mode
 

@@ -14,6 +14,8 @@ Viele Android-Akkutipps sind entweder zu offensichtlich oder völlig übertriebe
 
 Am meisten bringt es, zuerst die großen Verbraucher anzugehen: Display, Mobilfunkempfang, Hintergrund-Apps, Standort und Ladegewohnheiten. Android 17 ist seit dem 16. Juni 2026 für die meisten unterstützten Pixel-Geräte verfügbar. Andere Hersteller veröffentlichen ihre eigenen Versionen später. Die Menünamen unterscheiden sich deshalb, an den Grundlagen des Akkuverbrauchs hat sich jedoch nichts geändert.
 
+Für die batteriewissenschaftlichen Aussagen dieses Artikels stützt [die Übersicht von Edge und anderen](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) Kapazitäts- und Leistungsverlust, Impedanzanstieg sowie die Einflüsse von Temperatur, Ladestand, Strom oder Last, SEI-Wachstum und Lithium-Plating. Sie belegt keine Herstellerfunktionen, universellen Smartphone-Temperaturgrenzen, Zubehörentscheidungen, Reparaturhinweise oder Preise, genaue Lebensdauer, Ladezeitaussagen oder garantierten Ergebnisse.
+
 ## Fang beim Display an
 
 Das Display ist bei aktiver Nutzung weiterhin einer der größten Stromverbraucher. Wenn du das Smartphone gerade in der Hand hältst, sind die Displayeinstellungen wichtiger als fast alles andere.

@@ -14,6 +14,8 @@ Kan en batterireparasjonsapp faktisk gi deg den tapte kapasiteten tilbake? Nei. 
 
 Batteriet er en fysisk komponent. Når kjemien i cellen har blitt eldre, kan ikke programvare gjenopprette kapasiteten som er gått tapt.
 
+For batteriforskningen i denne artikkelen støtter [oversikten til Edge med flere](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) kapasitetstap, effekttap, økt impedans og virkninger av temperatur, ladenivå, strøm eller belastning, SEI-vekst og litiumplettering. Den fastsetter ikke produsentfunksjoner, universelle temperaturgrenser for telefoner, tilbehørsvalg, reparasjonsråd eller priser, nøyaktig levetid, ladetid eller garanterte forbrukerresultater.
+
 ## Hva degradering egentlig betyr
 
 Batteridegradering er ikke en innstilling som har kommet ut av balanse. Det er kjemisk aldring inne i cellen.

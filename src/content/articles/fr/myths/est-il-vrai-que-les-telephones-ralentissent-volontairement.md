@@ -20,7 +20,7 @@ Si l'on parle encore de ralentissements volontaires, c'est surtout à cause de l
 
 Le problème venait du manque de transparence. Les utilisateurs constataient que leur téléphone ralentissait, sans qu'on leur explique clairement qu'un remplacement de batterie pouvait restaurer une grande partie des performances perdues. Beaucoup ont cru que le téléphone lui-même était arrivé en fin de vie.
 
-Apple a ensuite ajouté des informations plus claires sur l'état de la batterie et versé des indemnisations dans le cadre de règlements judiciaires. En 2018, l'autorité italienne de la concurrence a également infligé des amendes à Apple et Samsung pour des mises à jour logicielles ayant provoqué de graves dysfonctionnements ou réduit les performances de certains téléphones. Cette histoire explique pourquoi les utilisateurs ne haussent pas simplement les épaules lorsqu'un ancien appareil se dégrade après une mise à jour.
+Un cas est documenté. En 2018, [l'autorité italienne de la concurrence a annoncé des amendes contre Apple et Samsung](https://en.agcm.it/en/media/press-releases/2018/10/PS11009-PS11039) après avoir conclu que certaines mises à jour causaient de graves dysfonctionnements et réduisaient les performances, sans information suffisante sur leurs effets ou le rétablissement du fonctionnement initial. Cela étaye ces enquêtes et appareils nommés, pas l'idée que tout ralentissement ou mise à jour ultérieur est volontaire.
 
 Et ils ont raison.
 

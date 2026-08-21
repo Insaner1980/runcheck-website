@@ -14,6 +14,8 @@ Du er midt i et spil, batteriet er nede på 12 %, og opladeren ligger lige ved s
 
 Det har du sandsynligvis ikke. Men du har skabt præcis den kombination af varmekilder, som batterier ikke bryder sig om.
 
+For de batterividenskabelige udsagn i denne artikel understøtter [oversigten af Edge med flere](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) tab af kapacitet og effekt, øget impedans samt virkninger af temperatur, opladningsniveau, strøm eller belastning, SEI-vækst og lithiumplettering. Den fastlægger ikke producentfunktioner, universelle temperaturgrænser for telefoner, valg af tilbehør, reparationsråd eller priser, præcis levetid, opladningstid eller garanterede resultater.
+
 ## Det korte svar
 
 Det er sikkert at bruge telefonen, mens den oplader, når du bruger en ubeskadiget, certificeret oplader og et ubeskadiget, certificeret kabel i tørre omgivelser. Samsung siger det samme direkte om Galaxy-telefoner: Du kan bruge enheden under opladning, og batteriet oplades langsommere, fordi telefonen bruger en del af den tilførte strøm.

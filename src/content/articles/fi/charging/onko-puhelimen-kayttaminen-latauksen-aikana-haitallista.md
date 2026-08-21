@@ -14,6 +14,8 @@ Pelaat, akun varausta on jäljellä 12 % ja laturi on aivan vieressä. Kytket pu
 
 Todennäköisesti et. Loit kuitenkin juuri sellaisen lämpökuorman, josta akut eivät pidä.
 
+Tämän artikkelin akkutieteellisissä väitteissä [Edge ym. -katsaus](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) tukee kapasiteetin ja tehon heikkenemistä, impedanssin kasvua sekä lämpötilan, varaustason, virran tai kuormituksen, SEI-kerroksen kasvun ja litiumin pinnoittumisen vaikutuksia. Se ei osoita valmistajan ominaisuuksia, yleisiä puhelimen lämpörajoja, lisävarustevalintoja, korjausohjeita tai hintoja, tarkkaa käyttöikää, latausaikaväitteitä tai taattuja kuluttajatuloksia.
+
 ## Lyhyt vastaus
 
 Puhelinta on turvallista käyttää latauksen aikana, kun käytössä on ehjä, sertifioitu laturi ja kaapeli ja ympäristö on kuiva. Samsung sanoo saman suoraan Galaxy-puhelimista: laitetta voi käyttää latauksen aikana, mutta akku latautuu hitaammin, koska puhelin käyttää osan sisään tulevasta virrasta.

@@ -14,6 +14,8 @@ De fleste batteriråd for Android er enten for opplagte eller for ekstreme. Ja, 
 
 Det nyttige er å ta de største strømslukene først: skjermen, mobilsignalet, bakgrunnsapper, posisjon og ladevaner. Android 17 er nå tilgjengelig på de fleste støttede Pixel-telefoner, mens andre Android-produsenter kommer med sine egne versjoner senere. Menynavnene varierer derfor, men de grunnleggende batterirådene er de samme.
 
+For batteriforskningen i denne artikkelen støtter [oversikten til Edge med flere](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) kapasitetstap, effekttap, økt impedans og virkninger av temperatur, ladenivå, strøm eller belastning, SEI-vekst og litiumplettering. Den fastsetter ikke produsentfunksjoner, universelle temperaturgrenser for telefoner, tilbehørsvalg, reparasjonsråd eller priser, nøyaktig levetid, ladetid eller garanterte forbrukerresultater.
+
 ## Begynn med skjermen
 
 Skjermen er fortsatt den største strømslukeren under aktiv bruk. Når du har telefonen i hånden, betyr skjerminnstillingene mer enn nesten alt annet.

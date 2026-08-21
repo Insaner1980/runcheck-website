@@ -14,6 +14,8 @@ Du spiller, batteriet er på 12 %, og laderen ligger rett ved siden av deg. Du k
 
 Sannsynligvis ikke. Men du har skapt akkurat den kombinasjonen av varmekilder som batterier misliker.
 
+For batteriforskningen i denne artikkelen støtter [oversikten til Edge med flere](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) kapasitetstap, effekttap, økt impedans og virkninger av temperatur, ladenivå, strøm eller belastning, SEI-vekst og litiumplettering. Den fastsetter ikke produsentfunksjoner, universelle temperaturgrenser for telefoner, tilbehørsvalg, reparasjonsråd eller priser, nøyaktig levetid, ladetid eller garanterte forbrukerresultater.
+
 ## Det korte svaret
 
 Det er trygt å bruke telefonen mens den lades når du bruker en uskadd, sertifisert lader og kabel på et tørt sted. Samsung sier det samme helt tydelig om Galaxy-telefoner: Du kan bruke enheten under lading, men batteriet lades saktere fordi telefonen bruker noe av strømmen som kommer inn.

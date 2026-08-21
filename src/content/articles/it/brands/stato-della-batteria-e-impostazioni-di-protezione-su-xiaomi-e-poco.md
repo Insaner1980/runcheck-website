@@ -14,17 +14,9 @@ Android 17 non risolve da solo questa situazione. Google lo ha distribuito prima
 
 Non leggere quindi questa guida come un unico percorso valido per tutti i dispositivi Xiaomi. Usala come lista di controlli.
 
-## Controlla prima Protezione batteria
+## Il POCO F6 come esempio di protezione della batteria
 
-Sulle versioni attuali di HyperOS, inizia da:
-
-Impostazioni > Batteria > Protezione batteria
-
-A seconda del telefono e del firmware, questa pagina può contenere controlli di protezione, Ricarica intelligente, temperatura, informazioni sulle ricariche giornaliere e talvolta dati sullo stato o sui cicli.
-
-Sui modelli supportati potresti trovare la percentuale dello stato della batteria o il numero di cicli sotto Protezione batteria, Stato batteria oppure in una pagina con un nome simile. Xiaomi non espone questi dati in modo uniforme su tutta la gamma. I modelli di fascia alta e quelli recenti orientati alle prestazioni tendono a riceverli prima. I Redmi economici spesso no.
-
-Se la schermata non compare, aggiornare HyperOS e le app di sistema Xiaomi può aiutare, ma non aspettarti miracoli. Xiaomi può semplicemente non aver abilitato la funzione per quel modello.
+[Sul POCO F6, Xiaomi documenta](https://www.mi.com/global/support/faq/details/KA-274093/) il percorso `Settings > Battery > Battery protection` con le opzioni Regular, Limited, Optimized e Nighttime charging. La pagina indica anche `Security > Battery > Battery protection` come percorso alternativo. È un esempio specifico del POCO F6, non un menu né un elenco di modalità universale per dispositivi Xiaomi, Redmi, POCO, MIUI o HyperOS. Altri modelli e versioni software possono essere diversi.
 
 ## Ricarica intelligente e limite all'80 %
 

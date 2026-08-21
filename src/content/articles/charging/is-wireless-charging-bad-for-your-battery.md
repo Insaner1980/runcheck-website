@@ -13,6 +13,8 @@ Is wireless charging bad for your battery, or is it just another thing the inter
 
 The problem is not the wireless power itself. The problem is heat. Wireless charging wastes more energy during transfer than a cable does, and that wasted energy becomes warmth in the phone, pad, or both.
 
+For the battery-science statements in this article, [the Edge et al. review](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) supports capacity and power fade, impedance increase, and the effects of temperature, state of charge, current or load, SEI growth, and lithium plating. It does not establish manufacturer features, universal phone thresholds, accessory choices, repair advice or prices, exact lifetimes, charging-time claims, or guaranteed consumer outcomes.
+
 ## Where the heat comes from
 
 Wireless charging uses two coils. One sits in the charging pad and one sits inside the phone. Power moves between them through electromagnetic induction. It works well enough, but it is not perfectly efficient.

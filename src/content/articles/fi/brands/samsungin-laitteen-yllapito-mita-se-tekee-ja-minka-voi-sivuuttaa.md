@@ -12,7 +12,7 @@ draft: false
 
 Laitteen ylläpito on hyödyllinen, mutta se on ensisijaisesti koontinäkymä ja vasta toissijaisesti optimointityökalu. Samasta paikasta voi etsiä akun kuluttajia, tallennustilan ahtautta, taustalla toimivia sovelluksia, muistinkäyttöä ja tietoturvatarkistuksia. Parhaita ovat yksittäiset työkalut, eivät yhden napautuksen siivouslupaukset.
 
-Samsung myös vaihtaa valikoiden nimiä One UI -versioiden välillä. Joissakin puhelimissa polku on `Asetukset > Laitteen ylläpito`, vanhemmissa versioissa esimerkiksi `Asetukset > Akku ja laitteen ylläpito`. Android 17 julkaistiin ensin useimmille tuetuille Pixel-puhelimille, ja Galaxy-laitteet saavat Samsungin Android 17:ään perustuvan One UI -päivityksen oman aikataulunsa mukaan. Pieniä nimi- ja asettelumuutoksia on siis odotettavissa lisää.
+[Samsungin nykyinen One UI 9 -sivu](https://www.samsung.com/us/apps/one-ui/) sanoo, että virallinen One UI 9 on otettu ensin käyttöön Galaxy Z Fold8 Ultra-, Galaxy Z Fold8- ja Galaxy Z Flip8 -laitteissa ja sen odotetaan tulevan vähitellen muihin Galaxy-laitteisiin. Saatavuus vaihtelee mallin, maan tai alueen, operaattorin, laiteohjelmiston ja koontiversion mukaan.
 
 ## Mikä Laitteen ylläpito on
 

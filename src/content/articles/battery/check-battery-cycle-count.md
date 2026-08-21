@@ -10,7 +10,7 @@ tags: ["battery", "health", "diagnostics", "android", "guide"]
 draft: false
 ---
 
-This number matters because lithium-ion batteries have a finite lifespan measured in cycles. Most modern phone batteries retain about 80% of their original capacity after 800 to 1,000 cycles, depending on chemistry and manufacturer. After that, daily battery life shortens noticeably.
+Battery cycle life is not one universal Android number. It depends on the cell chemistry and the manufacturer's rating. As concrete examples, Google publishes model-specific Pixel targets, while recent EU-market rules set a separate minimum durability test for covered new phones.
 
 Android has supported reporting cycle count since Android 14 through the BatteryManager API, but whether the number actually appears depends entirely on the manufacturer. A handful of recent phones show it in Settings. Most don't. The methods below are ordered by how many devices they work on, starting with approaches that cover the widest range, including older models.
 
@@ -18,7 +18,7 @@ Android has supported reporting cycle count since Android 14 through the Battery
 
 For the majority of phones, especially anything older than 2024, a tracking app is the most practical starting point.
 
-AccuBattery estimates cycle count by tracking charge input over time. Install it, let it run for a week or more through several charging sessions, and it calculates an approximate figure based on cumulative milliamp-hours charged divided by the battery's design capacity. The longer it runs, the more accurate the estimate. A freshly installed AccuBattery showing a cycle count is extrapolating from very limited data; give it at least two weeks before treating the number seriously. Works on Android 5.0 and above, which covers practically every phone still in use.
+AccuBattery estimates cycle count by tracking charge input over time. Install it, let it run for a week or more through several charging sessions, and it calculates an approximate figure based on cumulative milliamp-hours charged divided by the battery's design capacity. The longer it runs, the more accurate the estimate. A freshly installed AccuBattery showing a cycle count is extrapolating from very limited data; give it at least two weeks before treating the number seriously. The minimum Android version can change with app updates, so check the current Google Play listing on your own device instead of relying on a fixed number.
 
 aBattery takes a different approach. On devices running Android 14 or newer where the manufacturer implemented the battery health HAL, it reads cycle count and health percentage directly from the system. On older devices or those with incomplete HAL implementations, the numbers are either missing or unreliable. There's no way to tell from the app alone whether the data is hardware-reported or a placeholder.
 

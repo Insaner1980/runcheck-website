@@ -14,6 +14,8 @@ La ricarica rapida non fa automaticamente male alla batteria. Il vero nemico è 
 
 C'è poi una questione di tempistiche: Android 17 è stato distribuito prima sulla maggior parte dei Pixel supportati. I dispositivi OnePlus riceveranno in seguito gli aggiornamenti OxygenOS basati su Android 17, mentre le funzioni dedicate alla batteria possono ancora cambiare in base a modello, area geografica e build OTA. Non dare per scontato che un'impostazione sia disponibile finché non la vedi sul tuo telefono.
 
+Per le affermazioni scientifiche sulla batteria di questo articolo, [la revisione di Edge e coautori](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) supporta perdita di capacità e potenza, aumento dell'impedenza ed effetti di temperatura, livello di carica, corrente o carico, crescita della SEI e placcatura del litio. Non stabilisce funzioni del produttore, soglie universali per i telefoni, scelta di accessori, consigli o prezzi di riparazione, durata esatta, tempi di ricarica o risultati garantiti.
+
 ## Controllare lo stato della batteria nelle Impostazioni
 
 Parti dalla ricerca nelle Impostazioni. È il percorso meno frustrante, perché OnePlus ha spostato più volte le pagine della batteria tra una versione di OxygenOS e l'altra.

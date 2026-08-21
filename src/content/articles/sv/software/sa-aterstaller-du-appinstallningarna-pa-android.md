@@ -9,6 +9,8 @@ tags: ["säkerhet", "skadlig-programvara", "android", "integritet", "guide"]
 locale: "sv"
 draft: false
 ---
+Den exakta menytexten varierar med tillverkare och Android-version. [Den aktuella AOSP Settings-implementationen](https://android.googlesource.com/platform/packages/apps/Settings/+/master/src/com/android/settings/applications/manageapplications/ResetAppsHelper.java) är direkt referens för standard-Android: den aktiverar inaktiverade appar, återställer appåtgärds- och aviseringsbegränsningar, rensar föredragna aktiviteter, återställer berörda nätverkspolicyer och körningsbehörigheter. Tillverkarbyggen kan visa eller utöka detta annorlunda; läs telefonens bekräftelseruta innan du fortsätter.
+
 
 Haken är att namnet är dåligt. Funktionen återställer inte apparna. Den återställer telefonens systemval kring behörigheter, standardappar, aviseringar, bakgrundsbeteende och inaktiverade appar. Foton, meddelanden, filer, sparade konton och appdata ligger kvar.
 

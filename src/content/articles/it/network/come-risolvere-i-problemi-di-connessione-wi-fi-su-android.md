@@ -16,6 +16,8 @@ tags:
 locale: "it"
 draft: false
 ---
+Nomi dei menu, comportamento supportato e passaggi esatti variano con produttore, modello, versione Android, area, operatore e firmware. Un percorso Pixel o specifico di un altro produttore riportato sotto è un esempio per quella famiglia, non un comportamento Android universale; segui le istruzioni per il tuo modello esatto.
+
 
 Cosa conviene provare per prima cosa quando il Wi-Fi su Android smette di funzionare? Non partire da un ripristino dei dati di fabbrica e non perdere mezz'ora a modificare il router prima di aver controllato le cose semplici. La maggior parte dei problemi rientra in tre casi: il telefono non si connette, si connette ma perde spesso la rete, oppure resta connesso ma Internet sembra non funzionare.
 

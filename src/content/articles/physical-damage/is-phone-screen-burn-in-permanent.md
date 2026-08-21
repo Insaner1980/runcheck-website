@@ -8,6 +8,8 @@ order: 4
 tags: ["hardware", "damage", "repair", "android", "troubleshooting"]
 draft: false
 ---
+Menu names, supported behavior, and exact steps vary by manufacturer, model, Android version, region, carrier, and firmware. Any Pixel or other manufacturer-specific path below is an example for that device family, not universal Android behavior; use the instructions for your exact model.
+
 
 ---
 
@@ -45,7 +47,7 @@ Running those tools for hours at high brightness can add more wear to the displa
 
 Android's fully gesture-based navigation has been supported since Android 10, and the advice still holds on Android 17: gestures are better for OLED wear than a bright three-button bar that sits in the same place all day.
 
-Always-on display features also move clocks and icons around, dim them, or limit how long they're visible. Some manufacturers use pixel shifting or similar panel-care behavior, where content moves slightly over time so the same pixels don't take all the wear. Samsung documents Pixel Shift on its OLED monitors and TVs; phone makers use the same basic idea in smaller, less visible ways.
+Always-on display behavior and other panel protections vary by phone, manufacturer, and model. Check the exact device's display guidance rather than assuming it implements a feature documented for another product category.
 
 Auto-brightness helps too. Burn-in risk rises when the display is driven hard for long periods, so a phone left at maximum brightness indoors is doing unnecessary work.
 

@@ -14,6 +14,8 @@ Er trådløs opladning skadelig for batteriet, eller er det bare endnu en ting, 
 
 Problemet er ikke selve den trådløse strøm. Problemet er varme. Trådløs opladning spilder mere energi under overførslen end et kabel, og den spildte energi bliver til varme i telefonen, opladningspladen eller begge dele.
 
+For de batterividenskabelige udsagn i denne artikel understøtter [oversigten af Edge med flere](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) tab af kapacitet og effekt, øget impedans samt virkninger af temperatur, opladningsniveau, strøm eller belastning, SEI-vækst og lithiumplettering. Den fastlægger ikke producentfunktioner, universelle temperaturgrænser for telefoner, valg af tilbehør, reparationsråd eller priser, præcis levetid, opladningstid eller garanterede resultater.
+
 ## Hvor varmen kommer fra
 
 Trådløs opladning bruger to spoler. Den ene sidder i opladningspladen, og den anden sidder i telefonen. Strømmen bevæger sig mellem dem gennem elektromagnetisk induktion. Det fungerer godt nok, men er ikke helt effektivt.

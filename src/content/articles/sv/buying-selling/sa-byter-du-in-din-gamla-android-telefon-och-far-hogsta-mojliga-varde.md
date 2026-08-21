@@ -9,8 +9,7 @@ tags: ["köpguide", "android", "jämförelse", "värde", "guide"]
 locale: "sv"
 draft: false
 ---
-
-Assurant rapporterade att amerikanska inbytesprogram för mobiltelefoner betalade tillbaka 6,4 miljarder dollar till konsumenter under 2025, 42 % mer än under 2024. Android-enheterna var också äldre när de lämnades in, i genomsnitt 3,96 år. Det är amerikanska siffror, men poängen gäller även här: längre ägartid ger mer användning, samtidigt som du får mindre utrymme för slarv när telefonen väl ska säljas.
+[Assurants årsrapport om mobilinbyte 2025](https://www.assurant.com/news-insights/infographics/mobile-trade-in-and-upgrade-data-trends-annual) säger att amerikanska inbytesprogram gav konsumenter 6,4 miljarder dollar 2025, 42 procent mer än 2024. Siffrorna beskriver Assurants amerikanska inbytesdata och förutsäger inte värdet på en viss Android-telefon.
 
 ## Sälj innan telefonen blir förra årets modell
 

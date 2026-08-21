@@ -11,6 +11,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "check": "astro check",
+    "check:article-sources": "node scripts/validate-article-sources.mjs",
     "test": "node --test scripts/*.test.mjs",
     "test:coverage": "node --experimental-test-coverage --test-coverage-include=src/data/**/*.mjs --test-coverage-lines=80 --test-coverage-branches=80 --test-coverage-functions=80 --test-reporter=spec --test-reporter-destination=stdout --test-reporter=lcov --test-reporter-destination=lcov.info --test scripts/*.test.mjs",
     "test:gsc-locales": "node --test scripts/analyze-search-console-locales.test.mjs"

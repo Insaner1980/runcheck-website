@@ -14,6 +14,8 @@ Colleghi lo smartphone, torni dopo 20 minuti e il retro è più caldo della tua 
 
 La ricarica genera sempre calore perché una parte dell'energia in ingresso si disperde nel caricabatterie, nel cavo e nello smartphone. La ricarica rapida ne produce di più. Quella wireless, in genere, ancora di più. Il punto non è stabilire se il telefono si scalda, ma capire se resta in un intervallo normale o comincia ad attivare le proprie protezioni.
 
+Per le affermazioni scientifiche sulla batteria di questo articolo, [la revisione di Edge e coautori](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) supporta perdita di capacità e potenza, aumento dell'impedenza ed effetti di temperatura, livello di carica, corrente o carico, crescita della SEI e placcatura del litio. Non stabilisce funzioni del produttore, soglie universali per i telefoni, scelta di accessori, consigli o prezzi di riparazione, durata esatta, tempi di ricarica o risultati garantiti.
+
 ## Da dove viene il calore
 
 La batteria stessa produce calore mentre la corrente entra nella cella. Una corrente più alta significa più calore, ed è per questo che lo smartphone tende a essere più caldo nella fase iniziale di una ricarica rapida.

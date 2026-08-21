@@ -9,6 +9,8 @@ tags: ["maskinvare", "skader", "reparasjon", "android", "feilsøking"]
 locale: "nb"
 draft: false
 ---
+Menynavn, støttet atferd og nøyaktige trinn varierer etter produsent, modell, Android-versjon, område, operatør og fastvare. En Pixel- eller annen produsentspesifikk bane nedenfor er et eksempel for den enhetsfamilien, ikke universell Android-atferd; bruk veiledningen for din nøyaktige modell.
+
 
 ---
 
@@ -46,7 +48,7 @@ Hvis slike verktøy kjøres i timevis med høy lysstyrke, kan de slite enda mer 
 
 Full bevegelsesnavigasjon har vært støttet siden Android 10, og rådet gjelder fortsatt på Android 17: Bevegelser er bedre for OLED-slitasjen enn en lys rad med tre knapper som står på samme sted hele dagen.
 
-Alltid-på-skjermen kan også flytte klokker og ikoner, dempe dem eller begrense hvor lenge de er synlige. Noen produsenter bruker pikselforskyvning eller lignende panelpleie, der innholdet flyttes litt over tid slik at de samme pikslene ikke tar all belastningen. Samsung dokumenterer Pixel Shift på sine OLED-skjermer og TV-er. På telefoner varierer de konkrete tiltakene mellom produsenter og modeller.
+Atferden til alltid-på-skjermen og andre panelbeskyttelser varierer med telefon, produsent og modell. Sjekk skjermveiledningen for den nøyaktige enheten i stedet for å anta at den har en funksjon som er dokumentert for en annen produktkategori.
 
 Automatisk lysstyrke hjelper også. Risikoen for innbrenning øker når skjermen drives hardt over lang tid, så en telefon som står på maksimal lysstyrke innendørs, gjør unødvendig arbeid.
 

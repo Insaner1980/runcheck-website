@@ -32,11 +32,7 @@ C'è un dettaglio recente che è facile non notare: su alcuni Galaxy con Android
 
 ## Test su Xiaomi, Redmi e POCO
 
-Su Xiaomi, Redmi e POCO, apri il tastierino e inserisci `*#*#6484#*#*`. Se la modalità CIT non si apre, prova `*#*#64663#*#*`.
-
-In CIT cerca Fingerprint sensor check, Fingerprint input test o una voce simile. Le pagine di supporto Xiaomi consigliano espressamente il rilevamento hardware CIT quando l'opzione per le impronte non compare, quindi non è soltanto un trucco trovato nei forum.
-
-Puoi anche provare il percorso Settings > About phone > Detailed info and specs oppure All specs, quindi toccare più volte Kernel version. Xiaomi cambia le etichette tra MIUI e HyperOS, ma il percorso tramite la versione del kernel spesso continua a funzionare quando il codice del tastierino è bloccato.
+Su Xiaomi, Redmi e POCO, apri il tastierino e inserisci `*#*#6484#*#*`. In CIT esegui `Fingerprint sensor check` e `Fingerprint input test`. [Xiaomi documenta proprio questo codice e queste due prove](https://www.mi.com/global/support/faq/details/KA-42422/) quando l'opzione per le impronte non compare. Se la pagina o i test non sono disponibili sul tuo modello, usa l'assistenza Xiaomi invece di un codice sostitutivo non documentato.
 
 ## Test sui Google Pixel
 
@@ -52,7 +48,7 @@ Android 17 merita una nota perché è arrivato prima sui Pixel supportati. Se il
 
 OnePlus, Motorola, Realme, Oppo e i telefoni Android Nokia variano troppo per avere un unico codice universale per le impronte.
 
-Inizia dall'app di assistenza o diagnostica del produttore, se il telefono ne include una. Molti Motorola, per esempio, hanno Device Help con test hardware. I telefoni OnePlus e della famiglia Oppo possono esporre `*#899#` o menu di ingegneria più vecchi, ma la compatibilità è incostante.
+Inizia dall'app di assistenza o diagnostica del produttore, se il telefono ne include una. I test disponibili e i percorsi di accesso variano in base al modello e alla versione software.
 
 Un'app di terze parti può comunque rispondere a una domanda di base: Android rileva almeno la presenza di un sensore di impronte? App come Sensor Test, DevCheck e Phone Doctor Plus possono mostrare se è presente il livello di astrazione hardware per le impronte. Di solito non possono verificare in modo sicuro la corrispondenza biometrica, perché Android tutela intenzionalmente questi dati, ma aiutano a distinguere tra "hardware assente" e "riconoscimento scarso".
 

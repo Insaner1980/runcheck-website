@@ -85,4 +85,4 @@ Das Risiko ist bei extrem günstigen Smartphones unbekannter Marken, inoffiziell
 
 Große Android- oder OEM-Updates können Apps wieder aktivieren, die du zuvor deaktiviert hattest. Monatliche Sicherheitsupdates lassen diese Einstellungen normalerweise in Ruhe, aber nach einem großen Upgrade lohnt sich eine Kontrolle.
 
-Android 17 ändert an der grundsätzlichen Empfehlung nichts. Im Juli 2026 hat die Version mit Beta 3 Plattformstabilität erreicht und ist für Tests auf unterstützten Pixel-Geräten verfügbar, aber noch nicht stabil allgemein verteilt. Auf Geräten von Samsung, Xiaomi, Oppo und ähnlichen Herstellern hängt die Bloatware-Frage ohnehin stärker vom OEM-Systemabbild und der Anbieter-Software als von der Android-Versionsnummer ab.
+Android 17 ändert an der grundsätzlichen Empfehlung nichts. Die Version ist für unterstützte Pixel-Geräte verfügbar, während andere Hersteller nach eigenen Zeitplänen aktualisieren. Auf Geräten von Samsung, Xiaomi, Oppo und ähnlichen Herstellern hängt die Bloatware-Frage ohnehin stärker vom OEM-Systemabbild und der Anbieter-Software als von der Android-Versionsnummer ab.

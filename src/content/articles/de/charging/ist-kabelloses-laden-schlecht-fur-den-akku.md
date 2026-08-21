@@ -14,6 +14,8 @@ Ist kabelloses Laden schlecht für den Akku, oder macht sich das Internet wieder
 
 Das Problem ist nicht die drahtlose Energieübertragung selbst. Das Problem ist Wärme. Beim kabellosen Laden geht während der Übertragung mehr Energie verloren als über ein Kabel. Diese verlorene Energie wird im Smartphone, im Ladepad oder in beiden Geräten zu Wärme.
 
+Für die batteriewissenschaftlichen Aussagen dieses Artikels stützt [die Übersicht von Edge und anderen](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) Kapazitäts- und Leistungsverlust, Impedanzanstieg sowie die Einflüsse von Temperatur, Ladestand, Strom oder Last, SEI-Wachstum und Lithium-Plating. Sie belegt keine Herstellerfunktionen, universellen Smartphone-Temperaturgrenzen, Zubehörentscheidungen, Reparaturhinweise oder Preise, genaue Lebensdauer, Ladezeitaussagen oder garantierten Ergebnisse.
+
 ## Woher die Wärme kommt
 
 Kabelloses Laden arbeitet mit zwei Spulen. Eine befindet sich im Ladepad, die andere im Smartphone. Die Energie wird durch elektromagnetische Induktion zwischen ihnen übertragen. Das funktioniert ausreichend gut, ist aber nicht vollständig effizient.

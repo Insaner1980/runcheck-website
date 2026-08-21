@@ -27,7 +27,7 @@ La razón por la que todavía se habla de ralentizaciones deliberadas es el esc�
 
 El problema fue la falta de transparencia. La gente veía que su iPhone iba más lento, pero no recibía una explicación clara de que cambiar la batería podía recuperar buena parte del rendimiento perdido. Muchos asumieron que el propio teléfono había llegado al final de su vida útil.
 
-Apple añadió después información más clara sobre el estado de la batería y pagó acuerdos e indemnizaciones. En 2018, la autoridad italiana de competencia también multó a Apple y Samsung por actualizaciones de software que causaron problemas graves o redujeron el rendimiento de algunos móviles. Esa historia explica por qué la gente no se limita a encogerse de hombros cuando un dispositivo antiguo empeora después de una actualización.
+Existe un caso documentado. En 2018, [la autoridad italiana de competencia anunció multas a Apple y Samsung](https://en.agcm.it/en/media/press-releases/2018/10/PS11009-PS11039) tras determinar que ciertas actualizaciones causaron fallos graves y redujeron el rendimiento sin información suficiente sobre sus efectos ni sobre cómo restaurar la funcionalidad original. Es prueba para esas investigaciones y dispositivos concretos, no de que toda ralentización o actualización posterior sea deliberada.
 
 Y hace bien.
 

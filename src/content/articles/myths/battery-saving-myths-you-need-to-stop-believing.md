@@ -87,7 +87,7 @@ A diagnostic app like runcheck can help track battery health, temperature trends
 
 Dark mode saves battery on OLED and AMOLED screens, but the size of the saving depends on brightness and how dark the app actually is. On LCD screens, it usually makes little difference because the backlight is still on.
 
-Airplane mode can make charging a little faster because the device is doing less work. The difference is usually small unless the signal is awful.
+Airplane mode may reduce radio and background activity, so the phone may use less power while charging. Charger input power is separate, and no universal measured reduction in time to full has been established.
 
 Using the phone while charging is safe with a modern phone and good charger. Heavy gaming during a fast charge is different because it adds heat. Light browsing or messaging is fine.
 

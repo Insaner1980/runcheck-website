@@ -10,6 +10,8 @@ tags: ["akku", "optimierung", "android", "tipps", "leistung"]
 locale: "de"
 draft: false
 ---
+Menünamen, unterstütztes Verhalten und genaue Schritte unterscheiden sich nach Hersteller, Modell, Android-Version, Region, Anbieter und Firmware. Ein Pixel- oder anderer herstellerspezifischer Pfad unten ist ein Beispiel für diese Gerätefamilie, kein universelles Android-Verhalten; nutze die Anleitung für dein genaues Modell.
+
 
 Der Energiesparmodus bringt am meisten, bevor der Akku fast leer ist. Ihn bei 8 % einzuschalten hilft zwar, doch dann ist der größte Teil der Ladung bereits verbraucht.
 

@@ -36,9 +36,9 @@ Myös ohjelmisto voi olla syyllinen. Jumiutunut synkronointi, viallinen sovellus
 
 Laitteistovika on harvinaisempi mutta vakavampi vaihtoehto. Kulunut akku tuottaa enemmän lämpöä sisäisen vastuksen kasvaessa. Vaurioitunut USB-C-portti, nestejäämät, vikaantuva virranhallintakomponentti tai virheellinen lämpötila-anturi voi myös aiheuttaa toistuvia sammumisia.
 
-## Jos ongelma alkoi Android 17 -betan jälkeen
+## Jos ongelma alkoi Android 17 -päivityksen jälkeen
 
-Android 17 ei ollut vielä vakaa julkaisu heinäkuun 2026 alussa. Tuetuille Pixel-laitteille jaettiin Android 17 Beta 4.1 kesäkuussa 2026, ja muiden valmistajien omat testiversiot ja myöhemmät vakaat julkaisut etenevät niiden omien aikataulujen mukaan.
+Android 17 julkaistiin ensin tuetuille Pixel-laitteille. Muiden valmistajien päivitykset ja mahdolliset testiversiot etenevät niiden omien aikataulujen mukaan.
 
 Suuren järjestelmäpäivityksen jälkeen ylimääräinen lämpö voi päivän tai kahden ajan johtua indeksoinnista, sovellusten optimoinnista, kuvien synkronoinnista ja taustalla tehtävästä siivouksesta. Tilannetta voi seurata, mutta sitä ei pidä sivuuttaa. Jos puhelin sammuu, menettää mobiiliyhteyden tai kuumenee edelleen käyttämättömänä useita päiviä päivityksen jälkeen, käsittele sitä oikeana ongelmana.
 

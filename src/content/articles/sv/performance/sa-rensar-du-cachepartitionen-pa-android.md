@@ -34,13 +34,11 @@ Pixel är det tydligaste exemplet. Det går fortfarande att starta en Pixel i Re
 
 Samsung behöll alternativet längre än många andra tillverkare. Därför handlar de flesta sökningar om just Galaxy-telefoner.
 
-## Läget för Samsung 2026
+## Nuvarande omfattning: A/B-Android och stödda Galaxy-enheter
 
-På Samsungs brittiska supportsida beskrivs fortfarande hur du rensar cachepartitionen via Recovery Mode: stäng av telefonen, öppna Recovery med rätt knappkombination, välj **Wipe cache partition**, bekräfta och starta sedan om.
+[AOSP:s dokumentation om A/B-uppdateringar](https://source.android.com/docs/core/ota/ab/ab_implement) säger att A/B-enheter inte behöver någon recovery- eller cachepartition för OTA-paket. Därför är det klassiska kommandot **Wipe cache partition** ingen allmän modern Android-funktion.
 
-Samtidigt verkar Samsungs uppdatering från februari 2026 ha tagit bort flera verktyg i Recovery Mode, däribland **Wipe cache partition**, på vissa Galaxy-modeller. Android Authority och GalaxyClub rapporterade först om Galaxy S25-serien och nyare vikbara modeller som Galaxy Z Fold 7. På berörda versioner uppges den nedbantade menyn bara visa **Reboot system now**, **Wipe data/factory reset** och **Power off**.
-
-Samsung har inte publicerat en tydlig global förklaring som omfattar alla modeller och regioner. Det säkra rådet är därför att se **Wipe cache partition** som beroende av telefonens firmware på Galaxy-enheter under 2026. Finns alternativet i Recovery-menyn kan du använda det. Saknas det betyder det inte nödvändigtvis att något är fel på telefonen.
+[Samsungs aktuella brittiska instruktion](https://www.samsung.com/uk/support/mobile-devices/how-do-i-clear-the-cache-on-my-device/) dokumenterar fortfarande kommandot för stödda Galaxy-enheter: öppna Recovery, välj **Wipe cache partition**, bekräfta och starta om. Behandla det som Samsung- och firmwareberoende. Om alternativet saknas ska du inte ersätta det med **Wipe data/factory reset**.
 
 ## Innan du provar Recovery Mode
 

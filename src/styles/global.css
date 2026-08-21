@@ -593,6 +593,26 @@ a {
   --article-title-offset: 2.75rem;
 }
 
+@media (max-width: 420px) {
+  article[data-source-number] .article-detail-shell > h1,
+  article[data-source-number] .prose h2,
+  article[data-source-number] .prose li,
+  article[data-source-number] .prose :not(pre) > code,
+  article[data-source-number] .prose th,
+  article[data-source-number] .prose td {
+    min-width: 0;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+
+  article[data-source-number] .prose table {
+    width: 100%;
+    max-width: 100%;
+    table-layout: fixed;
+  }
+}
+
 .article-link-list > li {
   min-width: 0;
   counter-increment: card;
@@ -2190,6 +2210,26 @@ a {
 
 .footer-finnvek:hover,
 .footer-finnvek:focus-visible {
+  color: var(--color-run-white);
+}
+
+.article-sources,
+.article-sources ol,
+.article-sources li {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.article-sources a {
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+.article-sources a:focus-visible {
+  border-radius: 0.2rem;
+  outline: 3px solid var(--color-run-blue-highlight);
+  outline-offset: 3px;
+  background: color-mix(in srgb, var(--color-run-blue) 24%, transparent);
   color: var(--color-run-white);
 }
 

@@ -9,6 +9,8 @@ tags: ["sikkerhet", "skadevare", "android", "personvern", "guide"]
 locale: "nb"
 draft: false
 ---
+Den nøyaktige menyteksten varierer etter produsent og Android-versjon. [Den gjeldende AOSP Settings-implementasjonen](https://android.googlesource.com/platform/packages/apps/Settings/+/master/src/com/android/settings/applications/manageapplications/ResetAppsHelper.java) er direkte referanse for standard Android: den aktiverer deaktiverte apper, tilbakestiller appoperasjons- og varslingsbegrensninger, tømmer foretrukne aktiviteter, tilbakestiller relevante nettverkspolicyer og kjøretidstillatelser. Produsentbygg kan vise eller utvide dette annerledes; les bekreftelsesdialogen på telefonen før du fortsetter.
+
 
 Problemet er at navnet er dårlig. Funksjonen tilbakestiller ikke appene dine. Den tilbakestiller telefonens valg for blant annet tillatelser, standardapper, varsler, bakgrunnsatferd og deaktiverte apper. Bilder, meldinger, filer, lagrede kontoer og appdata blir værende.
 

@@ -9,6 +9,8 @@ tags: ["laitteisto", "vauriot", "korjaaminen", "android", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+Valikkojen nimet, tuettu toiminta ja tarkat vaiheet vaihtelevat valmistajan, mallin, Android-version, alueen, operaattorin ja laiteohjelmiston mukaan. Alla oleva Pixel- tai muu valmistajakohtainen polku on esimerkki kyseiselle laiteperheelle, ei Androidin yleinen toiminta; käytä oman mallisi ohjeita.
+
 
 ---
 
@@ -46,7 +48,7 @@ Näiden työkalujen käyttäminen tuntikausia suurella kirkkaudella voi kuluttaa
 
 Android on tukenut täysin eleisiin perustuvaa navigointia Android 10:stä lähtien. Sama periaate pätee Android 17:ssä: eleohjaus jättää näytölle vähemmän jatkuvasti paikallaan pysyviä elementtejä kuin kirkas kolmen painikkeen navigointipalkki.
 
-Aina päällä olevan näytön toiminnot voivat siirtää kelloa ja kuvakkeita, himmentää niitä tai rajoittaa niiden näkyvyyttä. Osa valmistajista käyttää pikselinsiirtoa tai vastaavaa paneelin suojausta, jossa sisältö liikkuu ajan mittaan hieman, jotta samat pikselit eivät kanna koko rasitusta. Samsung dokumentoi Pixel Shift -toiminnon OLED-monitoreissaan ja televisioissaan, ja puhelimissa käytetään samaan tarkoitukseen vastaavia, yleensä huomaamattomia menetelmiä.
+Aina päällä olevan näytön toiminta ja muut paneelisuojaukset vaihtelevat puhelimen, valmistajan ja mallin mukaan. Tarkista tarkan laitteen näyttöohje sen sijaan, että olettaisit siinä olevan toiselle tuoteryhmälle dokumentoidun toiminnon.
 
 Automaattinen kirkkaus auttaa myös. Kiinnipalamisen riski kasvaa, kun näyttöä käytetään pitkään suurella kirkkaudella, joten sisätiloissa enimmäiskirkkaudelle jätetty puhelin tekee turhaa työtä.
 

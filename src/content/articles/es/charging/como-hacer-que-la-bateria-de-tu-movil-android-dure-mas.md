@@ -14,6 +14,8 @@ La mayoría de los consejos sobre batería para Android son demasiado obvios o d
 
 Lo útil es corregir primero los grandes consumos: pantalla, señal móvil, aplicaciones en segundo plano, ubicación y hábitos de carga. Android 17 ya está disponible para la mayoría de los Pixel compatibles, mientras que los demás fabricantes llevarán después sus propias versiones a sus dispositivos. Los nombres de los menús cambian, pero los principios básicos de la batería siguen siendo los mismos.
 
+Para las afirmaciones científicas sobre la batería de este artículo, [la revisión de Edge y sus coautores](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) respalda pérdida de capacidad y potencia, aumento de impedancia y efectos de temperatura, nivel de carga, corriente o uso, crecimiento de la SEI y recubrimiento de litio. No establece funciones del fabricante, umbrales universales para móviles, elección de accesorios, consejos o precios de reparación, vida útil exacta, tiempos de carga ni resultados garantizados.
+
 ## Empieza por la pantalla
 
 La pantalla sigue siendo el mayor consumo durante el uso activo. Si tienes el móvil en la mano, sus ajustes importan más que casi cualquier otra cosa.

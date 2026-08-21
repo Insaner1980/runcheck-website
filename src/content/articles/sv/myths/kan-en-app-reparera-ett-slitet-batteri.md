@@ -14,6 +14,8 @@ Kan en batterireparationsapp verkligen återställa förlorad kapacitet? Nej. In
 
 Batteriet är en fysisk komponent. När kemin i cellen väl har åldrats kan programvara inte lägga tillbaka den kapacitet som gått förlorad.
 
+För batteriforskningen i den här artikeln stöder [översikten av Edge med flera](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) kapacitets- och effektförlust, ökad impedans samt effekter av temperatur, laddningsnivå, ström eller belastning, SEI-tillväxt och litiumplätering. Den fastställer inte tillverkarfunktioner, universella temperaturgränser för telefoner, tillbehörsval, reparationsråd eller priser, exakt livslängd, laddningstid eller garanterade konsumentresultat.
+
 ## Vad batteriförsämring faktiskt innebär
 
 Batteriförsämring är inte en inställning som har hamnat fel. Det är kemiskt åldrande inuti cellen.

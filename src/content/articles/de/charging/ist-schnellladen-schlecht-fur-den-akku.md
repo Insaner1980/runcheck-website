@@ -14,6 +14,8 @@ Die meisten Ratschläge zum Schnellladen sind zu dramatisch. Schnellladen ist ke
 
 Genau deshalb ist die Antwort nicht ganz sauber. Ein 65-W-Ladegerät auf einem kühlen Schreibtisch kann den Akku weniger belasten als ein 15-W-Ladegerät unter einem Kissen. Die Leistung spielt eine Rolle, die Temperatur aber eine größere.
 
+Für die batteriewissenschaftlichen Aussagen dieses Artikels stützt [die Übersicht von Edge und anderen](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) Kapazitäts- und Leistungsverlust, Impedanzanstieg sowie die Einflüsse von Temperatur, Ladestand, Strom oder Last, SEI-Wachstum und Lithium-Plating. Sie belegt keine Herstellerfunktionen, universellen Smartphone-Temperaturgrenzen, Zubehörentscheidungen, Reparaturhinweise oder Preise, genaue Lebensdauer, Ladezeitaussagen oder garantierten Ergebnisse.
+
 ## Was den Akku tatsächlich verschleißt
 
 Lithium-Ionen-Akkus altern durch mehrere Prozesse, die gleichzeitig ablaufen. Zwei davon sind besonders wichtig, wenn es um Schnellladen geht.

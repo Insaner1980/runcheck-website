@@ -8,6 +8,8 @@ order: 12
 tags: ["network", "connectivity", "android", "troubleshooting", "guide"]
 draft: false
 ---
+Verify the exact model rather than the marketing name. [Google's Pixel carrier-compatibility page](https://support.google.com/pixelphone/answer/7107188?hl=en) shows that 5G availability depends on phone model and carrier, while the [official Pixel specifications](https://support.google.com/pixelphone/answer/7158570?hl=en-GB) list radio support by model. If an exact model's official specifications do not include 5G hardware and the required bands, software, a SIM, or a plan cannot add that missing radio capability. For non-Pixel phones, use the manufacturer's exact regional specification and the carrier's compatibility information.
+
 
 A phone either has 5G hardware or it doesn't. Android 17, a carrier settings update, or a new SIM can't turn a 4G-only modem into a 5G modem.
 
@@ -62,12 +64,6 @@ The SoC usually tells you whether 5G is even possible. Qualcomm Snapdragon 480 a
 But processor names are messy. Some Snapdragon 600-series chips are 4G-only. Some phones use a 5G-capable platform but ship in a 4G variant. MediaTek Helio G-series phones are usually 4G-only, while MediaTek Dimensity phones are the 5G line.
 
 Use the processor as a clue, then verify the full phone model and bands.
-
-## Android 17 does not change the hardware answer
-
-Android 17 started rolling out to supported Pixel phones first in June 2026, with new devices and other manufacturers following later. The update can improve modem firmware, carrier behavior, and network stability on supported phones.
-
-It cannot add 5G to a 4G modem. If your phone didn't support 5G before Android 17, it won't support 5G after Android 17.
 
 ## SA and NSA 5G
 

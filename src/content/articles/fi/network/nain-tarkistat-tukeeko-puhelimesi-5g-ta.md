@@ -9,6 +9,8 @@ tags: ["verkko", "yhteydet", "android", "vianetsintä", "opas"]
 locale: "fi"
 draft: false
 ---
+Tarkista tarkka mallinumero pelkän markkinointinimen sijaan. [Googlen Pixel-operaattoriyhteensopivuussivu](https://support.google.com/pixelphone/answer/7107188?hl=en) osoittaa, että 5G-saatavuus riippuu puhelinmallista ja operaattorista, ja [viralliset Pixel-tekniset tiedot](https://support.google.com/pixelphone/answer/7158570?hl=en-GB) luettelevat radiotuen malleittain. Jos tarkan mallin virallisissa tiedoissa ei ole 5G-laitteistoa ja tarvittavia taajuuksia, ohjelmisto, SIM tai liittymä ei voi lisätä puuttuvaa radio-ominaisuutta. Muissa kuin Pixel-puhelimissa käytä valmistajan tarkan alueversion tietoja ja operaattorin yhteensopivuustietoa.
+
 
 Puhelimessa joko on 5G-laitteisto tai ei ole. Android 17, operaattoriasetusten päivitys tai uusi SIM-kortti ei muuta pelkkää 4G:tä tukevaa modeemia 5G-modeemiksi.
 
@@ -63,12 +65,6 @@ SoC antaa yleensä vihjeen siitä, onko 5G ylipäätään mahdollinen. Qualcomm 
 Suoritinten nimet ovat silti sekavia. Osa Snapdragon 600 -sarjan piireistä tukee vain 4G:tä. Joissakin puhelimissa käytetään 5G-valmista alustaa, mutta laitteesta myydään myös 4G-versiota. MediaTek Helio G -sarjan puhelimet ovat yleensä 4G-malleja, kun taas MediaTek Dimensity on yhtiön 5G-mallisto.
 
 Käytä suoritinta vihjeenä ja tarkista sen jälkeen koko puhelinmalli sekä tuetut taajuudet.
-
-## Android 17 ei muuta laitteistorajoitusta
-
-Android 17 julkaistiin useimmille tuetuille Pixel-laitteille kesäkuussa 2026, ja uusia Android 17 -laitteita tulee myöhemmin muilta valmistajilta. Päivitys voi parantaa modeemin laiteohjelmistoa, operaattorikäyttäytymistä ja yhteyden vakautta puhelimissa, jotka jo tukevat näitä verkkoja.
-
-Se ei voi lisätä 5G:tä 4G-modeemiin. Jos puhelin ei tukenut 5G:tä ennen Android 17 -päivitystä, se ei tue sitä päivityksen jälkeenkään.
 
 ## SA- ja NSA-5G
 

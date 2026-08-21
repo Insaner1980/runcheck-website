@@ -14,6 +14,8 @@ Onko langaton lataus haitallista akulle, vai onko se vain yksi niistä asioista,
 
 Ongelma ei ole langaton energiansiirto itsessään. Ongelma on lämpö. Langattomassa latauksessa osa energiasta hukkuu siirron aikana enemmän kuin kaapelia käytettäessä, ja hukkalämpö päätyy puhelimeen, latausalustaan tai molempiin.
 
+Tämän artikkelin akkutieteellisissä väitteissä [Edge ym. -katsaus](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) tukee kapasiteetin ja tehon heikkenemistä, impedanssin kasvua sekä lämpötilan, varaustason, virran tai kuormituksen, SEI-kerroksen kasvun ja litiumin pinnoittumisen vaikutuksia. Se ei osoita valmistajan ominaisuuksia, yleisiä puhelimen lämpörajoja, lisävarustevalintoja, korjausohjeita tai hintoja, tarkkaa käyttöikää, latausaikaväitteitä tai taattuja kuluttajatuloksia.
+
 ## Mistä lämpö syntyy
 
 Langattomassa latauksessa käytetään kahta kelaa. Toinen on latausalustassa ja toinen puhelimen sisällä. Energia siirtyy niiden välillä sähkömagneettisen induktion avulla. Menetelmä toimii hyvin, mutta sen hyötysuhde ei ole täydellinen.

@@ -14,6 +14,8 @@ De flesta batteriråd för Android är antingen för självklara eller alldeles 
 
 Det användbara angreppssättet är att börja med de stora förbrukarna: skärmen, mobilnätet, bakgrundsappar, platsåtkomst och laddningsvanor. Android 17 släpptes först till de flesta Pixel-enheter som stöds, medan andra Android-tillverkare kommer med sina egna versioner senare. Menynamnen varierar därför, men grunderna för batteritid är desamma.
 
+För batteriforskningen i den här artikeln stöder [översikten av Edge med flera](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) kapacitets- och effektförlust, ökad impedans samt effekter av temperatur, laddningsnivå, ström eller belastning, SEI-tillväxt och litiumplätering. Den fastställer inte tillverkarfunktioner, universella temperaturgränser för telefoner, tillbehörsval, reparationsråd eller priser, exakt livslängd, laddningstid eller garanterade konsumentresultat.
+
 ## Börja med skärmen
 
 Skärmen är fortfarande den största strömförbrukaren när telefonen används aktivt. Om du har den i handen spelar skärminställningarna större roll än nästan allt annat.

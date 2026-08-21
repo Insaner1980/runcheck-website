@@ -14,6 +14,8 @@ Vous branchez votre téléphone, revenez 20 minutes plus tard et trouvez sa face
 
 La recharge produit toujours un peu de chaleur, car une partie de l'énergie reçue se transforme en chaleur perdue dans le chargeur, le câble et le téléphone. La recharge rapide en produit davantage. La recharge sans fil en génère souvent encore plus. La question n'est donc pas de savoir si le téléphone chauffe, mais s'il reste dans une plage normale ou commence à se protéger.
 
+Pour les affirmations scientifiques sur la batterie de cet article, [la synthèse d'Edge et ses coauteurs](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) étaye la perte de capacité et de puissance, l'augmentation d'impédance et les effets de la température, du niveau de charge, du courant ou de la charge, de la croissance de la SEI et du placage de lithium. Elle n'établit ni fonction de fabricant, ni seuil universel pour les téléphones, ni choix d'accessoire, conseil ou prix de réparation, durée de vie exacte, temps de charge ou résultat garanti.
+
 ## D'où vient la chaleur ?
 
 La batterie elle-même chauffe lorsque le courant entre dans la cellule. Plus le courant est élevé, plus la chaleur augmente. C'est pourquoi le téléphone est souvent le plus chaud au début d'une recharge rapide.

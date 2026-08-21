@@ -12,7 +12,7 @@ draft: false
 
 Maintenance de l'appareil est utile, mais c'est d'abord un tableau de bord et seulement ensuite un outil d'optimisation. Elle réunit au même endroit la consommation de la batterie, la pression sur le stockage, les applications en arrière-plan, l'utilisation de la mémoire et les contrôles de sécurité. Ses outils ciblés sont plus intéressants que le nettoyage en un seul geste.
 
-Samsung change aussi le nom de ses menus selon les versions de One UI. Certains téléphones affichent Paramètres > Maintenance de l'appareil. D'autres utilisent encore Paramètres > Batterie et maintenance appareil. Android 17 est disponible depuis juin 2026 sur la plupart des Pixel compatibles, tandis que Samsung teste déjà One UI 9, basé sur Android 17, sur la série Galaxy S26. Attendez-vous donc à de nouveaux ajustements mineurs dans les libellés et la disposition des menus lors des déploiements suivants.
+[La page One UI 9 actuelle de Samsung](https://www.samsung.com/us/apps/one-ui/) indique que la version officielle de One UI 9 a d'abord été déployée sur Galaxy Z Fold8 Ultra, Galaxy Z Fold8 et Galaxy Z Flip8 et devrait être progressivement proposée à d'autres appareils Galaxy. La disponibilité varie selon le modèle, le pays ou la région, l'opérateur, le micrologiciel et la version.
 
 ## Qu'est-ce que Maintenance de l'appareil ?
 

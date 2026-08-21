@@ -14,6 +14,8 @@ Vous jouez, la batterie est à 12 % et le chargeur est juste à côté. Vous bra
 
 Probablement pas. Mais vous avez réuni exactement les sources de chaleur que les batteries apprécient le moins.
 
+Pour les affirmations scientifiques sur la batterie de cet article, [la synthèse d'Edge et ses coauteurs](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) étaye la perte de capacité et de puissance, l'augmentation d'impédance et les effets de la température, du niveau de charge, du courant ou de la charge, de la croissance de la SEI et du placage de lithium. Elle n'établit ni fonction de fabricant, ni seuil universel pour les téléphones, ni choix d'accessoire, conseil ou prix de réparation, durée de vie exacte, temps de charge ou résultat garanti.
+
 ## La réponse courte
 
 Vous pouvez utiliser votre téléphone pendant qu'il charge si le chargeur et le câble sont certifiés, en bon état, et utilisés dans un endroit sec. Samsung l'indique clairement pour les téléphones Galaxy : l'appareil peut rester utilisé pendant la charge, mais la batterie se remplit plus lentement puisqu'une partie de l'énergie reçue alimente le téléphone.

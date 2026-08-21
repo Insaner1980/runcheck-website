@@ -1,6 +1,6 @@
 ---
 title: "Oplader flytilstand telefonen hurtigere?"
-description: "Flytilstand kan få en Android-telefon til at oplade lidt hurtigere, især når signalet er svagt, eller opladeren er langsom. Oplader, kabel, varme og skærmbrug betyder mere."
+description: "Flytilstand øger ikke opladerens indgangseffekt. Den kan kun forkorte tiden til fuld opladning, hvis slukkede radioer mindsker telefonens samtidige strømforbrug; signal, skærm, varme, kabel og oplader har stadig betydning."
 listSummary: "opladning, batteri og android"
 hub: "myths"
 sourceNumber: 148
@@ -9,51 +9,22 @@ tags: ["opladning", "batteri", "android", "guide", "hardware"]
 locale: "da"
 draft: false
 ---
+Flytilstand kan kun forkorte en opladning, hvis de deaktiverede radioer reducerer telefonens eget strømforbrug. Det er en betinget slutning, ikke en garanteret opladningsfunktion, og der findes ingen universel tid eller procent.
 
-Du sætter telefonen til opladning ved 12 %, ser på uret og begynder at lede efter tricks. Flytilstand er et af de få, der faktisk har en reel effekt, men det er ikke magi.
+## Hvad kilderne viser
 
-Det hjælper, fordi telefonen bruger mindre strøm, mens den oplader. Når mobilnetværk, Wi-Fi, Bluetooth, notifikationer og synkronisering i baggrunden bruger mindre strøm, kan en lidt større del af opladerens effekt gå til batteriet. Gevinsten er som regel lille. Med en moderne hurtigoplader bemærker du den måske næsten ikke. Med en gammel 5 W-adapter, en USB-port på en bærbar computer eller en powerbank kan den have betydning.
+[Googles batterivejledning til Android](https://support.google.com/android/answer/7664692?hl=en) anbefaler flytilstand som én måde at reducere batteriforbrug, når mobildata ikke er nødvendig. [USB Power Delivery](https://www.usb.org/usb-charger-pd) beskriver, hvordan kompatible opladere og enheder forhandler ladeeffekt. Ingen af kilderne måler, at en Android-telefon oplader hurtigere i flytilstand.
 
-## Derfor hjælper flytilstand
+Sammen støtter de kun denne begrænsede forklaring: Hvis telefonen bruger mindre strøm med samme oplader, kan mere af den indgående effekt være tilgængelig for batteriet. Effekten kan være ubetydelig, når skærmen er slukket, signalet godt, baggrundsaktiviteten lav, eller opladningen begrænses af enheden, batteritemperaturen, kablet eller opladeren.
 
-Opladning handler ikke kun om, hvor meget strøm opladeren kan levere. Det handler også om, hvor meget strøm telefonen bruger samtidig.
+## Hvornår en forskel er plausibel
 
-Mobilmodemmet er den store faktor. Hvis du befinder dig i en kælder, et tog, et hotelværelse, et hjørne af en lufthavn eller et landområde med svagt signal, arbejder telefonen hårdere for at bevare forbindelsen. Den søger, opretter forbindelse igen, håndterer skift mellem mobilmaster og kan øge sendeeffekten. Det tager af den strøm, der ellers kunne gå til batteriet.
+En forskel er mere plausibel ved svagt mobilsignal, aktiv baggrundstrafik eller en svag oplader. Flytilstand afbryder også opkald og mobildata. Wi-Fi eller Bluetooth kan forblive tændt eller genaktiveres afhængigt af indstillingerne, så radiotilstanden skal kontrolleres.
 
-Flytilstand afbryder mobilforbindelsen. På de fleste Android-telefoner slår den også Wi-Fi og Bluetooth fra, når du aktiverer den første gang, men nyere Android-versioner kan huske, hvis du selv holder Wi-Fi eller Bluetooth slået til i flytilstand. Den praktiske regel er derfor enkel: Hvis du vil have opladningsfordelen, skal mobilnetværket være slået fra, og Wi-Fi og Bluetooth bør også være deaktiveret, medmindre du har brug for dem.
+Beskriv ikke dette som en fast hastighedsforøgelse. Uden en kontrolleret test med samme telefon, oplader, kabel, startniveau, temperatur og belastning er en eventuel tidsbesparelse ukendt.
 
-Opladeren ændrer resultatet. En lille besparelse på radioer og synkronisering er mere mærkbar med en svag oplader. Med en kraftig USB-C PD- eller PPS-oplader udgør den samme besparelse en langt mindre del af den samlede effekt.
+## Hvad betyder mere
 
-Det er hele tricket.
+Brug en kompatibel oplader og et kompatibelt kabel, hold skærmen slukket, undgå tunge apps under opladning, og hold telefonen inden for den understøttede temperatur. Hvis opladningen er uventet langsom, så kontrollér oplader, kabel, port, varme og ladeindstillinger, før du stoler på flytilstand.
 
-## Hvornår det faktisk gør en forskel
-
-Flytilstand er værd at bruge, når telefonen oplader langsomt, og du ikke behøver at kunne kontaktes. Det kan være ved en lufthavnsgate, på en konferencegang, via bilens USB-port, med en powerbank eller på et natbord et sted med elendig dækning.
-
-Det kan også hjælpe mere ved trådløs opladning, end mange forventer. Trådløs opladning mister mere energi som varme, og telefoner sænker opladningshastigheden, når de bliver varme. Hvis deaktiverede radioer holder telefonen en smule køligere, kan den måske blive i en hurtigere opladningstilstand i længere tid.
-
-Men overvurder det ikke. En telefon, der ligger på et bord med slukket skærm, stærkt signal og en ordentlig hurtigoplader, er allerede tæt på det bedste tilfælde. Flytilstand kan måske spare nogle få minutter. Den forvandler ikke 25 W-opladning til 45 W-opladning.
-
-## Det hjælper mere end flytilstand
-
-Start med den rigtige oplader. På mange Android-telefoner betyder det en USB-C Power Delivery-oplader, ofte med PPS-understøttelse til nyere Pixel- og Samsung-modeller. En USB-port på en bærbar computer eller en gammel USB-A-adapter kan være den virkelige flaskehals, uanset hvilken softwareindstilling du bruger.
-
-Kablet betyder også noget. Et slidt kabel, et billigt kabel med dårlig ledningsføring eller et kabel, der ikke er beregnet til opladerens effekt, kan holde hastigheden nede. Hvis telefonen siger, at den oplader langsomt, skal du ikke begynde med flytilstand. Prøv en oplader og et kabel, du ved fungerer korrekt.
-
-Hold telefonen kølig. Opladning under en pude, i direkte sol, på et varmt instrumentbræt eller i et tykt cover er en opskrift på termisk begrænsning. Det kan gøre mere at tage coveret af og lægge telefonen på en kølig overflade end at deaktivere radioerne.
-
-Og sluk skærmen. Skærmen bruger ofte mere strøm end de trådløse radioer tilsammen. Hvis du bliver ved med at scrolle, mens telefonen er tilsluttet, hjælper flytilstand ikke ret meget.
-
-## Den hurtigste praktiske løsning
-
-Til en kort opladning skal du gøre dette: Tilslut den hurtigste kompatible kablede oplader, du har, sluk skærmen, læg telefonen et køligt sted, og aktivér flytilstand, hvis du kan undvære opkald og beskeder.
-
-Det kan gå en smule hurtigere, hvis du slukker telefonen helt, fordi næsten intet kører. Ulempen er tydelig: Ingen opkald, ingen beskeder og på mange telefoner ingen alarm, når enheden er helt slukket. Til almindelig daglig opladning er det ikke umagen værd.
-
-## Almindelige spørgsmål
-
-Batterisparefunktion kan hjælpe lidt, fordi den begrænser aktivitet i baggrunden og sænker noget af ydeevnen. Den hjælper som regel ikke lige så meget som flytilstand i et område med svagt signal, fordi Batterisparefunktion ikke slår mobilradioen fra.
-
-Det er ikke automatisk skadeligt at bruge telefonen under opladning, men det gør opladningen langsommere og skaber mere varme. Tung brug er problemet. Spil, navigation, hotspot, videoopkald og scrolling med høj lysstyrke konkurrerer alle med batteriet om strømmen.
-
-Flytilstand forbedrer ikke batteritilstanden i sig selv. Den reducerer bare strømforbruget under den pågældende opladning. Batteriets langsigtede tilstand afhænger især af varme, antal opladningscyklusser, vaner omkring opladningsniveau og den måde, telefonen selv styrer opladningen på.
+Brug kun flytilstand, når du ikke behøver at være tilgængelig. Den kan reducere samtidigt strømforbrug, men ændrer ikke telefonens understøttede ladeprotokol eller maksimale forhandlede effekt.

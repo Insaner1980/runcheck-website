@@ -15,6 +15,8 @@ Det, en kalibrering nogle gange kan gøre, er at rette en forkert visning af bat
 
 **Metabeskrivelse:** Batterikalibrering på Android gendanner ikke tabt kapacitet, men kan nogle gange rette en upræcis batteriprocent. Se, hvornår det hjælper, og hvornår det er spild af tid.
 
+For de batterividenskabelige udsagn i denne artikel understøtter [oversigten af Edge med flere](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) tab af kapacitet og effekt, øget impedans samt virkninger af temperatur, opladningsniveau, strøm eller belastning, SEI-vækst og lithiumplettering. Den fastlægger ikke producentfunktioner, universelle temperaturgrænser for telefoner, valg af tilbehør, reparationsråd eller priser, præcis levetid, opladningstid eller garanterede resultater.
+
 ## Hvad kalibrering kan og ikke kan rette
 
 Procenten i statuslinjen er et estimat. Telefonens batterimåler følger strøm, spænding, temperatur og opladningsmønstre og omsætter dataene til et tal for den resterende opladning.

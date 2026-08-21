@@ -9,6 +9,8 @@ tags: ["hårdvara", "skador", "reparation", "android", "felsökning"]
 locale: "sv"
 draft: false
 ---
+Menynamn, funktioner och exakta steg varierar med tillverkare, modell, Android-version, region, operatör och fast programvara. En Pixel- eller annan tillverkarspecifik väg nedan är ett exempel för den enhetsfamiljen, inte universellt Android-beteende; följ anvisningarna för din exakta modell.
+
 
 ---
 
@@ -46,7 +48,7 @@ Om sådana verktyg körs i timmar med hög ljusstyrka kan skärmen slitas ännu 
 
 Android har haft stöd för helt rörelsebaserad navigering sedan Android 10, och rådet gäller fortfarande i Android 17: navigering med rörelser ger mindre risk för ojämnt OLED-slitage än ett ljust fält med tre knappar som ligger på samma plats hela dagen.
 
-Always-on display-funktioner flyttar också klockor och ikoner, dämpar dem eller begränsar hur länge de visas. Vissa tillverkare använder pixelförskjutning eller liknande panelvård, där innehållet flyttas en aning över tid så att samma pixlar inte tar hela slitaget. Samsung dokumenterar Pixel Shift på sina OLED-skärmar och TV-apparater. Mobiltillverkare använder samma grundidé i mindre skala och på sätt som märks mindre.
+Beteendet hos always-on display och andra panelskydd varierar med telefon, tillverkare och modell. Kontrollera skärmanvisningarna för den exakta enheten i stället för att anta att den har en funktion som dokumenterats för en annan produktkategori.
 
 Automatisk ljusstyrka hjälper också. Risken för inbränning ökar när skärmen drivs hårt under lång tid, så en mobil som lämnas på maximal ljusstyrka inomhus arbetar i onödan.
 

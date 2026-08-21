@@ -11,7 +11,7 @@ locale: "es"
 draft: false
 ---
 
-La cifra importa porque las baterías de iones de litio tienen una vida útil limitada que se mide en ciclos. La mayoría de las baterías actuales conservan alrededor del 80 % de su capacidad original después de 800-1.000 ciclos, según la química y el fabricante. A partir de ahí, la autonomía diaria suele acortarse de forma perceptible.
+La vida útil en ciclos no es una cifra universal de Android. Depende de la química de la celda y de la clasificación del fabricante. Google publica, por ejemplo, objetivos específicos para cada Pixel, mientras que los nuevos teléfonos sujetos a las normas de la UE deben superar una prueba mínima distinta.
 
 Android permite comunicar el número de ciclos desde Android 14 mediante BatteryManager, pero que el dato aparezca o no depende por completo del fabricante. Unos pocos móviles recientes lo muestran en Ajustes. La mayoría no. Los métodos siguientes están ordenados según la cantidad de dispositivos en los que funcionan, empezando por los que también sirven para modelos antiguos.
 
@@ -19,7 +19,7 @@ Android permite comunicar el número de ciclos desde Android 14 mediante Battery
 
 Para la mayoría de los móviles, sobre todo los anteriores a 2024, una aplicación de seguimiento es el punto de partida más práctico.
 
-AccuBattery estima el número de ciclos registrando la energía que entra durante las cargas. Instálala y deja que funcione durante una semana o más, a lo largo de varias sesiones. La aplicación calcula una cifra aproximada dividiendo el total de miliamperios-hora cargados entre la capacidad nominal de la batería. Cuanto más tiempo acumule datos, mejor será la estimación. Si acabas de instalar AccuBattery y ya muestra un número, está extrapolando a partir de muy poca información. Dale al menos dos semanas antes de tomártelo en serio. Su compatibilidad abarca una amplia gama de versiones de Android y de móviles que siguen en uso.
+AccuBattery estima el número de ciclos registrando la energía que entra durante las cargas. Instálala y deja que funcione durante una semana o más, a lo largo de varias sesiones. La aplicación calcula una cifra aproximada dividiendo el total de miliamperios-hora cargados entre la capacidad nominal de la batería. Cuanto más tiempo acumule datos, mejor será la estimación. Si acabas de instalar AccuBattery y ya muestra un número, está extrapolando a partir de muy poca información. Dale al menos dos semanas antes de tomártelo en serio. La versión mínima de Android puede cambiar con las actualizaciones de la aplicación. Comprueba la ficha actual de Google Play en tu propio dispositivo en vez de confiar en un número fijo.
 
 aBattery utiliza otro método. En dispositivos con Android 14 o posterior cuyo fabricante haya implementado la HAL de estado de la batería, lee directamente del sistema el número de ciclos y el porcentaje de capacidad. En móviles antiguos o con una implementación incompleta, los datos pueden faltar o ser poco fiables. La propia aplicación no siempre permite saber si la cifra procede realmente del hardware o es un valor de relleno.
 

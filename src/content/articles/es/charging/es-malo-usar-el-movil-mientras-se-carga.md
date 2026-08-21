@@ -14,6 +14,8 @@ Estás jugando, la batería está al 12 % y tienes el cargador al lado. Lo conec
 
 Probablemente no. Pero sí has creado justo la combinación de calor que peor llevan las baterías.
 
+Para las afirmaciones científicas sobre la batería de este artículo, [la revisión de Edge y sus coautores](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) respalda pérdida de capacidad y potencia, aumento de impedancia y efectos de temperatura, nivel de carga, corriente o uso, crecimiento de la SEI y recubrimiento de litio. No establece funciones del fabricante, umbrales universales para móviles, elección de accesorios, consejos o precios de reparación, vida útil exacta, tiempos de carga ni resultados garantizados.
+
 ## La respuesta breve
 
 Usar el móvil mientras se carga es seguro si empleas un cargador y un cable certificados, sin daños y en un lugar seco. Samsung lo explica de forma clara para los Galaxy: puedes utilizar el dispositivo mientras se carga, aunque la batería tardará más porque el teléfono consume parte de la energía que recibe.

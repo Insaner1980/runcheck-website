@@ -9,8 +9,7 @@ tags: ["købsguide", "android", "sammenligning", "værdi", "guide"]
 locale: "da"
 draft: false
 ---
-
-Assurant oplyste, at amerikanske mobilprogrammer for indbytning gav 6,4 milliarder USD tilbage til forbrugerne i 2025, 42 % mere end i 2024. Android-enheder var også ældre ved indlevering end tidligere, i gennemsnit 3,96 år. Det betyder noget, fordi en længere ejertid giver dig mere tid med telefonen, men mindre plads til at være langsom, når du endelig vil af med den.
+[Assurants årsrapport om mobilindbytning 2025](https://www.assurant.com/news-insights/infographics/mobile-trade-in-and-upgrade-data-trends-annual) siger, at amerikanske indbytningsprogrammer gav 6,4 milliarder dollar tilbage til forbrugere i 2025, 42 procent mere end i 2024. Tallene beskriver Assurants amerikanske indbytningsdata og forudsiger ikke værdien af en bestemt Android-telefon.
 
 ## Sælg, før telefonen bliver sidste års nyhed
 

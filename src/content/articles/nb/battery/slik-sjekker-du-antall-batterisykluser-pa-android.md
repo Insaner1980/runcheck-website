@@ -11,7 +11,7 @@ locale: "nb"
 draft: false
 ---
 
-Tallet er relevant fordi litium-ion-batterier har en begrenset levetid målt i sykluser. De fleste moderne telefonbatterier beholder omtrent 80 % av den opprinnelige kapasiteten etter 800-1 000 sykluser, avhengig av kjemi og produsent. Etter dette blir den daglige batteritiden merkbart kortere.
+Batteriets sykluslevetid er ikke ett universelt Android-tall. Den avhenger av cellekjemi og produsentens klassifisering. Google oppgir for eksempel modellspesifikke mål for Pixel, mens nye telefoner som omfattes av EU-reglene har en egen minimumstest for holdbarhet.
 
 Android har kunnet rapportere antall sykluser siden Android 14, da `EXTRA_CYCLE_COUNT` ble lagt til i BatteryManager. Om tallet faktisk vises, avhenger helt av produsenten. Noen få nyere telefoner viser det i Innstillinger. De fleste gjør det ikke. Metodene nedenfor er ordnet etter hvor mange enheter de fungerer på, med de bredeste alternativene først, også for eldre modeller.
 
@@ -19,7 +19,7 @@ Android har kunnet rapportere antall sykluser siden Android 14, da `EXTRA_CYCLE_
 
 For de fleste telefoner, særlig modeller fra før 2024, er en sporingsapp det mest praktiske utgangspunktet.
 
-AccuBattery anslår antall sykluser ved å følge hvor mye strøm som lades inn over tid. Installer appen og la den kjøre i minst en uke gjennom flere ladeøkter. Den beregner et omtrentlig tall ved å dele det samlede antallet ladede milliamperetimer på batteriets designkapasitet. Anslaget blir bedre jo lenger appen får samle data. Hvis en nyinstallert AccuBattery allerede viser et syklustall, bygger det på svært begrenset informasjon. Vent minst to uker før du legger særlig vekt på tallet. Appen fungerer på Android 5.0 og nyere, som dekker praktisk talt alle telefoner som fortsatt er i bruk.
+AccuBattery anslår antall sykluser ved å følge hvor mye strøm som lades inn over tid. Installer appen og la den kjøre i minst en uke gjennom flere ladeøkter. Den beregner et omtrentlig tall ved å dele det samlede antallet ladede milliamperetimer på batteriets designkapasitet. Anslaget blir bedre jo lenger appen får samle data. Hvis en nyinstallert AccuBattery allerede viser et syklustall, bygger det på svært begrenset informasjon. Vent minst to uker før du legger særlig vekt på tallet. Minstekravet til Android kan endres med appoppdateringer, så sjekk den aktuelle Google Play-oppføringen på din egen enhet i stedet for å stole på et fast versjonsnummer.
 
 aBattery bruker en annen metode. På enheter med Android 14 eller nyere, der produsenten har implementert de nødvendige batteridataene i HAL-laget, leser appen syklustall og batterihelse direkte fra systemet. På eldre enheter eller telefoner med en ufullstendig implementering kan tallene mangle eller være upålitelige. Det er ingen sikker måte å vite ut fra appen alene om verdien kommer fra maskinvaren eller bare er en plassholder.
 

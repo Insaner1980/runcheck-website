@@ -11,7 +11,7 @@ locale: "fi"
 draft: false
 ---
 
-Luvulla on merkitystä, koska litiumioniakun käyttöikä on rajallinen ja sitä arvioidaan muun muassa syklien perusteella. Monet nykyiset puhelinakut säilyttävät noin 80 % alkuperäisestä kapasiteetistaan 800-1 000 syklin ajan, mutta tarkka tulos riippuu akkukemiasta ja valmistajasta. Sen jälkeen päivittäinen akunkesto alkaa usein lyhentyä selvästi.
+Akun syklikesto ei ole yksi yleinen Android-luku. Se riippuu akkukemiasta ja valmistajan ilmoittamasta mitoituksesta. Google julkaisee esimerkiksi mallikohtaisia Pixel-tavoitteita, kun taas uusien EU-markkinoille kuuluvien puhelinten kestävyydelle on erillinen vähimmäistesti.
 
 Android on tukenut syklimäärän ilmoittamista Android 14:stä lähtien BatteryManager-rajapinnan kautta, mutta valmistaja päättää, näkyykö tieto käyttäjälle. Muutamat uudet puhelimet näyttävät luvun suoraan asetuksissa. Useimmat eivät. Alla olevat menetelmät ovat siinä järjestyksessä, kuinka laajalla laitekannalla niitä voi käyttää. Ensimmäiset vaihtoehdot kattavat myös vanhempia malleja.
 
@@ -19,7 +19,7 @@ Android on tukenut syklimäärän ilmoittamista Android 14:stä lähtien Battery
 
 Useimmissa puhelimissa, etenkin ennen vuotta 2024 julkaistuissa, seurantasovellus on käytännöllisin lähtökohta.
 
-AccuBattery arvioi syklimäärää seuraamalla akkuun ladattua energiaa ajan mittaan. Asenna sovellus ja anna sen kerätä tietoa vähintään viikon ajan useista latauskerroista. Se laskee arvion jakamalla akkuun ladattujen milliampeerituntien kokonaismäärän akun nimelliskapasiteetilla. Mitä pidempään sovellus kerää tietoja, sitä paremmaksi arvio yleensä muuttuu. Vasta asennetun AccuBatteryn näyttämä luku perustuu hyvin vähäiseen aineistoon, joten anna sille vähintään kaksi viikkoa ennen kuin suhtaudut tulokseen vakavasti. Nykyisen sovellusversion Android-vaatimus voi muuttua päivitysten mukana, joten yhteensopivuus kannattaa tarkistaa Google Playsta omalla laitteella.
+AccuBattery arvioi syklimäärää seuraamalla akkuun ladattua energiaa ajan mittaan. Asenna sovellus ja anna sen kerätä tietoa vähintään viikon ajan useista latauskerroista. Se laskee arvion jakamalla akkuun ladattujen milliampeerituntien kokonaismäärän akun nimelliskapasiteetilla. Mitä pidempään sovellus kerää tietoja, sitä paremmaksi arvio yleensä muuttuu. Vasta asennetun AccuBatteryn näyttämä luku perustuu hyvin vähäiseen aineistoon, joten anna sille vähintään kaksi viikkoa ennen kuin suhtaudut tulokseen vakavasti. Sovelluksen vähimmäis-Android-versio voi muuttua päivitysten mukana, joten tarkista nykyinen yhteensopivuus Google Playsta omalla laitteellasi kiinteän versionumeron sijaan.
 
 aBattery toimii eri tavalla. Android 14:ää tai uudempaa käyttävässä puhelimessa se voi lukea syklimäärän ja kuntotietoja suoraan järjestelmästä, jos valmistaja on toteuttanut ja avannut tarvittavan akkutiedon. Vanhemmissa laitteissa tai puhelimissa, joissa toteutus on puutteellinen, tiedot voivat puuttua tai olla epäluotettavia. Sovelluksen näytöstä ei aina voi päätellä, perustuuko arvo todelliseen laiteraporttiin vai puutteelliseen järjestelmätietoon.
 

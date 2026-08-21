@@ -9,77 +9,39 @@ tags: ["suorituskyky", "nopeus", "android", "optimointi", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+5G:tä ja 4G:tä ei voi verrata yhdellä kiinteällä nopeus-, viive-, akku- tai kuuluvuusluvulla. Tulos riippuu taajuudesta, verkkoarkkitehtuurista, laitteesta, modeemista, operaattorista, paikasta, ajasta, signaalista, palvelimesta ja kuormasta. Aiemmat yleispäteviltä näyttäneet luvut on poistettu.
 
-Tämä osa jää puhelinmainoksissa yleensä kertomatta.
+<figure class="not-prose my-10">
+  <img class="w-full rounded-2xl border border-run-border shadow-2xl" src="/images/articles/5g-vs-4g.webp" alt="5G:n ja 4G:n nopeuden, signaalin vakauden, lämmön ja akunkulutuksen vertailu" width="1672" height="941" loading="lazy" decoding="async" />
+  <figcaption class="mt-3 text-sm leading-relaxed text-run-muted">5G voi olla 4G:tä parempi, mutta tulos riippuu laitteesta ja verkko-oloista eikä pelkästä tilapalkin kuvakkeesta.</figcaption>
+</figure>
 
-## Nopeus riippuu käyttämästäsi 5G-verkosta
+## Nopeus
 
-5G-kuvake ei kerro koko tarinaa. Puhelin voi näyttää 5G:tä ollessaan yhteydessä laajan peiton matalaan taajuuteen, nopeaan keskitaajuuteen tai erittäin nopeaan mmWave-soluun, joka toimii vain pienellä alueella. Käyttökokemukset ovat aivan erilaisia.
+[GSMA:n taajuuskannanotto](https://www.gsma.com/connectivity-for-good/spectrum/wp-content/uploads/2025/07/5G-Spectrum-Public-Policy-Paper.pdf) kuvaa matalat taajuudet peittokerrokseksi ja selittää keski- ja korkeiden taajuuksien eri roolit. Se tukee laadullisia eroja verkkojen välillä, ei kiinteitä kuluttajanopeuksia.
 
-Matalan taajuuden 5G on rakennettu peittoa varten. Se kantaa pidemmälle ja toimii sisätiloissa korkeita taajuuksia paremmin, mutta nopeus voi jäädä lähelle hyvää 4G LTE -yhteyttä. Jos matalan taajuuden 5G antaa 30-80 Mbps, tulos ei ole poikkeuksellinen.
+Mittaa käyttämäsi yhteys. [Measurement Labin NDT7](https://www.measurementlab.net/tests/ndt/ndt7/) on dokumentoitu mittausprotokolla, mutta yksikin testi on vain sen reitin ja hetken otos.
 
-Keskitaajuus on 5G:n tasapainoisin vaihtoehto. Kaupunkien ja taajamien nykyaikaisissa verkoissa nopeus yltää usein muutamaan sataan Mbps:iin ja joskus korkeammalle. Tässä 5G alkaa erottua selvästi suurissa latauksissa, sovellusten asentamisessa, pilvivarmuuskopioinnissa ja yhteyden jakamisessa.
+## Viive
 
-mmWave on 5G:n otsikkonopeuksia tarjoava kerros. Se voi ylittää todellisessa käytössä 1 Gbps:n, mutta peittoalue on mataliin ja keskitaajuuksiin verrattuna hyvin pieni. Seinät, lasi, puut, bussit ja jopa käden asento heikentävät sitä. Suomessa julkisissa 5G-verkoissa käytetään pääasiassa 700 MHz:n ja 3,5 GHz:n taajuuksia. Operaattoreilla on myös 26 GHz:n taajuuslupia, mutta näin korkea taajuus ei ole tavallisen valtakunnallisen 5G-peiton perusta.
+5G voi tarjota pienemmän viiveen sopivassa verkossa, etenkin kun radio ja ydinverkko tukevat sitä. Palvelimen etäisyys, ruuhka, reititys, yhteyden vaihdot ja sovelluksen rakenne voivat hallita tulosta. Aiempi kiinteä millisekuntivertailu ei ollut tuettu ja on poistettu.
 
-4G LTE on paperilla hitaampi, mutta puhelimen tavalliseen käyttöön se riittää mainiosti. Viestit, kartat, verkkoselailu, musiikin suoratoisto, yhteisöpalvelut ja HD-video eivät tarvitse satojen megabittien nopeutta. Vakaa 30 Mbps:n LTE-yhteys voi tuntua paremmalta kuin jatkuvasti verkkokerrosta vaihtava 5G-yhteys.
+Vertaa toistuvia testejä samaan palveluun. Älä päättele sovelluksen reagointia 5G-kuvakkeesta.
 
-## Viive paranee, mutta eroa ei pidä liioitella
+## Akunkulutus
 
-5G pienentää yleensä viivettä 4G:hen verrattuna. Napautuksen ja verkosta saatavan vastauksen välillä kuluu vähemmän aikaa. Eniten tästä hyötyvät videopuhelut, pilvipelaaminen, etätyöpöytä ja reaaliaikainen yhteistyö.
+[Vuoden 2020 ensimmäisen sukupolven 5G-tutkimuksessa](https://www.cs.princeton.edu/courses/archive/spring21/cos563/papers/5G_measurement.pdf) mitattiin testatuilla laitteilla ja verkoilla 4G:tä suurempaa radiotehoa. Se ei määritä yhtä nykyistä prosenttia kaikille puhelimille.
 
-Tavallisessa verkkoselailussa eroa on vaikeampi huomata. Pudotus 40 millisekunnista 20 millisekuntiin voidaan mitata, mutta se ei tee raskaasta sivustosta taianomaisesti nopeaa, jos nimipalveluhaku kestää, palvelin on kaukana tai itse sivu latautuu hitaasti.
+NSA- tai SA-toiminta, modeemi, signaali, taajuus, liikenne ja laiteohjelmisto voivat muuttaa kulutusta. Vertaa useita samanlaisia päiviä omalla laitteellasi ennen verkkotilan valintaa.
 
-Viive riippuu myös runkoverkosta. Non-Standalone- eli NSA-5G käyttää osassa yhteyttä edelleen LTE:tä. Standalone- eli SA-5G voi parantaa viivettä ja energiatehokkuutta, mutta käyttöönoton laajuus vaihtelee maittain ja operaattoreittain.
+## Kuuluvuus ja signaali
 
-## Akunkesto: 5G:llä on edelleen hintansa
+Androidin [SignalStrength-dokumentaatio](https://developer.android.com/reference/android/telephony/SignalStrength) määrittää signaalitasojen ilmoittamisen. Se ei todista nopeutta, viivettä, akunkestoa tai peittoa. Matalat taajuudet voivat tarjota laajan 5G-kerroksen, kun taas korkeammat taajuudet palvelevat eri kapasiteetti- ja peittotavoitteita. Sisä- ja maaseututulos riippuu paikasta ja operaattorista.
 
-5G kuluttaa monissa käytännön tilanteissa enemmän virtaa kuin 4G. Ooklan Speedtest Intelligence -aineistoon perustuvassa vertailussa 5G:n akunkulutus oli käytetystä SoC-piiristä riippuen noin 6-11 % suurempi kuin 4G LTE:llä. Uudemmat piirit ovat kaventaneet eroa.
+Vakaa 4G voi olla hyödyllisempi kuin epävakaa 5G. Vakaa 5G voi olla paikallista 4G:tä paljon nopeampi. Kumpikaan tulos ei ole yleinen.
 
-Kulutukseen on kolme pääsyytä.
+## Käytännön vertailu
 
-Ensinnäkin moni 5G-verkko käyttää edelleen NSA- eli Non-Standalone-arkkitehtuuria. Puhelin ylläpitää silloin LTE-ankkuriyhteyttä ja lisää sen rinnalle 5G NR:n datansiirtoa varten. Kahden radiokerroksen käyttäminen teettää modeemilla enemmän työtä kuin pelkkä LTE-yhteys.
+Pidä automaattinen verkonvalinta, jos suorituskyky ja akunkesto ovat hyviä. Kokeile LTE:tä tilapäisesti, jos 5G on epävakaa, paikallisesti hitaampi tai toistettava vertailu osoittaa merkittävän akkuedun. Valikon saatavuus vaihtelee puhelimen, operaattorin, alueen ja ohjelmiston mukaan.
 
-Toiseksi heikko 5G-signaali pakottaa modeemin työskentelemään kovemmin. Peittoalueen reunalla puhelin voi etsiä 5G:tä, liittyä siihen hetkeksi, pudota takaisin LTE:hen ja yrittää sitten uudelleen. Tämä kierros kuluttaa virtaa ja voi lämmittää puhelinta.
-
-Kolmanneksi nopeampi yhteys muuttaa käyttöä. Sovellukset voivat synkronoida enemmän tietoja, video vaihtaa parempaan laatuun ja varmuuskopiointi valmistua nopeammin mutta herättää silti suorittimen. Myös yhteyden jakamista tulee helpommin käytettyä. Radio ei ole ainoa energiaa kuluttava osa.
-
-Jos akunkesto merkitsee huippunopeutta enemmän, pelkkä LTE on edelleen järkevä valinta heikon 5G-peiton alueella. Tylsä neuvo, mutta se toimii.
-
-## Kuuluvuudessa 4G on yhä vahvoilla
-
-4G LTE -peitto on kypsä. Monissa maissa LTE on edelleen luotettavin verkkokerros sisätiloissa ja maaseudulla sekä tärkein varayhteys. Operaattorit ovat ehtineet hioa sitä vuosien ajan.
-
-5G-peitto on selvästi parempi kuin muutama vuosi sitten, mutta taajuus ja sijainti vaikuttavat siihen voimakkaasti. Operaattorin kartta voi näyttää 5G-peittoa koko kaupungissa, vaikka oma asunto, kellaritoimisto, junavaunu tai kodin perimmäinen huone putoaisi LTE-verkkoon.
-
-Sisätilat ovat tavallinen heikko kohta. Korkeataajuinen 5G kuljettaa enemmän dataa mutta menettää enemmän energiaa seinien ja ikkunoiden läpi. Matalan taajuuden 5G auttaa peittoon, mutta tarjoaa samalla vaatimattomimman nopeusparannuksen.
-
-Myös vanhoja verkkoja poistetaan käytöstä. Manner-Suomen suuret operaattorit sulkivat 3G-verkkonsa vuosina 2023-2024, vaikka Ahvenanmaan tilanne voi poiketa. 2G-verkon ylläpitovelvoite jatkuu Suomessa vuoden 2029 loppuun, minkä jälkeen operaattorit voivat sulkea verkon. Nykyaikaisen älypuhelimen käytännön varayhteys on LTE.
-
-## Android 17 ei poista valmistajien välisiä eroja
-
-Android 17 on julkaistu, ja Google toi sen ensin tuettuihin Pixel-laitteisiin. Samsung, Xiaomi, OnePlus, OPPO, vivo, HONOR ja muut valmistajat etenevät omien aikataulujensa mukaan ja julkaisevat Android 17:n yleensä osana omaa käyttöliittymäversiotaan.
-
-Tällä on merkitystä vianmäärityksessä. Android 17:ää käyttävä Pixel 8 Pro ja Galaxy S24:n Android 17 -pohjainen One UI -versio eivät ole sama ohjelmistotilanne, sillä valmistajan muutokset, modeemiohjelmisto ja operaattoriasetukset eroavat. Jos 5G muuttui epävakaaksi suuren päivityksen jälkeen, tarkista oman puhelimen tarkka malli, operaattori ja koontiversion numero ennen kuin oletat ongelman koskevan kaikkia Android-puhelimia.
-
-## Milloin 5G kannattaa poistaa käytöstä?
-
-Poista 5G käytöstä, jos puhelin lämpenee taskussa, akku tyhjenee tavallista nopeammin tai tilarivi vaihtelee samassa paikassa jatkuvasti 5G:n ja LTE:n välillä. LTE:tä kannattaa harkita myös maaseudulla matkustaessa, kellarissa työskennellessä tai heikon sisäkuuluvuuden tiloissa.
-
-Pixelissä ja monissa lähes vakio-Androidia käyttävissä puhelimissa aloita polusta **Asetukset > Verkko ja internet > SIM-kortit** ja etsi ensisijaisen verkkotyypin valinta. Samsungissa polku on **Asetukset > Yhteydet > Mobiiliverkko > Verkon tila**. Osa operaattoreista piilottaa tai nimeää asetuksen uudelleen, etenkin operaattorilta ostetuissa laitteissa.
-
-Jos puhelimessa on **Adaptive Connectivity** tai vastaava älykäs yhteystila, kokeile sitä ennen 5G:n poistamista kokonaan käytöstä. Puhelin voi silloin käyttää 5G:tä silloin, kun siitä on hyötyä, ja vaihtaa muulloin sopivampaan yhteyteen.
-
-## Kannattaako 4G-puhelin vielä vuonna 2026?
-
-Kyllä, oikealle ostajalle. 4G-puhelin selviytyy edelleen kartoista, suoratoistosta, viesteistä, verkkoselailusta, pankkisovelluksista ja videopuheluista. LTE-nopeudet riittävät useimpiin päivittäisiin tarpeisiin, ja vain 4G:tä tukevat puhelimet voivat olla halvempia.
-
-En silti ostaisi 4G-puhelinta pitkäaikaiseksi pääpuhelimeksi, ellei hinta ole koko valinnan ydin. Operaattorit siirtävät investointeja ja taajuuksia vähitellen 5G:hen, joten neljäksi tai viideksi vuodeksi hankittavan puhelimen kannattaa todennäköisesti tukea sitä.
-
-Nykyaikaisella liittymällä käytetty 4G-puhelin yhdistyy LTE-verkkoon tavallisilla LTE-nopeuksilla. Se ei vain pysty käyttämään 5G-kerrosta.
-
-## Käytännön johtopäätös
-
-Käytä 5G:tä, kun peitto on voimakas, lataukset ovat suuria, viiveellä on merkitystä tai jaat puhelimen yhteyttä muille laitteille. Käytä LTE:tä, kun akunkesto on tärkeä, peitto vaihtelee tai 5G näyttää paremmalta vain tilarivin kuvakkeessa.
-
-Paras asetus on se, joka antaa puhelimelle vakaan yhteyden siellä, missä sitä oikeasti käytät.
+Arvioi nopeus, viive, akku, kuuluvuus ja signaali erikseen. Yksi lähde tai tilapalkin kuvake ei todista kaikkia viittä.

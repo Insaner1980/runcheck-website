@@ -14,6 +14,8 @@ Molti consigli sulla ricarica rapida sono troppo drammatici. Non è una condanna
 
 È qui che la risposta diventa meno ordinata. Un caricabatterie da 65 W su una scrivania fresca può essere più delicato di uno da 15 W sotto un cuscino. I watt contano, ma la temperatura conta di più.
 
+Per le affermazioni scientifiche sulla batteria di questo articolo, [la revisione di Edge e coautori](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) supporta perdita di capacità e potenza, aumento dell'impedenza ed effetti di temperatura, livello di carica, corrente o carico, crescita della SEI e placcatura del litio. Non stabilisce funzioni del produttore, soglie universali per i telefoni, scelta di accessori, consigli o prezzi di riparazione, durata esatta, tempi di ricarica o risultati garantiti.
+
 ## Cosa usura davvero la batteria
 
 Le batterie agli ioni di litio invecchiano attraverso più processi sovrapposti. Due sono particolarmente importanti quando si parla di ricarica rapida.

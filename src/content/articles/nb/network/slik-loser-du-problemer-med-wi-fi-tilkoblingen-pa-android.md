@@ -9,6 +9,8 @@ tags: ["ytelse", "hastighet", "android", "optimalisering", "feilsøking"]
 locale: "nb"
 draft: false
 ---
+Menynavn, støttet atferd og nøyaktige trinn varierer etter produsent, modell, Android-versjon, område, operatør og fastvare. En Pixel- eller annen produsentspesifikk bane nedenfor er et eksempel for den enhetsfamilien, ikke universell Android-atferd; bruk veiledningen for din nøyaktige modell.
+
 
 Hva bør du prøve først når Wi-Fi slutter å virke på Android? Ikke begynn med en tilbakestilling til fabrikkinnstillingene, og ikke bruk en halvtime på å endre ruterinnstillinger før du har testet det enkle. De fleste Wi-Fi-problemer faller i én av tre grupper: Telefonen kobler seg ikke til, tilkoblingen faller stadig ut, eller telefonen er tilkoblet mens internett i praksis står stille.
 

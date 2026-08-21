@@ -20,7 +20,7 @@ Anledningen till att människor fortfarande talar om avsiktliga nedbromsningar �
 
 Problemet var öppenheten. Användarna märkte att telefonerna blev långsammare men fick inte tydligt veta att ett batteribyte kunde återställa mycket av prestandan. Många trodde att själva telefonen var slut.
 
-Apple lade senare till tydligare information om batterihälsa och betalade förlikningar. År 2018 bötfällde Italiens konkurrensmyndighet också Apple och Samsung för programvaruuppdateringar som hade orsakat allvarliga problem eller minskat prestandan på vissa telefoner. Det är därför människor inte bara rycker på axlarna när en gammal enhet blir sämre efter en uppdatering.
+Det finns ett dokumenterat fall. År 2018 [meddelade Italiens konkurrensmyndighet böter mot Apple och Samsung](https://en.agcm.it/en/media/press-releases/2018/10/PS11009-PS11039) efter att ha funnit att vissa uppdateringar orsakade allvarliga fel och sänkt prestanda utan tillräcklig information om effekterna eller hur ursprunglig funktion kunde återställas. Det är belägg för de namngivna utredningarna och enheterna, inte för att varje senare nedgång eller uppdatering är avsiktlig.
 
 Det bör de inte heller göra.
 

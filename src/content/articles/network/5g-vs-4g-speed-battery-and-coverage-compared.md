@@ -8,82 +8,39 @@ order: 5
 tags: ["performance", "speed", "android", "optimization", "troubleshooting"]
 draft: false
 ---
-
-That's the part phone marketing usually skips.
+5G and 4G cannot be compared with one fixed speed, latency, battery, or coverage number. Results depend on spectrum, network architecture, device, modem, carrier, place, time, signal, server, and workload. The previous universal-looking figures have been removed.
 
 <figure class="not-prose my-10">
   <img class="w-full rounded-2xl border border-run-border shadow-2xl" src="/images/articles/5g-vs-4g.webp" alt="Comparison of 5G and 4G speed, signal stability, heat, and battery use" width="1672" height="941" loading="lazy" decoding="async" />
-  <figcaption class="mt-3 text-sm leading-relaxed text-run-muted">Strong 5G can deliver much higher speed, but weak or unstable 5G may use more power and perform less consistently than solid 4G coverage.</figcaption>
+  <figcaption class="mt-3 text-sm leading-relaxed text-run-muted">5G can outperform 4G, but the result depends on the device and network conditions rather than the status-bar icon alone.</figcaption>
 </figure>
 
-## Speed depends on which 5G you're using
+## Speed
 
-The 5G icon doesn't tell the whole story. A phone can show 5G while connected to a wide low-band layer, a fast mid-band layer, or a very fast mmWave cell that only works in a small outdoor area. Those are different experiences.
+The [GSMA spectrum position](https://www.gsma.com/connectivity-for-good/spectrum/wp-content/uploads/2025/07/5G-Spectrum-Public-Policy-Paper.pdf) describes low band as a coverage layer and explains the different roles of mid and higher bands. That supports qualitative differences between deployments, not fixed consumer speeds.
 
-Low-band 5G is built for coverage. It travels farther and gets indoors better than higher-frequency 5G, but speed can look close to good 4G LTE. If you're seeing 30 to 80 Mbps on low-band 5G, that isn't strange.
+Measure the connection you actually use. [Measurement Lab's NDT7](https://www.measurementlab.net/tests/ndt/ndt7/) is one documented measurement protocol, but a single test is still only a snapshot of that route and moment.
 
-Mid-band 5G is the sweet spot. In cities and suburbs with modern network deployments, mid-band often lands in the low hundreds of Mbps, sometimes higher. This is where 5G starts to feel clearly different for large downloads, app installs, cloud backup, and hotspot use.
+## Latency
 
-mmWave is the headline speed layer. It can cross 1 Gbps in the real world, but the coverage area is tiny compared with low-band and mid-band. It struggles with walls, glass, trees, buses, and even your hand position. You normally see it in dense urban blocks, stadiums, airports, and event venues.
+5G can provide lower latency in suitable deployments, especially where the radio and core network support it. Server distance, congestion, routing, Wi-Fi or cellular transitions, and application design can dominate the result. The former fixed millisecond comparison was not supported and has been removed.
 
-4G LTE is slower on paper, but still plenty for normal phone use. Messaging, maps, web browsing, music streaming, social feeds, and HD video do not need hundreds of Mbps. A stable 30 Mbps LTE connection can feel better than a 5G connection that keeps switching layers.
+Compare repeated tests against the same service. Do not infer application responsiveness from the 5G icon.
 
-## Latency is better, but don't overstate it
+## Battery consumption
 
-5G usually lowers latency compared with 4G. That means less waiting between tapping something and getting a response from the network. Video calls, cloud gaming, remote desktop, and live collaboration benefit most.
+A [2020 study of first-generation commercial 5G](https://www.cs.princeton.edu/courses/archive/spring21/cos563/papers/5G_measurement.pdf) measured higher radio power than 4G in its tested devices and networks. It does not establish one current percentage for all phones.
 
-For normal browsing, the difference is harder to feel. The jump from 40 ms to 20 ms is measurable. It won't magically make a slow website fast if the site itself is heavy, the DNS lookup is slow, or the server is far away.
+Non-Standalone or Standalone operation, modem design, signal, band, traffic, and firmware can change consumption. Use several similar days on your own device if you are deciding between automatic 5G and LTE.
 
-Latency also depends on the network core. A 5G phone using Non-Standalone 5G still relies on LTE for part of the connection. Standalone 5G can improve latency and efficiency, but rollout varies by country and carrier.
+## Coverage and signal
 
-## Battery life: 5G still has a cost
+Android's [SignalStrength documentation](https://developer.android.com/reference/android/telephony/SignalStrength) defines how software reports signal levels; it does not prove speed, latency, battery life, or coverage. Low band can provide a broad 5G layer, while higher bands serve different capacity and coverage goals. Actual indoor and rural results remain carrier- and location-specific.
 
-5G uses more power than 4G in many real-world situations. Ookla-based reporting has put the difference at about 6% to 11% higher battery drain depending on the SoC, with newer chips narrowing the gap.
+A stable 4G connection can be more useful than unstable 5G. A stable 5G connection can be much faster than local 4G. Neither outcome is universal.
 
-The drain has three main causes.
+## Practical comparison
 
-First, many 5G networks still use NSA, or Non-Standalone architecture. In that setup, the phone keeps an LTE anchor while adding 5G NR for data. Two radio layers mean more modem work than a clean LTE-only connection.
+Keep automatic network selection when performance and battery life are acceptable. Try LTE temporarily when 5G is unstable, slower in the place you use it, or when a repeatable comparison shows a meaningful battery benefit. Menu availability varies by phone, carrier, region, and firmware.
 
-Second, weak 5G signal makes the modem work harder. If the phone sits at the edge of 5G coverage, it may hunt for 5G, attach briefly, drop back to LTE, then try again. That loop wastes power and can warm the phone.
-
-Third, faster data changes behavior. Apps may sync more, video can switch to higher quality, backups finish faster but still wake the CPU, and hotspot sessions become more tempting. The radio isn't the only part using energy.
-
-If battery life matters more than peak speed, LTE-only mode is still a sensible setting in weak 5G areas. Boring advice, but it works.
-
-## Coverage is where 4G still wins
-
-4G LTE coverage is mature. In many countries, LTE remains the most dependable layer for indoor coverage, rural areas, and basic fallback. Carriers have spent years tuning it.
-
-5G coverage is better than it was a few years ago, but it still varies heavily by band and location. A carrier map can say 5G is available across a city while your actual apartment, basement office, train carriage, or back room falls back to LTE.
-
-Indoor coverage is the usual weak point. Higher-frequency 5G carries more data, but it loses more energy through walls and windows. Low-band 5G helps, but low-band is also the least dramatic speed upgrade.
-
-Old networks are being retired, too. 3G shutdowns have already happened in many markets, and 2G sunset plans vary by country because 2G is still used by some IoT and safety devices. For modern smartphones, the practical fallback is LTE.
-
-## Android 17 doesn't change the rollout reality
-
-Android 17 is now out for supported Pixel devices first. Other manufacturers, including Samsung, Xiaomi, OnePlus, OPPO, vivo, HONOR, and others, move on their own schedules and often ship Android 17 through their own skins.
-
-That matters when you're troubleshooting. A Pixel 8 Pro on Android 17 and a Galaxy S24 still waiting for its Android 17-based One UI update are not in the same software situation. If 5G became unstable right after a major update, check your exact phone model, carrier, and build number before assuming every Android phone has the same issue.
-
-## When to switch 5G off
-
-Turn 5G off when your phone gets warm in your pocket, battery drains faster than usual, or the status bar keeps bouncing between 5G and LTE in the same spot. Also consider LTE-only mode when you're traveling through rural areas, working in a basement, or spending the day somewhere with weak indoor coverage.
-
-On Pixel and many stock Android phones, check Settings > Network & internet > SIMs > Preferred network type. On Samsung, use Settings > Connections > Mobile networks > Network mode. Some carriers hide or rename this setting, especially on locked devices.
-
-If you see options like 5G Auto, Adaptive Connectivity, or a similar smart mode, try that before disabling 5G completely. The phone can then use 5G when it helps and fall back when it doesn't.
-
-## Does a 4G phone still make sense in 2026?
-
-Yes, for the right buyer. A 4G phone can still handle maps, streaming, messaging, browsing, banking apps, and video calls. LTE speeds are enough for most daily use, and 4G-only phones can be cheaper.
-
-But I wouldn't buy a 4G-only phone as a long-term main device unless the price is the whole point. Carriers are shifting more spectrum and investment toward 5G, and a phone you plan to keep for four or five years should probably support it.
-
-A 4G phone on a modern plan still connects to LTE at normal LTE speeds. It just can't use the 5G layer.
-
-## Practical verdict
-
-Use 5G when coverage is strong, downloads are large, latency matters, or you're using the phone as a hotspot. Use LTE when battery matters, coverage is uneven, or 5G only looks better in the status bar.
-
-The best setting is the one that gives your phone a stable connection where you actually use it.
+Judge speed, latency, battery, coverage, and signal separately. No single source or status-bar label proves all five.

@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from "astro:content";
 import ArticleCTA from "../../../../components/ArticleCTA.astro";
+import ArticleSources from "../../../../components/ArticleSources.astro";
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
 import { articleHubBySlugFi } from "../../../../data/articleTaxonomy.fi.mjs";
 import { articlePath } from "../../../../data/articlePaths.mjs";
@@ -66,7 +67,10 @@ const breadcrumbJsonLd = buildBreadcrumbJsonLd(
   ogType="article"
   jsonLd={breadcrumbJsonLd}
 >
-  <article class="border-b border-run-border">
+  <article
+    class="border-b border-run-border"
+    data-source-number={article.data.sourceNumber}
+  >
     <div
       class="article-page-shell article-page-shell-narrow article-detail-shell"
     >
@@ -82,6 +86,10 @@ const breadcrumbJsonLd = buildBreadcrumbJsonLd(
       <p class="mt-5 text-lg text-run-muted">{article.data.description}</p>
       <div class="prose prose-invert mt-10 max-w-none prose-a:text-run-cyan">
         <Content />
+        <ArticleSources
+          sourceNumber={article.data.sourceNumber}
+          locale="fi"
+        />
       </div>
       <ArticleCTA locale="fi" />
     </div>

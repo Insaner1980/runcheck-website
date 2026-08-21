@@ -19,7 +19,7 @@ The reason people still talk about deliberate slowdowns is Apple's 2017 Batteryg
 
 The problem was transparency. Users saw slower phones but were not clearly told that a battery replacement could restore much of the lost performance. Many assumed the phone itself was finished.
 
-Apple later added clearer battery health information and paid settlements. In 2018, Italy's competition authority also fined Apple and Samsung over software updates that caused serious problems or reduced performance on some phones. That history is why people don't just shrug when an old device gets worse after an update.
+A documented case exists. In 2018, [Italy's competition authority announced fines against Apple and Samsung](https://en.agcm.it/en/media/press-releases/2018/10/PS11009-PS11039) after finding that certain firmware updates caused serious malfunctions and reduced performance, with inadequate information about effects or ways to restore original functionality. This is evidence for those named investigations and devices, not proof that every later slowdown or update is deliberate.
 
 They shouldn't.
 

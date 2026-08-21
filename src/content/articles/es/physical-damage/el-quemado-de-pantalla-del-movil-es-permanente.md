@@ -9,6 +9,8 @@ tags: ["hardware", "danos", "reparacion", "android", "solucion-de-problemas"]
 locale: "es"
 draft: false
 ---
+Los nombres de menú, el comportamiento compatible y los pasos exactos cambian según fabricante, modelo, versión de Android, región, operador y firmware. Cualquier ruta de Pixel o específica de otro fabricante que aparezca abajo es un ejemplo para esa familia, no un comportamiento universal de Android; usa las instrucciones de tu modelo exacto.
+
 
 ---
 
@@ -46,7 +48,7 @@ Mantener esas herramientas durante horas con el brillo alto puede añadir más d
 
 Android admite navegación completamente por gestos desde Android 10, y el consejo sigue siendo válido en Android 17: los gestos producen menos desgaste fijo en OLED que una barra brillante de tres botones situada todo el día en el mismo lugar.
 
-Las funciones de pantalla siempre activa también desplazan relojes e iconos, los atenúan o limitan el tiempo durante el que permanecen visibles. Algunos fabricantes aplican desplazamiento de píxeles u otros sistemas de cuidado del panel, que mueven ligeramente el contenido para que los mismos píxeles no soporten todo el desgaste. Samsung documenta Pixel Shift en sus monitores y televisores OLED, y los fabricantes de móviles utilizan la misma idea básica de formas más pequeñas y menos visibles.
+El comportamiento de la pantalla siempre activa y otras protecciones del panel varían según el móvil, el fabricante y el modelo. Consulta la guía de pantalla del dispositivo exacto en vez de asumir que incorpora una función documentada para otra categoría de producto.
 
 El brillo automático también ayuda. El riesgo de quemado aumenta cuando el panel trabaja con mucha intensidad durante periodos largos, así que dejar un móvil al brillo máximo dentro de casa supone un esfuerzo innecesario.
 

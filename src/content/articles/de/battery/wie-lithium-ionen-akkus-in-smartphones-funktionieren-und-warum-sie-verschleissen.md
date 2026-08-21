@@ -13,6 +13,8 @@ draft: false
 
 Wenn du die Grundlagen verstehst, wirkt der übliche Rat weniger rätselhaft. Die Empfehlung, den Ladestand möglichst zwischen 20 und 80 % zu halten, die Warnung vor Hitze und der Grund für frühe Abschaltungen alter Smartphones hängen alle mit demselben Vorgang zusammen: Lithium-Ionen bewegen sich durch eine Zelle, die sich bei jeder Nutzung langsam verändert.
 
+Für die batteriewissenschaftlichen Aussagen dieses Artikels stützt [die Übersicht von Edge und anderen](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) Kapazitäts- und Leistungsverlust, Impedanzanstieg sowie die Einflüsse von Temperatur, Ladestand, Strom oder Last, SEI-Wachstum und Lithium-Plating. Sie belegt keine Herstellerfunktionen, universellen Smartphone-Temperaturgrenzen, Zubehörentscheidungen, Reparaturhinweise oder Preise, genaue Lebensdauer, Ladezeitaussagen oder garantierten Ergebnisse.
+
 ## Die grundlegende Zelle
 
 Ein Lithium-Ionen-Akku im Smartphone besteht aus vier Hauptteilen: Anode, Kathode, Elektrolyt und Separator. Bei herkömmlichen Smartphone-Zellen besteht die Anode meist aus Graphit. Die Kathode ist ein Lithium-Metalloxid, dessen genaue Chemie vom Hersteller abhängt. Der Elektrolyt lässt Lithium-Ionen wandern, während der Separator verhindert, dass sich die beiden Elektroden berühren.

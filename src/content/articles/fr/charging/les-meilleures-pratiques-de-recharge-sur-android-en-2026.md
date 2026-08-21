@@ -102,11 +102,9 @@ Cherchez dans Paramètres > Batterie les fonctions de recharge optimisée, Batte
 
 Si votre téléphone OnePlus propose le bypass charging, qui alimente le téléphone en limitant le passage par la batterie pendant une utilisation intensive, cette fonction est utile lors des longues sessions de jeu avec l'appareil branché. Le but est de réduire la chaleur dans la batterie lorsque le téléphone travaille beaucoup.
 
-### Xiaomi, OPPO et autres marques
+### Exemple du POCO F6
 
-Les menus Xiaomi et OPPO varient davantage selon le pays et la version du logiciel. Dans Paramètres > Batterie, recherchez une protection de la batterie, une recharge optimisée ou intelligente, ou une limite de charge.
-
-Si votre téléphone utilise une recharge propriétaire de forte puissance, choisissez le chargeur et le câble recommandés lorsque vous voulez la vitesse maximale. Pour une recharge nocturne ordinaire, un chargeur USB-C PD moins puissant suffit souvent.
+[Sur le POCO F6, Xiaomi documente](https://www.mi.com/global/support/faq/details/KA-274093/) le chemin `Settings > Battery > Battery protection` avec les choix Regular, Limited, Optimized et Nighttime charging. La page indique aussi `Security > Battery > Battery protection` comme autre chemin. Il s'agit d'un exemple propre au POCO F6, pas d'un menu ni d'une liste de modes universels pour les appareils Xiaomi, Redmi, POCO, MIUI ou HyperOS. Les autres modèles et versions logicielles peuvent différer.
 
 ## Les habitudes dont vous pouvez cesser de vous inquiéter
 

@@ -13,6 +13,8 @@ draft: false
 
 Når du forstår det grundlæggende, bliver de almindelige råd mindre mystiske. Reglen om 20-80 %, advarslen mod varme og grunden til, at gamle telefoner dør tidligt, udspringer alle af det samme: Litiumioner bevæger sig gennem en celle, der langsomt ændrer sig, hver gang du bruger den.
 
+For de batterividenskabelige udsagn i denne artikel understøtter [oversigten af Edge med flere](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) tab af kapacitet og effekt, øget impedans samt virkninger af temperatur, opladningsniveau, strøm eller belastning, SEI-vækst og lithiumplettering. Den fastlægger ikke producentfunktioner, universelle temperaturgrænser for telefoner, valg af tilbehør, reparationsråd eller priser, præcis levetid, opladningstid eller garanterede resultater.
+
 ## Den grundlæggende celle
 
 Et litium-ion-batteri i en telefon har fire hoveddele: en anode, en katode, en elektrolyt og en separator. I traditionelle telefonceller er anoden som regel af grafit. Katoden er et litiummetaloxid, hvor den præcise kemi afhænger af producenten. Elektrolytten lader litiumioner bevæge sig, mens separatoren forhindrer de to elektroder i at røre hinanden.

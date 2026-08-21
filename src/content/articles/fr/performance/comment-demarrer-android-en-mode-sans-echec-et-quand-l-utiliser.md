@@ -9,6 +9,8 @@ tags: ["batterie", "consommation", "depannage", "android", "performances"]
 locale: "fr"
 draft: false
 ---
+Les noms de menus, le comportement pris en charge et les étapes exactes varient selon le fabricant, le modèle, la version d'Android, la région, l'opérateur et le micrologiciel. Un parcours Pixel ou propre à un autre fabricant ci-dessous est un exemple pour cette famille, pas un comportement Android universel ; suivez les instructions de votre modèle exact.
+
 
 Comment savoir si votre téléphone est lent parce qu'Android passe une mauvaise journée ou parce qu'une application perturbe tout en arrière-plan ? Le mode sans échec est le test le plus propre.
 

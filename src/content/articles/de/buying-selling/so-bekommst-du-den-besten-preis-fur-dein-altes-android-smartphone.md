@@ -9,8 +9,7 @@ tags: ["kaufratgeber", "android", "vergleich", "wert", "ratgeber"]
 locale: "de"
 draft: false
 ---
-
-Für US-amerikanische Mobilfunk-Rücknahmeprogramme meldete Assurant für 2025 Auszahlungen von 6,4 Milliarden US-Dollar an Verbraucher, 42 % mehr als 2024. Android-Geräte waren bei der Abgabe im Durchschnitt 3,96 Jahre alt. Das ist auch außerhalb der USA ein nützlicher Hinweis: Eine längere Nutzungsdauer gibt dir mehr Zeit mit dem Smartphone, lässt beim späteren Verkauf aber weniger Spielraum für schlechtes Timing.
+[Assurants Jahresbericht 2025 zu Mobilgeräte-Inzahlungnahmen](https://www.assurant.com/news-insights/infographics/mobile-trade-in-and-upgrade-data-trends-annual) sagt, dass US-Programme 2025 6,4 Milliarden US-Dollar an Verbraucher zurückgaben, 42 Prozent mehr als 2024. Die Zahlen beschreiben Assurants US-Daten und sagen den Wert eines bestimmten Android-Telefons nicht voraus.
 
 ## Verkaufe, bevor dein Smartphone von gestern ist
 

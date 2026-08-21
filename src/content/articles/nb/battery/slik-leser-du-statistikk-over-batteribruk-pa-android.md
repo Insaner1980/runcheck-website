@@ -10,6 +10,8 @@ tags: ["batteri", "strømforbruk", "feilsøking", "android", "ytelse"]
 locale: "nb"
 draft: false
 ---
+Menynavn, støttet atferd og nøyaktige trinn varierer etter produsent, modell, Android-versjon, område, operatør og fastvare. En Pixel- eller annen produsentspesifikk bane nedenfor er et eksempel for den enhetsfamilien, ikke universell Android-atferd; bruk veiledningen for din nøyaktige modell.
+
 
 Androids batteristatistikk er nyttig når du skal snevre inn et problem, men den er ikke en kvittering som viser nøyaktig hvor hver eneste milliampere-time ble av. Poenget er å lese prosentene i riktig sammenheng.
 

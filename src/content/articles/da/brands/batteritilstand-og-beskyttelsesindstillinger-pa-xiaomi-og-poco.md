@@ -14,17 +14,9 @@ Android 17 rydder ikke op i dette af sig selv. Google udgav først Android 17 ti
 
 Læs derfor ikke dette som én universel Xiaomi-sti. Brug det som en tjekliste.
 
-## Tjek Battery protection først
+## POCO F6 som eksempel på batteribeskyttelse
 
-På aktuelle HyperOS-versioner skal du begynde her:
-
-Settings > Battery > Battery protection
-
-Afhængigt af telefonen og firmwaren kan siden indeholde indstillinger til batteribeskyttelse, Smart charging, temperatur, oplysninger om dagens opladninger og nogle gange batteritilstand eller cyklusdata.
-
-På understøttede modeller kan du muligvis se batteritilstand i procent eller antal cyklusser under Battery protection, Battery health eller en side med et lignende navn. Xiaomi viser ikke disse oplysninger konsekvent i hele produktserien. Topmodeller og nyere ydelsesmodeller får ofte bedre data først. Billige Redmi-modeller gør ofte ikke.
-
-Hvis siden mangler, kan en opdatering af HyperOS og Xiaomis systemapps måske hjælpe, men forvent ikke mirakler. Xiaomi kan ganske enkelt have valgt ikke at aktivere funktionen på den model.
+[På POCO F6 dokumenterer Xiaomi](https://www.mi.com/global/support/faq/details/KA-274093/) stien `Settings > Battery > Battery protection` med valgene Regular, Limited, Optimized og Nighttime charging. Siden angiver også `Security > Battery > Battery protection` som en alternativ sti. Dette er et eksempel for POCO F6, ikke en universel menu eller liste over tilstande til Xiaomi-, Redmi-, POCO-, MIUI- eller HyperOS-enheder. Andre modeller og softwareversioner kan afvige.
 
 ## Smart charging og adfærden ved 80 %
 

@@ -14,6 +14,8 @@ draft: false
 
 In un certo senso è così. Il numero sullo schermo è una stima, e le batterie vecchie sono più difficili da stimare.
 
+Per le affermazioni scientifiche sulla batteria di questo articolo, [la revisione di Edge e coautori](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) supporta perdita di capacità e potenza, aumento dell'impedenza ed effetti di temperatura, livello di carica, corrente o carico, crescita della SEI e placcatura del litio. Non stabilisce funzioni del produttore, soglie universali per i telefoni, scelta di accessori, consigli o prezzi di riparazione, durata esatta, tempi di ricarica o risultati garantiti.
+
 ## Il primo controllo da fare
 
 Controlla lo stato della batteria prima di inseguire trucchi di calibrazione.

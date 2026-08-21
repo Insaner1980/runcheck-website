@@ -53,7 +53,7 @@ Major OS updates change the ground under every app. Android 17 is the current ex
 
 Update your apps after the OS update. Then update WebView, Chrome, Google Play services, and the app that crashes. Reboot once. Give the phone a few hours if the update just installed, because Android may still be optimizing apps and rebuilding caches in the background.
 
-If only one app crashes after Android 17, the developer probably needs to update it. Keeping compatibility with new OS versions, fixing crashes, and keeping an app working over time are all part of ongoing [app maintenance](https://remoteforce.work/blog/understanding-app-maintenance/). Clearing cache and data may help if stale local files are the trigger, but it won't fix code that isn't compatible with the new Android version.
+If only one app crashes after Android 17, the developer probably needs to update it. Keeping compatibility with new OS versions, fixing crashes, and keeping an app working over time are all part of ongoing app maintenance. Clearing cache and data may help if stale local files are the trigger, but it won't fix code that isn't compatible with the new Android version.
 
 If many apps crash after the update, look for a system patch from the phone maker. Pixel users should check monthly updates. Samsung, Xiaomi, OnePlus, OPPO, and others roll fixes through their own update channels, often later than Pixel.
 

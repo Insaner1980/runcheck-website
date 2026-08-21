@@ -14,6 +14,8 @@ De fleste råd om hurtigopladning er for dramatiske. Hurtigopladning er ikke en 
 
 Det er her, svaret bliver mindre enkelt. En 65 W-oplader på et køligt skrivebord kan være lettere for batteriet end en 15 W-oplader under en pude. Effekten betyder noget, men temperaturen betyder mere.
 
+For de batterividenskabelige udsagn i denne artikel understøtter [oversigten af Edge med flere](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) tab af kapacitet og effekt, øget impedans samt virkninger af temperatur, opladningsniveau, strøm eller belastning, SEI-vækst og lithiumplettering. Den fastlægger ikke producentfunktioner, universelle temperaturgrænser for telefoner, valg af tilbehør, reparationsråd eller priser, præcis levetid, opladningstid eller garanterede resultater.
+
 ## Hvad der faktisk slider på batteriet
 
 Litium-ion-batterier ældes gennem flere overlappende processer. To af dem er vigtigst, når folk taler om hurtigopladning.

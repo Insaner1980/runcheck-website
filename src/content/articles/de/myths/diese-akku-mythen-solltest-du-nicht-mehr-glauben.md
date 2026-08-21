@@ -88,7 +88,7 @@ Eine Diagnose-App wie runcheck kann dabei helfen, Akkuzustand, Temperaturverlauf
 
 Dunkles Design spart auf OLED- und AMOLED-Displays Energie. Wie groß der Unterschied ist, hängt von der Helligkeit und davon ab, wie dunkel die App tatsächlich gestaltet ist. Bei LCD-Displays bringt es meist wenig, weil die Hintergrundbeleuchtung weiterhin aktiv ist.
 
-Im Flugmodus kann das Laden etwas schneller gehen, weil das Gerät weniger arbeitet. Der Unterschied ist gewöhnlich klein, außer das Mobilfunksignal ist sehr schlecht.
+Der Flugmodus kann Funk- und Hintergrundaktivität verringern, sodass das Telefon beim Laden weniger Strom verbrauchen kann. Die Eingangsleistung des Ladegeräts ist davon getrennt; eine universelle gemessene Verkürzung der Ladezeit ist nicht belegt.
 
 Du kannst ein modernes Smartphone mit einem guten Ladegerät während des Ladens sicher verwenden. Anspruchsvolle Spiele während des Schnellladens sind etwas anderes, weil dabei zusätzliche Wärme entsteht. Leichtes Surfen oder Nachrichten schreiben ist in Ordnung.
 

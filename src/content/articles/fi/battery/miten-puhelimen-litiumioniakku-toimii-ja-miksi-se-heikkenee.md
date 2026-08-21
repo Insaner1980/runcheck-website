@@ -13,6 +13,8 @@ draft: false
 
 Perusteiden ymmärtäminen tekee tavallisista neuvoista vähemmän arvoituksellisia. 20-80 %:n sääntö, varoitukset kuumuudesta ja vanhojen puhelinten ennenaikaiset sammumiset johtuvat kaikki samasta asiasta: litiumionit liikkuvat kennossa, joka muuttuu hitaasti jokaisella käyttökerralla.
 
+Tämän artikkelin akkutieteellisissä väitteissä [Edge ym. -katsaus](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) tukee kapasiteetin ja tehon heikkenemistä, impedanssin kasvua sekä lämpötilan, varaustason, virran tai kuormituksen, SEI-kerroksen kasvun ja litiumin pinnoittumisen vaikutuksia. Se ei osoita valmistajan ominaisuuksia, yleisiä puhelimen lämpörajoja, lisävarustevalintoja, korjausohjeita tai hintoja, tarkkaa käyttöikää, latausaikaväitteitä tai taattuja kuluttajatuloksia.
+
 ## Kennon perusrakenne
 
 Puhelimen litiumioniakussa on neljä pääosaa: anodi, katodi, elektrolyytti ja erotin. Tavallisten puhelinakkujen anodi on yleensä grafiittia. Katodi on litiumia sisältävää metallioksidia, jonka tarkka kemiallinen koostumus riippuu valmistajasta. Elektrolyytti mahdollistaa litiumionien liikkumisen, ja erotin estää elektrodeja koskettamasta toisiaan.

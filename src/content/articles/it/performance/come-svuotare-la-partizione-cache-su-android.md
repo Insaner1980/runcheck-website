@@ -41,13 +41,11 @@ I Pixel sono l'esempio più semplice. Puoi ancora avviare un Pixel in Recovery M
 
 Samsung ha mantenuto questa opzione più a lungo di molti altri produttori. Per questo gran parte delle persone che cercano queste istruzioni sta in realtà parlando di un telefono Galaxy.
 
-## La situazione Samsung nel 2026
+## Ambito attuale: Android A/B e Galaxy supportati
 
-La pagina di assistenza britannica di Samsung continua a descrivere la procedura **Clear the cache partition** tramite Recovery Mode: spegnere il telefono, aprire la recovery con la combinazione di tasti, selezionare **Wipe cache partition**, confermare e riavviare.
+[La documentazione AOSP sugli aggiornamenti A/B](https://source.android.com/docs/core/ota/ab/ab_implement) dice che i dispositivi A/B non hanno bisogno di una partizione recovery o cache per i pacchetti OTA. Il comando classico **Wipe cache partition** non è quindi una funzione universale di Android moderno.
 
-Allo stesso tempo, l'aggiornamento Samsung di febbraio 2026 sembra aver rimosso diversi strumenti di Recovery Mode, compreso **Wipe cache partition**, su alcuni modelli Galaxy. Le segnalazioni di Android Authority e GalaxyClub hanno riguardato inizialmente i Galaxy S25 e pieghevoli più recenti come Galaxy Z Fold 7. Sui firmware interessati, il menu ridotto mostrerebbe solo **Reboot system now**, **Wipe data/factory reset** e **Power off**.
-
-Samsung non ha pubblicato una spiegazione globale chiara valida per ogni modello e regione. La regola prudente è quindi questa: sui Galaxy nel 2026, considera **Wipe cache partition** una funzione che dipende dal firmware. Se compare nel menu Recovery, puoi usarla. Se manca, non significa necessariamente che il telefono sia guasto.
+[Le istruzioni Samsung UK attuali](https://www.samsung.com/uk/support/mobile-devices/how-do-i-clear-the-cache-on-my-device/) documentano ancora il comando sui Galaxy supportati: aprire Recovery, scegliere **Wipe cache partition**, confermare e riavviare. Trattalo come specifico per Samsung e firmware. Se manca, non sostituirlo con **Wipe data/factory reset**.
 
 ## Prima di provare Recovery Mode
 

@@ -14,6 +14,8 @@ Kann eine Akku-Reparatur-App verlorene Kapazität wirklich zurückbringen? Nein.
 
 Der Akku ist ein physisches Bauteil. Wenn die Chemie in der Zelle gealtert ist, kann Software die verlorene Kapazität nicht wiederherstellen.
 
+Für die batteriewissenschaftlichen Aussagen dieses Artikels stützt [die Übersicht von Edge und anderen](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) Kapazitäts- und Leistungsverlust, Impedanzanstieg sowie die Einflüsse von Temperatur, Ladestand, Strom oder Last, SEI-Wachstum und Lithium-Plating. Sie belegt keine Herstellerfunktionen, universellen Smartphone-Temperaturgrenzen, Zubehörentscheidungen, Reparaturhinweise oder Preise, genaue Lebensdauer, Ladezeitaussagen oder garantierten Ergebnisse.
+
 ## Was Verschleiß tatsächlich bedeutet
 
 Akkuverschleiß ist keine verrutschte Einstellung. Er entsteht durch chemische Alterung in der Zelle.

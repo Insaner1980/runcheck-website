@@ -9,6 +9,8 @@ tags: ["seguridad", "software-malicioso", "android", "privacidad", "guia"]
 locale: "es"
 draft: false
 ---
+El texto exacto del menú cambia según fabricante y versión de Android. [La implementación actual de AOSP Settings](https://android.googlesource.com/platform/packages/apps/Settings/+/master/src/com/android/settings/applications/manageapplications/ResetAppsHelper.java) es la referencia directa para Android estándar: vuelve a habilitar aplicaciones, restablece restricciones de operaciones y notificaciones, borra actividades preferidas y restablece políticas de red pertinentes y permisos de ejecución. Las compilaciones del fabricante pueden mostrar o ampliar esto de otro modo; lee el diálogo de confirmación del teléfono antes de continuar.
+
 
 El problema es que el nombre es bastante malo. No restablece las aplicaciones. Restablece las decisiones del móvil relacionadas con permisos, valores predeterminados, notificaciones, actividad en segundo plano y aplicaciones desactivadas. Tus fotos, mensajes, archivos, cuentas guardadas y datos de las aplicaciones permanecen donde estaban.
 

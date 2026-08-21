@@ -14,6 +14,8 @@ Den bedste opladningsvane er kedelig: Hold telefonen kølig, undgå at lade den 
 
 Det betyder ikke, at du skal overvåge batteriprocenten eller tage stikket ud i samme sekund, telefonen rammer 80 %. En telefon er et værktøj, ikke en laboratorieprøve. Men litium-ion-batterier ældes hurtigere under nogle få forudsigelige forhold, og din opladningsrutine kan enten øge belastningen eller holde den under kontrol.
 
+For de batterividenskabelige udsagn i denne artikel understøtter [oversigten af Edge med flere](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) tab af kapacitet og effekt, øget impedans samt virkninger af temperatur, opladningsniveau, strøm eller belastning, SEI-vækst og lithiumplettering. Den fastlægger ikke producentfunktioner, universelle temperaturgrænser for telefoner, valg af tilbehør, reparationsråd eller priser, præcis levetid, opladningstid eller garanterede resultater.
+
 ## Vanen med 20-80 %
 
 Litium-ion-batterier bryder sig ikke om yderpunkterne. Et telefonbatteri tæt på 100 % har en højere cellespænding. Den høje spænding fremskynder sidereaktioner i cellen, blandt andet vækst i det faste elektrolytlag og et gradvist tab af brugbart litium. Resultatet er enkelt: Batteriet kan holde mindre strøm med tiden.

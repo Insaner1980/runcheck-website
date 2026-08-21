@@ -43,7 +43,7 @@ Kun RAM käy vähiin, Android sulkee taustasovelluksia ja lataa ne myöhemmin uu
 
 Tässä vanhat edulliset puhelimet joutuvat vaikeuksiin. Nykyisiä sovelluksia käyttävä 4 Gt:n puhelin selviää yhä puheluista, viesteistä ja kevyestä selaamisesta, mutta moniajo on rajallista. Kolme vuotta vanha lippulaivapuhelin, jossa on 8 Gt RAM-muistia ja runsaasti vapaata tallennustilaa, voi tuntua paremmalta kuin uusi halpamalli, jossa on 4 Gt muistia ja raskas valmistajan käyttöliittymä.
 
-Android 17 Beta 4 toi sovelluksille laitteen kokonais-RAM-muistiin perustuvia muistirajoja. Tavoitteena on parantaa vakautta estämällä yksittäistä hallitsemattomasti muistia käyttävää sovellusta sotkemasta koko järjestelmää. Samalla sovellusten toimintaa kannattaa seurata päivitysten jälkeen. Android 17 oli heinäkuun 2026 alussa yhä beta-vaiheessa tuetuilla Pixel-laitteilla, joten muutos ei koskenut kaikkia Android-puhelimia samaan aikaan.
+Android 17 toi sovelluksille laitteen kokonais-RAM-muistiin perustuvia muistirajoja. Tavoitteena on parantaa vakautta estämällä yksittäistä hallitsemattomasti muistia käyttävää sovellusta sotkemasta koko järjestelmää. Samalla sovellusten toimintaa kannattaa seurata päivitysten jälkeen. Android 17 on saatavilla tuetuille Pixel-laitteille, mutta muiden valmistajien aikataulut vaihtelevat, joten muutos ei koske kaikkia Android-puhelimia samaan aikaan.
 
 ## Kuumuus hidastaa CPU:ta tarkoituksella
 
@@ -69,7 +69,7 @@ Muilla merkeillä vastaus vaihtelee. Osa näyttää kuntoarvion, osa piilottaa s
 
 Puhelin voi tuntua hitaalta heti järjestelmäpäivityksen jälkeen, koska Android rakentaa välimuisteja uudelleen, optimoi sovelluksia, synkronoi tietoja, indeksoi mediaa ja tekee taustalla rästiin jäänyttä työtä. Se voi kestää päivän. Jos puhelimessa on paljon kuvia, vähän vapaata tilaa tai heikko akku, aikaa voi kulua enemmän.
 
-Android 17 on ajankohtainen esimerkki betapäivityksestä, joka tuli ensin saataville tuetuille Pixel-laitteille. Muut valmistajat etenevät omien testi- ja julkaisuaikataulujensa mukaan. Jos Pixel tuntuu Android 17 -betan asentamisen jälkeen tahmealta, älä palauta tehdasasetuksia ensimmäisen tunnin aikana. Lataa puhelin, päivitä sovellukset, vapauta tallennustilaa, käynnistä laite kerran uudelleen ja seuraa sitä 24-72 tuntia.
+Android 17 on ajankohtainen esimerkki suuresta päivityksestä, joka tuli ensin saataville tuetuille Pixel-laitteille. Muut valmistajat etenevät omien julkaisu- ja testiaikataulujensa mukaan. Jos Pixel tuntuu Android 17:n asentamisen jälkeen tahmealta, älä palauta tehdasasetuksia ensimmäisen tunnin aikana. Lataa puhelin, päivitä sovellukset, vapauta tallennustilaa, käynnistä laite kerran uudelleen ja seuraa sitä 24-72 tuntia.
 
 Jos hitaus jatkuu, tarkista akun käyttötiedot. Yksi varmuuskopiointisovellus, käynnistysohjelma, VPN, virustorjunta tai pilvisynkronointipalvelu voi alkaa käyttäytyä hallitsemattomasti päivityksen jälkeen. Vikasietotila auttaa erottamaan järjestelmän toiminnan ladatuista sovelluksista.
 

@@ -66,13 +66,9 @@ OnePlus utilise aussi le Battery Health Engine sur plusieurs modèles. OnePlus e
 
 Certains téléphones OnePlus proposent également une recharge en dérivation ou une séparation de la charge pendant les jeux. Le principe consiste à réduire la sollicitation de la batterie en alimentant plus directement l'appareil lorsqu'il est soumis à une forte charge. Le fonctionnement exact varie, mais l'objectif est cohérent : limiter la chaleur de la batterie pendant les longues sessions avec le téléphone branché.
 
-## Xiaomi : utile, mais moins uniforme
+## Exemple du POCO F6
 
-Les réglages de batterie de Xiaomi et d'HyperOS varient selon le modèle et la région. Certains téléphones proposent une recharge optimisée. D'autres offrent une limite de type 80 % ou 90 %. Sur certains modèles, l'option se cache dans les réglages de protection ou d'état de la batterie.
-
-Xiaomi HyperCharge nécessite aussi des chargeurs et des câbles propriétaires pour atteindre ses vitesses maximales. Un chargeur USB-C PD standard convient à une recharge normale et sûre, mais il n'atteindra généralement pas la puissance mise en avant par le fabricant.
-
-C'est là qu'Android devient compliqué. Deux téléphones Xiaomi de la même année peuvent proposer des options de recharge différentes, et le micrologiciel régional peut encore modifier leur nom.
+[Sur le POCO F6, Xiaomi documente](https://www.mi.com/global/support/faq/details/KA-274093/) le chemin `Settings > Battery > Battery protection` avec les choix Regular, Limited, Optimized et Nighttime charging. La page indique aussi `Security > Battery > Battery protection` comme autre chemin. Il s'agit d'un exemple propre au POCO F6, pas d'un menu ni d'une liste de modes universels pour les appareils Xiaomi, Redmi, POCO, MIUI ou HyperOS. Les autres modèles et versions logicielles peuvent différer.
 
 ## Téléphones plus anciens et applications tierces
 

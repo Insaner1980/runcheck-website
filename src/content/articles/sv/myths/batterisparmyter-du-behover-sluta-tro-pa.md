@@ -88,7 +88,7 @@ En diagnostikapp som runcheck kan hjälpa dig följa batterihälsa, temperaturtr
 
 Mörkt läge sparar batteri på OLED- och AMOLED-skärmar, men besparingen beror på ljusstyrkan och hur mörk appen faktiskt är. På LCD-skärmar gör det oftast liten skillnad eftersom bakgrundsbelysningen fortfarande är på.
 
-Flygplansläge kan göra laddningen lite snabbare eftersom telefonen arbetar mindre. Skillnaden är vanligtvis liten om inte signalen är mycket dålig.
+Flygplansläge kan minska radio- och bakgrundsaktivitet, så telefonen kan använda mindre ström under laddning. Laddarens ingångseffekt är en separat fråga, och någon universell uppmätt minskning av tiden till full laddning har inte fastställts.
 
 Det är säkert att använda en modern telefon under laddning med en bra laddare. Tungt spelande under snabbladdning är en annan sak eftersom det tillför värme. Lätt surfning och meddelanden är inga problem.
 

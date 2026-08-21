@@ -10,6 +10,8 @@ tags:
 locale: "fr"
 draft: false
 ---
+Le libellé exact varie selon le fabricant et la version d'Android. [L'implémentation actuelle d'AOSP Settings](https://android.googlesource.com/platform/packages/apps/Settings/+/master/src/com/android/settings/applications/manageapplications/ResetAppsHelper.java) est la référence directe pour Android standard : elle réactive les applications désactivées, réinitialise les restrictions d'opérations et de notifications, efface les activités préférées et réinitialise les politiques réseau concernées ainsi que les autorisations d'exécution. Les versions constructeur peuvent présenter ou étendre cela autrement ; lisez la confirmation du téléphone avant de continuer.
+
 
 Le nom est simplement trompeur. Cette opération ne réinitialise pas les applications elles-mêmes. Elle remet à zéro les choix du système qui concernent les autorisations, les applications par défaut, les notifications, l'activité en arrière-plan et les applications désactivées. Vos photos, messages, fichiers, comptes enregistrés et données d'application restent en place.
 

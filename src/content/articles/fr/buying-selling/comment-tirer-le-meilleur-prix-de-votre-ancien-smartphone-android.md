@@ -9,8 +9,7 @@ tags: ["guide-d-achat", "android", "comparaison", "valeur", "guide"]
 locale: "fr"
 draft: false
 ---
-
-Aux États-Unis, Assurant a indiqué que les programmes de reprise mobile avaient reversé 6,4 milliards de dollars aux consommateurs en 2025, soit 42 % de plus qu'en 2024. Les appareils Android étaient aussi conservés plus longtemps avant leur reprise, avec une moyenne de 3,96 ans. Ces chiffres concernent le marché américain, mais le mécanisme est le même ailleurs : garder son téléphone plus longtemps permet de mieux l'amortir, tout en laissant moins de marge pour une vente mal préparée au moment de s'en séparer.
+[Le rapport annuel 2025 d'Assurant sur la reprise mobile](https://www.assurant.com/news-insights/infographics/mobile-trade-in-and-upgrade-data-trends-annual) indique que les programmes américains ont rendu 6,4 milliards de dollars aux consommateurs en 2025, soit 42 % de plus qu'en 2024. Ces chiffres décrivent les données américaines d'Assurant et ne prédisent pas la valeur d'un téléphone Android précis.
 
 ## Vendez avant que votre téléphone ne devienne l'ancienne génération
 

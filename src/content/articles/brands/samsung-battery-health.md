@@ -8,8 +8,7 @@ order: 1
 tags: ["battery", "health", "diagnostics", "android", "guide"]
 draft: false
 ---
-
-That uncertainty is the point. A Galaxy S25 running a recent One UI build may show battery health percentage and cycle count in Settings. A Galaxy S23 on what looks like a similar update may not. Android 17 is now out on most supported Pixel phones first, but Galaxy phones will get Samsung's Android 17-based One UI update later, and Samsung can still decide which battery fields it exposes.
+[Samsung's live One UI 9 page](https://www.samsung.com/us/apps/one-ui/) says the official One UI 9 has been first rolled out to Galaxy Z Fold8 Ultra, Galaxy Z Fold8, and Galaxy Z Flip8 and is expected to roll out gradually to other Galaxy devices. Availability varies by model, country or region, carrier, firmware, and build.
 
 Here are the checks that are worth using, and the ones that look useful but don't tell you much.
 
@@ -91,7 +90,7 @@ Galaxy S21 through S24 models usually give you basic Android battery fields, inc
 
 Galaxy A-series phones and older models are less predictable. Samsung Members remains the best official check. Third-party apps can still track trends, but current and capacity readings are more likely to be missing or noisy.
 
-Galaxy phones that eventually receive Android 17 won't automatically become more transparent overnight. Android 17 landed first on supported Pixel devices, and Samsung's rollout will come through its own One UI schedule. Even then, Samsung decides which Settings pages and battery values are enabled on each model.
+One UI 9 does not make every Galaxy phone more transparent overnight. Samsung is expanding it gradually, and still decides which Settings pages and battery values are enabled on each model, region, and build.
 
 ## When the battery probably needs replacing
 

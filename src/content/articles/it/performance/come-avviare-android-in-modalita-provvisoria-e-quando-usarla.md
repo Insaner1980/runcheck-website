@@ -10,6 +10,8 @@ tags:
 locale: "it"
 draft: false
 ---
+Nomi dei menu, comportamento supportato e passaggi esatti variano con produttore, modello, versione Android, area, operatore e firmware. Un percorso Pixel o specifico di un altro produttore riportato sotto è un esempio per quella famiglia, non un comportamento Android universale; segui le istruzioni per il tuo modello esatto.
+
 
 Come puoi capire se lo smartphone è lento perché Android sta avendo una brutta giornata oppure perché un'app sta creando problemi in background? La modalità provvisoria è il test più pulito.
 

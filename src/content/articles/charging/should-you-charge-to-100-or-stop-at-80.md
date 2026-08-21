@@ -44,7 +44,7 @@ Google Pixel phones from Pixel 6a and later support a hard 80% limit under Setti
 
 Samsung Galaxy phones with One UI 6.1 or later have Battery protection modes. Basic charges to 100%, then waits until the battery drops to 95% before charging again. Adaptive uses the maximum limit while you're asleep and switches back before you wake. Maximum stops charging at 80% on the older One UI 6.1 behavior, while newer Galaxy models in some regions let you pick a maximum level with a slider, such as 80%, 85%, or 90%.
 
-OnePlus, OPPO, Xiaomi, Redmi, and POCO are less uniform. OnePlus and OPPO devices commonly offer smart or optimized charging around overnight use, and some newer OxygenOS builds add custom charging limits. Xiaomi and Redmi phones on HyperOS often put these controls under Settings > Battery > Battery protection, but the exact choices vary by model and region. Some devices have Smart charging that pauses around 80% in applicable situations; others have a direct battery protection or limited charging mode.
+[On the POCO F6, Xiaomi documents](https://www.mi.com/global/support/faq/details/KA-274093/) `Settings > Battery > Battery protection`, with Regular, Limited, Optimized, and Nighttime charging choices. It also documents `Security > Battery > Battery protection` as an alternate route. This is a POCO F6 example, not a universal menu or mode list for Xiaomi, Redmi, POCO, MIUI, or HyperOS devices. Other models and software versions may differ.
 
 Budget phones and older models may have none of this. In that case, the choices are manual: unplug when convenient, charge during the day, or use a smart plug timer. It's clunky, but it works.
 

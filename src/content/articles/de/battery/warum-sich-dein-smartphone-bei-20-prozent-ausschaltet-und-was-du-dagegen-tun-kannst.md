@@ -13,6 +13,8 @@ draft: false
 
 In gewisser Weise tut sie das. Die Zahl auf dem Display ist eine Schätzung, und alte Akkus lassen sich schwerer einschätzen.
 
+Für die batteriewissenschaftlichen Aussagen dieses Artikels stützt [die Übersicht von Edge und anderen](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) Kapazitäts- und Leistungsverlust, Impedanzanstieg sowie die Einflüsse von Temperatur, Ladestand, Strom oder Last, SEI-Wachstum und Lithium-Plating. Sie belegt keine Herstellerfunktionen, universellen Smartphone-Temperaturgrenzen, Zubehörentscheidungen, Reparaturhinweise oder Preise, genaue Lebensdauer, Ladezeitaussagen oder garantierten Ergebnisse.
+
 ## Das solltest du zuerst prüfen
 
 Prüfe den Akkuzustand, bevor du dich mit Kalibrierungstricks beschäftigst.

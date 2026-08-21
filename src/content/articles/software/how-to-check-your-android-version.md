@@ -36,7 +36,7 @@ The build number is more specific. It identifies the exact software build instal
 
 ## The manufacturer skin matters too
 
-Samsung doesn't just ship "plain Android." It ships One UI on top of it. One UI 9 is Samsung's Android 17 generation, but in June 2026 it is still rolling out by device, region, and channel. A Galaxy S26 user in the One UI beta program may see the new platform before someone with an older Galaxy model on the stable branch.
+[Samsung's live One UI 9 page](https://www.samsung.com/us/apps/one-ui/) says the official One UI 9 has been first rolled out to Galaxy Z Fold8 Ultra, Galaxy Z Fold8, and Galaxy Z Flip8 and is expected to roll out gradually to other Galaxy devices. Availability varies by model, country or region, carrier, firmware, and build.
 
 Xiaomi, Redmi, and POCO phones use Xiaomi HyperOS. The HyperOS number tells you about Xiaomi's own interface and features, but it doesn't always reveal the underlying Android base at a glance. Open the platform detail page before assuming that HyperOS 3, 3.1, or a later HyperOS build means the same thing on every model.
 

@@ -37,7 +37,7 @@ Delversjonsnummeret er mer presist. Det identifiserer akkurat hvilket programvar
 
 ## Produsentens grensesnitt betyr også noe
 
-Samsung leverer ikke bare «ren Android». Selskapet legger One UI oppå systemet. One UI 9 er Samsungs generasjon for Android 17, men i juli 2026 er den fortsatt i beta for Galaxy S26-serien. En Galaxy S26-bruker i betaprogrammet kan derfor se den nye plattformen før en bruker med en eldre Galaxy-modell på den stabile programvaregrenen.
+[Samsungs aktive One UI 9-side](https://www.samsung.com/us/apps/one-ui/) sier at offisiell One UI 9 først er rullet ut til Galaxy Z Fold8 Ultra, Galaxy Z Fold8 og Galaxy Z Flip8 og forventes å rulles ut gradvis til andre Galaxy-enheter. Tilgjengeligheten varierer etter modell, land eller område, operatør, fastvare og bygg.
 
 Xiaomi-, Redmi- og POCO-telefoner bruker Xiaomi HyperOS. HyperOS-nummeret forteller om Xiaomis eget grensesnitt og egne funksjoner, men avslører ikke alltid Android-versjonen ved første øyekast. Åpne siden med plattformdetaljer før du antar at HyperOS 3, 3.1 eller et senere HyperOS-bygg betyr det samme på alle modeller.
 

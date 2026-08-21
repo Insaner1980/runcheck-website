@@ -9,6 +9,8 @@ tags: ["tietoturva", "haittaohjelmat", "android", "yksityisyys", "opas"]
 locale: "fi"
 draft: false
 ---
+Tarkka valikkonimi vaihtelee valmistajan ja Android-version mukaan. [AOSP Settingsin nykyinen toteutus](https://android.googlesource.com/platform/packages/apps/Settings/+/master/src/com/android/settings/applications/manageapplications/ResetAppsHelper.java) on stock Android -toiminnan suora viite: se ottaa poistetut sovellukset uudelleen käyttöön, palauttaa sovellustoiminto- ja ilmoitusrajoituksia, tyhjentää ensisijaiset toiminnot, palauttaa asiaankuuluvia verkkokäytäntöjä ja ajoaikaisia käyttöoikeuksia. Valmistajan versio voi esittää tai laajentaa tätä eri tavalla; lue oman puhelimen vahvistusikkuna ennen jatkamista.
+
 
 Hankaluus on toiminnon nimessä. Se ei nollaa sovelluksia. Se nollaa puhelimen sovelluksiin liittyviä järjestelmävalintoja, kuten lupia, oletussovelluksia, ilmoituksia, taustatoimintaa ja käytöstä poistettuja sovelluksia. Kuvat, viestit, tiedostot, tallennetut tilit ja sovellusdata säilyvät.
 

@@ -9,6 +9,8 @@ tags: ["reseau", "connectivite", "android", "depannage", "guide"]
 locale: "fr"
 draft: false
 ---
+Vérifiez le numéro de modèle exact plutôt que le seul nom commercial. [La page Google sur la compatibilité opérateur des Pixel](https://support.google.com/pixelphone/answer/7107188?hl=en) montre que la 5G dépend du modèle et de l'opérateur, tandis que [les caractéristiques officielles des Pixel](https://support.google.com/pixelphone/answer/7158570?hl=en-GB) détaillent la radio par modèle. Si les caractéristiques officielles du modèle exact n'incluent ni matériel 5G ni bandes requises, un logiciel, une SIM ou un forfait ne peut pas ajouter cette capacité radio absente. Pour les autres téléphones, utilisez la fiche régionale exacte du fabricant et les données de compatibilité de l'opérateur.
+
 
 Un téléphone possède le matériel nécessaire à la 5G, ou il ne le possède pas. Android 17, une mise à jour des paramètres de l'opérateur ou une nouvelle carte SIM ne peuvent pas transformer un modem limité à la 4G en modem 5G.
 
@@ -63,12 +65,6 @@ Le SoC indique généralement si la 5G est au moins possible. Le Snapdragon 480 
 Les noms de processeurs restent toutefois confus. Certaines puces Snapdragon de la série 600 sont limitées à la 4G. Certains téléphones utilisent une plateforme compatible 5G, mais sont commercialisés dans une variante 4G. Les modèles équipés d'une puce MediaTek Helio G sont généralement limités à la 4G, tandis que la gamme Dimensity correspond à l'offre 5G de MediaTek.
 
 Utilisez donc le processeur comme indice, puis vérifiez le modèle complet du téléphone et ses bandes.
-
-## Android 17 ne change pas la réponse matérielle
-
-Android 17 a été publié en juin 2026 pour la plupart des Pixel compatibles, tandis que les nouveaux appareils et les autres fabricants suivent leur propre calendrier. La mise à jour peut améliorer le micrologiciel du modem, le comportement avec l'opérateur et la stabilité du réseau sur les téléphones compatibles.
-
-Elle ne peut pas ajouter la 5G à un modem 4G. Si votre téléphone ne prenait pas en charge la 5G avant Android 17, il ne la prendra pas en charge après la mise à jour.
 
 ## 5G SA et NSA
 

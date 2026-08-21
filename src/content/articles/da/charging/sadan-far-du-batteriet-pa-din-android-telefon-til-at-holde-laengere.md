@@ -14,6 +14,8 @@ De fleste råd om Android-batterier er enten alt for indlysende eller alt for ek
 
 Den nyttige tilgang er at tage de store strømslugere først: skærmen, mobilsignalet, baggrundsapps, placering og opladningsvaner. Android 17 er nu tilgængelig på de fleste understøttede Pixel-telefoner, mens andre Android-producenter senere kommer med deres egne versioner. Menunavnene varierer derfor, men de grundlæggende batteriforhold er de samme.
 
+For de batterividenskabelige udsagn i denne artikel understøtter [oversigten af Edge med flere](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) tab af kapacitet og effekt, øget impedans samt virkninger af temperatur, opladningsniveau, strøm eller belastning, SEI-vækst og lithiumplettering. Den fastlægger ikke producentfunktioner, universelle temperaturgrænser for telefoner, valg af tilbehør, reparationsråd eller priser, præcis levetid, opladningstid eller garanterede resultater.
+
 ## Begynd med skærmen
 
 Skærmen er stadig den største strømsluger under aktiv brug. Når telefonen er i hånden, betyder skærmindstillingerne mere end næsten alt andet.

@@ -9,8 +9,7 @@ tags: ["batteri", "tilstand", "diagnostik", "android", "guide"]
 locale: "da"
 draft: false
 ---
-
-Det er netop usikkerheden, der er pointen. En Galaxy S25 med en nyere One UI-version kan vise batteritilstand i procent og antal cyklusser. En Galaxy S23 med en tilsyneladende tilsvarende opdatering gør det måske ikke. Android 17 blev først udgivet til de fleste understøttede Pixel-telefoner. Samsung lancerede den Android 17-baserede One UI 9-beta til Galaxy S26-serien i maj 2026, mens den brede stabile udrulning til Galaxy-telefoner følger Samsungs egen tidsplan. Samsung kan stadig selv bestemme, hvilke batterifelter der vises.
+[Samsungs aktuelle One UI 9-side](https://www.samsung.com/us/apps/one-ui/) siger, at officielle One UI 9 først er rullet ud til Galaxy Z Fold8 Ultra, Galaxy Z Fold8 og Galaxy Z Flip8 og forventes gradvist udrullet til andre Galaxy-enheder. Tilgængelighed varierer efter model, land eller område, operatør, firmware og build.
 
 Her er de kontroller, der er værd at bruge, og dem, der ser nyttige ud uden at fortælle ret meget.
 
@@ -92,7 +91,7 @@ Galaxy S21 til S24 giver som regel de grundlæggende Android-batterifelter, heru
 
 Galaxy A-serien og ældre modeller er mindre forudsigelige. Samsung Members er fortsat den bedste officielle kontrol. Tredjepartsapps kan stadig følge udviklingen, men strøm- og kapacitetsmålinger mangler oftere eller er mere støjfyldte.
 
-Galaxy-telefoner, der senere modtager Android 17, bliver ikke automatisk mere gennemsigtige fra den ene dag til den anden. Android 17 kom først til understøttede Pixel-enheder, og Samsungs udrulning følger virksomhedens egen One UI-plan. Selv derefter bestemmer Samsung, hvilke sider og batteriværdier der aktiveres på den enkelte model.
+One UI 9 gør ikke alle Galaxy-telefoner mere gennemsigtige fra den ene dag til den anden. Samsung udvider udrulningen gradvist og bestemmer stadig, hvilke sider og batteriværdier der aktiveres for hver model, region og softwareversion.
 
 ## Hvornår batteriet sandsynligvis skal udskiftes
 

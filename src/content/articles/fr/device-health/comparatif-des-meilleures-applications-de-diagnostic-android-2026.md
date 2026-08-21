@@ -14,7 +14,7 @@ Les meilleures sont plus honnêtes sur leur rôle. AccuBattery suit le comportem
 
 Android 17 est disponible depuis juin 2026 sur la plupart des appareils Pixel compatibles, tandis que les autres marques suivent leur propre calendrier. Cela compte, car les diagnostics intégrés varient encore beaucoup selon le téléphone. Un Pixel 8a ou un modèle plus récent peut afficher l'état de la batterie et le nombre de cycles dans les Paramètres, alors qu'un smartphone de milieu de gamme d'un autre fabricant peut ne montrer presque rien au-delà de la température et du niveau de charge.
 
-## AccuBattery
+## [AccuBattery](https://accubatteryapp.com/)
 
 AccuBattery est l'application dédiée à la batterie dans ce comparatif. Elle estime la capacité restante en mAh en observant les sessions de recharge, puis compare cette estimation à la capacité nominale. Plus vous l'utilisez longtemps, plus l'estimation peut devenir utile.
 
@@ -26,7 +26,7 @@ La version Pro est proposée par achat intégré. Le prix et les conditions affi
 
 La limite d'AccuBattery est simple : l'application vous renseigne peu sur le reste du téléphone. Le comportement thermique en dehors de la température de la batterie, la pression sur le stockage, la qualité du signal et l'identité du matériel ne sont pas son domaine.
 
-## DevCheck
+## [DevCheck](https://devcheck.app/user-guide/)
 
 DevCheck convient mieux lorsque vous voulez savoir ce que fait le téléphone à l'instant présent. Il affiche des informations sur le CPU et le SoC, les fréquences de chaque cœur, le GPU, la RAM, le stockage, l'écran, les capteurs de caméra, les autres capteurs, le système d'exploitation, le Wi-Fi, le réseau mobile, la tension de la batterie, le courant, la température et la puissance.
 
@@ -36,7 +36,7 @@ La version gratuite est déjà utile. La version Pro ajoute des tests, des bench
 
 Le point faible de DevCheck est l'interprétation. L'application peut vous montrer -78 dBm, 39,8 °C et un graphique de fréquence CPU en direct. Elle ne vous expliquera pas toujours si cette combinaison est importante. DevCheck est excellent pour les personnes à l'aise avec les données brutes. Pour obtenir une réponse simple à la question « ce téléphone est-il en bon état ? », ce n'est pas l'option la plus claire.
 
-## AIDA64
+## [AIDA64](https://www.aida64.com/aida64-android?language_content_entity=en)
 
 AIDA64 est une grande fiche d'informations système sous forme d'application. La formule peut sembler sévère, mais c'est précisément pour cela qu'on l'utilise. La version Android appartient à la même famille que l'outil matériel historique sous Windows et affiche beaucoup de données : identification du CPU, fréquences, GPU et OpenGL, mémoire, stockage, densité d'écran, capteurs, codecs, informations sur le système d'exploitation et répertoires système.
 
@@ -44,13 +44,13 @@ AIDA64 est pratique pour une vérification rapide. Si un vendeur affirme qu'un t
 
 Utilisez-la pour les caractéristiques techniques. N'attendez pas d'accompagnement.
 
-## CPU-Z
+## [CPU-Z](https://www.cpuid.com/softwares/cpu-z-android.html)
 
 CPU-Z est plus léger que DevCheck et AIDA64. Il identifie le processeur, affiche les fréquences des cœurs, indique la RAM et fournit quelques informations de base sur la batterie et les capteurs. L'application Android reprend l'idée de CPU-Z sur ordinateur : vous l'ouvrez, vous vérifiez le matériel, puis vous la refermez.
 
 Elle offre donc un second avis rapide. Ce n'est ni un outil de tendances, ni un moniteur d'état de la batterie, ni une application de diagnostic du réseau ou du stockage. CPU-Z répond surtout à la question « qu'y a-t-il dans ce téléphone ? » et s'arrête là.
 
-## Device Info HW
+## [Device Info HW](https://play.google.com/store/apps/details?id=ru.andr7e.deviceinfohw)
 
 Device Info HW cherche à identifier les composants plus en profondeur. Sur les téléphones compatibles, il peut reconnaître des éléments comme la dalle LCD, le contrôleur tactile, les capteurs photo, la mémoire, le NFC, le matériel de recharge, le Wi-Fi et certains composants liés à la batterie. Cela peut servir aux développeurs, aux personnes qui s'intéressent aux réparations et à celles qui veulent vérifier un modèle plus précisément que ne le permettent les Paramètres.
 
@@ -58,11 +58,11 @@ Le problème vient du modèle d'accès d'Android. Les versions récentes du syst
 
 Il peut exporter des rapports HTML et PDF, ce qui aide à documenter un appareil avant une revente ou une réparation. Ne partez simplement pas du principe que tous les champs de composants seront disponibles sur les téléphones sous Android 17.
 
-## Phone Doctor Plus et les tests matériels de type TestM
+## [Phone Doctor Plus](https://play.google.com/store/apps/details?id=com.idea.PhoneDoctorPlus2)
 
 Les applications de caractéristiques techniques vous disent ce que le téléphone affirme contenir. Les applications de tests guidés vérifient si les composants répondent réellement.
 
-Phone Doctor Plus propose plus de 40 diagnostics matériels et système, notamment pour l'écran, le haut-parleur, le microphone, les caméras, les capteurs, la mémoire, le stockage, le réseau et la batterie. TestM, lorsqu'il est disponible dans votre région, suit une approche proche en vous guidant dans des tests matériels et en produisant un rapport d'état pour l'achat ou la vente.
+[Phone Doctor Plus](https://play.google.com/store/apps/details?id=com.idea.PhoneDoctorPlus2) indique que son application Android actuelle propose plus de 40 diagnostics matériels et système, notamment pour l'écran, le haut-parleur, le microphone, les caméras, les capteurs, la mémoire, le stockage, le réseau et la batterie. Disponibilité et couverture peuvent varier selon l'appareil et la région.
 
 Ces applications ont besoin de votre participation. Vous touchez différentes zones de l'écran, parlez dans le microphone, couvrez le capteur de proximité, changez de caméra et confirmez que le son sort bien du haut-parleur. C'est plus lent que d'ouvrir DevCheck, mais cela détecte des défauts qu'une fiche technique ne révélera jamais.
 
@@ -72,11 +72,11 @@ Pour inspecter un smartphone d'occasion, cette catégorie est plus importante qu
 
 runcheck part d'une autre question : quel est l'état général du téléphone maintenant ?
 
-L'application combine la batterie, la température, le réseau et le stockage dans un score d'état pondéré. La batterie compte pour 40 %, la température et le réseau pour 25 % chacun, et le stockage pour 10 %. Cette pondération est cohérente. Une batterie en fin de vie ou un téléphone qui surchauffe sans cesse affecte davantage l'usage quotidien qu'un avertissement de stockage rempli à 72 %.
+L'application rassemble les contrôles de batterie, de température, de réseau et de stockage dans une vue d'état. Cet article ne publie pas de formule de pondération fixe ; il faut donc lire le résultat global avec chaque contrôle.
 
 L'intérêt ne tient pas seulement au score. runcheck indique aussi le niveau de confiance des mesures. Le courant de la batterie en est un bon exemple. Android peut fournir le courant instantané en microampères par l'intermédiaire de BatteryManager, mais tous les appareils ne rapportent pas cette valeur avec la même qualité. Certaines mesures sont fiables, d'autres estimées, d'autres encore indisponibles. runcheck l'affiche au lieu de faire croire que tous les chiffres ont la même précision.
 
-La version gratuite couvre les diagnostics de batterie, de température, de réseau et de stockage. Pro est un achat unique sans abonnement. Il ajoute la comparaison des chargeurs, l'utilisation des applications, un historique étendu, les journaux de bridage thermique, l'export CSV, les widgets et d'autres outils approfondis. Le traitement reste sur l'appareil et aucun compte n'est requis.
+La version gratuite couvre le diagnostic de la batterie, de la température, du réseau et du stockage. Pro est une mise à niveau ponctuelle sans abonnement et ajoute des outils plus avancés. La [page produit runcheck](https://runcheckapp.com/) actuelle indique que les diagnostics et l'historique restent sur l'appareil et qu'aucun compte runcheck n'est requis. Un test réseau lancé par l'utilisateur constitue une exception explicite : il envoie du trafic de test au [service NDT7 de Measurement Lab](https://www.measurementlab.net/tests/ndt/ndt7/). Un achat est une autre frontière réseau explicite, traitée par [Google Play Billing](https://developer.android.com/google/play/billing). Ces liens étayent des affirmations distinctes ; l'accueil runcheck ne sert pas de preuve du fonctionnement de M-Lab ou Google Play.
 
 runcheck ne vous dira pas quel capteur photo équipe votre téléphone. Ce n'est pas son objectif.
 
@@ -88,7 +88,7 @@ Pour identifier précisément le matériel, utilisez DevCheck ou AIDA64. DevChec
 
 Pour tester le matériel d'un téléphone d'occasion, utilisez une application guidée comme Phone Doctor Plus. Une fiche technique ne peut pas vous dire si l'écouteur grésille, si le tactile ne répond plus près du bord ou si l'autofocus cherche sans jamais se stabiliser.
 
-Pour l'état général de l'appareil, utilisez runcheck. C'est la seule application de cette liste construite autour d'une vue d'ensemble sur plusieurs catégories plutôt que d'une mesure isolée.
+Pour l'état général de l'appareil, runcheck est construite autour d'une vue d'ensemble sur plusieurs catégories plutôt que d'une mesure isolée.
 
 Pour la plupart des gens, deux applications suffisent : DevCheck pour l'identité du matériel et une application centrée sur l'état du téléphone pour le suivi. Installer cinq outils de diagnostic à la fois est un bon moyen de créer davantage d'activité en arrière-plan tout en prétendant la réduire.
 
@@ -109,5 +109,3 @@ Elles peuvent aider, mais elles ne sont pas magiques. AIDA64 et DevCheck peuvent
 ### Pourquoi les chiffres d'état de la batterie ne correspondent-ils pas ?
 
 Parce que les outils ne mesurent pas la même chose. AccuBattery estime la capacité à partir du comportement pendant la recharge. Sur les modèles compatibles, l'état de la batterie des Pixel repose sur les données de la jauge interne de l'appareil. Les mesures de courant Android varient aussi selon le téléphone. Un écart de 5 % entre deux outils n'a donc rien d'extraordinaire.
-
-_Méta-description : Comparatif 2026 des applications de diagnostic Android, dont AccuBattery, DevCheck, AIDA64, CPU-Z, Device Info HW, Phone Doctor Plus, TestM et runcheck, avec les mesures proposées et les situations dans lesquelles chacune est utile._

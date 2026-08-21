@@ -10,6 +10,8 @@ tags: ["batteria", "ottimizzazione", "android", "consigli", "prestazioni"]
 locale: "it"
 draft: false
 ---
+Nomi dei menu, comportamento supportato e passaggi esatti variano con produttore, modello, versione Android, area, operatore e firmware. Un percorso Pixel o specifico di un altro produttore riportato sotto è un esempio per quella famiglia, non un comportamento Android universale; segui le istruzioni per il tuo modello esatto.
+
 
 Il Risparmio energetico è più utile prima che il telefono sia agli sgoccioli. Attivarlo all'8 % aiuta, ma a quel punto gran parte della carica è già finita.
 

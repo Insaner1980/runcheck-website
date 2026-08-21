@@ -14,6 +14,8 @@ El mejor hábito de carga es bastante sencillo: mantén el móvil fresco, evita 
 
 No hace falta vigilar el porcentaje constantemente ni desconectar el móvil en cuanto llegue al 80 %. Un móvil es una herramienta, no una muestra de laboratorio. Pero las baterías de iones de litio envejecen más rápido en unas condiciones bastante previsibles, y tu rutina de carga puede aumentar ese desgaste o mantenerlo bajo control.
 
+Para las afirmaciones científicas sobre la batería de este artículo, [la revisión de Edge y sus coautores](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) respalda pérdida de capacidad y potencia, aumento de impedancia y efectos de temperatura, nivel de carga, corriente o uso, crecimiento de la SEI y recubrimiento de litio. No establece funciones del fabricante, umbrales universales para móviles, elección de accesorios, consejos o precios de reparación, vida útil exacta, tiempos de carga ni resultados garantizados.
+
 ## El hábito del 20 al 80 %
 
 A las baterías de iones de litio no les gustan demasiado los extremos. Cerca del 100 %, la batería funciona con una tensión de celda más alta. Ese estado acelera reacciones secundarias dentro de la celda, entre ellas el crecimiento de la interfase sólido-electrolito y la pérdida gradual de litio utilizable. El resultado es sencillo: con el tiempo, la batería almacena menos carga.

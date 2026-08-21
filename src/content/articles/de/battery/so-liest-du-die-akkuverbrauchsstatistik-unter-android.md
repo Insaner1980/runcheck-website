@@ -10,6 +10,8 @@ tags: ["akku", "akkuverbrauch", "fehlerbehebung", "android", "leistung"]
 locale: "de"
 draft: false
 ---
+Menünamen, unterstütztes Verhalten und genaue Schritte unterscheiden sich nach Hersteller, Modell, Android-Version, Region, Anbieter und Firmware. Ein Pixel- oder anderer herstellerspezifischer Pfad unten ist ein Beispiel für diese Gerätefamilie, kein universelles Android-Verhalten; nutze die Anleitung für dein genaues Modell.
+
 
 Die Android-Akkustatistik hilft dabei, ein Problem einzugrenzen. Sie ist aber keine exakte Abrechnung darüber, wohin jede einzelne Milliamperestunde geflossen ist. Entscheidend ist, die Prozentwerte im richtigen Zusammenhang zu lesen.
 

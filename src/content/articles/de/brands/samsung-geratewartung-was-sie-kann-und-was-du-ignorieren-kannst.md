@@ -9,10 +9,12 @@ tags: ["speicher", "android", "bereinigung", "optimierung", "ratgeber"]
 locale: "de"
 draft: false
 ---
+[Samsungs aktuelle One-UI-9-Seite](https://www.samsung.com/us/apps/one-ui/) sagt, dass das offizielle One UI 9 zuerst auf Galaxy Z Fold8 Ultra, Galaxy Z Fold8 und Galaxy Z Flip8 ausgerollt wurde und voraussichtlich schrittweise auf weiteren Galaxy-Geräten erscheint. Die Verfügbarkeit hängt von Modell, Land oder Region, Anbieter, Firmware und Build ab.
+
 
 Die Gerätewartung ist nützlich, aber zuerst ein Überblick und erst danach ein Optimierungswerkzeug. An einer Stelle findest du Akkuverbrauch, Speicherdruck, Hintergrund-Apps, RAM-Nutzung und Sicherheitsprüfungen. Am meisten bringen die einzelnen Werkzeuge, nicht die Ein-Klick-Bereinigung.
 
-Samsung ändert außerdem Bezeichnungen zwischen One UI-Versionen. Auf manchen Geräten heißt der Bereich **Gerätewartung**, auf anderen **Akku und Gerätewartung**. Android 17 wurde am 16. Juni 2026 zunächst für die meisten unterstützten Pixel-Geräte veröffentlicht. Galaxy-Smartphones erhalten Android-17-basierte One-UI-Updates nach Samsungs eigenem Zeitplan, daher sind weitere kleine Änderungen bei Texten und Anordnung zu erwarten.
+Samsung ändert außerdem Bezeichnungen zwischen One UI-Versionen. Auf manchen Geräten heißt der Bereich **Gerätewartung**, auf anderen **Akku und Gerätewartung**. Texte und Anordnung können deshalb weiterhin je nach Modell und Softwarestand abweichen.
 
 ## Was die Gerätewartung ist
 

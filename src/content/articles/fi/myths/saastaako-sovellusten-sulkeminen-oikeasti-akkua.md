@@ -9,41 +9,22 @@ tags: ["myytit", "faktat", "android", "akku", "myytinmurtaminen"]
 locale: "fi"
 draft: false
 ---
+Älä pyyhkäise jokaista sovellusta jatkuvasti pois tavallisen akunsäästön vuoksi. [Googlen Android-ohjeen mukaan sovelluksia ei yleensä tarvitse sulkea](https://support.google.com/android/answer/9079646?hl=en-GB), ja sovellus kannattaa sulkea tai pakkopysäyttää vain, jos se ei vastaa.
 
-Se ei oikeastaan säästä akkua.
+## Mitä viimeksi käytettyjen sovellusten näkymä tarkoittaa
 
-## Vastaus on edelleen ei
+Android voi pitää äskettäin käytettyjä sovelluksia välimuistissa, jotta ne avautuvat nopeasti. Välimuisti ei automaattisesti tarkoita aktiivista toimintaa. [Androidin muistinhallinnan yleiskuva](https://developer.android.com/topic/performance/memory-management-overview) kertoo, että järjestelmä vapauttaa sovellusprosesseja muistin tarpeen mukaan.
 
-Sovellusten sulkeminen sovelluksenvaihtonäkymästä ei säästä Androidissa merkittävästi akkua. Tavallisessa käytössä se voi jopa kuluttaa hieman ylimääräistä virtaa, koska sovellus joutuu seuraavalla avauskerralla käynnistymään kokonaan alusta.
+Tämä muistitoiminta ei todista kiinteää akunsäästöä tai -haittaa sovelluksen sulkemisesta. Puolustettava johtopäätös on rajatumpi: jatkuva tyhjentäminen on tarpeetonta, ja akun vianhaku kannattaa kohdistaa aidosti häiriöiviin sovelluksiin.
 
-Android pitää äskettäin käytettyjä sovelluksia muistissa silloin, kun siihen on tilaa. Se ei tarkoita, että ne olisivat aktiivisesti käynnissä. Välimuistissa oleva sovellus voi odottaa hiljaa ja avautua myöhemmin nopeammin. Tyhjä RAM-muisti ei ole palkinto.
+## Milloin yhden sovelluksen pysäyttäminen kannattaa
 
-Kun pyyhkäiset sovelluksen pois, Android voi poistaa sen välimuistiin tallennetun tilan. Kun avaat sovelluksen uudelleen, puhelimen täytyy lukea se tallennustilasta, rakentaa käyttöliittymä, ladata tiedot uudelleen ja muodostaa yhteydet palveluihin. Yksi sovellus ei pilaa päivääsi. Kaiken jatkuva sulkeminen on vain turhaa puuhastelua.
+Sulje tai pakkopysäytä sovellus, kun se on jumissa tai selvästi häiriötilassa. Jos sovellus käyttää odottamatta sijaintia, ääntä, verkkoa tai suuren osan akusta, tarkista sen akunkäyttö ja taustaoikeudet. Valikkonimet vaihtelevat valmistajan ja Android-version mukaan.
 
-## Mitä Android tekee jo valmiiksi
+Yhden viallisen sovelluksen pysäyttäminen on vianhakua. Se on eri asia kuin kaikkien viimeksi käytettyjen sovellusten tyhjentäminen päivittäisenä akkukonstina.
 
-Android on hallinnut taustalla tapahtuvaa akunkulutusta jo vuosia. Doze ja App Standby tulivat Android 6.0:ssa. Myöhemmät versiot ovat lisänneet tiukempia rajoituksia, App Standby Buckets -luokat, ilmoitusten hallintaa, taustasuorituksen sääntöjä ja valmistajakohtaisia akunhallinta-asetuksia.
+## Mitä kannattaa tehdä
 
-Doze rajoittaa verkon käyttöä ja suoritinta kuormittavaa työtä, kun puhelin on pitkään käyttämättömänä, irti laturista ja näyttö sammutettuna. App Standby ja App Standby Buckets rajoittavat sovelluksia sen perusteella, kuinka hiljattain ja kuinka usein niitä käytetään. Android 17 lisää myös järjestelmätason muistirajoja, jotta yksittäiset sovellukset eivät voi käyttää kohtuuttomasti RAM-muistia.
+Etsi poikkeava toiminta puhelimen akunkäyttönäkymästä, päivitä tai poista viallinen sovellus ja käynnistä puhelin uudelleen, jos prosessi jää jumiin. Tarkista myös kuumuus ja heikko mobiilisignaali, sillä viimeksi käytettyjen näkymän tyhjennys ei korjaa niitä.
 
-Tämä on olennainen asia. Puhelimessa on jo virranhallintajärjestelmä. Sovelluksenvaihtonäkymä ei ole akun ohjauspaneeli.
-
-## Milloin sovelluksen pakottaminen pysähtymään on järkevää
-
-Joskus sovelluksen pysäyttäminen on oikea ratkaisu.
-
-Pysäytä sovellus, jos se on jumittunut käyttämään GPS:ää, toistaa ääntä, synkronoi tauotta tai pitää puhelimen lämpimänä taskussa. Avaa asetuksista akun käyttöä näyttävä näkymä ja etsi sovellus, jonka kulutus ei vastaa todellista käyttöä. Jos sosiaalisen median sovellus on käyttänyt 20 % akusta kymmenen minuutin näyttöajan jälkeen, asia kannattaa tutkia.
-
-Voit myös rajoittaa yksittäisen sovelluksen taustakäyttöä. Monissa Android-puhelimissa asetus löytyy sovelluksen tietosivun akun käyttöä koskevasta kohdasta. Valmistajat käyttävät eri sanamuotoja, mutta periaate on sama: rajoita ongelmasovellusta, älä kaikkia sovelluksia.
-
-Tässä ajatus menee usein nurinpäin. Yhden huonosti toimivan sovelluksen sulkeminen on vianetsintää. Kaiken sulkeminen koko päivän ajan on tapa.
-
-## Mitä kannattaa tehdä sen sijaan
-
-Jätä viimeksi käytetyt sovellukset rauhaan, ellei jokin niistä käyttäydy väärin.
-
-Käytä Mukautuva virta -toimintoa, jos puhelin tarjoaa sen. Tarkista akun käyttö silloin tällöin. Vähennä taustailmoituksia sovelluksilta, jotka synkronoivat liian usein. Poista sovellukset, joihin et luota tai joita et käytä. Käynnistä puhelin uudelleen, jos se on käyttäytynyt oudosti usean päivän ajan.
-
-Tarkista myös signaali ja lämpö. Heikossa mobiiliverkossa puhelin voi kuluttaa akkua yrittäessään ylläpitää yhteyttä. Kuuma puhelin rajoittaa suorituskykyä, latautuu hitaammin ja tyhjenee nopeammin. Sovellusten sulkeminen ei korjaa kumpaakaan ongelmaa.
-
-Akkuprosenttia ei kiinnosta, kuinka siistiltä sovelluksenvaihtonäkymä näyttää.
+Sovellusten sulkemiselle tai säilyttämiselle ei voi luvata yleispätevää akkukeston muutosta. Mittaa oman laitteen todellinen ongelma.

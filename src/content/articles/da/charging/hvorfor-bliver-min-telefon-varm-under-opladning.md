@@ -14,6 +14,8 @@ Du sætter telefonen til opladning, kommer tilbage 20 minutter senere og opdager
 
 Opladning skaber altid en vis mængde varme, fordi noget af den tilførte energi bliver til spildvarme i opladeren, kablet og telefonen. Hurtigopladning skaber mere. Trådløs opladning skaber som regel endnu mere. Spørgsmålet er ikke, om telefonen bliver varm. Det er, om den holder sig inden for et normalt område eller begynder at beskytte sig selv.
 
+For de batterividenskabelige udsagn i denne artikel understøtter [oversigten af Edge med flere](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) tab af kapacitet og effekt, øget impedans samt virkninger af temperatur, opladningsniveau, strøm eller belastning, SEI-vækst og lithiumplettering. Den fastlægger ikke producentfunktioner, universelle temperaturgrænser for telefoner, valg af tilbehør, reparationsråd eller priser, præcis levetid, opladningstid eller garanterede resultater.
+
 ## Hvor kommer varmen fra?
 
 Selve batteriet udvikler varme, når strømmen løber ind i cellen. Højere strøm betyder mere varme, og derfor er telefonen som regel varmest i den første del af en hurtigopladning.

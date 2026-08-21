@@ -14,6 +14,8 @@ Enchufas el móvil, vuelves 20 minutos después y la parte trasera está más ca
 
 La carga siempre genera algo de calor porque una parte de la energía que entra se convierte en calor residual dentro del cargador, el cable y el teléfono. La carga rápida genera más. La carga inalámbrica suele generar todavía más. La cuestión no es si el móvil se calienta, sino si se mantiene dentro de un intervalo normal o empieza a protegerse.
 
+Para las afirmaciones científicas sobre la batería de este artículo, [la revisión de Edge y sus coautores](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) respalda pérdida de capacidad y potencia, aumento de impedancia y efectos de temperatura, nivel de carga, corriente o uso, crecimiento de la SEI y recubrimiento de litio. No establece funciones del fabricante, umbrales universales para móviles, elección de accesorios, consejos o precios de reparación, vida útil exacta, tiempos de carga ni resultados garantizados.
+
 ## De dónde sale el calor
 
 La propia batería genera calor cuando la corriente entra en la celda. Una corriente más alta significa más calor, por eso el móvil suele estar más caliente durante la primera parte de una carga rápida.

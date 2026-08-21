@@ -9,8 +9,7 @@ tags: ["batteria", "stato", "diagnostica", "android", "guida"]
 locale: "it"
 draft: false
 ---
-
-L'incertezza è proprio il punto. Un Galaxy S25 con una versione recente di One UI può mostrare la percentuale di stato della batteria e il numero di cicli nelle Impostazioni. Un Galaxy S23 con un aggiornamento apparentemente simile potrebbe non farlo. Android 17 è stato distribuito prima sulla maggior parte dei Pixel supportati. Samsung ha avviato a maggio 2026 la beta di One UI 9, basata su Android 17, per la serie Galaxy S26 in alcuni mercati; la distribuzione stabile sugli altri Galaxy seguirà il calendario di Samsung. E sarà comunque Samsung a decidere quali dati della batteria mostrare.
+[La pagina One UI 9 attuale di Samsung](https://www.samsung.com/us/apps/one-ui/) afferma che la versione ufficiale di One UI 9 è stata distribuita prima su Galaxy Z Fold8 Ultra, Galaxy Z Fold8 e Galaxy Z Flip8 e dovrebbe arrivare gradualmente su altri dispositivi Galaxy. La disponibilità varia per modello, Paese o area, operatore, firmware e build.
 
 Questi sono i controlli che vale la pena usare e quelli che sembrano utili, ma dicono ben poco.
 
@@ -92,7 +91,7 @@ I modelli da Galaxy S21 a S24 in genere forniscono i dati Android di base: stato
 
 I Galaxy della serie A e i modelli più vecchi sono meno prevedibili. Samsung Members resta il miglior controllo ufficiale. Le app di terze parti possono seguire l'andamento, ma le letture di corrente e capacità hanno maggiori probabilità di essere assenti o rumorose.
 
-I Galaxy che ricevono Android 17 non diventano automaticamente più trasparenti. Android 17 è arrivato prima sui Pixel supportati e Samsung ha iniziato con la beta di One UI 9 sulla serie Galaxy S26 in alcuni mercati. La distribuzione stabile seguirà il calendario One UI e, anche dopo l'aggiornamento, Samsung deciderà quali pagine e valori attivare su ogni modello.
+One UI 9 non rende automaticamente più trasparenti tutti i Galaxy. Samsung estende gradualmente la distribuzione e decide ancora quali pagine e valori attivare in base al modello, all'area geografica e alla versione software.
 
 ## Quando probabilmente serve sostituire la batteria
 

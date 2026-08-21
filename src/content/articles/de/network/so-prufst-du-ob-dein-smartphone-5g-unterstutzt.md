@@ -9,6 +9,8 @@ tags: ["netzwerk", "verbindungen", "android", "fehlerbehebung", "ratgeber"]
 locale: "de"
 draft: false
 ---
+Prüfe die genaue Modellnummer statt nur den Marketingnamen. [Googles Seite zur Pixel- und Anbieterkompatibilität](https://support.google.com/pixelphone/answer/7107188?hl=en) zeigt, dass 5G von Telefonmodell und Anbieter abhängt; die [offiziellen Pixel-Spezifikationen](https://support.google.com/pixelphone/answer/7158570?hl=en-GB) listen Funkunterstützung je Modell. Enthalten die offiziellen Daten des genauen Modells keine 5G-Hardware und erforderlichen Bänder, können Software, SIM oder Tarif diese fehlende Funkfähigkeit nicht hinzufügen. Nutze bei anderen Telefonen die exakte regionale Herstellerspezifikation und die Kompatibilitätsangaben des Anbieters.
+
 
 Ein Smartphone hat 5G-Hardware oder eben nicht. Android 17, ein Update der Anbietereinstellungen oder eine neue SIM-Karte können aus einem reinen 4G-Modem kein 5G-Modem machen.
 
@@ -63,12 +65,6 @@ Der SoC zeigt meist, ob 5G grundsätzlich möglich ist. Qualcomm Snapdragon 480 
 Die Prozessornamen sind allerdings unübersichtlich. Manche Snapdragon-Chips der 600er-Reihe unterstützen nur 4G. Einige Smartphones verwenden eine grundsätzlich 5G-fähige Plattform, werden aber trotzdem als 4G-Variante verkauft. Geräte mit MediaTek Helio G sind meist auf 4G beschränkt, während Dimensity die 5G-Familie von MediaTek ist.
 
 Nutze den Prozessor als Hinweis und prüfe danach trotzdem die vollständige Modellnummer und die unterstützten Frequenzbänder.
-
-## Android 17 ändert nichts an der Hardware
-
-Android 17 wurde am 16. Juni 2026 veröffentlicht und zunächst für die meisten unterstützten Pixel-Geräte bereitgestellt. Neue Geräte und Smartphones anderer Hersteller folgen nach deren eigenen Zeitplänen. Das Update kann Modem-Firmware, Verhalten der Anbieterkonfiguration und Netzstabilität auf unterstützten Geräten verbessern.
-
-Es kann einem 4G-Modem aber kein 5G hinzufügen. Wenn dein Smartphone vor Android 17 kein 5G unterstützt hat, unterstützt es auch danach kein 5G.
 
 ## SA und NSA bei 5G
 

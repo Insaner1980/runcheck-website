@@ -14,6 +14,8 @@ Une application de réparation de batterie peut-elle vraiment rendre sa capacit�
 
 La batterie est un composant physique. Lorsque la chimie de la cellule a vieilli, aucun logiciel ne peut lui rendre la capacité perdue.
 
+Pour les affirmations scientifiques sur la batterie de cet article, [la synthèse d'Edge et ses coauteurs](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) étaye la perte de capacité et de puissance, l'augmentation d'impédance et les effets de la température, du niveau de charge, du courant ou de la charge, de la croissance de la SEI et du placage de lithium. Elle n'établit ni fonction de fabricant, ni seuil universel pour les téléphones, ni choix d'accessoire, conseil ou prix de réparation, durée de vie exacte, temps de charge ou résultat garanti.
+
 ## Ce que signifie réellement la dégradation
 
 La dégradation de la batterie n'est pas un réglage qui se serait déréglé. C'est un vieillissement chimique à l'intérieur de la cellule.

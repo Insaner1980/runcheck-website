@@ -9,6 +9,8 @@ tags: ["nätverk", "anslutningar", "android", "felsökning", "guide"]
 locale: "sv"
 draft: false
 ---
+Kontrollera exakt modellnummer i stället för bara marknadsnamnet. [Googles sida om Pixel och operatörskompatibilitet](https://support.google.com/pixelphone/answer/7107188?hl=en) visar att 5G beror på telefonmodell och operatör, medan [officiella Pixel-specifikationer](https://support.google.com/pixelphone/answer/7158570?hl=en-GB) listar radiostöd per modell. Om den exakta modellens officiella specifikationer saknar 5G-maskinvara och nödvändiga band kan programvara, SIM eller abonnemang inte lägga till den saknade radioförmågan. För andra telefoner använder du tillverkarens exakta regionala specifikation och operatörens kompatibilitetsinformation.
+
 
 En telefon har antingen hårdvara för 5G eller så har den inte det. Android 17, en uppdatering av operatörsinställningarna eller ett nytt SIM-kort kan inte förvandla ett modem som bara stöder 4G till ett 5G-modem.
 
@@ -63,12 +65,6 @@ Telefonens SoC visar ofta om 5G över huvud taget är möjligt. Qualcomm Snapdra
 Processornamnen är däremot röriga. Vissa Snapdragon-kretsar i 600-serien stöder bara 4G. En telefon kan använda en plattform med 5G-stöd men ändå säljas i en 4G-variant. Telefoner med MediaTek Helio G-serien är vanligtvis begränsade till 4G, medan Dimensity är MediaTeks 5G-serie.
 
 Se processorn som en ledtråd och kontrollera sedan hela telefonmodellen och frekvensbanden.
-
-## Android 17 ändrar inte hårdvarusvaret
-
-Android 17 släpptes den 16 juni 2026 och gjordes tillgängligt för de flesta Pixel-modeller som stöds. Nya enheter och andra tillverkare följer enligt sina egna tidplaner. Uppdateringen kan förbättra modemets firmware, operatörsbeteendet och nätverksstabiliteten på telefoner som redan stöds.
-
-Den kan inte lägga till 5G i ett 4G-modem. Om telefonen inte stödde 5G före Android 17 gör den det inte efter uppdateringen heller.
 
 ## SA och NSA i 5G
 

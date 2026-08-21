@@ -1,6 +1,6 @@
 ---
 title: "Slik rengjør du telefonen riktig uten å skade den"
-description: "Slik rengjør du skjermen, telefonkroppen, porter, høyttalere og dekselet på en Android-telefon uten å skade det oleofobiske belegget eller presse fukt inn i enheten."
+description: "Rengjøringsinstruksjoner varierer mellom enheter. Denne veiledningen holder rådene for Google Pixel, Samsung Galaxy og Apple iPhone adskilt, slik at kluter, væsker, desinfeksjon, åpninger og advarsler ikke blir universelle telefonregler."
 listSummary: "maskinvare, testing og diagnostikk"
 hub: "physical-damage"
 sourceNumber: 137
@@ -10,72 +10,36 @@ locale: "nb"
 draft: false
 ---
 
----
+Det finnes ikke én rengjøringsoppskrift for alle overflater, belegg, åpninger og tetninger. Bruk instruksjonene for den nøyaktige enheten. Produsenteksemplene holdes adskilt fordi et produkt som er godkjent for én enhet, ikke automatisk er godkjent for en annen.
 
-Hva bør du egentlig bruke til å rengjøre en telefon: vann, alkoholservietter, skjermspray eller det som tilfeldigvis står på kjøkkenbenken?
+## Før rengjøring
 
-Det trygge svaret er mindre spennende enn hyllene med rengjøringsmidler. Bruk en mikrofiberklut til vanlig. Bruk litt destillert vann ved behov. Alkoholbaserte desinfeksjonsservietter kan brukes forsiktig, mens sterke rengjøringsmidler bør holdes unna skjermen.
+Slå av telefonen, koble fra kabler og ta av dekselet når produsenten ber om det. Hold væske unna åpninger, og senk aldri en telefon i vann bare fordi den har en vannklassifisering.
 
-## Belegget du ikke vil ødelegge
+## Veiledning for Google Pixel
 
-Moderne telefonskjermer har et oleofobisk belegg på ytterglasset. Det er et tynt, fettavvisende lag som gjør fingeravtrykk enklere å tørke bort og lar fingeren gli jevnere over skjermen.
+Googles Pixel-side anbefaler en myk, lofri klut og skiller mellom vanlig rengjøring og desinfisering. Den advarer mot fukt i åpninger og mot hard eller slipende rengjøring. Rådene om servietter og alkohol gjelder Pixel-modellene siden dekker.
 
-Belegget slites ned ved vanlig bruk. Sterke rengjøringsmidler får det til å gå raskere. Når ett område har mistet belegget, ser det gjerne fetere ut og føles seigere enn resten av skjermen. Det finnes forbrukerprodukter som lover å gjenopprette det oleofobiske belegget, men jeg ville ikke regnet med at de får skjermen til å føles fabrikkny.
+Sjekk siden for den nøyaktige Pixel-modellen før du velger væske eller serviett. Ikke gjør en Pixel-spesifikk godkjenning til en regel for alle Android-telefoner.
 
-Det er derfor telefonprodusentene virker kresne på rengjøringsmidler. De overdriver ikke. Belegget skades lett.
+## Veiledning for Samsung Galaxy
 
-## Dette kan du bruke til vanlig rengjøring
+Samsungs Galaxy-instruksjoner dekker ytre flater av glass, keramikk og metall. De angir en myk, lofri klut og beskriver destillert vann eller alkoholbasert desinfeksjon, som 70 % isopropyl- eller etylalkohol, for de støttede flatene.
 
-Begynn med en tørr mikrofiberklut, som den typen som brukes til briller eller kameralinser. Det holder for fingeravtrykk og støv.
+Samsung advarer også mot for mye fukt, åpninger, nedsenking, trykkluft og blekemiddel. Dette er Galaxy-instruksjoner; sjekk håndboken for den nøyaktige modellen hvis materiale eller tilstand er annerledes.
 
-For grundigere rengjøring slår du av telefonen, trekker ut kabelen og tar av dekselet. Fukt deretter ett hjørne av kluten lett med destillert vann. Kluten skal være fuktig, ikke våt. Kan du klemme vann ut av den, er den for våt. Tørk over skjermen og telefonkroppen, og bruk en tørr del av kluten etterpå.
+## Veiledning for Apple iPhone
 
-Destillert vann er bedre enn vann fra springen fordi det ikke etterlater det samme mineralsløret på mørkt glass. Du unngår også ukjente tilsetninger som kan bli liggende i små åpninger rundt knapper og høyttalergitter.
+Apple tillater bestemte desinfiserende servietter på støttede ytre iPhone-flater, blant annet 70 % isopropylalkohol og 75 % etylalkohol. Apple advarer mot blekemiddel, hydrogenperoksid, fukt i åpninger, nedsenking og trykkluft og påpeker at rengjøringsmidler og slitasje kan påvirke det oleofobe belegget.
 
-## Dette kan du bruke til desinfisering
+Veiledningen gjelder iPhone. Den er et navngitt produsenteksempel, ikke bevis for et universelt Android-rengjøringsmiddel.
 
-Apple oppgir at du forsiktig kan bruke servietter med 70 % isopropylalkohol, 75 % etylalkohol eller Clorox Disinfecting Wipes på utsiden av en iPhone. Samsung sier at Galaxy-enheter kan rengjøres med en klut fuktet med destillert vann eller alkoholbasert desinfeksjonsmiddel, som 70 % isopropylalkohol eller etylalkohol. Samtidig skal du unngå overflødig fukt og alle åpninger.
+## Porter, høyttalere og deksler
 
-For Android-brukere gir det en praktisk regel: Bruk en serviett med 70 % isopropylalkohol eller en lett fuktet klut, ikke en gjennomvåt serviett. Pass på at væske ikke kommer inn i USB-C-porten, høyttaleren, mikrofonen, SIM-skuffen eller samtalehøyttaleren.
+Ikke før tannpirker, metallverktøy, børste eller væske inn i en port eller høyttaler med mindre produsenten av den nøyaktige enheten foreskriver metoden. Hvis smuss påvirker lading eller lyd og det ikke finnes en trygg offisiell brukerprosedyre, er kvalifisert service tryggere.
 
-Ikke spray væske direkte på telefonen. Spray på kluten dersom du absolutt må bruke spray. Enda bedre er det å bruke en serviett som er enkel å kontrollere.
+Dekselmaterialer varierer også. Rengjør et avmontert deksel etter produsentens instruksjoner og la det tørke helt. Artikkelen rangerer ikke materialer og tildeler ikke ett kjemikalium til alle deksler.
 
-## Dette bør du unngå
+## Praktisk regel
 
-Vindusvaskemiddel er laget for vinduer. Ammoniakk og sterke tensider kan bryte ned belegg og etterlate skjolder.
-
-Rengjøringsspray for kjøkken og bad er for sterke for telefoner. Mange inneholder blekemiddel, syrer eller slipende ingredienser.
-
-Blekemiddel og hydrogenperoksid bør ikke brukes. Apple advarer uttrykkelig mot begge deler ved rengjøring av iPhone, og den samme forsiktigheten er fornuftig for Android-skjermer og overflater.
-
-Hånddesinfeksjon er ikke skjermrens. Den kan inneholde gelstoffer, fuktighetsgivere, parfyme og rester som smøres utover glasset.
-
-Papirhåndklær og papirlommetørklær er dårlige valg. De loer, og hvis det ligger sandkorn på glasset, kan papiret dra dem over overflaten. Bruk mikrofiber.
-
-Trykkluft er risikabelt rundt porter og høyttalere. Samsung fraråder det, og lufttrykket kan presse smuss lenger inn eller belaste små membraner.
-
-## Rengjøring av USB-C-porten og høyttalerne
-
-Rengjør ladeporten bare når det finnes en grunn: Kabelen sitter løst, klikker ikke ordentlig på plass eller ladingen har blitt ustabil. Forebyggende pirking i porten er en god måte å skade kontaktpinnene på.
-
-Slå av telefonen først. Hvis du ser lo, kan du bruke en tannpirker av tre eller plast svært forsiktig langs innsiden av portveggene. Ikke skrap på kontaktene bakerst, og bruk aldri metall. Stopp hvis du møter motstand. Rengjøring på et verksted er billigere enn en ødelagt USB-C-port.
-
-Bruk en myk, tørr børste på høyttalergitter og mikrofonhull. Børst på tvers av gitteret i stedet for å presse busten inn i åpningen. En ren og myk tannbørste fungerer, men ikke bruk den som fortsatt har tannkremrester. Helt alvorlig.
-
-## Rengjøring av dekselet
-
-Ta av dekselet før du rengjør telefonen. Deksler samler sand, hudfett og fukt mot telefonkroppen, særlig rundt knappene og kameraringene.
-
-Deksler av silikon og TPU kan vanligvis vaskes med mild såpe og vann. Skyll dem godt og la dem tørke helt før du setter dem på igjen.
-
-Deksler av hardplast kan tørkes med en mikrofiberklut og litt alkoholbasert rengjøringsmiddel. Lær- og stoffdeksler krever mer forsiktighet. Bruk en lett fuktet klut og en svært liten mengde mild såpe ved behov, og la dekselet lufttørke. Alkohol kan tørke ut lær og misfarge stoff.
-
-Ikke sett et fuktig deksel tilbake på telefonen. Innestengt fukt er nettopp det du prøver å unngå.
-
-## Hvor ofte bør telefonen rengjøres?
-
-En rask tørk med tørr mikrofiberklut hver dag holder fingeravtrykkene nede. Grundigere rengjøring én gang i uken er nok ved normal bruk. Rengjør oftere etter trening, kollektivtransport, matlaging, reiser eller når andre har håndtert telefonen.
-
-Ladeporten er annerledes. Rengjør den bare når det er lo der eller du har et ladeproblem. Den tryggeste porten er den du ikke pirker i uten grunn.
-
-Du trenger ikke et merkevareprodukt laget spesielt for telefonrengjøring. En god mikrofiberklut, destillert vann og en sporadisk serviett med 70 % isopropylalkohol dekker nesten alle vanlige rengjøringsbehov.
+Start med den minst inngripende metoden som er tillatt for den nøyaktige modellen, vanligvis en ren, lofri klut. Bruk fukt eller desinfeksjon bare når produsenten tillater det for overflaten. Hold produsentenes omfang adskilt, og stopp hvis telefonen er skadet, åpen eller nylig reparert.

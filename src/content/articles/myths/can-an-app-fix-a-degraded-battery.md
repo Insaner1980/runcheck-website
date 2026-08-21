@@ -13,6 +13,8 @@ Could a battery repair app actually bring back lost capacity? No. Not a repair a
 
 The battery is a physical part. Once the chemistry inside the cell has aged, software can't put the lost capacity back.
 
+For the battery-science statements in this article, [the Edge et al. review](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) supports capacity and power fade, impedance increase, and the effects of temperature, state of charge, current or load, SEI growth, and lithium plating. It does not establish manufacturer features, universal phone thresholds, accessory choices, repair advice or prices, exact lifetimes, charging-time claims, or guaranteed consumer outcomes.
+
 ## What degradation actually means
 
 Battery degradation is not a setting that drifted out of place. It's chemical aging inside the cell.

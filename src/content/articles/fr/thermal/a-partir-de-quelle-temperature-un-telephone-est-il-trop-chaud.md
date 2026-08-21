@@ -1,6 +1,6 @@
 ---
 title: "À partir de quelle température un téléphone est-il trop chaud ?"
-description: "La température d'un téléphone dépend de la chaleur ambiante, de la batterie, de la recharge et de la charge de travail. En dessous de 35 °C, elle est généralement normale. Au-dessus de 40 °C, elle demande de l'attention, et 45 °C ou plus ne devrait pas devenir habituel."
+description: "Android n'a pas de seuil de température universel. Les relevés et réactions thermiques varient selon le capteur, l'appareil, la charge, la recharge et l'environnement ; les 0–35 °C des Pixel 7 et 7 Pro sont un exemple ambiant propre à ces modèles."
 listSummary: "temperature, thermique et android"
 hub: "thermal"
 sourceNumber: 59
@@ -9,87 +9,32 @@ tags: ["temperature", "thermique", "android", "depannage", "materiel"]
 locale: "fr"
 draft: false
 ---
+Il n'existe pas une température Celsius unique qui signifie « trop chaud » pour tous les téléphones. L'air ambiant, la surface, la batterie, le processeur et l'état thermique Android sont des mesures différentes. La limite de l'une ne doit pas être présentée comme celle d'une autre.
 
-À partir de quelle température est-ce trop chaud ? La réponse agaçante est que cela dépend de la température que vous mesurez.
+## Utilisez la plage du fabricant
 
-L'air autour du téléphone donne une première valeur. La surface extérieure de l'appareil en donne une autre. Le capteur de la batterie en fournit encore une autre, et c'est cette dernière qui compte le plus pour le vieillissement de la batterie. Un téléphone peut sembler seulement tiède dans votre main alors que sa batterie ou son SoC est déjà assez chaud pour qu'Android réduise les performances.
+La bonne plage numérique est celle publiée pour votre modèle exact. Le [guide de sécurité des Pixel 7 et Pixel 7 Pro](https://support.google.com/pixelphone/answer/12164747?hl=en) indique par exemple de ne pas utiliser ni charger ces modèles sous 0 °C ou au-dessus de 35 °C ambiants. C'est une limite ambiante pour des modèles Pixel nommés, pas un seuil Android universel pour la batterie ou les composants internes.
 
-De nombreux smartphones, dont les Google Pixel, sont conçus pour fonctionner au mieux à une température ambiante comprise entre 0 °C et 35 °C. Il s'agit de la température de la pièce ou de l'air extérieur, pas de celle de la batterie. À l'intérieur, un téléphone en fonctionnement est plus chaud que l'air qui l'entoure.
+D'autres fabricants et modèles peuvent publier d'autres plages d'usage et de stockage. Consultez le guide de sécurité ou la fiche technique du modèle, de la région et de la batterie concernés.
 
-## Les zones de température pratiques
+## L'état thermique Android n'est pas un thermomètre
 
-Ces plages sont des repères pratiques pour l'utilisateur, pas une spécification universelle des fabricants. Les capteurs et les limites thermiques varient selon les téléphones. Elles restent néanmoins assez utiles pour un diagnostic quotidien.
+L'[API thermique Android](https://developer.android.com/games/optimize/adpf/thermal) signale des niveaux de pression thermique afin que le logiciel réduise la charge. Elle ne définit pas une limite Celsius pour tout matériel. Limitation, assombrissement, recharge ralentie, avertissement ou arrêt peuvent répondre aux capteurs et limites propres à l'appareil.
 
-### En dessous de 20 °C
+La température de batterie affichée par une application n'est pas la température de surface ni celle de l'air. Disponibilité et précision des capteurs varient aussi.
 
-C'est une température basse. Un téléphone au repos dans une pièce fraîche peut se situer ici. Il n'y a pas de problème de chaleur, même si un froid marqué peut donner l'impression que la batterie est plus faible jusqu'à ce qu'elle se réchauffe.
+## Chaleur et usure à long terme
 
-### 20-35 °C
+Une [revue scientifique sur la dégradation des batteries lithium-ion](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) identifie la température comme facteur. Cela justifie d'éviter les chaleurs répétées, mais pas les anciennes zones universelles ni une décision de réparation à une valeur Android précise.
 
-C'est une zone confortable pour la température de la batterie pendant une utilisation légère. Messagerie, navigation web, appels, musique et courtes vidéos devraient généralement rester dans cette plage. Si votre téléphone y passe l'essentiel de la journée, la chaleur n'est pas le problème.
+Une pointe brève et des heures de chaleur continue ne sont pas équivalentes. Le comportement du téléphone et les avertissements du fabricant comptent plus qu'un tableau générique.
 
-### 35-40 °C
+## Que faire
 
-Le téléphone est chaud. Cette plage est courante pendant la recharge rapide, les appels vidéo, la navigation GPS, les jeux, l'utilisation de l'appareil photo ou le partage de connexion. De courtes périodes ne sont pas inquiétantes. Y rester plusieurs heures chaque jour est différent, car le vieillissement de la batterie s'accélère lorsque la température augmente.
+Arrêtez les tâches lourdes et débranchez le chargeur si le téléphone affiche un avertissement, cesse de charger, s'éteint ou devient anormalement inconfortable à tenir. Placez-le à l'ombre dans un endroit ventilé et laissez-le refroidir naturellement. N'utilisez ni eau, ni glace, ni réfrigérateur, ni congélateur.
 
-### 40-45 °C
+Si les alertes reviennent lors d'un usage léger, ou si la batterie gonfle, la coque se soulève, une odeur ou de la fumée apparaît, ou si l'appareil est visiblement ou liquide endommagé, cessez de l'utiliser et demandez de l'aide.
 
-Le téléphone est très chaud. Vous le sentirez probablement à travers la face arrière ou le châssis. La recharge peut ralentir, l'écran peut s'assombrir, l'appareil photo peut désactiver le flash et les jeux peuvent perdre en performances.
+## Réponse pratique
 
-Ne paniquez pas pour une brève pointe à 42 °C pendant une tâche exigeante. En revanche, soyez attentif si le téléphone reste à 42 °C sur votre table de nuit pendant la recharge, ou alors qu'il ne fait rien.
-
-### Au-dessus de 45 °C
-
-C'est trop chaud pour un usage régulier. À ce stade, le téléphone devrait réduire fortement son activité. La recharge peut se mettre en pause, les performances diminuer, les radios être limitées et des avertissements de température apparaître.
-
-Des expositions répétées au-dessus de 45 °C malmènent les batteries lithium-ion. Le problème n'est pas une pointe isolée de cinq minutes. C'est le fait d'en faire une habitude quotidienne.
-
-### Au-dessus de 50 °C
-
-Vous entrez dans la zone dangereuse. Une utilisation normale ne devrait pas pousser un téléphone en bon état jusque-là dans une pièce à température ordinaire. Le soleil direct, une voiture chaude, un chargeur défectueux, une batterie en fin de vie ou une utilisation intensive pendant la recharge peuvent le faire.
-
-Éteignez le téléphone si possible, placez-le dans un endroit plus frais et laissez-le refroidir naturellement. Ne le mettez pas au congélateur. La condensation serait une façon absurde de transformer un problème de chaleur en dégât des eaux.
-
-## Comment vérifier la température
-
-Android ne fournit toujours pas à chaque téléphone une page claire consacrée à la température de la batterie. En théorie, cela devrait être plus simple en 2026. En pratique, tout dépend encore de la marque.
-
-Sur les Pixel compatibles, **Paramètres > Batterie > État de la batterie** fournit surtout des informations sur l'état et la capacité de la batterie. Cette page complète est réservée au Pixel 8a et aux modèles ultérieurs, et elle n'est pas disponible sur la Pixel Tablet. Elle ne remplace pas pour autant un relevé de température sur tous les modèles.
-
-Les utilisateurs de Samsung peuvent commencer par **Samsung Members > Assistance > Diagnostics du téléphone > État de la batterie** pour vérifier l'état général de la batterie. Selon le modèle, ce diagnostic n'affiche pas forcément une température précise. Xiaomi, OnePlus, OPPO et les autres fabricants déplacent assez souvent les informations liées à la batterie, et leur contenu varie selon le modèle et la région.
-
-L'ancien code de test Android `*#*#4636#*#*` ouvre encore les informations sur la batterie de certains téléphones. Beaucoup de modèles récents le bloquent. Des outils tiers comme CPU-Z, DevCheck, AIDA64 ou runcheck peuvent lire le capteur de température de la batterie sur de nombreux appareils, mais l'accès dépend toujours des données que le fabricant expose.
-
-runcheck est utile lorsque les tendances comptent davantage qu'une mesure isolée. L'application suit la température de la batterie dans le temps, conserve les valeurs minimales et maximales de la session et classe la mesure actuelle dans des zones pratiques telles que Cool, Normal, Warm, Hot et Critical.
-
-## Pourquoi la température ambiante change tout
-
-Un téléphone ne dispose d'une marge thermique que si l'air autour de lui est plus frais. À 22 °C en intérieur, la batterie peut rester entre 26 °C et 30 °C au repos tout en gardant de la marge pour chauffer pendant l'utilisation. À 35 °C à l'extérieur, cette marge a presque disparu avant même d'ouvrir Maps.
-
-C'est pourquoi un téléphone peut fonctionner parfaitement en hiver et sembler défectueux en juillet. Même téléphone. Point de départ différent.
-
-Les voitures sont le pire exemple du quotidien. Google avertit les utilisateurs de Pixel de ne pas exposer l'appareil à une température supérieure à 45 °C, par exemple sur un tableau de bord ou près d'une source de chaleur. Un téléphone laissé dans une voiture stationnée n'a pas besoin d'être branché ni de faire tourner un jeu pour que sa batterie vieillisse. La chaleur suffit.
-
-## Le froid fonctionne autrement
-
-Le froid ralentit les réactions d'une batterie lithium-ion. Le téléphone peut afficher moins d'énergie disponible, sembler lent ou s'éteindre plus tôt que prévu. Une fois revenu à une température normale, une grande partie de ce comportement disparaît.
-
-Le vrai risque par temps froid est la recharge sous 0 °C. Un dépôt de lithium peut se former sur l'anode lorsqu'une cellule lithium-ion recharge sous le point de congélation, et ces dommages sont permanents. La plupart des téléphones modernes essaient de l'empêcher, mais ne testez pas leur limite. Si votre appareil est resté dehors par temps glacial, laissez-le dépasser 0 °C, et de préférence se rapprocher de la température ambiante, avant de le brancher.
-
-## La chaleur prolongée compte plus qu'une brève pointe
-
-Le vieillissement de la batterie ne suit pas une frontière nette. Il n'existe pas de ligne magique où elle serait parfaite à 39 °C et abîmée à 40 °C. La chaleur accélère les réactions chimiques secondaires, surtout lorsque la batterie est aussi presque pleine.
-
-Un téléphone qui atteint 42 °C pendant cinq minutes lors d'une recharge rapide, puis redescend à 30 °C, ne pose probablement pas de problème. Un téléphone maintenu à 38 °C toute la nuit parce qu'il recharge sans fil sous une coque, sur une surface molle, subit une usure plus discrète. La valeur la plus basse peut être la pire parce qu'elle dure plus longtemps.
-
-C'est le point souvent oublié. Le pic compte, mais la durée d'exposition compte davantage.
-
-## Que faire lorsque la température est élevée
-
-Éloignez le téléphone du soleil. Débranchez le chargeur. Retirez la coque. Fermez l'application exigeante. Posez l'appareil sur une surface dure en laissant l'air circuler autour.
-
-Une fois qu'il a refroidi, cherchez la cause. Était-ce la recharge rapide ? La recharge sans fil ? Un jeu ? La navigation sur un support de voiture ? Une mise à jour récente vers Android 17 sur un Pixel ? Une application restée bloquée après une mise à jour ? La solution dépend du schéma observé.
-
-Si le téléphone atteint 45 °C ou plus pendant une utilisation ordinaire, ou s'approche un jour de 50 °C sans raison évidente, faites contrôler l'appareil plutôt que de traiter cela comme un simple problème de réglage.
-
----
+« Trop chaud » signifie hors des conditions documentées du modèle exact ou assez chaud pour que ses protections interviennent. Ne transformez pas limites ambiantes Pixel, valeur d'application, chaleur de surface et état thermique Android en une échelle universelle.

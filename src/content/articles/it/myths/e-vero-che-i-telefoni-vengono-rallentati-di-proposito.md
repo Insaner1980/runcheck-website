@@ -27,7 +27,7 @@ Se si parla ancora di rallentamenti intenzionali è soprattutto per il caso Batt
 
 Il problema era la trasparenza. Le persone vedevano telefoni più lenti, ma non veniva spiegato chiaramente che sostituire la batteria poteva recuperare buona parte delle prestazioni perdute. Molti pensavano che il telefono fosse ormai da buttare.
 
-In seguito Apple aggiunse informazioni più chiare sullo stato della batteria e pagò diversi risarcimenti. Nel 2018, l'Autorità Garante della Concorrenza e del Mercato italiana sanzionò Apple e Samsung per aggiornamenti software che avevano causato problemi gravi o ridotto le prestazioni di alcuni telefoni. È per questa storia che le persone non fanno semplicemente spallucce quando un vecchio dispositivo peggiora dopo un aggiornamento.
+Esiste un caso documentato. Nel 2018 [l'Autorità italiana della concorrenza annunciò sanzioni per Apple e Samsung](https://en.agcm.it/en/media/press-releases/2018/10/PS11009-PS11039) dopo aver rilevato che alcuni aggiornamenti causavano gravi malfunzionamenti e riducevano le prestazioni senza informazioni adeguate sugli effetti o sul ripristino della funzionalità originale. È prova per quelle indagini e quei dispositivi specifici, non che ogni rallentamento o aggiornamento successivo sia intenzionale.
 
 E fanno bene.
 

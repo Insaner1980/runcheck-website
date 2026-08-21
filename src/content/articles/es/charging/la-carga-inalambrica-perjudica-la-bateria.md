@@ -14,6 +14,8 @@ draft: false
 
 El problema no es la transmisión inalámbrica en sí. Es el calor. La carga inalámbrica pierde más energía durante la transferencia que un cable, y esa energía desperdiciada se convierte en calor en el móvil, en la base o en ambos.
 
+Para las afirmaciones científicas sobre la batería de este artículo, [la revisión de Edge y sus coautores](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) respalda pérdida de capacidad y potencia, aumento de impedancia y efectos de temperatura, nivel de carga, corriente o uso, crecimiento de la SEI y recubrimiento de litio. No establece funciones del fabricante, umbrales universales para móviles, elección de accesorios, consejos o precios de reparación, vida útil exacta, tiempos de carga ni resultados garantizados.
+
 ## De dónde sale el calor
 
 La carga inalámbrica utiliza dos bobinas. Una está en la base de carga y la otra dentro del móvil. La energía se transfiere entre ellas mediante inducción electromagnética. Funciona suficientemente bien, pero no es un proceso totalmente eficiente.

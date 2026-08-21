@@ -14,6 +14,8 @@ Stai giocando, la batteria è al 12% e il caricabatterie è lì accanto. Collegh
 
 Probabilmente no. Hai però creato proprio quella combinazione di fonti di calore che le batterie non gradiscono.
 
+Per le affermazioni scientifiche sulla batteria di questo articolo, [la revisione di Edge e coautori](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) supporta perdita di capacità e potenza, aumento dell'impedenza ed effetti di temperatura, livello di carica, corrente o carico, crescita della SEI e placcatura del litio. Non stabilisce funzioni del produttore, soglie universali per i telefoni, scelta di accessori, consigli o prezzi di riparazione, durata esatta, tempi di ricarica o risultati garantiti.
+
 ## La risposta breve
 
 Usare il telefono mentre si ricarica è sicuro se utilizzi un caricabatterie e un cavo certificati, integri e in un luogo asciutto. Samsung lo dice chiaramente anche per i telefoni Galaxy: puoi usare il dispositivo durante la ricarica, ma la batteria si caricherà più lentamente perché il telefono consuma parte dell'energia in arrivo.

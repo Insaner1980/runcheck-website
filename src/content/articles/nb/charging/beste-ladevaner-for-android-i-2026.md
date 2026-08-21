@@ -102,11 +102,9 @@ Se under Innstillinger > Batteri etter Optimized Charging, Battery Health Engine
 
 Hvis OnePlus-telefonen tilbyr bypass charging under spilling eller tung bruk, er funksjonen verdt å bruke når telefonen skal stå tilkoblet lenge. Poenget er å redusere varmen i batteriet mens telefonen arbeider hardt.
 
-### Xiaomi, OPPO og andre
+### Eksempel: POCO F6
 
-Menyene hos Xiaomi og OPPO varierer mer mellom markeder og programvareversjoner. Se etter batteribeskyttelse, optimalisert lading, smartlading eller en ladegrense under Innstillinger > Batteri.
-
-Hvis telefonen har proprietær lading med høy effekt, bruker du anbefalt lader og kabel når du vil ha topphastigheten. Til vanlig nattlading er en langsommere USB-C PD-lader ofte nok.
+[På POCO F6 dokumenterer Xiaomi](https://www.mi.com/global/support/faq/details/KA-274093/) banen `Settings > Battery > Battery protection` med valgene Regular, Limited, Optimized og Nighttime charging. Siden oppgir også `Security > Battery > Battery protection` som en alternativ bane. Dette er et eksempel for POCO F6, ikke en universell meny eller liste over moduser for Xiaomi-, Redmi-, POCO-, MIUI- eller HyperOS-enheter. Andre modeller og programvareversjoner kan være annerledes.
 
 ## Vaner du kan slutte å bekymre deg for
 

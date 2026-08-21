@@ -20,6 +20,8 @@ Understanding the basics makes the usual advice less mysterious. The 20% to 80% 
   <figcaption class="mt-3 text-sm leading-relaxed text-run-muted">A visual guide to lithium-ion charging, battery aging, voltage stress, and the practical 20% to 80% charging range.</figcaption>
 </figure>
 
+For the battery-science statements in this article, [the Edge et al. review](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) supports capacity and power fade, impedance increase, and the effects of temperature, state of charge, current or load, SEI growth, and lithium plating. It does not establish manufacturer features, universal phone thresholds, accessory choices, repair advice or prices, exact lifetimes, charging-time claims, or guaranteed consumer outcomes.
+
 ## The basic cell
 
 A lithium-ion phone battery has four main parts: an anode, a cathode, an electrolyte, and a separator. The anode is usually graphite in conventional phone cells. The cathode is a lithium metal oxide, with the exact chemistry depending on the manufacturer. The electrolyte lets lithium ions move, while the separator keeps the two electrodes from touching.

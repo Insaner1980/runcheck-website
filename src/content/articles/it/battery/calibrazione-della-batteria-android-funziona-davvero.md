@@ -15,6 +15,8 @@ Gran parte dei consigli sulla calibrazione della batteria arriva da tecnologie p
 
 A volte può correggere una percentuale di carica sbagliata.
 
+Per le affermazioni scientifiche sulla batteria di questo articolo, [la revisione di Edge e coautori](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) supporta perdita di capacità e potenza, aumento dell'impedenza ed effetti di temperatura, livello di carica, corrente o carico, crescita della SEI e placcatura del litio. Non stabilisce funzioni del produttore, soglie universali per i telefoni, scelta di accessori, consigli o prezzi di riparazione, durata esatta, tempi di ricarica o risultati garantiti.
+
 ## Cosa può correggere la calibrazione, e cosa no
 
 La percentuale nella barra di stato è una stima. Il controller della batteria osserva corrente, tensione, temperatura e comportamento durante la ricarica, poi trasforma quei dati in un livello di carica.

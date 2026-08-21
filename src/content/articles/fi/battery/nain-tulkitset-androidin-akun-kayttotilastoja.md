@@ -10,6 +10,8 @@ tags: ["akku", "virrankulutus", "vianetsintä", "android", "suorituskyky"]
 locale: "fi"
 draft: false
 ---
+Valikkojen nimet, tuettu toiminta ja tarkat vaiheet vaihtelevat valmistajan, mallin, Android-version, alueen, operaattorin ja laiteohjelmiston mukaan. Alla oleva Pixel- tai muu valmistajakohtainen polku on esimerkki kyseiselle laiteperheelle, ei Androidin yleinen toiminta; käytä oman mallisi ohjeita.
+
 
 Avaat Akun käyttö -näkymän ja näet yhden sovelluksen kohdalla 42 %. Se näyttää pahalta. Joskus se onkin ongelma. Joskus luku ei kerro juuri mitään.
 

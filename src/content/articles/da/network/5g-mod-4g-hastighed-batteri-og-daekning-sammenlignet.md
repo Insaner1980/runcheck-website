@@ -9,77 +9,39 @@ tags: ["ydeevne", "hastighed", "android", "optimering", "fejlfinding"]
 locale: "da"
 draft: false
 ---
+5G og 4G kan ikke sammenlignes med ét fast tal for hastighed, latenstid, batteri eller dækning. Resultatet afhænger af spektrum, netværksarkitektur, enhed, modem, operatør, sted, tid, signal, server og belastning. De tidligere universelt formulerede tal er fjernet.
 
-Det er den del, telefonmarkedsføringen som regel springer over.
+<figure class="not-prose my-10">
+  <img class="w-full rounded-2xl border border-run-border shadow-2xl" src="/images/articles/5g-vs-4g.webp" alt="Sammenligning af 5G og 4G for hastighed, signalstabilitet, varme og batteri" width="1672" height="941" loading="lazy" decoding="async" />
+  <figcaption class="mt-3 text-sm leading-relaxed text-run-muted">5G kan slå 4G, men resultatet afhænger af enheden og netværksforholdene, ikke kun ikonet.</figcaption>
+</figure>
 
-## Hastigheden afhænger af, hvilken 5G-forbindelse du bruger
+## Hastighed
 
-5G-ikonet fortæller ikke hele historien. En telefon kan vise 5G, mens den er forbundet til et bredt lavfrekvent lag, et hurtigt mellemfrekvent lag eller en meget hurtig mmWave-celle, der kun virker i et lille udendørs område. Det er vidt forskellige oplevelser.
+[GSMA's spektrumposition](https://www.gsma.com/connectivity-for-good/spectrum/wp-content/uploads/2025/07/5G-Spectrum-Public-Policy-Paper.pdf) beskriver lavbånd som et dækningslag og forklarer de forskellige roller for mellem- og højere bånd. Det støtter kvalitative forskelle, ikke faste forbrugerhastigheder.
 
-Lavfrekvent 5G er bygget til dækning. Signalet rækker længere og kommer bedre indendørs end 5G på højere frekvenser, men hastigheden kan ligne god 4G LTE. Hvis du ser 30-80 Mbps på lavfrekvent 5G, er det ikke mærkeligt.
+Mål den forbindelse, du bruger. [Measurement Labs NDT7](https://www.measurementlab.net/tests/ndt/ndt7/) er en dokumenteret protokol, men én test er stadig kun et øjebliksbillede.
 
-Mellemfrekvent 5G er det bedste kompromis. I byer og forstæder med moderne netværk ligger hastigheden ofte i de lave hundreder af Mbps og nogle gange højere. Her begynder 5G at føles tydeligt anderledes ved store downloads, installation af apps, sikkerhedskopiering til skyen og brug af hotspot.
+## Latenstid
 
-mmWave er laget med de opsigtsvækkende tophastigheder. Det kan komme over 1 Gbps i praksis, men dækningsområdet er meget lille sammenlignet med lavfrekvent og mellemfrekvent 5G. Det har svært ved at trænge gennem vægge, glas, træer og busser, og selv din håndplacering kan påvirke det. Du møder det normalt i tætte byområder, på stadioner, i lufthavne og ved arrangementer.
+5G kan give lavere latenstid i egnede netværk, især hvor radio og kernenet understøtter det. Serverafstand, belastning, routing, skift og appdesign kan dominere resultatet. Den tidligere faste millisekundsammenligning manglede støtte og er fjernet.
 
-4G LTE er langsommere på papiret, men stadig rigeligt til almindelig telefonbrug. Beskeder, kort, browsing, musikstreaming, sociale medier og HD-video kræver ikke hundredvis af Mbps. En stabil LTE-forbindelse på 30 Mbps kan føles bedre end en 5G-forbindelse, der hele tiden skifter lag.
+Sammenlign gentagne test mod samme tjeneste. Udled ikke apprespons fra 5G-ikonet.
 
-## Latenstiden er bedre, men overdriv ikke forskellen
+## Batteri
 
-5G giver som regel lavere latenstid end 4G. Det betyder mindre ventetid mellem et tryk på skærmen og svaret fra netværket. Videoopkald, cloudgaming, fjernskrivebord og direkte samarbejde har størst gavn af det.
+En [undersøgelse fra 2020 af første generation kommerciel 5G](https://www.cs.princeton.edu/courses/archive/spring21/cos563/papers/5G_measurement.pdf) målte højere radioeffekt end 4G på de testede enheder og netværk. Den fastlægger ikke en aktuel procent for alle telefoner.
 
-Ved almindelig browsing er forskellen sværere at mærke. Springet fra 40 ms til 20 ms kan måles. Det gør ikke på magisk vis et langsomt website hurtigt, hvis siden er tung, DNS-opslaget er langsomt, eller serveren står langt væk.
+NSA eller SA, modem, signal, bånd, trafik og firmware kan ændre forbruget. Sammenlign flere lignende dage på din egen enhed.
 
-Latenstiden afhænger også af netværkets kerne. En 5G-telefon på Non-Standalone 5G bruger stadig LTE til en del af forbindelsen. Standalone 5G kan forbedre latenstid og effektivitet, men udrulningen varierer mellem lande og mobilselskaber.
+## Dækning og signal
 
-## Batteritid: 5G har stadig en pris
+Androids [SignalStrength-dokumentation](https://developer.android.com/reference/android/telephony/SignalStrength) definerer rapporterede signalniveauer; den beviser ikke hastighed, latenstid, batteri eller dækning. Lavbånd kan give et bredt 5G-lag, mens højere bånd har andre mål. Indendørs- og landresultater er sted- og operatørspecifikke.
 
-5G bruger mere strøm end 4G i mange virkelige situationer. Analyser baseret på Ookla-målinger har sat forskellen til cirka 6-11 % højere batteriforbrug afhængigt af SoC, mens nyere chips har mindsket forskellen.
+Stabil 4G kan være bedre end ustabil 5G. Stabil 5G kan være langt hurtigere end lokal 4G. Ingen af resultaterne er universelle.
 
-Der er tre hovedårsager til det ekstra forbrug.
+## Praktisk sammenligning
 
-For det første bruger mange 5G-netværk stadig NSA, eller Non-Standalone-arkitektur. Her holder telefonen fast i en LTE-ankerforbindelse og tilføjer 5G NR til data. To radiolag kræver mere arbejde fra modemmet end en ren LTE-forbindelse.
+Behold automatisk netværksvalg, når ydelse og batteri er acceptable. Prøv LTE midlertidigt, når 5G er ustabilt, langsommere hvor du bruger det, eller en gentagelig sammenligning viser tydelig batterigevinst. Menuer varierer efter telefon, operatør, region og firmware.
 
-For det andet får et svagt 5G-signal modemmet til at arbejde hårdere. Hvis telefonen befinder sig i kanten af 5G-dækningen, kan den lede efter 5G, oprette forbindelse kortvarigt, falde tilbage til LTE og derefter prøve igen. Den løkke spilder strøm og kan gøre telefonen varm.
-
-For det tredje ændrer hurtigere data vores adfærd. Apps kan synkronisere mere, video kan skifte til højere kvalitet, sikkerhedskopier bliver hurtigere færdige, men vækker stadig CPU'en, og det bliver mere fristende at bruge hotspot. Radioen er ikke den eneste del, der bruger energi.
-
-Hvis batteritid betyder mere end maksimal hastighed, er LTE-tilstand stadig et fornuftigt valg i områder med svag 5G. Kedeligt råd, men det virker.
-
-## Dækning er det område, hvor 4G stadig vinder
-
-4G LTE-dækningen er moden. I mange lande er LTE stadig det mest pålidelige lag indendørs, i landområder og som grundlæggende reserveforbindelse. Mobilselskaberne har brugt mange år på at finjustere det.
-
-5G-dækningen er bedre end for nogle år siden, men varierer stadig kraftigt efter frekvensbånd og placering. Et dækningskort kan vise 5G i hele byen, mens din lejlighed, kælderarbejdsplads, togvogn eller bageste værelse falder tilbage til LTE.
-
-Indendørs dækning er den sædvanlige svaghed. 5G på højere frekvenser kan overføre flere data, men mister mere energi gennem vægge og vinduer. Lavfrekvent 5G hjælper, men det er også den mindst dramatiske hastighedsopgradering.
-
-Ældre netværk bliver også lukket. 3G er allerede slukket på mange markeder, mens planerne for udfasning af 2G varierer fra land til land, fordi 2G stadig bruges af visse IoT- og sikkerhedsenheder. På moderne smartphones er LTE den praktiske reserveforbindelse.
-
-## Android 17 ændrer ikke virkeligheden omkring udrulning
-
-Android 17 er nu udgivet og kom først til understøttede Pixel-enheder. Andre producenter, herunder Samsung, Xiaomi, OnePlus, OPPO, vivo, HONOR og flere, følger deres egne tidsplaner og leverer ofte Android 17 gennem deres egne brugerflader.
-
-Det har betydning ved fejlsøgning. En Pixel 8 Pro med Android 17 og en Galaxy S24, der stadig venter på sin Android 17-baserede One UI-opdatering, befinder sig ikke i den samme softwaresituation. Hvis 5G blev ustabilt lige efter en større opdatering, skal du kontrollere den præcise telefonmodel, mobilselskabet og buildnummeret, før du antager, at alle Android-telefoner har det samme problem.
-
-## Hvornår bør du slå 5G fra?
-
-Slå 5G fra, hvis telefonen bliver varm i lommen, batteriet aflades hurtigere end normalt, eller statuslinjen hele tiden skifter mellem 5G og LTE på det samme sted. Overvej også LTE, når du rejser gennem landområder, arbejder i en kælder eller opholder dig en hel dag et sted med svag indendørs dækning.
-
-På Pixel og mange Android-telefoner med en standardlignende brugerflade kan du se under **Indstillinger > Netværk og internet > SIM-kort > Foretrukken netværkstype**. På Samsung bruges **Indstillinger > Forbindelser > Mobilnetværk > Netværkstilstand**. Nogle mobilselskaber skjuler eller omdøber indstillingen, især på operatørlåste enheder.
-
-Hvis du ser valgmuligheder som 5G Auto, **Selvjusterende forbindelse** (Adaptive Connectivity) eller en tilsvarende intelligent tilstand, bør du prøve den, før du slår 5G helt fra. Telefonen kan så bruge 5G, når det hjælper, og falde tilbage, når det ikke gør.
-
-## Giver en 4G-telefon stadig mening i 2026?
-
-Ja, for den rigtige køber. En 4G-telefon kan stadig håndtere kort, streaming, beskeder, browsing, bankapps og videoopkald. LTE-hastigheder er nok til det meste daglige brug, og telefoner, der kun understøtter 4G, kan være billigere.
-
-Jeg ville dog ikke købe en telefon, der kun understøtter 4G, som langsigtet hovedtelefon, medmindre prisen er hele pointen. Mobilselskaberne flytter mere frekvensplads og flere investeringer over på 5G, og en telefon, du vil beholde i fire eller fem år, bør sandsynligvis understøtte det.
-
-En 4G-telefon på et moderne abonnement forbinder stadig til LTE med normale LTE-hastigheder. Den kan bare ikke bruge 5G-laget.
-
-## Praktisk vurdering
-
-Brug 5G, når dækningen er stærk, downloads er store, latenstiden betyder noget, eller du bruger telefonen som hotspot. Brug LTE, når batteriet betyder mere, dækningen er ujævn, eller 5G kun ser bedre ud i statuslinjen.
-
-Den bedste indstilling er den, der giver telefonen en stabil forbindelse dér, hvor du faktisk bruger den.
+Vurdér hastighed, latenstid, batteri, dækning og signal separat. Én kilde eller ét ikon beviser ikke alle fem.

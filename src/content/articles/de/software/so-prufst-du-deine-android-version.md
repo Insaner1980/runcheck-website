@@ -37,7 +37,7 @@ Die Build-Nummer ist genauer. Sie bezeichnet die exakte Softwareversion, die auf
 
 ## Auch die Herstelleroberfläche zählt
 
-Samsung liefert nicht einfach "reines Android" aus, sondern legt One UI darüber. One UI 9 basiert auf Android 17. Im Juli 2026 läuft in Deutschland zunächst das One UI 9-Betaprogramm für die Galaxy S26-Reihe. Wer mit einem Galaxy S26 am Betaprogramm teilnimmt, kann die neue Plattform daher früher sehen als jemand mit einem älteren Galaxy-Modell im stabilen Kanal.
+[Samsungs aktuelle One-UI-9-Seite](https://www.samsung.com/us/apps/one-ui/) sagt, dass das offizielle One UI 9 zuerst auf Galaxy Z Fold8 Ultra, Galaxy Z Fold8 und Galaxy Z Flip8 ausgerollt wurde und voraussichtlich schrittweise auf weiteren Galaxy-Geräten erscheint. Die Verfügbarkeit hängt von Modell, Land oder Region, Anbieter, Firmware und Build ab.
 
 Smartphones von Xiaomi, Redmi und POCO verwenden Xiaomi HyperOS. Die HyperOS-Nummer beschreibt Xiaomis eigene Oberfläche und Funktionen, verrät aber nicht immer auf den ersten Blick, welche Android-Basis darunter liegt. Öffne die Android-Versionsdetails, bevor du annimmst, dass HyperOS 3 oder ein späterer HyperOS-Build auf jedem Modell dasselbe bedeutet.
 

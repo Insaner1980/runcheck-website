@@ -34,13 +34,11 @@ Pixel-puhelimet ovat selkein esimerkki. Nykyisen Pixelin voi edelleen käynnist�
 
 Samsung säilytti toiminnon monia muita valmistajia pidempään. Siksi suurin osa tätä aihetta etsivistä kysyy käytännössä Galaxy-puhelimista.
 
-## Samsungin tilanne vuonna 2026
+## Nykyinen rajaus: A/B-Android ja tuetut Galaxy-laitteet
 
-Samsungin kesäkuussa 2026 päivitetty brittiläinen tukisivu neuvoo edelleen tyhjentämään välimuistiosion Recovery Mode -tilassa: sammuta puhelin, avaa Recovery oikealla painikeyhdistelmällä, valitse **Wipe cache partition**, vahvista ja käynnistä laite uudelleen.
+[AOSP:n A/B-päivitysdokumentaatio](https://source.android.com/docs/core/ota/ab/ab_implement) toteaa, etteivät A/B-laitteet tarvitse OTA-paketeille recovery- tai cache-osiota. Siksi perinteinen **Wipe cache partition** ei ole yleinen nyky-Androidin ominaisuus.
 
-Samaan aikaan Samsungin helmikuun 2026 tietoturvapäivitys näyttää poistaneen joistakin Galaxy-malleista useita Recovery Mode -työkaluja, myös **Wipe cache partition** -toiminnon. Android Authorityn ja GalaxyClubin raportit koskivat ensin Galaxy S25 -sarjaa ja myöhemmin myös Galaxy Z Fold 7:ää. Näissä ohjelmistoversioissa supistettu valikko sisälsi tiettävästi vain kohdat **Reboot system now**, **Wipe data/factory reset** ja **Power off**.
-
-Samsung ei ole julkaissut yhtä selkeää, kaikkia malleja ja alueita koskevaa selitystä. Turvallinen ohje on siksi tämä: vuonna 2026 **Wipe cache partition** riippuu Galaxy-puhelimen mallista ja ohjelmistoversiosta. Jos toiminto näkyy Recovery-valikossa, voit käyttää sitä. Jos se puuttuu, puhelin ei välttämättä ole millään tavalla viallinen.
+[Samsungin nykyinen brittiläinen ohje](https://www.samsung.com/uk/support/mobile-devices/how-do-i-clear-the-cache-on-my-device/) dokumentoi toiminnon edelleen tuetuille Galaxy-laitteille: avaa Recovery, valitse **Wipe cache partition**, vahvista ja käynnistä uudelleen. Pidä sitä Samsung- ja ohjelmistokohtaisena. Jos toiminto puuttuu, älä korvaa sitä kohdalla **Wipe data/factory reset**.
 
 ## Ennen Recovery Mode -tilan avaamista
 

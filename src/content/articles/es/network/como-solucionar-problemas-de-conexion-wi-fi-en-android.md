@@ -16,6 +16,8 @@ tags:
 locale: "es"
 draft: false
 ---
+Los nombres de menú, el comportamiento compatible y los pasos exactos cambian según fabricante, modelo, versión de Android, región, operador y firmware. Cualquier ruta de Pixel o específica de otro fabricante que aparezca abajo es un ejemplo para esa familia, no un comportamiento universal de Android; usa las instrucciones de tu modelo exacto.
+
 
 ¿Qué deberías probar primero cuando falla el Wi-Fi en Android? No empieces con un restablecimiento de fábrica ni pierdas media hora cambiando ajustes del router antes de probar lo más sencillo. La mayoría de los problemas de Wi-Fi encajan en uno de estos tres casos: el móvil no se conecta, se conecta pero pierde la conexión o sigue conectado aunque Internet parece no funcionar.
 

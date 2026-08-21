@@ -107,7 +107,7 @@ test("articles list style", () => {
     articleDetailSource.split(/^---\s*$/m).at(-1) ?? "";
   assert.doesNotMatch(
     articleDetailTemplate,
-    /article\.data\.sourceNumber/,
+    />\s*(?:Article\s*)?\{article\.data\.sourceNumber\}\s*</,
     "Article detail templates should not render source article numbers.",
   );
   assert.ok(

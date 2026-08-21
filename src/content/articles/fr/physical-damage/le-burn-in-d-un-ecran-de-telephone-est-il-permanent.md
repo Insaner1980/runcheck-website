@@ -9,6 +9,8 @@ tags: ["materiel", "dommages", "reparation", "android", "depannage"]
 locale: "fr"
 draft: false
 ---
+Les noms de menus, le comportement pris en charge et les étapes exactes varient selon le fabricant, le modèle, la version d'Android, la région, l'opérateur et le micrologiciel. Un parcours Pixel ou propre à un autre fabricant ci-dessous est un exemple pour cette famille, pas un comportement Android universel ; suivez les instructions de votre modèle exact.
+
 
 ---
 
@@ -46,7 +48,7 @@ Faire tourner ces outils pendant des heures à forte luminosité peut ajouter de
 
 La navigation entièrement gestuelle est prise en charge depuis Android 10, et le principe reste valable sous Android 17 : sur un écran OLED, les gestes évitent d'afficher en permanence une barre très lumineuse à trois boutons.
 
-Les fonctions d'affichage permanent déplacent aussi légèrement les horloges et les icônes, réduisent leur luminosité ou limitent leur durée d'affichage. Certains fabricants utilisent un déplacement discret des pixels ou un comportement équivalent afin que les mêmes zones ne supportent pas toute l'usure. Samsung documente par exemple la fonction Pixel Shift sur ses moniteurs et téléviseurs OLED. Sur les téléphones, ces protections fonctionnent généralement de manière plus discrète et ne sont pas toujours réglables.
+Le comportement de l'affichage permanent et les autres protections de la dalle varient selon le téléphone, le fabricant et le modèle. Consultez les consignes d'affichage de l'appareil exact au lieu de supposer une fonction documentée pour une autre catégorie de produit.
 
 La luminosité automatique aide également. Le risque augmente lorsque la dalle fonctionne très fort pendant longtemps, alors laisser un téléphone au maximum dans une pièce est une contrainte inutile.
 

@@ -10,6 +10,8 @@ tags: ["batteri", "optimering", "android", "tips", "ydeevne"]
 locale: "da"
 draft: false
 ---
+Menunavne, understøttet adfærd og præcise trin varierer efter producent, model, Android-version, område, operatør og firmware. En Pixel- eller anden producentspecifik sti nedenfor er et eksempel for den enhedsfamilie, ikke universel Android-adfærd; brug vejledningen til din præcise model.
+
 
 Batterisparefunktion hjælper mest, før telefonen er helt presset. Det gør en forskel at aktivere den ved 8 %, men på det tidspunkt er det meste af batteriet allerede brugt.
 

@@ -9,6 +9,8 @@ tags: ["hardware", "pruebas", "diagnostico", "android", "guia"]
 locale: "es"
 draft: false
 ---
+Android controla la vibración mediante [la API del actuador Vibrator](https://developer.android.com/reference/android/os/Vibrator); el motor de vibración no es un sensor de Android. Para pruebas directas, [Samsung documenta `*#0*#`](https://www.samsung.com/ch/support/mobile-devices/wie-kann-ich-einzelne-hard-oder-software-funktionen-testen/), [Samsung Members ofrece diagnóstico compatible](https://www.samsung.com/us/support/answer/ANS10003443/) y [Xiaomi documenta CIT](https://www.mi.com/global/support/faq/details/KA-491482/) en dispositivos aplicables. La disponibilidad y los nombres cambian por modelo, región, operador y firmware.
+
 
 ---
 
@@ -31,8 +33,6 @@ Un detalle más: revisa el teclado. Gboard, Teclado Samsung y SwiftKey tienen su
 Los Samsung Galaxy tienen la opción integrada más clara. Abre Samsung Members, toca Ayuda y luego Ver pruebas dentro de Diagnóstico. Ejecuta la prueba de vibración si aparece en tu modelo, o inicia el diagnóstico completo. Esta vía es más segura que depender de códigos ocultos.
 
 El antiguo código de Samsung `*#0*#` sigue abriendo un menú de pruebas de hardware en muchos Galaxy. Toca la opción de vibración y el móvil debería vibrar hasta que salgas de la prueba. Debes usar la aplicación Teléfono de Samsung. El firmware del operador, los ajustes de seguridad de versiones recientes de One UI o las restricciones empresariales pueden bloquear el menú.
-
-Algunos móviles Android también reaccionan a `*#*#0842#*#*`, un código usado desde hace años para probar la vibración y la retroiluminación. No lo trates como universal. Los Pixel normalmente no lo admiten y muchas aplicaciones de teléfono actuales lo ignoran.
 
 En Xiaomi, Redmi y POCO, prueba el menú CIT con `*#*#6484#*#*`. El nombre del menú y la lista de pruebas varían entre versiones de MIUI y HyperOS, pero suele incluir una comprobación de vibración.
 

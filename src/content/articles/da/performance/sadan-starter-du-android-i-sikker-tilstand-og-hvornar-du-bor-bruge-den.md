@@ -9,6 +9,8 @@ tags: ["batteri", "strømforbrug", "fejlfinding", "android", "ydeevne"]
 locale: "da"
 draft: false
 ---
+Menunavne, understøttet adfærd og præcise trin varierer efter producent, model, Android-version, område, operatør og firmware. En Pixel- eller anden producentspecifik sti nedenfor er et eksempel for den enhedsfamilie, ikke universel Android-adfærd; brug vejledningen til din præcise model.
+
 
 Hvordan ved du, om telefonen er langsom, fordi Android har en dårlig dag, eller fordi én app ødelægger det hele i baggrunden? Sikker tilstand er den reneste test.
 

@@ -88,7 +88,7 @@ runcheck-sovelluksen kaltainen diagnostiikkasovellus voi auttaa seuraamaan akun 
 
 Tumma tila säästää akkua OLED- ja AMOLED-näytöillä, mutta säästön määrä riippuu kirkkaudesta ja siitä, kuinka tumma sovelluksen käyttöliittymä todella on. LCD-näytöillä vaikutus on yleensä pieni, koska taustavalo pysyy päällä.
 
-Lentotila voi nopeuttaa lataamista hieman, koska laite tekee vähemmän työtä. Ero on yleensä pieni, ellei signaali ole erittäin heikko.
+Lentotila voi vähentää radioiden ja taustatoiminnan käyttöä, jolloin puhelin saattaa kuluttaa vähemmän virtaa latauksen aikana. Laturin syöttöteho on eri asia, eikä yleistä mitattua latausajan lyhenemistä ole osoitettu.
 
 Puhelinta voi käyttää turvallisesti latauksen aikana, kun laite ja laturi ovat asianmukaisia. Raskas pelaaminen pikalatauksen aikana on eri asia, koska se lisää lämpöä. Kevyt selailu tai viestittely ei ole ongelma.
 

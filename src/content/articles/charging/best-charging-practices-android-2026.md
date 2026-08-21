@@ -101,11 +101,9 @@ Look under Settings > Battery for Optimized Charging, Battery Health Engine, or 
 
 If your OnePlus phone offers bypass charging during gaming or heavy use, it's worth using when plugged in for long sessions. The point is to reduce battery heat while the phone is working hard.
 
-### Xiaomi, OPPO, and others
+### POCO F6 example
 
-Xiaomi and OPPO menus vary more by region and software version. Look for Battery protection, optimized charging, smart charging, or a charge limit inside Settings > Battery.
-
-If your phone has proprietary high-wattage charging, use the recommended charger and cable when you want top speed. For normal overnight charging, a slower USB-C PD charger is often enough.
+[On the POCO F6, Xiaomi documents](https://www.mi.com/global/support/faq/details/KA-274093/) `Settings > Battery > Battery protection`, with Regular, Limited, Optimized, and Nighttime charging choices. It also documents `Security > Battery > Battery protection` as an alternate route. This is a POCO F6 example, not a universal menu or mode list for Xiaomi, Redmi, POCO, MIUI, or HyperOS devices. Other models and software versions may differ.
 
 ## Habits you can stop worrying about
 

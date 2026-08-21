@@ -14,6 +14,8 @@ Du kobler telefonen til laderen, kommer tilbake 20 minutter senere og merker at 
 
 Lading skaper alltid noe varme fordi en del av energien som kommer inn, blir til spillvarme i laderen, kabelen og telefonen. Hurtiglading skaper mer. Trådløs lading skaper vanligvis enda mer. Spørsmålet er ikke om telefonen blir varm, men om temperaturen holder seg innenfor et normalt område eller om telefonen begynner å beskytte seg selv.
 
+For batteriforskningen i denne artikkelen støtter [oversikten til Edge med flere](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) kapasitetstap, effekttap, økt impedans og virkninger av temperatur, ladenivå, strøm eller belastning, SEI-vekst og litiumplettering. Den fastsetter ikke produsentfunksjoner, universelle temperaturgrenser for telefoner, tilbehørsvalg, reparasjonsråd eller priser, nøyaktig levetid, ladetid eller garanterte forbrukerresultater.
+
 ## Hvor kommer varmen fra?
 
 Selve batteriet utvikler varme når strøm går inn i cellen. Høyere strøm gir mer varme, og derfor er telefonen vanligvis varmest i den første delen av en hurtiglading.

@@ -9,6 +9,8 @@ tags: ["bateria", "consumo", "solucion-de-problemas", "android", "rendimiento"]
 locale: "es"
 draft: false
 ---
+Los nombres de menú, el comportamiento compatible y los pasos exactos cambian según fabricante, modelo, versión de Android, región, operador y firmware. Cualquier ruta de Pixel o específica de otro fabricante que aparezca abajo es un ejemplo para esa familia, no un comportamiento universal de Android; usa las instrucciones de tu modelo exacto.
+
 
 ¿Cómo puedes saber si el móvil va lento porque Android está teniendo un mal día o porque una aplicación está causando problemas en segundo plano? El modo seguro es la prueba más limpia.
 

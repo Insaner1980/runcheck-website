@@ -14,6 +14,8 @@ Er trådløs lading skadelig for batteriet, eller er dette bare enda en ting int
 
 Problemet er ikke den trådløse energioverføringen i seg selv. Problemet er varme. Trådløs lading mister mer energi under overføringen enn en kabel, og den tapte energien blir til varme i telefonen, ladeplaten eller begge deler.
 
+For batteriforskningen i denne artikkelen støtter [oversikten til Edge med flere](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) kapasitetstap, effekttap, økt impedans og virkninger av temperatur, ladenivå, strøm eller belastning, SEI-vekst og litiumplettering. Den fastsetter ikke produsentfunksjoner, universelle temperaturgrenser for telefoner, tilbehørsvalg, reparasjonsråd eller priser, nøyaktig levetid, ladetid eller garanterte forbrukerresultater.
+
 ## Hvor varmen kommer fra
 
 Trådløs lading bruker to spoler. Den ene sitter i ladeplaten, og den andre inne i telefonen. Energi overføres mellom dem gjennom elektromagnetisk induksjon. Det fungerer godt nok, men er ikke helt effektivt.

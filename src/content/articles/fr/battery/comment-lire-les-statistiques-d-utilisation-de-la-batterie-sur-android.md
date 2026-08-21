@@ -10,6 +10,8 @@ tags: ["batterie", "consommation", "depannage", "android", "performances"]
 locale: "fr"
 draft: false
 ---
+Les noms de menus, le comportement pris en charge et les étapes exactes varient selon le fabricant, le modèle, la version d'Android, la région, l'opérateur et le micrologiciel. Un parcours Pixel ou propre à un autre fabricant ci-dessous est un exemple pour cette famille, pas un comportement Android universel ; suivez les instructions de votre modèle exact.
+
 
 Vous ouvrez Utilisation de la batterie et une application affiche 42 %. Cela semble inquiétant. Parfois, ça l'est. Parfois, ce chiffre ne veut presque rien dire.
 

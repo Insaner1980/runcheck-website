@@ -13,17 +13,9 @@ Android 17 doesn't clean this up by itself. Google released Android 17 first for
 
 So don't read this as one universal Xiaomi path. Read it as a checklist.
 
-## Check Battery protection first
+## POCO F6 battery-protection example
 
-On current HyperOS builds, start here:
-
-Settings > Battery > Battery protection
-
-Depending on the phone and firmware, this page can include battery protection controls, Smart charging, temperature, daily charging information, and sometimes health or cycle data.
-
-On supported models, you may see battery health percentage or cycle count under Battery protection, Battery health, or a similarly named page. Xiaomi doesn't expose this consistently across the full product line. Flagships and newer performance models tend to get better data first. Budget Redmi models often don't.
-
-If the screen isn't there, updating HyperOS and Xiaomi system apps may help, but don't expect miracles. Xiaomi can simply withhold the feature on that model.
+[On the POCO F6, Xiaomi documents](https://www.mi.com/global/support/faq/details/KA-274093/) `Settings > Battery > Battery protection`, with Regular, Limited, Optimized, and Nighttime charging choices. It also documents `Security > Battery > Battery protection` as an alternate route. This is a POCO F6 example, not a universal menu or mode list for Xiaomi, Redmi, POCO, MIUI, or HyperOS devices. Other models and software versions may differ.
 
 ## Smart charging and the 80% behavior
 

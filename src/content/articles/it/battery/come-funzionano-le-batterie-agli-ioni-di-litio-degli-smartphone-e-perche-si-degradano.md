@@ -13,6 +13,8 @@ draft: false
 
 Capire le basi rende meno misteriosi i consigli più comuni. La regola del 20-80 %, gli avvertimenti sul calore e il motivo per cui i telefoni vecchi si spengono prima del previsto dipendono tutti dalla stessa cosa: gli ioni di litio si muovono in una cella che cambia lentamente ogni volta che la usi.
 
+Per le affermazioni scientifiche sulla batteria di questo articolo, [la revisione di Edge e coautori](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) supporta perdita di capacità e potenza, aumento dell'impedenza ed effetti di temperatura, livello di carica, corrente o carico, crescita della SEI e placcatura del litio. Non stabilisce funzioni del produttore, soglie universali per i telefoni, scelta di accessori, consigli o prezzi di riparazione, durata esatta, tempi di ricarica o risultati garantiti.
+
 ## La struttura di base della cella
 
 Una batteria agli ioni di litio per smartphone ha quattro parti principali: anodo, catodo, elettrolita e separatore. Nelle celle convenzionali l'anodo è di solito in grafite. Il catodo è un ossido metallico di litio, con una composizione esatta che varia in base al produttore. L'elettrolita permette agli ioni di litio di muoversi, mentre il separatore impedisce che i due elettrodi si tocchino.

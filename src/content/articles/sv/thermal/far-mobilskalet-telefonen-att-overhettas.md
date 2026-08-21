@@ -9,69 +9,26 @@ tags: ["temperatur", "värme", "android", "felsökning", "hårdvara"]
 locale: "sv"
 draft: false
 ---
+Ett mobilskal kan ändra luftflöde, värmeöverföring från ytan, placering vid trådlös laddning eller radiofunktion, men underlaget fastställer ingen allmän rangordning eller fast temperaturpåverkan för TPU, silikon, läder, aramid eller robusta skal.
 
-Värmen kommer från telefonens insida: SoC, GPU, modem, skärm, batteri och laddningskomponenter. Ett skal skapar inte värmen. Det bromsar telefonens förmåga att bli av med den. De flesta dagar spelar det knappt någon roll. En dag med snabbladdning, GPS, direkt sol och ett tjockt skal kan det spela stor roll.
+## Vad som kan sägas tillförlitligt
 
-Den skillnaden är värd att behålla. Att skylla varje varm telefon på skalet är lat felsökning. Att helt ignorera skalet är lika illa.
+Androids [Thermal API](https://developer.android.com/games/optimize/adpf/thermal) dokumenterar hur en enhet kan rapportera termisk belastning och minska arbetsmängden. Den jämför inte skal. Ett varmare värde med ett skal på en telefon får inte göras till en regel för alla modeller eller material.
 
-## Vad ett skal förändrar
+Ett skal kan ändå spela roll i en bestämd installation. Dålig passform kan täcka en öppning, ett tjockt tillbehör kan störa laddspolen och metall eller magneter kan påverka kompatibel trådlös laddning. Det är design- och kompatibilitetsfrågor, inte bevis för att ett material alltid håller kvar en bestämd värmemängd.
 
-Telefoner avger värme genom bakstycket, ramen och skärmglaset. Ett skal lägger ytterligare ett lager mellan den varma ytan och luften omkring. Tunna skal lägger till ett litet lager. Rejäla skyddsskal fungerar mer som en värmefilt.
+## Den officiella varningen är modellspecifik
 
-Ett tunt skal av aramid eller hårdplast har vanligtvis liten effekt vid normal användning. Ett tjockt TPU-skal, silikonskal, plånboksskal eller flerskiktat skyddsskal håller kvar mer värme. Fodral av läder är särskilt bra på att blockera luftflödet eftersom de täcker mer av telefonen och kan vikas över framsidan.
+Googles [säkerhetsguide för Pixel 7 och Pixel 7 Pro](https://support.google.com/pixelphone/answer/12164747?hl=en) varnar för metall- eller magnetskal vid trådlös laddning av dessa modeller. Varningen gäller den omfattningen. Den visar inte att alla vanliga icke-metalliska skal överhettar varje Android-telefon.
 
-Telefonen producerar fortfarande samma värme. Det tar bara längre tid för den att försvinna.
+Följ tillverkarens och laddarens instruktioner för andra modeller. Magnetring, plånboksplatta och batteriskal kan ge modellspecifika effekter.
 
-## När skalet faktiskt spelar roll
+## Testa utan att hitta på en gräns
 
-Skalet spelar störst roll när telefonen redan ligger nära sin termiska gräns.
+Om telefonen varnar för temperatur, pausar laddning, stryper kraftigt eller blir ovanligt obehaglig under en repeterbar uppgift, ta av skalet och upprepa samma uppgift i samma rum med samma laddare och skärmanvändning. Se det som felsökning för telefonen, inte laboratoriebevis.
 
-Snabbladdning är det första fallet. Laddning med 25 W eller 45 W skapar mer värme än långsam laddning, och telefonen måste leda bort värmen samtidigt som batteriet skyddas. Med ett tjockt skal kan batteriet tillbringa längre tid över 35 °C eller 40 °C.
+Lita inte på ett enda appvärde eller en liten skillnad. Sensorer, tidpunkt, bakgrundsarbete, laddstatus och rumstemperatur kan ändra resultatet.
 
-Trådlös laddning är det andra. Trådlösa laddplattor överför energi mindre direkt än en kabel, så mer går förlorat som värme. Placeringen spelar också roll. Qi2 hjälper med magnetisk inriktning, men ett tjockt skal ökar fortfarande avståndet mellan spolarna. Plånboksskal, metallplattor, ringfästen och magnetiska tillbehör kan göra saken värre.
+## Praktiskt svar
 
-Spel och navigering är det tredje. Ett spel kan belasta CPU och GPU i en timme. Navigering håller skärmen ljus, platsfunktionen aktiv och ofta även mobildata igång. Placera telefonen i ett vindrutefäste en solig dag, så blir skalet ytterligare en sak som håller kvar värmen.
-
-Varmt väder förstärker allt. Ett skal som är harmlöst vid 22 °C inomhus kan bli den sista knuffen vid 32 °C utomhus.
-
-## Material och konstruktioner
-
-Silikon och TPU är populära eftersom de ger bra grepp och dämpar fall. De isolerar också. Det gör dem inte till dåliga skal, men förklarar varför de kan kännas varma under laddning eller spel.
-
-Rejäla skyddsskal är sämre för värmen eftersom de staplar flera material: ett mjukt innerskal, ett hårt ytterskal, upphöjda kanter och ibland portskydd. Bra mot fall. Inte lika bra för kylning.
-
-Skal av läder och konstläder fungerar som isolering, särskilt plånboksmodeller. De är bekväma och praktiska, men jag skulle inte välja ett sådant till en telefon som redan går varm.
-
-Tunna skal av hårdplast och aramid håller sig vanligtvis svalare eftersom de tillför mindre material. Vissa produkter marknadsförs som kylskal med ventilationsöppningar eller värmespridande material. De kan hjälpa lite, men vänta dig inga mirakel. Ett skal kan inte upphäva ett varmt rum, en snabbladdare och ett spel som körs för fullt.
-
-Metallskal är besvärliga. Metall leder värme bra och kan därför hjälpa till att flytta värmen bort från telefonen. Samtidigt kan materialet störa trådlös laddning, NFC, magneter samt mobil- och Wi-Fi-prestanda beroende på konstruktionen. Eftersom metallen sprider värmen kan skalet också kännas hetare i handen trots att det gör sitt jobb.
-
-## Bör du ta av skalet under laddning?
-
-Inte alltid. Vid långsam kabelansluten laddning med 5 W eller 10 W i ett normalt rum fungerar de flesta skal bra.
-
-Ta av det när värme redan är ett problem. Det gäller snabbladdning, trådlös laddning, varma rum, spel, surfzon eller GPS i bilen. Det är ett litet besvär och ett enkelt test.
-
-Om telefonen går från het till bara varm när skalet tas av har du svaret. Du behöver inget laboratorietest.
-
-## Så testar du ditt eget skal
-
-Gör två liknande laddningssessioner. Använd samma laddare, samma batteriintervall, samma rum och samma underlag. Kör den ena med skalet på och den andra utan. Följ batteritemperaturen med runcheck eller en annan sensorapp.
-
-Jämför inte en snabbladdning från 20 till 80 % på eftermiddagen med en påfyllning från 70 till 100 % på kvällen. Laddningen beter sig olika beroende på batterinivån. Rumstemperaturen förändras också. Håll testet tråkigt.
-
-En skillnad på en eller två grader är inte värd att ändra hela upplägget för. En skillnad på 5 °C vid trådlös laddning är värd att lägga märke till. Om telefonen passerar 40 °C med skalet på men håller sig under gränsen utan skal bör du ta av det vid värmetunga situationer eller byta till ett tunnare.
-
-## Genomskinliga skal, kylfläktar och andra specialfall
-
-Genomskinliga skal är inte automatiskt svalare. De flesta är gjorda av TPU eller polykarbonat, och tjockleken spelar större roll än genomskinligheten. Ett tjockt genomskinligt TPU-skal kan hålla kvar värme precis som ett svart TPU-skal.
-
-Färgen spelar främst roll i direkt solljus. Ett mörkt skal absorberar mer solvärme än ett ljust. Inomhus har färgen knappt någon betydelse.
-
-Kylare som fästs på telefonen fungerar. Fläktar och termoelektriska plattor kan sänka yttemperaturen under långa spelsessioner. De ger också mer ljud, mer bulk och ytterligare en sak att ladda. För de flesta är det bättre att först ta av skalet och undvika direkt solljus.
-
-Om telefonen överhettas utan skal, utan laddare, utan en tung app och vid normal rumstemperatur ska du sluta skylla på tillbehören. Kontrollera programvara, batterihälsa eller maskinvara.
-
----
-
-_Metabeskrivning: Mobilskal skapar inte värme, men tjocka TPU-, silikon-, skydds- och plånboksskal kan hålla kvar den vid snabbladdning, trådlös laddning, spel, navigering eller varmt väder._
+Ta inte av ett normalt skal som standard. Ta av det tillfälligt vid värme- eller laddproblem och låt det vara av om samma problem tillförlitligt försvinner. Byt skal som täcker öppningar, passar dåligt, är skadat eller strider mot officiella instruktioner. Det finns inget försvarbart stöd för de tidigare materialrankningarna eller fasta Celsius-skillnaderna.

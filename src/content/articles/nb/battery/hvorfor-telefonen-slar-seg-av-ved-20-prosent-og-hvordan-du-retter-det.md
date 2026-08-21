@@ -13,6 +13,8 @@ draft: false
 
 På en måte gjør det det. Tallet på skjermen er et anslag, og gamle batterier er vanskeligere å beregne riktig.
 
+For batteriforskningen i denne artikkelen støtter [oversikten til Edge med flere](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) kapasitetstap, effekttap, økt impedans og virkninger av temperatur, ladenivå, strøm eller belastning, SEI-vekst og litiumplettering. Den fastsetter ikke produsentfunksjoner, universelle temperaturgrenser for telefoner, tilbehørsvalg, reparasjonsråd eller priser, nøyaktig levetid, ladetid eller garanterte forbrukerresultater.
+
 ## Det første du bør kontrollere
 
 Sjekk batterihelsen før du begynner med kalibreringstriks.

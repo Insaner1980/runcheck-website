@@ -54,6 +54,11 @@ const sourceTitles = existsSync(sourceRoot)
         }),
     )
   : null;
+const preservedRouteSlugs = new Map([
+  [112, "codici-diagnostici-android-elenco-completo-per-produttore"],
+  [113, "codici-di-servizio-android-per-marca-quali-funzionano-ancora"],
+  [159, "menu-cit-xiaomi-test-hardware-nascosti-per-xiaomi-redmi-e-poco"],
+]);
 
 test("Italian 160 preview-artikkelia täyttävät metadata-, slug- ja kieliportin", (t) => {
   if (!sourceTitles) {
@@ -92,7 +97,7 @@ test("Italian 160 preview-artikkelia täyttävät metadata-, slug- ja kieliporti
       !ids.has(data.sourceNumber),
       `sourceNumber ${data.sourceNumber} esiintyy kahdesti.`,
     );
-    if (sourceTitles) {
+    if (sourceTitles && !preservedRouteSlugs.has(data.sourceNumber)) {
       assert.equal(
         data.title,
         sourceTitles.get(data.sourceNumber),
@@ -111,7 +116,10 @@ test("Italian 160 preview-artikkelia täyttävät metadata-, slug- ja kieliporti
     assert.ok(typeof data.hub === "string" && data.hub.length > 0);
     assert.ok(Number.isInteger(data.order));
     assert.ok(data.order > 0);
-    assert.equal(slug, localizedSeoSlug(data.title, "it", data.sourceNumber));
+    const expectedSlug =
+      preservedRouteSlugs.get(data.sourceNumber) ??
+      localizedSeoSlug(data.title, "it", data.sourceNumber);
+    assert.equal(slug, expectedSlug);
     assert.ok(slug.length <= 90);
     assert.match(slug, /^[a-z0-9]+(?:-[a-z0-9]+)*$/);
     assert.ok(

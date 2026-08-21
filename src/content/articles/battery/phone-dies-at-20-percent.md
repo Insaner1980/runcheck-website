@@ -12,6 +12,8 @@ draft: false
 
 It is, in a way. The number on screen is an estimate, and old batteries are harder to estimate.
 
+For the battery-science statements in this article, [the Edge et al. review](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) supports capacity and power fade, impedance increase, and the effects of temperature, state of charge, current or load, SEI growth, and lithium plating. It does not establish manufacturer features, universal phone thresholds, accessory choices, repair advice or prices, exact lifetimes, charging-time claims, or guaranteed consumer outcomes.
+
 ## The first thing to check
 
 Check battery health before chasing calibration tricks.

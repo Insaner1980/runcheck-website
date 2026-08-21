@@ -14,6 +14,8 @@ Paras lataustapa on tylsä: pidä puhelin viileänä, vältä pitämästä sitä
 
 Tämä ei tarkoita, että varaustasoa pitäisi vahtia jatkuvasti tai puhelin irrottaa laturista samalla sekunnilla, kun se saavuttaa 80 %. Puhelin on työkalu, ei laboratorionäyte. Litiumioniakut kuitenkin vanhenevat nopeammin muutamissa ennakoitavissa olosuhteissa, ja latausrutiini voi joko lisätä tätä rasitusta tai pitää sen kurissa.
 
+Tämän artikkelin akkutieteellisissä väitteissä [Edge ym. -katsaus](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) tukee kapasiteetin ja tehon heikkenemistä, impedanssin kasvua sekä lämpötilan, varaustason, virran tai kuormituksen, SEI-kerroksen kasvun ja litiumin pinnoittumisen vaikutuksia. Se ei osoita valmistajan ominaisuuksia, yleisiä puhelimen lämpörajoja, lisävarustevalintoja, korjausohjeita tai hintoja, tarkkaa käyttöikää, latausaikaväitteitä tai taattuja kuluttajatuloksia.
+
 ## 20-80 %:n lataustapa
 
 Litiumioniakut eivät pidä ääripäistä. Kun puhelimen akku on lähellä 100 %:a, kennon jännite on tavallista korkeampi. Korkea jännite nopeuttaa kennon sisäisiä sivureaktioita, kuten kiinteän elektrolyyttirajapinnan kasvua ja käyttökelpoisen litiumin asteittaista häviämistä. Seurauksena akku pystyy ajan mittaan varastoimaan vähemmän energiaa.

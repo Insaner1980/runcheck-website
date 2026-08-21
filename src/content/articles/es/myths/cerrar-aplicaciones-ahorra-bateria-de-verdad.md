@@ -9,41 +9,22 @@ tags: ["mitos", "datos", "android", "bateria", "desmitificacion"]
 locale: "es"
 draft: false
 ---
+No deslices sistemáticamente todas las aplicaciones para ahorrar batería. [La ayuda de Android de Google dice que normalmente no hace falta cerrar aplicaciones](https://support.google.com/android/answer/9079646?hl=en-GB) y recomienda cerrar o forzar la detención solo cuando una aplicación no responde.
 
-En realidad, no ahorra batería.
+## Qué significa la vista de aplicaciones recientes
 
-## La respuesta sigue siendo no
+Android puede conservar aplicaciones recientes en memoria caché para abrirlas rápidamente. Estar en caché no significa estar trabajando activamente. [La explicación de gestión de memoria de Android](https://developer.android.com/topic/performance/memory-management-overview) indica que el sistema recupera procesos cuando necesita memoria.
 
-Cerrar aplicaciones desde la vista de aplicaciones recientes no ahorra una cantidad apreciable de batería en Android. En muchas situaciones normales, incluso puede gastar un poco más, porque la aplicación tendrá que arrancar desde cero la próxima vez que la abras.
+Ese comportamiento no demuestra un ahorro ni un coste fijo de batería al cerrar una aplicación. La conclusión defendible es más limitada: vaciar la lista por rutina es innecesario y el diagnóstico debe centrarse en aplicaciones que realmente funcionan mal.
 
-Android está diseñado para conservar en la memoria las aplicaciones utilizadas recientemente cuando puede. Eso no significa que sigan ejecutándose de forma activa. Una aplicación en caché puede quedarse ahí sin hacer nada para abrirse más rápido después. Tener la RAM vacía no es ningún premio.
+## Cuándo tiene sentido detener una aplicación
 
-Cuando deslizas una aplicación para quitarla, Android puede eliminar ese estado almacenado en caché. Al volver a abrirla, el móvil tiene que cargarla desde el almacenamiento, reconstruir la interfaz, volver a cargar datos y reconectarse a los servicios que utilice. Hacerlo con una aplicación no te arruinará el día. Repetirlo constantemente solo crea trabajo innecesario.
+Cierra o fuerza la detención si una aplicación está bloqueada o no responde. Si usa de forma inesperada ubicación, audio, red o una gran parte de la batería, revisa su consumo y permisos en segundo plano. Los nombres de los menús cambian según fabricante y versión de Android.
 
-## Lo que Android ya hace por su cuenta
-
-Android lleva años gestionando el consumo de batería en segundo plano. Doze y App Standby llegaron con Android 6.0. Las versiones posteriores añadieron límites más estrictos, App Standby Buckets, controles de notificaciones, reglas para la ejecución en segundo plano y ajustes de batería propios de cada fabricante.
-
-Doze limita el uso de la red y las tareas intensivas de CPU cuando el móvil está inactivo, desenchufado y con la pantalla apagada. App Standby y App Standby Buckets limitan las aplicaciones según cuánto tiempo hace que las usaste y con qué frecuencia. Android 17 también incorpora controles de memoria más estrictos a nivel del sistema para impedir que una aplicación consuma demasiada RAM.
-
-Ese es el punto importante. El móvil ya tiene un sistema de gestión de energía. La vista de aplicaciones recientes no es un panel de control de la batería.
-
-## Cuándo tiene sentido forzar la detención de una aplicación
-
-Hay situaciones en las que detener una aplicación es la decisión correcta.
-
-Si una aplicación se ha quedado usando el GPS, reproduciendo audio, sincronizando sin parar o manteniendo caliente el móvil dentro del bolsillo, detenla. Ve a **Ajustes > Batería > Uso de batería** y busca una aplicación cuyo consumo no encaje con el uso real que has hecho. Una red social que ha gastado el 20 % de la batería tras diez minutos de pantalla merece una revisión.
-
-También puedes limitar una aplicación concreta. En muchos móviles Android, abre **Ajustes > Aplicaciones**, elige la aplicación y entra en su apartado de batería o de uso de batería. Después limita su actividad en segundo plano. El nombre exacto cambia según el fabricante, pero la idea es la misma: restringir la aplicación problemática, no todas las aplicaciones.
-
-Aquí es donde mucha gente lo entiende al revés. Cerrar una aplicación que funciona mal es una medida de diagnóstico. Cerrar todas durante todo el día es solo una costumbre.
+Detener una aplicación defectuosa es diagnosticar. No es lo mismo que vaciar todas las recientes cada día como ritual de batería.
 
 ## Qué hacer en su lugar
 
-Deja en paz las aplicaciones recientes salvo que alguna se esté comportando mal.
+Usa la pantalla de consumo para encontrar actividad inusual, actualiza o elimina la aplicación defectuosa y reinicia el teléfono si un proceso queda atascado. Revisa también el calor y la mala señal móvil; vaciar la lista de recientes no corrige ninguno.
 
-Mantén activada Batería inteligente si tu móvil la ofrece. Revisa de vez en cuando el uso de batería. Reduce las notificaciones en segundo plano de las aplicaciones que sincronizan demasiado. Desinstala las que no uses o en las que no confíes. Reinicia el móvil si lleva varios días comportándose de forma extraña.
-
-Comprueba también la cobertura y la temperatura. Un móvil situado en una zona con mala señal puede consumir mucha batería intentando mantener la conexión. Si está caliente, reducirá el rendimiento, cargará más despacio y gastará más. Cerrar aplicaciones no soluciona ninguno de esos problemas.
-
-Al porcentaje de batería le da igual lo ordenada que parezca la vista de aplicaciones recientes.
+No se puede prometer un porcentaje universal de batería por cerrar o conservar aplicaciones recientes. Mide el problema real en tu dispositivo.

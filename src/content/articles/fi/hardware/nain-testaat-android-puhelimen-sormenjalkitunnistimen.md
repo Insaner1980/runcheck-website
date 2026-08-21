@@ -32,11 +32,7 @@ Yksi nykyinen Samsung-yksityiskohta jää helposti huomaamatta: Android 16:ta ja
 
 ## Xiaomi-, Redmi- ja POCO-testit
 
-Avaa Xiaomi-, Redmi- tai POCO-puhelimen puhelinsovellus ja kirjoita `*#*#6484#*#*`. Jos CIT-tila ei avaudu, kokeile koodia `*#*#64663#*#*`.
-
-Etsi CIT-valikosta `Fingerprint sensor check`, `Fingerprint input test` tai vastaavasti nimetty testi. Xiaomin tukisivut suosittelevat CIT-laitteistotarkistusta juuri silloin, kun sormenjälkitoiminto puuttuu, joten kyse ei ole pelkästä keskustelupalstakikasta.
-
-Voit myös avata puhelimen tietosivun asetuksista ja napauttaa `Kernel version` -kohtaa useita kertoja. Xiaomi muuttaa valikkojen nimiä MIUI:n ja HyperOS:n välillä, mutta tämä reitti toimii usein silloinkin, kun valintakoodi ei avaudu.
+Avaa Xiaomi-, Redmi- tai POCO-puhelimen puhelinsovellus ja kirjoita `*#*#6484#*#*`. Suorita CIT-valikossa `Fingerprint sensor check` ja `Fingerprint input test`. [Xiaomi dokumentoi juuri tämän koodin ja nämä kaksi testiä](https://www.mi.com/global/support/faq/details/KA-42422/) tilanteeseen, jossa sormenjälkitoiminto puuttuu. Jos sivu tai testit eivät ole saatavilla omassa mallissasi, käytä Xiaomin tukea äläkä korvaa niitä dokumentoimattomalla koodilla.
 
 ## Google Pixel -testit
 
@@ -52,7 +48,7 @@ Android 17 kannattaa mainita, koska se tuli ensin tuetuille Pixel-laitteille. Jo
 
 OnePlus-, Motorola-, Realme-, Oppo- ja Nokia-tyyppiset Android-puhelimet vaihtelevat liikaa, jotta niille voisi antaa yhden yleisen sormenjälkikoodin.
 
-Aloita valmistajan tuki- tai diagnostiikkasovelluksesta, jos puhelimessa on sellainen. Motorolan Device Help sisältää monissa malleissa laitteistotestejä. OnePlus- ja Oppo-sukuisissa puhelimissa `*#899#` tai vanhemmat engineering-valikot voivat avautua, mutta tuki on epäjohdonmukaista.
+Aloita valmistajan tuki- tai diagnostiikkasovelluksesta, jos puhelimessa on sellainen. Käytettävissä olevat testit ja avausreitit vaihtelevat mallin ja ohjelmistoversion mukaan.
 
 Kolmannen osapuolen sovellus voi silti vastata yhteen peruskysymykseen: ilmoittaako Android laitteessa olevan sormenjälkitunnistimen? Sensor Testin, DevCheckin ja Phone Doctor Plusin kaltaiset sovellukset voivat näyttää, tunnistaako järjestelmä biometrisen laitteiston. Ne eivät yleensä pysty suorittamaan turvallista sormenjäljen vertailua, koska Android suojaa biometrisiä tietoja tarkoituksella, mutta ne voivat auttaa erottamaan puuttuvan laitteiston heikosta tunnistustarkkuudesta.
 

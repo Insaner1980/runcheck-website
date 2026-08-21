@@ -9,8 +9,7 @@ tags: ["kjøpsguide", "android", "sammenligning", "verdi", "guide"]
 locale: "nb"
 draft: false
 ---
-
-Assurant rapporterte at amerikanske innbytteprogrammer for mobiltelefoner betalte tilbake 6,4 milliarder dollar til forbrukere i 2025, 42 % mer enn i 2024. Android-enhetene var også eldre da de ble levert inn, i gjennomsnitt 3,96 år. Tallene gjelder USA, men poenget er relevant i Norge også: Lengre eiertid gir deg mer bruk for pengene, men mindre rom for å vente for lenge når du endelig skal selge.
+[Assurants årsrapport om mobilinnbytte for 2025](https://www.assurant.com/news-insights/infographics/mobile-trade-in-and-upgrade-data-trends-annual) sier at amerikanske innbytteprogrammer ga 6,4 milliarder dollar tilbake til forbrukere i 2025, 42 prosent mer enn i 2024. Tallene beskriver Assurants amerikanske innbyttedata og forutsier ikke verdien av en bestemt Android-telefon.
 
 ## Selg før telefonen blir gårsdagens modell
 

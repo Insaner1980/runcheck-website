@@ -20,7 +20,7 @@ Grunden til, at folk stadig taler om bevidste hastighedsnedsættelser, er Apples
 
 Problemet var gennemsigtigheden. Brugerne oplevede langsommere telefoner, men fik ikke tydelig besked om, at et batteriskift kunne genskabe en stor del af den mistede ydeevne. Mange antog, at selve telefonen var færdig.
 
-Apple tilføjede senere tydeligere oplysninger om batteritilstand og betalte i forbindelse med forlig. I 2018 gav Italiens konkurrencemyndighed også Apple og Samsung bøder for softwareopdateringer, der skabte alvorlige problemer eller reducerede ydeevnen på visse telefoner. Den historie er grunden til, at folk ikke bare trækker på skuldrene, når en ældre enhed bliver dårligere efter en opdatering.
+Der findes et dokumenteret tilfælde. I 2018 [annoncerede Italiens konkurrencemyndighed bøder til Apple og Samsung](https://en.agcm.it/en/media/press-releases/2018/10/PS11009-PS11039), efter at bestemte opdateringer gav alvorlige fejl og nedsat ydelse uden tilstrækkelig information om virkninger eller gendannelse af den oprindelige funktion. Det er dokumentation for de navngivne undersøgelser og enheder, ikke bevis for at enhver senere langsomhed eller opdatering er tilsigtet.
 
 Det bør de heller ikke.
 

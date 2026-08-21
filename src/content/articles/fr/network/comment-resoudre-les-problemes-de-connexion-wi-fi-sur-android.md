@@ -9,6 +9,8 @@ tags: ["performances", "vitesse", "android", "optimisation", "depannage"]
 locale: "fr"
 draft: false
 ---
+Les noms de menus, le comportement pris en charge et les étapes exactes varient selon le fabricant, le modèle, la version d'Android, la région, l'opérateur et le micrologiciel. Un parcours Pixel ou propre à un autre fabricant ci-dessous est un exemple pour cette famille, pas un comportement Android universel ; suivez les instructions de votre modèle exact.
+
 
 Que faut-il essayer en premier lorsque le Wi-Fi ne fonctionne plus sur Android ? Ne commencez pas par une réinitialisation d'usine et ne passez pas une demi-heure à modifier le routeur avant d'avoir testé les solutions les plus simples. La plupart des problèmes entrent dans l'une de ces trois catégories : le téléphone refuse de se connecter, la connexion se coupe sans arrêt, ou le téléphone reste connecté mais Internet ne répond presque plus.
 

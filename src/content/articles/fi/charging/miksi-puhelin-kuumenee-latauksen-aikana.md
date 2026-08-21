@@ -14,6 +14,8 @@ Kytket puhelimen laturiin, palaat 20 minuutin kuluttua ja takaosa tuntuu kättä
 
 Lataaminen tuottaa aina jonkin verran lämpöä, koska osa tulevasta energiasta muuttuu hukkalämmöksi laturissa, kaapelissa ja puhelimessa. Pikalataus tuottaa enemmän. Langaton lataus yleensä vielä enemmän. Kysymys ei ole siitä, lämpeneekö puhelin, vaan siitä, pysyykö lämpö normaalilla alueella vai alkaako laite suojata itseään.
 
+Tämän artikkelin akkutieteellisissä väitteissä [Edge ym. -katsaus](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) tukee kapasiteetin ja tehon heikkenemistä, impedanssin kasvua sekä lämpötilan, varaustason, virran tai kuormituksen, SEI-kerroksen kasvun ja litiumin pinnoittumisen vaikutuksia. Se ei osoita valmistajan ominaisuuksia, yleisiä puhelimen lämpörajoja, lisävarustevalintoja, korjausohjeita tai hintoja, tarkkaa käyttöikää, latausaikaväitteitä tai taattuja kuluttajatuloksia.
+
 ## Mistä lämpö tulee
 
 Akku tuottaa lämpöä, kun virta kulkee kennoon. Suurempi virta merkitsee enemmän lämpöä, minkä vuoksi puhelin on usein lämpimimmillään pikalatauksen alkuvaiheessa.

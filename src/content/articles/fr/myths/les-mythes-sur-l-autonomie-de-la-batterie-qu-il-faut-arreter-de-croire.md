@@ -88,7 +88,7 @@ Une application de diagnostic comme runcheck peut suivre l'état de la batterie,
 
 Le mode sombre économise de l'énergie sur les écrans OLED et AMOLED, mais le gain dépend de la luminosité et du niveau réel de noir utilisé par l'application. Sur un écran LCD, la différence est généralement faible, car le rétroéclairage reste allumé.
 
-Le mode avion peut accélérer légèrement la recharge, puisque l'appareil travaille moins. L'écart reste souvent faible, sauf lorsque le signal est très mauvais.
+Le mode avion peut réduire l'activité radio et en arrière-plan, de sorte que le téléphone peut consommer moins pendant la charge. La puissance d'entrée du chargeur est distincte, et aucune réduction universelle et mesurée du temps de charge n'est établie.
 
 Utiliser un téléphone pendant qu'il recharge est sans danger avec un appareil moderne et un bon chargeur. Jouer intensivement pendant une recharge rapide est différent, car vous ajoutez de la chaleur. Lire des messages ou naviguer légèrement ne pose pas le même problème.
 

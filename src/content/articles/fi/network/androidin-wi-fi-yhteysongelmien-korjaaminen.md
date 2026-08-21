@@ -9,6 +9,8 @@ tags: ["suorituskyky", "nopeus", "android", "optimointi", "vianetsintä"]
 locale: "fi"
 draft: false
 ---
+Valikkojen nimet, tuettu toiminta ja tarkat vaiheet vaihtelevat valmistajan, mallin, Android-version, alueen, operaattorin ja laiteohjelmiston mukaan. Alla oleva Pixel- tai muu valmistajakohtainen polku on esimerkki kyseiselle laiteperheelle, ei Androidin yleinen toiminta; käytä oman mallisi ohjeita.
+
 
 Mitä kannattaa kokeilla ensimmäiseksi, kun Androidin Wi-Fi lakkaa toimimasta? Älä aloita tehdasasetusten palautuksesta äläkä käytä puolta tuntia reitittimen asetusten muuttamiseen ennen helppoja testejä. Useimmat Wi-Fi-ongelmat kuuluvat johonkin kolmesta ryhmästä: puhelin ei yhdistä verkkoon, yhteys katkeilee tai puhelin pysyy yhdistettynä mutta internet tuntuu kuolleelta.
 

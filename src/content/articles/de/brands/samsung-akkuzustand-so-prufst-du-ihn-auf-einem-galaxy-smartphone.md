@@ -9,8 +9,10 @@ tags: ["akku", "zustand", "diagnose", "android", "ratgeber"]
 locale: "de"
 draft: false
 ---
+[Samsungs aktuelle One-UI-9-Seite](https://www.samsung.com/us/apps/one-ui/) sagt, dass das offizielle One UI 9 zuerst auf Galaxy Z Fold8 Ultra, Galaxy Z Fold8 und Galaxy Z Flip8 ausgerollt wurde und voraussichtlich schrittweise auf weiteren Galaxy-Geräten erscheint. Die Verfügbarkeit hängt von Modell, Land oder Region, Anbieter, Firmware und Build ab.
 
-Genau diese Unsicherheit ist der entscheidende Punkt. Ein Galaxy S25 mit einer aktuellen One-UI-Version kann Akkuzustand und Ladezyklen in den Einstellungen anzeigen. Ein Galaxy S23 mit scheinbar ähnlicher Software möglicherweise nicht. Android 17 ist bereits für die meisten unterstützten Pixel-Geräte verfügbar, und Samsung hat inzwischen die auf Android 17 basierende One UI 9 Beta für die Galaxy S26-Serie gestartet. Trotzdem entscheidet Samsung weiterhin selbst, welche Akkuwerte auf welchem Modell, in welcher Region und mit welcher Firmware sichtbar sind.
+
+Genau diese Unsicherheit ist der entscheidende Punkt. Ein Galaxy S25 mit einer aktuellen One-UI-Version kann Akkuzustand und Ladezyklen in den Einstellungen anzeigen. Ein Galaxy S23 mit scheinbar ähnlicher Software möglicherweise nicht. Samsung entscheidet weiterhin selbst, welche Akkuwerte auf welchem Modell, in welcher Region und mit welcher Firmware sichtbar sind.
 
 Diese Prüfungen sind sinnvoll. Einige andere sehen nur nützlich aus, sagen aber kaum etwas über den tatsächlichen Zustand aus.
 
@@ -92,7 +94,7 @@ Galaxy S21 bis S24 liefern in der Regel grundlegende Android-Akkuwerte, darunter
 
 Galaxy-A-Modelle und ältere Geräte sind weniger vorhersehbar. Samsung Members bleibt die beste offizielle Prüfung. Drittanbieter-Apps können Trends erfassen, doch Strom- und Kapazitätswerte fehlen dort häufiger oder schwanken stärker.
 
-Auch Android 17 macht ältere Galaxy-Smartphones nicht automatisch transparenter. Samsung testet One UI 9 zunächst auf ausgewählten Modellen und entscheidet weiterhin, welche Einstellungsseiten und Akkuwerte auf jedem Gerät aktiviert werden.
+Auch One UI 9 macht Galaxy-Smartphones nicht automatisch transparenter. Samsung weitet die Verteilung schrittweise aus und entscheidet weiterhin, welche Einstellungsseiten und Akkuwerte je nach Modell, Region und Softwarestand aktiviert werden.
 
 ## Wann ein Akkutausch wahrscheinlich sinnvoll ist
 

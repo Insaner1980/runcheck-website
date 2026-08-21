@@ -9,41 +9,22 @@ tags: ["myter", "fakta", "android", "batteri", "myteknusing"]
 locale: "nb"
 draft: false
 ---
+Ikke sveip bort alle apper rutinemessig for å spare batteri. [Googles Android-hjelp sier at du vanligvis ikke trenger å lukke apper](https://support.google.com/android/answer/9079646?hl=en-GB), og anbefaler bare å lukke eller tvangsstoppe en app når den ikke svarer.
 
-Det sparer egentlig ikke batteri.
+## Hva appveksleren betyr
 
-## Svaret er fortsatt nei
+Android kan holde nylig brukte apper bufret i minnet slik at de åpnes raskt. Bufret betyr ikke automatisk at appen arbeider aktivt. [Androids oversikt over minnehåndtering](https://developer.android.com/topic/performance/memory-management-overview) forklarer at systemet tar tilbake app-prosesser når minnet trengs.
 
-Å lukke apper fra oversikten over nylige apper sparer ikke nevneverdig med batteri på Android. I mange normale situasjoner kan det tvert imot bruke litt ekstra strøm, fordi appen må startes helt på nytt neste gang du åpner den.
+Denne minneatferden beviser ingen fast batteribesparelse eller kostnad ved å lukke en app. Den forsvarlige konklusjonen er smalere: rutinemessig tømming er unødvendig, og batterifeilsøking bør rettes mot apper som faktisk oppfører seg feil.
 
-Android er laget for å beholde nylig brukte apper i minnet når det er mulig. Det betyr ikke at de kjører aktivt. En bufret app kan ligge helt rolig der, slik at den åpnes raskere senere. Tomt RAM er ingen premie.
+## Når det gir mening å stoppe én app
 
-Når du sveiper bort en app, kan Android fjerne den bufrede tilstanden. Når du åpner appen igjen, må telefonen laste den fra lagringen, bygge opp grensesnittet, hente data på nytt og koble til tjenestene appen bruker. Én app ødelegger ikke dagen din. Å gjøre dette hele tiden er bare unødvendig arbeid.
+Lukk eller tvangsstopp en app når den har låst seg eller tydelig henger. Hvis den uventet bruker posisjon, lyd, nettverk eller en stor del av batteriet, bør du sjekke batteribruk og bakgrunnstillatelser. Menynavn varierer etter produsent og Android-versjon.
 
-## Dette gjør Android allerede
+Å stoppe én feilende app er feilsøking. Det er noe annet enn å tømme alle nylige apper som et daglig batteriritual.
 
-Android har styrt bakgrunnsbruk av batteriet i mange år. Doze og App Standby kom med Android 6.0. Senere versjoner har fått strengere grenser, App Standby Buckets, varselkontroller, regler for bakgrunnskjøring og produsentspesifikke batteriinnstillinger.
+## Gjør dette i stedet
 
-Doze begrenser nettverkstrafikk og CPU-krevende arbeid når telefonen er inaktiv, ikke koblet til lader og skjermen er av. App Standby og App Standby Buckets begrenser apper etter hvor nylig og hvor ofte du bruker dem. Android 17 har også fått nye systemstyrte minnegrenser, slik at enkeltapper ikke kan bruke ekstremt mye RAM og gjøre hele systemet ustabilt.
+Bruk telefonens batteribruksvisning til å finne uvanlig aktivitet, oppdater eller fjern en feilende app, og start telefonen på nytt hvis en prosess sitter fast. Sjekk også varme og svakt mobilsignal; ingen av delene løses ved å tømme appveksleren.
 
-Det er hovedpoenget. Telefonen har allerede et system for strømstyring. Oversikten over nylige apper er ikke et kontrollpanel for batteriet.
-
-## Når det er fornuftig å tvinge en app til å avslutte
-
-Noen ganger er det riktig å stoppe en app.
-
-Hvis en app fortsetter å bruke GPS, spiller av lyd, synkroniserer uten stopp eller gjør telefonen varm i lommen, bør du avslutte den. Gå til Innstillinger > Batteri > Batteribruk og se etter en app som ikke samsvarer med hvordan du faktisk har brukt telefonen. En app for sosiale medier som har brukt 20 % av batteriet etter ti minutters skjermtid, er verdt å undersøke.
-
-Du kan også begrense én bestemt app. På mange Android-telefoner finner du dette under Innstillinger > Apper. Velg appen, åpne batteriinnstillingene og begrens bruken i bakgrunnen. Ordlyden varierer mellom produsenter, men tanken er den samme: Begrens problemappen, ikke alle apper.
-
-Her snur mange det på hodet. Å lukke én app som oppfører seg dårlig, er feilsøking. Å lukke alt hele dagen er en vane.
-
-## Dette bør du gjøre i stedet
-
-La oversikten over nylige apper være i fred, med mindre noe oppfører seg unormalt.
-
-Bruk Tilpasset batteri hvis telefonen har funksjonen. Se gjennom batteribruken av og til. Reduser bakgrunnsvarsler fra apper som synkroniserer for ofte. Avinstaller apper du ikke stoler på eller ikke bruker. Start telefonen på nytt hvis den har oppført seg merkelig i flere dager.
-
-Sjekk også signal og varme. En telefon i et område med dårlig mobildekning kan bruke mye strøm på å holde forbindelsen. En varm telefon reduserer ytelsen, lader saktere og tappes raskere. Å lukke apper løser ingen av delene.
-
-Batteriprosenten bryr seg ikke om hvor ryddig oversikten over nylige apper ser ut.
+Det kan ikke loves en universell batteriprosent ved å lukke eller beholde nylige apper. Mål det faktiske problemet på din enhet.

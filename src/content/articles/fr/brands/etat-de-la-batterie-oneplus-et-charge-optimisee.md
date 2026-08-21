@@ -14,6 +14,8 @@ La charge rapide n'est pas automatiquement mauvaise. Le véritable ennemi, c'est
 
 Une précision liée au calendrier des mises à jour : Android 17 est désormais disponible en premier sur la plupart des Pixel compatibles. Les appareils OnePlus recevront plus tard leurs mises à jour OxygenOS basées sur Android 17, et les fonctions liées à la batterie peuvent encore varier selon le modèle, la région et la version OTA. Ne partez pas du principe qu'un réglage existe tant que vous ne le voyez pas sur votre propre téléphone.
 
+Pour les affirmations scientifiques sur la batterie de cet article, [la synthèse d'Edge et ses coauteurs](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) étaye la perte de capacité et de puissance, l'augmentation d'impédance et les effets de la température, du niveau de charge, du courant ou de la charge, de la croissance de la SEI et du placage de lithium. Elle n'établit ni fonction de fabricant, ni seuil universel pour les téléphones, ni choix d'accessoire, conseil ou prix de réparation, durée de vie exacte, temps de charge ou résultat garanti.
+
 ## Vérifier l'état de la batterie dans les Paramètres
 
 Commencez par la recherche des Paramètres. C'est le chemin le moins pénible, car OnePlus a déplacé les pages consacrées à la batterie d'une version d'OxygenOS à l'autre.

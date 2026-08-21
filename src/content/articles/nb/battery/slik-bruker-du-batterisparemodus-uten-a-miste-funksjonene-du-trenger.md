@@ -10,6 +10,8 @@ tags: ["batteri", "optimalisering", "android", "tips", "ytelse"]
 locale: "nb"
 draft: false
 ---
+Menynavn, støttet atferd og nøyaktige trinn varierer etter produsent, modell, Android-versjon, område, operatør og fastvare. En Pixel- eller annen produsentspesifikk bane nedenfor er et eksempel for den enhetsfamilien, ikke universell Android-atferd; bruk veiledningen for din nøyaktige modell.
+
 
 Batterisparing hjelper mest før batteriet er nesten tomt. Det nytter å slå den på ved 8 %, men da er det meste av batteriet allerede brukt opp.
 

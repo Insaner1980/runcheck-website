@@ -9,99 +9,27 @@ subgroup: "Health"
 tags: ["battery", "health", "diagnostics", "android", "guide"]
 draft: false
 ---
-
-You notice the back panel lifting. Or the screen has a tiny gap at the edge. Or the phone suddenly rocks on a table even though it used to sit flat.
-
-Treat that as a stop sign. Phone battery swelling is not a performance issue. It is a damaged battery that needs careful handling.
-
-## What to do first
-
-Stop using the phone. Keep it off the charger. Do not press the screen or back cover into place.
-
-If the phone is still working and you can safely power it off without squeezing it, power it off. Put it on a non-flammable surface such as tile, concrete, a metal tray, or a ceramic plate. Keep it away from paper, bedding, curtains, and anything else that burns easily.
-
-If it is hot, smoking, hissing, leaking, or smelling strongly chemical, move away and follow local emergency guidance. Do not carry a hot or smoking lithium-ion device in your pocket or bag.
-
-For an ordinary swollen phone that is not hot or smoking, the next step is repair or proper recycling. A professional repair shop or authorized service center is the safest route because modern phone batteries are usually glued inside the frame.
-
-This is one of the few battery problems where waiting is a bad plan.
+A lifting back cover, a new gap around the screen, or a phone that no longer lies flat can indicate a swollen battery. Treat the device as damaged and avoid charging or continued use until the manufacturer or a qualified repair service gives model-specific instructions.
 
 ## What swelling means
 
-Most phones use lithium-ion pouch cells. The pouch is thin and flexible, which helps phones stay slim. It also means the cell can visibly expand when gas builds up inside.
+[The Frontiers pouch-cell paper](https://www.frontiersin.org/journals/chemical-engineering/articles/10.3389/fceng.2022.828375/full) explains that pouch cells are used in phones and other consumer electronics. Gas generation can expand the pouch, displace or damage nearby components, and compromise the device. Puncturing a swollen cell can create fire and exposure risks. The paper also discusses temperature, current, overcharge, and over-discharge as influences on gas generation.
 
-That gas forms when the battery chemistry breaks down. Heat, age, overcharging, physical damage, manufacturing defects, and deep degradation can all contribute. Once the pouch starts swelling, the process does not reverse. The battery will not flatten back into a healthy cell.
+That science does not establish a repair price, a preferred charger brand, a storage percentage, or a universal repair outcome.
 
-A puffed-up cell is more vulnerable to damage. If it is punctured, bent, crushed, or exposed, the risk goes up sharply. The electrolyte can be flammable, and a damaged cell can overheat.
+## What to do now
 
-A slight bulge does not mean flames are seconds away. It does mean you should stop treating the device like normal electronics.
+- Disconnect external power if it can be done without pressing or bending the device.
+- Do not press the cover back into place, puncture the battery, open the phone, or attempt a battery repair yourself.
+- Keep the device away from flammable material while arranging model-specific help.
+- Contact the manufacturer, retailer, or a qualified repair service for the next step.
 
-## Warning signs
+## Disposal and damaged-battery safety
 
-The phone no longer sits flat. Put it on a table and check whether it rocks. This is often the first visible sign.
+[The US EPA's lithium-ion battery guidance](https://www.epa.gov/recycle/frequent-questions-lithium-ion-batteries) says damaged or swollen batteries can be a fire hazard and should not go in household rubbish or recycling. Use a separate battery recycler or household hazardous-waste route and follow the local authority's instructions. If a loose battery is handled for collection, the EPA says to isolate its terminals with non-conductive tape or place it in its own plastic bag.
 
-The screen or back panel is lifting. Even a narrow gap at the edge matters. The swelling battery is pushing against the inside of the phone.
+Local collection and transport rules vary. The EPA page does not replace local instructions or a carrier's dangerous-goods rules.
 
-Buttons feel stiff. Pressure inside the frame can change how the power and volume buttons sit.
+## Manufacturer-specific example
 
-The case suddenly fits badly. A case that used to snap on cleanly but now pops off at a corner may be reacting to a swollen device.
-
-There is a chemical smell. People describe it as sweet, metallic, solvent-like, or similar to nail polish remover. That can mean electrolyte leakage or a compromised seal.
-
-Battery behavior gets strange. Rapid drain, charging failures, shutdowns at high percentages, or unexpected heat can happen with swelling. Those symptoms alone do not prove swelling, but combined with a physical change they are serious.
-
-## What not to do
-
-Do not plug the phone in. Charging adds energy and heat to a damaged cell.
-
-Do not squeeze it flat. Pressure can damage the pouch or separator layers inside the battery.
-
-Do not puncture it to "let the gas out." That is a good way to turn a repair problem into a fire problem.
-
-Do not pry open a sealed phone unless you know what you are doing and have the right setup. Swollen batteries are harder to remove because they are under pressure and often glued down.
-
-Do not put the phone or battery in household trash. Lithium-ion batteries can start fires in garbage trucks, recycling facilities, and waste bins.
-
-## Disposal and transport
-
-Swelling makes the cell damaged battery waste. It needs a proper battery recycling or hazardous waste path.
-
-In the EU, battery collection is built into the waste system, and retailers that sell portable batteries generally have take-back obligations. In the US, use a household hazardous waste site, an electronics recycler, or a retailer or repair chain that accepts damaged lithium-ion batteries. Policies differ by location, so call first if the battery is visibly swollen.
-
-If the battery is removable, handle it by the edges. Do not bend it. Place it in a non-flammable container or a heavy plastic bag for short transport, and separate it from metal objects and other batteries. Do not seal the container airtight if gas may still build.
-
-If the cell is inside a sealed phone, transport the whole device. A repair shop can remove the battery with fewer chances of puncturing it.
-
-## Why batteries swell
-
-Heat is the big accelerator. A phone left in a hot car, used for navigation in direct sun, or charged under a pillow is living in bad battery conditions. Sustained heat speeds up electrolyte breakdown and cell aging.
-
-Age matters too. After hundreds of cycles, internal resistance rises and the battery becomes less tolerant of stress. Most swollen phone batteries I have seen were older devices sitting in drawers or phones used hard for several years. Defective new batteries can swell too, but age makes it more likely.
-
-Bad charging hardware can contribute too. Use a reputable USB-C charger and cable. A certified charger from Google, Samsung, Anker, Belkin, Ugreen, or another established brand is boring in the best possible way.
-
-Physical damage is another common cause. A drop can deform the cell internally even if the outside of the phone looks fine. The layers inside a pouch cell are thin. They do not need much abuse to fail.
-
-Replacement battery quality matters. Unknown third-party cells are cheaper for a reason. Some are fine. Some are poorly controlled and age badly.
-
-## Prevention
-
-Keep the phone cool when you can. Do not charge it under blankets, pillows, or thick cases that trap heat. Avoid leaving it in direct sun or in a parked car.
-
-Use charging limits if your phone offers them. Pixel's 80% limit, Samsung battery protection, and similar features reduce time spent at high voltage. That slows aging.
-
-Store unused phones with a partial charge, around 40-50%, and check them every few months. Dead phones abandoned in drawers are a classic swollen-battery source.
-
-Replace an aging battery before it becomes a physical problem if you plan to keep the phone. Poor runtime is annoying. Swelling is worse.
-
-## Can a swollen battery explode?
-
-It can fail violently if mishandled, but fire is the more realistic concern. The danger rises when the pouch is punctured, crushed, overheated, or charged after swelling starts.
-
-That is why the advice is boring and strict: stop using it, do not charge it, keep it away from flammable materials, and get professional help or proper recycling.
-
-## What replacement usually costs
-
-Phone battery replacement prices vary by model, region, and whether you use an authorized service center or an independent repair shop. A rough range for many phones is about EUR 30 to EUR 100.
-
-Authorized repair usually costs more but gives you the best chance of keeping water resistance and using an original battery. Independent repair can be cheaper and faster. DIY repair is possible on some phones, but a swollen glued-in battery is not the place to learn phone repair for the first time.
+[Google's Pixel battery guidance](https://support.google.com/pixelphone/answer/15738128?hl=en) tells Pixel owners not to press a lifted cover back down, pry the device open, or repair a swollen battery themselves, and directs them to Pixel repair or local recycling options. That is Pixel-specific guidance; owners of other phones should use their own manufacturer's instructions.

@@ -14,6 +14,8 @@ Un'app che promette di riparare la batteria può davvero recuperare la capacità
 
 La batteria è un componente fisico. Quando la chimica interna della cella è invecchiata, il software non può restituirle la capacità persa.
 
+Per le affermazioni scientifiche sulla batteria di questo articolo, [la revisione di Edge e coautori](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) supporta perdita di capacità e potenza, aumento dell'impedenza ed effetti di temperatura, livello di carica, corrente o carico, crescita della SEI e placcatura del litio. Non stabilisce funzioni del produttore, soglie universali per i telefoni, scelta di accessori, consigli o prezzi di riparazione, durata esatta, tempi di ricarica o risultati garantiti.
+
 ## Che cosa significa davvero degrado
 
 Il degrado della batteria non è un'impostazione che si è spostata dal valore corretto. È invecchiamento chimico all'interno della cella.

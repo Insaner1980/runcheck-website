@@ -32,11 +32,7 @@ Un détail récent mérite d'être signalé : sur les Galaxy fonctionnant sous A
 
 ## Tests sur Xiaomi, Redmi et POCO
 
-Sur un téléphone Xiaomi, Redmi ou POCO, ouvrez l'application Téléphone et saisissez `*#*#6484#*#*`. Si le mode CIT ne s'ouvre pas, essayez `*#*#64663#*#*`.
-
-Dans CIT, cherchez Fingerprint sensor check, Fingerprint input test ou un intitulé proche. L'assistance Xiaomi recommande précisément la détection matérielle CIT lorsque l'option d'empreinte a disparu. Ce n'est donc pas une simple astuce trouvée sur un forum.
-
-Vous pouvez aussi passer par la page consacrée au téléphone dans les Paramètres, ouvrir les informations détaillées ou les spécifications, puis toucher plusieurs fois la version du noyau. Xiaomi modifie les intitulés entre MIUI et HyperOS, mais cette méthode fonctionne souvent lorsque le code est bloqué.
+Sur un téléphone Xiaomi, Redmi ou POCO, ouvrez l'application Téléphone et saisissez `*#*#6484#*#*`. Dans CIT, lancez `Fingerprint sensor check` et `Fingerprint input test`. [Xiaomi documente précisément ce code et ces deux tests](https://www.mi.com/global/support/faq/details/KA-42422/) lorsque l'option d'empreinte a disparu. Si la page ou les tests ne sont pas disponibles sur votre modèle, utilisez l'assistance Xiaomi au lieu d'un code de remplacement non documenté.
 
 ## Tests sur Google Pixel
 
@@ -52,7 +48,7 @@ Android 17 mérite d'être mentionné, car il a d'abord été proposé aux Pixel
 
 Les téléphones OnePlus, Motorola, Realme, OPPO et les modèles Nokia sous Android varient trop pour qu'un seul code d'empreinte soit universel.
 
-Commencez par l'application d'assistance ou de diagnostic du fabricant, lorsqu'elle existe. Motorola propose par exemple Device Help et des tests matériels sur de nombreux modèles. Certains appareils OnePlus et de la famille OPPO peuvent ouvrir `*#899#` ou d'anciens menus d'ingénierie, mais leur disponibilité manque de constance.
+Commencez par l'application d'assistance ou de diagnostic du fabricant, lorsqu'elle existe. Les tests disponibles et les moyens d'accès varient selon le modèle et la version du logiciel.
 
 Une application tierce peut tout de même répondre à une question de base : Android détecte-t-il un lecteur d'empreintes ? Des outils comme Sensor Test, DevCheck et Phone Doctor Plus peuvent signaler la présence de la couche d'abstraction matérielle des empreintes. Ils ne peuvent généralement pas effectuer une correspondance biométrique sécurisée, car Android protège volontairement ces données, mais ils aident à distinguer un matériel absent d'une mauvaise reconnaissance.
 

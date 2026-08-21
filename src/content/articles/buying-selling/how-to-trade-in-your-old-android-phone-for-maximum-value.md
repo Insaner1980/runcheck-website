@@ -8,8 +8,7 @@ order: 8
 tags: ["buying-guide", "android", "comparison", "value", "guide"]
 draft: false
 ---
-
-Assurant reported that US mobile trade-in programs returned $6.4 billion to consumers in 2025, up 42% from 2024. Android devices were also older at turn-in than before, averaging 3.96 years. That matters because a longer ownership cycle gives you more time to use a phone, but less room for sloppy selling when you finally move on.
+[Assurant's 2025 annual mobile trade-in report](https://www.assurant.com/news-insights/infographics/mobile-trade-in-and-upgrade-data-trends-annual) says US trade-in programs returned $6.4 billion to consumers in 2025, a 42% increase from 2024. Those figures describe Assurant's US trade-in data; they do not predict the value of a particular Android phone.
 
 ## Sell before your phone becomes last year's news
 

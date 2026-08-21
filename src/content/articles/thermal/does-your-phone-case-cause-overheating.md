@@ -1,6 +1,6 @@
 ---
 title: "Does your phone case cause overheating?"
-description: "Phone cases don't create heat, but thick TPU, silicone, rugged, and wallet cases can trap it during fast charging, wireless charging, gaming, navigation, or hot weather."
+description: "If a phone gets unusually warm, temporarily removing its case can help isolate the cause. Case effects vary; Google's metallic or magnetic case warning applies specifically to wireless charging on named Pixel phones."
 listSummary: "Case-related overheating"
 hub: "thermal"
 sourceNumber: 60
@@ -8,69 +8,26 @@ order: 8
 tags: ["temperature", "thermal", "android", "troubleshooting", "hardware"]
 draft: false
 ---
+A phone case can change airflow, surface heat transfer, wireless-charging alignment, or radio behavior, but the configured evidence does not establish a universal material ranking or a fixed temperature penalty for TPU, silicone, leather, aramid, or rugged cases.
 
-Your phone case is probably not the reason your phone gets hot. It can still make the problem worse.
+## What can be said reliably
 
-The heat comes from inside the phone: the SoC, GPU, modem, display, battery, and charging hardware. A case does not create that heat. What it does is slow the phone's ability to get rid of it. Most days that barely matters. On the wrong day, with fast charging, GPS, direct sun, and a thick case, it matters a lot.
+Android's [Thermal API](https://developer.android.com/games/optimize/adpf/thermal) documents how a device can report thermal pressure and reduce workload. It does not compare phone cases. A warmer reading with one case on one phone should not be turned into a rule for every model or material.
 
-That distinction is worth keeping. Blaming the case for every warm phone is lazy troubleshooting. Ignoring the case completely is just as bad.
+A case can still be relevant in a specific setup. Poor fit can cover an opening, a thick accessory can interfere with a charging coil, and metal or magnets can affect compatible wireless charging. Those are design and compatibility questions, not proof that one material always traps a stated amount of heat.
 
-## What a case changes
+## The official case warning is model-specific
 
-Phones shed heat through the back panel, frame, and display glass. A case adds another layer between that warm surface and the surrounding air. Thin cases add a small layer. Rugged cases add a thermal blanket.
+Google's [Pixel 7 and Pixel 7 Pro safety guide](https://support.google.com/pixelphone/answer/12164747?hl=en) warns against metallic or magnetic cases during wireless charging for those named devices. That warning can be applied to that scope. It is not evidence that every ordinary non-metallic case overheats every Android phone.
 
-A slim aramid or hard plastic case usually has little effect during normal use. A thick TPU case, silicone case, wallet case, or multi-layer rugged case traps more heat. Leather folio cases are especially good at blocking airflow because they cover more of the phone and can fold over the front.
+For another model, follow its manufacturer and charger instructions. “MagSafe-compatible,” a magnetic ring, a wallet plate, and a rugged battery case can have model-specific effects.
 
-The phone still produces the same heat. It just takes longer to leave.
+## How to test without inventing a threshold
 
-## When the case actually matters
+If the phone warns about temperature, pauses charging, throttles heavily, or becomes unusually uncomfortable during a repeatable task, remove the case and repeat the same task in the same room with the same charger and screen use. Treat the comparison as troubleshooting for that phone, not laboratory proof.
 
-The case matters most when the phone is already close to its thermal limit.
+Do not rely on one app reading or a tiny difference. Battery sensors, timing, background work, charging state, and room temperature can all move the result.
 
-Fast charging is the first case. A 25W or 45W charge creates more heat than slow charging, and the phone has to move that heat out while protecting the battery. Add a thick case and the battery may spend more time above 35°C or 40°C.
+## Practical answer
 
-Wireless charging is the second. Wireless pads are less direct than a cable, so more energy is lost as heat. Alignment matters too. Qi2 helps by using magnetic alignment, but a thick case still increases distance between the coils. Wallet cases, metal plates, ring mounts, and magnetic accessories can make the problem worse.
-
-Gaming and navigation are the third. A game can load the CPU and GPU for an hour. Navigation keeps the screen bright, location active, and often cellular data running. Put the phone in a windshield mount on a sunny day and the case becomes one more thing holding heat in.
-
-Hot weather is the multiplier. A case that is harmless at 22°C indoors can be the final push at 32°C outdoors.
-
-## Materials and designs
-
-Silicone and TPU are popular because they grip well and absorb drops. They also insulate. That does not make them bad cases, but it explains why they can feel warm during charging or gaming.
-
-Rugged cases are worse for heat because they stack materials: a soft inner shell, a hard outer shell, raised edges, and sometimes port covers. Great for drops. Not great for cooling.
-
-Leather and faux leather cases behave like insulation, especially wallet-style designs. They are comfortable and useful, but I would not choose one for a phone that already runs hot.
-
-Thin hard plastic and aramid cases usually run cooler because they add less bulk. Some cases are marketed as cooling cases with vents or heat-spreading materials. They can help a little, but don't expect miracles. A case cannot undo a hot room, a fast charger, and a game running at full tilt.
-
-Metal cases are awkward. Metal conducts heat well, so it may help move heat away from the phone. It can also interfere with wireless charging, NFC, magnets, and cellular or Wi-Fi performance depending on the design. And because metal spreads heat, it can feel hotter in your hand even when it is doing its job.
-
-## Should you remove the case while charging?
-
-Not always. For slow wired charging at 5W or 10W in a normal room, most cases are fine.
-
-Remove it when heat is already an issue. That means fast charging, wireless charging, warm rooms, gaming, hotspot use, or GPS in a car. It is a small inconvenience and an easy test.
-
-If the phone drops from hot to merely warm when the case is off, you have your answer. You don't need a lab test.
-
-## How to test your own case
-
-Do two similar charging sessions. Same charger, same battery range, same room, same surface. Run one with the case on and one with the case off. Watch the battery temperature with runcheck or another sensor app.
-
-Don't compare a 20 percent to 80 percent fast charge in the afternoon with a 70 percent to 100 percent top-up at night. Charging behavior changes by battery level. Room temperature changes too. Keep the test boring.
-
-A difference of a degree or two is not worth changing your setup. A difference of 5°C during wireless charging is worth noticing. If the phone crosses 40°C with the case on and stays below it with the case off, remove the case for heat-heavy situations or switch to a slimmer one.
-
-## Clear cases, cooling fans, and other edge cases
-
-Clear cases are not automatically cooler. Most clear cases are TPU or polycarbonate, and thickness matters more than transparency. A thick clear TPU case can trap heat just like a black TPU case.
-
-Color matters mostly in direct sun. A dark case absorbs more solar heat than a light one. Indoors, color barely matters.
-
-Clip-on gaming coolers work. Fans and thermoelectric plates can lower surface temperature during long gaming sessions. They also add noise, bulk, and one more thing to charge. For most people, taking the case off and avoiding direct sun is the better first move.
-
-If your phone overheats with no case, no charger, no heavy app, and a normal room temperature, stop blaming accessories. Look at software, battery health, or hardware.
-
----
+Do not remove a normal case by default. Remove it temporarily when investigating heat or wireless-charging problems, and keep it off if the same problem reliably disappears. Replace a case that blocks openings, fits badly, is damaged, or conflicts with the phone or charger's official instructions. No defensible source supports the former material-by-material rankings or fixed Celsius differences.

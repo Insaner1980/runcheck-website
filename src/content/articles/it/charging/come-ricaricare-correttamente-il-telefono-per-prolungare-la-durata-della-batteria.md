@@ -14,6 +14,8 @@ La migliore abitudine di ricarica è poco interessante: tieni il telefono fresco
 
 Questo non significa che devi sorvegliare la percentuale o scollegare il telefono appena raggiunge l'80 %. Un telefono è uno strumento, non un campione da laboratorio. Le batterie agli ioni di litio, però, invecchiano più rapidamente in alcune condizioni prevedibili, e la tua routine può aumentare lo stress oppure limitarlo.
 
+Per le affermazioni scientifiche sulla batteria di questo articolo, [la revisione di Edge e coautori](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) supporta perdita di capacità e potenza, aumento dell'impedenza ed effetti di temperatura, livello di carica, corrente o carico, crescita della SEI e placcatura del litio. Non stabilisce funzioni del produttore, soglie universali per i telefoni, scelta di accessori, consigli o prezzi di riparazione, durata esatta, tempi di ricarica o risultati garantiti.
+
 ## L'abitudine del 20-80 %
 
 Le batterie agli ioni di litio non amano gli estremi. Vicino al 100 %, la cella resta a una tensione più alta. Questo stato accelera le reazioni secondarie interne, tra cui la crescita dell'interfase elettrolitica solida (SEI) e la perdita graduale di litio utilizzabile. Il risultato è semplice: con il tempo la batteria immagazzina meno energia.

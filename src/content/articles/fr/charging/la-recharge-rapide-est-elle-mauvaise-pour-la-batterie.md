@@ -14,6 +14,8 @@ La plupart des conseils sur la recharge rapide sont trop alarmistes. Elle ne con
 
 C'est là que la réponse devient moins nette. Un chargeur de 65 W utilisé sur un bureau frais peut ménager davantage la batterie qu'un chargeur de 15 W placé sous un oreiller. La puissance compte, mais la température compte plus.
 
+Pour les affirmations scientifiques sur la batterie de cet article, [la synthèse d'Edge et ses coauteurs](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) étaye la perte de capacité et de puissance, l'augmentation d'impédance et les effets de la température, du niveau de charge, du courant ou de la charge, de la croissance de la SEI et du placage de lithium. Elle n'établit ni fonction de fabricant, ni seuil universel pour les téléphones, ni choix d'accessoire, conseil ou prix de réparation, durée de vie exacte, temps de charge ou résultat garanti.
+
 ## Ce qui use réellement la batterie
 
 Les batteries lithium-ion vieillissent selon plusieurs mécanismes qui se chevauchent. Deux d'entre eux sont particulièrement importants lorsqu'on parle de recharge rapide.

@@ -31,11 +31,7 @@ One current Samsung detail is easy to miss: on Galaxy phones running Android 16 
 
 ## Xiaomi, Redmi, and POCO tests
 
-On Xiaomi, Redmi, and POCO phones, open the dialer and enter `*#*#6484#*#*`. If that doesn't open CIT mode, try `*#*#64663#*#*`.
-
-In CIT, look for Fingerprint sensor check, Fingerprint input test, or a similarly named item. Xiaomi's support pages specifically recommend CIT hardware detection when the fingerprint option is missing, which makes this more than just a forum trick.
-
-You can also try Settings > About phone > Detailed info and specs or All specs, then tap Kernel version several times. Xiaomi changes labels between MIUI and HyperOS, but the kernel-version path often survives when a dialer code doesn't.
+On Xiaomi, Redmi, and POCO phones, open the dialer and enter `*#*#6484#*#*`. In CIT, run `Fingerprint sensor check` and `Fingerprint input test`. [Xiaomi documents this exact code and these two tests](https://www.mi.com/global/support/faq/details/KA-42422/) when the fingerprint option is missing. If the page or tests are unavailable on your model, use Xiaomi support rather than substituting an undocumented code.
 
 ## Google Pixel tests
 
@@ -51,7 +47,7 @@ Android 17 is worth mentioning here because it reached supported Pixel devices f
 
 OnePlus, Motorola, Realme, Oppo, and Nokia-style Android phones vary too much for one universal fingerprint code.
 
-Start with the manufacturer's support or diagnostics app if the phone has one. Motorola, for example, has Device Help with hardware tests on many models. OnePlus and Oppo-family phones may expose `*#899#` or older engineering menus, but support is inconsistent.
+Start with the manufacturer's support or diagnostics app if the phone has one. Available tests and entry paths vary by model and software version.
 
 A third-party app can still answer one basic question: does Android see a fingerprint sensor at all? Apps like Sensor Test, DevCheck, and Phone Doctor Plus can show whether the fingerprint hardware abstraction layer is present. They usually can't perform secure fingerprint matching, because Android deliberately protects biometric data, but they can help separate "missing hardware" from "bad recognition."
 

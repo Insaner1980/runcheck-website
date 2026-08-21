@@ -14,6 +14,8 @@ De fleste råd om hurtiglading er for dramatiske. Hurtiglading er ikke en dødsd
 
 Det er her svaret blir mindre ryddig. En 65 W-lader på et kjølig skrivebord kan være mildere mot batteriet enn en 15 W-lader under en pute. Wattstyrken betyr noe, men temperaturen betyr mer.
 
+For batteriforskningen i denne artikkelen støtter [oversikten til Edge med flere](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) kapasitetstap, effekttap, økt impedans og virkninger av temperatur, ladenivå, strøm eller belastning, SEI-vekst og litiumplettering. Den fastsetter ikke produsentfunksjoner, universelle temperaturgrenser for telefoner, tilbehørsvalg, reparasjonsråd eller priser, nøyaktig levetid, ladetid eller garanterte forbrukerresultater.
+
 ## Hva som faktisk sliter på batteriet
 
 Litiumionbatterier eldes gjennom flere prosesser som overlapper hverandre. To av dem er viktigst når vi snakker om hurtiglading.

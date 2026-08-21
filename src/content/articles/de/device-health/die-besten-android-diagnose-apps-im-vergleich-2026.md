@@ -1,6 +1,6 @@
 ---
 title: "Die besten Android-Diagnose-Apps im Vergleich (2026)"
-description: "Vergleich von Android-Diagnose-Apps im Jahr 2026, darunter AccuBattery, DevCheck, AIDA64, CPU-Z, Device Info HW, Phone Doctor Plus, TestM und runcheck. Was misst welche App, und wann ist sie sinnvoll?"
+description: "Vergleich von Android-Diagnose-Apps im Jahr 2026, darunter AccuBattery, DevCheck, AIDA64, CPU-Z, Device Info HW, Phone Doctor Plus und runcheck. Was misst welche App, und wann ist sie sinnvoll?"
 listSummary: "Vergleiche Diagnose-Apps danach, was sie messen und für welche Probleme sie geeignet sind."
 hub: "device-health"
 sourceNumber: 138
@@ -14,9 +14,9 @@ Die meisten Android-Diagnose-Apps sind keine echten Diagnose-Apps. Oft sind es A
 
 Die besseren Apps sind ehrlicher. AccuBattery verfolgt das Akkuverhalten über längere Zeit. DevCheck und AIDA64 zeigen Hardwaredetails. Phone Doctor Plus führt dich durch praktische Komponententests. runcheck betrachtet den Gerätezustand über Akku, Temperatur, Netzwerk und Speicher hinweg, statt eine einzelne Zahl zur ganzen Wahrheit zu erklären.
 
-Android 17 befindet sich derzeit noch in der Betaphase. Google bezeichnet Beta 4 als letzte geplante Beta dieses Release-Zyklus. Unterstützte Pixel-Geräte können sie testen, und mehrere andere Hersteller bieten eigene Betas für ausgewählte Modelle an. Das ist für Diagnosen relevant, weil die eingebauten Werkzeuge weiterhin stark vom Gerät abhängen. Ein Pixel 8a oder neuer kann Akkuzustand und Ladezyklen in den Einstellungen anzeigen, während ein Mittelklassegerät eines anderen OEM möglicherweise kaum mehr als Temperatur und Ladestand offenlegt.
+Android 17 ist für unterstützte Pixel-Geräte verfügbar, während andere Hersteller nach eigenen Zeitplänen aktualisieren. Das ist für Diagnosen relevant, weil die eingebauten Werkzeuge weiterhin stark vom Gerät abhängen. Ein Pixel 8a oder neuer kann Akkuzustand und Ladezyklen in den Einstellungen anzeigen, während ein Mittelklassegerät eines anderen OEM möglicherweise kaum mehr als Temperatur und Ladestand offenlegt.
 
-## AccuBattery
+## [AccuBattery](https://accubatteryapp.com/)
 
 AccuBattery ist in dieser Gruppe die Akku-App. Sie schätzt die verbleibende Kapazität in mAh, indem sie Ladevorgänge beobachtet und das Ergebnis mit der Nennkapazität des Akkus vergleicht. Je länger die App Daten sammelt, desto nützlicher wird die Schätzung.
 
@@ -28,7 +28,7 @@ Das Pro-Upgrade ist ein einmaliger In-App-Kauf. Es entfernt Werbung und schaltet
 
 Die Schwäche von AccuBattery ist einfach: Über den Rest des Smartphones erfährst du wenig. Temperaturverhalten außerhalb der grundlegenden Akkutemperatur, Speicherdruck, Signalqualität und genaue Hardwaredaten sind nicht seine Aufgabe.
 
-## DevCheck
+## [DevCheck](https://devcheck.app/user-guide/)
 
 DevCheck passt am besten, wenn du wissen willst, was das Smartphone gerade macht. Die App zeigt CPU- und SoC-Details, Frequenzen einzelner Kerne, GPU-Informationen, RAM, Speicher, Displaydaten, Kamerasensoren, weitere Sensoren, Betriebssysteminformationen, WLAN, Mobilfunk sowie Akkuspannung, Strom, Temperatur und Leistung.
 
@@ -38,7 +38,7 @@ Die kostenlose Version ist bereits brauchbar. Pro ergänzt Tests, Benchmarks, Wi
 
 Die Schwäche von DevCheck liegt bei der Interpretation. Die App zeigt dir -78 dBm, 39,8 °C und ein Live-Diagramm der CPU-Frequenz. Sie erklärt aber nicht immer, ob diese Kombination für deine Situation relevant ist. DevCheck ist sehr gut für Menschen, die Rohdaten lesen können. Für eine einfache Antwort auf die Frage "Ist dieses Smartphone in Ordnung?" ist es nicht die klarste Wahl.
 
-## AIDA64
+## [AIDA64](https://www.aida64.com/aida64-android?language_content_entity=en)
 
 AIDA64 ist ein Systemdaten-Dump in App-Form. Das klingt nicht besonders freundlich, ist aber genau der Grund, warum die App genutzt wird. Die Android-Version gehört zur selben Produktfamilie wie das langjährige Windows-Hardwaretool und listet viel auf: CPU-Erkennung, Taktfrequenzen, GPU- und OpenGL-Informationen, Arbeitsspeicher, Speicher, Pixeldichte, Sensoren, Codecs, Betriebssystemdetails und Systemverzeichnisse.
 
@@ -46,25 +46,25 @@ Ich mag AIDA64 für schnelle Prüfungen. Wenn ein Verkäufer behauptet, ein Smar
 
 Nutze AIDA64 für technische Daten. Erwarte keine Anleitung.
 
-## CPU-Z
+## [CPU-Z](https://www.cpuid.com/softwares/cpu-z-android.html)
 
 CPU-Z ist leichter als DevCheck und AIDA64. Die App erkennt den Prozessor, zeigt Kernfrequenzen und RAM an und enthält grundlegende Akku- und Sensorinformationen. Die Android-Version folgt derselben Idee wie CPU-Z auf dem Desktop: öffnen, Hardware prüfen, wieder schließen.
 
 Damit eignet sie sich gut für eine schnelle zweite Meinung. Sie ist kein Verlaufstracker, Akkuzustandsmonitor, Netzwerkwerkzeug oder Speicherdiagnoseprogramm. CPU-Z beantwortet hauptsächlich die Frage "Was steckt in diesem Smartphone?" und hört dort weitgehend auf.
 
-## Device Info HW
+## [Device Info HW](https://play.google.com/store/apps/details?id=ru.andr7e.deviceinfohw)
 
 Device Info HW versucht, Komponenten auf tieferer Ebene zu erkennen. Auf unterstützten Smartphones kann die App beispielsweise LCD-Panel, Touchscreen-Controller, Kamerasensoren, Speicher, NFC, Ladehardware, WLAN und akkubetreffende Komponenten identifizieren. Das ist nützlich für Entwickler, reparaturerfahrene Nutzer und alle, die ein Modell genauer prüfen möchten, als es die normalen Einstellungen erlauben.
 
 Der Haken ist das Zugriffsmodell von Android. Neuere Android-Versionen und neue Geräte sperren mehr Hardwareinformationen als ältere. Die App weist selbst darauf hin, dass manche Werte auf aktuellen Geräten blockiert sind und Root-Zugriff mehr freigeben kann. Deshalb kann Device Info HW auf einem Smartphone beeindruckend vollständig und auf einem anderen überraschend lückenhaft sein.
 
-Die Pro-Version kann Berichte als HTML oder PDF exportieren. Das hilft, wenn du den Gerätezustand vor einem Verkauf oder einer Reparatur dokumentieren willst. Gehe trotzdem nicht davon aus, dass in einer Android-17-Beta jedes Komponentenfeld verfügbar ist.
+Die Pro-Version kann Berichte als HTML oder PDF exportieren. Das hilft, wenn du den Gerätezustand vor einem Verkauf oder einer Reparatur dokumentieren willst. Gehe trotzdem nicht davon aus, dass auf jedem Android-17-Gerät jedes Komponentenfeld verfügbar ist.
 
-## Phone Doctor Plus und TestM-artige Hardwaretests
+## [Phone Doctor Plus](https://play.google.com/store/apps/details?id=com.idea.PhoneDoctorPlus2)
 
 Apps mit technischen Daten sagen dir, welche Komponenten das Smartphone zu besitzen behauptet. Geführte Test-Apps prüfen, ob diese Komponenten tatsächlich reagieren.
 
-Phone Doctor Plus bietet laut aktueller Google-Play-Beschreibung mehr als 40 Hardware- und Systemtests, darunter Prüfungen für Display, Lautsprecher, Mikrofon, Kamera, Sensoren, Speicher, Netzwerk und Akku. TestM oder ähnliche Apps verfolgen, sofern sie in deiner Region verfügbar sind, eine vergleichbare Idee, führen durch Hardwaretests und erstellen einen Zustandsbericht für Kauf oder Verkauf.
+[Phone Doctor Plus](https://play.google.com/store/apps/details?id=com.idea.PhoneDoctorPlus2) sagt, dass die aktuelle Android-App mehr als 40 Hardware- und Systemdiagnosen bietet, darunter Display, Lautsprecher, Mikrofon, Kamera, Sensoren, Speicher, Netzwerk und Akku. Verfügbarkeit und Testumfang können sich nach Gerät und Region unterscheiden.
 
 Bei diesen Apps musst du mitarbeiten. Du tippst Displaybereiche an, sprichst ins Mikrofon, deckst den Näherungssensor ab, wechselst zwischen Kameras und bestätigst, ob der Lautsprecher Ton ausgibt. Das dauert länger als ein Blick in DevCheck, erkennt aber Probleme, die auf keinem Datenblatt stehen.
 
@@ -74,11 +74,11 @@ Bei der Prüfung eines gebrauchten Smartphones ist diese Kategorie wichtiger, al
 
 runcheck geht von einer anderen Frage aus: Wie ist der Gesamtzustand des Smartphones gerade jetzt?
 
-Die App kombiniert Akku, Temperatur, Netzwerk und Speicher zu einem gewichteten Zustandswert. Der Akku macht 40 % aus, Temperatur und Netzwerk jeweils 25 %, der Speicher 10 %. Diese Gewichtung ist nachvollziehbar. Ein verschlissener Akku oder ein ständig überhitzendes Smartphone beeinträchtigt den Alltag stärker als eine Speicherwarnung bei 72 % Belegung.
+Die App führt Akku-, Temperatur-, Netzwerk- und Speicherprüfungen in einer Zustandsübersicht zusammen. Der Artikel veröffentlicht keine feste Gewichtungsformel; lies das Gesamtergebnis deshalb zusammen mit den einzelnen Prüfungen.
 
 Nützlich ist nicht nur der Wert. runcheck kennzeichnet auch die Zuverlässigkeit von Messungen. Der Akkustrom ist ein gutes Beispiel. Android kann den momentanen Strom in Mikroampere über BatteryManager bereitstellen, aber reale Geräte melden ihn nicht in gleicher Qualität. Manche Werte sind genau, manche geschätzt, manche fehlen ganz. runcheck zeigt diesen Unterschied, statt so zu tun, als seien alle Zahlen gleich verlässlich.
 
-Die kostenlose Version deckt Akku-, Temperatur-, Netzwerk- und Speicherdiagnosen ab. Pro ist ein einmaliger Kauf ohne Abonnement und ergänzt Ladegerätevergleich, App-Nutzung, längere Verläufe, Protokolle zur thermischen Drosselung, CSV-Export, Widgets und weitere Werkzeuge. Die Verarbeitung bleibt auf dem Gerät und erfordert kein Konto.
+Die kostenlose Version deckt Akku-, Wärme-, Netzwerk- und Speicherdiagnose ab. Pro ist ein einmaliges Upgrade ohne Abonnement und ergänzt tiefere Werkzeuge. Die aktuelle [runcheck-Produktseite](https://runcheckapp.com/) erklärt, dass Diagnose und Verlauf auf dem Gerät bleiben und kein runcheck-Konto erforderlich ist. Ein vom Nutzer gestarteter Netzwerktest ist eine ausdrückliche Ausnahme: Er sendet Testverkehr an den [NDT7-Dienst von Measurement Lab](https://www.measurementlab.net/tests/ndt/ndt7/). Ein Kauf ist eine weitere ausdrückliche Netzwerkgrenze und läuft über [Google Play Billing](https://developer.android.com/google/play/billing). Die Links stützen getrennte Aussagen; die runcheck-Startseite dient nicht als Beleg für das Verhalten von M-Lab oder Google Play.
 
 runcheck verrät dir nicht, welcher Kamerasensor im Smartphone steckt. Darum geht es auch nicht.
 
@@ -90,7 +90,7 @@ Für die genaue Hardwareidentität nimmst du DevCheck oder AIDA64. DevCheck ist 
 
 Für Hardwaretests bei gebrauchten Smartphones ist eine geführte App wie Phone Doctor Plus sinnvoll. Ein Datenblatt sagt dir nicht, ob die Hörmuschel knistert, der Touchscreen am Rand ausfällt oder der Autofokus ständig nachregelt.
 
-Für einen Überblick über den gesamten Gerätezustand nimmst du runcheck. Es ist die einzige App in dieser Liste, die auf einer Zustandsansicht über mehrere Kategorien basiert, statt sich auf eine einzelne Messgröße zu konzentrieren.
+Für einen Überblick über den gesamten Gerätezustand basiert runcheck auf einer Zustandsansicht über mehrere Kategorien, statt sich auf eine einzelne Messgröße zu konzentrieren.
 
 Für die meisten Menschen reichen zwei Apps: DevCheck für die Hardwareidentität und eine zustandsorientierte App zur Überwachung. Fünf Diagnose-Apps gleichzeitig zu installieren, erzeugt vor allem zusätzliche Hintergrundaktivität, während du dir einredest, sie zu reduzieren.
 

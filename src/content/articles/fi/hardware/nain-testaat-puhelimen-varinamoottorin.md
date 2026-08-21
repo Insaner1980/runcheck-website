@@ -9,6 +9,8 @@ tags: ["laitteisto", "testaus", "diagnostiikka", "android", "opas"]
 locale: "fi"
 draft: false
 ---
+Android käyttää värinää [Vibrator-toimilaiterajapinnan](https://developer.android.com/reference/android/os/Vibrator) kautta; värinämoottori ei ole Android-anturi. Suoriin laitetesteihin [Samsung dokumentoi koodin `*#0*#`](https://www.samsung.com/ch/support/mobile-devices/wie-kann-ich-einzelne-hard-oder-software-funktionen-testen/), [Samsung Members tarjoaa tuetun puhelindiagnostiikan](https://www.samsung.com/us/support/answer/ANS10003443/) ja [Xiaomi dokumentoi CIT-käytön](https://www.mi.com/global/support/faq/details/KA-491482/) soveltuvissa laitteissa. Saatavuus ja testinimet vaihtelevat mallin, alueen, operaattorin ja laiteohjelmiston mukaan.
+
 
 ---
 
@@ -31,8 +33,6 @@ Tarkista vielä näppäimistö. Gboardissa, Samsung Keyboardissa ja SwiftKeyssä
 Samsung Galaxy -puhelimissa selkein sisäänrakennettu vaihtoehto on Samsung Members. Avaa sovellus, valitse Pyydä apua > Näytä testit ja suorita värinätesti. Samsung Membersin nykyisessä testivalikoimassa värinä on oma testinsä, joten tämä on varmempi reitti kuin piilokoodit.
 
 Vanha Samsungin koodi `*#0*#` avaa edelleen laitteistotestivalikon monissa Galaxy-malleissa. Valitse Vibration, jolloin puhelimen pitäisi väristä, kunnes poistut testistä. Koodi vaatii Samsungin oman Puhelin-sovelluksen. Operaattorin ohjelmisto, uudet One UI -suojausasetukset tai yrityslaitteen rajoitukset voivat estää valikon.
-
-Osa Android-puhelimista reagoi myös koodiin `*#*#0842#*#*`, jota on pitkään käytetty värinän ja taustavalon testikoodina. Älä pidä sitä yleispätevänä. Pixelit eivät yleensä tue sitä, ja monet nykyiset numeronvalitsimet jättävät sen huomiotta.
 
 Xiaomi-, Redmi- ja POCO-puhelimissa voit kokeilla CIT-valikkoa koodilla `*#*#6484#*#*`. Valikon nimi ja testit vaihtelevat MIUI- ja HyperOS-versioiden välillä, mutta värinätesti on yleensä mukana.
 

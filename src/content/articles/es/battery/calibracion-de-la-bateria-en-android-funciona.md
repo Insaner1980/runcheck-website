@@ -15,6 +15,8 @@ La mayoría de los consejos sobre calibración proceden de baterías antiguas y 
 
 Lo que sí puede hacer en algunos casos es corregir una lectura equivocada del porcentaje.
 
+Para las afirmaciones científicas sobre la batería de este artículo, [la revisión de Edge y sus coautores](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) respalda pérdida de capacidad y potencia, aumento de impedancia y efectos de temperatura, nivel de carga, corriente o uso, crecimiento de la SEI y recubrimiento de litio. No establece funciones del fabricante, umbrales universales para móviles, elección de accesorios, consejos o precios de reparación, vida útil exacta, tiempos de carga ni resultados garantizados.
+
 ## Qué puede corregir la calibración y qué no
 
 El porcentaje de la barra de estado es una estimación. El medidor de carga del móvil observa la corriente, el voltaje, la temperatura y el comportamiento durante la carga, y convierte esos datos en un valor de estado de carga.

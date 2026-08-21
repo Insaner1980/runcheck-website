@@ -9,6 +9,8 @@ tags: ["hårdvara", "testning", "diagnostik", "android", "guide"]
 locale: "sv"
 draft: false
 ---
+Android styr vibration genom [Vibrator-API:t för ställdon](https://developer.android.com/reference/android/os/Vibrator); vibrationsmotorn är inte en Android-sensor. För direkta enhetstester [dokumenterar Samsung `*#0*#`](https://www.samsung.com/ch/support/mobile-devices/wie-kann-ich-einzelne-hard-oder-software-funktionen-testen/), [Samsung Members erbjuder stödd telefondiagnostik](https://www.samsung.com/us/support/answer/ANS10003443/) och [Xiaomi dokumenterar CIT](https://www.mi.com/global/support/faq/details/KA-491482/) på tillämpliga enheter. Tillgänglighet och testnamn varierar med modell, region, operatör och fast programvara.
+
 
 ---
 
@@ -31,8 +33,6 @@ En liten sak till: kontrollera tangentbordet. Gboard, Samsung Keyboard och Swift
 Samsung Galaxy har det tydligaste inbyggda alternativet. Öppna Samsung Members, välj Support och starta Telefondiagnostik. Kör testet Vibration. Beroende på appversion kan knappen heta Kom igång eller Visa tester. Det här är säkrare än att förlita sig på dolda koder.
 
 Den äldre Samsung-koden `*#0*#` öppnar fortfarande en hårdvarutestmeny på många Galaxy-modeller. Tryck på Vibration så ska telefonen vibrera tills du lämnar testet. Koden kräver Samsungs egen Telefon-app. Operatörsprogramvara, nyare säkerhetsinställningar i One UI eller företagsbegränsningar kan blockera menyn.
-
-Vissa Android-telefoner reagerar också på `*#*#0842#*#*`, en kod som länge har använts för test av vibration och bakbelysning. Behandla den inte som universell. Pixel stöder den vanligtvis inte, och många moderna uppringningsappar ignorerar den.
 
 På Xiaomi-, Redmi- och POCO-telefoner kan du prova CIT-menyn med `*#*#6484#*#*`. Menynamn och testlista varierar mellan MIUI- och HyperOS-versioner, men vibration brukar finnas med.
 

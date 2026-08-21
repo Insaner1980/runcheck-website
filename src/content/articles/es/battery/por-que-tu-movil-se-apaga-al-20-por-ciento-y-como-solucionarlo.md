@@ -13,6 +13,8 @@ draft: false
 
 En cierto modo, lo hace. La cifra de la pantalla es una estimación, y resulta más difícil calcularla cuando la batería ha envejecido.
 
+Para las afirmaciones científicas sobre la batería de este artículo, [la revisión de Edge y sus coautores](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) respalda pérdida de capacidad y potencia, aumento de impedancia y efectos de temperatura, nivel de carga, corriente o uso, crecimiento de la SEI y recubrimiento de litio. No establece funciones del fabricante, umbrales universales para móviles, elección de accesorios, consejos o precios de reparación, vida útil exacta, tiempos de carga ni resultados garantizados.
+
 ## Lo primero que debes comprobar
 
 Comprueba el estado de la batería antes de perder el tiempo con trucos de calibración.

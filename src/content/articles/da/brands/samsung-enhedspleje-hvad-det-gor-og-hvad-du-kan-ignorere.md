@@ -12,7 +12,7 @@ draft: false
 
 Enhedspleje er nyttigt, men det er først og fremmest et kontrolpanel og derefter et optimeringsværktøj. Det hjælper dig med at finde batteriforbrug, pres på lagerpladsen, baggrundsapps, hukommelsesforbrug og sikkerhedstjek samlet ét sted. De bedste dele er de konkrete værktøjer, ikke oprydning med ét tryk.
 
-Samsung ændrer også menunavne mellem One UI-versioner. Nogle telefoner viser Indstillinger > Enhedspleje. Andre viser Indstillinger > Batteri- og enhedspleje. Android 17 kom først til de fleste understøttede Pixel-telefoner, mens Galaxy-telefoner får Samsungs Android 17-baserede One UI-opdatering senere, så du kan forvente endnu en omgang mindre ændringer i ordvalg og layout.
+[Samsungs aktuelle One UI 9-side](https://www.samsung.com/us/apps/one-ui/) siger, at officielle One UI 9 først er rullet ud til Galaxy Z Fold8 Ultra, Galaxy Z Fold8 og Galaxy Z Flip8 og forventes gradvist udrullet til andre Galaxy-enheder. Tilgængelighed varierer efter model, land eller område, operatør, firmware og build.
 
 ## Hvad Enhedspleje er
 

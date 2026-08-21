@@ -9,6 +9,8 @@ tags: ["rete", "connettivita", "android", "risoluzione-dei-problemi", "guida"]
 locale: "it"
 draft: false
 ---
+Controlla il numero di modello esatto, non solo il nome commerciale. [La pagina Google sulla compatibilità Pixel-operatore](https://support.google.com/pixelphone/answer/7107188?hl=en) mostra che il 5G dipende da modello e operatore, mentre [le specifiche ufficiali Pixel](https://support.google.com/pixelphone/answer/7158570?hl=en-GB) elencano il supporto radio per modello. Se le specifiche ufficiali del modello esatto non includono hardware 5G e bande necessarie, software, SIM o piano non possono aggiungere la capacità radio mancante. Per altri telefoni usa la specifica regionale esatta del produttore e le informazioni di compatibilità dell'operatore.
+
 
 Un telefono ha l'hardware 5G oppure non ce l'ha. Android 17, un aggiornamento delle impostazioni dell'operatore o una nuova SIM non possono trasformare un modem solo 4G in un modem 5G.
 
@@ -63,12 +65,6 @@ Il SoC indica spesso se il 5G è almeno possibile. Qualcomm Snapdragon 480 e i c
 I nomi dei processori, però, non sono sempre chiari. Alcuni Snapdragon della serie 600 sono limitati al 4G. Alcuni telefoni usano una piattaforma compatibile con il 5G ma vengono venduti anche in una variante 4G. I MediaTek Helio G sono in genere solo 4G, mentre Dimensity identifica la linea 5G.
 
 Usa il processore come indizio, poi verifica il modello completo del telefono e le bande supportate.
-
-## Android 17 non cambia la risposta dell'hardware
-
-Google ha pubblicato Android 17 il 16 giugno 2026, rendendolo disponibile sulla maggior parte dei Pixel supportati. I nuovi dispositivi e gli altri produttori seguono calendari propri. L'aggiornamento può migliorare firmware del modem, comportamento con gli operatori e stabilità della rete sui telefoni compatibili.
-
-Non può aggiungere il 5G a un modem 4G. Se il telefono non supportava il 5G prima di Android 17, non lo supporterà dopo l'aggiornamento.
 
 ## 5G SA e NSA
 

@@ -9,6 +9,8 @@ tags: ["red", "conectividad", "android", "solucion-de-problemas", "guia"]
 locale: "es"
 draft: false
 ---
+Comprueba el número de modelo exacto, no solo el nombre comercial. [La página de Google sobre compatibilidad de Pixel y operador](https://support.google.com/pixelphone/answer/7107188?hl=en) muestra que la 5G depende del modelo y el operador, mientras que [las especificaciones oficiales de Pixel](https://support.google.com/pixelphone/answer/7158570?hl=en-GB) detallan la radio por modelo. Si las especificaciones oficiales del modelo exacto no incluyen hardware 5G y las bandas necesarias, ni el software, ni una SIM ni el plan pueden añadir esa capacidad de radio ausente. En otros teléfonos usa la especificación regional exacta del fabricante y la información de compatibilidad del operador.
+
 
 Un móvil tiene hardware 5G o no lo tiene. Android 17, una actualización de los ajustes del operador o una SIM nueva no pueden convertir un módem limitado a 4G en uno compatible con 5G.
 
@@ -63,12 +65,6 @@ El SoC suele indicar si el 5G es siquiera posible. Algunos ejemplos habituales s
 Pero los nombres de los procesadores son confusos. Algunos Snapdragon de la serie 600 solo admiten 4G. Hay móviles que utilizan una plataforma capaz de trabajar con 5G, pero se venden también en una variante 4G. Los MediaTek Helio G suelen limitarse a 4G, mientras que Dimensity es la familia 5G de MediaTek.
 
 Usa el procesador como pista y verifica después el modelo completo del móvil y sus bandas.
-
-## Android 17 no cambia la respuesta del hardware
-
-Google lanzó Android 17 el 16 de junio de 2026 para la mayoría de los Pixel compatibles. Los dispositivos nuevos y los móviles de otros fabricantes lo reciben según sus propios calendarios. La actualización puede mejorar el firmware del módem, el comportamiento con el operador y la estabilidad de red en los móviles compatibles.
-
-No puede añadir 5G a un módem 4G. Si tu móvil no era compatible con 5G antes de Android 17, tampoco lo será después de actualizar.
 
 ## 5G SA y NSA
 

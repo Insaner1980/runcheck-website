@@ -88,7 +88,7 @@ En diagnoseapp som runcheck kan hjælpe med at følge batteritilstand, temperatu
 
 Mørk tilstand sparer batteri på OLED- og AMOLED-skærme, men besparelsen afhænger af lysstyrken og af, hvor mørk appen faktisk er. På LCD-skærme gør den normalt kun en lille forskel, fordi bagbelysningen stadig er tændt.
 
-Flytilstand kan gøre opladningen lidt hurtigere, fordi enheden laver mindre arbejde. Forskellen er som regel lille, medmindre signalet er meget dårligt.
+Flytilstand kan reducere radio- og baggrundsaktivitet, så telefonen kan bruge mindre strøm under opladning. Opladerens indgangseffekt er en anden størrelse, og der er ikke påvist en universel målt forkortelse af opladningstiden.
 
 Det er sikkert at bruge en moderne telefon med en ordentlig oplader, mens den oplades. Tung gaming under hurtigopladning er noget andet, fordi det tilføjer varme. Let browsing og beskeder er fint.
 

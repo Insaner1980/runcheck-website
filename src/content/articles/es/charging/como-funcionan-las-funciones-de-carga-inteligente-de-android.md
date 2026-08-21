@@ -66,13 +66,9 @@ OnePlus también utiliza Battery Health Engine en varios modelos. Tanto OnePlus 
 
 Algunos móviles OnePlus también ofrecen carga bypass o separación de carga durante los juegos. La idea es reducir el estrés de la batería alimentando el dispositivo de forma más directa mientras soporta una carga de trabajo intensa. El funcionamiento exacto varía, pero el objetivo tiene sentido: menos calor en la batería durante sesiones largas con el móvil enchufado.
 
-## Xiaomi: útil, pero menos uniforme
+## Ejemplo del POCO F6
 
-Los ajustes de batería de Xiaomi y HyperOS varían según el modelo y la región. Algunos móviles ofrecen carga optimizada. Otros permiten establecer un límite del 80 % o del 90 %. En algunos casos, la opción está escondida dentro de la gestión del estado de la batería.
-
-Xiaomi HyperCharge también necesita cargadores y cables propietarios para alcanzar sus velocidades máximas. Un cargador USB-C PD estándar es seguro para una carga normal, pero normalmente no llegará a la potencia anunciada en la publicidad.
-
-Aquí es donde Android se vuelve confuso. Dos móviles Xiaomi del mismo año pueden mostrar opciones de carga distintas, y el firmware regional puede volver a cambiar sus nombres.
+[En el POCO F6, Xiaomi documenta](https://www.mi.com/global/support/faq/details/KA-274093/) la ruta `Settings > Battery > Battery protection` con las opciones Regular, Limited, Optimized y Nighttime charging. La página también indica `Security > Battery > Battery protection` como ruta alternativa. Es un ejemplo específico del POCO F6, no un menú ni una lista de modos universal para dispositivos Xiaomi, Redmi, POCO, MIUI o HyperOS. Otros modelos y versiones de software pueden ser diferentes.
 
 ## Móviles antiguos y aplicaciones de terceros
 

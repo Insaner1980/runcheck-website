@@ -10,6 +10,8 @@ tags: ["batteri", "optimering", "android", "tips", "prestanda"]
 locale: "sv"
 draft: false
 ---
+Menynamn, funktioner och exakta steg varierar med tillverkare, modell, Android-version, region, operatör och fast programvara. En Pixel- eller annan tillverkarspecifik väg nedan är ett exempel för den enhetsfamiljen, inte universellt Android-beteende; följ anvisningarna för din exakta modell.
+
 
 Batterisparläget gör störst nytta innan läget blir akut. Att aktivera det vid 8 % hjälper, men då är större delen av laddningen redan borta.
 

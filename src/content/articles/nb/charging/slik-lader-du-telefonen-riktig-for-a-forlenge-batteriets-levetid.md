@@ -14,6 +14,8 @@ Den beste ladevanen er kjedelig: Hold telefonen kjølig, unngå at den blir ligg
 
 Det betyr ikke at du må passe på batteriprosenten hele tiden eller trekke ut kabelen i samme sekund som den når 80 %. Telefonen er et verktøy, ikke en laboratorieprøve. Men litiumionbatterier eldes raskere under noen få forutsigbare forhold, og laderutinene dine kan enten øke belastningen eller holde den under kontroll.
 
+For batteriforskningen i denne artikkelen støtter [oversikten til Edge med flere](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) kapasitetstap, effekttap, økt impedans og virkninger av temperatur, ladenivå, strøm eller belastning, SEI-vekst og litiumplettering. Den fastsetter ikke produsentfunksjoner, universelle temperaturgrenser for telefoner, tilbehørsvalg, reparasjonsråd eller priser, nøyaktig levetid, ladetid eller garanterte forbrukerresultater.
+
 ## Vanen med 20-80 %
 
 Litiumionbatterier liker ikke ytterpunktene. Et telefonbatteri nær 100 % ligger på høyere cellespenning. Denne tilstanden fremskynder sidereaksjoner i cellen, blant annet vekst i det faste elektrolyttgrensesjiktet og gradvis tap av brukbart litium. Resultatet er enkelt: Batteriet kan lagre mindre strøm over tid.

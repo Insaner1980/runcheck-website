@@ -13,6 +13,8 @@ draft: false
 
 Entender lo básico hace que los consejos habituales resulten menos misteriosos. La regla del 20 % al 80 %, las advertencias sobre el calor y el motivo por el que los móviles antiguos se apagan antes de tiempo proceden del mismo lugar: los iones de litio se mueven por una celda que cambia poco a poco cada vez que la utilizas.
 
+Para las afirmaciones científicas sobre la batería de este artículo, [la revisión de Edge y sus coautores](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) respalda pérdida de capacidad y potencia, aumento de impedancia y efectos de temperatura, nivel de carga, corriente o uso, crecimiento de la SEI y recubrimiento de litio. No establece funciones del fabricante, umbrales universales para móviles, elección de accesorios, consejos o precios de reparación, vida útil exacta, tiempos de carga ni resultados garantizados.
+
 ## La celda básica
 
 Una batería de iones de litio para móvil tiene cuatro componentes principales: ánodo, cátodo, electrolito y separador. En las celdas convencionales, el ánodo suele ser de grafito. El cátodo es un óxido metálico de litio cuya composición exacta depende del fabricante. El electrolito permite que se muevan los iones de litio, mientras que el separador evita que los dos electrodos entren en contacto.

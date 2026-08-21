@@ -35,13 +35,11 @@ Pixel-Smartphones sind das deutlichste Beispiel. Du kannst ein aktuelles Pixel w
 
 Samsung hat die Option länger beibehalten als viele andere Hersteller. Deshalb geht es bei den meisten Suchanfragen zu diesem Thema eigentlich um Galaxy-Smartphones.
 
-## Die Samsung-Situation im Jahr 2026
+## Aktueller Umfang: A/B-Android und unterstützte Galaxy-Geräte
 
-Samsungs britische Support-Seite beschreibt weiterhin das **Löschen der Cache-Partition** über den Recovery Mode: Smartphone ausschalten, Recovery mit der passenden Tastenkombination öffnen, **Wipe cache partition** auswählen, bestätigen und anschließend neu starten.
+[AOSPs Dokumentation zu A/B-Updates](https://source.android.com/docs/core/ota/ab/ab_implement) sagt, dass A/B-Geräte für OTA-Pakete keine Recovery- oder Cache-Partition benötigen. Der klassische Befehl **Wipe cache partition** ist deshalb keine allgemeine Funktion moderner Android-Geräte.
 
-Gleichzeitig scheint Samsungs Sicherheitsupdate vom Februar 2026 mehrere Recovery-Werkzeuge auf einigen Galaxy-Modellen entfernt zu haben, darunter **Wipe cache partition**. Berichte von Android Authority und GalaxyClub nannten zunächst Modelle der Galaxy-S25-Reihe und neuere Foldables wie das Galaxy Z Fold 7. Auf betroffenen Softwareständen zeigt das verkürzte Menü demnach nur noch **Reboot system now**, **Wipe data/factory reset** und **Power off**.
-
-Samsung hat keine eindeutige weltweite Erklärung veröffentlicht, die alle Modelle und Regionen abdeckt. Die sichere Empfehlung lautet deshalb: Betrachte **Wipe cache partition** auf Galaxy-Smartphones im Jahr 2026 als abhängig von Modell und Firmware. Wenn die Option in deinem Recovery-Menü vorhanden ist, kannst du sie verwenden. Fehlt sie, ist dein Smartphone nicht automatisch defekt.
+[Samsungs aktuelle britische Anleitung](https://www.samsung.com/uk/support/mobile-devices/how-do-i-clear-the-cache-on-my-device/) dokumentiert den Befehl weiterhin für unterstützte Galaxy-Geräte: Recovery öffnen, **Wipe cache partition** wählen, bestätigen und neu starten. Behandle das als Samsung- und firmwareabhängig. Fehlt die Option, ersetze sie nicht durch **Wipe data/factory reset**.
 
 ## Bevor du den Recovery Mode verwendest
 

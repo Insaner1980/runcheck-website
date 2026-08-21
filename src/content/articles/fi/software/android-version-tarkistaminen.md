@@ -37,7 +37,7 @@ Koontiversion numero on tarkempi. Se yksilöi laitteeseen asennetun ohjelmistoko
 
 ## Myös valmistajan käyttöliittymäversiolla on merkitystä
 
-Samsung ei toimita pelkkää "puhdasta Androidia", vaan sen päällä toimivan One UI -käyttöliittymän. One UI 9 on Samsungin Android 17 -sukupolvi. Heinäkuussa 2026 Samsungin virallisesti ilmoittama betaohjelma on edelleen Galaxy S26 -sarjan käyttäjille valituilla markkinoilla, eikä Suomi kuulu ilmoitettuihin beta-maihin. Betaohjelmaan osallistuva Galaxy S26 -käyttäjä voi siis nähdä uuden alustan ennen vanhemman Galaxy-mallin vakaata versiota. Samsung on kertonut tuovansa täyden version myöhemmin samana vuonna uusien lippulaivamallien yhteydessä.
+[Samsungin nykyinen One UI 9 -sivu](https://www.samsung.com/us/apps/one-ui/) sanoo, että virallinen One UI 9 on otettu ensin käyttöön Galaxy Z Fold8 Ultra-, Galaxy Z Fold8- ja Galaxy Z Flip8 -laitteissa ja sen odotetaan tulevan vähitellen muihin Galaxy-laitteisiin. Saatavuus vaihtelee mallin, maan tai alueen, operaattorin, laiteohjelmiston ja koontiversion mukaan.
 
 Xiaomi-, Redmi- ja POCO-puhelimet käyttävät Xiaomi HyperOS -järjestelmää. HyperOS-versionumero kertoo Xiaomin omasta käyttöliittymästä ja ominaisuuksista, mutta ei aina paljasta alla olevaa Android-versiota yhdellä silmäyksellä. Avaa Android-version tiedot ennen kuin oletat HyperOS 3:n, 3.1:n tai myöhemmän HyperOS-version tarkoittavan samaa Android-pohjaa kaikissa malleissa.
 

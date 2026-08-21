@@ -9,6 +9,8 @@ tags: ["materiel", "test", "diagnostic", "android", "guide"]
 locale: "fr"
 draft: false
 ---
+Android commande la vibration via [l'API d'actionneur Vibrator](https://developer.android.com/reference/android/os/Vibrator) ; le moteur de vibration n'est pas un capteur Android. Pour des tests directs, [Samsung documente `*#0*#`](https://www.samsung.com/ch/support/mobile-devices/wie-kann-ich-einzelne-hard-oder-software-funktionen-testen/), [Samsung Members propose un diagnostic pris en charge](https://www.samsung.com/us/support/answer/ANS10003443/) et [Xiaomi documente CIT](https://www.mi.com/global/support/faq/details/KA-491482/) sur les appareils concernés. Disponibilité et noms de tests varient selon modèle, région, opérateur et micrologiciel.
+
 
 ---
 
@@ -31,8 +33,6 @@ Dernier détail : contrôlez le clavier. Gboard, Samsung Keyboard et SwiftKey po
 Les Samsung Galaxy offrent l'option intégrée la plus claire. Ouvrez Samsung Members, appuyez sur Assistance, puis sur Diagnostics du téléphone et lancez le test Vibration. Samsung répertorie la vibration comme un test distinct sur les modèles compatibles, ce qui est plus sûr que de dépendre d'un code caché.
 
 L'ancien code Samsung `*#0*#` ouvre encore un menu de test matériel sur de nombreux Galaxy. Appuyez sur Vibration et le téléphone doit vibrer jusqu'à la fermeture du test. Le code nécessite l'application Téléphone de Samsung. Le micrologiciel d'un opérateur, les réglages de sécurité d'une version récente de One UI ou des restrictions d'entreprise peuvent bloquer ce menu.
-
-Certains téléphones Android réagissent aussi à `*#*#0842#*#*`, un ancien code de test de la vibration et du rétroéclairage. Ne le considérez pas comme universel. Les Pixel ne le prennent généralement pas en charge, et beaucoup d'applications Téléphone modernes l'ignorent.
 
 Sur les Xiaomi, Redmi et POCO, essayez le menu CIT avec `*#*#6484#*#*`. Le nom du menu et la liste des tests varient entre les versions de MIUI et d'HyperOS, mais la vibration y figure souvent.
 

@@ -14,6 +14,8 @@ Die beste Ladegewohnheit ist unspektakulär: Halte das Smartphone kühl, lass es
 
 Du musst deshalb nicht ständig auf die Prozentanzeige schauen oder das Kabel in der Sekunde abziehen, in der 80 % erreicht sind. Ein Smartphone ist ein Werkzeug und keine Laborprobe. Lithium-Ionen-Akkus altern unter einigen gut vorhersehbaren Bedingungen jedoch schneller. Deine tägliche Laderoutine kann diese Belastung erhöhen oder in Grenzen halten.
 
+Für die batteriewissenschaftlichen Aussagen dieses Artikels stützt [die Übersicht von Edge und anderen](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) Kapazitäts- und Leistungsverlust, Impedanzanstieg sowie die Einflüsse von Temperatur, Ladestand, Strom oder Last, SEI-Wachstum und Lithium-Plating. Sie belegt keine Herstellerfunktionen, universellen Smartphone-Temperaturgrenzen, Zubehörentscheidungen, Reparaturhinweise oder Preise, genaue Lebensdauer, Ladezeitaussagen oder garantierten Ergebnisse.
+
 ## Die Gewohnheit, zwischen 20 und 80 % zu laden
 
 Lithium-Ionen-Akkus mögen die Extreme nicht besonders. Nahe 100 % liegt an den Zellen eine höhere Spannung an. Dieser Zustand beschleunigt Nebenreaktionen im Inneren, darunter das Wachstum der Festelektrolyt-Grenzschicht und den allmählichen Verlust nutzbaren Lithiums. Das Ergebnis ist einfach: Mit der Zeit speichert der Akku weniger Energie.

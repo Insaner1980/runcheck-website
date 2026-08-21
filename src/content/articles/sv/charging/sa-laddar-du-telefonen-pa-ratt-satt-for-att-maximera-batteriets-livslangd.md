@@ -14,6 +14,8 @@ Den bästa laddningsvanan är ganska tråkig: håll telefonen sval, undvik att l
 
 Det betyder inte att du måste vakta batteriprocenten eller dra ur kabeln i samma sekund som den når 80 %. Telefonen är ett verktyg, inte ett laboratorieprov. Men litiumjonbatterier åldras snabbare under några förutsägbara förhållanden, och dina laddningsvanor kan antingen öka belastningen eller hålla den under kontroll.
 
+För batteriforskningen i den här artikeln stöder [översikten av Edge med flera](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) kapacitets- och effektförlust, ökad impedans samt effekter av temperatur, laddningsnivå, ström eller belastning, SEI-tillväxt och litiumplätering. Den fastställer inte tillverkarfunktioner, universella temperaturgränser för telefoner, tillbehörsval, reparationsråd eller priser, exakt livslängd, laddningstid eller garanterade konsumentresultat.
+
 ## Vanan att hålla sig mellan 20 och 80 %
 
 Litiumjonbatterier trivs inte vid ytterlägena. Ett telefonbatteri nära 100 % ligger på högre cellspänning. Det påskyndar sidoreaktioner inne i cellen, bland annat tillväxten av det fasta elektrolytgränsskiktet och den gradvisa förlusten av användbart litium. Resultatet är enkelt: batteriet kan lagra mindre laddning med tiden.

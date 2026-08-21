@@ -14,6 +14,8 @@ Du spelar, batteriet är nere på 12 % och laddaren ligger precis bredvid. Du ko
 
 Förmodligen inte. Men du skapade exakt den kombination av värmekällor som batterier ogillar.
 
+För batteriforskningen i den här artikeln stöder [översikten av Edge med flera](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) kapacitets- och effektförlust, ökad impedans samt effekter av temperatur, laddningsnivå, ström eller belastning, SEI-tillväxt och litiumplätering. Den fastställer inte tillverkarfunktioner, universella temperaturgränser för telefoner, tillbehörsval, reparationsråd eller priser, exakt livslängd, laddningstid eller garanterade konsumentresultat.
+
 ## Det korta svaret
 
 Det är säkert att använda telefonen medan den laddas, så länge du använder en oskadad, certifierad laddare och kabel på en torr plats. Samsung säger samma sak tydligt om Galaxy-telefoner: enheten kan användas under laddning, men batteriet laddas långsammare eftersom telefonen förbrukar en del av den inkommande strömmen.

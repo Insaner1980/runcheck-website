@@ -88,7 +88,7 @@ Un'app di diagnostica come runcheck può aiutarti a seguire nel tempo stato dell
 
 La modalità scura fa risparmiare batteria sugli schermi OLED e AMOLED, ma il vantaggio dipende dalla luminosità e da quanto è davvero scura l'app. Sugli LCD cambia poco, perché la retroilluminazione resta accesa.
 
-La modalità aereo può accelerare leggermente la ricarica perché il dispositivo svolge meno lavoro. La differenza è di solito piccola, a meno che il segnale non sia pessimo.
+La modalità aereo può ridurre l'attività delle radio e in background, quindi il telefono può consumare meno durante la ricarica. La potenza in ingresso del caricabatterie è distinta e non è stata dimostrata una riduzione universale e misurata del tempo di ricarica.
 
 Usare il telefono mentre è in carica è sicuro con un dispositivo moderno e un buon caricatore. Giocare a lungo durante una ricarica rapida è diverso, perché aggiunge calore. Navigazione leggera e messaggi non sono un problema.
 

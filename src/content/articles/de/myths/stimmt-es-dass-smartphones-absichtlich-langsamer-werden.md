@@ -21,7 +21,7 @@ Dass noch immer über absichtliche Verlangsamung gesprochen wird, liegt vor alle
 
 Das eigentliche Problem war die mangelnde Transparenz. Menschen bemerkten langsamere iPhones, erfuhren aber nicht klar genug, dass ein Akkutausch einen großen Teil der verlorenen Leistung wiederherstellen konnte. Viele hielten das ganze Smartphone für verbraucht.
 
-Apple ergänzte später verständlichere Angaben zum Akkuzustand und zahlte im Rahmen von Vergleichen Entschädigungen. 2018 verhängte die italienische Wettbewerbsbehörde außerdem Geldbußen gegen Apple und Samsung wegen Softwareupdates, die bei bestimmten Smartphones erhebliche Probleme verursachten oder die Leistung verringerten. Diese Vorgeschichte erklärt, warum Menschen nicht einfach abwinken, wenn ein älteres Gerät nach einem Update schlechter läuft.
+Ein dokumentierter Fall existiert. 2018 [kündigte Italiens Wettbewerbsbehörde Geldbußen gegen Apple und Samsung an](https://en.agcm.it/en/media/press-releases/2018/10/PS11009-PS11039), nachdem bestimmte Updates schwere Fehlfunktionen und Leistungseinbußen verursacht hatten, ohne ausreichend über Auswirkungen oder die Wiederherstellung ursprünglicher Funktion zu informieren. Das belegt diese genannten Untersuchungen und Geräte, nicht, dass jede spätere Verlangsamung oder Aktualisierung beabsichtigt ist.
 
 Das sollten sie auch nicht.
 

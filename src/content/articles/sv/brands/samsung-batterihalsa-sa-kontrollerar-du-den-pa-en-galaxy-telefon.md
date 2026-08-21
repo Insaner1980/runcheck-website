@@ -9,8 +9,7 @@ tags: ["batteri", "hälsa", "diagnostik", "android", "guide"]
 locale: "sv"
 draft: false
 ---
-
-Det är just osäkerheten som är problemet. En Galaxy S25 med en nyare One UI-version kan visa batterihälsa i procent och antal laddningscykler. En Galaxy S23 med en till synes liknande uppdatering kanske inte gör det. Android 17 finns nu på de flesta Pixel-enheter som stöds, och Samsung startade betan av Android 17-baserade One UI 9 för Galaxy S26-serien i maj 2026. Den bredare utrullningen kommer senare, och Samsung kan fortfarande bestämma vilka batteriuppgifter som visas på varje modell.
+[Samsungs aktuella One UI 9-sida](https://www.samsung.com/us/apps/one-ui/) säger att officiella One UI 9 först har rullats ut till Galaxy Z Fold8 Ultra, Galaxy Z Fold8 och Galaxy Z Flip8 och väntas rullas ut gradvis till andra Galaxy-enheter. Tillgänglighet varierar med modell, land eller region, operatör, fast programvara och version.
 
 Här är kontrollerna som faktiskt är värda att använda, och de som ser användbara ut men inte säger särskilt mycket.
 
@@ -92,7 +91,7 @@ Galaxy S21 till S24 ger vanligtvis grundläggande Android-uppgifter om batteriet
 
 Galaxy A-serien och äldre modeller är mindre förutsägbara. Samsung Members är fortfarande den bästa officiella kontrollen. Appar från tredje part kan följa trender, men ström- och kapacitetsvärden saknas oftare eller innehåller mer brus.
 
-En Galaxy-telefon som får Android 17 blir inte automatiskt mer öppen med batteridata över en natt. Android 17 kom först till Pixel-enheter som stöds, och Samsung har nu börjat testa den Android 17-baserade One UI 9-versionen på Galaxy S26-serien. Även när den bredare utrullningen når fler modeller bestämmer Samsung vilka sidor och batterivärden som aktiveras på varje enhet.
+One UI 9 gör inte automatiskt alla Galaxy-telefoner mer öppna med batteridata. Samsung utökar lanseringen gradvis och bestämmer fortfarande vilka sidor och batterivärden som aktiveras beroende på modell, region och programvaruversion.
 
 ## När batteriet sannolikt behöver bytas
 

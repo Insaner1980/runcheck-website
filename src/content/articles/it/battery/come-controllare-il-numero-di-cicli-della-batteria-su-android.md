@@ -11,7 +11,7 @@ locale: "it"
 draft: false
 ---
 
-Questo numero conta perché le batterie agli ioni di litio hanno una durata limitata, misurata anche in cicli. Molte batterie moderne mantengono circa l'80 % della capacità originale dopo 800-1.000 cicli, a seconda della chimica e del produttore. Superata quella fase, l'autonomia quotidiana inizia spesso a ridursi in modo evidente.
+La durata in cicli non è un valore universale di Android. Dipende dalla chimica della cella e dalla classificazione del produttore. Google pubblica, per esempio, obiettivi specifici per i modelli Pixel, mentre i nuovi telefoni soggetti alle norme UE seguono una prova minima distinta.
 
 Android supporta la comunicazione del conteggio dei cicli da Android 14, ma la presenza del dato dipende interamente dal produttore. Alcuni telefoni recenti lo mostrano nelle Impostazioni. La maggior parte no. I metodi qui sotto partono dalle soluzioni che funzionano sul maggior numero di dispositivi, compresi i modelli più vecchi.
 
@@ -19,7 +19,7 @@ Android supporta la comunicazione del conteggio dei cicli da Android 14, ma la p
 
 Per la maggior parte degli smartphone, soprattutto quelli precedenti al 2024, un'app di monitoraggio è il punto di partenza più pratico.
 
-AccuBattery non legge il contatore hardware dei cicli. Registra invece le sessioni di ricarica, stima la capacità reale e calcola l'usura in cicli equivalenti in base alla quantità di energia immessa e alla tensione raggiunta. Installala e lasciala raccogliere dati per una settimana o più attraverso varie ricariche. Più a lungo la usi, più diventano stabili le stime. Un valore mostrato subito dopo l'installazione si basa su dati troppo limitati: attendi almeno due settimane prima di prenderlo sul serio. AccuBattery supporta la maggior parte dei dispositivi con Android 5.0 o versioni successive.
+AccuBattery non legge il contatore hardware dei cicli. Registra invece le sessioni di ricarica, stima la capacità reale e calcola l'usura in cicli equivalenti in base alla quantità di energia immessa e alla tensione raggiunta. Installala e lasciala raccogliere dati per una settimana o più attraverso varie ricariche. Più a lungo la usi, più diventano stabili le stime. Un valore mostrato subito dopo l'installazione si basa su dati troppo limitati: attendi almeno due settimane prima di prenderlo sul serio. La versione minima di Android può cambiare con gli aggiornamenti dell'app. Controlla quindi la scheda Google Play attuale sul tuo dispositivo invece di affidarti a un numero fisso.
 
 aBattery segue un approccio diverso. Sui dispositivi con Android 14 o versioni successive, quando il produttore espone le informazioni tramite le API e il livello hardware della batteria, l'app può leggere direttamente conteggio dei cicli, capacità e altri dati. Sui telefoni più vecchi o con implementazioni incomplete, alcune informazioni possono mancare o risultare poco affidabili. L'app non può creare un dato che il sistema o il firmware non rendono disponibile.
 

@@ -9,6 +9,8 @@ tags: ["batteri", "batteriförbrukning", "felsökning", "android", "prestanda"]
 locale: "sv"
 draft: false
 ---
+Menynamn, funktioner och exakta steg varierar med tillverkare, modell, Android-version, region, operatör och fast programvara. En Pixel- eller annan tillverkarspecifik väg nedan är ett exempel för den enhetsfamiljen, inte universellt Android-beteende; följ anvisningarna för din exakta modell.
+
 
 Hur vet du om telefonen är långsam för att Android har en dålig dag, eller för att en app ställer till med allt i bakgrunden? Säkert läge är det tydligaste testet.
 

@@ -34,7 +34,7 @@ Das Android-Framework enthält zwar die System-API `getInternalStorageRemainingL
 
 Pixel-Geräte bieten Diagnose- und Reparaturwerkzeuge für verschiedene Komponenten, aber Google dokumentiert keine allgemeine Einstellung, die zuverlässig einen NAND-Lebensdauerwert für normale Nutzer anzeigt. Samsung Members kann auf Galaxy-Smartphones eine umfangreiche Gerätediagnose ausführen. Auch dort solltest du keinen klaren Prozentwert für die verbleibende Lebensdauer des internen Speichers erwarten.
 
-Android 17 macht den Speicherzustand nicht zu einer allgemein verfügbaren Funktion für Nutzer. Im Juli 2026 hat die Version mit Beta 3 Plattformstabilität erreicht und ist auf unterstützten Pixel-Geräten als Testversion verfügbar, aber noch nicht stabil allgemein verteilt. Unterschiede zwischen den OEMs bleiben deshalb weiterhin entscheidend.
+Android 17 macht den Speicherzustand nicht zu einer allgemein verfügbaren Funktion für Nutzer. Die Version ist für unterstützte Pixel-Geräte verfügbar, während andere Hersteller Diagnosefunktionen weiterhin in ihren eigenen Oberflächen umsetzen. Unterschiede zwischen den OEMs bleiben deshalb entscheidend.
 
 ## Zuerst den Speichertyp prüfen
 

@@ -12,7 +12,7 @@ draft: false
 
 Mantenimiento del dispositivo es útil, aunque funciona primero como panel de control y después como optimizador. Reúne en un solo lugar el consumo de batería, la presión sobre el almacenamiento, las aplicaciones en segundo plano, el uso de memoria y las comprobaciones de seguridad. Sus mejores herramientas son las específicas, no la limpieza con un solo toque.
 
-Samsung también cambia los nombres de los menús entre versiones de One UI. Algunos móviles muestran **Ajustes > Mantenimiento del dispositivo**. Otros conservan nombres anteriores equivalentes a Battery and device care. Android 17 ya ha llegado primero a los Pixel compatibles, mientras que los Galaxy recibirán más adelante la actualización de One UI basada en Android 17, así que cabe esperar otra ronda de pequeños cambios de texto y diseño.
+[La página actual de One UI 9 de Samsung](https://www.samsung.com/us/apps/one-ui/) dice que la versión oficial de One UI 9 se ha desplegado primero en Galaxy Z Fold8 Ultra, Galaxy Z Fold8 y Galaxy Z Flip8 y se espera que llegue gradualmente a otros dispositivos Galaxy. La disponibilidad varía por modelo, país o región, operador, firmware y compilación.
 
 ## Qué es Mantenimiento del dispositivo
 

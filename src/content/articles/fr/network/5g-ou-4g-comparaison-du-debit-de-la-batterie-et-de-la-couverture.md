@@ -9,77 +9,39 @@ tags: ["performances", "vitesse", "android", "optimisation", "depannage"]
 locale: "fr"
 draft: false
 ---
+La 5G et la 4G ne se comparent pas avec une valeur fixe de débit, latence, batterie ou couverture. Le résultat dépend du spectre, de l'architecture, de l'appareil, du modem, de l'opérateur, du lieu, du moment, du signal, du serveur et de la charge. Les anciens chiffres présentés trop largement ont été supprimés.
 
-C'est la partie que le marketing des téléphones mentionne rarement.
+<figure class="not-prose my-10">
+  <img class="w-full rounded-2xl border border-run-border shadow-2xl" src="/images/articles/5g-vs-4g.webp" alt="Comparaison de la 5G et de la 4G pour le débit, la stabilité, la chaleur et la batterie" width="1672" height="941" loading="lazy" decoding="async" />
+  <figcaption class="mt-3 text-sm leading-relaxed text-run-muted">La 5G peut dépasser la 4G, mais le résultat dépend de l'appareil et du réseau, pas seulement de l'icône.</figcaption>
+</figure>
 
-## Le débit dépend du type de 5G utilisé
+## Débit
 
-L'icône 5G ne raconte pas toute l'histoire. Un téléphone peut afficher 5G tout en étant connecté à une couche basse fréquence à large couverture, à une couche moyenne fréquence rapide ou à une cellule mmWave très rapide qui ne couvre qu'une petite zone extérieure. L'expérience n'est pas la même.
+La [position de la GSMA sur le spectre](https://www.gsma.com/connectivity-for-good/spectrum/wp-content/uploads/2025/07/5G-Spectrum-Public-Policy-Paper.pdf) décrit les bandes basses comme couche de couverture et les rôles différents des bandes moyennes et hautes. Cela soutient des différences qualitatives, pas des débits fixes.
 
-La 5G basse fréquence privilégie la couverture. Elle porte plus loin et pénètre mieux dans les bâtiments que les fréquences 5G plus élevées, mais son débit peut rester proche d'une bonne connexion 4G LTE. Obtenir 30 à 80 Mbit/s en 5G basse fréquence n'a rien d'étrange.
+Mesurez votre connexion. [NDT7 de Measurement Lab](https://www.measurementlab.net/tests/ndt/ndt7/) est un protocole documenté, mais un test reste un instantané.
 
-La 5G moyenne fréquence offre souvent le meilleur compromis. Dans les villes et les banlieues où le réseau est bien déployé, elle atteint fréquemment quelques centaines de Mbit/s, parfois davantage. C'est là que la 5G devient clairement utile pour les gros téléchargements, l'installation d'applications, les sauvegardes dans le cloud et le partage de connexion.
+## Latence
 
-La mmWave fournit les chiffres spectaculaires. Elle peut dépasser 1 Gbit/s en conditions réelles, mais sa zone de couverture est minuscule par rapport aux bandes basses et moyennes. Les murs, le verre, les arbres, les bus et même la position de votre main peuvent l'affaiblir. On la rencontre surtout dans certains quartiers urbains denses, stades, aéroports et lieux accueillant de grands événements.
+La 5G peut réduire la latence sur un réseau adapté, surtout si radio et cœur le permettent. Distance du serveur, congestion, routage, changements et application peuvent dominer. L'ancienne comparaison fixe en millisecondes n'était pas étayée et a été supprimée.
 
-La 4G LTE est moins rapide sur le papier, mais largement suffisante pour un usage normal. Messagerie, cartes, navigation Web, musique, réseaux sociaux et vidéo HD n'ont pas besoin de centaines de Mbit/s. Une LTE stable à 30 Mbit/s peut être plus agréable qu'une 5G qui change continuellement de couche.
+Comparez plusieurs tests vers le même service. Ne déduisez pas la réactivité de l'icône 5G.
 
-## La latence est meilleure, mais sans miracle
+## Batterie
 
-La 5G réduit généralement la latence par rapport à la 4G. Le délai entre une action et la réponse du réseau diminue. Les appels vidéo, le cloud gaming, le bureau à distance et la collaboration en direct en profitent le plus.
+Une [étude de 2020 sur la première génération de 5G commerciale](https://www.cs.princeton.edu/courses/archive/spring21/cos563/papers/5G_measurement.pdf) a mesuré une puissance radio supérieure à la 4G sur les appareils et réseaux testés. Elle ne donne pas un pourcentage actuel pour tous les téléphones.
 
-Pour la navigation ordinaire, la différence est moins perceptible. Passer de 40 ms à 20 ms se mesure facilement, mais ne rendra pas instantanément rapide un site lourd, un DNS lent ou un serveur éloigné.
+NSA ou SA, modem, signal, bande, trafic et micrologiciel peuvent modifier la consommation. Comparez plusieurs journées semblables sur votre appareil.
 
-La latence dépend aussi du cœur de réseau. Un téléphone connecté en 5G Non-Standalone s'appuie encore sur la LTE pour une partie de la connexion. La 5G Standalone peut améliorer la latence et l'efficacité, mais son déploiement varie selon le pays et l'opérateur.
+## Couverture et signal
 
-## Autonomie : la 5G a encore un coût
+La [documentation SignalStrength d'Android](https://developer.android.com/reference/android/telephony/SignalStrength) définit les niveaux signalés ; elle ne prouve ni débit, ni latence, ni batterie, ni couverture. Les bandes basses peuvent fournir une large couche 5G, les bandes supérieures visant d'autres objectifs. Les résultats intérieurs et ruraux dépendent du lieu et de l'opérateur.
 
-Dans de nombreuses situations réelles, la 5G consomme plus d'énergie que la 4G. Des comparaisons publiées à partir de mesures Ookla ont observé un écart d'environ 6 à 11 % selon le SoC, les puces récentes réduisant cet écart. Ce chiffre reste une indication, pas une règle valable pour chaque téléphone et chaque réseau.
+Une 4G stable peut être meilleure qu'une 5G instable. Une 5G stable peut être bien plus rapide que la 4G locale. Aucun résultat n'est universel.
 
-Trois causes expliquent l'essentiel de la différence.
+## Comparaison pratique
 
-D'abord, de nombreux réseaux 5G utilisent encore une architecture NSA, ou Non-Standalone. Le téléphone maintient alors une ancre LTE tout en ajoutant la 5G NR pour les données. Faire fonctionner deux couches radio demande davantage au modem qu'une connexion LTE seule et stable.
+Gardez la sélection automatique si performances et batterie conviennent. Essayez temporairement la LTE si la 5G est instable, plus lente sur place ou si une comparaison répétable montre un avantage d'autonomie. Les menus varient selon téléphone, opérateur, région et firmware.
 
-Ensuite, un signal 5G faible oblige le modem à travailler plus. À la limite de la couverture, le téléphone peut chercher la 5G, s'y connecter brièvement, revenir en LTE, puis recommencer. Ce cycle gaspille de l'énergie et peut réchauffer l'appareil.
-
-Enfin, un débit plus élevé change les usages. Les applications peuvent synchroniser davantage, la vidéo peut passer à une qualité supérieure, les sauvegardes se terminent plus vite mais réveillent toujours le CPU, et le partage de connexion devient plus tentant. La radio n'est pas la seule à consommer.
-
-Si l'autonomie compte davantage que le débit maximal, le mode LTE reste un choix raisonnable dans les zones où la 5G est faible. Ce n'est pas très spectaculaire, mais cela fonctionne.
-
-## La 4G garde l'avantage pour la couverture
-
-La couverture 4G LTE est mature. Dans de nombreux pays, elle reste la couche la plus fiable à l'intérieur, en zone rurale et comme solution de repli. Les opérateurs l'optimisent depuis des années.
-
-La couverture 5G s'est améliorée, mais varie toujours fortement selon la bande et le lieu. Une carte d'opérateur peut indiquer qu'une ville est couverte, alors que votre appartement, votre bureau en sous-sol, un wagon ou une pièce au fond du logement repasse en LTE.
-
-L'intérieur des bâtiments reste le point faible habituel. Les fréquences 5G élevées transportent davantage de données, mais perdent aussi plus d'énergie en traversant les murs et les fenêtres. La 5G basse fréquence améliore la couverture, mais c'est aussi celle qui offre l'écart de débit le moins spectaculaire.
-
-Les anciens réseaux disparaissent également. La 3G a déjà été arrêtée sur de nombreux marchés, tandis que les calendriers d'extinction de la 2G varient selon les pays, car certains appareils IoT et équipements de sécurité l'utilisent encore. Pour un smartphone moderne, la solution de repli pratique est la LTE.
-
-## Android 17 ne change pas la réalité du déploiement
-
-Android 17 est désormais disponible en premier sur la plupart des Pixel compatibles. Les autres fabricants, notamment Samsung, Xiaomi, OnePlus, OPPO, vivo, HONOR et d'autres, suivent leur propre calendrier et diffusent Android 17 à travers leurs interfaces respectives.
-
-Cela compte pendant un diagnostic. Un Pixel 8 Pro sous Android 17 et un Galaxy S24 encore sous une version de One UI basée sur Android 16 ne se trouvent pas dans la même situation logicielle. Si la 5G est devenue instable juste après une mise à jour majeure, vérifiez le modèle exact, l'opérateur et le numéro de version avant de supposer que tous les téléphones Android ont le même problème.
-
-## Quand désactiver la 5G
-
-Désactivez la 5G si le téléphone chauffe dans votre poche, si la batterie se vide plus vite que d'habitude ou si l'icône alterne sans cesse entre 5G et LTE au même endroit. Le mode LTE peut aussi être préférable lors d'un trajet en zone rurale, dans un sous-sol ou pendant une journée passée dans un bâtiment où la couverture intérieure est faible.
-
-Sur Pixel, le choix du réseau se trouve généralement dans **Paramètres > Réseau et Internet > Profils SIM**, puis dans le type de réseau préféré lorsque l'opérateur laisse ce réglage accessible. Sur Samsung, utilisez **Paramètres > Connexions > Réseaux mobiles > Mode réseau**. Certains opérateurs masquent ou renomment ce choix, surtout sur les appareils verrouillés.
-
-Si vous voyez une option comme 5G Auto, Connectivité adaptative ou un mode intelligent équivalent, essayez-la avant de désactiver complètement la 5G. Le téléphone peut alors utiliser la 5G lorsqu'elle apporte un avantage et revenir à la LTE lorsqu'elle n'en apporte pas.
-
-## Un téléphone 4G reste-t-il pertinent en 2026 ?
-
-Oui, pour certains acheteurs. Un téléphone 4G peut encore gérer les cartes, le streaming, la messagerie, la navigation, les applications bancaires et les appels vidéo. Les débits LTE suffisent à la plupart des usages et les appareils uniquement 4G peuvent coûter moins cher.
-
-Mais je n'achèterais pas un téléphone exclusivement 4G comme appareil principal à conserver longtemps, sauf si le prix est le critère déterminant. Les opérateurs déplacent progressivement davantage de fréquences et d'investissements vers la 5G. Un téléphone que vous comptez garder quatre ou cinq ans devrait donc probablement la prendre en charge.
-
-Un téléphone 4G utilisé avec un forfait moderne reste connecté en LTE à des débits LTE normaux. Il ne peut simplement pas accéder à la couche 5G.
-
-## Verdict pratique
-
-Utilisez la 5G lorsque la couverture est bonne, que les téléchargements sont volumineux, que la latence compte ou que vous partagez la connexion du téléphone. Utilisez la LTE lorsque l'autonomie est prioritaire, que la couverture varie ou que la 5G n'est meilleure que dans la barre d'état.
-
-Le meilleur réglage est celui qui donne une connexion stable là où vous utilisez réellement votre téléphone.
+Évaluez séparément débit, latence, batterie, couverture et signal. Une source ou une icône ne prouve pas les cinq.

@@ -14,6 +14,8 @@ Most battery calibration advice is a leftover from older battery tech and forum 
 
 What it can sometimes do is fix a bad battery percentage reading.
 
+For the battery-science statements in this article, [the Edge et al. review](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) supports capacity and power fade, impedance increase, and the effects of temperature, state of charge, current or load, SEI growth, and lithium plating. It does not establish manufacturer features, universal phone thresholds, accessory choices, repair advice or prices, exact lifetimes, charging-time claims, or guaranteed consumer outcomes.
+
 ## What calibration can and can't fix
 
 The percentage in your status bar is an estimate. Your phone's fuel gauge watches current, voltage, temperature, and charging behavior, then turns that data into a state-of-charge number.

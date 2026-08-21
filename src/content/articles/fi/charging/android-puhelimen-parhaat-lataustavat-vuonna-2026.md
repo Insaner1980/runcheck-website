@@ -102,11 +102,9 @@ Etsi akun asetuksista Optimized Charging, Battery Health Engine tai vastaavia ak
 
 Jos OnePlus tarjoaa bypass charging -toiminnon pelaamiseen tai raskaaseen käyttöön, sitä kannattaa käyttää pitkissä verkkovirtaan kytketyissä jaksoissa. Tarkoitus on vähentää akun lämpenemistä puhelimen työskennellessä kovaa.
 
-### Xiaomi, OPPO ja muut
+### POCO F6 -esimerkki
 
-Xiaomin ja OPPOn valikot vaihtelevat enemmän alueen ja ohjelmistoversion mukaan. Etsi akun asetuksista Battery protection, optimized charging, smart charging tai latausraja.
-
-Jos puhelimessa on valmistajan oma suuritehoinen pikalataus, käytä suositeltua laturia ja kaapelia, kun haluat täyden nopeuden. Tavalliseen yön yli lataamiseen hitaampi USB-C PD -laturi riittää usein hyvin.
+[POCO F6:ssa Xiaomi dokumentoi](https://www.mi.com/global/support/faq/details/KA-274093/) reitin `Settings > Battery > Battery protection` sekä vaihtoehdot Regular, Limited, Optimized ja Nighttime charging. Vaihtoehtoinen reitti on `Security > Battery > Battery protection`. Tämä on POCO F6 -esimerkki, ei yleinen valikko- tai tilaluettelo Xiaomi-, Redmi-, POCO-, MIUI- tai HyperOS-laitteille. Muut mallit ja ohjelmistoversiot voivat poiketa siitä.
 
 ## Asiat, joista ei tarvitse enää huolehtia
 

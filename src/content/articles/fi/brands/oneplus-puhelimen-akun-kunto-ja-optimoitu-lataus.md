@@ -14,6 +14,8 @@ Pikalataus ei ole automaattisesti pahasta. Todellinen vihollinen on kuumuus. Jos
 
 Ajankohdasta vielä yksi huomio: Android 17 julkaistiin ensin useimmille tuetuille Pixel-puhelimille. OnePlus-laitteet saavat Android 17:ään perustuvia OxygenOS-päivityksiä myöhemmin, ja akkutoiminnot voivat silti vaihdella mallin, alueen ja OTA-version mukaan. Älä oleta asetuksen olevan olemassa ennen kuin näet sen omassa puhelimessasi.
 
+Tämän artikkelin akkutieteellisissä väitteissä [Edge ym. -katsaus](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) tukee kapasiteetin ja tehon heikkenemistä, impedanssin kasvua sekä lämpötilan, varaustason, virran tai kuormituksen, SEI-kerroksen kasvun ja litiumin pinnoittumisen vaikutuksia. Se ei osoita valmistajan ominaisuuksia, yleisiä puhelimen lämpörajoja, lisävarustevalintoja, korjausohjeita tai hintoja, tarkkaa käyttöikää, latausaikaväitteitä tai taattuja kuluttajatuloksia.
+
 ## Tarkista akun kunto Asetuksista
 
 Aloita Asetusten hausta. Se on vähiten ärsyttävä reitti, sillä OnePlus on siirtänyt akkusivuja paikasta toiseen OxygenOS-versioiden välillä.

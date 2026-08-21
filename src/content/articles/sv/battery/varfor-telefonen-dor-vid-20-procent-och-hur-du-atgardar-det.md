@@ -13,6 +13,8 @@ draft: false
 
 På sätt och vis gör den det. Siffran på skärmen är en uppskattning, och gamla batterier är svårare att bedöma korrekt.
 
+För batteriforskningen i den här artikeln stöder [översikten av Edge med flera](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) kapacitets- och effektförlust, ökad impedans samt effekter av temperatur, laddningsnivå, ström eller belastning, SEI-tillväxt och litiumplätering. Den fastställer inte tillverkarfunktioner, universella temperaturgränser för telefoner, tillbehörsval, reparationsråd eller priser, exakt livslängd, laddningstid eller garanterade konsumentresultat.
+
 ## Det första du bör kontrollera
 
 Kontrollera batterihälsan innan du börjar med kalibreringsknep.

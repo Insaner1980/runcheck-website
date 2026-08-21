@@ -10,6 +10,8 @@ tags: ["bateria", "optimizacion", "android", "consejos", "rendimiento"]
 locale: "es"
 draft: false
 ---
+Los nombres de menú, el comportamiento compatible y los pasos exactos cambian según fabricante, modelo, versión de Android, región, operador y firmware. Cualquier ruta de Pixel o específica de otro fabricante que aparezca abajo es un ejemplo para esa familia, no un comportamiento universal de Android; usa las instrucciones de tu modelo exacto.
+
 
 El Ahorro de batería resulta más útil antes de que el móvil esté al límite. Activarlo cuando queda un 8 % ayuda, pero para entonces ya se ha consumido casi toda la carga.
 

@@ -20,7 +20,7 @@ Grunnen til at folk fortsatt snakker om bevisst nedbremsing, er Apples Batteryga
 
 Problemet var åpenheten. Brukerne så tregere telefoner, men fikk ikke tydelig beskjed om at et batteribytte kunne gjenopprette mye av ytelsen. Mange trodde at selve telefonen var ferdig.
 
-Apple la senere til tydeligere informasjon om batterihelse og inngikk forlik. I 2018 bøtela den italienske konkurransemyndigheten både Apple og Samsung for programvareoppdateringer som førte til alvorlige problemer eller redusert ytelse på enkelte telefoner. Det er derfor folk ikke bare trekker på skuldrene når en eldre enhet blir verre etter en oppdatering.
+Det finnes et dokumentert tilfelle. I 2018 [kunngjorde Italias konkurransemyndighet bøter mot Apple og Samsung](https://en.agcm.it/en/media/press-releases/2018/10/PS11009-PS11039) etter å ha funnet at enkelte oppdateringer ga alvorlige feil og redusert ytelse uten tilstrekkelig informasjon om virkningene eller hvordan opprinnelig funksjon kunne gjenopprettes. Dette er belegg for de navngitte undersøkelsene og enhetene, ikke bevis for at enhver senere treghet eller oppdatering er tilsiktet.
 
 Det bør de heller ikke.
 

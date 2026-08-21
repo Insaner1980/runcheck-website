@@ -13,6 +13,8 @@ Most fast charging advice is too dramatic. Fast charging is not a battery death 
 
 That is where the answer gets less tidy. A 65W charger on a cool desk can be easier on the battery than a 15W charger under a pillow. Wattage matters, but temperature matters more.
 
+For the battery-science statements in this article, [the Edge et al. review](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) supports capacity and power fade, impedance increase, and the effects of temperature, state of charge, current or load, SEI growth, and lithium plating. It does not establish manufacturer features, universal phone thresholds, accessory choices, repair advice or prices, exact lifetimes, charging-time claims, or guaranteed consumer outcomes.
+
 ## What actually wears the battery
 
 Lithium-ion batteries age through several overlapping processes. Two matter most when people talk about fast charging.

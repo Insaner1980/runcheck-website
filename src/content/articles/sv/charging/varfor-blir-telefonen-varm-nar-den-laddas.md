@@ -14,6 +14,8 @@ Du kopplar in telefonen, kommer tillbaka 20 minuter senare och märker att baksi
 
 Laddning skapar alltid en viss mängd värme eftersom en del av den inkommande energin blir spillvärme i laddaren, kabeln och telefonen. Snabbladdning skapar mer. Trådlös laddning brukar skapa ännu mer. Frågan är inte om telefonen blir varm, utan om den håller sig inom ett normalt intervall eller börjar skydda sig själv.
 
+För batteriforskningen i den här artikeln stöder [översikten av Edge med flera](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) kapacitets- och effektförlust, ökad impedans samt effekter av temperatur, laddningsnivå, ström eller belastning, SEI-tillväxt och litiumplätering. Den fastställer inte tillverkarfunktioner, universella temperaturgränser för telefoner, tillbehörsval, reparationsråd eller priser, exakt livslängd, laddningstid eller garanterade konsumentresultat.
+
 ## Varifrån värmen kommer
 
 Batteriet skapar värme när strömmen går in i cellen. Högre ström ger mer värme, vilket är anledningen till att telefonen ofta är varmast under den första delen av en snabbladdning.

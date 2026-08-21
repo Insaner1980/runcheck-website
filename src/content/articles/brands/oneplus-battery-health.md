@@ -13,6 +13,8 @@ Fast charging is not automatically bad. Heat is the real enemy. A OnePlus phone 
 
 One more timing note: Android 17 is now out first on most supported Pixel phones. OnePlus devices will get Android 17-based OxygenOS updates later, and battery features can still differ by model, region, and OTA build. Don't assume a setting exists until you see it on your own phone.
 
+For the battery-science statements in this article, [the Edge et al. review](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) supports capacity and power fade, impedance increase, and the effects of temperature, state of charge, current or load, SEI growth, and lithium plating. It does not establish manufacturer features, universal phone thresholds, accessory choices, repair advice or prices, exact lifetimes, charging-time claims, or guaranteed consumer outcomes.
+
 ## Check battery health in Settings
 
 Start with the Settings search. It's the least annoying route because OnePlus has moved battery pages around between OxygenOS versions.

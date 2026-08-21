@@ -88,7 +88,7 @@ Una aplicación de diagnóstico como runcheck puede ayudarte a seguir el estado 
 
 El modo oscuro ahorra batería en pantallas OLED y AMOLED, pero la diferencia depende del brillo y de lo oscuro que sea realmente el contenido de la aplicación. En una pantalla LCD suele cambiar poco porque la retroiluminación continúa encendida.
 
-El modo avión puede hacer que la carga sea algo más rápida porque el dispositivo realiza menos trabajo. La diferencia suele ser pequeña, salvo que la señal sea muy mala.
+El modo avión puede reducir la actividad de las radios y en segundo plano, de modo que el teléfono puede consumir menos durante la carga. La potencia de entrada del cargador es un concepto distinto y no se ha establecido una reducción universal y medida del tiempo de carga.
 
 Utilizar el móvil mientras carga es seguro con un dispositivo moderno y un cargador adecuado. Jugar de forma intensa durante una carga rápida es distinto porque añade calor. Leer o enviar mensajes no supone el mismo problema.
 

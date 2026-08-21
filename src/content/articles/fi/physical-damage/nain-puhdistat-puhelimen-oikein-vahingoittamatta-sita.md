@@ -1,6 +1,6 @@
 ---
 title: "Näin puhdistat puhelimen oikein vahingoittamatta sitä"
-description: "Näin puhdistat Android-puhelimen näytön, rungon, portit, kaiuttimet ja suojakuoren turvallisesti vahingoittamatta oleofobista pinnoitetta tai työntämättä kosteutta laitteen sisään."
+description: "Puhdistusohjeet vaihtelevat laitteittain. Opas pitää Google Pixelin, Samsung Galaxyn ja Apple iPhonen ohjeet erillään, jotta liinoja, nesteitä, desinfiointia, aukkoja ja varoituksia ei esitetä yleisinä puhelinsääntöinä."
 listSummary: "laitteisto, testaus ja diagnostiikka"
 hub: "physical-damage"
 sourceNumber: 137
@@ -10,72 +10,36 @@ locale: "fi"
 draft: false
 ---
 
----
+Kaikille puhelimien pinnoille, pinnoitteille, aukoille ja tiivisteille ei ole yhtä puhdistusohjetta. Käytä tarkan laitteen ohjeita. Valmistajaesimerkit pidetään erillään, sillä yhdelle laitteelle hyväksytty tuote ei ole automaattisesti hyväksytty toiselle.
 
-Mitä puhelimen puhdistamiseen oikeastaan pitäisi käyttää: vettä, alkoholipyyhkeitä, näyttösuihketta vai jotakin keittiön kaapista löytyvää?
+## Ennen puhdistusta
 
-Turvallinen vastaus on siivoushyllyä tylsempi. Mikrokuituliina riittää useimmiten. Tarvittaessa voit lisätä hieman tislattua vettä. Käytä alkoholipohjaisia desinfiointipyyhkeitä varovasti ja pidä voimakkaat puhdistusaineet poissa näytöltä.
+Sammuta puhelin, irrota kaapelit ja poista kuori, kun valmistaja niin ohjeistaa. Pidä nesteet poissa aukoista äläkä upota puhelinta vain siksi, että sillä on vedenkestävyysluokitus.
 
-## Pinnoite, jota et halua pilata
+## Google Pixel -ohje
 
-Nykyisten puhelinten ulkolasissa on oleofobinen pinnoite. Se on ohut öljyä hylkivä kerros, jonka ansiosta sormenjäljet pyyhkiytyvät helpommin ja näyttö tuntuu sileältä.
+Googlen Pixel-puhdistussivu suosittelee pehmeää, nukkaamatonta liinaa ja erottaa tavallisen puhdistuksen desinfioinnista. Se varoittaa kosteudesta aukoissa sekä voimakkaasta tai hankaavasta puhdistuksesta. Sivun pyyhe- ja alkoholiohje koskee siinä käsiteltyjä Pixel-malleja.
 
-Pinnoite kuluu normaalissa käytössä. Voimakkaat puhdistusaineet nopeuttavat kulumista. Kun pinnoite häviää yhdestä kohdasta, alue näyttää usein muuta näyttöä rasvaisemmalta ja tuntuu sormella tahmeammalta. Kuluttajille myydään oleofobisen pinnoitteen palautussarjoja, mutta niiden varaan ei kannata laskea, jos tavoitteena on tehdasuuden tuntuinen näyttö.
+Tarkista tarkan Pixelin sivu ennen nesteen tai pyyhkeen valintaa. Älä muuta Pixel-kohtaista hyväksyntää kaikkien Android-puhelinten säännöksi.
 
-Siksi puhelinvalmistajat ovat tarkkoja puhdistusaineista. Kyse ei ole turhasta varovaisuudesta. Pinnoite vaurioituu helposti.
+## Samsung Galaxy -ohje
 
-## Mitä tavalliseen puhdistukseen kannattaa käyttää
+Samsungin Galaxy-ohje kattaa lasiset, keraamiset ja metalliset ulkopinnat. Se neuvoo käyttämään pehmeää, nukkaamatonta liinaa ja kuvaa tislatun veden tai alkoholipohjaisen desinfiointiaineen, kuten 70-prosenttisen isopropyyli- tai etyylialkoholin, käyttöä tuetuille pinnoille.
 
-Aloita kuivalla mikrokuituliinalla, samanlaisella kuin silmälaseille tai kameran objektiiveille käytetään. Se riittää sormenjälkiin ja pölyyn.
+Samsung varoittaa myös liiasta kosteudesta, aukoista, upottamisesta, paineilmasta ja valkaisuaineesta. Nämä ovat Galaxy-ohjeita; tarkista tarkan mallin käyttöohje, jos materiaali tai kunto poikkeaa.
 
-Perusteellisempaa puhdistusta varten sammuta puhelin, irrota kaapelit ja suojakuori ja kostuta liinan yksi kulma kevyesti tislatulla vedellä. Liinan pitää olla nihkeä, ei märkä. Jos siitä voi tippua vettä, se on liian märkä. Pyyhi näyttö ja runko ja kuivaa ne sitten liinan kuivalla osalla.
+## Apple iPhone -ohje
 
-Tislattu vesi on vesijohtovettä parempi vaihtoehto, koska se ei jätä tummaan lasiin samanlaista mineraalihuntua. Siinä ei myöskään ole tuntemattomia lisäaineita, joita voisi jäädä painikkeiden ja kaiutinritilöiden pieniin rakoihin.
+Apple sallii tietyt desinfiointipyyhkeet tuetuilla iPhonen ulkopinnoilla, mukaan lukien 70-prosenttisen isopropyylialkoholin ja 75-prosenttisen etyylialkoholin pyyhkeet. Apple varoittaa valkaisuaineesta, vetyperoksidista, kosteudesta aukoissa, upottamisesta ja paineilmasta sekä toteaa puhdistusaineiden ja hankauksen voivan vaikuttaa oleofobiseen pinnoitteeseen.
 
-## Mitä desinfiointiin voi käyttää
+Ohje koskee iPhonea. Se on nimetty valmistajaesimerkki, ei todiste yleisestä Android-puhdistuskemikaalista.
 
-Apple sallii iPhonen ulkopintojen varovaisen pyyhkimisen 70-prosenttisella isopropyylialkoholipyyhkeellä, 75-prosenttisella etyylialkoholipyyhkeellä tai ohjeessaan mainitsemillaan Clorox Disinfecting Wipes -pyyhkeillä. Samsungin mukaan Galaxy-laitteen voi pyyhkiä tislattuun veteen tai alkoholipohjaiseen desinfiointiaineeseen, kuten 70-prosenttiseen isopropyyli- tai etyylialkoholiin, kostutetulla liinalla, kunhan kosteutta ja aukkoja varotaan.
+## Portit, kaiuttimet ja kuoret
 
-Android-käyttäjälle tästä saa käytännöllisen säännön: käytä 70-prosenttista isopropyylialkoholipyyhettä tai kevyesti kostutettua liinaa, älä läpimärkää pyyhettä. Älä päästä nestettä USB-C-porttiin, kaiuttimeen, mikrofoniin, SIM-korttipaikkaan tai kuulokkeeseen.
+Älä työnnä hammastikkua, metallityökalua, harjaa tai nestettä porttiin tai kaiuttimeen, ellei tarkan laitteen valmistaja ohjeista käyttämään menetelmää. Jos lika haittaa latausta tai ääntä eikä virallinen ohje tarjoa turvallista käyttäjätoimenpidettä, pätevä huolto on turvallisempi reitti.
 
-Älä suihkuta nestettä suoraan puhelimeen. Jos suihketta on pakko käyttää, suihkuta sitä liinaan. Vielä parempi on jättää suihke väliin ja käyttää pyyhettä, jonka kosteutta on helppo hallita.
+Kuorimateriaalitkin vaihtelevat. Puhdista irrotettu kuori sen valmistajan ohjeella ja anna sen kuivua täysin. Artikkeli ei aseta materiaaleja paremmuusjärjestykseen eikä määrää yhtä kemikaalia kaikille kuorille.
 
-## Mitä kannattaa välttää
+## Käytännön sääntö
 
-Ikkunanpesuaine kuuluu ikkunoihin. Ammoniakki ja voimakkaat pinta-aktiiviset aineet voivat irrottaa pinnoitteita ja jättää pintaan sameutta.
-
-Keittiön ja kylpyhuoneen yleispuhdistussuihkeet ovat puhelimelle liian voimakkaita. Monissa on valkaisuainetta, happoja tai hankaavia ainesosia.
-
-Valkaisuaine ja vetyperoksidi eivät kuulu puhelimen puhdistukseen. Apple varoittaa erikseen käyttämästä kumpaakaan iPhonen puhdistamiseen, ja sama varovaisuus on perusteltua Android-näyttöjen ja pintamateriaalien kanssa.
-
-Käsidesi ei ole näytönpuhdistusaine. Siinä voi olla geelejä, kosteuttavia aineita, hajusteita ja jäämiä, jotka leviävät lasille tahroiksi.
-
-Talouspaperi ja paperinenäliinat ovat huono valinta. Niistä irtoaa nukkaa, ja jos lasilla on hiekanjyvä tai muuta kovaa likaa, paperi voi vetää sen pinnan yli. Käytä mikrokuitua.
-
-Paineilma on riskialtis porttien ja kaiuttimien lähellä. Samsung varoittaa sen käytöstä, ja ilmavirta voi työntää roskia syvemmälle tai rasittaa pieniä suojakalvoja.
-
-## USB-C-portin ja kaiuttimien puhdistaminen
-
-Puhdista latausportti vain, kun siihen on syy: kaapeli tuntuu löysältä, ei napsahda kunnolla paikalleen tai lataus on muuttunut epäluotettavaksi. Turha ennakkopuhdistus on yleinen tapa vaurioittaa portin koskettimia.
-
-Sammuta puhelin ensin. Jos näet portissa nukkaa, irrota sitä erittäin varovasti puisella tai muovisella tikulla portin sisäseinämiä pitkin. Älä raavi takaosan koskettimia äläkä koskaan käytä metallia. Jos tunnet vastusta, lopeta. Huoltoliikkeessä tehty puhdistus maksaa vähemmän kuin rikkoutunut USB-C-portti.
-
-Käytä kaiutinritilöihin ja mikrofoniaukkoihin pehmeää, kuivaa harjaa. Harjaa ritilän poikki sen sijaan, että työntäisit harjakset aukkoihin. Puhdas ja pehmeä hammasharja toimii, mutta älä käytä harjaa, jossa on hammastahnajäämiä. Oikeasti.
-
-## Suojakuoren puhdistaminen
-
-Irrota suojakuori ennen puhelimen puhdistamista. Kuoret keräävät hiekkaa, ihorasvaa ja kosteutta puhelimen pintaa vasten, etenkin painikkeiden ja kamerarenkaiden ympärille.
-
-Silikoni- ja TPU-kuoret voi yleensä pestä miedolla saippualla ja vedellä. Huuhtele ne hyvin ja kuivaa täysin ennen kuin laitat ne takaisin puhelimeen.
-
-Kovan muovikuoren voi pyyhkiä mikrokuituliinalla ja pienellä määrällä alkoholipohjaista puhdistusainetta. Nahka- ja kangaskuoret vaativat enemmän varovaisuutta. Käytä kevyesti kostutettua liinaa ja tarvittaessa hyvin vähän mietoa saippuaa, ja anna kuoren kuivua ilmavasti. Alkoholi voi kuivattaa nahkaa ja tahrata kangasta.
-
-Älä laita kosteaa kuorta takaisin puhelimeen. Kuoren alle jäävä kosteus on juuri sitä, mitä yrität välttää.
-
-## Kuinka usein puhelin kannattaa puhdistaa
-
-Päivittäinen nopea pyyhkäisy kuivalla mikrokuituliinalla pitää sormenjäljet kurissa. Tavallisessa käytössä perusteellisempi puhdistus kerran viikossa riittää. Puhdista puhelin useammin kuntosalin, joukkoliikenteen, ruoanlaiton tai matkustamisen jälkeen sekä silloin, kun joku muu on käsitellyt sitä.
-
-Latausportti on eri asia. Puhdista se vain, jos siinä on nukkaa tai latauksessa on ongelma. Turvallisin portti on se, jota ei tökitä ilman syytä.
-
-Et tarvitse merkkikohtaista puhelimen puhdistussarjaa. Hyvä mikrokuituliina, tislattu vesi ja satunnaisesti käytetty 70-prosenttinen isopropyylialkoholipyyhe riittävät lähes kaikkiin tavallisiin puhdistustöihin.
+Aloita vähiten kajoavasta tarkan mallin sallimasta menetelmästä, tavallisesti puhtaasta nukkaamattomasta liinasta. Lisää kosteutta tai desinfiointiainetta vain, kun valmistaja sallii sen kyseiselle pinnalle. Pidä valmistajien rajaukset erillään ja lopeta, jos puhelin on vaurioitunut, auki tai juuri korjattu.

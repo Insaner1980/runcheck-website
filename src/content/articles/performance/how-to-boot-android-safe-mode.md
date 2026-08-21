@@ -8,6 +8,8 @@ order: 7
 tags: ["battery", "drain", "troubleshooting", "android", "performance"]
 draft: false
 ---
+Menu names, supported behavior, and exact steps vary by manufacturer, model, Android version, region, carrier, and firmware. Any Pixel or other manufacturer-specific path below is an example for that device family, not universal Android behavior; use the instructions for your exact model.
+
 
 How do you know whether your phone is slow because Android is having a bad day or because one app is wrecking everything in the background? Safe Mode is the cleanest test.
 

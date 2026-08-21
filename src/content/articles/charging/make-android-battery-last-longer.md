@@ -13,6 +13,8 @@ Most Android battery advice is either too obvious or too extreme. Yes, turning t
 
 The useful approach is to fix the big drains first: display, cellular signal, background apps, location, and charging habits. Android 17 is now available first on most supported Pixel phones, while other Android makers will bring it to their own devices later. That means menu names vary, but the battery fundamentals haven't changed.
 
+For the battery-science statements in this article, [the Edge et al. review](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) supports capacity and power fade, impedance increase, and the effects of temperature, state of charge, current or load, SEI growth, and lithium plating. It does not establish manufacturer features, universal phone thresholds, accessory choices, repair advice or prices, exact lifetimes, charging-time claims, or guaranteed consumer outcomes.
+
 ## Start with the display
 
 The screen is still the biggest drain during active use. If your phone is in your hand, display settings matter more than almost anything else.

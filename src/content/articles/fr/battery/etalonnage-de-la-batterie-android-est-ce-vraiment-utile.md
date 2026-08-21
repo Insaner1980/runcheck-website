@@ -15,6 +15,8 @@ La plupart des conseils sur l'étalonnage viennent d'anciennes technologies de b
 
 Il peut parfois corriger un pourcentage de charge erroné.
 
+Pour les affirmations scientifiques sur la batterie de cet article, [la synthèse d'Edge et ses coauteurs](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) étaye la perte de capacité et de puissance, l'augmentation d'impédance et les effets de la température, du niveau de charge, du courant ou de la charge, de la croissance de la SEI et du placage de lithium. Elle n'établit ni fonction de fabricant, ni seuil universel pour les téléphones, ni choix d'accessoire, conseil ou prix de réparation, durée de vie exacte, temps de charge ou résultat garanti.
+
 ## Ce que l'étalonnage peut corriger, et ce qu'il ne peut pas corriger
 
 Le pourcentage affiché dans la barre d'état est une estimation. La jauge du téléphone observe le courant, la tension, la température et le comportement pendant la recharge, puis transforme ces données en niveau de charge.

@@ -13,6 +13,8 @@ draft: false
 
 När du förstår grunderna blir de vanliga råden mindre mystiska. Regeln 20-80 %, varningen för värme och anledningen till att gamla telefoner dör i förtid kommer från samma sak: litiumjoner rör sig genom en cell som förändras lite varje gång den används.
 
+För batteriforskningen i den här artikeln stöder [översikten av Edge med flera](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) kapacitets- och effektförlust, ökad impedans samt effekter av temperatur, laddningsnivå, ström eller belastning, SEI-tillväxt och litiumplätering. Den fastställer inte tillverkarfunktioner, universella temperaturgränser för telefoner, tillbehörsval, reparationsråd eller priser, exakt livslängd, laddningstid eller garanterade konsumentresultat.
+
 ## Cellens grunddelar
 
 Ett litiumjonbatteri i en telefon har fyra huvuddelar: en anod, en katod, en elektrolyt och en separator. I vanliga mobilceller består anoden oftast av grafit. Katoden är en litiummetalloxid, och den exakta kemin beror på tillverkaren. Elektrolyten låter litiumjonerna röra sig, medan separatorn hindrar de två elektroderna från att komma i kontakt.

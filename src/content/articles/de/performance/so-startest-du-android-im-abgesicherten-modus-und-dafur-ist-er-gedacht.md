@@ -9,6 +9,8 @@ tags: ["akku", "akkuverbrauch", "fehlerbehebung", "android", "leistung"]
 locale: "de"
 draft: false
 ---
+Menünamen, unterstütztes Verhalten und genaue Schritte unterscheiden sich nach Hersteller, Modell, Android-Version, Region, Anbieter und Firmware. Ein Pixel- oder anderer herstellerspezifischer Pfad unten ist ein Beispiel für diese Gerätefamilie, kein universelles Android-Verhalten; nutze die Anleitung für dein genaues Modell.
+
 
 Wie findest du heraus, ob dein Smartphone langsam ist, weil Android gerade einen schlechten Tag hat, oder weil eine App im Hintergrund alles durcheinanderbringt? Der abgesicherte Modus ist der sauberste Test.
 

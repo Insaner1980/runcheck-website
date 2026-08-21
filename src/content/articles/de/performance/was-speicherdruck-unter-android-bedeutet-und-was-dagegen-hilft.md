@@ -47,7 +47,7 @@ Moderne Apps sind außerdem größer als früher. Ein Browser mit mehreren Tabs,
 
 Hintergrunddienste spielen eine größere Rolle, als viele vermuten. Messenger halten Verbindungen offen. Fitness-Apps synchronisieren Daten. E-Mail-Apps fragen Konten ab. VPNs prüfen den Datenverkehr. Launcher und Widgets bleiben im Speicher, weil sie schnell bereitstehen müssen. Nichts davon ist für sich genommen falsch. In der Summe kann es das Smartphone trotzdem einengen.
 
-Große Systemupdates können das stärker sichtbar machen. Android 17 befindet sich im Juli 2026 noch in der Beta, hat mit Beta 3 aber Plattformstabilität erreicht und kann auf unterstützten Pixel-Geräten getestet werden. Nach einem großen Update solltest du dem Smartphone Zeit geben, App-Updates, Optimierungen und Aufräumarbeiten im Hintergrund abzuschließen, bevor du die Leistung beurteilst. Wenn sich 4 GB schon unter Android 14 oder 15 knapp angefühlt haben, schafft Android 17 allerdings keinen zusätzlichen RAM.
+Große Systemupdates können das stärker sichtbar machen. Android 17 ist für unterstützte Pixel-Geräte verfügbar, während andere Hersteller nach eigenen Zeitplänen aktualisieren. Nach einem großen Update solltest du dem Smartphone Zeit geben, App-Updates, Optimierungen und Aufräumarbeiten im Hintergrund abzuschließen, bevor du die Leistung beurteilst. Wenn sich 4 GB schon unter Android 14 oder 15 knapp angefühlt haben, schafft Android 17 allerdings keinen zusätzlichen RAM.
 
 ## Was tatsächlich hilft
 

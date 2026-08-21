@@ -37,7 +37,7 @@ Il numero build è più specifico. Identifica l'esatta versione software install
 
 ## Conta anche l'interfaccia del produttore
 
-Samsung non distribuisce semplicemente "Android puro". Aggiunge One UI. One UI 9 è la generazione Samsung basata su Android 17, ma a luglio 2026 non è ancora un aggiornamento stabile in distribuzione generale. Samsung ha aperto la beta sulla serie Galaxy S26 in alcuni mercati e ha annunciato l'esperienza completa per nuovi dispositivi Galaxy di punta più avanti nel 2026. Chi partecipa alla beta può quindi vedere la nuova piattaforma prima di chi usa il canale stabile.
+[La pagina One UI 9 attuale di Samsung](https://www.samsung.com/us/apps/one-ui/) afferma che la versione ufficiale di One UI 9 è stata distribuita prima su Galaxy Z Fold8 Ultra, Galaxy Z Fold8 e Galaxy Z Flip8 e dovrebbe arrivare gradualmente su altri dispositivi Galaxy. La disponibilità varia per modello, Paese o area, operatore, firmware e build.
 
 Gli smartphone Xiaomi, Redmi e POCO usano Xiaomi HyperOS. Il numero di HyperOS descrive l'interfaccia e le funzioni di Xiaomi, ma non rivela sempre a colpo d'occhio la versione Android sottostante. Apri la pagina con i dettagli della piattaforma prima di concludere che HyperOS 3, 3.1 o una build successiva significhi la stessa cosa su ogni modello.
 

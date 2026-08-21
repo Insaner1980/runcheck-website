@@ -9,6 +9,8 @@ tags: ["hardware", "skader", "reparation", "android", "fejlfinding"]
 locale: "da"
 draft: false
 ---
+Menunavne, understøttet adfærd og præcise trin varierer efter producent, model, Android-version, område, operatør og firmware. En Pixel- eller anden producentspecifik sti nedenfor er et eksempel for den enhedsfamilie, ikke universel Android-adfærd; brug vejledningen til din præcise model.
+
 
 ---
 
@@ -46,7 +48,7 @@ Hvis du kører sådanne værktøjer i timevis ved høj lysstyrke, kan du tilfør
 
 Android har understøttet fuld navigation med bevægelser siden Android 10, og rådet gælder stadig på Android 17: Bevægelser er bedre for OLED-slid end en lys navigationslinje med tre knapper, der står samme sted hele dagen.
 
-Always-on display-funktioner flytter også ure og ikoner, dæmper dem eller begrænser, hvor længe de vises. Nogle producenter bruger pixel shifting eller lignende panelpleje, hvor indholdet flyttes en smule over tid, så de samme pixels ikke tager hele sliddet. Samsung beskriver Pixel Shift på sine OLED-skærme og tv'er, og telefonproducenter bruger den samme grundidé i mindre og mindre synlige bevægelser.
+Always-on display-adfærd og anden panelbeskyttelse varierer med telefon, producent og model. Se den præcise enheds skærmvejledning i stedet for at antage, at den har en funktion, som er dokumenteret til en anden produktkategori.
 
 Automatisk lysstyrke hjælper også. Risikoen for burn-in stiger, når skærmen drives hårdt i lange perioder, så en telefon, der står på maksimal lysstyrke indendørs, arbejder unødvendigt hårdt.
 

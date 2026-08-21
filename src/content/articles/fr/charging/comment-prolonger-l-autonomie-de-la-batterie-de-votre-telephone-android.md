@@ -14,6 +14,8 @@ La plupart des conseils sur l'autonomie d'Android sont soit trop évidents, soit
 
 La méthode utile consiste à commencer par les postes qui consomment le plus : l'écran, le signal mobile, les applications en arrière-plan, la localisation et les habitudes de recharge. Android 17 est disponible depuis le 16 juin 2026 sur la plupart des Pixel compatibles, tandis que les autres fabricants l'adaptent ensuite à leurs propres appareils éligibles. Les noms des menus varient donc, mais les principes de base de l'autonomie n'ont pas changé.
 
+Pour les affirmations scientifiques sur la batterie de cet article, [la synthèse d'Edge et ses coauteurs](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) étaye la perte de capacité et de puissance, l'augmentation d'impédance et les effets de la température, du niveau de charge, du courant ou de la charge, de la croissance de la SEI et du placage de lithium. Elle n'établit ni fonction de fabricant, ni seuil universel pour les téléphones, ni choix d'accessoire, conseil ou prix de réparation, durée de vie exacte, temps de charge ou résultat garanti.
+
 ## Commencez par l'écran
 
 L'écran reste la principale source de consommation pendant l'utilisation active. Lorsque le téléphone est dans votre main, ses réglages comptent davantage que presque tout le reste.

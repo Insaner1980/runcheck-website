@@ -13,6 +13,8 @@ You plug in your phone, come back 20 minutes later, and the back feels warmer th
 
 Charging always creates some heat because some incoming energy turns into waste heat inside the charger, cable, and phone. Fast charging creates more. Wireless charging usually creates more again. The question isn't whether the phone gets warm. The question is whether it stays in a normal range or starts protecting itself.
 
+For the battery-science statements in this article, [the Edge et al. review](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) supports capacity and power fade, impedance increase, and the effects of temperature, state of charge, current or load, SEI growth, and lithium plating. It does not establish manufacturer features, universal phone thresholds, accessory choices, repair advice or prices, exact lifetimes, charging-time claims, or guaranteed consumer outcomes.
+
 ## Where the heat comes from
 
 The battery itself creates heat as current flows into the cell. Higher current means more heat, which is why the phone is usually warmest during the early part of a fast charge.

@@ -14,6 +14,8 @@ La mayoría de los consejos sobre carga rápida son demasiado alarmistas. La car
 
 Ahí es donde la respuesta se complica. Un cargador de 65 W sobre una mesa fresca puede castigar menos la batería que uno de 15 W debajo de una almohada. La potencia importa, pero la temperatura importa más.
 
+Para las afirmaciones científicas sobre la batería de este artículo, [la revisión de Edge y sus coautores](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) respalda pérdida de capacidad y potencia, aumento de impedancia y efectos de temperatura, nivel de carga, corriente o uso, crecimiento de la SEI y recubrimiento de litio. No establece funciones del fabricante, umbrales universales para móviles, elección de accesorios, consejos o precios de reparación, vida útil exacta, tiempos de carga ni resultados garantizados.
+
 ## Qué desgasta realmente la batería
 
 Las baterías de iones de litio envejecen mediante varios procesos que se solapan. Dos de ellos son especialmente importantes al hablar de carga rápida.

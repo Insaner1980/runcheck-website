@@ -9,6 +9,8 @@ subgroup: "Drain"
 tags: ["battery", "optimization", "android", "tips", "performance"]
 draft: false
 ---
+Menu names, supported behavior, and exact steps vary by manufacturer, model, Android version, region, carrier, and firmware. Any Pixel or other manufacturer-specific path below is an example for that device family, not universal Android behavior; use the instructions for your exact model.
+
 
 Battery Saver helps most before the phone is desperate. Enabling it at 8% helps, but by then most of the battery is already gone.
 

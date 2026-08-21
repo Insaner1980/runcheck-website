@@ -14,6 +14,8 @@ Hurtiglading er ikke automatisk skadelig. Varme er den virkelige fienden. En One
 
 En tidsmerknad til: Android 17 er nå først ute på de fleste støttede Pixel-telefoner. OnePlus-enheter får Android 17-baserte OxygenOS-oppdateringer senere, og batterifunksjonene kan fortsatt variere etter modell, region og OTA-versjon. Ikke gå ut fra at en innstilling finnes før du faktisk ser den på telefonen.
 
+For batteriforskningen i denne artikkelen støtter [oversikten til Edge med flere](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) kapasitetstap, effekttap, økt impedans og virkninger av temperatur, ladenivå, strøm eller belastning, SEI-vekst og litiumplettering. Den fastsetter ikke produsentfunksjoner, universelle temperaturgrenser for telefoner, tilbehørsvalg, reparasjonsråd eller priser, nøyaktig levetid, ladetid eller garanterte forbrukerresultater.
+
 ## Sjekk batterihelsen i Innstillinger
 
 Begynn med søket i Innstillinger. Det er den minst irriterende veien, fordi OnePlus har flyttet batterisidene mellom ulike OxygenOS-versjoner.

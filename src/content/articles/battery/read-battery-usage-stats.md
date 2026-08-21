@@ -9,6 +9,8 @@ subgroup: "Health"
 tags: ["battery", "drain", "troubleshooting", "android", "performance"]
 draft: false
 ---
+Menu names, supported behavior, and exact steps vary by manufacturer, model, Android version, region, carrier, and firmware. Any Pixel or other manufacturer-specific path below is an example for that device family, not universal Android behavior; use the instructions for your exact model.
+
 
 You open Battery usage and see one app at 42%. That looks bad. Sometimes it is. Sometimes it means almost nothing.
 

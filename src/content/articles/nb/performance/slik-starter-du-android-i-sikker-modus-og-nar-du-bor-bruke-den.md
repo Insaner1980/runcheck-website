@@ -9,6 +9,8 @@ tags: ["batteri", "strømforbruk", "feilsøking", "android", "ytelse"]
 locale: "nb"
 draft: false
 ---
+Menynavn, støttet atferd og nøyaktige trinn varierer etter produsent, modell, Android-versjon, område, operatør og fastvare. En Pixel- eller annen produsentspesifikk bane nedenfor er et eksempel for den enhetsfamilien, ikke universell Android-atferd; bruk veiledningen for din nøyaktige modell.
+
 
 Hvordan finner du ut om telefonen er treg fordi Android har en dårlig dag, eller fordi én app ødelegger alt i bakgrunnen? Sikker modus er den ryddigste testen.
 

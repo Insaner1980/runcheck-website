@@ -14,17 +14,9 @@ Android 17 räumt dieses Durcheinander nicht automatisch auf. Google veröffentl
 
 Lies diesen Text deshalb nicht als einen allgemeingültigen Xiaomi-Pfad, sondern als Checkliste.
 
-## Prüfe zuerst den Batterieschutz
+## POCO F6 als Beispiel für den Akkuschutz
 
-Auf aktuellen HyperOS-Versionen beginnst du hier:
-
-Einstellungen > Batterie > Batterieschutz
-
-Je nach Smartphone und Firmware kann diese Seite Schutzoptionen, Intelligentes Laden, Temperatur, tägliche Ladeinformationen und manchmal Angaben zum Akkuzustand oder zu Ladezyklen enthalten.
-
-Auf unterstützten Modellen kann ein Prozentwert oder ein Zykluszähler unter Batterieschutz, Battery health oder einer ähnlich benannten Seite erscheinen. Xiaomi stellt diese Angaben nicht einheitlich in der gesamten Produktpalette bereit. Oberklasse- und neuere leistungsorientierte Modelle erhalten ausführlichere Daten meist früher. Günstige Redmi-Geräte zeigen sie oft nicht.
-
-Fehlt die Seite, können ein HyperOS-Update und aktuelle Xiaomi-System-Apps helfen. Erwarte aber keine Wunder. Xiaomi kann die Funktion auf diesem Modell schlicht nicht freigeben.
+[Für das POCO F6 dokumentiert Xiaomi](https://www.mi.com/global/support/faq/details/KA-274093/) den Pfad `Settings > Battery > Battery protection` mit den Optionen Regular, Limited, Optimized und Nighttime charging. Als Alternative nennt die Seite `Security > Battery > Battery protection`. Dies ist ein Beispiel für das POCO F6 und keine universelle Menü- oder Modusliste für Xiaomi-, Redmi-, POCO-, MIUI- oder HyperOS-Geräte. Andere Modelle und Softwareversionen können abweichen.
 
 ## Intelligentes Laden und das Verhalten bei 80 %
 

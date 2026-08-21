@@ -14,6 +14,8 @@ Gran parte dei consigli sulla batteria Android è troppo ovvia o troppo estrema.
 
 Il metodo utile è intervenire prima sui consumi più importanti: schermo, segnale mobile, app in background, posizione e abitudini di ricarica. Android 17 è arrivato prima sulla maggior parte dei Pixel supportati, mentre gli altri produttori lo porteranno in seguito sui propri dispositivi. I nomi dei menu quindi cambiano, ma i principi della batteria restano gli stessi.
 
+Per le affermazioni scientifiche sulla batteria di questo articolo, [la revisione di Edge e coautori](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) supporta perdita di capacità e potenza, aumento dell'impedenza ed effetti di temperatura, livello di carica, corrente o carico, crescita della SEI e placcatura del litio. Non stabilisce funzioni del produttore, soglie universali per i telefoni, scelta di accessori, consigli o prezzi di riparazione, durata esatta, tempi di ricarica o risultati garantiti.
+
 ## Parti dallo schermo
 
 Durante l'uso attivo, lo schermo resta uno dei consumi principali. Se hai il telefono in mano, le impostazioni del display contano più di quasi tutto il resto.

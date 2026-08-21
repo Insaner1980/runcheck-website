@@ -14,6 +14,8 @@ La recharge sans fil est-elle mauvaise pour la batterie, ou s'agit-il encore d'u
 
 Le problème n'est pas le transfert d'énergie sans fil lui-même. C'est la chaleur. La recharge sans fil perd davantage d'énergie pendant le transfert qu'un câble, et cette énergie perdue réchauffe le téléphone, le socle ou les deux.
 
+Pour les affirmations scientifiques sur la batterie de cet article, [la synthèse d'Edge et ses coauteurs](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) étaye la perte de capacité et de puissance, l'augmentation d'impédance et les effets de la température, du niveau de charge, du courant ou de la charge, de la croissance de la SEI et du placage de lithium. Elle n'établit ni fonction de fabricant, ni seuil universel pour les téléphones, ni choix d'accessoire, conseil ou prix de réparation, durée de vie exacte, temps de charge ou résultat garanti.
+
 ## D'où vient la chaleur
 
 La recharge sans fil utilise deux bobines. L'une se trouve dans le socle, l'autre dans le téléphone. L'énergie passe de l'une à l'autre par induction électromagnétique. Le système fonctionne suffisamment bien, mais son rendement n'est pas parfait.

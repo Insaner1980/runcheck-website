@@ -14,6 +14,8 @@ De flesta råd om snabbladdning är för dramatiska. Snabbladdning är ingen dö
 
 Där blir svaret mindre prydligt. En laddare på 65 W på ett svalt skrivbord kan vara skonsammare mot batteriet än en laddare på 15 W under en kudde. Wattalet spelar roll, men temperaturen spelar större roll.
 
+För batteriforskningen i den här artikeln stöder [översikten av Edge med flera](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) kapacitets- och effektförlust, ökad impedans samt effekter av temperatur, laddningsnivå, ström eller belastning, SEI-tillväxt och litiumplätering. Den fastställer inte tillverkarfunktioner, universella temperaturgränser för telefoner, tillbehörsval, reparationsråd eller priser, exakt livslängd, laddningstid eller garanterade konsumentresultat.
+
 ## Vad som faktiskt sliter på batteriet
 
 Litiumjonbatterier åldras genom flera processer som överlappar varandra. Två av dem är särskilt viktiga när man talar om snabbladdning.

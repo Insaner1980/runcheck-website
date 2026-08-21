@@ -11,6 +11,8 @@ tags:
 locale: "it"
 draft: false
 ---
+Nomi dei menu, comportamento supportato e passaggi esatti variano con produttore, modello, versione Android, area, operatore e firmware. Un percorso Pixel o specifico di un altro produttore riportato sotto è un esempio per quella famiglia, non un comportamento Android universale; segui le istruzioni per il tuo modello esatto.
+
 
 Apri Utilizzo batteria e vedi un'app al 42 %. Sembra un problema. A volte lo è. Altre volte quel numero significa quasi nulla.
 

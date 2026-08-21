@@ -14,6 +14,8 @@ Du spielst gerade, der Akku steht bei 12 %, und das Ladegerät liegt direkt dane
 
 Wahrscheinlich nicht. Du hast aber genau die Kombination aus Wärmequellen geschaffen, die Akkus nicht mögen.
 
+Für die batteriewissenschaftlichen Aussagen dieses Artikels stützt [die Übersicht von Edge und anderen](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) Kapazitäts- und Leistungsverlust, Impedanzanstieg sowie die Einflüsse von Temperatur, Ladestand, Strom oder Last, SEI-Wachstum und Lithium-Plating. Sie belegt keine Herstellerfunktionen, universellen Smartphone-Temperaturgrenzen, Zubehörentscheidungen, Reparaturhinweise oder Preise, genaue Lebensdauer, Ladezeitaussagen oder garantierten Ergebnisse.
+
 ## Die kurze Antwort
 
 Du kannst dein Smartphone während des Ladens sicher benutzen, wenn du ein unbeschädigtes, zertifiziertes Ladegerät und Kabel an einem trockenen Ort verwendest. Samsung sagt das für Galaxy-Geräte ebenfalls klar: Du kannst das Gerät beim Laden nutzen. Der Akku lädt dann langsamer, weil das Smartphone einen Teil der ankommenden Energie direkt verbraucht.

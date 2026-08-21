@@ -14,7 +14,7 @@ draft: false
 
 Du willst ein Foto aufnehmen, ein Update installieren oder eine Datei herunterladen, und Android meldet, dass nicht genug Speicherplatz vorhanden ist. Der erste Impuls ist, Fotos zu löschen. Fang nicht damit an.
 
-Prüfe zuerst, was den Speicher tatsächlich belegt. Öffne **Einstellungen > Speicher**. Auf Samsung-Geräten findest du ihn normalerweise unter **Einstellungen > Gerätewartung > Speicherplatz**. Bei Xiaomi findest du ihn je nach Modell unter **Einstellungen > Über das Telefon > Speicher** oder in der Bereinigungsfunktion der Sicherheits-App. Android 17 befindet sich im Juli 2026 noch in der Beta und hat mit Beta 3 Plattformstabilität erreicht. Am Grundprinzip ändert sich nichts: Die Speicherkategorien sind vorhanden, aber jeder Hersteller ordnet die Schaltflächen anders an.
+Prüfe zuerst, was den Speicher tatsächlich belegt. Öffne **Einstellungen > Speicher**. Auf Samsung-Geräten findest du ihn normalerweise unter **Einstellungen > Gerätewartung > Speicherplatz**. Bei Xiaomi findest du ihn je nach Modell unter **Einstellungen > Über das Telefon > Speicher** oder in der Bereinigungsfunktion der Sicherheits-App. Android 17 ist für unterstützte Pixel-Geräte verfügbar. Am Grundprinzip ändert sich nichts: Die Speicherkategorien sind vorhanden, aber jeder Hersteller ordnet die Schaltflächen anders an.
 
 ## Cache leeren, ohne App-Daten zu löschen
 

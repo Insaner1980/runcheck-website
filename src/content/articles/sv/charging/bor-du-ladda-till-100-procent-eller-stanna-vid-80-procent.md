@@ -38,7 +38,7 @@ Google Pixel från Pixel 6a och senare har en fast 80-procentsgräns under `Inst
 
 Samsung Galaxy med One UI 6.1 eller senare har olika lägen för Batteriskydd. `Grundläggande` laddar till 100 % och väntar sedan tills nivån har sjunkit till 95 % innan laddningen startar igen. `Adaptivt` använder maxgränsen medan du sover och byter tillbaka före den tid då du brukar vakna. I äldre One UI 6.1 stannar `Maximal` vid 80 %, medan One UI 7 på nyare Galaxy-modeller som stöder funktionen i vissa regioner låter dig välja 80 %, 85 %, 90 % eller 95 %.
 
-OnePlus, OPPO, Xiaomi, Redmi och POCO är mindre enhetliga. OnePlus- och OPPO-enheter har ofta smart eller optimerad nattladdning, och vissa nyare OxygenOS-versioner erbjuder egna laddningsgränser. Xiaomi- och Redmi-telefoner med HyperOS placerar ofta kontrollerna under `Settings > Battery > Battery protection`, men alternativen varierar mellan modeller och regioner. Vissa enheter har `Smart charging`, som pausar omkring 80 % när situationen passar. Andra har ett direkt batteriskydd eller ett läge som begränsar laddningen.
+[På POCO F6 dokumenterar Xiaomi](https://www.mi.com/global/support/faq/details/KA-274093/) sökvägen `Settings > Battery > Battery protection` med valen Regular, Limited, Optimized och Nighttime charging. Sidan anger även `Security > Battery > Battery protection` som en alternativ väg. Det här är ett exempel för POCO F6, inte en universell meny eller lista över lägen för Xiaomi-, Redmi-, POCO-, MIUI- eller HyperOS-enheter. Andra modeller och programvaruversioner kan skilja sig.
 
 Billigare och äldre telefoner kan sakna allt detta. Då återstår manuella lösningar: koppla ur när det passar, ladda under dagen eller använd en timerstyrd smart kontakt. Det är omständligt, men fungerar.
 

@@ -14,6 +14,8 @@ Useimmat Androidin akkuohjeet ovat joko liian itsestään selviä tai liian ää
 
 Hyödyllisin tapa on korjata ensin suurimmat kuluttajat: näyttö, mobiilisignaali, taustasovellukset, sijainti ja lataustavat. Android 17 julkaistiin ensin useimmille tuetuille Pixel-puhelimille, ja muut Android-valmistajat tuovat sen omille laitteilleen myöhemmin. Valikoiden nimet siis vaihtelevat, mutta akun toiminnan perusteet eivät ole muuttuneet.
 
+Tämän artikkelin akkutieteellisissä väitteissä [Edge ym. -katsaus](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) tukee kapasiteetin ja tehon heikkenemistä, impedanssin kasvua sekä lämpötilan, varaustason, virran tai kuormituksen, SEI-kerroksen kasvun ja litiumin pinnoittumisen vaikutuksia. Se ei osoita valmistajan ominaisuuksia, yleisiä puhelimen lämpörajoja, lisävarustevalintoja, korjausohjeita tai hintoja, tarkkaa käyttöikää, latausaikaväitteitä tai taattuja kuluttajatuloksia.
+
 ## Aloita näytöstä
 
 Näyttö kuluttaa edelleen eniten virtaa aktiivisen käytön aikana. Kun puhelin on kädessä, näyttöasetuksilla on enemmän merkitystä kuin lähes millään muulla.

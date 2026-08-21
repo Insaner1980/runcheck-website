@@ -70,7 +70,7 @@ Du kannst alle drei installieren, aber meistens lohnt sich das nicht. Du bekomms
 
 Auf älteren Smartphones mit Android 10 oder 11 fehlen native Angaben zum Akkuzustand häufig. AccuBattery ist dort nützlicher, weil das System selbst kaum Informationen liefert.
 
-Auf dem Pixel 8a und neueren Modellen zeigt die aktuelle Pixel-Software den Akkuzustand unter `Einstellungen > Akku > Akkuzustand`. Ladezyklen und weitere Angaben findest du unter `Einstellungen > Über das Telefon > Akkuinformationen`. Das bedeutet nicht, dass jedes Gerät mit Android 17 dieselben Seiten besitzt. Android 17 befindet sich derzeit noch in Beta 4 und ist nicht regulär ausgerollt. Unterstützte Pixel können die Beta testen, während andere Hersteller eigene Betas und später ihre jeweiligen stabilen Versionen bereitstellen.
+Auf dem Pixel 8a und neueren Modellen zeigt die aktuelle Pixel-Software den Akkuzustand unter `Einstellungen > Akku > Akkuzustand`. Ladezyklen und weitere Angaben findest du unter `Einstellungen > Über das Telefon > Akkuinformationen`. Das bedeutet nicht, dass jedes Gerät mit Android 17 dieselben Seiten besitzt. Android 17 ist für unterstützte Pixel-Geräte verfügbar; andere Hersteller entscheiden selbst, welche Akkudaten ihre Software anzeigt und wann sie Updates ausliefern.
 
 Bei Temperaturdaten gibt es eine ähnliche Aufteilung. Die Android-API für den aktuellen thermischen Status wurde mit Android 10 eingeführt, Thermal Headroom mit Android 11. runcheck kann diese APIs nutzen, wenn sie verfügbar sind. Ältere Smartphones und manche OEM-Versionen geben trotzdem weniger preis, als du erwarten würdest.
 

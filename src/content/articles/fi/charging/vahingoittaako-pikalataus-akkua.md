@@ -14,6 +14,8 @@ Useimmat pikalatausta koskevat ohjeet ovat liian dramaattisia. Pikalataus ei ole
 
 Sen jälkeen vastaus muuttuu mutkikkaammaksi. Viileällä pöydällä käytettävä 65 W:n laturi voi rasittaa akkua vähemmän kuin tyynyn alla käytettävä 15 W:n laturi. Teholla on merkitystä, mutta lämpötilalla on enemmän.
 
+Tämän artikkelin akkutieteellisissä väitteissä [Edge ym. -katsaus](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) tukee kapasiteetin ja tehon heikkenemistä, impedanssin kasvua sekä lämpötilan, varaustason, virran tai kuormituksen, SEI-kerroksen kasvun ja litiumin pinnoittumisen vaikutuksia. Se ei osoita valmistajan ominaisuuksia, yleisiä puhelimen lämpörajoja, lisävarustevalintoja, korjausohjeita tai hintoja, tarkkaa käyttöikää, latausaikaväitteitä tai taattuja kuluttajatuloksia.
+
 ## Mikä akkua oikeasti kuluttaa
 
 Litiumioniakut vanhenevat useiden päällekkäisten prosessien kautta. Pikalatauksesta puhuttaessa kaksi niistä on tärkeimpiä.

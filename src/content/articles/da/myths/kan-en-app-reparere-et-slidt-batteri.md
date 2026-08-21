@@ -14,6 +14,8 @@ Kan en batterireparationsapp virkelig genskabe tabt kapacitet? Nej. Hverken en r
 
 Batteriet er en fysisk komponent. Når kemien inde i cellen er blevet ældre, kan software ikke genskabe den kapacitet, der er gået tabt.
 
+For de batterividenskabelige udsagn i denne artikel understøtter [oversigten af Edge med flere](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) tab af kapacitet og effekt, øget impedans samt virkninger af temperatur, opladningsniveau, strøm eller belastning, SEI-vækst og lithiumplettering. Den fastlægger ikke producentfunktioner, universelle temperaturgrænser for telefoner, valg af tilbehør, reparationsråd eller priser, præcis levetid, opladningstid eller garanterede resultater.
+
 ## Hvad batterislitage faktisk betyder
 
 Batterislitage er ikke en indstilling, der er kommet ud af kurs. Det er kemisk aldring inde i cellen.

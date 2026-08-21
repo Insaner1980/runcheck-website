@@ -9,6 +9,8 @@ tags: ["hardware", "testen", "diagnose", "android", "ratgeber"]
 locale: "de"
 draft: false
 ---
+Android steuert Vibration über die [Vibrator-Schnittstelle für Aktoren](https://developer.android.com/reference/android/os/Vibrator); der Vibrationsmotor ist kein Android-Sensor. Für direkte Gerätetests [dokumentiert Samsung `*#0*#`](https://www.samsung.com/ch/support/mobile-devices/wie-kann-ich-einzelne-hard-oder-software-funktionen-testen/), [Samsung Members bietet unterstützte Telefondiagnose](https://www.samsung.com/us/support/answer/ANS10003443/) und [Xiaomi dokumentiert CIT](https://www.mi.com/global/support/faq/details/KA-491482/) auf geeigneten Geräten. Verfügbarkeit und Testnamen hängen von Modell, Region, Anbieter und Firmware ab.
+
 
 ---
 
@@ -31,8 +33,6 @@ Kontrolliere außerdem die Tastatur. Gboard, Samsung Keyboard und SwiftKey haben
 Samsung Galaxy bietet die klarste integrierte Möglichkeit. Öffne Samsung Members, tippe auf Support und unter Telefondiagnose auf Jetzt beginnen. Wähle anschließend Vibration. In Samsungs aktueller Diagnoseliste ist Vibration ein eigener Test, daher ist dieser Weg verlässlicher als versteckte Codes.
 
 Der ältere Samsung-Code `*#0*#` öffnet auf vielen Galaxy-Modellen weiterhin ein Hardwaretest-Menü. Tippe dort auf Vibration. Das Smartphone sollte vibrieren, bis du den Test beendest. Der Code benötigt Samsungs eigene Telefon-App. Firmware eines Mobilfunkanbieters, neuere One-UI-Sicherheitseinstellungen oder Unternehmensrichtlinien können das Menü blockieren.
-
-Einige Android-Smartphones reagieren auch auf `*#*#0842#*#*`, einen älteren Code für Vibrations- und Hintergrundbeleuchtungstests. Verlasse dich nicht darauf. Pixel-Geräte unterstützen ihn meist nicht, und viele moderne Telefon-Apps ignorieren ihn.
 
 Bei Xiaomi-, Redmi- und POCO-Smartphones kannst du das CIT-Menü mit `*#*#6484#*#*` öffnen. Name und Testauswahl unterscheiden sich zwischen MIUI- und HyperOS-Versionen, ein Vibrationstest ist aber häufig vorhanden.
 

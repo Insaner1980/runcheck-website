@@ -10,6 +10,8 @@ tags: ["batterie", "optimisation", "android", "conseils", "performances"]
 locale: "fr"
 draft: false
 ---
+Les noms de menus, le comportement pris en charge et les étapes exactes varient selon le fabricant, le modèle, la version d'Android, la région, l'opérateur et le micrologiciel. Un parcours Pixel ou propre à un autre fabricant ci-dessous est un exemple pour cette famille, pas un comportement Android universel ; suivez les instructions de votre modèle exact.
+
 
 L'Économiseur de batterie est surtout utile avant que le téléphone soit presque à plat. L'activer à 8 % aide encore, mais à ce stade, l'essentiel de la charge a déjà disparu.
 

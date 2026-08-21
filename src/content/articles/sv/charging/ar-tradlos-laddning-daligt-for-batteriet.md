@@ -14,6 +14,8 @@ draft: false
 
 Problemet är inte den trådlösa energin i sig. Problemet är värme. Mer energi går förlorad under trådlös överföring än genom en kabel, och den förlorade energin blir värme i telefonen, laddningsplattan eller båda.
 
+För batteriforskningen i den här artikeln stöder [översikten av Edge med flera](https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp00359c) kapacitets- och effektförlust, ökad impedans samt effekter av temperatur, laddningsnivå, ström eller belastning, SEI-tillväxt och litiumplätering. Den fastställer inte tillverkarfunktioner, universella temperaturgränser för telefoner, tillbehörsval, reparationsråd eller priser, exakt livslängd, laddningstid eller garanterade konsumentresultat.
+
 ## Var värmen kommer ifrån
 
 Trådlös laddning använder två spolar. Den ena sitter i laddningsplattan och den andra inne i telefonen. Energin överförs mellan dem genom elektromagnetisk induktion. Det fungerar tillräckligt bra, men är inte helt effektivt.

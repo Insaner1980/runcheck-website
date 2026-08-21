@@ -9,8 +9,7 @@ tags: ["batterie", "etat", "diagnostic", "android", "guide"]
 locale: "fr"
 draft: false
 ---
-
-C'est justement cette incertitude qui pose problème. Un Galaxy S25 équipé d'une version récente de One UI peut afficher un pourcentage d'état et un nombre de cycles. Un Galaxy S23 qui semble utiliser une mise à jour comparable peut ne rien montrer de tout cela. Android 17 est maintenant disponible sur la plupart des Pixel compatibles, et Samsung a lancé la bêta de One UI 9, basée sur Android 17, pour la série Galaxy S26. Le déploiement plus large suivra toutefois le calendrier propre à Samsung, qui continuera aussi à décider quelles données de batterie sont visibles sur chaque modèle.
+[La page One UI 9 actuelle de Samsung](https://www.samsung.com/us/apps/one-ui/) indique que la version officielle de One UI 9 a d'abord été déployée sur Galaxy Z Fold8 Ultra, Galaxy Z Fold8 et Galaxy Z Flip8 et devrait être progressivement proposée à d'autres appareils Galaxy. La disponibilité varie selon le modèle, le pays ou la région, l'opérateur, le micrologiciel et la version.
 
 Voici les vérifications qui valent la peine, et celles qui paraissent utiles sans vraiment vous renseigner.
 
@@ -92,7 +91,7 @@ Les Galaxy S21 à S24 fournissent généralement les champs Android de base : é
 
 Les téléphones de la série Galaxy A et les modèles plus anciens sont moins prévisibles. Samsung Members reste le meilleur contrôle officiel. Les applications tierces peuvent suivre les tendances, mais les mesures de courant et de capacité ont davantage de chances d'être absentes ou bruitées.
 
-La bêta de One UI 9 apporte déjà Android 17 à la série Galaxy S26, mais elle ne rend pas tous les téléphones Galaxy plus transparents du jour au lendemain. Le déploiement plus large passera par le calendrier de Samsung. Même après la mise à jour, le fabricant décidera quels écrans et quelles valeurs de batterie sont activés sur chaque modèle.
+One UI 9 ne rend pas tous les téléphones Galaxy plus transparents du jour au lendemain. Samsung étend progressivement le déploiement et décide toujours quels écrans et quelles valeurs de batterie sont activés selon le modèle, la région et la version logicielle.
 
 ## Quand la batterie doit probablement être remplacée
 

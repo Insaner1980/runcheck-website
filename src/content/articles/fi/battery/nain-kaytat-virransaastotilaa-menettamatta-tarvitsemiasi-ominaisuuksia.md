@@ -10,6 +10,8 @@ tags: ["akku", "optimointi", "android", "vinkit", "suorituskyky"]
 locale: "fi"
 draft: false
 ---
+Valikkojen nimet, tuettu toiminta ja tarkat vaiheet vaihtelevat valmistajan, mallin, Android-version, alueen, operaattorin ja laiteohjelmiston mukaan. Alla oleva Pixel- tai muu valmistajakohtainen polku on esimerkki kyseiselle laiteperheelle, ei Androidin yleinen toiminta; käytä oman mallisi ohjeita.
+
 
 Virransäästöstä on eniten hyötyä ennen kuin akku on lähes tyhjä. Sen laittaminen päälle 8 %:ssa auttaa, mutta siinä vaiheessa suurin osa varauksesta on jo käytetty.
 

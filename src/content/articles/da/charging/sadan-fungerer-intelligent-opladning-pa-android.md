@@ -66,13 +66,9 @@ OnePlus bruger også Battery Health Engine på flere modeller. Både OnePlus og 
 
 Nogle OnePlus-telefoner tilbyder også bypass-opladning eller adskillelse af opladningen under gaming. Ideen er at belaste batteriet mindre ved i højere grad at forsyne telefonen direkte med strøm, mens den arbejder hårdt. Den præcise funktion varierer, men målet er fornuftigt: mindre varme i batteriet under lange sessioner med strøm tilsluttet.
 
-## Xiaomi: nyttigt, men mindre ensartet
+## Eksempel: POCO F6
 
-Xiaomis og HyperOS' batteriindstillinger varierer efter model og region. Nogle telefoner tilbyder optimeret opladning. Nogle har en opladningsgrænse på 80 % eller 90 %. Andre gemmer funktionen under styring af batteritilstanden.
-
-Xiaomi HyperCharge kræver desuden producentens egne opladere og kabler for at nå de højeste hastigheder. En almindelig USB-C PD-oplader er sikker til normal opladning, men den når som regel ikke den markedsførte maksimale effekt.
-
-Her bliver Android rodet. To Xiaomi-telefoner fra samme år kan vise forskellige opladningsmuligheder, og regional firmware kan ændre navnene endnu en gang.
+[På POCO F6 dokumenterer Xiaomi](https://www.mi.com/global/support/faq/details/KA-274093/) stien `Settings > Battery > Battery protection` med valgene Regular, Limited, Optimized og Nighttime charging. Siden angiver også `Security > Battery > Battery protection` som en alternativ sti. Dette er et eksempel for POCO F6, ikke en universel menu eller liste over tilstande til Xiaomi-, Redmi-, POCO-, MIUI- eller HyperOS-enheder. Andre modeller og softwareversioner kan afvige.
 
 ## Ældre telefoner og apps fra tredjeparter
 

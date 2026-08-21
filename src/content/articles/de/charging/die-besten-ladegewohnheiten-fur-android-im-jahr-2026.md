@@ -102,11 +102,9 @@ Suche in den Akkueinstellungen nach Optimized Charging, Battery Health Engine od
 
 Falls dein OnePlus-Smartphone beim Spielen oder unter hoher Last Bypass Charging anbietet, lohnt sich die Funktion bei langen Sitzungen am Ladegerät. Sie soll die Wärme im Akku verringern, während das Smartphone stark arbeitet.
 
-### Xiaomi, OPPO und andere
+### Beispiel: POCO F6
 
-Die Menüs von Xiaomi und OPPO unterscheiden sich stärker nach Region und Softwareversion. Suche in den Akkueinstellungen nach Akkuschutz, optimiertem Laden, intelligentem Laden oder einer Ladebegrenzung, ohne einen identischen Menüpfad für alle Modelle zu erwarten.
-
-Wenn dein Smartphone proprietäres Laden mit hoher Wattzahl unterstützt, verwende für die Höchstgeschwindigkeit das empfohlene Ladegerät und Kabel. Für normales Laden über Nacht reicht häufig ein langsameres USB-C-PD-Ladegerät.
+[Für das POCO F6 dokumentiert Xiaomi](https://www.mi.com/global/support/faq/details/KA-274093/) den Pfad `Settings > Battery > Battery protection` mit den Optionen Regular, Limited, Optimized und Nighttime charging. Als Alternative nennt die Seite `Security > Battery > Battery protection`. Dies ist ein Beispiel für das POCO F6 und keine universelle Menü- oder Modusliste für Xiaomi-, Redmi-, POCO-, MIUI- oder HyperOS-Geräte. Andere Modelle und Softwareversionen können abweichen.
 
 ## Gewohnheiten, über die du dir keine Sorgen mehr machen musst
 
