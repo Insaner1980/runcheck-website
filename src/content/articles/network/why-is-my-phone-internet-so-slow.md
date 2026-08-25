@@ -57,7 +57,7 @@ Battery Saver can also change network behavior. It may reduce background sync, d
 
 A VPN adds another possible bottleneck. It routes traffic through another server, which can add latency and reduce throughput. Disconnect it for one test. If the problem disappears, you found the cause.
 
-Browser cache is a smaller issue, but it happens. Clearing the browser cache can fix pages that load halfway or keep timing out. It doesn't increase your connection speed. It just removes broken local data.
+Browser cache is a smaller issue, but it happens. If only one website loads halfway or keeps timing out, you can [clear the cache for that one site in Chrome](https://ctrlgamers.com/clear-cache-for-one-site-in-chrome-3-fast-methods) without wiping data from every other website. It doesn't increase your connection speed. It just removes broken local data.
 
 ## A fast diagnostic sequence
 
