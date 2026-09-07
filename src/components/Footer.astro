@@ -37,31 +37,36 @@ const articleLanguageLinks = PUBLISHED_ARTICLE_LOCALE_CODES.map((code) => ({
   <div
     class="mx-auto flex max-w-[100rem] flex-col items-center gap-7 px-5 py-12 md:grid md:grid-cols-[1fr_auto_1fr] md:gap-4"
   >
-    <a
-      href="/"
-      class="flex items-center gap-3 md:justify-self-start"
-      aria-label="runcheck home"
+    <div
+      class="flex flex-col items-center gap-3 md:items-start md:justify-self-start"
     >
-      <Image
-        src={logo}
-        alt=""
-        class="size-7 shrink-0 object-contain"
-        loading="lazy"
-      />
-      <span class="text-base lowercase leading-none font-semibold text-run-text"
-        >runcheck</span
+      <a
+        href="/"
+        class="flex items-center gap-3 md:justify-self-start"
+        aria-label="runcheck home"
       >
-    </a>
+        <Image
+          src={logo}
+          alt=""
+          class="size-7 shrink-0 object-contain"
+          loading="lazy"
+        />
+        <span
+          class="text-base lowercase leading-none font-semibold text-run-text"
+          >runcheck</span
+        >
+      </a>
+      <p class="footer-copyright">&copy; {year} runcheck</p>
+    </div>
 
     <div class="footer-navigation flex flex-col items-center gap-4">
       <nav
-        class="footer-nav flex flex-col items-center gap-4 sm:flex-row sm:gap-9"
+        class="footer-nav flex flex-col items-center gap-4 sm:flex-row sm:gap-9 sm:flex-wrap sm:justify-center"
         aria-label={copy.menu[3]}
       >
         <a href="/#features">{copy.nav[0]}</a>
         <a href={copy.root}>{copy.nav[1]}</a>
         {locale === "en" && <a href="/phone-support/">Phone support</a>}
-        <a href="mailto:contact@finnvek.com">{copy.nav[2]}</a>
       </nav>
 
       <nav
@@ -81,8 +86,26 @@ const articleLanguageLinks = PUBLISHED_ARTICLE_LOCALE_CODES.map((code) => ({
     <div
       class="footer-meta flex flex-col items-center gap-1.5 md:justify-self-end md:items-end"
     >
-      <p class="footer-copyright">&copy; {year} runcheck</p>
-      <a class="footer-finnvek" href="https://finnvek.com">Finnvek</a>
+      <nav
+        class="flex flex-col items-center gap-2 md:items-start"
+        aria-label="Finnvek"
+        lang="en"
+      >
+        <a
+          class="font-mono text-xs tracking-widest text-run-muted hover:text-run-white"
+          href="https://finnvek.com">FINNVEK</a
+        >
+        <a class="footer-finnvek" href="https://finnvek.com/about/"
+          >About the maker</a
+        >
+        <a class="footer-finnvek" href="https://finnvek.com/#apps">Other apps</a
+        >
+        <a
+          class="footer-finnvek"
+          href="mailto:contact@finnvek.com"
+          lang={copy.lang}>{copy.nav[2]}</a
+        >
+      </nav>
     </div>
   </div>
 </footer>

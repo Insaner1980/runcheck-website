@@ -2203,7 +2203,7 @@ a {
 
 .footer-finnvek {
   color: color-mix(in srgb, var(--color-run-white) 55%, transparent);
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   text-decoration: none;
   transition: color 160ms ease;
 }

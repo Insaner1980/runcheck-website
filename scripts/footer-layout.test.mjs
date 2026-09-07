@@ -7,8 +7,8 @@ test("footer layout", () => {
 
   assert.match(
     footer,
-    /class="footer-meta [^"]*md:justify-self-end[^"]*"[\s\S]*class="footer-copyright">&copy; \{year\} runcheck<\/p>/,
-    "Footer should render the copyright in its dedicated layout slot.",
+    /aria-label="runcheck home"[\s\S]*<\/a>\s*<p class="footer-copyright">&copy; \{year\} runcheck<\/p>/,
+    "Footer should keep the copyright with the runcheck brand.",
   );
   assert.match(
     footer,
@@ -22,13 +22,18 @@ test("footer layout", () => {
   );
   assert.match(
     footer,
-    /href="mailto:contact@finnvek\.com">\{copy\.nav\[2\]\}<\/a>/,
-    "Footer should expose the localized contact link.",
+    /href="mailto:contact@finnvek\.com"\s+lang=\{copy\.lang\}>\{copy\.nav\[2\]\}<\/a\s*>/,
+    "Footer should expose the localized contact link in the Finnvek navigation.",
   );
   assert.match(
     footer,
     /flex-col items-center gap-4 sm:flex-row sm:gap-9/,
     "Footer links should stack on mobile and sit inline on desktop.",
+  );
+  assert.match(
+    footer,
+    /aria-label="Finnvek"[\s\S]*href="https:\/\/finnvek\.com">FINNVEK<\/a\s*>[\s\S]*href="https:\/\/finnvek\.com\/about\/"[\s\S]*href="https:\/\/finnvek\.com\/#apps"/,
+    "Footer should group the maker and related-app links in a Finnvek navigation.",
   );
   assert.match(
     footer,
