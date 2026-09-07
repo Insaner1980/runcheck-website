@@ -1,0 +1,169 @@
+{
+  "product": "fairphone",
+  "url": "https://endoflife.date/api/v1/products/fairphone",
+  "retrievedAt": "2026-08-29",
+  "sha256": "e111605657499a995510479e7d77cf912a8ed6ad68915e4f01b69d0ac63a04ce",
+  "body": {
+    "schema_version": "1.2.1",
+    "generated_at": "2026-08-29T11:58:08+00:00",
+    "last_modified": "2026-07-05T19:11:52+00:00",
+    "result": {
+      "name": "fairphone",
+      "aliases": [],
+      "label": "Fairphone",
+      "category": "device",
+      "tags": [
+        "device",
+        "mobile-phone"
+      ],
+      "versionCommand": null,
+      "identifiers": [],
+      "labels": {
+        "eoas": "Active Major Updates",
+        "discontinued": "Discontinued",
+        "eol": "Security Updates",
+        "eoes": null
+      },
+      "links": {
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons/icons/fairphone.svg",
+        "html": "https://endoflife.date/fairphone",
+        "releasePolicy": "https://forum.fairphone.com/t/fairphone-product-release-cycle/52652"
+      },
+      "releases": [
+        {
+          "name": "6",
+          "codename": null,
+          "label": "Fairphone 6",
+          "releaseDate": "2025-06-25",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": null,
+          "isEol": false,
+          "eolFrom": "2033-06-25",
+          "isDiscontinued": false,
+          "discontinuedFrom": null,
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "15 - 16"
+          }
+        },
+        {
+          "name": "5",
+          "codename": null,
+          "label": "Fairphone 5",
+          "releaseDate": "2023-09-14",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": null,
+          "isEol": false,
+          "eolFrom": "2031-09-14",
+          "isDiscontinued": true,
+          "discontinuedFrom": "2026-01-12",
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "13 - 15"
+          }
+        },
+        {
+          "name": "4",
+          "codename": null,
+          "label": "Fairphone 4",
+          "releaseDate": "2021-09-30",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": null,
+          "isEol": false,
+          "eolFrom": "2028-09-01",
+          "isDiscontinued": true,
+          "discontinuedFrom": null,
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "11 - 15"
+          }
+        },
+        {
+          "name": "3+",
+          "codename": null,
+          "label": "Fairphone 3+",
+          "releaseDate": "2020-09-30",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2024-09-30",
+          "isEol": false,
+          "eolFrom": "2026-09-30",
+          "isDiscontinued": true,
+          "discontinuedFrom": "2022-11-01",
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "10 - 13"
+          }
+        },
+        {
+          "name": "3",
+          "codename": null,
+          "label": "Fairphone 3",
+          "releaseDate": "2019-09-30",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2024-09-30",
+          "isEol": false,
+          "eolFrom": "2026-09-30",
+          "isDiscontinued": true,
+          "discontinuedFrom": "2021-09-01",
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "10 - 13"
+          }
+        },
+        {
+          "name": "2",
+          "codename": null,
+          "label": "Fairphone 2",
+          "releaseDate": "2015-12-21",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": null,
+          "isEol": true,
+          "eolFrom": "2023-03-07",
+          "isDiscontinued": true,
+          "discontinuedFrom": "2019-03-31",
+          "isMaintained": false,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "5 - 10"
+          }
+        },
+        {
+          "name": "1",
+          "codename": null,
+          "label": "Fairphone 1",
+          "releaseDate": "2013-12-01",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": null,
+          "isEol": true,
+          "eolFrom": "2017-07-13",
+          "isDiscontinued": true,
+          "discontinuedFrom": "2017-07-13",
+          "isMaintained": false,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "4.2"
+          }
+        }
+      ]
+    }
+  }
+}

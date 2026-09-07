@@ -1,0 +1,3289 @@
+{
+  "sources": [
+    {
+      "id": "google-pixel-updates",
+      "publisher": "Google",
+      "title": "Learn when you'll get software updates on Google Pixel phones",
+      "url": "https://support.google.com/pixelphone/answer/4457705?hl=en",
+      "checkedAt": "2026-08-28",
+      "retrievedAt": "2026-08-28",
+      "kind": "official"
+    },
+    {
+      "id": "google-pixel-availability",
+      "publisher": "Google",
+      "title": "Find when your Pixel device became available",
+      "url": "https://support.google.com/pixelphone/answer/15738422",
+      "checkedAt": "2026-08-28",
+      "retrievedAt": "2026-08-28",
+      "kind": "official"
+    },
+    {
+      "id": "oneplus-uk-psti",
+      "publisher": "OnePlus",
+      "title": "Product Security Update Period",
+      "url": "https://www.oneplus.com/uk/psti",
+      "checkedAt": "2026-08-28",
+      "retrievedAt": "2026-08-28",
+      "kind": "official"
+    },
+    {
+      "id": "oneplus-11-fi-software",
+      "publisher": "OnePlus Finland",
+      "title": "OnePlus 11 5G specifications",
+      "url": "https://www.oneplus.com/fi/11/specs",
+      "checkedAt": "2026-08-30",
+      "retrievedAt": "2026-08-30",
+      "kind": "official"
+    },
+    {
+      "id": "oneplus-12r-fi-software",
+      "publisher": "OnePlus Finland",
+      "title": "OnePlus 12R specifications",
+      "url": "https://www.oneplus.com/fi/12r/specs",
+      "checkedAt": "2026-08-30",
+      "retrievedAt": "2026-08-30",
+      "kind": "official"
+    },
+    {
+      "id": "oneplus-13-series-software",
+      "publisher": "OnePlus",
+      "title": "OnePlus 13 series software support commitment",
+      "url": "https://community.oneplus.com/thread/1809905145622822918",
+      "checkedAt": "2026-08-30",
+      "retrievedAt": "2026-08-30",
+      "kind": "official"
+    },
+    {
+      "id": "fairphone-software-support",
+      "publisher": "Fairphone",
+      "title": "How long will my Fairphone receive software and security updates?",
+      "url": "https://support.fairphone.com/hc/en-us/articles/9979180437393-How-long-will-my-Fairphone-receive-software-and-security-updates",
+      "checkedAt": "2026-08-28",
+      "retrievedAt": "2026-08-28",
+      "kind": "official",
+      "allowRestricted": true
+    },
+    {
+      "id": "fairphone-aer",
+      "publisher": "Fairphone",
+      "title": "Android Enterprise Recommended",
+      "url": "https://www.fairphone.com/aer",
+      "checkedAt": "2026-08-28",
+      "retrievedAt": "2026-08-28",
+      "kind": "official"
+    },
+    {
+      "id": "fairphone5-legal",
+      "publisher": "Fairphone",
+      "title": "Fairphone 5 Tagline Explained",
+      "url": "https://www.fairphone.com/legal/fairphone-5-tagline-explained",
+      "checkedAt": "2026-08-28",
+      "retrievedAt": "2026-08-28",
+      "kind": "official"
+    },
+    {
+      "id": "fairphone1-faq",
+      "publisher": "Fairphone",
+      "title": "Fairphone 1 - Frequently Asked Questions (FAQ)",
+      "url": "https://support.fairphone.com/hc/en-us/articles/6217522827281-Fairphone-1-Frequently-Asked-Questions-FAQ",
+      "checkedAt": "2026-08-28",
+      "retrievedAt": "2026-08-28",
+      "kind": "official",
+      "allowRestricted": true
+    },
+    {
+      "id": "fairphone5-release-notes",
+      "publisher": "Fairphone",
+      "title": "Fairphone 5 Release Notes",
+      "url": "https://support.fairphone.com/hc/en-us/articles/18682800465169-Fairphone-5-Release-Notes",
+      "checkedAt": "2026-08-28",
+      "retrievedAt": "2026-08-28",
+      "kind": "official",
+      "allowRestricted": true
+    }
+  ],
+  "annotations": [
+    {
+      "product": "pixel",
+      "cycle": "11profold",
+      "release": {
+        "value": "2026-08",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2033-08",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2026-08."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2033-08",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2026-08."
+        }
+      },
+      "cadence": {
+        "value": "regular",
+        "evidenceType": "official-policy",
+        "sourceIds": [
+          "google-pixel-updates"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Google describes regular updates without a fixed model-specific interval."
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "11pro",
+      "release": {
+        "value": "2026-08",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2033-08",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2026-08."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2033-08",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2026-08."
+        }
+      },
+      "cadence": {
+        "value": "regular",
+        "evidenceType": "official-policy",
+        "sourceIds": [
+          "google-pixel-updates"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Google describes regular updates without a fixed model-specific interval."
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "11proxl",
+      "release": {
+        "value": "2026-08",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2033-08",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2026-08."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2033-08",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2026-08."
+        }
+      },
+      "cadence": {
+        "value": "regular",
+        "evidenceType": "official-policy",
+        "sourceIds": [
+          "google-pixel-updates"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Google describes regular updates without a fixed model-specific interval."
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "11",
+      "release": {
+        "value": "2026-08",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2033-08",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2026-08."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2033-08",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2026-08."
+        }
+      },
+      "cadence": {
+        "value": "regular",
+        "evidenceType": "official-policy",
+        "sourceIds": [
+          "google-pixel-updates"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Google describes regular updates without a fixed model-specific interval."
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "10a",
+      "release": {
+        "value": "2026-03",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2033-03",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2026-03."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2033-03",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2026-03."
+        }
+      },
+      "cadence": {
+        "value": "regular",
+        "evidenceType": "official-policy",
+        "sourceIds": [
+          "google-pixel-updates"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Google describes regular updates without a fixed model-specific interval."
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "10profold",
+      "release": {
+        "value": "2025-10",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2032-10",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2025-10."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2032-10",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2025-10."
+        }
+      },
+      "cadence": {
+        "value": "regular",
+        "evidenceType": "official-policy",
+        "sourceIds": [
+          "google-pixel-updates"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Google describes regular updates without a fixed model-specific interval."
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "10pro",
+      "release": {
+        "value": "2025-08",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2032-08",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2025-08."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2032-08",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2025-08."
+        }
+      },
+      "cadence": {
+        "value": "regular",
+        "evidenceType": "official-policy",
+        "sourceIds": [
+          "google-pixel-updates"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Google describes regular updates without a fixed model-specific interval."
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "10proxl",
+      "release": {
+        "value": "2025-08",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2032-08",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2025-08."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2032-08",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2025-08."
+        }
+      },
+      "cadence": {
+        "value": "regular",
+        "evidenceType": "official-policy",
+        "sourceIds": [
+          "google-pixel-updates"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Google describes regular updates without a fixed model-specific interval."
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "10",
+      "release": {
+        "value": "2025-08",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2032-08",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2025-08."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2032-08",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2025-08."
+        }
+      },
+      "cadence": {
+        "value": "regular",
+        "evidenceType": "official-policy",
+        "sourceIds": [
+          "google-pixel-updates"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Google describes regular updates without a fixed model-specific interval."
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "9a",
+      "release": {
+        "value": "2025-04",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2032-04",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2025-04."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2032-04",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2025-04."
+        }
+      },
+      "cadence": {
+        "value": "regular",
+        "evidenceType": "official-policy",
+        "sourceIds": [
+          "google-pixel-updates"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Google describes regular updates without a fixed model-specific interval."
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "9profold",
+      "release": {
+        "value": "2024-09",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2031-09",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2024-09."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2031-09",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2024-09."
+        }
+      },
+      "cadence": {
+        "value": "regular",
+        "evidenceType": "official-policy",
+        "sourceIds": [
+          "google-pixel-updates"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Google describes regular updates without a fixed model-specific interval."
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "9pro",
+      "release": {
+        "value": "2024-09",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2031-09",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2024-09."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2031-09",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2024-09."
+        }
+      },
+      "cadence": {
+        "value": "regular",
+        "evidenceType": "official-policy",
+        "sourceIds": [
+          "google-pixel-updates"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Google describes regular updates without a fixed model-specific interval."
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "9proxl",
+      "release": {
+        "value": "2024-08",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2031-08",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2024-08."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2031-08",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2024-08."
+        }
+      },
+      "cadence": {
+        "value": "regular",
+        "evidenceType": "official-policy",
+        "sourceIds": [
+          "google-pixel-updates"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Google describes regular updates without a fixed model-specific interval."
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "9",
+      "release": {
+        "value": "2024-08",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2031-08",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2024-08."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2031-08",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2024-08."
+        }
+      },
+      "cadence": {
+        "value": "regular",
+        "evidenceType": "official-policy",
+        "sourceIds": [
+          "google-pixel-updates"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Google describes regular updates without a fixed model-specific interval."
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "8a",
+      "release": {
+        "value": "2024-05",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2031-05",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2024-05."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2031-05",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2024-05."
+        }
+      },
+      "cadence": {
+        "value": "regular",
+        "evidenceType": "official-policy",
+        "sourceIds": [
+          "google-pixel-updates"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Google describes regular updates without a fixed model-specific interval."
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "8pro",
+      "release": {
+        "value": "2023-10",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2030-10",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2023-10."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2030-10",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2023-10."
+        }
+      },
+      "cadence": {
+        "value": "regular",
+        "evidenceType": "official-policy",
+        "sourceIds": [
+          "google-pixel-updates"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Google describes regular updates without a fixed model-specific interval."
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "8",
+      "release": {
+        "value": "2023-10",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2030-10",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2023-10."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2030-10",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "7-year policy added to the official US availability month 2023-10."
+        }
+      },
+      "cadence": {
+        "value": "regular",
+        "evidenceType": "official-policy",
+        "sourceIds": [
+          "google-pixel-updates"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Google describes regular updates without a fixed model-specific interval."
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "fold",
+      "release": {
+        "value": "2023-06",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2028-06",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5-year policy added to the official US availability month 2023-06."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2028-06",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5-year policy added to the official US availability month 2023-06."
+        }
+      },
+      "cadence": {
+        "value": "regular",
+        "evidenceType": "official-policy",
+        "sourceIds": [
+          "google-pixel-updates"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Google describes regular updates without a fixed model-specific interval."
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "7a",
+      "release": {
+        "value": "2023-05",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2028-05",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5-year policy added to the official US availability month 2023-05."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2028-05",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5-year policy added to the official US availability month 2023-05."
+        }
+      },
+      "cadence": {
+        "value": "regular",
+        "evidenceType": "official-policy",
+        "sourceIds": [
+          "google-pixel-updates"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Google describes regular updates without a fixed model-specific interval."
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "7pro",
+      "release": {
+        "value": "2022-10",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2027-10",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5-year policy added to the official US availability month 2022-10."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2027-10",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5-year policy added to the official US availability month 2022-10."
+        }
+      },
+      "cadence": {
+        "value": "regular",
+        "evidenceType": "official-policy",
+        "sourceIds": [
+          "google-pixel-updates"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Google describes regular updates without a fixed model-specific interval."
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "7",
+      "release": {
+        "value": "2022-10",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2027-10",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5-year policy added to the official US availability month 2022-10."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2027-10",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5-year policy added to the official US availability month 2022-10."
+        }
+      },
+      "cadence": {
+        "value": "regular",
+        "evidenceType": "official-policy",
+        "sourceIds": [
+          "google-pixel-updates"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Google describes regular updates without a fixed model-specific interval."
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "6a",
+      "release": {
+        "value": "2022-07",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2027-07",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5-year policy added to the official US availability month 2022-07."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2027-07",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5-year policy added to the official US availability month 2022-07."
+        }
+      },
+      "cadence": {
+        "value": "regular",
+        "evidenceType": "official-policy",
+        "sourceIds": [
+          "google-pixel-updates"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Google describes regular updates without a fixed model-specific interval."
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "6pro",
+      "release": {
+        "value": "2021-10",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2026-10",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5-year policy added to the official US availability month 2021-10."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2026-10",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5-year policy added to the official US availability month 2021-10."
+        }
+      },
+      "cadence": {
+        "value": "regular",
+        "evidenceType": "official-policy",
+        "sourceIds": [
+          "google-pixel-updates"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Google describes regular updates without a fixed model-specific interval."
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "6",
+      "release": {
+        "value": "2021-10",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2026-10",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5-year policy added to the official US availability month 2021-10."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5 years of Android and security updates are promised from US availability."
+        },
+        "end": {
+          "value": "2026-10",
+          "precision": "month",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "google-pixel-updates",
+            "google-pixel-availability"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "5-year policy added to the official US availability month 2021-10."
+        }
+      },
+      "cadence": {
+        "value": "regular",
+        "evidenceType": "official-policy",
+        "sourceIds": [
+          "google-pixel-updates"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Google describes regular updates without a fixed model-specific interval."
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "5a",
+      "release": {
+        "value": "2021-08",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "4a-5g",
+      "release": {
+        "value": "2020-10",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      },
+      "conflicts": [
+        {
+          "field": "release",
+          "message": "Google's US availability table gives October 2020; the secondary dataset gives 2020-11-05. The public release uses the official month. The secondary fact is retained in the imported source.",
+          "sourceIds": [
+            "google-pixel-availability",
+            "eol-pixel"
+          ],
+          "resolved": true
+        }
+      ],
+      "reviewedRawValues": {
+        "release": "2020-11-05"
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "5",
+      "release": {
+        "value": "2020-10",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "4a",
+      "release": {
+        "value": "2020-08",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "4xl",
+      "release": {
+        "value": "2019-10",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "4",
+      "release": {
+        "value": "2019-10",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "3axl",
+      "release": {
+        "value": "2019-05",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "3a",
+      "release": {
+        "value": "2019-05",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "3xl",
+      "release": {
+        "value": "2018-10",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "3",
+      "release": {
+        "value": "2018-10",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "2xl",
+      "release": {
+        "value": "2017-10",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "2",
+      "release": {
+        "value": "2017-10",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "1xl",
+      "release": {
+        "value": "2016-10",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      }
+    },
+    {
+      "product": "pixel",
+      "cycle": "1",
+      "release": {
+        "value": "2016-10",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "google-pixel-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "US Google Store availability. The manufacturer publishes the month only."
+      },
+      "caveats": [
+        "Support runs from first US Google Store availability. Update rollout can vary by carrier and device."
+      ],
+      "os": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "google-pixel-updates"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Google explicitly lists this phone as no longer receiving Android version or security updates. Historical dates remain secondary data."
+        }
+      }
+    },
+    {
+      "product": "oneplus",
+      "cycle": "15r",
+      "os": {
+        "state": {
+          "value": "unknown",
+          "evidenceType": "unknown",
+          "sourceIds": [],
+          "checkedAt": "2026-08-28",
+          "note": "No verified manufacturer statement establishes the current Android-version support state for this record."
+        },
+        "end": {
+          "value": null,
+          "precision": "unknown",
+          "evidenceType": "unknown",
+          "sourceIds": [],
+          "checkedAt": "2026-08-28",
+          "note": "No verified Android-version support end date. A count of promised OS upgrades is not a calendar deadline."
+        }
+      },
+      "caveats": [
+        "The security date is OnePlus's published UK support-period end, not a universal last-update date. Actual delivery can vary by region and model."
+      ],
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "oneplus-uk-psti"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "The published UK security-update period has not ended at the review date."
+        },
+        "end": {
+          "value": "2031-12-31",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "oneplus-uk-psti"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "End of the published UK security-update period. This does not identify the final update actually delivered worldwide."
+        }
+      }
+    },
+    {
+      "product": "oneplus",
+      "cycle": "15",
+      "os": {
+        "state": {
+          "value": "unknown",
+          "evidenceType": "unknown",
+          "sourceIds": [],
+          "checkedAt": "2026-08-28",
+          "note": "No verified manufacturer statement establishes the current Android-version support state for this record."
+        },
+        "end": {
+          "value": null,
+          "precision": "unknown",
+          "evidenceType": "unknown",
+          "sourceIds": [],
+          "checkedAt": "2026-08-28",
+          "note": "No verified Android-version support end date. A count of promised OS upgrades is not a calendar deadline."
+        }
+      },
+      "caveats": [
+        "The security date is OnePlus's published UK support-period end, not a universal last-update date. Actual delivery can vary by region and model."
+      ],
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "oneplus-uk-psti"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "The published UK security-update period has not ended at the review date."
+        },
+        "end": {
+          "value": "2031-11-13",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "oneplus-uk-psti"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "End of the published UK security-update period. This does not identify the final update actually delivered worldwide."
+        }
+      }
+    },
+    {
+      "product": "oneplus",
+      "cycle": "13t",
+      "os": {
+        "state": {
+          "value": "unknown",
+          "evidenceType": "unknown",
+          "sourceIds": [],
+          "checkedAt": "2026-08-28",
+          "note": "No verified manufacturer statement establishes the current Android-version support state for this record."
+        },
+        "end": {
+          "value": null,
+          "precision": "unknown",
+          "evidenceType": "unknown",
+          "sourceIds": [],
+          "checkedAt": "2026-08-28",
+          "note": "No verified Android-version support end date. A count of promised OS upgrades is not a calendar deadline."
+        }
+      },
+      "caveats": [
+        "No matching model-specific date was verified in OnePlus's UK security-period table. Retained secondary lifecycle dates are not manufacturer commitments."
+      ]
+    },
+    {
+      "product": "oneplus",
+      "cycle": "13r",
+      "os": {
+        "state": {
+          "value": "unknown",
+          "evidenceType": "unknown",
+          "sourceIds": [],
+          "checkedAt": "2026-08-28",
+          "note": "No verified manufacturer statement establishes the current Android-version support state for this record."
+        },
+        "end": {
+          "value": null,
+          "precision": "unknown",
+          "evidenceType": "unknown",
+          "sourceIds": [],
+          "checkedAt": "2026-08-28",
+          "note": "No verified Android-version support end date. A count of promised OS upgrades is not a calendar deadline."
+        },
+        "commitments": [
+          {
+            "activity": "unknown",
+            "scope": "Global",
+            "promise": "Four Android upgrades are promised, with Android 16 through Android 19 named for the OnePlus 13 series.",
+            "minimum": false,
+            "upgradeCount": 4,
+            "futureVersions": ["16", "17", "18", "19"],
+            "evidenceType": "official-policy",
+            "sourceIds": ["oneplus-13-series-software"],
+            "checkedAt": "2026-08-30",
+            "note": "The published commitment does not establish current activity or an exact calendar endpoint."
+          }
+        ]
+      },
+      "caveats": [
+        "The security date is OnePlus's published UK support-period end, not a universal last-update date. Actual delivery can vary by region and model."
+      ],
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "oneplus-uk-psti"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "The published UK security-update period has not ended at the review date."
+        },
+        "end": {
+          "value": "2031-01-07",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "oneplus-uk-psti"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "End of the published UK security-update period. This does not identify the final update actually delivered worldwide."
+        }
+      }
+    },
+    {
+      "product": "oneplus",
+      "cycle": "13",
+      "os": {
+        "state": {
+          "value": "unknown",
+          "evidenceType": "unknown",
+          "sourceIds": [],
+          "checkedAt": "2026-08-28",
+          "note": "No verified manufacturer statement establishes the current Android-version support state for this record."
+        },
+        "end": {
+          "value": null,
+          "precision": "unknown",
+          "evidenceType": "unknown",
+          "sourceIds": [],
+          "checkedAt": "2026-08-28",
+          "note": "No verified Android-version support end date. A count of promised OS upgrades is not a calendar deadline."
+        },
+        "commitments": [
+          {
+            "activity": "unknown",
+            "scope": "Global",
+            "promise": "Four Android upgrades are promised, with Android 16 through Android 19 named for the OnePlus 13 series.",
+            "minimum": false,
+            "upgradeCount": 4,
+            "futureVersions": ["16", "17", "18", "19"],
+            "evidenceType": "official-policy",
+            "sourceIds": ["oneplus-13-series-software"],
+            "checkedAt": "2026-08-30",
+            "note": "The published commitment does not establish current activity or an exact calendar endpoint."
+          }
+        ]
+      },
+      "caveats": [
+        "The security date is OnePlus's published UK support-period end, not a universal last-update date. Actual delivery can vary by region and model."
+      ],
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "oneplus-uk-psti"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "The published UK security-update period has not ended at the review date."
+        },
+        "end": {
+          "value": "2031-01-07",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "oneplus-uk-psti"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "End of the published UK security-update period. This does not identify the final update actually delivered worldwide."
+        }
+      },
+      "conflicts": [
+        {
+          "field": "security.end",
+          "message": "OnePlus's UK table gives 2031-01-07; the secondary dataset gives 2030-10-31. The official date is used with its UK scope, while the secondary fact is retained in the imported source.",
+          "sourceIds": [
+            "oneplus-uk-psti",
+            "eol-oneplus"
+          ],
+          "resolved": true
+        }
+      ],
+      "reviewedRawValues": {
+        "security.end": "2030-10-31"
+      }
+    },
+    {
+      "product": "oneplus",
+      "cycle": "12r",
+      "os": {
+        "state": {
+          "value": "unknown",
+          "evidenceType": "unknown",
+          "sourceIds": [],
+          "checkedAt": "2026-08-28",
+          "note": "No verified manufacturer statement establishes the current Android-version support state for this record."
+        },
+        "end": {
+          "value": null,
+          "precision": "unknown",
+          "evidenceType": "unknown",
+          "sourceIds": [],
+          "checkedAt": "2026-08-28",
+          "note": "No verified Android-version support end date. A count of promised OS upgrades is not a calendar deadline."
+        },
+        "commitments": [
+          {
+            "activity": "unknown",
+            "scope": "Finland",
+            "promise": "At least three generations of Android OS upgrades are promised for OnePlus 12R in Finland.",
+            "minimum": true,
+            "upgradeCount": 3,
+            "evidenceType": "official-policy",
+            "sourceIds": ["oneplus-12r-fi-software"],
+            "checkedAt": "2026-08-30",
+            "note": "The published commitment does not establish current activity or an exact calendar endpoint."
+          }
+        ]
+      },
+      "caveats": [
+        "The security date is OnePlus's published UK support-period end, not a universal last-update date. Actual delivery can vary by region and model."
+      ],
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "oneplus-uk-psti"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "The published UK security-update period has not ended at the review date."
+        },
+        "end": {
+          "value": "2028-02-01",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "oneplus-uk-psti"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "End of the published UK security-update period. This does not identify the final update actually delivered worldwide."
+        }
+      },
+      "conflicts": [
+        {
+          "field": "security.end",
+          "message": "OnePlus's UK table gives 2028-02-01; the secondary dataset gives 2029-01-23. The official date is used with its UK scope, while the secondary fact is retained in the imported source.",
+          "sourceIds": [
+            "oneplus-uk-psti",
+            "eol-oneplus"
+          ],
+          "resolved": true
+        }
+      ],
+      "reviewedRawValues": {
+        "security.end": "2029-01-23"
+      }
+    },
+    {
+      "product": "oneplus",
+      "cycle": "12",
+      "os": {
+        "state": {
+          "value": "unknown",
+          "evidenceType": "unknown",
+          "sourceIds": [],
+          "checkedAt": "2026-08-28",
+          "note": "No verified manufacturer statement establishes the current Android-version support state for this record."
+        },
+        "end": {
+          "value": null,
+          "precision": "unknown",
+          "evidenceType": "unknown",
+          "sourceIds": [],
+          "checkedAt": "2026-08-28",
+          "note": "No verified Android-version support end date. A count of promised OS upgrades is not a calendar deadline."
+        }
+      },
+      "caveats": [
+        "The security date is OnePlus's published UK support-period end, not a universal last-update date. Actual delivery can vary by region and model."
+      ],
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "oneplus-uk-psti"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "The published UK security-update period has not ended at the review date."
+        },
+        "end": {
+          "value": "2029-02-01",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "oneplus-uk-psti"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "End of the published UK security-update period. This does not identify the final update actually delivered worldwide."
+        }
+      },
+      "conflicts": [
+        {
+          "field": "security.end",
+          "message": "OnePlus's UK table gives 2029-02-01; the secondary dataset gives 2029-01-23. The official date is used with its UK scope, while the secondary fact is retained in the imported source.",
+          "sourceIds": [
+            "oneplus-uk-psti",
+            "eol-oneplus"
+          ],
+          "resolved": true
+        }
+      ],
+      "reviewedRawValues": {
+        "security.end": "2029-01-23"
+      }
+    },
+    {
+      "product": "oneplus",
+      "cycle": "11r",
+      "os": {
+        "state": {
+          "value": "unknown",
+          "evidenceType": "unknown",
+          "sourceIds": [],
+          "checkedAt": "2026-08-28",
+          "note": "No verified manufacturer statement establishes the current Android-version support state for this record."
+        },
+        "end": {
+          "value": null,
+          "precision": "unknown",
+          "evidenceType": "unknown",
+          "sourceIds": [],
+          "checkedAt": "2026-08-28",
+          "note": "No verified Android-version support end date. A count of promised OS upgrades is not a calendar deadline."
+        }
+      },
+      "caveats": [
+        "No matching model-specific date was verified in OnePlus's UK security-period table. Retained secondary lifecycle dates are not manufacturer commitments."
+      ]
+    },
+    {
+      "product": "oneplus",
+      "cycle": "11",
+      "os": {
+        "state": {
+          "value": "unknown",
+          "evidenceType": "unknown",
+          "sourceIds": [],
+          "checkedAt": "2026-08-28",
+          "note": "No verified manufacturer statement establishes the current Android-version support state for this record."
+        },
+        "end": {
+          "value": null,
+          "precision": "unknown",
+          "evidenceType": "unknown",
+          "sourceIds": [],
+          "checkedAt": "2026-08-28",
+          "note": "No verified Android-version support end date. A count of promised OS upgrades is not a calendar deadline."
+        },
+        "commitments": [
+          {
+            "activity": "unknown",
+            "scope": "Finland",
+            "promise": "At least four generations of Android OS upgrades are promised for OnePlus 11 in Finland.",
+            "minimum": true,
+            "upgradeCount": 4,
+            "evidenceType": "official-policy",
+            "sourceIds": ["oneplus-11-fi-software"],
+            "checkedAt": "2026-08-30",
+            "note": "The published commitment does not establish current activity or an exact calendar endpoint."
+          }
+        ]
+      },
+      "caveats": [
+        "The security date is OnePlus's published UK support-period end, not a universal last-update date. Actual delivery can vary by region and model."
+      ],
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "oneplus-uk-psti"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "The published UK security-update period has not ended at the review date."
+        },
+        "end": {
+          "value": "2028-02-01",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "oneplus-uk-psti"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "End of the published UK security-update period. This does not identify the final update actually delivered worldwide."
+        }
+      },
+      "conflicts": [
+        {
+          "field": "security.end",
+          "message": "OnePlus's UK table gives 2028-02-01; the secondary dataset gives 2028-02-07. The official date is used with its UK scope, while the secondary fact is retained in the imported source.",
+          "sourceIds": [
+            "oneplus-uk-psti",
+            "eol-oneplus"
+          ],
+          "resolved": true
+        }
+      ],
+      "reviewedRawValues": {
+        "security.end": "2028-02-07"
+      }
+    },
+    {
+      "product": "fairphone",
+      "cycle": "6",
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "fairphone-aer",
+            "fairphone-software-support"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "At least seven Android upgrades after Android 15 are promised; the official support guide identifies Android 16 as available. The promise has not been exhausted."
+        },
+        "end": {
+          "value": null,
+          "precision": "unknown",
+          "evidenceType": "unknown",
+          "sourceIds": [],
+          "checkedAt": "2026-08-28",
+          "note": "No separate Android-version support end date is published. Upgrade counts and security-support dates are not OS calendar deadlines."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "fairphone-aer"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Fairphone commits to at least eight years of security updates."
+        },
+        "end": {
+          "value": "2033-06",
+          "precision": "month",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "fairphone-aer"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "The AER roadmap publishes June 2033, without an exact day."
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-policy",
+        "sourceIds": [
+          "fairphone-aer"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Current cadence from the manufacturer's roadmap, checked August 2026."
+      },
+      "caveats": [
+        "Reviewed manufacturer guidance is for Europe and Fairphone's Android software. Third-party operating systems follow their own support policies."
+      ]
+    },
+    {
+      "product": "fairphone",
+      "cycle": "5",
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "derived-from-policy",
+          "sourceIds": [
+            "fairphone-aer",
+            "fairphone5-release-notes"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "At least five upgrades after Android 13 are promised. The official current release is Android 15, so that commitment has not been exhausted."
+        },
+        "end": {
+          "value": null,
+          "precision": "unknown",
+          "evidenceType": "unknown",
+          "sourceIds": [],
+          "checkedAt": "2026-08-28",
+          "note": "No separate Android-version support end date is published. Upgrade counts and security-support dates are not OS calendar deadlines."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "fairphone-aer",
+            "fairphone5-legal"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "The manufacturer commits to ongoing support, but its official sources disagree about the final month."
+        },
+        "end": {
+          "value": "2031",
+          "precision": "year",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "fairphone-aer",
+            "fairphone5-legal"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "The shared support year is 2031. The AER roadmap names August; the consumer legal explainer promises support through the end of that year. The exact endpoint is unresolved."
+        }
+      },
+      "cadence": {
+        "value": "bimonthly",
+        "evidenceType": "official-policy",
+        "sourceIds": [
+          "fairphone-aer"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "The AER roadmap switches to updates every two months from August 2026."
+      },
+      "caveats": [
+        "Reviewed manufacturer guidance is for Europe and Fairphone's Android software. Third-party operating systems follow their own support policies.",
+        "Official support end dates conflict. Do not use the shared year as an exact endpoint or for a definitive remaining-support comparison."
+      ],
+      "conflicts": [
+        {
+          "field": "security.end",
+          "message": "Fairphone's AER roadmap states August 2031; its consumer legal explainer promises software support through the end of 2031. The secondary dataset supplies 2031-09-14. Only the shared year is shown; the final endpoint remains unresolved.",
+          "sourceIds": [
+            "fairphone-aer",
+            "fairphone5-legal",
+            "eol-fairphone"
+          ],
+          "resolved": false
+        }
+      ]
+    },
+    {
+      "product": "fairphone",
+      "cycle": "4",
+      "release": {
+        "value": "2021-09",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "fairphone-software-support"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "The manufacturer's support guide identifies the launch month as September 2021."
+      },
+      "os": {
+        "state": {
+          "value": "unknown",
+          "evidenceType": "unknown",
+          "sourceIds": [],
+          "checkedAt": "2026-08-28",
+          "note": "The reviewed source guarantees continued software and security support but does not establish a separate Android-version support state."
+        },
+        "end": {
+          "value": null,
+          "precision": "unknown",
+          "evidenceType": "unknown",
+          "sourceIds": [],
+          "checkedAt": "2026-08-28",
+          "note": "No separate Android-version support end date is published. Upgrade counts and security-support dates are not OS calendar deadlines."
+        },
+        "commitments": [
+          {
+            "activity": "unknown",
+            "scope": "Europe",
+            "promise": "Continued Android software and security updates are promised for Fairphone 4 in Europe.",
+            "minimum": true,
+            "evidenceType": "official-policy",
+            "sourceIds": ["fairphone-software-support"],
+            "checkedAt": "2026-08-28",
+            "note": "The reviewed source establishes a software-update commitment, but not a separate current Android activity state or Android calendar endpoint."
+          }
+        ]
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "fairphone-software-support"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "The current manufacturer guide guarantees software support until at least 2028."
+        },
+        "end": {
+          "value": "2028",
+          "precision": "year",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "fairphone-software-support"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "At least 2028 is the published commitment. No month or final-update day is specified."
+        }
+      },
+      "cadence": {
+        "value": "bimonthly",
+        "evidenceType": "official-policy",
+        "sourceIds": [
+          "fairphone-software-support"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "The manufacturer states updates every two months since 2024."
+      },
+      "caveats": [
+        "Reviewed manufacturer guidance is for Europe and Fairphone's Android software. Third-party operating systems follow their own support policies."
+      ]
+    },
+    {
+      "product": "fairphone",
+      "cycle": "3+",
+      "release": {
+        "value": "2020",
+        "precision": "year",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "fairphone-software-support"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "The manufacturer support guide publishes the launch year only."
+      },
+      "os": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "fairphone-software-support"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Android 13 was the final major operating-system upgrade."
+        },
+        "end": {
+          "value": null,
+          "precision": "unknown",
+          "evidenceType": "unknown",
+          "sourceIds": [],
+          "checkedAt": "2026-08-28",
+          "note": "No separate Android-version support end date is published. Upgrade counts and security-support dates are not OS calendar deadlines."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "fairphone-software-support"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "The manufacturer reports that official support has already ended in August 2026. The final security patch was in June 2026."
+        },
+        "end": {
+          "value": "2026-08",
+          "precision": "month",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "fairphone-software-support"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Official support ended in August 2026. This is separate from the June 2026 final security patch."
+        }
+      },
+      "caveats": [
+        "Reviewed manufacturer guidance is for Europe and Fairphone's Android software. Third-party operating systems follow their own support policies."
+      ],
+      "conflicts": [
+        {
+          "field": "security.end",
+          "message": "The current manufacturer guide reports support ended in August 2026; the secondary dataset still lists 2026-09-30. The official end announcement takes priority.",
+          "sourceIds": [
+            "fairphone-software-support",
+            "eol-fairphone"
+          ],
+          "resolved": true
+        }
+      ],
+      "reviewedRawValues": {
+        "security.end": "2026-09-30",
+        "security.state": "2026-09-30"
+      }
+    },
+    {
+      "product": "fairphone",
+      "cycle": "3",
+      "release": {
+        "value": "2019",
+        "precision": "year",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "fairphone-software-support"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "The manufacturer support guide publishes the launch year only."
+      },
+      "os": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "fairphone-software-support"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Android 13 was the final major operating-system upgrade."
+        },
+        "end": {
+          "value": null,
+          "precision": "unknown",
+          "evidenceType": "unknown",
+          "sourceIds": [],
+          "checkedAt": "2026-08-28",
+          "note": "No separate Android-version support end date is published. Upgrade counts and security-support dates are not OS calendar deadlines."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "fairphone-software-support"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "The manufacturer reports that official support has already ended in August 2026. The final security patch was in June 2026."
+        },
+        "end": {
+          "value": "2026-08",
+          "precision": "month",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "fairphone-software-support"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Official support ended in August 2026. This is separate from the June 2026 final security patch."
+        }
+      },
+      "caveats": [
+        "Reviewed manufacturer guidance is for Europe and Fairphone's Android software. Third-party operating systems follow their own support policies."
+      ],
+      "conflicts": [
+        {
+          "field": "security.end",
+          "message": "The current manufacturer guide reports support ended in August 2026; the secondary dataset still lists 2026-09-30. The official end announcement takes priority.",
+          "sourceIds": [
+            "fairphone-software-support",
+            "eol-fairphone"
+          ],
+          "resolved": true
+        }
+      ],
+      "reviewedRawValues": {
+        "security.end": "2026-09-30",
+        "security.state": "2026-09-30"
+      }
+    },
+    {
+      "product": "fairphone",
+      "cycle": "2",
+      "os": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "fairphone-software-support"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Official support has ended; Android 10 was the final major version."
+        },
+        "end": {
+          "value": null,
+          "precision": "unknown",
+          "evidenceType": "unknown",
+          "sourceIds": [],
+          "checkedAt": "2026-08-28",
+          "note": "No separate Android-version support end date is published. Upgrade counts and security-support dates are not OS calendar deadlines."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "fairphone-software-support"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "The manufacturer reports that official support ended in March 2023."
+        },
+        "end": {
+          "value": "2023-03",
+          "precision": "month",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "fairphone-software-support"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "The manufacturer gives March 2023 as the support end, without specifying a final day."
+        }
+      },
+      "caveats": [
+        "Reviewed manufacturer guidance is for Europe and Fairphone's Android software. Third-party operating systems follow their own support policies."
+      ]
+    },
+    {
+      "product": "fairphone",
+      "cycle": "1",
+      "release": {
+        "value": "2014",
+        "precision": "year",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "fairphone1-faq"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "The manufacturer's FAQ says first devices shipped in early 2014. This is a shipment year, not a precise announcement or sale date."
+      },
+      "os": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "fairphone1-faq"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "The manufacturer stopped developing further Android upgrades when support ended."
+        },
+        "end": {
+          "value": null,
+          "precision": "unknown",
+          "evidenceType": "unknown",
+          "sourceIds": [],
+          "checkedAt": "2026-08-28",
+          "note": "No separate Android-version support end date is published. Upgrade counts and security-support dates are not OS calendar deadlines."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "fairphone1-faq"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "The manufacturer announced the end of support in July 2017."
+        },
+        "end": {
+          "value": "2017-07",
+          "precision": "month",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "fairphone1-faq"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "The manufacturer publishes July 2017 as the end-of-support month."
+        }
+      },
+      "caveats": [
+        "Reviewed manufacturer guidance is for Europe and Fairphone's Android software. Third-party operating systems follow their own support policies.",
+        "Release sources differ: the public value follows the manufacturer's first-shipment year; the imported lifecycle record retains its 2013-12-01 date."
+      ],
+      "conflicts": [
+        {
+          "field": "release",
+          "message": "The manufacturer FAQ says first shipments were in early 2014; the secondary dataset lists 2013-12-01. The public record uses the official shipment year without inventing a month or explaining the secondary date as an announcement.",
+          "sourceIds": [
+            "fairphone1-faq",
+            "eol-fairphone"
+          ],
+          "resolved": true
+        }
+      ],
+      "reviewedRawValues": {
+        "release": "2013-12-01"
+      }
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PhoneSupportChecker from "../../components/PhoneSupportChecker.astro";
+import { phoneDataset } from "../../data/phoneSupport/catalog.mjs";
+import { dateBounds, formatCheckedDate, formatDate, phoneStatus, sortPhones } from "../../data/phoneSupport/support.mjs";
+import { selectionUrl } from "../../data/phoneSupport/search.mjs";
+import { buildBreadcrumbJsonLd } from "../../data/seo.mjs";
+
+const site = Astro.site ?? new URL("https://runcheckapp.com");
+const now = new Date().toISOString().slice(0, 10);
+const ordered = sortPhones(phoneDataset.records, now);
+const brandCounts = new Map(phoneDataset.brands.map((brand) => [brand.id, phoneDataset.records.filter((phone) => phone.brandId === brand.id).length]));
+const endingSoon = ordered.filter((phone) => phoneStatus(phone, now).key === "ending-soon")
+  .sort((a, b) => dateBounds(a.security.end)!.end.localeCompare(dateBounds(b.security.end)!.end)).slice(0, 4);
+const recentBoundary = `${Number(now.slice(0, 4)) - 1}${now.slice(4)}`;
+const recentlyEnded = ordered.filter((phone) => phoneStatus(phone, now).key === "ended" &&
+  (dateBounds(phone.security.end)?.end ?? "") >= recentBoundary)
+  .sort((a, b) => dateBounds(b.security.end)!.end.localeCompare(dateBounds(a.security.end)!.end)).slice(0, 4);
+const description = "Find out how long your Android phone is expected to receive system and security updates. Search sourced records and compare remaining support.";
+const jsonLd = [
+  buildBreadcrumbJsonLd([{ name: "runcheck", path: "/" }, { name: "Phone Support Checker", path: "/phone-support/" }], site),
+  {
+    "@context": "https://schema.org", "@type": "WebApplication",
+    "@id": new URL("/phone-support/#application", site).toString(),
+    name: "Phone Support Checker", url: new URL("/phone-support/", site).toString(),
+    description, applicationCategory: "UtilitiesApplication", isAccessibleForFree: true,
+    browserRequirements: "JavaScript is required for model search and comparison.", inLanguage: "en",
+  },
+];
+---
+
+<BaseLayout title="Phone Support Checker: Android update support | runcheck" description={description} canonicalPath="/phone-support/" jsonLd={jsonLd}>
+  <div class="phone-support ps-tool-page article-page-shell article-page-shell-medium">
+    <header class="ps-intro">
+      <p class="ps-eyebrow">Phone Support Checker</p>
+      <h1>Check your phone’s update support</h1>
+      <p class="ps-intro-copy">Find Android upgrade promises, security support and published end dates.</p>
+    </header>
+
+    <PhoneSupportChecker />
+
+    <section class="ps-browse" data-ps-brands aria-labelledby="ps-browse-heading">
+      <div class="ps-browse-heading">
+        <h2 id="ps-browse-heading">Browse by brand</h2>
+        <p>{phoneDataset.brands.length} brands, {phoneDataset.records.length} phones</p>
+      </div>
+      <ul class="ps-brand-list" role="list">
+        {phoneDataset.brands.map((brand) => (
+          <li><a href={`/phone-support/${brand.id}/`}><span>{brand.name}</span><span class="ps-subtle">{brandCounts.get(brand.id)} phones</span></a></li>
+        ))}
+      </ul>
+    </section>
+
+    <div class="ps-dataset-note">
+      <p>Data reviewed {formatCheckedDate(phoneDataset.reviewedAt)}</p>
+      <a class="ps-text-link" href="/phone-support/methodology/">How we verify support dates</a>
+    </div>
+
+    <div class="ps-discovery">
+      <p class="ps-eyebrow">Security support</p>
+      <div class="ps-discovery-grid">
+        {endingSoon.length > 0 && (
+          <section aria-labelledby="support-ending-soon">
+            <h2 id="support-ending-soon">Ending within 12 months</h2>
+            <ul class="ps-previews" role="list">
+              {endingSoon.map((phone) => <li><a href={selectionUrl({ modelId: phone.id })}>{phone.model}</a><span class="ps-subtle">{phone.security.end.precision === "year" ? "Expected through" : "Expected until"} {formatDate(phone.security.end)}</span></li>)}
+            </ul>
+          </section>
+        )}
+        {recentlyEnded.length > 0 && (
+          <section aria-labelledby="recently-ended-support">
+            <h2 id="recently-ended-support">Recently ended</h2>
+            <ul class="ps-previews" role="list">
+              {recentlyEnded.map((phone) => <li><a href={selectionUrl({ modelId: phone.id })}>{phone.model}</a><span class="ps-subtle">Ended {phone.security.end.precision === "day" ? "on" : "in"} {formatDate(phone.security.end)}</span></li>)}
+            </ul>
+          </section>
+        )}
+      </div>
+    </div>
+  </div>
+</BaseLayout>

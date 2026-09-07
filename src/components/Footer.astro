@@ -60,6 +60,7 @@ const articleLanguageLinks = PUBLISHED_ARTICLE_LOCALE_CODES.map((code) => ({
       >
         <a href="/#features">{copy.nav[0]}</a>
         <a href={copy.root}>{copy.nav[1]}</a>
+        {locale === "en" && <a href="/phone-support/">Phone support</a>}
         <a href="mailto:contact@finnvek.com">{copy.nav[2]}</a>
       </nav>
 

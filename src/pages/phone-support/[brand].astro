@@ -1,0 +1,60 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { phoneDataset } from "../../data/phoneSupport/catalog.mjs";
+import { CADENCE_LABELS, EVIDENCE_LABELS, formatDate, formatCheckedDate, phoneStatus, sortPhones, supportSummary, supportEndIsConflicted } from "../../data/phoneSupport/support.mjs";
+import { selectionUrl } from "../../data/phoneSupport/search.mjs";
+import { buildBreadcrumbJsonLd } from "../../data/seo.mjs";
+
+export function getStaticPaths() {
+  return phoneDataset.brands.filter((brand) => phoneDataset.records.some((phone) => phone.brandId === brand.id))
+    .map((brand) => ({ params: { brand: brand.id }, props: { brand } }));
+}
+const { brand } = Astro.props;
+const now = new Date().toISOString().slice(0, 10);
+const phones = sortPhones(phoneDataset.records.filter((phone) => phone.brandId === brand.id), now);
+const canonicalPath = `/phone-support/${brand.id}/`;
+const site = Astro.site ?? new URL("https://runcheckapp.com");
+const description = `Browse ${brand.name} phone support dates, Android version updates and security update schedules. Open a model to see evidence, caveats and comparisons.`;
+const sourceIds = new Set(phones.flatMap((phone) => [phone.release, phone.os.state, phone.os.end, phone.security.state, phone.security.end, phone.cadence].flatMap((claim) => claim.sourceIds)));
+const sources = phoneDataset.sources.filter((source) => sourceIds.has(source.id));
+const jsonLd = [
+  buildBreadcrumbJsonLd([{ name: "runcheck", path: "/" }, { name: "Phone Support Checker", path: "/phone-support/" }, { name: brand.name, path: canonicalPath }], site),
+  { "@context": "https://schema.org", "@type": "ItemList", name: `${brand.name} phone support`, numberOfItems: phones.length,
+    itemListElement: phones.map((phone, index) => ({ "@type": "ListItem", position: index + 1, name: phone.model, url: new URL(selectionUrl({ modelId: phone.id }), site).toString() })) },
+];
+---
+
+<BaseLayout title={`${brand.name} update support dates | runcheck`} description={description} canonicalPath={canonicalPath} jsonLd={jsonLd}>
+  <div class="phone-support article-page-shell article-page-shell-medium">
+    <nav class="ps-breadcrumb" aria-label="Breadcrumb"><a href="/phone-support/">Phone Support Checker</a></nav>
+    <h1 class="article-index-heading">{brand.name} phone support</h1>
+    <p class="article-index-intro">{brand.description}</p>
+    <p class="ps-subtle">{phones.length} phones. Dataset updated {formatDate({ value: phoneDataset.generatedAt.slice(0, 10), precision: "day" })}. Status calculated {formatDate({ value: now, precision: "day" })}.</p>
+    <p class="ps-subtle">{brand.caveat}</p>
+
+    <div class="ps-table-wrap ps-section">
+      <table class="ps-table" role="table">
+        <caption>{brand.name} Android and security support. Open a phone for its sources and regional conditions.</caption>
+        <thead role="rowgroup"><tr role="row"><th scope="col" role="columnheader">Phone</th><th scope="col" role="columnheader">Released</th><th scope="col" role="columnheader">Android updates</th><th scope="col" role="columnheader">Security updates</th><th scope="col" role="columnheader">Status</th><th scope="col" role="columnheader">Cadence</th><th scope="col" role="columnheader">Evidence</th><th scope="col" role="columnheader">Reviewed</th></tr></thead>
+        <tbody role="rowgroup">{phones.map((phone) => (
+          <tr role="row">
+            <th scope="row" role="rowheader" data-label="Phone"><a href={selectionUrl({ modelId: phone.id })}>{phone.model}</a></th>
+            <td role="cell" data-label="Released">{formatDate(phone.release)}</td>
+            <td role="cell" data-label="Android updates">{supportSummary(phone.os, now, supportEndIsConflicted(phone, "os"))}</td>
+            <td role="cell" data-label="Security updates">{supportSummary(phone.security, now, supportEndIsConflicted(phone, "security"))}</td>
+            <td role="cell" data-label="Status">{phoneStatus(phone, now).label}</td>
+            <td role="cell" data-label="Cadence">{CADENCE_LABELS[phone.cadence.value]}{phone.cadence.value !== "unknown" && <span class="ps-subtle block">Checked {formatCheckedDate(phone.cadence.checkedAt)}</span>}</td>
+            <td role="cell" data-label="Evidence"><span class="block">Android: {EVIDENCE_LABELS[phone.os.end.value ? phone.os.end.evidenceType : phone.os.state.evidenceType]}</span><span class="block">Security: {EVIDENCE_LABELS[phone.security.end.value ? phone.security.end.evidenceType : phone.security.state.evidenceType]}</span></td>
+            <td role="cell" data-label="Reviewed">{formatCheckedDate(phone.reviewedAt)}</td>
+          </tr>
+        ))}</tbody>
+      </table>
+    </div>
+    <section class="ps-section" aria-labelledby="brand-support-sources">
+      <h2 id="brand-support-sources">Sources and limitations</h2>
+      <p class="ps-subtle">Support schedules can change. An unknown Android endpoint does not mean that Android updates have ended. A current cadence list is not a promise of a future end date.</p>
+      <ul class="ps-links" role="list">{sources.map((source) => <li><a href={source.url}>{source.publisher}: {source.title}</a><span class="ps-subtle block">{source.kind === "secondary" ? "Secondary lifecycle dataset" : "Official source"}. Checked {formatCheckedDate(source.checkedAt)}.</span></li>)}</ul>
+      <p><a href="/phone-support/methodology/">How support data is verified</a></p>
+    </section>
+  </div>
+</BaseLayout>

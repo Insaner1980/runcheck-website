@@ -1,0 +1,86 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { phoneDataset } from "../../../data/phoneSupport/catalog.mjs";
+import { formatCheckedDate, formatDate } from "../../../data/phoneSupport/support.mjs";
+import { buildBreadcrumbJsonLd } from "../../../data/seo.mjs";
+const site = Astro.site ?? new URL("https://runcheckapp.com");
+const breadcrumb = buildBreadcrumbJsonLd([{ name: "runcheck", path: "/" }, { name: "Phone Support Checker", path: "/phone-support/" }, { name: "Methodology", path: "/phone-support/methodology/" }], site);
+---
+
+<BaseLayout title="How Phone Support Checker works | runcheck" description="Read how runcheck verifies phone support sources, separates Android and security updates, preserves date precision and handles incomplete or conflicting evidence." canonicalPath="/phone-support/methodology/" jsonLd={breadcrumb}>
+  <div class="phone-support article-page-shell article-page-shell-narrow">
+    <nav class="ps-breadcrumb" aria-label="Breadcrumb"><a href="/phone-support/">Phone Support Checker</a></nav>
+    <h1 class="article-index-heading">How Phone Support Checker works</h1>
+    <p class="article-index-intro">A model lookup built from documented software support, with evidence attached to each fact.</p>
+    <dl class="ps-facts ps-section">
+      <div><dt>Dataset version</dt><dd>{phoneDataset.version}</dd></div>
+      <div><dt>Dataset updated</dt><dd>{formatDate({ value: phoneDataset.generatedAt.slice(0, 10), precision: "day" })}</dd></div>
+      <div><dt>Last reviewed</dt><dd>{formatCheckedDate(phoneDataset.reviewedAt)}</dd></div>
+      <div><dt>Coverage</dt><dd>{phoneDataset.records.length} Android phones across {phoneDataset.brands.length} brands</dd></div>
+    </dl>
+    <div class="prose prose-invert max-w-none prose-a:text-run-cyan">
+      <h2>Sources and evidence</h2>
+      <p>We prefer manufacturer support pages, security scope lists and maintenance policies. Official release or availability dates establish a policy's starting point. Xiaomi, Redmi and POCO records use Xiaomi's model-level software support registry, while OPPO records use its UK product security support-period register. The structured endoflife.date dataset supplies additional records and historical lifecycle information. It is a secondary source, not a manufacturer statement.</p>
+      <p>Each release date, Android commitment, Android support state and endpoint, security support state and endpoint, and cadence has its own evidence type, source references and review date. One official fact does not make the rest of a phone's record official.</p>
+      <ul>
+        <li><strong>Official date:</strong> the manufacturer publishes a calendar endpoint at the displayed precision.</li>
+        <li><strong>Official policy:</strong> a written commitment supports the fact, but may not specify an exact endpoint.</li>
+        <li><strong>Calculated from official policy:</strong> we add a stated support duration to the official policy's stated starting month or year.</li>
+        <li><strong>Official current list:</strong> the phone appeared on a relevant support or cadence list when checked.</li>
+        <li><strong>Secondary lifecycle dataset:</strong> the field comes from endoflife.date and has not been independently confirmed as an official calendar date.</li>
+        <li><strong>Not established:</strong> the source does not provide a defensible value.</li>
+      </ul>
+
+      <h2>Android updates and security updates are different</h2>
+      <p>Android version updates change the operating system version. Security updates fix vulnerabilities and can continue after major Android upgrades stop. A promise of four version upgrades is not a promise of four calendar years. We do not turn upgrade counts into invented end dates.</p>
+      <p>The checker keeps three Android facts separate: whether the manufacturer made a commitment, whether updates are currently active, and whether an exact calendar endpoint is published. It uses the following evidence classes:</p>
+      <ol>
+        <li><strong>A, no commitment:</strong> Android version support is not established.</li>
+        <li><strong>B, official commitment:</strong> Android upgrades are promised, but current activity and the exact end date are not established.</li>
+        <li><strong>C, active without endpoint:</strong> Android version support is active, but the exact end date is not published.</li>
+        <li><strong>D, active through an endpoint:</strong> Android version support is active through the displayed official endpoint and precision.</li>
+        <li><strong>E, officially ended:</strong> official evidence establishes that Android version support has ended.</li>
+        <li><strong>F, conflicting evidence:</strong> the available evidence conflicts, so no single Android support position is shown.</li>
+      </ol>
+      <p>A commitment records its region, evidence sources, review date, minimum status, named future Android versions, promised upgrade count or stated duration when the source publishes those facts. Missing fields stay missing.</p>
+
+      <h2>Precision, policies and regional conditions</h2>
+      <p>A month stays a month, and a year stays a year. Technical first-of-month dates in an imported dataset are not automatically exact dates. In particular, Samsung's secondary support estimates are generally only precise to a year, and Motorola's dataset dates are precise to a month. Pixel policy endpoints use the official first US Google Store availability month. Xiaomi's registry publishes launch and support-end days. OPPO's UK register publishes support-end days but not release dates, so OPPO release dates remain unknown.</p>
+      <p>Some official dates apply to specified UK, European or other regional variants. We show those conditions in the result. A regional commitment is not a universal guarantee. Schedules may also depend on the operator and channel. Separate regional models remain separate unless their identity can be established.</p>
+
+      <h2>Current cadence and incomplete information</h2>
+      <p>Monthly, quarterly, biannual and schedules that publish updates every two months are shown only when directly supported by a source. Enterprise-only Samsung entries do not establish consumer-model cadence. Lists can change, and operators can deliver a different schedule. Being absent from one list does not establish that support has ended.</p>
+      <p>For an active state with no known endpoint, an observation older than 90 days is treated as incomplete until reviewed again. This is runcheck's freshness rule, not a manufacturer policy. Known calendar commitments remain visible at their original precision. Last checked dates describe the evidence review, not the latest patch on your device.</p>
+
+      <h2>How HONOR coverage works</h2>
+      <p>HONOR phones are included when they appear on HONOR Finland's current security-update list. That list confirms that the model is currently listed for security updates and gives its update frequency, but it does not provide a confirmed security support end date or establish the current status or calendar end date of Android version upgrades. The public HONOR catalog represents the models on the reviewed current Finland list, not every historical HONOR phone.</p>
+      <p>HONOR's Android Enterprise Recommended (AER) list is supplementary evidence only. We use an AER entry only when its stated region includes Europe or is Global. Named future Android versions are stored as a minimum commitment, separate from current activity and the calendar endpoint. AER minimum dates never create a countdown, an ending-soon or recently-ended status, or an exact support endpoint. Absence from AER does not prove that security support has ended. If a phone disappears from a current manufacturer list, we do not invent a support end date.</p>
+      <p>Separate HONOR product and policy pages can establish a stronger commitment for the country or region they name. A France or Germany policy is displayed with that scope and is not promoted to a Finland-wide or global guarantee. The Magic7 Pro policy explicitly starts in EU markets, so its EU activity applies to Finland without inventing an exact endpoint.</p>
+
+      <h2>Conflicts and support status</h2>
+      <p>Raw source facts and reviewed annotations are kept separately. An official exact date takes precedence over an unexplained secondary estimate. A newer official current list can establish active support without inventing a new endpoint. Resolved differences are recorded; unresolved differences produce an incomplete result and prevent a confident date comparison.</p>
+      <p>For example, the Fairphone 5 sources differ on the endpoint within 2031. The result retains that uncertainty instead of choosing a precise day. A phone still being sold does not establish that software support continues.</p>
+
+      <h2>Remaining support and comparison</h2>
+      <p>Calculations use UTC calendar dates. Day endpoints include the stated day; a month or year is evaluated as an interval without displaying a fabricated exact day. A current official statement that support has already ended takes precedence even within that month. Approximate remaining durations use whole years and months, never decimal years or negative time.</p>
+      <p>Support ending soon means the documented security endpoint falls within the next 12 months. Comparisons show release, Android support, security support, remaining time, cadence and evidence separately. Unknown dates, conflicting claims, overlapping date ranges and unmatched evidence levels prevent a longer-period highlight. A later endpoint is not an overall recommendation.</p>
+
+      <h2>What this checker cannot tell you</h2>
+      <p>It cannot read your phone, identify its installed security patch, confirm that an update has reached your operator, or promise that a manufacturer's plan will not change. It does not assess physical condition, battery health, warranty, repairability, performance, price or resale value.</p>
+      <p>Phone searches are matched locally against runcheck's static support data. The checker has no search account, saved history or custom input analytics events. The shared website layout may load general website analytics.</p>
+
+      <h2>Review and updates</h2>
+      <p>The website builds from a versioned local snapshot and never contacts the source providers during a normal build. A maintainer intentionally fetches updates, reviews the model and claim diff, checks official annotations and runs offline validation before applying a new snapshot. The update command is a dry run unless explicitly applied. Removing or weakening an established Android commitment blocks apply unless the official annotations contain a current, explicit reviewed commitment decision. Additions and all scope, version, count and source changes remain visible in the update report.</p>
+      <p>We aim to review the snapshot monthly and after significant policy changes. Official registry coverage is limited to supported phones and phones whose documented security support ended within the previous 12 months. Older registry history, tablets and other connected products are not published as phone coverage. There is no automatic live refresh or promise that every source changed since the last review has already been captured. The separate source URL check verifies transport and document identity signals. An HTTP success is not proof that a page still supports every attached claim; that requires editorial review.</p>
+
+      <h2>Secondary data attribution and exports</h2>
+      <p>Contains normalized and modified lifecycle data from <a href={phoneDataset.attribution.url}>{phoneDataset.attribution.name}</a>, used under the <a href={phoneDataset.attribution.licenseUrl}>{phoneDataset.attribution.license} license</a>. The upstream copyright and permission notice is preserved in the repository. Manufacturer names are descriptive labels; no affiliation or endorsement is implied.</p>
+      <p>The public exports contain the same normalized phone records, structured Android commitments, evidence references and attribution. Manufacturer source-page prose and logos are not redistributed. JSON includes the public source catalog; the CSV commitment field preserves the same structured commitment values and source IDs.</p>
+      <ul><li><a href="/phone-support/data.json">Download support data as JSON</a></li><li><a href="/phone-support/data.csv">Download support data as CSV</a></li></ul>
+    </div>
+    <section class="ps-section" aria-labelledby="methodology-source-list">
+      <h2 id="methodology-source-list">Source register</h2>
+      <ul class="ps-links" role="list">{phoneDataset.sources.map((source) => <li><a href={source.url}>{source.publisher}: {source.title}</a><span class="ps-subtle block">{source.kind === "secondary" ? "Secondary dataset" : "Manufacturer source"}. Checked {formatCheckedDate(source.checkedAt)}.</span></li>)}</ul>
+    </section>
+  </div>
+</BaseLayout>

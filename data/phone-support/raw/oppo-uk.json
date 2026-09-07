@@ -1,0 +1,358 @@
+{
+  "catalog": "oppo-uk",
+  "fetchUrl": "https://www.oppo.com/uk/psti/",
+  "sourceId": "oppo-uk-support-period",
+  "sourceUrl": "https://www.oppo.com/uk/psti/",
+  "retrievedAt": "2026-08-29",
+  "sha256": "c3ae4422eb6a04ee56c8bdc52932a279639ea9e3117ea335239de0f65b0cd3d4",
+  "body": {
+    "count": 69,
+    "records": [
+      {
+        "status": 2,
+        "name": "OPPO Enco Air4",
+        "endDate": "2027-08-15"
+      },
+      {
+        "status": 2,
+        "name": "OPPO Pad SE",
+        "endDate": "2031-07-07"
+      },
+      {
+        "status": 1,
+        "name": "OPPO A6",
+        "endDate": "2032-08-01"
+      },
+      {
+        "status": 1,
+        "name": "OPPO A6k 5G",
+        "endDate": "2032-08-01"
+      },
+      {
+        "status": 1,
+        "name": "OPPO A6x 5G",
+        "endDate": "2032-08-01"
+      },
+      {
+        "status": 2,
+        "name": "OPPO Pad 5 5G",
+        "endDate": "2032-08-01"
+      },
+      {
+        "status": 2,
+        "name": "OPPO Enco Buds3",
+        "endDate": "2026-08-30"
+      },
+      {
+        "status": 2,
+        "name": "OPPO Enco Air5",
+        "endDate": "2027-06-01"
+      },
+      {
+        "status": 2,
+        "name": "OPPO Enco Air5s",
+        "endDate": "2027-05-01"
+      },
+      {
+        "status": 1,
+        "name": "OPPO Reno16 5G",
+        "endDate": "2032-07-03"
+      },
+      {
+        "status": 1,
+        "name": "OPPO Reno16 F 5G",
+        "endDate": "2032-07-03"
+      },
+      {
+        "status": 1,
+        "name": "OPPO Reno16 FS 5G",
+        "endDate": "2032-07-03"
+      },
+      {
+        "status": 1,
+        "name": "OPPO Reno16 Pro 5G",
+        "endDate": "2032-07-01"
+      },
+      {
+        "status": 1,
+        "name": "OPPO Reno15 F 5G",
+        "endDate": "2032-01-01"
+      },
+      {
+        "status": 1,
+        "name": "OPPO Reno15 FS 5G",
+        "endDate": "2032-01-01"
+      },
+      {
+        "status": 1,
+        "name": "OPPO Find X9 Ultra",
+        "endDate": "2032-05-08"
+      },
+      {
+        "status": 2,
+        "name": "OPPO Pad 5",
+        "endDate": "2032-05-07"
+      },
+      {
+        "status": 2,
+        "name": "OPPO Watch X3",
+        "endDate": "2028-11-30"
+      },
+      {
+        "status": 2,
+        "name": "OPPO Enco Clip2",
+        "endDate": "2027-05-01"
+      },
+      {
+        "status": 2,
+        "name": "OPPO Enco Air5 Pro",
+        "endDate": "2027-04-01"
+      },
+      {
+        "status": 1,
+        "name": "OPPO A6 Pro 5G",
+        "endDate": "2032-03-06"
+      },
+      {
+        "status": 1,
+        "name": "OPPO A6x",
+        "endDate": "2032-03-06"
+      },
+      {
+        "status": 1,
+        "name": "OPPO A6 5G",
+        "endDate": "2032-03-06"
+      },
+      {
+        "status": 2,
+        "name": "OPPO Watch S",
+        "endDate": "2027-11-01"
+      },
+      {
+        "status": 2,
+        "name": "OPPO Enco X3s",
+        "endDate": "2026-07-01"
+      },
+      {
+        "status": 1,
+        "name": "OPPO Find X9",
+        "endDate": "2031-10-28"
+      },
+      {
+        "status": 1,
+        "name": "OPPO Find X9 Pro",
+        "endDate": "2031-10-28"
+      },
+      {
+        "status": 2,
+        "name": "OPPO Watch X2 Mini",
+        "endDate": "2027-07-04"
+      },
+      {
+        "status": 1,
+        "name": "OPPO Find X8 Pro",
+        "endDate": "2030-11-23"
+      },
+      {
+        "status": 1,
+        "name": "A5(4+128/6+128)",
+        "endDate": "2031-07-07"
+      },
+      {
+        "status": 2,
+        "name": "Enco Buds3 Pro",
+        "endDate": "2026-06-01"
+      },
+      {
+        "status": 1,
+        "name": "A5 5G",
+        "endDate": "2031-07-01"
+      },
+      {
+        "status": 1,
+        "name": "A5 Pro 5G",
+        "endDate": "2031-02-28"
+      },
+      {
+        "status": 1,
+        "name": "Reno13 F 5G",
+        "endDate": "2031-02-17"
+      },
+      {
+        "status": 1,
+        "name": "Reno13 FS 5G",
+        "endDate": "2031-02-17"
+      },
+      {
+        "status": 1,
+        "name": "Reno 13 5G",
+        "endDate": "2031-02-17"
+      },
+      {
+        "status": 1,
+        "name": "Reno 13 Pro 5G",
+        "endDate": "2031-02-17"
+      },
+      {
+        "status": 2,
+        "name": "OPPO Watch X2",
+        "endDate": "2027-03-01"
+      },
+      {
+        "status": 1,
+        "name": "Reno12",
+        "endDate": "2028-06-27"
+      },
+      {
+        "status": 1,
+        "name": "Reno12 Pro",
+        "endDate": "2028-06-18"
+      },
+      {
+        "status": 1,
+        "name": "A40",
+        "endDate": "2027-08-28"
+      },
+      {
+        "status": 1,
+        "name": "A60 5G",
+        "endDate": "2027-08-24"
+      },
+      {
+        "status": 1,
+        "name": "A80 5G",
+        "endDate": "2027-07-15"
+      },
+      {
+        "status": 1,
+        "name": "Reno12 FS 5G",
+        "endDate": "2027-07-13"
+      },
+      {
+        "status": 1,
+        "name": "Reno12 F 5G",
+        "endDate": "2027-07-01"
+      },
+      {
+        "status": 1,
+        "name": "Reno11 F 5G",
+        "endDate": "2027-02-01"
+      },
+      {
+        "status": 1,
+        "name": "A38",
+        "endDate": "2026-10-01"
+      },
+      {
+        "status": 1,
+        "name": "Reno10",
+        "endDate": "2026-07-01"
+      },
+      {
+        "status": 1,
+        "name": "Find X5 Pro",
+        "endDate": "2026-02-01"
+      },
+      {
+        "status": 1,
+        "name": "Find X5",
+        "endDate": "2026-02-01"
+      },
+      {
+        "status": 1,
+        "name": "A78 5G",
+        "endDate": "2026-02-01"
+      },
+      {
+        "status": 1,
+        "name": "Reno8 Pro 5G",
+        "endDate": "2025-08-01"
+      },
+      {
+        "status": 2,
+        "name": "Enco Air4 Pro",
+        "endDate": "2025-06-19"
+      },
+      {
+        "status": 2,
+        "name": "OPPO Watch X",
+        "endDate": "2026-03-04"
+      },
+      {
+        "status": 2,
+        "name": "OPPO Pad Air",
+        "endDate": "2025-06-30"
+      },
+      {
+        "status": 1,
+        "name": "A77 5G",
+        "endDate": "2025-06-01"
+      },
+      {
+        "status": 1,
+        "name": "A57",
+        "endDate": "2025-06-01"
+      },
+      {
+        "status": 1,
+        "name": "A17",
+        "endDate": "2025-05-01"
+      },
+      {
+        "status": 1,
+        "name": "Find X3 Pro",
+        "endDate": "2025-03-01"
+      },
+      {
+        "status": 1,
+        "name": "Find X5 Lite",
+        "endDate": "2025-02-01"
+      },
+      {
+        "status": 1,
+        "name": "Find X3 Lite",
+        "endDate": "2024-06-01"
+      },
+      {
+        "status": 1,
+        "name": "A16s",
+        "endDate": "2024-06-01"
+      },
+      {
+        "status": 1,
+        "name": "Find X3 Neo",
+        "endDate": "2024-03-01"
+      },
+      {
+        "status": 1,
+        "name": "A54 5G",
+        "endDate": "2024-01-01"
+      },
+      {
+        "status": 2,
+        "name": "Enco Air3 Pro",
+        "endDate": "2023-11-07"
+      },
+      {
+        "status": 1,
+        "name": "Reno4 Pro 5G",
+        "endDate": "2023-07-01"
+      },
+      {
+        "status": 1,
+        "name": "Find X2 Lite",
+        "endDate": "2023-03-01"
+      },
+      {
+        "status": 2,
+        "name": "OPPO Watch Free",
+        "endDate": "2023-01-14"
+      },
+      {
+        "status": 2,
+        "name": "Enco X2",
+        "endDate": "2021-12-10"
+      }
+    ]
+  }
+}

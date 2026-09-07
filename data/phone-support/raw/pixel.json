@@ -1,0 +1,778 @@
+{
+  "product": "pixel",
+  "url": "https://endoflife.date/api/v1/products/pixel",
+  "retrievedAt": "2026-08-29",
+  "sha256": "eb9ff480909c6f77fdf5552de92a416341785821696cab6db95c185f87f6e709",
+  "body": {
+    "schema_version": "1.2.1",
+    "generated_at": "2026-08-29T11:58:08+00:00",
+    "last_modified": "2026-08-20T10:12:31+00:00",
+    "result": {
+      "name": "pixel",
+      "aliases": [],
+      "label": "Google Pixel",
+      "category": "device",
+      "tags": [
+        "device",
+        "google",
+        "mobile-phone"
+      ],
+      "versionCommand": "Settings -> About Phone -> Regulatory labels",
+      "identifiers": [],
+      "labels": {
+        "eoas": "Android Updates",
+        "discontinued": "Discontinued",
+        "eol": "Security Updates",
+        "eoes": null
+      },
+      "links": {
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons/icons/google.svg",
+        "html": "https://endoflife.date/pixel",
+        "releasePolicy": "https://support.google.com/nexus/answer/4457705"
+      },
+      "releases": [
+        {
+          "name": "11profold",
+          "codename": null,
+          "label": "Pixel 11 Pro Fold",
+          "releaseDate": "2026-08-20",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": "2033-08-01",
+          "isEol": false,
+          "eolFrom": "2033-08-01",
+          "isDiscontinued": false,
+          "discontinuedFrom": null,
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "17"
+          }
+        },
+        {
+          "name": "11pro",
+          "codename": null,
+          "label": "Pixel 11 Pro",
+          "releaseDate": "2026-08-20",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": "2033-08-01",
+          "isEol": false,
+          "eolFrom": "2033-08-01",
+          "isDiscontinued": false,
+          "discontinuedFrom": null,
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "17"
+          }
+        },
+        {
+          "name": "11proxl",
+          "codename": null,
+          "label": "Pixel 11 Pro XL",
+          "releaseDate": "2026-08-20",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": "2033-08-01",
+          "isEol": false,
+          "eolFrom": "2033-08-01",
+          "isDiscontinued": false,
+          "discontinuedFrom": null,
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "17"
+          }
+        },
+        {
+          "name": "11",
+          "codename": null,
+          "label": "Pixel 11",
+          "releaseDate": "2026-08-20",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": "2033-08-01",
+          "isEol": false,
+          "eolFrom": "2033-08-01",
+          "isDiscontinued": false,
+          "discontinuedFrom": null,
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "17"
+          }
+        },
+        {
+          "name": "10a",
+          "codename": null,
+          "label": "Pixel 10a",
+          "releaseDate": "2026-03-05",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": "2033-03-01",
+          "isEol": false,
+          "eolFrom": "2033-03-01",
+          "isDiscontinued": false,
+          "discontinuedFrom": null,
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "16 - 17"
+          }
+        },
+        {
+          "name": "10profold",
+          "codename": null,
+          "label": "Pixel 10 Pro Fold",
+          "releaseDate": "2025-10-04",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": "2032-10-01",
+          "isEol": false,
+          "eolFrom": "2032-10-01",
+          "isDiscontinued": false,
+          "discontinuedFrom": null,
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "16 - 17"
+          }
+        },
+        {
+          "name": "10pro",
+          "codename": null,
+          "label": "Pixel 10 Pro",
+          "releaseDate": "2025-08-28",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": "2032-08-01",
+          "isEol": false,
+          "eolFrom": "2032-08-01",
+          "isDiscontinued": false,
+          "discontinuedFrom": null,
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "16 - 17"
+          }
+        },
+        {
+          "name": "10proxl",
+          "codename": null,
+          "label": "Pixel 10 Pro XL",
+          "releaseDate": "2025-08-28",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": "2032-08-01",
+          "isEol": false,
+          "eolFrom": "2032-08-01",
+          "isDiscontinued": false,
+          "discontinuedFrom": null,
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "16 - 17"
+          }
+        },
+        {
+          "name": "10",
+          "codename": null,
+          "label": "Pixel 10",
+          "releaseDate": "2025-08-28",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": "2032-08-01",
+          "isEol": false,
+          "eolFrom": "2032-08-01",
+          "isDiscontinued": false,
+          "discontinuedFrom": null,
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "16 - 17"
+          }
+        },
+        {
+          "name": "9a",
+          "codename": null,
+          "label": "Pixel 9a",
+          "releaseDate": "2025-04-10",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": "2032-04-01",
+          "isEol": false,
+          "eolFrom": "2032-04-01",
+          "isDiscontinued": false,
+          "discontinuedFrom": null,
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "15 - 17"
+          }
+        },
+        {
+          "name": "9profold",
+          "codename": null,
+          "label": "Pixel 9 Pro Fold",
+          "releaseDate": "2024-09-04",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": "2031-09-01",
+          "isEol": false,
+          "eolFrom": "2031-09-01",
+          "isDiscontinued": true,
+          "discontinuedFrom": null,
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "14 - 17"
+          }
+        },
+        {
+          "name": "9pro",
+          "codename": null,
+          "label": "Pixel 9 Pro",
+          "releaseDate": "2024-09-04",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": "2031-09-01",
+          "isEol": false,
+          "eolFrom": "2031-09-01",
+          "isDiscontinued": false,
+          "discontinuedFrom": null,
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "14 - 17"
+          }
+        },
+        {
+          "name": "9proxl",
+          "codename": null,
+          "label": "Pixel 9 Pro XL",
+          "releaseDate": "2024-08-22",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": "2031-08-01",
+          "isEol": false,
+          "eolFrom": "2031-08-01",
+          "isDiscontinued": false,
+          "discontinuedFrom": null,
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "14 - 17"
+          }
+        },
+        {
+          "name": "9",
+          "codename": null,
+          "label": "Pixel 9",
+          "releaseDate": "2024-08-22",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": "2031-08-01",
+          "isEol": false,
+          "eolFrom": "2031-08-01",
+          "isDiscontinued": false,
+          "discontinuedFrom": null,
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "14 - 17"
+          }
+        },
+        {
+          "name": "8a",
+          "codename": null,
+          "label": "Pixel 8a",
+          "releaseDate": "2024-05-14",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": "2031-05-01",
+          "isEol": false,
+          "eolFrom": "2031-05-01",
+          "isDiscontinued": true,
+          "discontinuedFrom": null,
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "14 - 17"
+          }
+        },
+        {
+          "name": "8pro",
+          "codename": null,
+          "label": "Pixel 8 Pro",
+          "releaseDate": "2023-10-04",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": "2030-10-01",
+          "isEol": false,
+          "eolFrom": "2030-10-01",
+          "isDiscontinued": true,
+          "discontinuedFrom": null,
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "14 - 17"
+          }
+        },
+        {
+          "name": "8",
+          "codename": null,
+          "label": "Pixel 8",
+          "releaseDate": "2023-10-04",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": "2030-10-01",
+          "isEol": false,
+          "eolFrom": "2030-10-01",
+          "isDiscontinued": true,
+          "discontinuedFrom": null,
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "14 - 17"
+          }
+        },
+        {
+          "name": "fold",
+          "codename": null,
+          "label": "Pixel Fold",
+          "releaseDate": "2023-06-28",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": "2028-06-01",
+          "isEol": false,
+          "eolFrom": "2028-06-01",
+          "isDiscontinued": true,
+          "discontinuedFrom": null,
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "13 - 17"
+          }
+        },
+        {
+          "name": "tablet",
+          "codename": null,
+          "label": "Pixel Tablet",
+          "releaseDate": "2023-06-20",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": "2028-06-01",
+          "isEol": false,
+          "eolFrom": "2028-06-01",
+          "isDiscontinued": false,
+          "discontinuedFrom": null,
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "13 - 17"
+          }
+        },
+        {
+          "name": "7a",
+          "codename": null,
+          "label": "Pixel 7a",
+          "releaseDate": "2023-05-10",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": "2028-05-01",
+          "isEol": false,
+          "eolFrom": "2028-05-01",
+          "isDiscontinued": true,
+          "discontinuedFrom": null,
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "13 - 17"
+          }
+        },
+        {
+          "name": "7pro",
+          "codename": null,
+          "label": "Pixel 7 Pro",
+          "releaseDate": "2022-10-13",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": "2027-10-01",
+          "isEol": false,
+          "eolFrom": "2027-10-01",
+          "isDiscontinued": true,
+          "discontinuedFrom": null,
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "13 - 17"
+          }
+        },
+        {
+          "name": "7",
+          "codename": null,
+          "label": "Pixel 7",
+          "releaseDate": "2022-10-13",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": "2027-10-01",
+          "isEol": false,
+          "eolFrom": "2027-10-01",
+          "isDiscontinued": true,
+          "discontinuedFrom": null,
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "13 - 17"
+          }
+        },
+        {
+          "name": "6a",
+          "codename": null,
+          "label": "Pixel 6a",
+          "releaseDate": "2022-07-28",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": "2027-07-01",
+          "isEol": false,
+          "eolFrom": "2027-07-01",
+          "isDiscontinued": true,
+          "discontinuedFrom": null,
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "12 - 17"
+          }
+        },
+        {
+          "name": "6pro",
+          "codename": null,
+          "label": "Pixel 6 Pro",
+          "releaseDate": "2021-10-28",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": "2026-10-01",
+          "isEol": false,
+          "eolFrom": "2026-10-01",
+          "isDiscontinued": true,
+          "discontinuedFrom": "2022-10-06",
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "12 - 17"
+          }
+        },
+        {
+          "name": "6",
+          "codename": null,
+          "label": "Pixel 6",
+          "releaseDate": "2021-10-28",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": false,
+          "eoasFrom": "2026-10-01",
+          "isEol": false,
+          "eolFrom": "2026-10-01",
+          "isDiscontinued": true,
+          "discontinuedFrom": "2022-10-06",
+          "isMaintained": true,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "12 - 17"
+          }
+        },
+        {
+          "name": "5a",
+          "codename": null,
+          "label": "Pixel 5a",
+          "releaseDate": "2021-08-26",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2024-08-01",
+          "isEol": true,
+          "eolFrom": "2024-08-01",
+          "isDiscontinued": true,
+          "discontinuedFrom": "2022-07-21",
+          "isMaintained": false,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "11 - 14"
+          }
+        },
+        {
+          "name": "4a-5g",
+          "codename": null,
+          "label": "Pixel 4a (5G)",
+          "releaseDate": "2020-11-05",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2023-11-05",
+          "isEol": true,
+          "eolFrom": "2023-11-05",
+          "isDiscontinued": true,
+          "discontinuedFrom": "2021-08-20",
+          "isMaintained": false,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "11 - 14"
+          }
+        },
+        {
+          "name": "5",
+          "codename": null,
+          "label": "Pixel 5",
+          "releaseDate": "2020-10-15",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2023-11-05",
+          "isEol": true,
+          "eolFrom": "2023-11-05",
+          "isDiscontinued": true,
+          "discontinuedFrom": "2021-08-20",
+          "isMaintained": false,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "11 - 14"
+          }
+        },
+        {
+          "name": "4a",
+          "codename": null,
+          "label": "Pixel 4a",
+          "releaseDate": "2020-08-20",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2023-08-05",
+          "isEol": true,
+          "eolFrom": "2023-08-05",
+          "isDiscontinued": true,
+          "discontinuedFrom": "2022-01-31",
+          "isMaintained": false,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "10 - 13"
+          }
+        },
+        {
+          "name": "4xl",
+          "codename": null,
+          "label": "Pixel 4 XL",
+          "releaseDate": "2019-10-24",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2022-10-05",
+          "isEol": true,
+          "eolFrom": "2022-10-05",
+          "isDiscontinued": true,
+          "discontinuedFrom": "2020-08-06",
+          "isMaintained": false,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "10 - 13"
+          }
+        },
+        {
+          "name": "4",
+          "codename": null,
+          "label": "Pixel 4",
+          "releaseDate": "2019-10-24",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2022-10-05",
+          "isEol": true,
+          "eolFrom": "2022-10-05",
+          "isDiscontinued": true,
+          "discontinuedFrom": "2020-08-06",
+          "isMaintained": false,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "10 - 13"
+          }
+        },
+        {
+          "name": "3axl",
+          "codename": null,
+          "label": "Pixel 3a XL",
+          "releaseDate": "2019-05-15",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2022-05-05",
+          "isEol": true,
+          "eolFrom": "2022-05-05",
+          "isDiscontinued": true,
+          "discontinuedFrom": "2020-07-01",
+          "isMaintained": false,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "9 - 12.1"
+          }
+        },
+        {
+          "name": "3a",
+          "codename": null,
+          "label": "Pixel 3a",
+          "releaseDate": "2019-05-15",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2022-05-05",
+          "isEol": true,
+          "eolFrom": "2022-05-05",
+          "isDiscontinued": true,
+          "discontinuedFrom": "2020-07-01",
+          "isMaintained": false,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "9 - 12.1"
+          }
+        },
+        {
+          "name": "3xl",
+          "codename": null,
+          "label": "Pixel 3 XL",
+          "releaseDate": "2018-10-18",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2021-10-05",
+          "isEol": true,
+          "eolFrom": "2021-10-05",
+          "isDiscontinued": true,
+          "discontinuedFrom": "2020-03-31",
+          "isMaintained": false,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "9 - 12"
+          }
+        },
+        {
+          "name": "3",
+          "codename": null,
+          "label": "Pixel 3",
+          "releaseDate": "2018-10-18",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2021-10-05",
+          "isEol": true,
+          "eolFrom": "2021-10-05",
+          "isDiscontinued": true,
+          "discontinuedFrom": "2020-03-31",
+          "isMaintained": false,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "9 - 12"
+          }
+        },
+        {
+          "name": "2xl",
+          "codename": null,
+          "label": "Pixel 2 XL",
+          "releaseDate": "2017-10-17",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2020-10-05",
+          "isEol": true,
+          "eolFrom": "2020-10-05",
+          "isDiscontinued": true,
+          "discontinuedFrom": "2019-04-01",
+          "isMaintained": false,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "8 - 11"
+          }
+        },
+        {
+          "name": "2",
+          "codename": null,
+          "label": "Pixel 2",
+          "releaseDate": "2017-10-17",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2020-10-05",
+          "isEol": true,
+          "eolFrom": "2020-10-05",
+          "isDiscontinued": true,
+          "discontinuedFrom": "2019-04-01",
+          "isMaintained": false,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "8 - 11"
+          }
+        },
+        {
+          "name": "1xl",
+          "codename": null,
+          "label": "Pixel XL",
+          "releaseDate": "2016-10-20",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2019-10-06",
+          "isEol": true,
+          "eolFrom": "2019-10-06",
+          "isDiscontinued": true,
+          "discontinuedFrom": "2018-04-11",
+          "isMaintained": false,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "7.1 - 10"
+          }
+        },
+        {
+          "name": "1",
+          "codename": null,
+          "label": "Pixel",
+          "releaseDate": "2016-10-20",
+          "isLts": false,
+          "ltsFrom": null,
+          "isEoas": true,
+          "eoasFrom": "2019-10-06",
+          "isEol": true,
+          "eolFrom": "2019-10-06",
+          "isDiscontinued": true,
+          "discontinuedFrom": "2018-04-11",
+          "isMaintained": false,
+          "latest": null,
+          "custom": {
+            "supportedAndroidVersions": "7.1 - 10"
+          }
+        }
+      ]
+    }
+  }
+}

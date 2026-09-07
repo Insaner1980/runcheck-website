@@ -1,0 +1,287 @@
+{
+  "sources": [
+    {
+      "id": "honor-magic7-pro-eu-policy",
+      "publisher": "HONOR",
+      "title": "HONOR announces seven years of Android OS and security updates",
+      "url": "https://www.honor.com/global/news/android-os-security-honor/",
+      "checkedAt": "2026-08-30",
+      "retrievedAt": "2026-08-30",
+      "kind": "official"
+    },
+    {
+      "id": "honor-fr-magic7-pro-policy",
+      "publisher": "HONOR France",
+      "title": "HONOR Magic7 Pro",
+      "url": "https://www.honor.com/fr/phones/honor-magic7-pro/buy/",
+      "checkedAt": "2026-08-30",
+      "retrievedAt": "2026-08-30",
+      "kind": "official"
+    },
+    {
+      "id": "honor-fr-400-policy",
+      "publisher": "HONOR France",
+      "title": "HONOR 400",
+      "url": "https://www.honor.com/fr/phones/honor-400/buy/",
+      "checkedAt": "2026-08-30",
+      "retrievedAt": "2026-08-30",
+      "kind": "official"
+    },
+    {
+      "id": "honor-fr-400-lite-policy",
+      "publisher": "HONOR France",
+      "title": "HONOR 400 Lite",
+      "url": "https://www.honor.com/fr/phones/honor-400-lite/buy/",
+      "checkedAt": "2026-08-30",
+      "retrievedAt": "2026-08-30",
+      "kind": "official"
+    },
+    {
+      "id": "honor-de-400-pro-policy",
+      "publisher": "HONOR Germany",
+      "title": "HONOR 400 Pro",
+      "url": "https://www.honor.com/de/phones/honor-400-pro/buy/",
+      "checkedAt": "2026-08-30",
+      "retrievedAt": "2026-08-30",
+      "kind": "official"
+    },
+    {
+      "id": "honor-fr-600-policy",
+      "publisher": "HONOR France",
+      "title": "HONOR 600",
+      "url": "https://www.honor.com/fr/phones/honor-600/buy/",
+      "checkedAt": "2026-08-30",
+      "retrievedAt": "2026-08-30",
+      "kind": "official"
+    },
+    {
+      "id": "honor-fr-600-lite-policy",
+      "publisher": "HONOR France",
+      "title": "HONOR 600 Lite",
+      "url": "https://www.honor.com/fr/phones/honor-600-lite/buy/",
+      "checkedAt": "2026-08-30",
+      "retrievedAt": "2026-08-30",
+      "kind": "official"
+    },
+    {
+      "id": "honor-de-600-pro-policy",
+      "publisher": "HONOR Germany",
+      "title": "HONOR 600 Pro",
+      "url": "https://www.honor.com/de/phones/honor-600-pro/buy/",
+      "checkedAt": "2026-08-30",
+      "retrievedAt": "2026-08-30",
+      "kind": "official"
+    },
+    {
+      "id": "honor-fr-magic8-lite-policy",
+      "publisher": "HONOR France",
+      "title": "HONOR Magic8 Lite",
+      "url": "https://www.honor.com/fr/phones/honor-magic8-lite/buy/",
+      "checkedAt": "2026-08-30",
+      "retrievedAt": "2026-08-30",
+      "kind": "official"
+    },
+    {
+      "id": "honor-fr-magic8-pro-policy",
+      "publisher": "HONOR France",
+      "title": "HONOR Magic8 Pro",
+      "url": "https://www.honor.com/fr/phones/honor-magic8-pro/buy/",
+      "checkedAt": "2026-08-30",
+      "retrievedAt": "2026-08-30",
+      "kind": "official"
+    },
+    {
+      "id": "honor-fr-magic-v5-policy",
+      "publisher": "HONOR France",
+      "title": "HONOR Magic V5",
+      "url": "https://www.honor.com/fr/phones/honor-magic-v5/buy/",
+      "checkedAt": "2026-08-30",
+      "retrievedAt": "2026-08-30",
+      "kind": "official"
+    },
+    {
+      "id": "honor-fr-magic-v6-policy",
+      "publisher": "HONOR France",
+      "title": "HONOR Magic V6",
+      "url": "https://www.honor.com/fr/phones/honor-magic-v6/buy/",
+      "checkedAt": "2026-08-30",
+      "retrievedAt": "2026-08-30",
+      "kind": "official"
+    },
+    {
+      "id": "honor-fr-magic7-lite-policy",
+      "publisher": "HONOR France",
+      "title": "HONOR Magic7 Lite",
+      "url": "https://www.honor.com/fr/phones/honor-magic7-lite/buy/",
+      "checkedAt": "2026-08-30",
+      "retrievedAt": "2026-08-30",
+      "kind": "official"
+    }
+  ],
+  "annotations": [],
+  "honorPolicies": [
+    {
+      "model": "HONOR Magic7 Pro",
+      "state": {
+        "value": "active",
+        "evidenceType": "official-policy",
+        "sourceIds": ["honor-magic7-pro-eu-policy", "honor-fr-magic7-pro-policy"],
+        "checkedAt": "2026-08-30",
+        "note": "HONOR's seven-year policy starts with Magic7 Pro in EU markets. The France product page confirms the model-level commitment."
+      },
+      "commitment": {
+        "activity": "active",
+        "scope": "European Union",
+        "promise": "Seven years of Android OS and security updates are promised for HONOR Magic7 Pro in EU markets.",
+        "minimum": false,
+        "durationYears": 7,
+        "evidenceType": "official-policy",
+        "sourceIds": ["honor-magic7-pro-eu-policy", "honor-fr-magic7-pro-policy"],
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "model": "HONOR 400",
+      "commitment": {
+        "activity": "active",
+        "scope": "France",
+        "promise": "Six years of Android OS and security updates are promised in France.",
+        "minimum": false,
+        "durationYears": 6,
+        "evidenceType": "official-policy",
+        "sourceIds": ["honor-fr-400-policy"],
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "model": "HONOR 400 Lite",
+      "commitment": {
+        "activity": "active",
+        "scope": "France",
+        "promise": "Six years of Android OS and security updates are promised in France.",
+        "minimum": false,
+        "durationYears": 6,
+        "evidenceType": "official-policy",
+        "sourceIds": ["honor-fr-400-lite-policy"],
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "model": "HONOR 400 Pro",
+      "commitment": {
+        "activity": "active",
+        "scope": "Germany",
+        "promise": "Six major Android version updates are promised from May 2025 in Germany.",
+        "minimum": false,
+        "upgradeCount": 6,
+        "evidenceType": "official-policy",
+        "sourceIds": ["honor-de-400-pro-policy"],
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "model": "HONOR 600",
+      "commitment": {
+        "activity": "active",
+        "scope": "France",
+        "promise": "Six years of Android OS and security updates are promised in France.",
+        "minimum": false,
+        "durationYears": 6,
+        "evidenceType": "official-policy",
+        "sourceIds": ["honor-fr-600-policy"],
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "model": "HONOR 600 Lite",
+      "commitment": {
+        "activity": "active",
+        "scope": "France",
+        "promise": "Six years of Android OS and security updates are promised in France.",
+        "minimum": false,
+        "durationYears": 6,
+        "evidenceType": "official-policy",
+        "sourceIds": ["honor-fr-600-lite-policy"],
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "model": "HONOR 600 Pro",
+      "commitment": {
+        "activity": "active",
+        "scope": "Germany",
+        "promise": "Six years of Android OS and security updates are promised in Germany.",
+        "minimum": false,
+        "durationYears": 6,
+        "evidenceType": "official-policy",
+        "sourceIds": ["honor-de-600-pro-policy"],
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "model": "HONOR Magic8 Lite",
+      "commitment": {
+        "activity": "active",
+        "scope": "France",
+        "promise": "Six years of Android OS and security updates are promised in France.",
+        "minimum": false,
+        "durationYears": 6,
+        "evidenceType": "official-policy",
+        "sourceIds": ["honor-fr-magic8-lite-policy"],
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "model": "HONOR Magic8 Pro",
+      "commitment": {
+        "activity": "active",
+        "scope": "France",
+        "promise": "Seven years of Android OS and security updates are promised in France.",
+        "minimum": false,
+        "durationYears": 7,
+        "evidenceType": "official-policy",
+        "sourceIds": ["honor-fr-magic8-pro-policy"],
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "model": "HONOR Magic V5",
+      "commitment": {
+        "activity": "active",
+        "scope": "France",
+        "promise": "Seven years of Android OS and security updates are promised in France.",
+        "minimum": false,
+        "durationYears": 7,
+        "evidenceType": "official-policy",
+        "sourceIds": ["honor-fr-magic-v5-policy"],
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "model": "HONOR Magic V6",
+      "commitment": {
+        "activity": "active",
+        "scope": "France",
+        "promise": "Seven years of Android OS and security updates are promised in France.",
+        "minimum": false,
+        "durationYears": 7,
+        "evidenceType": "official-policy",
+        "sourceIds": ["honor-fr-magic-v6-policy"],
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "model": "HONOR Magic7 Lite",
+      "commitment": {
+        "activity": "active",
+        "scope": "France",
+        "promise": "Six years of Android OS and security updates are promised in France.",
+        "minimum": false,
+        "durationYears": 6,
+        "evidenceType": "official-policy",
+        "sourceIds": ["honor-fr-magic7-lite-policy"],
+        "checkedAt": "2026-08-30"
+      }
+    }
+  ]
+}

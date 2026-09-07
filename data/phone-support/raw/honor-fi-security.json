@@ -1,0 +1,129 @@
+{
+  "catalog": "honor-fi-security",
+  "fetchUrl": "https://www.honor.com/fi/support/bulletin/",
+  "sourceId": "honor-fi-security-updates",
+  "sourceUrl": "https://www.honor.com/fi/support/bulletin/",
+  "retrievedAt": "2026-08-29",
+  "sha256": "f002e9c22645b11f9a56978c5b82df738b7ebbe03809d31b273770ef15504e78",
+  "body": {
+    "count": 29,
+    "records": [
+      {
+        "name": "HONOR Magic V6",
+        "cadence": "monthly"
+      },
+      {
+        "name": "HONOR Magic8 Pro",
+        "cadence": "monthly"
+      },
+      {
+        "name": "HONOR 600 Pro",
+        "cadence": "bimonthly"
+      },
+      {
+        "name": "HONOR 600",
+        "cadence": "bimonthly"
+      },
+      {
+        "name": "HONOR Magic V5",
+        "cadence": "quarterly"
+      },
+      {
+        "name": "HONOR Magic8 Lite",
+        "cadence": "quarterly"
+      },
+      {
+        "name": "HONOR Magic7 Pro",
+        "cadence": "quarterly"
+      },
+      {
+        "name": "HONOR Magic V3",
+        "cadence": "quarterly"
+      },
+      {
+        "name": "HONOR Magic6 Pro",
+        "cadence": "quarterly"
+      },
+      {
+        "name": "HONOR Magic V2",
+        "cadence": "quarterly"
+      },
+      {
+        "name": "HONOR Magic Vs",
+        "cadence": "quarterly"
+      },
+      {
+        "name": "HONOR Magic5 Pro",
+        "cadence": "quarterly"
+      },
+      {
+        "name": "HONOR Magic7 Lite",
+        "cadence": "quarterly"
+      },
+      {
+        "name": "HONOR Magic4 Pro",
+        "cadence": "quarterly"
+      },
+      {
+        "name": "HONOR Magic6 Lite 5G",
+        "cadence": "quarterly"
+      },
+      {
+        "name": "HONOR 400 Pro",
+        "cadence": "quarterly"
+      },
+      {
+        "name": "HONOR 400",
+        "cadence": "quarterly"
+      },
+      {
+        "name": "HONOR 600 Smart 5G",
+        "cadence": "quarterly"
+      },
+      {
+        "name": "HONOR 600 Lite",
+        "cadence": "quarterly"
+      },
+      {
+        "name": "HONOR 400 Smart 5G",
+        "cadence": "quarterly"
+      },
+      {
+        "name": "HONOR 200",
+        "cadence": "quarterly"
+      },
+      {
+        "name": "HONOR 200 Pro",
+        "cadence": "quarterly"
+      },
+      {
+        "name": "HONOR 400 Lite",
+        "cadence": "quarterly"
+      },
+      {
+        "name": "HONOR 200 Smart",
+        "cadence": "quarterly"
+      },
+      {
+        "name": "HONOR 200 Lite",
+        "cadence": "quarterly"
+      },
+      {
+        "name": "HONOR 90 Lite",
+        "cadence": "quarterly"
+      },
+      {
+        "name": "HONOR X5c Plus",
+        "cadence": "quarterly"
+      },
+      {
+        "name": "HONOR X6b",
+        "cadence": "quarterly"
+      },
+      {
+        "name": "HONOR X7b",
+        "cadence": "quarterly"
+      }
+    ]
+  }
+}

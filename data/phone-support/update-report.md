@@ -1,0 +1,503 @@
+# Phone Support Checker data update
+
+Reviewed: 2026-08-30. Mode: applied.
+
+## Coverage
+- Fairphone: 7 phones.
+- Google: 38 phones.
+- HONOR: 29 phones.
+- Motorola: 153 phones.
+- OnePlus: 9 phones.
+- OPPO: 36 phones.
+- POCO: 28 phones.
+- Redmi: 39 phones.
+- Samsung: 410 phones.
+- Sony: 24 phones.
+- Xiaomi: 27 phones.
+
+## Changes
+Added: 0. Removed: 0. Changed: 22.
+
+### Added
+None.
+
+### Removed
+None.
+
+### Changed
+- fairphone-4: os.commitments
+- honor-fi-honor-200: os.commitments
+- honor-fi-honor-200-lite: os.commitments
+- honor-fi-honor-400: os.commitments
+- honor-fi-honor-400-lite: os.commitments
+- honor-fi-honor-400-pro: os.commitments
+- honor-fi-honor-600: os.commitments
+- honor-fi-honor-600-lite: os.commitments
+- honor-fi-honor-600-pro: os.commitments
+- honor-fi-honor-600-smart-5g: os.commitments
+- honor-fi-honor-magic-v5: os.commitments
+- honor-fi-honor-magic-v6: os.commitments
+- honor-fi-honor-magic7-lite: os.commitments
+- honor-fi-honor-magic7-pro: os.state, os.end, os.commitments
+- honor-fi-honor-magic8-lite: os.commitments
+- honor-fi-honor-magic8-pro: os.commitments
+- honor-fi-honor-x5c-plus: os.commitments
+- honor-fi-honor-x6b: os.commitments
+- oneplus-11: os.commitments
+- oneplus-12r: os.commitments
+- oneplus-13: os.commitments
+- oneplus-13r: os.commitments
+
+### Precision changes
+None.
+
+### Android commitment changes
+- fairphone-4 os.commitments: 0 -> 1; scopes none -> Europe
+- honor-fi-honor-200 os.commitments: 0 -> 1; scopes none -> Global
+- honor-fi-honor-200-lite os.commitments: 0 -> 1; scopes none -> Global
+- honor-fi-honor-400 os.commitments: 0 -> 2; scopes none -> Global | France
+- honor-fi-honor-400-lite os.commitments: 0 -> 2; scopes none -> Global | France
+- honor-fi-honor-400-pro os.commitments: 0 -> 2; scopes none -> Global | Germany
+- honor-fi-honor-600 os.commitments: 0 -> 2; scopes none -> Global | France
+- honor-fi-honor-600-lite os.commitments: 0 -> 2; scopes none -> Asia Pacific, Middle East & Africa, Europe | France
+- honor-fi-honor-600-pro os.commitments: 0 -> 2; scopes none -> Global | Germany
+- honor-fi-honor-600-smart-5g os.commitments: 0 -> 1; scopes none -> Asia Pacific, Middle East & Africa, Europe, Eurasia
+- honor-fi-honor-magic-v5 os.commitments: 0 -> 1; scopes none -> France
+- honor-fi-honor-magic-v6 os.commitments: 0 -> 1; scopes none -> France
+- honor-fi-honor-magic7-lite os.commitments: 0 -> 1; scopes none -> France
+- honor-fi-honor-magic7-pro os.commitments: 0 -> 1; scopes none -> European Union
+- honor-fi-honor-magic8-lite os.commitments: 0 -> 2; scopes none -> Europe, Latin America | France
+- honor-fi-honor-magic8-pro os.commitments: 0 -> 1; scopes none -> France
+- honor-fi-honor-x5c-plus os.commitments: 0 -> 1; scopes none -> Global
+- honor-fi-honor-x6b os.commitments: 0 -> 1; scopes none -> Global
+- oneplus-11 os.commitments: 0 -> 1; scopes none -> Finland
+- oneplus-12r os.commitments: 0 -> 1; scopes none -> Finland
+- oneplus-13 os.commitments: 0 -> 1; scopes none -> Global
+- oneplus-13r os.commitments: 0 -> 1; scopes none -> Global
+
+### Blocking risks
+None.
+
+### Source metadata changes
+None.
+
+### Raw source revision changes
+None.
+
+## Excluded records
+- pixel/tablet: Pixel Tablet is a tablet.
+- samsung-mobile/galaxy-view2: Samsung explicitly lists Galaxy View (T670) and Galaxy View 2 (T927) as tablets in its trade-in table at https://www.samsung.com/py/offer/tabs10-launch/, reviewed 2026-08-28. They are outside Android phone scope.
+- samsung-mobile/gear-sport: Samsung Gear is a watch.
+- samsung-mobile/z4: Samsung Z series uses Tizen, not Android.
+- samsung-mobile/gear-s3-classic-lte: Samsung Gear is a watch.
+- samsung-mobile/gear-s3-classic: Samsung Gear is a watch.
+- samsung-mobile/gear-s3-frontier: Samsung Gear is a watch.
+- samsung-mobile/gear-s3-frontier-lte: Samsung Gear is a watch.
+- samsung-mobile/z2: Samsung Z series uses Tizen, not Android.
+- samsung-mobile/galaxy-j-max: Samsung tablet, outside Android phone scope.
+- samsung-mobile/z3-corporate: Samsung Z series uses Tizen, not Android.
+- samsung-mobile/gear-s2-classic-3g: Samsung Gear is a watch.
+- samsung-mobile/galaxy-view: Samsung explicitly lists Galaxy View (T670) and Galaxy View 2 (T927) as tablets in its trade-in table at https://www.samsung.com/py/offer/tabs10-launch/, reviewed 2026-08-28. They are outside Android phone scope.
+- samsung-mobile/z3: Samsung Z series uses Tizen, not Android.
+- samsung-mobile/gear-s2-classic: Samsung Gear is a watch.
+- samsung-mobile/gear-s2: Samsung Gear is a watch.
+- samsung-mobile/gear-s2-3g: Samsung Gear is a watch.
+- samsung-mobile/z1: Samsung Z series uses Tizen, not Android.
+- samsung-mobile/gear-s: Samsung Gear is a watch.
+- samsung-mobile/gear-live: Samsung Gear is a watch.
+- samsung-mobile/gear-2-neo: Samsung Gear is a watch.
+- samsung-mobile/gear-2: Samsung Gear is a watch.
+- samsung-mobile/ativ-se: Samsung ATIV uses Windows, not Android.
+- samsung-mobile/galaxy-s5-octa-core: Duplicate of galaxy-s5: upstream uses the same SM-G900H/XXV source and support dates. The retained Galaxy S5 record is explicitly scoped to that variant.
+- samsung-mobile/galaxy-note-pro-12.2-lte: Samsung tablet, outside Android phone scope.
+- samsung-mobile/galaxy-note-pro-12.2-3g: Samsung tablet, outside Android phone scope.
+- samsung-mobile/galaxy-note-pro-12.2: Samsung tablet, outside Android phone scope.
+- samsung-mobile/galaxy-gear: Samsung Gear is a watch.
+- oneplus/pad3: OnePlus Pad is a tablet.
+- oneplus/pad2: OnePlus Pad is a tablet.
+- oneplus/pad1: OnePlus Pad is a tablet.
+- motorola-mobility/moto-g-pure-2021: Unreconciled duplicate identity: both upstream Moto G Pure entries cite product 11179 at https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11179. The API lists release/security-end pairs 2021-09-01 / 2023-09-01 and 2021-11-01 / 2023-11-01. The official endpoint returned HTTP 200 on 2026-08-28 but its product name and details were empty; neither timeline was verified. Both entries are omitted pending identity and date reconciliation.
+- motorola-mobility/moto-g-pure: Unreconciled duplicate identity: both upstream Moto G Pure entries cite product 11179 at https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11179. The API lists release/security-end pairs 2021-09-01 / 2023-09-01 and 2021-11-01 / 2023-11-01. The official endpoint returned HTTP 200 on 2026-08-28 but its product name and details were empty; neither timeline was verified. Both entries are omitted pending identity and date reconciliation.
+- xiaomi-family/Redmi/REDMI Pad 2 9.7 4G: Tablet, outside Android phone scope.
+- xiaomi-family/Redmi/REDMI Pad 2 9.7: Tablet, outside Android phone scope.
+- xiaomi-family/Xiaomi/Leica Leitzphone powered by Xiaomi: Co-branded model whose consumer-facing brand destination is not established clearly enough for this catalog.
+- xiaomi-family/Redmi/Redmi Pad 2 Pro: Tablet, outside Android phone scope.
+- xiaomi-family/Redmi/Redmi Pad 2 Pro 5G: Tablet, outside Android phone scope.
+- xiaomi-family/POCO/POCO Pad M1: Tablet, outside Android phone scope.
+- xiaomi-family/Redmi/Redmi Pad 2 4G: Tablet, outside Android phone scope.
+- xiaomi-family/Redmi/Redmi Pad 2: Tablet, outside Android phone scope.
+- xiaomi-family/Xiaomi/Xiaomi Pad 7: Tablet, outside Android phone scope.
+- xiaomi-family/Xiaomi/Xiaomi Pad 7 Pro: Tablet, outside Android phone scope.
+- xiaomi-family/Redmi/Redmi Pad SE 8.7 4G: Tablet, outside Android phone scope.
+- xiaomi-family/Redmi/Redmi Pad SE 8.7: Tablet, outside Android phone scope.
+- xiaomi-family/Redmi/Redmi Pad Pro 5G: Tablet, outside Android phone scope.
+- xiaomi-family/Redmi/Redmi 10 5G: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi 10C: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi 10A: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Note 11: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Note 11S: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Xiaomi 12X: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Note 11 Pro 5G: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Note 11 Pro: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Note 11 Pro+ 5G: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Note 11S 5G: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/POCO/POCO M4 Pro 5G: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi 10 2022: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi 11 Ultra: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi 11: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Note 10 Pro: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Note 10: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Note 10S: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/MI 11 lite: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi 11 lite 5G: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi 11i: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Note 10 5G: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi 10 Pro: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi 10: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi 10T Pro: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi 10T: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Note 9S: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Note9 Pro: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi 10 Lite 5G: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Note 9: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi 10T Lite: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi 9: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi 9T: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Note 9T: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi 9A: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi 9AT: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi 9C: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi 9C NFC: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/POCO/POCO C40: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/POCO/POCO X4 Pro 5G: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/POCO/POCO F4: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/POCO/POCO X4 GT: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/POCO/POCO F4 GT: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Pad SE: Tablet, outside Android phone scope.
+- xiaomi-family/Xiaomi/Xiaomi Pad 6: Tablet, outside Android phone scope.
+- xiaomi-family/Redmi/Redmi Pad: Tablet, outside Android phone scope.
+- xiaomi-family/Redmi/Redmi 10: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Note 8 (2021): Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi 10 Lite: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi 8A: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Note 8T: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Note 4: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi 5: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi A2 Lite: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi A1: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi A2: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi 8 Lite: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi Max2: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi MIX 2: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi MIX 2S: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Note 5A: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Y1 Lite: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Note 5A Prime: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Y1: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi 8: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi 8 Pro: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi MAX 3: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi MIX 3: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi MIX 3 5G: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi S2: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Y2: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi 5 Plus: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Note 5: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Note 5 Pro: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Note 6 Pro: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi 9: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi 9 SE: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi 9 Lite: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi Note 10: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi Note 10 Pro: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi Note 10 Lite: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Lite Redmi 7: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Note 7: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Note 7 Pro: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi play: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi A3: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi 9T: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Note 8 Pro: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi K30: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Xiaomi/Mi 6: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi 5A: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi 6A: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi 6: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi 7A: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi Go: Security support ended more than 12 months before the dataset review date.
+- xiaomi-family/Redmi/Redmi 8: Security support ended more than 12 months before the dataset review date.
+- oppo-uk/OPPO Enco Air4: Not a smartphone in the manufacturer's support-period register.
+- oppo-uk/OPPO Pad SE: Not a smartphone in the manufacturer's support-period register.
+- oppo-uk/OPPO Pad 5 5G: Not a smartphone in the manufacturer's support-period register.
+- oppo-uk/OPPO Enco Buds3: Not a smartphone in the manufacturer's support-period register.
+- oppo-uk/OPPO Enco Air5: Not a smartphone in the manufacturer's support-period register.
+- oppo-uk/OPPO Enco Air5s: Not a smartphone in the manufacturer's support-period register.
+- oppo-uk/OPPO Pad 5: Not a smartphone in the manufacturer's support-period register.
+- oppo-uk/OPPO Watch X3: Not a smartphone in the manufacturer's support-period register.
+- oppo-uk/OPPO Enco Clip2: Not a smartphone in the manufacturer's support-period register.
+- oppo-uk/OPPO Enco Air5 Pro: Not a smartphone in the manufacturer's support-period register.
+- oppo-uk/OPPO Watch S: Not a smartphone in the manufacturer's support-period register.
+- oppo-uk/OPPO Enco X3s: Not a smartphone in the manufacturer's support-period register.
+- oppo-uk/OPPO Watch X2 Mini: Not a smartphone in the manufacturer's support-period register.
+- oppo-uk/Enco Buds3 Pro: Not a smartphone in the manufacturer's support-period register.
+- oppo-uk/OPPO Watch X2: Not a smartphone in the manufacturer's support-period register.
+- oppo-uk/Reno8 Pro 5G: Security support ended more than 12 months before the dataset review date.
+- oppo-uk/Enco Air4 Pro: Not a smartphone in the manufacturer's support-period register.
+- oppo-uk/OPPO Watch X: Not a smartphone in the manufacturer's support-period register.
+- oppo-uk/OPPO Pad Air: Not a smartphone in the manufacturer's support-period register.
+- oppo-uk/A77 5G: Security support ended more than 12 months before the dataset review date.
+- oppo-uk/A57: Security support ended more than 12 months before the dataset review date.
+- oppo-uk/A17: Security support ended more than 12 months before the dataset review date.
+- oppo-uk/Find X3 Pro: Security support ended more than 12 months before the dataset review date.
+- oppo-uk/Find X5 Lite: Security support ended more than 12 months before the dataset review date.
+- oppo-uk/Find X3 Lite: Security support ended more than 12 months before the dataset review date.
+- oppo-uk/A16s: Security support ended more than 12 months before the dataset review date.
+- oppo-uk/Find X3 Neo: Security support ended more than 12 months before the dataset review date.
+- oppo-uk/A54 5G: Security support ended more than 12 months before the dataset review date.
+- oppo-uk/Enco Air3 Pro: Not a smartphone in the manufacturer's support-period register.
+- oppo-uk/Reno4 Pro 5G: Security support ended more than 12 months before the dataset review date.
+- oppo-uk/Find X2 Lite: Security support ended more than 12 months before the dataset review date.
+- oppo-uk/OPPO Watch Free: Not a smartphone in the manufacturer's support-period register.
+- oppo-uk/Enco X2: Not a smartphone in the manufacturer's support-period register.
+- honor-aer/HONOR X7c: The model is not on HONOR's current Finland security-update list.
+- honor-aer/HONOR X8c: The model is not on HONOR's current Finland security-update list.
+- honor-aer/HONOR Pad X9a: Tablet, outside Android phone scope.
+- honor-aer/HONOR Pad 10: Tablet, outside Android phone scope.
+- honor-aer/HONOR X6c: The official support entry does not cover Europe.
+- honor-aer/HONOR 400 Smart: The model is not on HONOR's current Finland security-update list.
+- honor-aer/HONOR X7d: The model is not on HONOR's current Finland security-update list.
+- honor-aer/HONOR X5c: The model is not on HONOR's current Finland security-update list.
+- honor-aer/HONOR X8d: The model is not on HONOR's current Finland security-update list.
+- honor-aer/HONOR X6d 5G: The official support entry does not cover Europe.
+- honor-aer/HONOR MagicPad4: Tablet, outside Android phone scope.
+- honor-aer/HONOR 600e: The official support entry does not cover Europe.
+- honor-aer/HONOR X7e: The model is not on HONOR's current Finland security-update list.
+- honor-aer/HONOR X6e: The model is not on HONOR's current Finland security-update list.
+- honor-aer/HONOR Pad 20: Tablet, outside Android phone scope.
+- honor-aer/HONOR Pad 20 Pro: Tablet, outside Android phone scope.
+
+## Alias resolutions
+- google pixel 4a: pixel-4a, pixel-4a-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- pixel 4a: pixel-4a, pixel-4a-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- a07: samsung-mobile-galaxy-a07, samsung-mobile-galaxy-a07-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- galaxy a07: samsung-mobile-galaxy-a07, samsung-mobile-galaxy-a07-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- samsung galaxy a07: samsung-mobile-galaxy-a07, samsung-mobile-galaxy-a07-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- a17: samsung-mobile-galaxy-a17, samsung-mobile-galaxy-a17-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- galaxy a17: samsung-mobile-galaxy-a17, samsung-mobile-galaxy-a17-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- samsung galaxy a17: samsung-mobile-galaxy-a17, samsung-mobile-galaxy-a17-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- a06: samsung-mobile-galaxy-a06, samsung-mobile-galaxy-a06-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- galaxy a06: samsung-mobile-galaxy-a06, samsung-mobile-galaxy-a06-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- samsung galaxy a06: samsung-mobile-galaxy-a06, samsung-mobile-galaxy-a06-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- a16: samsung-mobile-galaxy-a16, samsung-mobile-galaxy-a16-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- galaxy a16: samsung-mobile-galaxy-a16, samsung-mobile-galaxy-a16-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- samsung galaxy a16: samsung-mobile-galaxy-a16, samsung-mobile-galaxy-a16-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- a15: samsung-mobile-galaxy-a15, samsung-mobile-galaxy-a15-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- galaxy a15: samsung-mobile-galaxy-a15, samsung-mobile-galaxy-a15-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- samsung galaxy a15: samsung-mobile-galaxy-a15, samsung-mobile-galaxy-a15-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- galaxy m14: samsung-mobile-galaxy-m14, samsung-mobile-galaxy-m14-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- m14: samsung-mobile-galaxy-m14, samsung-mobile-galaxy-m14-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- samsung galaxy m14: samsung-mobile-galaxy-m14, samsung-mobile-galaxy-m14-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- f14: samsung-mobile-galaxy-f14, samsung-mobile-galaxy-f14-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- galaxy f14: samsung-mobile-galaxy-f14, samsung-mobile-galaxy-f14-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- samsung galaxy f14: samsung-mobile-galaxy-f14, samsung-mobile-galaxy-f14-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- a14: samsung-mobile-galaxy-a14, samsung-mobile-galaxy-a14-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- galaxy a14: samsung-mobile-galaxy-a14, samsung-mobile-galaxy-a14-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- samsung galaxy a14: samsung-mobile-galaxy-a14, samsung-mobile-galaxy-a14-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- a23: samsung-mobile-galaxy-a23, samsung-mobile-galaxy-a23-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- galaxy a23: samsung-mobile-galaxy-a23, samsung-mobile-galaxy-a23-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- samsung galaxy a23: samsung-mobile-galaxy-a23, samsung-mobile-galaxy-a23-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- galaxy m13: samsung-mobile-galaxy-m13, samsung-mobile-galaxy-m13-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- m13: samsung-mobile-galaxy-m13, samsung-mobile-galaxy-m13-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- samsung galaxy m13: samsung-mobile-galaxy-m13, samsung-mobile-galaxy-m13-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- a13: samsung-mobile-galaxy-a13, samsung-mobile-galaxy-a13-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- galaxy a13: samsung-mobile-galaxy-a13, samsung-mobile-galaxy-a13-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- samsung galaxy a13: samsung-mobile-galaxy-a13, samsung-mobile-galaxy-a13-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- galaxy m32: samsung-mobile-galaxy-m32, samsung-mobile-galaxy-m32-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- m32: samsung-mobile-galaxy-m32, samsung-mobile-galaxy-m32-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- samsung galaxy m32: samsung-mobile-galaxy-m32, samsung-mobile-galaxy-m32-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- a22: samsung-mobile-galaxy-a22, samsung-mobile-galaxy-a22-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- galaxy a22: samsung-mobile-galaxy-a22, samsung-mobile-galaxy-a22-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- samsung galaxy a22: samsung-mobile-galaxy-a22, samsung-mobile-galaxy-a22-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- a52: samsung-mobile-galaxy-a52, samsung-mobile-galaxy-a52-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- galaxy a52: samsung-mobile-galaxy-a52, samsung-mobile-galaxy-a52-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- samsung galaxy a52: samsung-mobile-galaxy-a52, samsung-mobile-galaxy-a52-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- a32: samsung-mobile-galaxy-a32, samsung-mobile-galaxy-a32-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- galaxy a32: samsung-mobile-galaxy-a32, samsung-mobile-galaxy-a32-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- samsung galaxy a32: samsung-mobile-galaxy-a32, samsung-mobile-galaxy-a32-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- galaxy note20 ultra: samsung-mobile-galaxy-note20-ultra, samsung-mobile-galaxy-note20-ultra-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- note20 ultra: samsung-mobile-galaxy-note20-ultra, samsung-mobile-galaxy-note20-ultra-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- samsung galaxy note20 ultra: samsung-mobile-galaxy-note20-ultra, samsung-mobile-galaxy-note20-ultra-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- galaxy note20: samsung-mobile-galaxy-note20, samsung-mobile-galaxy-note20-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- note20: samsung-mobile-galaxy-note20, samsung-mobile-galaxy-note20-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- samsung galaxy note20: samsung-mobile-galaxy-note20, samsung-mobile-galaxy-note20-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- galaxy z flip: samsung-mobile-galaxy-z-flip, samsung-mobile-galaxy-z-flip-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- samsung galaxy z flip: samsung-mobile-galaxy-z-flip, samsung-mobile-galaxy-z-flip-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- z flip: samsung-mobile-galaxy-z-flip, samsung-mobile-galaxy-z-flip-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- a51: samsung-mobile-galaxy-a51, samsung-mobile-galaxy-a51-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- galaxy a51: samsung-mobile-galaxy-a51, samsung-mobile-galaxy-a51-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- samsung galaxy a51: samsung-mobile-galaxy-a51, samsung-mobile-galaxy-a51-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- a71: samsung-mobile-galaxy-a71, samsung-mobile-galaxy-a71-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- galaxy a71: samsung-mobile-galaxy-a71, samsung-mobile-galaxy-a71-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- samsung galaxy a71: samsung-mobile-galaxy-a71, samsung-mobile-galaxy-a71-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- galaxy s20 ultra: samsung-mobile-galaxy-s20-ultra, samsung-mobile-galaxy-s20-ultra-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- s20 ultra: samsung-mobile-galaxy-s20-ultra, samsung-mobile-galaxy-s20-ultra-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- samsung galaxy s20 ultra: samsung-mobile-galaxy-s20-ultra, samsung-mobile-galaxy-s20-ultra-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- galaxy s20 plus: samsung-mobile-galaxy-s20+, samsung-mobile-galaxy-s20+-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- s20 plus: samsung-mobile-galaxy-s20+, samsung-mobile-galaxy-s20+-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- samsung galaxy s20 plus: samsung-mobile-galaxy-s20+, samsung-mobile-galaxy-s20+-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- galaxy s20: samsung-mobile-galaxy-s20, samsung-mobile-galaxy-s20-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- s20: samsung-mobile-galaxy-s20, samsung-mobile-galaxy-s20-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- samsung galaxy s20: samsung-mobile-galaxy-s20, samsung-mobile-galaxy-s20-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- fold: samsung-mobile-galaxy-fold, samsung-mobile-galaxy-fold-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- galaxy fold: samsung-mobile-galaxy-fold, samsung-mobile-galaxy-fold-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- samsung galaxy fold: samsung-mobile-galaxy-fold, samsung-mobile-galaxy-fold-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- galaxy note10 plus: samsung-mobile-galaxy-note10+, samsung-mobile-galaxy-note10+-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- note10 plus: samsung-mobile-galaxy-note10+, samsung-mobile-galaxy-note10+-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- samsung galaxy note10 plus: samsung-mobile-galaxy-note10+, samsung-mobile-galaxy-note10+-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- galaxy note10: samsung-mobile-galaxy-note10, samsung-mobile-galaxy-note10-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- note10: samsung-mobile-galaxy-note10, samsung-mobile-galaxy-note10-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- samsung galaxy note10: samsung-mobile-galaxy-note10, samsung-mobile-galaxy-note10-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- galaxy s10: samsung-mobile-galaxy-s10, samsung-mobile-galaxy-s10-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- s10: samsung-mobile-galaxy-s10, samsung-mobile-galaxy-s10-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- samsung galaxy s10: samsung-mobile-galaxy-s10, samsung-mobile-galaxy-s10-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- moto g stylus 2023: motorola-mobility-moto-g-stylus-2023, motorola-mobility-moto-g-stylus-5g-2023. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- motorola g stylus 2023: motorola-mobility-moto-g-stylus-2023, motorola-mobility-moto-g-stylus-5g-2023. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- motorola moto g stylus 2023: motorola-mobility-moto-g-stylus-2023, motorola-mobility-moto-g-stylus-5g-2023. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- moto g stylus 2022: motorola-mobility-moto-g-stylus-2022, motorola-mobility-moto-g-stylus-5g-2022. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- motorola g stylus 2022: motorola-mobility-moto-g-stylus-2022, motorola-mobility-moto-g-stylus-5g-2022. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- motorola moto g stylus 2022: motorola-mobility-moto-g-stylus-2022, motorola-mobility-moto-g-stylus-5g-2022. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- 17: xiaomi-support-redmi-redmi-17, xiaomi-support-redmi-redmi-17-5g, xiaomi-support-xiaomi-xiaomi-17. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- redmi 17: xiaomi-support-redmi-redmi-17, xiaomi-support-redmi-redmi-17-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- xiaomi redmi 17: xiaomi-support-redmi-redmi-17, xiaomi-support-redmi-redmi-17-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- note 15 pro: xiaomi-support-redmi-redmi-note-15-pro, xiaomi-support-redmi-redmi-note-15-pro-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- redmi note 15 pro: xiaomi-support-redmi-redmi-note-15-pro, xiaomi-support-redmi-redmi-note-15-pro-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- xiaomi redmi note 15 pro: xiaomi-support-redmi-redmi-note-15-pro, xiaomi-support-redmi-redmi-note-15-pro-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- note 15: xiaomi-support-redmi-redmi-note-15, xiaomi-support-redmi-redmi-note-15-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- redmi note 15: xiaomi-support-redmi-redmi-note-15, xiaomi-support-redmi-redmi-note-15-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- xiaomi redmi note 15: xiaomi-support-redmi-redmi-note-15, xiaomi-support-redmi-redmi-note-15-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- 15c: xiaomi-support-redmi-redmi-15c, xiaomi-support-redmi-redmi-15c-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- redmi 15c: xiaomi-support-redmi-redmi-15c, xiaomi-support-redmi-redmi-15c-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- xiaomi redmi 15c: xiaomi-support-redmi-redmi-15c, xiaomi-support-redmi-redmi-15c-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- 15: oneplus-15, xiaomi-support-redmi-redmi-15, xiaomi-support-redmi-redmi-15-5g, xiaomi-support-xiaomi-xiaomi-15. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- redmi 15: xiaomi-support-redmi-redmi-15, xiaomi-support-redmi-redmi-15-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- xiaomi redmi 15: xiaomi-support-redmi-redmi-15, xiaomi-support-redmi-redmi-15-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- note 14: xiaomi-support-redmi-redmi-note-14, xiaomi-support-redmi-redmi-note-14-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- redmi note 14: xiaomi-support-redmi-redmi-note-14, xiaomi-support-redmi-redmi-note-14-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- xiaomi redmi note 14: xiaomi-support-redmi-redmi-note-14, xiaomi-support-redmi-redmi-note-14-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- note 14 pro: xiaomi-support-redmi-redmi-note-14-pro, xiaomi-support-redmi-redmi-note-14-pro-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- redmi note 14 pro: xiaomi-support-redmi-redmi-note-14-pro, xiaomi-support-redmi-redmi-note-14-pro-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- xiaomi redmi note 14 pro: xiaomi-support-redmi-redmi-note-14-pro, xiaomi-support-redmi-redmi-note-14-pro-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- note 13: xiaomi-support-redmi-redmi-note-13, xiaomi-support-redmi-redmi-note-13-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- redmi note 13: xiaomi-support-redmi-redmi-note-13, xiaomi-support-redmi-redmi-note-13-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- xiaomi redmi note 13: xiaomi-support-redmi-redmi-note-13, xiaomi-support-redmi-redmi-note-13-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- note 13 pro: xiaomi-support-redmi-redmi-note-13-pro, xiaomi-support-redmi-redmi-note-13-pro-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- redmi note 13 pro: xiaomi-support-redmi-redmi-note-13-pro, xiaomi-support-redmi-redmi-note-13-pro-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- xiaomi redmi note 13 pro: xiaomi-support-redmi-redmi-note-13-pro, xiaomi-support-redmi-redmi-note-13-pro-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- note 12: xiaomi-support-redmi-redmi-note-12, xiaomi-support-redmi-redmi-note-12-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- redmi note 12: xiaomi-support-redmi-redmi-note-12, xiaomi-support-redmi-redmi-note-12-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- xiaomi redmi note 12: xiaomi-support-redmi-redmi-note-12, xiaomi-support-redmi-redmi-note-12-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- note 12 pro: xiaomi-support-redmi-redmi-note-12-pro, xiaomi-support-redmi-redmi-note-12-pro-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- redmi note 12 pro: xiaomi-support-redmi-redmi-note-12-pro, xiaomi-support-redmi-redmi-note-12-pro-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- xiaomi redmi note 12 pro: xiaomi-support-redmi-redmi-note-12-pro, xiaomi-support-redmi-redmi-note-12-pro-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- 12: oneplus-12, xiaomi-support-redmi-redmi-12, xiaomi-support-redmi-redmi-12-5g, xiaomi-support-xiaomi-xiaomi-12. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- redmi 12: xiaomi-support-redmi-redmi-12, xiaomi-support-redmi-redmi-12-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- xiaomi redmi 12: xiaomi-support-redmi-redmi-12, xiaomi-support-redmi-redmi-12-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- a 6x: oppo-uk-oppo-a6x, oppo-uk-oppo-a6x-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- a6x: oppo-uk-oppo-a6x, oppo-uk-oppo-a6x-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- oppo a 6x: oppo-uk-oppo-a6x, oppo-uk-oppo-a6x-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- oppo a6x: oppo-uk-oppo-a6x, oppo-uk-oppo-a6x-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- a 6: oppo-uk-oppo-a6, oppo-uk-oppo-a6-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- a6: oppo-uk-oppo-a6, oppo-uk-oppo-a6-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- oppo a 6: oppo-uk-oppo-a6, oppo-uk-oppo-a6-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- oppo a6: oppo-uk-oppo-a6, oppo-uk-oppo-a6-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- a 5: oppo-uk-oppo-a5, oppo-uk-oppo-a5-5g, xiaomi-support-redmi-redmi-a5. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- a5: oppo-uk-oppo-a5, oppo-uk-oppo-a5-5g, samsung-mobile-galaxy-a5, xiaomi-support-redmi-redmi-a5. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- oppo a 5: oppo-uk-oppo-a5, oppo-uk-oppo-a5-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- oppo a5: oppo-uk-oppo-a5, oppo-uk-oppo-a5-5g. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- a60: oppo-uk-oppo-a60-5g, samsung-mobile-galaxy-a60. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- a80: oppo-uk-oppo-a80-5g, samsung-mobile-galaxy-a80. A 5G-free alias was not added because it would identify a different phone. Original qualifiers are retained.
+- a40: oppo-uk-oppo-a40, samsung-mobile-galaxy-a40. Ambiguous broad alias removed from all matching records; distinct identities retained.
+- a5: oppo-uk-oppo-a5, samsung-mobile-galaxy-a5, xiaomi-support-redmi-redmi-a5. Ambiguous broad alias removed from all matching records; distinct identities retained.
+- a3: samsung-mobile-galaxy-a3, xiaomi-support-redmi-redmi-a3. Ambiguous broad alias removed from all matching records; distinct identities retained.
+- 15: oneplus-15, xiaomi-support-redmi-redmi-15, xiaomi-support-xiaomi-xiaomi-15. Ambiguous broad alias removed from all matching records; distinct identities retained.
+- 13t: oneplus-13t, xiaomi-support-xiaomi-xiaomi-13t. Ambiguous broad alias removed from all matching records; distinct identities retained.
+- 13: oneplus-13, xiaomi-support-xiaomi-xiaomi-13. Ambiguous broad alias removed from all matching records; distinct identities retained.
+- 12: oneplus-12, xiaomi-support-redmi-redmi-12, xiaomi-support-xiaomi-xiaomi-12. Ambiguous broad alias removed from all matching records; distinct identities retained.
+- 17: xiaomi-support-redmi-redmi-17, xiaomi-support-xiaomi-xiaomi-17. Ambiguous broad alias removed from all matching records; distinct identities retained.
+- a 5: oppo-uk-oppo-a5, xiaomi-support-redmi-redmi-a5. Ambiguous broad alias removed from all matching records; distinct identities retained.
+
+## Evidence conflicts
+- fairphone-1: release, resolved. The manufacturer FAQ says first shipments were in early 2014; the secondary dataset lists 2013-12-01. The public record uses the official shipment year without inventing a month or explaining the secondary date as an announcement.
+- fairphone-3: security.end, resolved. The current manufacturer guide reports support ended in August 2026; the secondary dataset still lists 2026-09-30. The official end announcement takes priority.
+- fairphone-3: security.state, resolved. The secondary value (active) differs from the reviewed official value (ended). Current official evidence takes priority; the secondary value remains in the raw snapshot.
+- fairphone-3+: security.end, resolved. The current manufacturer guide reports support ended in August 2026; the secondary dataset still lists 2026-09-30. The official end announcement takes priority.
+- fairphone-3+: security.state, resolved. The secondary value (active) differs from the reviewed official value (ended). Current official evidence takes priority; the secondary value remains in the raw snapshot.
+- fairphone-5: security.end, UNRESOLVED. Fairphone's AER roadmap states August 2031; its consumer legal explainer promises software support through the end of 2031. The secondary dataset supplies 2031-09-14. Only the shared year is shown; the final endpoint remains unresolved.
+- oneplus-11: security.end, resolved. OnePlus's UK table gives 2028-02-01; the secondary dataset gives 2028-02-07. The official date is used with its UK scope, while the secondary fact is retained in the imported source.
+- oneplus-12: security.end, resolved. OnePlus's UK table gives 2029-02-01; the secondary dataset gives 2029-01-23. The official date is used with its UK scope, while the secondary fact is retained in the imported source.
+- oneplus-12r: security.end, resolved. OnePlus's UK table gives 2028-02-01; the secondary dataset gives 2029-01-23. The official date is used with its UK scope, while the secondary fact is retained in the imported source.
+- oneplus-13: security.end, resolved. OnePlus's UK table gives 2031-01-07; the secondary dataset gives 2030-10-31. The official date is used with its UK scope, while the secondary fact is retained in the imported source.
+- pixel-4a-5g: release, resolved. Google's US availability table gives October 2020; the secondary dataset gives 2020-11-05. The public release uses the official month. The secondary fact is retained in the imported source.
+- samsung-mobile-galaxy-s24: release, resolved. The secondary dataset lists 2024-01-24; Samsung's worldwide availability announcement gives 2024-01-31. The official worldwide availability date is used.
+- samsung-mobile-galaxy-s24-ultra: release, resolved. The secondary dataset lists 2024-01-24; Samsung's worldwide availability announcement gives 2024-01-31. The official worldwide availability date is used.
+- samsung-mobile-galaxy-s24+: release, resolved. The secondary dataset lists 2024-01-24; Samsung's worldwide availability announcement gives 2024-01-31. The official worldwide availability date is used.
+- sony-xperia-5-v: security.state, resolved. The secondary value (active) differs from the reviewed official value (ended). Current official evidence takes priority; the secondary value remains in the raw snapshot.
+
+## Source interpretation
+- API v1, schema 1.2.1 at initial review. Upstream still describes the API as beta.
+- The API drops source date precision and individual source links. Raw payloads are retained; official annotations carry separate field provenance.
+- Samsung secondary support dates are year estimates; Motorola dates are month estimates. Sony secondary security dates are month estimates.
+- OnePlus secondary OS dates convert upgrade counts into calendar years and are not published as reliable endpoints.
+- Xiaomi, Redmi and POCO records come from Xiaomi's official product software support registry. OPPO records come from its official UK support-period register.
+- HONOR records come from the current Finland security-update list. The Android Enterprise Recommended list adds minimum support and Android-version context only where its named region includes Europe or is Global.
+- HONOR's at-least dates are minimum commitments, not confirmed endpoints. Android commitments are stored separately from current activity and calendar endpoints and never produce a countdown or a calculated end date.
+- HONOR AER completeness is compared with the last accepted local source coverage. An update is blocked if three or more parsed records, known identities or Finland-list enrichments disappear and less than 60% of that prior coverage remains.
+- Official registry coverage includes supported phones and phones whose security support ended within the previous 12 months. Older history and non-phone products remain outside the public catalog.
+- A boolean without a reliable endpoint does not establish current support. Official current lists can establish an observed active state, never an invented end date.
+- Nokia/HMD is omitted because the available secondary record dates use generic model-family duration estimates, contrary to this feature's evidence requirements.
+- Normal builds and unit tests use committed local files only. This report does not claim that official sources were re-reviewed by the API update.
+
+## Sources
+- eol-fairphone: endoflife.date, Fairphone lifecycle dataset. Checked 2026-08-29. https://endoflife.date/fairphone
+- eol-motorola-mobility: endoflife.date, Motorola lifecycle dataset. Checked 2026-08-29. https://endoflife.date/motorola-mobility
+- eol-oneplus: endoflife.date, OnePlus lifecycle dataset. Checked 2026-08-29. https://endoflife.date/oneplus
+- eol-pixel: endoflife.date, Google Pixel lifecycle dataset. Checked 2026-08-29. https://endoflife.date/pixel
+- eol-samsung-mobile: endoflife.date, Samsung Galaxy lifecycle dataset. Checked 2026-08-29. https://endoflife.date/samsung-mobile
+- eol-sony-xperia: endoflife.date, Sony Xperia lifecycle dataset. Checked 2026-08-29. https://endoflife.date/sony-xperia
+- fairphone-aer: Fairphone, Android Enterprise Recommended. Checked 2026-08-28. https://www.fairphone.com/aer
+- fairphone-software-support: Fairphone, How long will my Fairphone receive software and security updates?. Checked 2026-08-28. https://support.fairphone.com/hc/en-us/articles/9979180437393-How-long-will-my-Fairphone-receive-software-and-security-updates
+- fairphone1-faq: Fairphone, Fairphone 1 - Frequently Asked Questions (FAQ). Checked 2026-08-28. https://support.fairphone.com/hc/en-us/articles/6217522827281-Fairphone-1-Frequently-Asked-Questions-FAQ
+- fairphone5-legal: Fairphone, Fairphone 5 Tagline Explained. Checked 2026-08-28. https://www.fairphone.com/legal/fairphone-5-tagline-explained
+- fairphone5-release-notes: Fairphone, Fairphone 5 Release Notes. Checked 2026-08-28. https://support.fairphone.com/hc/en-us/articles/18682800465169-Fairphone-5-Release-Notes
+- google-pixel-availability: Google, Find when your Pixel device became available. Checked 2026-08-28. https://support.google.com/pixelphone/answer/15738422
+- google-pixel-updates: Google, Learn when you'll get software updates on Google Pixel phones. Checked 2026-08-28. https://support.google.com/pixelphone/answer/4457705?hl=en
+- honor-aer-support: HONOR, Android Enterprise Recommended Device List. Checked 2026-08-29. https://www.honor.com/global/tech/security-update/
+- honor-de-400-pro-policy: HONOR Germany, HONOR 400 Pro. Checked 2026-08-30. https://www.honor.com/de/phones/honor-400-pro/buy/
+- honor-de-600-pro-policy: HONOR Germany, HONOR 600 Pro. Checked 2026-08-30. https://www.honor.com/de/phones/honor-600-pro/buy/
+- honor-fi-security-updates: HONOR Finland, MagicOS/Magic UI security updates. Checked 2026-08-29. https://www.honor.com/fi/support/bulletin/
+- honor-fr-400-lite-policy: HONOR France, HONOR 400 Lite. Checked 2026-08-30. https://www.honor.com/fr/phones/honor-400-lite/buy/
+- honor-fr-400-policy: HONOR France, HONOR 400. Checked 2026-08-30. https://www.honor.com/fr/phones/honor-400/buy/
+- honor-fr-600-lite-policy: HONOR France, HONOR 600 Lite. Checked 2026-08-30. https://www.honor.com/fr/phones/honor-600-lite/buy/
+- honor-fr-600-policy: HONOR France, HONOR 600. Checked 2026-08-30. https://www.honor.com/fr/phones/honor-600/buy/
+- honor-fr-magic-v5-policy: HONOR France, HONOR Magic V5. Checked 2026-08-30. https://www.honor.com/fr/phones/honor-magic-v5/buy/
+- honor-fr-magic-v6-policy: HONOR France, HONOR Magic V6. Checked 2026-08-30. https://www.honor.com/fr/phones/honor-magic-v6/buy/
+- honor-fr-magic7-lite-policy: HONOR France, HONOR Magic7 Lite. Checked 2026-08-30. https://www.honor.com/fr/phones/honor-magic7-lite/buy/
+- honor-fr-magic7-pro-policy: HONOR France, HONOR Magic7 Pro. Checked 2026-08-30. https://www.honor.com/fr/phones/honor-magic7-pro/buy/
+- honor-fr-magic8-lite-policy: HONOR France, HONOR Magic8 Lite. Checked 2026-08-30. https://www.honor.com/fr/phones/honor-magic8-lite/buy/
+- honor-fr-magic8-pro-policy: HONOR France, HONOR Magic8 Pro. Checked 2026-08-30. https://www.honor.com/fr/phones/honor-magic8-pro/buy/
+- honor-magic7-pro-eu-policy: HONOR, HONOR announces seven years of Android OS and security updates. Checked 2026-08-30. https://www.honor.com/global/news/android-os-security-honor/
+- motorola-razr-50-ultra-security: Motorola Mobility, Security Updates: motorola razr 50 ultra. Checked 2026-08-28. https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12039
+- motorola-razr-60-security: Motorola Mobility, Security Updates: motorola razr 60. Checked 2026-08-28. https://en-gb.support.motorola.com/app/software-security-update/g_id/7112/productid/12220
+- motorola-razr-60-ultra-security: Motorola Mobility, Security Updates: motorola razr 60 ultra. Checked 2026-08-28. https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12209
+- oneplus-11-fi-software: OnePlus Finland, OnePlus 11 5G specifications. Checked 2026-08-30. https://www.oneplus.com/fi/11/specs
+- oneplus-12r-fi-software: OnePlus Finland, OnePlus 12R specifications. Checked 2026-08-30. https://www.oneplus.com/fi/12r/specs
+- oneplus-13-series-software: OnePlus, OnePlus 13 series software support commitment. Checked 2026-08-30. https://community.oneplus.com/thread/1809905145622822918
+- oneplus-uk-psti: OnePlus, Product Security Update Period. Checked 2026-08-28. https://www.oneplus.com/uk/psti
+- oppo-uk-support-period: OPPO, Product Security Update Period. Checked 2026-08-29. https://www.oppo.com/uk/psti/
+- samsung-a26-ie-security: Samsung Electronics, Samsung Galaxy A26 5G: Ireland Features and Specifications. Checked 2026-08-28. https://www.samsung.com/ie/smartphones/galaxy-a/galaxy-a26-5g-mint-256gb-sm-a266blgceub/
+- samsung-s24-availability: Samsung Electronics, Samsung Galaxy S24 Series Is Now Available Worldwide. Checked 2026-08-28. https://news.samsung.com/global/samsung-galaxy-s24-series-is-now-available-worldwide
+- samsung-s24-uk-security: Samsung Electronics, Samsung Galaxy S24 for Business: UK Specifications. Checked 2026-08-28. https://www.samsung.com/uk/business/smartphones/galaxy-s/galaxy-s24-onyx-black-128gb-sm-s921bzkdeub/
+- samsung-security-scope: Samsung Electronics, Samsung Mobile Security: Security Updates Scope. Checked 2026-08-28. https://security.samsungmobile.com/workScope.smsb
+- sony-android-overview: Sony Europe, What Android version does my Xperia phone have?. Checked 2026-08-28. https://www.sony.co.uk/electronics/support/articles/SX243901
+- sony-security-periods: Sony Europe, How long will my Sony product receive security updates?. Checked 2026-08-28. https://www.sony.co.uk/electronics/support/articles/00304000
+- xiaomi-software-support: Xiaomi, Product Software Support Information. Checked 2026-08-29. https://trust.mi.com/misrc/updates/detail?tab=phone

@@ -1,0 +1,435 @@
+{
+  "catalog": "honor-aer",
+  "fetchUrl": "https://www.honor.com/global/tech/security-update/",
+  "sourceId": "honor-aer-support",
+  "sourceUrl": "https://www.honor.com/global/tech/security-update/",
+  "retrievedAt": "2026-08-29",
+  "sha256": "4da441abf453d5560ca99fab92bbfc0ea1f3c16d4490c2c8bf9e3272c37f4514",
+  "body": {
+    "count": 28,
+    "records": [
+      {
+        "name": "HONOR 200",
+        "securityMinimum": "2027-06",
+        "securityRegions": [
+          "Global"
+        ],
+        "shippedVersion": "14",
+        "futureVersions": [
+          "15",
+          "16"
+        ],
+        "osRegions": [
+          "Global"
+        ]
+      },
+      {
+        "name": "HONOR 200 Lite",
+        "securityMinimum": "2026-05",
+        "securityRegions": [
+          "Global"
+        ],
+        "shippedVersion": "14",
+        "futureVersions": [
+          "15",
+          "16"
+        ],
+        "osRegions": [
+          "Global"
+        ]
+      },
+      {
+        "name": "HONOR X6b",
+        "securityMinimum": "2026-05",
+        "securityRegions": [
+          "Global"
+        ],
+        "shippedVersion": "14",
+        "futureVersions": [
+          "16"
+        ],
+        "osRegions": [
+          "Global"
+        ]
+      },
+      {
+        "name": "HONOR X7c",
+        "securityMinimum": "2026-10",
+        "securityRegions": [
+          "Global"
+        ],
+        "shippedVersion": "14",
+        "futureVersions": [
+          "16"
+        ],
+        "osRegions": [
+          "Global"
+        ]
+      },
+      {
+        "name": "HONOR X8c",
+        "securityMinimum": "2027-01",
+        "securityRegions": [
+          "Global"
+        ],
+        "shippedVersion": "15",
+        "futureVersions": [
+          "16"
+        ],
+        "osRegions": [
+          "Global"
+        ]
+      },
+      {
+        "name": "HONOR 400 Lite",
+        "securityMinimum": "2027-04",
+        "securityRegions": [
+          "Global"
+        ],
+        "shippedVersion": "15",
+        "futureVersions": [
+          "16"
+        ],
+        "osRegions": [
+          "Global"
+        ]
+      },
+      {
+        "name": "HONOR Pad X9a",
+        "securityMinimum": "2027-04",
+        "securityRegions": [
+          "Global"
+        ],
+        "shippedVersion": "15",
+        "futureVersions": [
+          "17"
+        ],
+        "osRegions": [
+          "Global"
+        ]
+      },
+      {
+        "name": "HONOR 400",
+        "securityMinimum": "2028-06",
+        "securityRegions": [
+          "Global"
+        ],
+        "shippedVersion": "15",
+        "futureVersions": [
+          "16",
+          "17"
+        ],
+        "osRegions": [
+          "Global"
+        ]
+      },
+      {
+        "name": "HONOR 400 pro",
+        "securityMinimum": "2028-06",
+        "securityRegions": [
+          "Global"
+        ],
+        "shippedVersion": "15",
+        "futureVersions": [
+          "16",
+          "17"
+        ],
+        "osRegions": [
+          "Global"
+        ]
+      },
+      {
+        "name": "HONOR Pad 10",
+        "securityMinimum": "2027-06",
+        "securityRegions": [
+          "Global"
+        ],
+        "shippedVersion": "15",
+        "futureVersions": [
+          "17"
+        ],
+        "osRegions": [
+          "Global"
+        ]
+      },
+      {
+        "name": "HONOR X6c",
+        "securityMinimum": "2027-06",
+        "securityRegions": [
+          "Latin America"
+        ],
+        "shippedVersion": "15",
+        "futureVersions": [
+          "18"
+        ],
+        "osRegions": [
+          "Latin America"
+        ]
+      },
+      {
+        "name": "HONOR 400 Smart",
+        "securityMinimum": "2027-08",
+        "securityRegions": [
+          "Global"
+        ],
+        "shippedVersion": "15",
+        "futureVersions": [
+          "18"
+        ],
+        "osRegions": [
+          "Global"
+        ]
+      },
+      {
+        "name": "HONOR X7d",
+        "securityMinimum": "2027-09",
+        "securityRegions": [
+          "Global"
+        ],
+        "shippedVersion": "15",
+        "futureVersions": [
+          "17"
+        ],
+        "osRegions": [
+          "Global"
+        ]
+      },
+      {
+        "name": "HONOR X5c",
+        "securityMinimum": "2027-09",
+        "securityRegions": [
+          "Global"
+        ],
+        "shippedVersion": "15",
+        "futureVersions": [
+          "17"
+        ],
+        "osRegions": [
+          "Global"
+        ]
+      },
+      {
+        "name": "HONOR X5c Plus",
+        "securityMinimum": "2027-09",
+        "securityRegions": [
+          "Global"
+        ],
+        "shippedVersion": "15",
+        "futureVersions": [
+          "17"
+        ],
+        "osRegions": [
+          "Global"
+        ]
+      },
+      {
+        "name": "HONOR Magic8 Lite",
+        "securityMinimum": "2028-01",
+        "securityRegions": [
+          "Europe",
+          "Latin America"
+        ],
+        "shippedVersion": "15",
+        "futureVersions": [
+          "18"
+        ],
+        "osRegions": [
+          "Europe",
+          "Latin America"
+        ]
+      },
+      {
+        "name": "HONOR X8d",
+        "securityMinimum": "2028-01",
+        "securityRegions": [
+          "Global"
+        ],
+        "shippedVersion": "16",
+        "futureVersions": [
+          "17"
+        ],
+        "osRegions": [
+          "Global"
+        ]
+      },
+      {
+        "name": "HONOR X6d 5G",
+        "securityMinimum": "2028-02",
+        "securityRegions": [
+          "Asia Pacific",
+          "Middle East & Africa",
+          "Latin America"
+        ],
+        "shippedVersion": "16",
+        "futureVersions": [
+          "18"
+        ],
+        "osRegions": [
+          "Asia Pacific",
+          "Middle East & Africa",
+          "Latin America"
+        ]
+      },
+      {
+        "name": "HONOR 600 lite",
+        "securityMinimum": "2028-03",
+        "securityRegions": [
+          "Asia Pacific",
+          "Middle East & Africa",
+          "Europe"
+        ],
+        "shippedVersion": "16",
+        "futureVersions": [
+          "18"
+        ],
+        "osRegions": [
+          "Asia Pacific",
+          "Middle East & Africa",
+          "Europe"
+        ]
+      },
+      {
+        "name": "HONOR MagicPad4",
+        "securityMinimum": "2028-03",
+        "securityRegions": [
+          "Asia Pacific",
+          "Middle East & Africa",
+          "Europe"
+        ],
+        "shippedVersion": "16",
+        "futureVersions": [
+          "18"
+        ],
+        "osRegions": [
+          "Asia Pacific",
+          "Middle East & Africa",
+          "Europe"
+        ]
+      },
+      {
+        "name": "HONOR 600",
+        "securityMinimum": "2028-04",
+        "securityRegions": [
+          "Global"
+        ],
+        "shippedVersion": "16",
+        "futureVersions": [
+          "18"
+        ],
+        "osRegions": [
+          "Global"
+        ]
+      },
+      {
+        "name": "HONOR 600 Pro",
+        "securityMinimum": "2028-04",
+        "securityRegions": [
+          "Global"
+        ],
+        "shippedVersion": "16",
+        "futureVersions": [
+          "18"
+        ],
+        "osRegions": [
+          "Global"
+        ]
+      },
+      {
+        "name": "HONOR 600e",
+        "securityMinimum": "2028-05",
+        "securityRegions": [
+          "Latin America"
+        ],
+        "shippedVersion": "16",
+        "futureVersions": [
+          "18"
+        ],
+        "osRegions": [
+          "Latin America"
+        ]
+      },
+      {
+        "name": "HONOR X7e",
+        "securityMinimum": "2028-06",
+        "securityRegions": [
+          "Global"
+        ],
+        "shippedVersion": "16",
+        "futureVersions": [
+          "18"
+        ],
+        "osRegions": [
+          "Global"
+        ]
+      },
+      {
+        "name": "HONOR X6e",
+        "securityMinimum": "2028-07",
+        "securityRegions": [
+          "Global"
+        ],
+        "shippedVersion": "16",
+        "futureVersions": [
+          "18"
+        ],
+        "osRegions": [
+          "Global"
+        ]
+      },
+      {
+        "name": "HONOR 600 Smart 5G",
+        "securityMinimum": "2028-07",
+        "securityRegions": [
+          "Asia Pacific",
+          "Middle East & Africa",
+          "Europe",
+          "Eurasia"
+        ],
+        "shippedVersion": "16",
+        "futureVersions": [
+          "18"
+        ],
+        "osRegions": [
+          "Asia Pacific",
+          "Middle East & Africa",
+          "Europe",
+          "Eurasia"
+        ]
+      },
+      {
+        "name": "HONOR Pad 20",
+        "securityMinimum": "2029-08",
+        "securityRegions": [
+          "Global"
+        ],
+        "shippedVersion": "16",
+        "futureVersions": [
+          "18"
+        ],
+        "osRegions": [
+          "Global"
+        ]
+      },
+      {
+        "name": "HONOR Pad 20 Pro",
+        "securityMinimum": "2031-08",
+        "securityRegions": [
+          "Asia Pacific",
+          "Middle East & Africa",
+          "Europe",
+          "Eurasia"
+        ],
+        "shippedVersion": "16",
+        "futureVersions": [
+          "18"
+        ],
+        "osRegions": [
+          "Asia Pacific",
+          "Middle East & Africa",
+          "Europe",
+          "Eurasia"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+---
+interface Props {
+  name: "main" | "compare";
+  label: string;
+  placeholder: string;
+}
+
+const { name, label, placeholder } = Astro.props;
+const inputId = `ps-${name}-input`;
+const listId = `ps-${name}-options`;
+const helpId = `ps-${name}-help`;
+const statusId = `ps-${name}-status`;
+---
+
+<div class="ps-search" data-ps-search={name}>
+  <label class="ps-search-label" for={inputId}>{label}</label>
+  <p id={helpId} class="ps-sr-only">
+    Type a model name. Use the Up and Down arrow keys to explore matches, Enter
+    to select, and Escape to close suggestions.
+  </p>
+  <p
+    id={statusId}
+    class="ps-search-status"
+    role="status"
+    aria-live="polite"
+    aria-atomic="true"
+    data-ps-search-status
+  >
+  </p>
+  <div class="ps-search-control">
+    <svg class="ps-search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+      <circle cx="10.5" cy="10.5" r="6.5" />
+      <path d="m16 16 4.5 4.5" />
+    </svg>
+    <input
+      id={inputId}
+      class="ps-search-input"
+      type="text"
+      role="combobox"
+      aria-autocomplete="list"
+      aria-haspopup="listbox"
+      aria-expanded="false"
+      aria-controls={listId}
+      aria-describedby={`${helpId} ${statusId}`}
+      autocomplete="off"
+      autocapitalize="off"
+      spellcheck={false}
+      maxlength="160"
+      {placeholder}
+      data-ps-input
+    />
+    <ul
+      id={listId}
+      class="ps-options"
+      role="listbox"
+      aria-label="Matching phone models"
+      data-ps-options
+      hidden
+    >
+    </ul>
+  </div>
+  <button type="button" class="ps-text-link" data-ps-retry hidden>
+    Try loading the data again
+  </button>
+</div>

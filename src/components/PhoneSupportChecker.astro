@@ -1,0 +1,81 @@
+---
+import PhoneSupportSearch from "./PhoneSupportSearch.astro";
+---
+
+<div class="ps-checker" data-phone-support>
+  <div class="ps-notice" data-ps-notice hidden>
+    <p role="status" aria-live="polite" aria-atomic="true" data-ps-notice-text>
+    </p>
+    <button type="button" class="ps-text-link" data-ps-notice-retry hidden>
+      Try again
+    </button>
+  </div>
+
+  <PhoneSupportSearch
+    name="main"
+    label="Search for your phone"
+    placeholder="e.g. Pixel 9 or Galaxy S22"
+  />
+  <p class="ps-local-note">
+    Not sure of the model? Look in Settings &gt; About phone.
+  </p>
+
+  <section
+    class="ps-result"
+    aria-labelledby="ps-result-heading"
+    data-ps-result
+    hidden
+  >
+  </section>
+
+  <div class="ps-actions" data-ps-actions hidden>
+    <button
+      type="button"
+      class="ps-button"
+      aria-expanded="false"
+      aria-controls="ps-compare-search"
+      data-ps-compare-toggle
+    >
+      Compare with another phone
+    </button>
+    <button type="button" class="ps-text-link" data-ps-clear>
+      Change phone
+    </button>
+  </div>
+
+  <div id="ps-compare-search" class="ps-compare-search" data-ps-compare-search hidden>
+    <PhoneSupportSearch
+      name="compare"
+      label="Choose a second phone"
+      placeholder="Search for another model"
+    />
+    <button type="button" class="ps-text-link" data-ps-compare-close>
+      Close comparison search
+    </button>
+  </div>
+
+  <section
+    class="ps-comparison"
+    aria-labelledby="ps-comparison-heading"
+    data-ps-comparison
+    hidden
+  >
+  </section>
+
+  <div class="ps-result-details" data-ps-details hidden></div>
+
+  <p class="ps-sr-only" aria-live="polite" aria-atomic="true" data-ps-announcement>
+  </p>
+
+  <noscript>
+    <p class="ps-notice">
+      Search and comparison need JavaScript. The brand tables below provide
+      support information without JavaScript.
+    </p>
+  </noscript>
+
+</div>
+
+<script>
+  import "../scripts/phone-support";
+</script>

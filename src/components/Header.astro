@@ -17,6 +17,7 @@ const menuLabels = { open: copy.menu[0], close: copy.menu[1] };
 const navLinks = [
   { href: "/#features", label: copy.nav[0] },
   { href: copy.root, label: copy.nav[1] },
+  ...(locale === "en" ? [{ href: "/phone-support/", label: "Phone support" }] : []),
 ];
 ---
 

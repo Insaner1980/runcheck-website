@@ -1,0 +1,3633 @@
+{
+  "sources": [
+    {
+      "id": "samsung-security-scope",
+      "publisher": "Samsung Electronics",
+      "title": "Samsung Mobile Security: Security Updates Scope",
+      "url": "https://security.samsungmobile.com/workScope.smsb",
+      "checkedAt": "2026-08-28",
+      "retrievedAt": "2026-08-28",
+      "kind": "official"
+    },
+    {
+      "id": "samsung-s24-availability",
+      "publisher": "Samsung Electronics",
+      "title": "Samsung Galaxy S24 Series Is Now Available Worldwide",
+      "url": "https://news.samsung.com/global/samsung-galaxy-s24-series-is-now-available-worldwide",
+      "checkedAt": "2026-08-28",
+      "retrievedAt": "2026-08-28",
+      "kind": "official"
+    },
+    {
+      "id": "samsung-s24-uk-security",
+      "publisher": "Samsung Electronics",
+      "title": "Samsung Galaxy S24 for Business: UK Specifications",
+      "url": "https://www.samsung.com/uk/business/smartphones/galaxy-s/galaxy-s24-onyx-black-128gb-sm-s921bzkdeub/",
+      "checkedAt": "2026-08-28",
+      "retrievedAt": "2026-08-28",
+      "kind": "official"
+    },
+    {
+      "id": "samsung-a26-ie-security",
+      "publisher": "Samsung Electronics",
+      "title": "Samsung Galaxy A26 5G: Ireland Features and Specifications",
+      "url": "https://www.samsung.com/ie/smartphones/galaxy-a/galaxy-a26-5g-mint-256gb-sm-a266blgceub/",
+      "checkedAt": "2026-08-28",
+      "retrievedAt": "2026-08-28",
+      "kind": "official"
+    },
+    {
+      "id": "sony-security-periods",
+      "publisher": "Sony Europe",
+      "title": "How long will my Sony product receive security updates?",
+      "url": "https://www.sony.co.uk/electronics/support/articles/00304000",
+      "checkedAt": "2026-08-28",
+      "retrievedAt": "2026-08-28",
+      "kind": "official",
+      "allowRestricted": true
+    },
+    {
+      "id": "sony-android-overview",
+      "publisher": "Sony Europe",
+      "title": "What Android version does my Xperia phone have?",
+      "url": "https://www.sony.co.uk/electronics/support/articles/SX243901",
+      "checkedAt": "2026-08-28",
+      "retrievedAt": "2026-08-28",
+      "kind": "official",
+      "allowRestricted": true
+    },
+    {
+      "id": "motorola-razr-50-ultra-security",
+      "publisher": "Motorola Mobility",
+      "title": "Security Updates: motorola razr 50 ultra",
+      "url": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12039",
+      "checkedAt": "2026-08-28",
+      "retrievedAt": "2026-08-28",
+      "kind": "official"
+    },
+    {
+      "id": "motorola-razr-60-ultra-security",
+      "publisher": "Motorola Mobility",
+      "title": "Security Updates: motorola razr 60 ultra",
+      "url": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/12209",
+      "checkedAt": "2026-08-28",
+      "retrievedAt": "2026-08-28",
+      "kind": "official"
+    },
+    {
+      "id": "motorola-razr-60-security",
+      "publisher": "Motorola Mobility",
+      "title": "Security Updates: motorola razr 60",
+      "url": "https://en-gb.support.motorola.com/app/software-security-update/g_id/7112/productid/12220",
+      "checkedAt": "2026-08-28",
+      "retrievedAt": "2026-08-28",
+      "kind": "official"
+    }
+  ],
+  "annotations": [
+    {
+      "product": "motorola-mobility",
+      "cycle": "motorola-razr-50-ultra",
+      "release": {
+        "value": "2024-06",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "motorola-razr-50-ultra-security"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Manufacturer-reported launch month for the named model."
+      },
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "motorola-razr-50-ultra-security"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Motorola lists Android 16 as the next OS version. This source does not publish a final Android support date."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "motorola-razr-50-ultra-security"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2028-06",
+          "precision": "month",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "motorola-razr-50-ultra-security"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Motorola publishes a planned security support end month, not an exact day."
+        }
+      },
+      "cadence": {
+        "value": "regular",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "motorola-razr-50-ultra-security"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Motorola describes the named model as currently receiving regular security updates."
+      },
+      "caveats": [
+        "This is Motorola's US support page for the named model. Regional product names are not treated as interchangeable.",
+        "Motorola describes these dates as current plans that may change. Launch dates, update schedules and support cycles may differ by carrier, region and sales channel."
+      ]
+    },
+    {
+      "product": "motorola-mobility",
+      "cycle": "motorola-razr-60",
+      "release": {
+        "value": "2025-03",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "motorola-razr-60-security"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Manufacturer-reported launch month for the named model."
+      },
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "motorola-razr-60-security"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Motorola lists Android 16 as the next OS version. This source does not publish a final Android support date."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "motorola-razr-60-security"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2029-06",
+          "precision": "month",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "motorola-razr-60-security"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Motorola publishes a planned security support end month, not an exact day."
+        }
+      },
+      "cadence": {
+        "value": "regular",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "motorola-razr-60-security"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Motorola describes the named model as currently receiving regular security updates."
+      },
+      "caveats": [
+        "This is Motorola's UK support page for the named model. Regional product names are not treated as interchangeable.",
+        "Motorola describes these dates as current plans that may change. Launch dates, update schedules and support cycles may differ by carrier, region and sales channel."
+      ]
+    },
+    {
+      "product": "motorola-mobility",
+      "cycle": "motorola-razr-60-ultra",
+      "release": {
+        "value": "2025-02",
+        "precision": "month",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "motorola-razr-60-ultra-security"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Manufacturer-reported launch month for the named model."
+      },
+      "os": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-policy",
+          "sourceIds": [
+            "motorola-razr-60-ultra-security"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Motorola lists Android 17 as the next OS version. This source does not publish a final Android support date."
+        }
+      },
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "motorola-razr-60-ultra-security"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2029-02",
+          "precision": "month",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "motorola-razr-60-ultra-security"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Motorola publishes a planned security support end month, not an exact day."
+        }
+      },
+      "cadence": {
+        "value": "regular",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "motorola-razr-60-ultra-security"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Motorola describes the named model as currently receiving regular security updates."
+      },
+      "caveats": [
+        "This is Motorola's US support page for the named model. Regional product names are not treated as interchangeable.",
+        "Motorola describes these dates as current plans that may change. Launch dates, update schedules and support cycles may differ by carrier, region and sales channel."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-a04",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-a04e",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-a04s",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-a05",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-a05s",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-a06",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-a06-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-a07",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-a07-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-a14",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-a14-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-a15",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-a15-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-a16",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-a16-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-a17",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-a17-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-a23-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-a24",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-a25-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-a26-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2031-03-31",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "samsung-a26-ie-security"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Published security update period for Ireland model SM-A266BLGCEUB."
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list.",
+        "The exact security support date is published for Ireland model SM-A266BLGCEUB. Other regional or carrier variants may differ."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-a33-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-a34-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-a35-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-a36-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-a37-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-a73-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-c55-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-f04",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-f05",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-f06-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-f07",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-f14",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-f14-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-f15-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-f16-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-f17-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-f34-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-f36-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-f54-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-f55-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-f56-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-f70e-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-m04",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-m05",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-m06-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-m07",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-m14",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-m14-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-m15-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-m16-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-m17-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-m17e-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-m34-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-m35-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-m36-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-m44-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-m54-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-m55-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-m55s-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-m56-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-s21-fe-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-s22",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-s22-ultra",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-s22+",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-s23",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-s23-fe",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-s23-ultra",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-s23+",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-s24",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2031-01-31",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "samsung-s24-uk-security"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Published security update period for UK model SM-S921BZKDEUB."
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list.",
+        "The release date is Samsung's worldwide availability date; regional availability can differ.",
+        "The exact security support date is published for UK model SM-S921BZKDEUB. Other regional or carrier variants may differ."
+      ],
+      "release": {
+        "value": "2024-01-31",
+        "precision": "day",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "samsung-s24-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Worldwide availability date announced by Samsung."
+      },
+      "conflicts": [
+        {
+          "field": "release",
+          "message": "The secondary dataset lists 2024-01-24; Samsung's worldwide availability announcement gives 2024-01-31. The official worldwide availability date is used.",
+          "sourceIds": [
+            "eol-samsung-mobile",
+            "samsung-s24-availability"
+          ],
+          "resolved": true
+        }
+      ],
+      "reviewedRawValues": {
+        "release": "2024-01-24"
+      }
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-s24-fe",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-s24-ultra",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list.",
+        "The release date is Samsung's worldwide availability date; regional availability can differ."
+      ],
+      "release": {
+        "value": "2024-01-31",
+        "precision": "day",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "samsung-s24-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Worldwide availability date announced by Samsung."
+      },
+      "conflicts": [
+        {
+          "field": "release",
+          "message": "The secondary dataset lists 2024-01-24; Samsung's worldwide availability announcement gives 2024-01-31. The official worldwide availability date is used.",
+          "sourceIds": [
+            "eol-samsung-mobile",
+            "samsung-s24-availability"
+          ],
+          "resolved": true
+        }
+      ],
+      "reviewedRawValues": {
+        "release": "2024-01-24"
+      }
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-s24+",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list.",
+        "The release date is Samsung's worldwide availability date; regional availability can differ."
+      ],
+      "release": {
+        "value": "2024-01-31",
+        "precision": "day",
+        "evidenceType": "official-date",
+        "sourceIds": [
+          "samsung-s24-availability"
+        ],
+        "checkedAt": "2026-08-28",
+        "note": "Worldwide availability date announced by Samsung."
+      },
+      "conflicts": [
+        {
+          "field": "release",
+          "message": "The secondary dataset lists 2024-01-24; Samsung's worldwide availability announcement gives 2024-01-31. The official worldwide availability date is used.",
+          "sourceIds": [
+            "eol-samsung-mobile",
+            "samsung-s24-availability"
+          ],
+          "resolved": true
+        }
+      ],
+      "reviewedRawValues": {
+        "release": "2024-01-24"
+      }
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-s25",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-s25-edge",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-s25-fe",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-s25-ultra",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-s25+",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-s26",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-s26-ultra",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-s26+",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-z-flip3-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-z-flip4",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-z-flip5",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-z-flip6",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-z-flip7",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-z-flip7-fe",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-z-flip8",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-z-fold-special-edition",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-z-fold3-5g",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "quarterly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-z-fold4",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-z-fold5",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-z-fold6",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-z-fold7",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-z-fold8",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-z-fold8-ultra",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-z-trifold",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "w23",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "w23-flip",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "w24",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "w24-flip",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "w25",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "w25-flip",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "w26",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-current-list",
+          "sourceIds": [
+            "samsung-security-scope"
+          ],
+          "checkedAt": "2026-08-28"
+        }
+      },
+      "cadence": {
+        "value": "monthly",
+        "evidenceType": "official-current-list",
+        "sourceIds": [
+          "samsung-security-scope"
+        ],
+        "checkedAt": "2026-08-28"
+      },
+      "caveats": [
+        "Samsung's current model list can change. Update timing varies by market, model and network provider; some carriers deliver quarterly updates for models on the monthly list."
+      ]
+    },
+    {
+      "product": "sony-xperia",
+      "cycle": "1",
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2021-10-01",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Sony's UK security support table identifies model codes J8110, J9110."
+        }
+      },
+      "caveats": [
+        "Sony's UK security support table identifies model codes J8110, J9110. Support and update availability can differ by country, region and operator."
+      ]
+    },
+    {
+      "product": "sony-xperia",
+      "cycle": "1-ii",
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2022-06-01",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Sony's UK security support table identifies model codes XQ-AT51."
+        }
+      },
+      "caveats": [
+        "Sony's UK security support table identifies model codes XQ-AT51. Support and update availability can differ by country, region and operator."
+      ]
+    },
+    {
+      "product": "sony-xperia",
+      "cycle": "1-iii",
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2023-07-01",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Sony's UK security support table identifies model codes XQ-BC52."
+        }
+      },
+      "caveats": [
+        "Sony's UK security support table identifies model codes XQ-BC52. Support and update availability can differ by country, region and operator."
+      ]
+    },
+    {
+      "product": "sony-xperia",
+      "cycle": "1-iv",
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2025-05-01",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Sony's UK security support table identifies model codes XQ-CT54."
+        }
+      },
+      "caveats": [
+        "Sony's UK security support table identifies model codes XQ-CT54. Support and update availability can differ by country, region and operator."
+      ]
+    },
+    {
+      "product": "sony-xperia",
+      "cycle": "1-v",
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2026-05-01",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Sony's UK security support table identifies model codes XQ-DQ54."
+        }
+      },
+      "caveats": [
+        "Sony's UK security support table identifies model codes XQ-DQ54. Support and update availability can differ by country, region and operator."
+      ]
+    },
+    {
+      "product": "sony-xperia",
+      "cycle": "1-vi",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2028-04-01",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Sony's UK security support table identifies model codes XQ-EC54."
+        }
+      },
+      "caveats": [
+        "Sony's UK security support table identifies model codes XQ-EC54. Support and update availability can differ by country, region and operator."
+      ]
+    },
+    {
+      "product": "sony-xperia",
+      "cycle": "1-vii",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2031-04-01",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Sony's UK security support table identifies model codes XQ-FS54."
+        }
+      },
+      "caveats": [
+        "Sony's UK security support table identifies model codes XQ-FS54. Support and update availability can differ by country, region and operator."
+      ]
+    },
+    {
+      "product": "sony-xperia",
+      "cycle": "10",
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-android-overview"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2021-10-01",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-android-overview"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Sony's UK Android overview names this model without specifying a hardware model code."
+        }
+      },
+      "caveats": [
+        "Sony's UK Android overview names this model without specifying a hardware model code. Support and update availability can differ by country, region and operator."
+      ]
+    },
+    {
+      "product": "sony-xperia",
+      "cycle": "10-ii",
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2022-03-01",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Sony's UK security support table identifies model codes XQ-AU51, XQ-AU52."
+        }
+      },
+      "caveats": [
+        "Sony's UK security support table identifies model codes XQ-AU51, XQ-AU52. Support and update availability can differ by country, region and operator."
+      ]
+    },
+    {
+      "product": "sony-xperia",
+      "cycle": "10-iii",
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2023-07-01",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Sony's UK security support table identifies model codes XQ-BT52, HQ-BT52."
+        }
+      },
+      "caveats": [
+        "Sony's UK security support table identifies model codes XQ-BT52, HQ-BT52. Support and update availability can differ by country, region and operator."
+      ]
+    },
+    {
+      "product": "sony-xperia",
+      "cycle": "10-iv",
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2025-05-01",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Sony's UK security support table identifies model codes XQ-CC54."
+        }
+      },
+      "caveats": [
+        "Sony's UK security support table identifies model codes XQ-CC54. Support and update availability can differ by country, region and operator."
+      ]
+    },
+    {
+      "product": "sony-xperia",
+      "cycle": "10-plus",
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-android-overview"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2021-10-01",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-android-overview"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Sony's UK Android overview names this model without specifying a hardware model code."
+        }
+      },
+      "caveats": [
+        "Sony's UK Android overview names this model without specifying a hardware model code. Support and update availability can differ by country, region and operator."
+      ]
+    },
+    {
+      "product": "sony-xperia",
+      "cycle": "10-v",
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2026-06-01",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Sony's UK security support table identifies model codes XQ-DC54."
+        }
+      },
+      "caveats": [
+        "Sony's UK security support table identifies model codes XQ-DC54. Support and update availability can differ by country, region and operator."
+      ]
+    },
+    {
+      "product": "sony-xperia",
+      "cycle": "10-vi",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2028-05-01",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Sony's UK security support table identifies model codes XQ-ES54."
+        }
+      },
+      "caveats": [
+        "Sony's UK security support table identifies model codes XQ-ES54. Support and update availability can differ by country, region and operator."
+      ]
+    },
+    {
+      "product": "sony-xperia",
+      "cycle": "10-vii",
+      "security": {
+        "state": {
+          "value": "active",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2031-08-01",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Sony's UK security support table identifies model codes XQ-FE54."
+        }
+      },
+      "caveats": [
+        "Sony's UK security support table identifies model codes XQ-FE54. Support and update availability can differ by country, region and operator."
+      ]
+    },
+    {
+      "product": "sony-xperia",
+      "cycle": "5",
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2021-10-01",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Sony's UK security support table identifies model codes J8210, J9210."
+        }
+      },
+      "caveats": [
+        "Sony's UK security support table identifies model codes J8210, J9210. Support and update availability can differ by country, region and operator."
+      ]
+    },
+    {
+      "product": "sony-xperia",
+      "cycle": "5-ii",
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2022-10-01",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Sony's UK security support table identifies model codes XQ-AS52."
+        }
+      },
+      "caveats": [
+        "Sony's UK security support table identifies model codes XQ-AS52. Support and update availability can differ by country, region and operator."
+      ]
+    },
+    {
+      "product": "sony-xperia",
+      "cycle": "5-iii",
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2023-07-01",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Sony's UK security support table identifies model codes XQ-BQ52."
+        }
+      },
+      "caveats": [
+        "Sony's UK security support table identifies model codes XQ-BQ52. Support and update availability can differ by country, region and operator."
+      ]
+    },
+    {
+      "product": "sony-xperia",
+      "cycle": "5-iv",
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2025-09-01",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Sony's UK security support table identifies model codes XQ-CQ54."
+        }
+      },
+      "caveats": [
+        "Sony's UK security support table identifies model codes XQ-CQ54. Support and update availability can differ by country, region and operator."
+      ]
+    },
+    {
+      "product": "sony-xperia",
+      "cycle": "5-v",
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2026-08-01",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Sony's UK security support table identifies model codes XQ-DE54."
+        }
+      },
+      "caveats": [
+        "Sony's UK security support table identifies model codes XQ-DE54. Support and update availability can differ by country, region and operator."
+      ],
+      "reviewedRawValues": {
+        "security.state": "2026-08-01"
+      }
+    },
+    {
+      "product": "sony-xperia",
+      "cycle": "l3",
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2020-12-01",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Sony's UK security support table identifies model codes I3312, I4312."
+        }
+      },
+      "caveats": [
+        "Sony's UK security support table identifies model codes I3312, I4312. Support and update availability can differ by country, region and operator."
+      ]
+    },
+    {
+      "product": "sony-xperia",
+      "cycle": "l4",
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2022-01-01",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Sony's UK security support table identifies model codes XQ-AD51, XQ-AD52."
+        }
+      },
+      "caveats": [
+        "Sony's UK security support table identifies model codes XQ-AD51, XQ-AD52. Support and update availability can differ by country, region and operator."
+      ]
+    },
+    {
+      "product": "sony-xperia",
+      "cycle": "pro",
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2023-02-01",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Sony's UK security support table identifies model codes XQ-AQ52."
+        }
+      },
+      "caveats": [
+        "Sony's UK security support table identifies model codes XQ-AQ52. Support and update availability can differ by country, region and operator."
+      ]
+    },
+    {
+      "product": "sony-xperia",
+      "cycle": "pro-i",
+      "security": {
+        "state": {
+          "value": "ended",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28"
+        },
+        "end": {
+          "value": "2023-11-01",
+          "precision": "day",
+          "evidenceType": "official-date",
+          "sourceIds": [
+            "sony-security-periods"
+          ],
+          "checkedAt": "2026-08-28",
+          "note": "Sony's UK security support table identifies model codes XQ-BE52."
+        }
+      },
+      "caveats": [
+        "Sony's UK security support table identifies model codes XQ-BE52. Support and update availability can differ by country, region and operator."
+      ]
+    }
+  ],
+  "exclusions": [
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-view",
+      "reason": "Samsung explicitly lists Galaxy View (T670) and Galaxy View 2 (T927) as tablets in its trade-in table at https://www.samsung.com/py/offer/tabs10-launch/, reviewed 2026-08-28. They are outside Android phone scope."
+    },
+    {
+      "product": "samsung-mobile",
+      "cycle": "galaxy-view2",
+      "reason": "Samsung explicitly lists Galaxy View (T670) and Galaxy View 2 (T927) as tablets in its trade-in table at https://www.samsung.com/py/offer/tabs10-launch/, reviewed 2026-08-28. They are outside Android phone scope."
+    },
+    {
+      "product": "motorola-mobility",
+      "cycle": "moto-g-pure",
+      "reason": "Unreconciled duplicate identity: both upstream Moto G Pure entries cite product 11179 at https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11179. The API lists release/security-end pairs 2021-09-01 / 2023-09-01 and 2021-11-01 / 2023-11-01. The official endpoint returned HTTP 200 on 2026-08-28 but its product name and details were empty; neither timeline was verified. Both entries are omitted pending identity and date reconciliation."
+    },
+    {
+      "product": "motorola-mobility",
+      "cycle": "moto-g-pure-2021",
+      "reason": "Unreconciled duplicate identity: both upstream Moto G Pure entries cite product 11179 at https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11179. The API lists release/security-end pairs 2021-09-01 / 2023-09-01 and 2021-11-01 / 2023-11-01. The official endpoint returned HTTP 200 on 2026-08-28 but its product name and details were empty; neither timeline was verified. Both entries are omitted pending identity and date reconciliation."
+    }
+  ]
+}
