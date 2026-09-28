@@ -32,7 +32,7 @@ test("footer layout", () => {
   );
   assert.match(
     footer,
-    /aria-label="Finnvek"[\s\S]*href="https:\/\/finnvek\.com">FINNVEK<\/a\s*>[\s\S]*href="https:\/\/finnvek\.com\/about\/"[\s\S]*href="https:\/\/finnvek\.com\/#apps"/,
+    /aria-label="Finnvek"[\s\S]*href="https:\/\/finnvek\.com">FINNVEK<\/a\s*>[\s\S]*href="https:\/\/finnvek\.com"[\s\S]*href="https:\/\/finnvek\.com\/#apps"/,
     "Footer should group the maker and related-app links in a Finnvek navigation.",
   );
   assert.match(
