@@ -12,6 +12,11 @@ export default defineConfig({
   output: "static",
   vite: {
     plugins: [tailwindcss()],
+    build: {
+      // Keep fonts compatible with the same-origin font-src policy.
+      assetsInlineLimit: (filePath) =>
+        /\.woff2?$/i.test(filePath) ? false : undefined,
+    },
   },
 
   integrations: [sitemap({ filter: isProductionSitemapUrl })],

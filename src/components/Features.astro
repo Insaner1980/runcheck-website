@@ -89,6 +89,10 @@ const features = [
                 src={feature.image}
                 alt={feature.alt}
                 class="feature-image"
+                widths={[224, 448, 672, 912, 1254]}
+                sizes={feature.kicker
+                  ? "(max-width: 640px) 14rem, (max-width: 900px) 17rem, 19rem"
+                  : "(max-width: 640px) 14rem, 11.5rem"}
                 loading="lazy"
                 decoding="async"
               />
