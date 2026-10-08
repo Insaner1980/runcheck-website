@@ -20,14 +20,20 @@ const staticMain = (html) => {
   const main = html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/i)?.[1];
   assert.ok(main, "Built page must contain main content");
   // Check generated markup directly, without treating script strings as page content.
-  for (const [, body] of main.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script\s*>/gi)) {
+  for (const [, body] of main.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script\b[^>]*>/gi)) {
     assert.equal(body.trim(), "", "Main content must not contain inline script text");
   }
   return main;
 };
 
 test("static markup checks reject script text instead of stripping it", () => {
-  assert.throws(() => staticMain("<main><SCRIPT>const text = '<table>';</SCRIPT></main>"), /inline script text/);
+  for (const closingTag of ["</SCRIPT>", "</script\t\n bar>", '</script foo="bar">', "</script/>"]) {
+    assert.throws(
+      () => staticMain(`<main><SCRIPT>const text = '<table>';${closingTag}</main>`),
+      /inline script text/,
+      closingTag,
+    );
+  }
   assert.equal(staticMain('<main><script src="/app.js"></script><table></table></main>'), '<script src="/app.js"></script><table></table>');
 });
 
