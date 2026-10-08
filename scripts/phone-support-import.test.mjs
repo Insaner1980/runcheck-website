@@ -25,11 +25,12 @@ const raw = (product) => rawProducts.find((source) => source.product === product
 const refreshHash = (source) => { source.sha256 = hashPayload(source.body); return source; };
 const response = (body, status = 200, contentType = "application/json") => new Response(typeof body === "string" ? body : JSON.stringify(body), { status, headers: { "content-type": contentType } });
 const fakeApi = (sources = rawProducts, catalogs = officialCatalogs) => async (url) => {
-  if (String(url).includes("trust.mi.com")) {
+  const { hostname } = new URL(url);
+  if (hostname === "trust.mi.com") {
     const source = catalogs.find(({ catalog }) => catalog === "xiaomi-family");
     return response({ count: source.body.count, data: source.body.records });
   }
-  if (String(url).includes("oppo.com")) {
+  if (hostname === "www.oppo.com") {
     const source = catalogs.find(({ catalog }) => catalog === "oppo-uk");
     return response(`<script>const producList = ${JSON.stringify(source.body.records.map(({ status, name, endDate }) => ({ status: String(status), name, date: endDate.replaceAll("-", "/") })))};</script>`, 200, "text/html");
   }
@@ -53,6 +54,20 @@ const fakeApi = (sources = rawProducts, catalogs = officialCatalogs) => async (u
   assert.ok(source, `Unexpected network request: ${url}`);
   return response(source.body);
 };
+
+test("mock catalog routing does not accept domain names embedded in other URLs", async () => {
+  const fetch = fakeApi();
+  for (const hostname of ["trust.mi.com", "www.oppo.com"]) {
+    for (const url of [
+      `https://${hostname}.example.com/not-a-product`,
+      `https://example.com/${hostname}/not-a-product`,
+      `https://example.com/not-a-product?source=${hostname}`,
+      `https://${hostname}@example.com/not-a-product`,
+    ]) {
+      await assert.rejects(fetch(url), /Unexpected network request/);
+    }
+  }
+});
 
 async function workspace(t, { existing = false, documents = official } = {}) {
   const root = await mkdtemp(path.join(tmpdir(), "runcheck-phone-support-"));

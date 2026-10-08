@@ -16,6 +16,27 @@ const read = (file) => readFileSync(file, "utf8");
 const built = (route) => path.join("dist", route.slice(1), "index.html");
 const typesIn = (html) => [...html.matchAll(/<script\b[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)].map((match) => JSON.parse(match[1])["@type"]);
 
+const staticMain = (html) => {
+  const main = html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/i)?.[1];
+  assert.ok(main, "Built page must contain main content");
+  // Check generated markup directly, without treating script strings as page content.
+  for (const [, body] of main.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script\b[^>]*>/gi)) {
+    assert.equal(body.trim(), "", "Main content must not contain inline script text");
+  }
+  return main;
+};
+
+test("static markup checks reject script text instead of stripping it", () => {
+  for (const closingTag of ["</SCRIPT>", "</script\t\n bar>", '</script foo="bar">', "</script/>"]) {
+    assert.throws(
+      () => staticMain(`<main><SCRIPT>const text = '<table>';${closingTag}</main>`),
+      /inline script text/,
+      closingTag,
+    );
+  }
+  assert.equal(staticMain('<main><script src="/app.js"></script><table></table></main>'), '<script src="/app.js"></script><table></table>');
+});
+
 test("real phone snapshot validates identity, claim sources, date precision and brand coverage", () => {
   assert.doesNotThrow(() => validateDataset(phoneDataset));
   assert.deepEqual(phoneDataset.brands.map(({ id }) => id).sort(), ["fairphone", "google-pixel", "honor", "motorola", "oneplus", "oppo", "poco", "redmi", "samsung", "sony-xperia", "xiaomi"]);
@@ -65,12 +86,12 @@ test("phone support builds one checker, one methodology and only included brand 
 
 test("brand browsing is semantic static HTML with every canonical model and source links", () => {
   const index = read(built("/phone-support/"));
-  const withoutScripts = index.replace(/<script\b[^>]*>[\s\S]*?<\/script>/g, "");
-  assert.match(withoutScripts, /11 brands, 800 phones/);
-  assert.doesNotMatch(withoutScripts, /<details\b[^>]*data-ps-brands/);
-  assert.doesNotMatch(withoutScripts, /<summary\b[^>]*>[^<]*(?:\+|\u2212)/);
+  const main = staticMain(index);
+  assert.match(main, /11 brands, 800 phones/);
+  assert.doesNotMatch(main, /<details\b[^>]*data-ps-brands/);
+  assert.doesNotMatch(main, /<summary\b[^>]*>[^<]*(?:\+|\u2212)/);
   for (const [heading, ascending] of [["support-ending-soon", true], ["recently-ended-support", false]]) {
-    const section = withoutScripts.match(new RegExp(`<section[^>]*aria-labelledby="${heading}"[^>]*>([\\s\\S]*?)</section>`))?.[1];
+    const section = main.match(new RegExp(`<section[^>]*aria-labelledby="${heading}"[^>]*>([\\s\\S]*?)</section>`))?.[1];
     assert.ok(section, heading);
     const ids = [...section.matchAll(/href="\/phone-support\/\?model=([^"&]+)"/g)].map((match) => decodeURIComponent(match[1]));
     assert.equal(ids.length, 4, heading);
@@ -78,20 +99,20 @@ test("brand browsing is semantic static HTML with every canonical model and sour
     assert.deepEqual(ends, [...ends].sort((a, b) => ascending ? a.localeCompare(b) : b.localeCompare(a)), heading);
   }
   for (const brand of phoneDataset.brands) {
-    assert.ok(withoutScripts.includes(`href="/phone-support/${brand.id}/"`), brand.id);
+    assert.ok(main.includes(`href="/phone-support/${brand.id}/"`), brand.id);
   }
 
   for (const brand of phoneDataset.brands) {
     const html = read(built(`/phone-support/${brand.id}/`));
-    const withoutScripts = html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/g, "");
-    assert.match(withoutScripts, /<table\b/);
-    assert.match(withoutScripts, /<caption>/);
-    assert.match(withoutScripts, /<th scope="col"/);
+    const main = staticMain(html);
+    assert.match(main, /<table\b/);
+    assert.match(main, /<caption>/);
+    assert.match(main, /<th scope="col"/);
     const phones = phoneDataset.records.filter(({ brandId }) => brandId === brand.id);
-    assert.equal((withoutScripts.match(/<th scope="row"/g) ?? []).length, phones.length);
-    for (const phone of phones) assert.ok(withoutScripts.includes(selectionUrl({ modelId: phone.id })), phone.id);
-    assert.ok(withoutScripts.includes("/phone-support/methodology/"));
-    assert.match(withoutScripts, /Sources and limitations/);
+    assert.equal((main.match(/<th scope="row"/g) ?? []).length, phones.length);
+    for (const phone of phones) assert.ok(main.includes(selectionUrl({ modelId: phone.id })), phone.id);
+    assert.ok(main.includes("/phone-support/methodology/"));
+    assert.match(main, /Sources and limitations/);
   }
 });
 
