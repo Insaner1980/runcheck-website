@@ -1,9 +1,10 @@
 import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
-import { existsSync, readFileSync, readdirSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import test from "node:test";
 import { parse } from "parse5";
+import { hashInlineScripts } from "./inline-script-csp.mjs";
 
 test("built pages allow their own scripts without allowing arbitrary inline JavaScript", () => {
   const files = readdirSync("dist", { recursive: true }).filter((file) => file.endsWith(".html"));
@@ -52,19 +53,16 @@ test("built pages allow their own scripts without allowing arbitrary inline Java
   for (const line of headers.split(/\r?\n/)) assert.ok(line.length <= 2000, "Cloudflare header line limit");
 });
 
-if (existsSync("scripts/inline-script-csp.mjs")) {
-  test("only explicitly marked scripts are hashed and the document body stays unchanged", async () => {
-    const { hashInlineScripts } = await import("./inline-script-csp.mjs");
-    const head = '<head><meta http-equiv="content-security-policy" content="script-src \'self\'; style-src \'self\'"></head>';
-    const trusted = "window.example = '<x>';\n";
-    const body = `<body><script data-csp-hash>${trusted}</script><script>window.untrusted = true;</script></body>`;
-    const result = hashInlineScripts(head + body);
-    assert.ok(result.endsWith(body));
-    assert.ok(result.includes(createHash("sha256").update(trusted).digest("base64")));
-    assert.ok(!result.includes(createHash("sha256").update("window.untrusted = true;").digest("base64")));
-    assert.equal(hashInlineScripts(result), result, "hashing is idempotent");
-    assert.throws(() => hashInlineScripts(body), /security.csp/);
-    const redirect = '<!doctype html><meta http-equiv="refresh" content="0;url=/tools/"><title>Redirect</title>';
-    assert.match(hashInlineScripts(redirect), /default-src 'none'; script-src 'none'/);
-  });
-}
+test("only explicitly marked scripts are hashed and the document body stays unchanged", () => {
+  const head = '<head><meta http-equiv="content-security-policy" content="script-src \'self\'; style-src \'self\'"></head>';
+  const trusted = "window.example = '<x>';\n";
+  const body = `<body><script data-csp-hash>${trusted}</script><script>window.untrusted = true;</script></body>`;
+  const result = hashInlineScripts(head + body);
+  assert.ok(result.endsWith(body));
+  assert.ok(result.includes(createHash("sha256").update(trusted).digest("base64")));
+  assert.ok(!result.includes(createHash("sha256").update("window.untrusted = true;").digest("base64")));
+  assert.equal(hashInlineScripts(result), result, "hashing is idempotent");
+  assert.throws(() => hashInlineScripts(body), /security.csp/);
+  const redirect = '<!doctype html><meta http-equiv="refresh" content="0;url=/tools/"><title>Redirect</title>';
+  assert.match(hashInlineScripts(redirect), /default-src 'none'; script-src 'none'/);
+});
