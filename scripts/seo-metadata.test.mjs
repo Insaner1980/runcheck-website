@@ -575,6 +575,11 @@ test("seo metadata", () => {
 
   const robots = readFileSync(path.join(root, "robots.txt"), "utf8");
   const headers = readFileSync(path.join(root, "_headers"), "utf8");
+  // Astro emits resource allowlists and script hashes in each page's CSP meta tag.
+  const csp = readFileSync(path.join(root, "index.html"), "utf8")
+    .match(/http-equiv="content-security-policy" content="([^"]+)"/)?.[1];
+  assert.ok(csp, "Built pages must include a CSP.");
+  assert.match(headers, /frame-ancestors 'none'/);
   const redirects = readFileSync(path.join(root, "_redirects"), "utf8");
   const sitemapIndex = readFileSync(
     path.join(root, "sitemap-index.xml"),
@@ -596,22 +601,22 @@ test("seo metadata", () => {
     "robots.txt should point to the sitemap index.",
   );
   assert.match(
-    headers,
+    csp,
     /script-src[^;\r\n]*https:\/\/www\.googletagmanager\.com/,
     "CSP should allow the Google tag script origin.",
   );
   assert.match(
-    headers,
+    csp,
     /script-src[^;\r\n]*https:\/\/static\.cloudflareinsights\.com/,
     "CSP should allow the Cloudflare Web Analytics script origin.",
   );
   assert.match(
-    headers,
+    csp,
     /connect-src[^;\r\n]*https:\/\/www\.google-analytics\.com[^;\r\n]*https:\/\/region1\.google-analytics\.com/,
     "CSP should allow GA4 collection endpoints.",
   );
   assert.match(
-    headers,
+    csp,
     /connect-src[^;\r\n]*https:\/\/cloudflareinsights\.com/,
     "CSP should allow the Cloudflare Web Analytics collection endpoint.",
   );
